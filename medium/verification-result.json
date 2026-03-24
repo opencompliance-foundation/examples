@@ -6,11 +6,11 @@
   "organisation": "ExampleCo",
   "profileId": "medium_multiframework_corridor",
   "outcome": "punch_list_issued",
-  "proofBundleSha256": "83e3362007f75edd186d73ddbcc1e8b7c418399eca6ff01a2ff48555fafeb8b2",
-  "trustSurfaceSha256": "75fe363250193bcada7a2e92d44d24b0d631aa671e60e60239a0774bdda245f3",
+  "proofBundleSha256": "b8c5f5695c5aabfdf9c4ffdc478ae6709ef584d9084118ea9d2689a9a5575641",
+  "trustSurfaceSha256": "ac3e7973dd49f12c2444e83a93d5fcb510da1f31ef3cba32b09a71a3f6908595",
   "outcomeArtifact": {
     "path": "punch-list.json",
-    "sha256": "f2a5079e5ff98ce88a6ead7c8da0ea404498574542ba9e1d7449f78c199af709"
+    "sha256": "a4faaf1b12b78e16d2e20c5b1b47a2b932796ee3b7cb32d48937ef1b5f1aae46"
   },
-  "blockingIssueCount": 2
+  "blockingIssueCount": 4
 }

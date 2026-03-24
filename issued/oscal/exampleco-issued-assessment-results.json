@@ -34,6 +34,15 @@
                 },
                 {
                   "control-id": "oc.rec-01"
+                },
+                {
+                  "control-id": "oc.id-02"
+                },
+                {
+                  "control-id": "oc.id-03"
+                },
+                {
+                  "control-id": "oc.ir-01"
                 }
               ]
             }
@@ -91,6 +100,45 @@
             ],
             "collected": "2026-03-24T02:10:00Z",
             "remarks": "EX-CLAIM-204 attested from EV-204."
+          },
+          {
+            "uuid": "oc-issued-observation-005",
+            "title": "Observation for EX-CLAIM-205",
+            "description": "The access-review export shows the declared review window was completed for the scoped privileged identities.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T02:10:00Z",
+            "remarks": "EX-CLAIM-205 proved from EV-205."
+          },
+          {
+            "uuid": "oc-issued-observation-006",
+            "title": "Observation for EX-CLAIM-206",
+            "description": "The access-review closure claim is documentary and signed by the named identity governance owner.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T02:10:00Z",
+            "remarks": "EX-CLAIM-206 attested from EV-206."
+          },
+          {
+            "uuid": "oc-issued-observation-007",
+            "title": "Observation for EX-CLAIM-207",
+            "description": "The incident-runbook claim is documentary and signed by the named security operations owner.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T02:10:00Z",
+            "remarks": "EX-CLAIM-207 attested from EV-207."
           }
         ]
       }

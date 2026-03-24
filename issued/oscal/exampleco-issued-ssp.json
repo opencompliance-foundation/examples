@@ -1,10 +1,10 @@
 {
   "system-security-plan": {
-    "uuid": "73333333-3333-4333-8333-333333333333",
+    "uuid": "eaffceca-5f37-5707-8cbb-5b877ed1ac15",
     "metadata": {
-      "title": "ExampleCo Issued Narrow Corridor System Security Plan",
-      "published": "2026-03-24T02:00:00Z",
-      "last-modified": "2026-03-24T02:00:00Z",
+      "title": "ExampleCo Issued Corridor System Security Plan",
+      "published": "2026-03-24T02:10:00Z",
+      "last-modified": "2026-03-24T02:10:00Z",
       "version": "0.3.0",
       "oscal-version": "1.1.3",
       "remarks": "Synthetic public-safe SSP for the ExampleCo issued corridor."
@@ -16,16 +16,16 @@
       "system-ids": [
         {
           "identifier-type": "https://opencompliance.aguilar-pelaez.co.uk/example-system-id",
-          "id": "exampleco-issued-narrow-corridor"
+          "id": "exampleco-issued-corridor"
         }
       ],
-      "system-name": "ExampleCo Issued Narrow Corridor",
-      "description": "Synthetic system boundary covering identity provider MFA settings, cloud audit logging, staff training records, and restore-test attestations.",
+      "system-name": "ExampleCo Issued Corridor",
+      "description": "Synthetic system boundary covering Identity provider MFA enforcement, Cloud audit logging, Security awareness training records, and 1 additional scoped controls.",
       "security-sensitivity-level": "moderate",
       "system-information": {
         "information-types": [
           {
-            "uuid": "73333333-3333-4333-8333-333333333334",
+            "uuid": "4893fda4-c4b7-5953-9e76-53af9baddb78",
             "title": "Synthetic compliance telemetry",
             "description": "Public-safe operational and documentary evidence used for OpenCompliance example artifacts.",
             "confidentiality-impact": {
@@ -44,19 +44,19 @@
         "state": "operational"
       },
       "authorization-boundary": {
-        "description": "Identity provider, cloud logging stack, HR training records, and recovery attestation records in the ExampleCo synthetic corridor."
+        "description": "Synthetic public-safe narrow corridor that is certificate-eligible because every in-scope control is covered without blocking gaps."
       },
       "network-architecture": {
-        "description": "Synthetic SaaS architecture boundary used only for public example fixtures."
+        "description": "Synthetic architecture boundary used only for public example fixtures."
       },
       "data-flow": {
-        "description": "Evidence flows from an identity provider, a cloud platform, an HR system, and a recovery-attestation source into OpenCompliance typed claims."
+        "description": "Evidence flows from synthetic exports and signed attestations into OpenCompliance typed claims."
       }
     },
     "system-implementation": {
       "components": [
         {
-          "uuid": "73333333-3333-4333-8333-333333333335",
+          "uuid": "75de4c4f-8af1-5e4a-8915-5ed8e95e8069",
           "type": "this-system",
           "title": "ExampleCo issued corridor",
           "description": "Synthetic corridor component representing the in-scope runtime and documentary boundary.",
@@ -67,16 +67,16 @@
       ]
     },
     "control-implementation": {
-      "description": "Synthetic implementation statements for the four controls in the issued public corridor.",
+      "description": "Synthetic implementation statements for the 7 controls in the issued public corridor.",
       "implemented-requirements": [
         {
-          "uuid": "73333333-3333-4333-8333-333333333341",
+          "uuid": "e872a60a-bea3-5996-9073-ed9460dea304",
           "control-id": "oc.id-01",
           "by-components": [
             {
-              "component-uuid": "73333333-3333-4333-8333-333333333335",
-              "uuid": "73333333-3333-4333-8333-333333333351",
-              "description": "ExampleCo exports identity provider state showing MFA required and conditional access enabled for scoped administrative identities.",
+              "component-uuid": "75de4c4f-8af1-5e4a-8915-5ed8e95e8069",
+              "uuid": "75a0ca69-4258-52be-873d-87e31f365189",
+              "description": "ExampleCo exports typed evidence covering scoped administrative mfa enforcement.",
               "implementation-status": {
                 "state": "implemented"
               }
@@ -84,13 +84,13 @@
           ]
         },
         {
-          "uuid": "73333333-3333-4333-8333-333333333342",
+          "uuid": "e3696039-f273-5e14-aa42-612eaa3f4725",
           "control-id": "oc.log-01",
           "by-components": [
             {
-              "component-uuid": "73333333-3333-4333-8333-333333333335",
-              "uuid": "73333333-3333-4333-8333-333333333352",
-              "description": "ExampleCo exports cloud configuration showing audit logging enabled and a retention period declared for the scoped production stack.",
+              "component-uuid": "75de4c4f-8af1-5e4a-8915-5ed8e95e8069",
+              "uuid": "d307e807-5396-512a-b5f5-659b6d7d94c7",
+              "description": "ExampleCo exports typed evidence covering scoped audit logging enabled.",
               "implementation-status": {
                 "state": "implemented"
               }
@@ -98,13 +98,13 @@
           ]
         },
         {
-          "uuid": "73333333-3333-4333-8333-333333333343",
+          "uuid": "3958bd88-fda6-5597-99d5-5770486f0a6d",
           "control-id": "oc.train-01",
           "by-components": [
             {
-              "component-uuid": "73333333-3333-4333-8333-333333333335",
-              "uuid": "73333333-3333-4333-8333-333333333353",
-              "description": "ExampleCo attaches a documentary training attestation signed by a named human actor.",
+              "component-uuid": "75de4c4f-8af1-5e4a-8915-5ed8e95e8069",
+              "uuid": "a8389dda-f53b-5676-b748-44dfac35d95c",
+              "description": "ExampleCo attaches a signed synthetic attestation covering training completion record available.",
               "implementation-status": {
                 "state": "implemented"
               }
@@ -112,13 +112,55 @@
           ]
         },
         {
-          "uuid": "73333333-3333-4333-8333-333333333344",
+          "uuid": "fd00eb0e-50f1-52d9-945b-c6ae28c99242",
           "control-id": "oc.rec-01",
           "by-components": [
             {
-              "component-uuid": "73333333-3333-4333-8333-333333333335",
-              "uuid": "73333333-3333-4333-8333-333333333354",
-              "description": "ExampleCo attaches a signed restore-test attestation inside the declared review window.",
+              "component-uuid": "75de4c4f-8af1-5e4a-8915-5ed8e95e8069",
+              "uuid": "3bdd053d-65c2-5150-aea4-baa3f09386d6",
+              "description": "ExampleCo attaches a signed synthetic attestation covering restore exercise evidence present.",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "7b2c70e9-c933-5567-a0de-c30b52a65953",
+          "control-id": "oc.id-02",
+          "by-components": [
+            {
+              "component-uuid": "75de4c4f-8af1-5e4a-8915-5ed8e95e8069",
+              "uuid": "d62ce5f8-fa6e-5ef0-9e65-ec1816a43775",
+              "description": "ExampleCo exports typed evidence covering typed periodic access review export present.",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "67721fc0-0fcd-57ed-9b84-e01ccf235f50",
+          "control-id": "oc.id-03",
+          "by-components": [
+            {
+              "component-uuid": "75de4c4f-8af1-5e4a-8915-5ed8e95e8069",
+              "uuid": "6163f576-5fb9-5ae9-bd21-8aef1cde7945",
+              "description": "ExampleCo attaches a signed synthetic attestation covering access review closure attested.",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "6c55cac0-79a5-562e-b735-4d13be9a6ed0",
+          "control-id": "oc.ir-01",
+          "by-components": [
+            {
+              "component-uuid": "75de4c4f-8af1-5e4a-8915-5ed8e95e8069",
+              "uuid": "76d83039-c781-58b0-95ee-4aba3180b56d",
+              "description": "ExampleCo attaches a signed synthetic attestation covering incident response runbook current.",
               "implementation-status": {
                 "state": "implemented"
               }

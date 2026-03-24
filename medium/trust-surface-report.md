@@ -8,10 +8,10 @@
 This synthetic example shows a wider OpenCompliance corridor without pretending the corridor is complete:
 
 - `8` proved claims
-- `5` attested claims
+- `11` attested claims
 - `0` failed claims
 - `0` stale-evidence claims
-- `1` judgment-required claim
+- `3` judgment-required claims
 - `1` evidence-missing claim
 
 ## Proved
@@ -32,6 +32,12 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 - The processor register is current and DPA coverage is declared for the reviewed subprocessors.
 - The DSR runbook is approved and has a named owner for the current review window.
 - The production change-review policy is approved and declares an emergency change path for the current review window.
+- Access review closure and high-risk exception resolution are attested for the current review window.
+- Configuration exceptions are current, owned, and not already expired in the current review window.
+- Patch exceptions declare compensating controls and no declared exception is already expired in the current review window.
+- The incident response runbook is approved, owned, and current for the declared review window.
+- Incident escalation contacts and notification paths are current for the declared review window.
+- High-risk vendor agreements carry the required security and privacy terms for the current review window.
 
 ## Failed
 
@@ -42,6 +48,8 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 ## Judgment Required
 
 - Privacy-by-design adequacy has been demonstrated for the full product change process.
+- Patch cadence and exception thresholds are adequate for the in-scope production assets.
+- Vendor tiering, review cadence, and inherited-control allocation are adequate for the in-scope dependency set.
 
 ## Evidence Missing
 

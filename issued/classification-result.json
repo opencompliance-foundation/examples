@@ -6,8 +6,8 @@
   "organisation": "ExampleCo",
   "profileId": "issued_narrow_corridor",
   "routeSummary": {
-    "decidable": 2,
-    "attestation": 2,
+    "decidable": 3,
+    "attestation": 4,
     "judgment": 0
   },
   "items": [
@@ -58,6 +58,42 @@
       "evidenceRequired": true,
       "leanBacked": false,
       "rationale": "Recovery evidence is attestation-routed in the current corridor."
+    },
+    {
+      "claimId": "EX-CLAIM-205",
+      "title": "A typed export of periodic access review evidence is present for the current review window.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.id-02"
+      ],
+      "expectedClaimType": "access_review_export",
+      "evidenceRequired": true,
+      "leanBacked": false,
+      "rationale": "Periodic access review can be machine-checked when a typed export exists for the scoped population and window."
+    },
+    {
+      "claimId": "EX-CLAIM-206",
+      "title": "Access review closure and high-risk exception resolution are attested for the current review window.",
+      "route": "attestation",
+      "controlRefs": [
+        "oc.id-03"
+      ],
+      "expectedClaimType": "access_review_closure_attestation",
+      "evidenceRequired": true,
+      "leanBacked": false,
+      "rationale": "Closure and exception signoff remain attestation-routed even when the review export itself is typed."
+    },
+    {
+      "claimId": "EX-CLAIM-207",
+      "title": "The incident response runbook is approved, owned, and current for the declared review window.",
+      "route": "attestation",
+      "controlRefs": [
+        "oc.ir-01"
+      ],
+      "expectedClaimType": "incident_response_runbook_attestation",
+      "evidenceRequired": true,
+      "leanBacked": false,
+      "rationale": "Incident runbook ownership and approval remain documentary facts in the current narrow issued corridor."
     }
   ],
   "note": "Synthetic persisted routing artifact for the OpenCompliance prove/attest/judgment split."

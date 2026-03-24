@@ -7,8 +7,8 @@
 
 This synthetic example shows a wider OpenCompliance corridor without pretending the corridor is complete:
 
-- `2` proved claims
-- `2` attested claims
+- `3` proved claims
+- `4` attested claims
 - `0` failed claims
 - `0` stale-evidence claims
 - `0` judgment-required claims
@@ -18,11 +18,14 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 
 - Administrative identities require MFA in the scoped production environment.
 - Audit logging is enabled for the scoped production stack.
+- A typed export of periodic access review evidence is present for the current review window.
 
 ## Attested
 
 - Security awareness training completion is documented for the current review window.
 - Restore testing has been performed in the declared review window.
+- Access review closure and high-risk exception resolution are attested for the current review window.
+- The incident response runbook is approved, owned, and current for the declared review window.
 
 ## Failed
 

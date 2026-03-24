@@ -1,13 +1,12 @@
 {
   "assessment-plan": {
-    "uuid": "24444444-4444-4444-8444-444444444444",
+    "uuid": "c030d259-af81-5e8d-bede-57c683bab5ab",
     "metadata": {
       "title": "ExampleCo Medium Corridor Assessment Plan",
-      "published": "2026-03-24T01:00:00Z",
-      "last-modified": "2026-03-24T01:00:00Z",
+      "last-modified": "2026-03-24T01:25:00Z",
       "version": "0.2.0",
       "oscal-version": "1.1.3",
-      "remarks": "Synthetic public-safe assessment plan for the ExampleCo medium corridor."
+      "remarks": "Synthetic assessment plan for the ExampleCo medium public corridor."
     },
     "import-ssp": {
       "href": "./exampleco-medium-ssp.json"
@@ -15,31 +14,15 @@
     "reviewed-controls": {
       "control-selections": [
         {
-          "description": "All controls in the ExampleCo medium corridor.",
           "include-controls": [
             {
               "control-id": "oc.id-01"
-            },
-            {
-              "control-id": "oc.id-02"
             },
             {
               "control-id": "oc.log-01"
             },
             {
               "control-id": "oc.net-01"
-            },
-            {
-              "control-id": "oc.repo-01"
-            },
-            {
-              "control-id": "oc.ci-01"
-            },
-            {
-              "control-id": "oc.change-01"
-            },
-            {
-              "control-id": "oc.change-02"
             },
             {
               "control-id": "oc.key-01"
@@ -51,10 +34,10 @@
               "control-id": "oc.backup-01"
             },
             {
-              "control-id": "oc.rec-01"
+              "control-id": "oc.train-01"
             },
             {
-              "control-id": "oc.train-01"
+              "control-id": "oc.rec-01"
             },
             {
               "control-id": "oc.vendor-01"
@@ -64,6 +47,78 @@
             },
             {
               "control-id": "oc.privacy-02"
+            },
+            {
+              "control-id": "oc.id-02"
+            },
+            {
+              "control-id": "oc.repo-01"
+            },
+            {
+              "control-id": "oc.ci-01"
+            },
+            {
+              "control-id": "oc.change-02"
+            },
+            {
+              "control-id": "oc.id-03"
+            },
+            {
+              "control-id": "oc.cfg-02"
+            },
+            {
+              "control-id": "oc.patch-02"
+            },
+            {
+              "control-id": "oc.patch-03"
+            },
+            {
+              "control-id": "oc.ir-01"
+            },
+            {
+              "control-id": "oc.ir-02"
+            },
+            {
+              "control-id": "oc.vendor-02"
+            },
+            {
+              "control-id": "oc.vendor-03"
+            },
+            {
+              "control-id": "oc.change-01"
+            }
+          ]
+        }
+      ],
+      "control-objective-selections": [
+        {
+          "include-all": {}
+        }
+      ]
+    },
+    "assessment-subjects": [
+      {
+        "type": "component",
+        "description": "Synthetic ExampleCo corridor component used for the medium assessment example.",
+        "include-all": {}
+      }
+    ],
+    "tasks": [
+      {
+        "uuid": "04e4faa6-e9ed-5c24-9e7c-0fee2e7aeb1e",
+        "type": "action",
+        "title": "Evaluate ExampleCo medium corridor evidence",
+        "description": "Assess the synthetic evidence used by the ExampleCo medium bundle."
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "6d08f0bf-548e-578f-b040-8b4481d2bd97",
+          "title": "ExampleCo evidence claims",
+          "rlinks": [
+            {
+              "href": "../evidence-claims.json"
             }
           ]
         }

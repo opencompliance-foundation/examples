@@ -43,6 +43,6 @@ It exists to show a richer public-safe corridor than `../minimal/` without leaki
 
 ## Connector note
 
-The medium source-export path now includes synthetic repo branch-protection and CI workflow-policy claims plus a signed change-review governance attestation, and those claims now drive checked-in verification results for the public ExampleCo medium corridor.
+The medium source-export path now includes synthetic repo branch-protection and CI workflow-policy claims plus signed governance attestations for change review, access-review closure, configuration exceptions, patch exceptions, incident procedures, incident contact maintenance, and vendor terms, and those claims now drive checked-in verification results for the public ExampleCo medium corridor.
 
-That means the public connector surface and the public proof corridor now both cover repo, CI/CD, IAM/MFA, cloud/config, and signed governance evidence in the same synthetic pack.
+That means the public connector surface and the public proof corridor now both cover repo, CI/CD, IAM/MFA, cloud/config, privacy operations, vendor governance, incident governance, and signed exception handling evidence in the same synthetic pack.

@@ -622,5 +622,344 @@
       "sourcePath": "attestations/change-review-q1.json",
       "digestAlgorithm": "sha256"
     }
+  },
+  {
+    "claimId": "EV-114",
+    "claimType": "access_review_closure_attestation",
+    "collectedAt": "2026-03-24T01:24:00Z",
+    "sourceSystem": "example-governance",
+    "actor": {
+      "actorId": "identity-governance-owner@exampleco.test",
+      "actorType": "human"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "access_control",
+        "controlId": "soc2.family.access_control"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "identity_and_access_management",
+        "controlId": "iso27001.family.identity_and_access_management"
+      },
+      {
+        "framework": "IRAP",
+        "family": "identity_access",
+        "controlId": "irap.family.identity_access"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "human_admin_identities"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:24:00Z",
+      "expiresAt": "2026-06-22T01:24:00Z"
+    },
+    "payload": {
+      "reviewCompleted": true,
+      "reviewWindowDays": 90,
+      "reviewPopulation": "scoped_privileged_identities",
+      "highRiskFindingsOpen": 0
+    },
+    "signer": {
+      "signerId": "identity-governance-owner@exampleco.test",
+      "signerType": "human",
+      "signatureType": "synthetic_ed25519_attestation"
+    },
+    "provenance": {
+      "exportId": "attestation-exampleco-access-review-closure-2026-q1",
+      "collectionMethod": "synthetic_attestation",
+      "sourcePath": "attestations/access-review-closure-q1.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-115",
+    "claimType": "configuration_exception_attestation",
+    "collectedAt": "2026-03-24T01:25:00Z",
+    "sourceSystem": "example-governance",
+    "actor": {
+      "actorId": "platform-security-owner@exampleco.test",
+      "actorType": "human"
+    },
+    "controlMappings": [
+      {
+        "framework": "Cyber Essentials",
+        "family": "secure_configuration",
+        "controlId": "cyber_essentials.family.secure_configuration"
+      },
+      {
+        "framework": "NIST CSF 2.0",
+        "family": "configuration_management",
+        "controlId": "nist_csf_2_0.family.configuration_management"
+      },
+      {
+        "framework": "NIST SP 800-53 Rev. 5.1",
+        "family": "configuration_settings",
+        "controlId": "nist_sp_800_53_rev_5_1.family.configuration_settings"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "secure_configuration",
+        "controlId": "iso27001.family.secure_configuration"
+      },
+      {
+        "framework": "SOC 2",
+        "family": "system_operations_and_hardening",
+        "controlId": "soc2.family.system_operations_and_hardening"
+      },
+      {
+        "framework": "IRAP",
+        "family": "secure_configuration",
+        "controlId": "irap.family.secure_configuration"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "production_hardening_exceptions"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:25:00Z",
+      "expiresAt": "2026-06-22T01:25:00Z"
+    },
+    "payload": {
+      "exceptionRegisterCurrent": true,
+      "expiredExceptionsCount": 0,
+      "reviewWindowDays": 90
+    },
+    "signer": {
+      "signerId": "platform-security-owner@exampleco.test",
+      "signerType": "human",
+      "signatureType": "synthetic_ed25519_attestation"
+    },
+    "provenance": {
+      "exportId": "attestation-exampleco-configuration-exceptions-2026-q1",
+      "collectionMethod": "synthetic_attestation",
+      "sourcePath": "attestations/configuration-exceptions-q1.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-116",
+    "claimType": "patch_exception_attestation",
+    "collectedAt": "2026-03-24T01:26:00Z",
+    "sourceSystem": "example-governance",
+    "actor": {
+      "actorId": "operations-owner@exampleco.test",
+      "actorType": "human"
+    },
+    "controlMappings": [
+      {
+        "framework": "Cyber Essentials",
+        "family": "security_update_management",
+        "controlId": "cyber_essentials.family.security_update_management"
+      },
+      {
+        "framework": "NIST CSF 2.0",
+        "family": "software_maintenance_and_patch_management",
+        "controlId": "nist_csf_2_0.family.software_maintenance_and_patch_management"
+      },
+      {
+        "framework": "NIST SP 800-53 Rev. 5.1",
+        "family": "flaw_remediation",
+        "controlId": "nist_sp_800_53_rev_5_1.family.flaw_remediation"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "vulnerability_and_patch_management",
+        "controlId": "iso27001.family.vulnerability_and_patch_management"
+      },
+      {
+        "framework": "SOC 2",
+        "family": "vulnerability_management",
+        "controlId": "soc2.family.vulnerability_management"
+      },
+      {
+        "framework": "IRAP",
+        "family": "patch_and_vulnerability_management",
+        "controlId": "irap.family.patch_and_vulnerability_management"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "production_patch_exceptions"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:26:00Z",
+      "expiresAt": "2026-06-22T01:26:00Z"
+    },
+    "payload": {
+      "exceptionRegisterCurrent": true,
+      "compensatingControlsDeclared": true,
+      "expiredExceptionsCount": 0,
+      "reviewWindowDays": 90
+    },
+    "signer": {
+      "signerId": "operations-owner@exampleco.test",
+      "signerType": "human",
+      "signatureType": "synthetic_ed25519_attestation"
+    },
+    "provenance": {
+      "exportId": "attestation-exampleco-patch-exceptions-2026-q1",
+      "collectionMethod": "synthetic_attestation",
+      "sourcePath": "attestations/patch-exceptions-q1.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-117",
+    "claimType": "incident_response_runbook_attestation",
+    "collectedAt": "2026-03-24T01:27:00Z",
+    "sourceSystem": "example-governance",
+    "actor": {
+      "actorId": "security-operations-owner@exampleco.test",
+      "actorType": "human"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "incident_response",
+        "controlId": "soc2.family.incident_response"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "incident_response",
+        "controlId": "iso27001.family.incident_response"
+      },
+      {
+        "framework": "IRAP",
+        "family": "incident_response",
+        "controlId": "irap.family.incident_response"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "incident_response_program"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:27:00Z",
+      "expiresAt": "2026-06-22T01:27:00Z"
+    },
+    "payload": {
+      "runbookApproved": true,
+      "ownerRole": "security_operations_owner",
+      "reviewWindowDays": 90
+    },
+    "signer": {
+      "signerId": "security-operations-owner@exampleco.test",
+      "signerType": "human",
+      "signatureType": "synthetic_ed25519_attestation"
+    },
+    "provenance": {
+      "exportId": "attestation-exampleco-incident-runbook-2026-q1",
+      "collectionMethod": "synthetic_attestation",
+      "sourcePath": "attestations/incident-runbook-q1.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-118",
+    "claimType": "incident_contact_matrix_attestation",
+    "collectedAt": "2026-03-24T01:28:00Z",
+    "sourceSystem": "example-governance",
+    "actor": {
+      "actorId": "security-operations-owner@exampleco.test",
+      "actorType": "human"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "incident_response",
+        "controlId": "soc2.family.incident_response"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "incident_response",
+        "controlId": "iso27001.family.incident_response"
+      },
+      {
+        "framework": "IRAP",
+        "family": "incident_response",
+        "controlId": "irap.family.incident_response"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "incident_response_program"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:28:00Z",
+      "expiresAt": "2026-06-22T01:28:00Z"
+    },
+    "payload": {
+      "contactsCurrent": true,
+      "escalationPathDocumented": true,
+      "reviewWindowDays": 90
+    },
+    "signer": {
+      "signerId": "security-operations-owner@exampleco.test",
+      "signerType": "human",
+      "signatureType": "synthetic_ed25519_attestation"
+    },
+    "provenance": {
+      "exportId": "attestation-exampleco-incident-contacts-2026-q1",
+      "collectionMethod": "synthetic_attestation",
+      "sourcePath": "attestations/incident-contact-matrix-q1.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-119",
+    "claimType": "vendor_security_terms_attestation",
+    "collectedAt": "2026-03-24T01:29:00Z",
+    "sourceSystem": "example-governance",
+    "actor": {
+      "actorId": "privacy-manager@exampleco.test",
+      "actorType": "human"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "vendor_management",
+        "controlId": "soc2.family.vendor_management"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "supplier_relationships",
+        "controlId": "iso27001.family.supplier_relationships"
+      },
+      {
+        "framework": "GDPR",
+        "family": "processors_and_subprocessors",
+        "controlId": "gdpr.family.processors_and_subprocessors"
+      }
+    ],
+    "scope": {
+      "environment": "organisation",
+      "assetGroup": "high_risk_vendors"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:29:00Z",
+      "expiresAt": "2026-06-22T01:29:00Z"
+    },
+    "payload": {
+      "requiredSecurityTermsPresent": true,
+      "privacyTermsPresent": true,
+      "highRiskVendorsCovered": 3,
+      "reviewWindowDays": 90
+    },
+    "signer": {
+      "signerId": "privacy-manager@exampleco.test",
+      "signerType": "human",
+      "signatureType": "synthetic_ed25519_attestation"
+    },
+    "provenance": {
+      "exportId": "attestation-exampleco-vendor-terms-2026-q1",
+      "collectionMethod": "synthetic_attestation",
+      "sourcePath": "attestations/vendor-security-terms-q1.json",
+      "digestAlgorithm": "sha256"
+    }
   }
 ]

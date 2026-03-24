@@ -27,25 +27,10 @@
                   "control-id": "oc.id-01"
                 },
                 {
-                  "control-id": "oc.id-02"
-                },
-                {
                   "control-id": "oc.log-01"
                 },
                 {
                   "control-id": "oc.net-01"
-                },
-                {
-                  "control-id": "oc.repo-01"
-                },
-                {
-                  "control-id": "oc.ci-01"
-                },
-                {
-                  "control-id": "oc.change-01"
-                },
-                {
-                  "control-id": "oc.change-02"
                 },
                 {
                   "control-id": "oc.key-01"
@@ -57,10 +42,10 @@
                   "control-id": "oc.backup-01"
                 },
                 {
-                  "control-id": "oc.rec-01"
+                  "control-id": "oc.train-01"
                 },
                 {
-                  "control-id": "oc.train-01"
+                  "control-id": "oc.rec-01"
                 },
                 {
                   "control-id": "oc.vendor-01"
@@ -70,6 +55,45 @@
                 },
                 {
                   "control-id": "oc.privacy-02"
+                },
+                {
+                  "control-id": "oc.id-02"
+                },
+                {
+                  "control-id": "oc.repo-01"
+                },
+                {
+                  "control-id": "oc.ci-01"
+                },
+                {
+                  "control-id": "oc.change-02"
+                },
+                {
+                  "control-id": "oc.id-03"
+                },
+                {
+                  "control-id": "oc.cfg-02"
+                },
+                {
+                  "control-id": "oc.patch-02"
+                },
+                {
+                  "control-id": "oc.patch-03"
+                },
+                {
+                  "control-id": "oc.ir-01"
+                },
+                {
+                  "control-id": "oc.ir-02"
+                },
+                {
+                  "control-id": "oc.vendor-02"
+                },
+                {
+                  "control-id": "oc.vendor-03"
+                },
+                {
+                  "control-id": "oc.change-01"
                 }
               ]
             }
@@ -257,6 +281,84 @@
             ],
             "collected": "2026-03-24T01:25:00Z",
             "remarks": "EX-CLAIM-115 attested from EV-113."
+          },
+          {
+            "uuid": "oc-medium-observation-015",
+            "title": "Observation for EX-CLAIM-116",
+            "description": "The access-review closure claim is a signed synthetic attestation by the named identity governance owner.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T01:25:00Z",
+            "remarks": "EX-CLAIM-116 attested from EV-114."
+          },
+          {
+            "uuid": "oc-medium-observation-016",
+            "title": "Observation for EX-CLAIM-117",
+            "description": "The configuration-exception claim is a signed synthetic attestation by the named platform security owner.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T01:25:00Z",
+            "remarks": "EX-CLAIM-117 attested from EV-115."
+          },
+          {
+            "uuid": "oc-medium-observation-017",
+            "title": "Observation for EX-CLAIM-118",
+            "description": "The patch-exception claim is a signed synthetic attestation by the named operations owner.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T01:25:00Z",
+            "remarks": "EX-CLAIM-118 attested from EV-116."
+          },
+          {
+            "uuid": "oc-medium-observation-018",
+            "title": "Observation for EX-CLAIM-120",
+            "description": "The incident-runbook claim is a signed synthetic attestation by the named security operations owner.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T01:25:00Z",
+            "remarks": "EX-CLAIM-120 attested from EV-117."
+          },
+          {
+            "uuid": "oc-medium-observation-019",
+            "title": "Observation for EX-CLAIM-121",
+            "description": "The incident-contact claim is a signed synthetic attestation by the named security operations owner.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T01:25:00Z",
+            "remarks": "EX-CLAIM-121 attested from EV-118."
+          },
+          {
+            "uuid": "oc-medium-observation-020",
+            "title": "Observation for EX-CLAIM-122",
+            "description": "The vendor-terms claim is a signed synthetic attestation by the named privacy and supplier-assurance owner.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T01:25:00Z",
+            "remarks": "EX-CLAIM-122 attested from EV-119."
           }
         ]
       }

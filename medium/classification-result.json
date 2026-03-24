@@ -7,8 +7,8 @@
   "profileId": "medium_multiframework_corridor",
   "routeSummary": {
     "decidable": 9,
-    "attestation": 5,
-    "judgment": 1
+    "attestation": 11,
+    "judgment": 3
   },
   "items": [
     {
@@ -190,6 +190,102 @@
       "evidenceRequired": true,
       "leanBacked": false,
       "rationale": "The wider change-review governance layer is still documentary even when repo and CI guardrails are machine-checked."
+    },
+    {
+      "claimId": "EX-CLAIM-116",
+      "title": "Access review closure and high-risk exception resolution are attested for the current review window.",
+      "route": "attestation",
+      "controlRefs": [
+        "oc.id-03"
+      ],
+      "expectedClaimType": "access_review_closure_attestation",
+      "evidenceRequired": true,
+      "leanBacked": false,
+      "rationale": "Access-review closure is an accountable signoff activity and remains attestation-routed even when the export slice is machine-checkable."
+    },
+    {
+      "claimId": "EX-CLAIM-117",
+      "title": "Configuration exceptions are current, owned, and not already expired in the current review window.",
+      "route": "attestation",
+      "controlRefs": [
+        "oc.cfg-02"
+      ],
+      "expectedClaimType": "configuration_exception_attestation",
+      "evidenceRequired": true,
+      "leanBacked": false,
+      "rationale": "Baseline exception handling is a documentary governance slice and should stay separate from machine-checked hardening state."
+    },
+    {
+      "claimId": "EX-CLAIM-118",
+      "title": "Patch exceptions declare compensating controls and no declared exception is already expired in the current review window.",
+      "route": "attestation",
+      "controlRefs": [
+        "oc.patch-02"
+      ],
+      "expectedClaimType": "patch_exception_attestation",
+      "evidenceRequired": true,
+      "leanBacked": false,
+      "rationale": "Patch exception handling is documentary governance evidence rather than a runtime theorem."
+    },
+    {
+      "claimId": "EX-CLAIM-119",
+      "title": "Patch cadence and exception thresholds are adequate for the in-scope production assets.",
+      "route": "judgment",
+      "controlRefs": [
+        "oc.patch-03"
+      ],
+      "expectedClaimType": null,
+      "evidenceRequired": false,
+      "leanBacked": false,
+      "rationale": "Patch adequacy stays explicitly judgment-routed even when patch state and exception records are structured."
+    },
+    {
+      "claimId": "EX-CLAIM-120",
+      "title": "The incident response runbook is approved, owned, and current for the declared review window.",
+      "route": "attestation",
+      "controlRefs": [
+        "oc.ir-01"
+      ],
+      "expectedClaimType": "incident_response_runbook_attestation",
+      "evidenceRequired": true,
+      "leanBacked": false,
+      "rationale": "Incident procedure ownership and approval are documentary facts and should stay attestation-routed."
+    },
+    {
+      "claimId": "EX-CLAIM-121",
+      "title": "Incident escalation contacts and notification paths are current for the declared review window.",
+      "route": "attestation",
+      "controlRefs": [
+        "oc.ir-02"
+      ],
+      "expectedClaimType": "incident_contact_matrix_attestation",
+      "evidenceRequired": true,
+      "leanBacked": false,
+      "rationale": "Escalation paths and responder contacts remain documentary governance evidence in the current corridor."
+    },
+    {
+      "claimId": "EX-CLAIM-122",
+      "title": "High-risk vendor agreements carry the required security and privacy terms for the current review window.",
+      "route": "attestation",
+      "controlRefs": [
+        "oc.vendor-02"
+      ],
+      "expectedClaimType": "vendor_security_terms_attestation",
+      "evidenceRequired": true,
+      "leanBacked": false,
+      "rationale": "Contract-term presence is a documentary slice and should not be collapsed into a wider vendor-program claim."
+    },
+    {
+      "claimId": "EX-CLAIM-123",
+      "title": "Vendor tiering, review cadence, and inherited-control allocation are adequate for the in-scope dependency set.",
+      "route": "judgment",
+      "controlRefs": [
+        "oc.vendor-03"
+      ],
+      "expectedClaimType": null,
+      "evidenceRequired": false,
+      "leanBacked": false,
+      "rationale": "Vendor-program adequacy stays explicitly judgment-routed even when narrower vendor facts are structured."
     }
   ],
   "note": "Synthetic persisted routing artifact for the OpenCompliance prove/attest/judgment split.",
