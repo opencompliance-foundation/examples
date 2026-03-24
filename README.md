@@ -56,3 +56,9 @@ Only public-safe synthetic fixtures belong here.
   - a machine-checkable AI-generated content disclosure control,
   - a scoped certificate artifact and replay bundle,
   - and a public-safe OSCAL projection that stays explicit about what remains outside scope.
+- `exampleco-showcase/`
+  A synthetic company-level meta-pack showing:
+  - how multiple corridor artifacts can be aggregated into one public assurance story,
+  - which narrow statements ExampleCo can safely make for cyber, mixed issuance, AI governance, and blocked controls,
+  - direct links to the public artifact roots,
+  - and a generated showcase report plus human-readable summary built from the corridor outputs rather than hand-edited prose.

@@ -1,0 +1,82 @@
+{
+  "showcaseId": "exampleco-opencompliance-showcase-2026-03-24",
+  "generatedAt": "2026-03-24T18:20:00Z",
+  "organisation": "ExampleCo",
+  "purpose": "Show how a hypothetical company could use OpenCompliance to publish corridor-scoped proof, attestation, and failure artifacts without pretending that whole standards are fully proved.",
+  "canonicalSite": "https://opencompliancefoundation.com/",
+  "repositoryMap": "https://opencompliancefoundation.com/repositories.html",
+  "examplesRepo": "https://github.com/opencompliance-foundation/examples",
+  "conformanceRepo": "https://github.com/opencompliance-foundation/conformance",
+  "workflow": [
+    {
+      "step": "Define narrow corridors",
+      "detail": "Split the company posture into scoped corridors such as cyber hygiene, issued mixed controls, AI governance, and blocked or stale slices."
+    },
+    {
+      "step": "Collect typed evidence and attestations",
+      "detail": "Publish machine-state exports where possible and keep documentary governance evidence as signed attestation claims."
+    },
+    {
+      "step": "Run Verify per corridor",
+      "detail": "Generate corridor-specific proof bundles, trust-surface reports, verification results, and either a scoped certificate or a typed punch-list."
+    },
+    {
+      "step": "Publish only public-safe artifacts",
+      "detail": "Expose trust-surface reports, replay bundles, witness receipts, transparency logs, and OSCAL-shaped projections without leaking private operational data."
+    },
+    {
+      "step": "Let third parties inspect and replay",
+      "detail": "Give buyers and reviewers a package they can inspect corridor by corridor instead of one flattened compliance claim."
+    }
+  ],
+  "frameworkPositions": {
+    "Cyber Essentials": "Narrow public cyber hygiene corridor with clean machine-checkable examples, not a full certification claim.",
+    "EU AI Act": "Documentary AI-governance corridor plus one machine-checkable disclosure control, not full legal compliance.",
+    "EU GPAI Code of Practice": "Transparency-focused AI example corridor only, not complete code adherence.",
+    "GDPR": "Framework-adjacent family mappings appear in the public cyber corridor, but adequacy and legal interpretation remain outside the proved slice.",
+    "IRAP": "Family-level overlap only in the current public example packs, not a complete IRAP assessment.",
+    "ISO 27001": "Family-proxy and corridor-scoped examples only, not clause-level certification or full Annex A coverage.",
+    "ISO/IEC 23894": "AI risk guidance appears in the AI-governance example as attested process evidence, not a complete standard implementation.",
+    "ISO/IEC 42001": "AI management system family mappings appear in the AI-governance corridor, but the public slice stays narrow and mixed.",
+    "ISO/IEC 42005": "Impact-assessment-related family mappings appear in the AI-governance corridor, not a complete impact assessment regime.",
+    "NCSC CAF 4.0": "Crosswalked family-level support only in the cyber baseline corridor.",
+    "NIST AI RMF 1.0": "AI governance and transparency families appear in the synthetic AI corridor, still mostly attestation-backed.",
+    "NIST CSF 2.0": "Crosswalked family-level support only in the cyber baseline corridor.",
+    "NIST SP 800-53 Rev. 5.1": "Crosswalked family-level support only in the cyber baseline corridor.",
+    "SOC 2": "Narrow corridor evidence only, not a full opinion or clause-complete public mapping corpus."
+  },
+  "corridors": [
+    {
+      "fixture": "cyber-baseline",
+      "title": "Cyber baseline corridor",
+      "objective": "Show the cleanest machine-checkable path for a narrow security hygiene baseline.",
+      "safeStatement": "ExampleCo can state that the managed admin and endpoint baseline enforces MFA, default-deny network boundaries, secure configuration, timely patching, and malware protection for the scoped fleet.",
+      "whyIncluded": "This is the simplest corridor for buyers who want to see what a genuinely provable slice looks like today.",
+      "intendedAudience": "Security buyers and baseline assurance reviewers"
+    },
+    {
+      "fixture": "issued",
+      "title": "Issued mixed corridor",
+      "objective": "Show a certificate-eligible corridor that combines machine evidence with signed operational attestations.",
+      "safeStatement": "ExampleCo can state that the scoped identity, logging, access-review, training, restore, and incident-runbook corridor has no blocking gaps, while still disclosing which parts are proved and which parts are attested.",
+      "whyIncluded": "This demonstrates the most realistic near-term success path: some controls are proved, others remain documentary, and the certificate still stays narrow.",
+      "intendedAudience": "Audit-readiness partners, trust reviewers, and serious buyers"
+    },
+    {
+      "fixture": "ai-governance",
+      "title": "AI governance corridor",
+      "objective": "Show what an honest AI governance package looks like when most of the corridor is still documentary.",
+      "safeStatement": "ExampleCo can state that AI context, risk process, oversight, and monitoring are documented and signed, and that AI-generated content disclosure is mechanically demonstrated on the scoped assistant surface.",
+      "whyIncluded": "This keeps AI marketing honest by separating documentary governance evidence from the one narrow technical control that is currently machine-checkable.",
+      "intendedAudience": "AI governance reviewers, privacy reviewers, and enterprise buyers"
+    },
+    {
+      "fixture": "failed",
+      "title": "Blocked corridor",
+      "objective": "Show how OpenCompliance behaves when a corridor should not issue.",
+      "safeStatement": "ExampleCo can state that this corridor is not issuance-ready, and can hand over a typed punch-list showing exactly which controls failed or still require human judgment.",
+      "whyIncluded": "A trustworthy framework must show honest failure paths rather than only polished success cases.",
+      "intendedAudience": "Auditors, internal control owners, and buyers who care about remediation clarity"
+    }
+  ]
+}

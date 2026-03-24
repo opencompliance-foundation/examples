@@ -1,0 +1,34 @@
+{
+  "organisation": "ExampleCo",
+  "headline": "Synthetic public company used to show how OpenCompliance can publish scoped assurance artifacts without over-claiming full-framework compliance.",
+  "products": [
+    {
+      "name": "ExampleLedger",
+      "type": "Synthetic B2B SaaS ledger platform",
+      "corridors": [
+        "cyber-baseline",
+        "issued",
+        "failed"
+      ]
+    },
+    {
+      "name": "ExampleAssist",
+      "type": "Synthetic AI workflow assistant",
+      "corridors": [
+        "ai-governance"
+      ]
+    }
+  ],
+  "targetAudiences": [
+    "security buyers",
+    "privacy reviewers",
+    "auditors and readiness partners",
+    "contributors evaluating the public artifact model"
+  ],
+  "declaredAssuranceIntent": [
+    "show what ExampleCo can prove today",
+    "show which claims remain documentary attestations",
+    "show how blocked controls become a typed punch-list instead of being hidden"
+  ],
+  "note": "Synthetic public-safe organisation description for the ExampleCo showcase."
+}
