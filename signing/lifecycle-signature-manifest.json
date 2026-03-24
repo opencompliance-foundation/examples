@@ -1,0 +1,33 @@
+{
+  "signatureBundleId": "exampleco-lifecycle-signature-bundle-2026-03-24",
+  "generatedAt": "2026-03-24T04:12:00Z",
+  "signer": {
+    "signerId": "oc-synthetic-signer",
+    "keyId": "oc-synthetic-ed25519-001",
+    "algorithm": "Ed25519",
+    "publicKeyPath": "exampleco-synthetic-ed25519-public-key.pem"
+  },
+  "artifacts": [
+    {
+      "path": "issued-source-change.json",
+      "sha256": "11d04269fbb29453125f53786588e4d8ab8c65a76ee729827f329a90be020a5c",
+      "signature": "trOMECkv4luMMwqDoyKZxO/4MDYJ2URpOiEIq1NZTezAjPnS0KtHQ6pI9Yt+ycvUFAKdE1qLTsJY+DkadHfhAg=="
+    },
+    {
+      "path": "issued-lifecycle-reverification-required.json",
+      "sha256": "3e03aa9dd7471d9eb1998cb1cc7d132169e0b35cc05e758b0b9e298180bdf67f",
+      "signature": "Dy7YRbva3xA9VzC0nmoxM0ygYtBYUNuo00GE8MWWTCooCIcM6Z0W50SfK6FTQwb8Ag4GWmO3QCmQPnS1djyWCA=="
+    },
+    {
+      "path": "issued-lifecycle-revoked.json",
+      "sha256": "2448054a6361cc0fb63333eb68a17f178cdb7ddd85400d759bc8aeedbfabfe13",
+      "signature": "j9MRkmg06ghPiR7/j+0mGIe+uj2WkDsrkB1qckFq00E4yTAshDWJY/C1W47jZOFxQc/Ud3QvlaG4LyG+zm0MAQ=="
+    },
+    {
+      "path": "composed-agent-certificate.json",
+      "sha256": "950baf4225cfa31f75632018653204104105827df8e04c1a1a91aef5ba436be3",
+      "signature": "iT4hhQo3XE7eRjb9TyAGqJaIz0v7peKj6F9A5w7/umqXv6Zt+YSUyiHu8ibk6LFwioCP1fctzbGLHDstbIbMCg=="
+    }
+  ],
+  "note": "Synthetic signature manifest for the public-safe ExampleCo lifecycle artifacts."
+}

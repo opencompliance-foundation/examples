@@ -1,0 +1,48 @@
+{
+  "signatureBundleId": "exampleco-issued-signature-bundle-2026-03-24",
+  "generatedAt": "2026-03-24T04:10:00Z",
+  "signer": {
+    "signerId": "oc-synthetic-signer",
+    "keyId": "oc-synthetic-ed25519-001",
+    "algorithm": "Ed25519",
+    "publicKeyPath": "exampleco-synthetic-ed25519-public-key.pem"
+  },
+  "artifacts": [
+    {
+      "path": "proof-bundle.json",
+      "sha256": "fbbed719d56bb91cee9d50bb69163a87738a709bb40def8297db74a37e576296",
+      "signature": "y3dm2DMOKcJC4r2VSnze9gSjYn/UCDpFVmAuQHxdpq72NxGl5HV88yQiwDxqdIo8GPOX3quslEhqq4hVTgFfDg=="
+    },
+    {
+      "path": "trust-surface-report.md",
+      "sha256": "f0b7cd6b17e62c6f3186fbc06961407b108f96a5e7aa1400328bdbf1c660e55a",
+      "signature": "jFbCSBVckimGKEIq2iGlpLFqvt40OrRckEBU2yyH17D8+prOPTdXUZrCbT17frnq4h5nxRkb7LSX9VzJUAVXAw=="
+    },
+    {
+      "path": "verification-result.json",
+      "sha256": "8f42006d25f25784a4524b1d3700144848c5e6568fabdbee43c2ca5f4e1a071d",
+      "signature": "es5+1baunPmkpcFa/CB8KifH1QKVxBnVsVYGh49KSAzLedKYE1aKwbX/WDGhZMYF9E0LvKxfTNZJX78e6YzlCw=="
+    },
+    {
+      "path": "certificate.json",
+      "sha256": "c7959fa975c1fd3afcfc578425ab45320a86101e79720a40c17e3cb9fb7b2609",
+      "signature": "J+yf0uRARJ9++x0wZ2UN0OplXNwOUPaxSL/Vm+bGECNrxrTOAvwgfT18ZaFpoHLudaWAFEQnsJ+XAiuVZRt9CA=="
+    },
+    {
+      "path": "replay-bundle.json",
+      "sha256": "3046880ba3c9b99cb195f8019970c691dcc08a7fda57254be81f54071380a2ea",
+      "signature": "bKD7YSUycB0ukz49frWvZ+HtzPb22avaGoVZzWrMd6kmI9TxF2D0MDRVQz+xz3pRWzOTAck11VZ3GfatCwoKAw=="
+    },
+    {
+      "path": "witness-receipt.json",
+      "sha256": "9ab1e0fd8a643304bdc8e87a085a2ecd3525880f270465623530f50cac199950",
+      "signature": "KSP4esiOqLmGE5EaJCCxzkBt6WLBs4PH+E1V9sYoCWgHE9fzUZ+4Z2cs2VwpeEiG8KyxATCifwCyXVqP52QdAw=="
+    },
+    {
+      "path": "revocation.json",
+      "sha256": "b33ec3d98b726267b62575e412fd061f7fee16b45ab5e88431fd7ad2ffc56550",
+      "signature": "NBAtCiaG/ragM4B8g7PBbYpqOWe5bgAAxuckBEafQzJg8XdmCAqDw8zmAEgysvsI1tGiu5wv76ETtRmj8575CA=="
+    }
+  ],
+  "note": "Synthetic signature manifest for the public-safe issued ExampleCo corridor."
+}
