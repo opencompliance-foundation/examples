@@ -1,0 +1,204 @@
+{
+  "bundleId": "exampleco-minimal-bundle-2026-03-24",
+  "rootHash": "a4e1bd726364eeea7612ab8b8203411ec4c489dc5cc8a3d7693dea358741706f",
+  "proofs": [
+    {
+      "path": "profile.json",
+      "leafHash": "91ae82e1d1e3dfe8ef010e473b9c70cee74ad76b82ace2c19acf680463192f65",
+      "proof": [
+        {
+          "position": "right",
+          "hash": "f069a8bb25fc628d32b7ffb48f5dbcfc38f92f60d02fa74f3bfcbb075a8c4c28"
+        },
+        {
+          "position": "right",
+          "hash": "dacbda5b2ca2a635eefb3a194def48448f6ce2268d713fa0ed72cd1d2b2f53b3"
+        },
+        {
+          "position": "right",
+          "hash": "bd570a4e73dde45595631ba6346dd323d0013cc4fd4d060bd14c0d4b87795eda"
+        },
+        {
+          "position": "right",
+          "hash": "e7dcb98165261c0bb919057fe4741701a0b35d7002417d90da7e502d2af80e6e"
+        }
+      ]
+    },
+    {
+      "path": "evidence-claims.json",
+      "leafHash": "f069a8bb25fc628d32b7ffb48f5dbcfc38f92f60d02fa74f3bfcbb075a8c4c28",
+      "proof": [
+        {
+          "position": "left",
+          "hash": "91ae82e1d1e3dfe8ef010e473b9c70cee74ad76b82ace2c19acf680463192f65"
+        },
+        {
+          "position": "right",
+          "hash": "dacbda5b2ca2a635eefb3a194def48448f6ce2268d713fa0ed72cd1d2b2f53b3"
+        },
+        {
+          "position": "right",
+          "hash": "bd570a4e73dde45595631ba6346dd323d0013cc4fd4d060bd14c0d4b87795eda"
+        },
+        {
+          "position": "right",
+          "hash": "e7dcb98165261c0bb919057fe4741701a0b35d7002417d90da7e502d2af80e6e"
+        }
+      ]
+    },
+    {
+      "path": "proof-bundle.json",
+      "leafHash": "6cf2f54cf5690eaa01a9d4dca99e90d678033a7c7fa18d53b62497a5600c5593",
+      "proof": [
+        {
+          "position": "right",
+          "hash": "4eb48d592076977b36e00f8e6793e77a603acfbc1271245040e39182dbc5fa06"
+        },
+        {
+          "position": "left",
+          "hash": "0f5c07015468d4f0649327e5e68da3394e9977d630dd8803a4ad8fdf73fb7fac"
+        },
+        {
+          "position": "right",
+          "hash": "bd570a4e73dde45595631ba6346dd323d0013cc4fd4d060bd14c0d4b87795eda"
+        },
+        {
+          "position": "right",
+          "hash": "e7dcb98165261c0bb919057fe4741701a0b35d7002417d90da7e502d2af80e6e"
+        }
+      ]
+    },
+    {
+      "path": "trust-surface-report.md",
+      "leafHash": "4eb48d592076977b36e00f8e6793e77a603acfbc1271245040e39182dbc5fa06",
+      "proof": [
+        {
+          "position": "left",
+          "hash": "6cf2f54cf5690eaa01a9d4dca99e90d678033a7c7fa18d53b62497a5600c5593"
+        },
+        {
+          "position": "left",
+          "hash": "0f5c07015468d4f0649327e5e68da3394e9977d630dd8803a4ad8fdf73fb7fac"
+        },
+        {
+          "position": "right",
+          "hash": "bd570a4e73dde45595631ba6346dd323d0013cc4fd4d060bd14c0d4b87795eda"
+        },
+        {
+          "position": "right",
+          "hash": "e7dcb98165261c0bb919057fe4741701a0b35d7002417d90da7e502d2af80e6e"
+        }
+      ]
+    },
+    {
+      "path": "verification-result.json",
+      "leafHash": "d42469180ac97997ecdfcf455e67246ca2edec15f15ac9d77e357d19c87f0873",
+      "proof": [
+        {
+          "position": "right",
+          "hash": "647e04e1fef01ea473c8ef2730012750759ba485a99ca3ef80242e93e2ebb6ce"
+        },
+        {
+          "position": "right",
+          "hash": "fbe7e998ce213de6402cf592af686f01f59136adf93030be4635a6b0f5f1f3d2"
+        },
+        {
+          "position": "left",
+          "hash": "111c530a5a31d34131357d70872766ffb6ab00754758f91a32c3122d3860ef90"
+        },
+        {
+          "position": "right",
+          "hash": "e7dcb98165261c0bb919057fe4741701a0b35d7002417d90da7e502d2af80e6e"
+        }
+      ]
+    },
+    {
+      "path": "punch-list.json",
+      "leafHash": "647e04e1fef01ea473c8ef2730012750759ba485a99ca3ef80242e93e2ebb6ce",
+      "proof": [
+        {
+          "position": "left",
+          "hash": "d42469180ac97997ecdfcf455e67246ca2edec15f15ac9d77e357d19c87f0873"
+        },
+        {
+          "position": "right",
+          "hash": "fbe7e998ce213de6402cf592af686f01f59136adf93030be4635a6b0f5f1f3d2"
+        },
+        {
+          "position": "left",
+          "hash": "111c530a5a31d34131357d70872766ffb6ab00754758f91a32c3122d3860ef90"
+        },
+        {
+          "position": "right",
+          "hash": "e7dcb98165261c0bb919057fe4741701a0b35d7002417d90da7e502d2af80e6e"
+        }
+      ]
+    },
+    {
+      "path": "replay-bundle.json",
+      "leafHash": "056b2b4e3afc053b70eb2f849ca0b6b2c656c92df6258cfa57b73f78c4ca9db7",
+      "proof": [
+        {
+          "position": "right",
+          "hash": "3c26a6587b6f585fdfbba963962eba4a81f6ce390837f24df8bd8408894bb337"
+        },
+        {
+          "position": "left",
+          "hash": "eb6c15a28a81e2a0255257cdce76538bbe0e939ca39024c52a3b13aa17366fe2"
+        },
+        {
+          "position": "left",
+          "hash": "111c530a5a31d34131357d70872766ffb6ab00754758f91a32c3122d3860ef90"
+        },
+        {
+          "position": "right",
+          "hash": "e7dcb98165261c0bb919057fe4741701a0b35d7002417d90da7e502d2af80e6e"
+        }
+      ]
+    },
+    {
+      "path": "witness-receipt.json",
+      "leafHash": "3c26a6587b6f585fdfbba963962eba4a81f6ce390837f24df8bd8408894bb337",
+      "proof": [
+        {
+          "position": "left",
+          "hash": "056b2b4e3afc053b70eb2f849ca0b6b2c656c92df6258cfa57b73f78c4ca9db7"
+        },
+        {
+          "position": "left",
+          "hash": "eb6c15a28a81e2a0255257cdce76538bbe0e939ca39024c52a3b13aa17366fe2"
+        },
+        {
+          "position": "left",
+          "hash": "111c530a5a31d34131357d70872766ffb6ab00754758f91a32c3122d3860ef90"
+        },
+        {
+          "position": "right",
+          "hash": "e7dcb98165261c0bb919057fe4741701a0b35d7002417d90da7e502d2af80e6e"
+        }
+      ]
+    },
+    {
+      "path": "revocation.json",
+      "leafHash": "e781f01ed929ae4f1340eca38d097792b8b0ef4044c282cd5cc3f35dc7c1d5b4",
+      "proof": [
+        {
+          "position": "right",
+          "hash": "e781f01ed929ae4f1340eca38d097792b8b0ef4044c282cd5cc3f35dc7c1d5b4"
+        },
+        {
+          "position": "right",
+          "hash": "f78a1b2cad44b1c0895b517f6ef5c801f93fc140c03ec6c9a5a20831ee8f8ee3"
+        },
+        {
+          "position": "right",
+          "hash": "d2f29d49677ddb57149285e0ef8f24d73225658d60ee34a644a323077fa518d4"
+        },
+        {
+          "position": "left",
+          "hash": "2c29fbf0c9f078385d02e36d66182d5e55eb2f6ac5ef404eafdbd27ff8faceef"
+        }
+      ]
+    }
+  ]
+}

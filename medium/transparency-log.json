@@ -1,0 +1,72 @@
+{
+  "logId": "medium-transparency-log",
+  "generatedAt": "2026-03-24T22:00:00Z",
+  "bundleId": "exampleco-medium-bundle-2026-03-24",
+  "hashAlgorithm": "sha256",
+  "rootHash": "5121b149b8fd80d4f5fac07487768bef65bfa8b363bac05954f203f51ce4a460",
+  "entries": [
+    {
+      "index": 0,
+      "artifactType": "profile",
+      "path": "profile.json",
+      "artifactSha256": "7b9ed08dc5a1d3319cfd67d02b6fd274a5e1eda58a48b17fee172ef64c102c13",
+      "leafHash": "9d29ed78ac897a14207bd843c0d52aa46465a180680546dc3b7da939a452edc4"
+    },
+    {
+      "index": 1,
+      "artifactType": "evidence_claims",
+      "path": "evidence-claims.json",
+      "artifactSha256": "8218e83e5724af7c1eb3e1589646dc0131037339cb8b3a01b54f122a876757ae",
+      "leafHash": "65a97f754fe71163950e461f4c03843a1a5f0f5505b586b334f7da1a276fafbd"
+    },
+    {
+      "index": 2,
+      "artifactType": "proof_bundle",
+      "path": "proof-bundle.json",
+      "artifactSha256": "ff8d2d82344717626029fd1c13a916fba9cb4d059376a47404f638fee1a25f55",
+      "leafHash": "28524608ac36cb578d7bd6877e76b792e73f608b808d9c2f18df6ce4407843b0"
+    },
+    {
+      "index": 3,
+      "artifactType": "trust_surface_report",
+      "path": "trust-surface-report.md",
+      "artifactSha256": "678bd13286f2b6787c4eca8f5f7b9efe24e4039ac79843e345e10b4a7fd425b3",
+      "leafHash": "63183e775cdc9b6b97e4a09f8fc5dad450626e2233766c69f9611d5def2dc670"
+    },
+    {
+      "index": 4,
+      "artifactType": "verification_result",
+      "path": "verification-result.json",
+      "artifactSha256": "57db69be8389bb64fb1a64accd50535b619f9e4da1099d3fbafef26621265be0",
+      "leafHash": "2af442b5c90b03d1199d2ac6c49c517f15aa96655ccdcfc430e7bd58a44b16f7"
+    },
+    {
+      "index": 5,
+      "artifactType": "punch_list",
+      "path": "punch-list.json",
+      "artifactSha256": "f2a5079e5ff98ce88a6ead7c8da0ea404498574542ba9e1d7449f78c199af709",
+      "leafHash": "8e6a766c26ae03732205dc0fd3f576c748abf7536c8125f6528f40767b558066"
+    },
+    {
+      "index": 6,
+      "artifactType": "replay_bundle",
+      "path": "replay-bundle.json",
+      "artifactSha256": "7fc740137247b64c144b69fe3b92f6c67d5b6a9e017c2a6810ec236bfcdfeee7",
+      "leafHash": "b5ea07afd8a37e77bbfa13a01b2758944452c526e55ef4fdd1268a5ae1cf231b"
+    },
+    {
+      "index": 7,
+      "artifactType": "witness_receipt",
+      "path": "witness-receipt.json",
+      "artifactSha256": "49f45246422a3b7d4d659c162d4fc5c364e5a76b70219695fc18ad56ae020d70",
+      "leafHash": "44c4ac029b860f11b452bb97ccff73cccb81b5e6fec0c86d93d9f6e5814eb4e5"
+    },
+    {
+      "index": 8,
+      "artifactType": "revocation",
+      "path": "revocation.json",
+      "artifactSha256": "5a395c4ae61b76ed3a9a1f3e70e44c78b0ca04fc8eddd7603bdb48ebbfa15af3",
+      "leafHash": "d7d7d156313ae0e625f45f433e8e9de4a105091136688de08fd27617d3f5a294"
+    }
+  ]
+}

@@ -17,6 +17,8 @@ It exists to show a richer public-safe corridor than `../minimal/` without leaki
 - `replay-bundle.json`
 - `witness-receipt.json`
 - `revocation.json`
+- `transparency-log.json`
+- `inclusion-proofs.json`
 - `oscal/`
 
 ## What is different from the minimal pack

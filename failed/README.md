@@ -16,6 +16,8 @@ It exists to show a present-but-failing claim as data instead of a verifier cras
 - `replay-bundle.json`
 - `witness-receipt.json`
 - `revocation.json`
+- `transparency-log.json`
+- `inclusion-proofs.json`
 - `oscal/`
 
 ## Intended use

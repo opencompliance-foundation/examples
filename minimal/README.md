@@ -16,6 +16,8 @@ It exists to make the artifact model concrete without exposing customer evidence
 - `replay-bundle.json`
 - `witness-receipt.json`
 - `revocation.json`
+- `transparency-log.json`
+- `inclusion-proofs.json`
 - `oscal/`
 
 ## Intended use

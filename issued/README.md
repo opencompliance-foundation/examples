@@ -16,6 +16,8 @@ It exists to show the narrow certificate path for OpenCompliance without leaking
 - `replay-bundle.json`
 - `witness-receipt.json`
 - `revocation.json`
+- `transparency-log.json`
+- `inclusion-proofs.json`
 - `oscal/`
 
 ## What is different from the other packs
