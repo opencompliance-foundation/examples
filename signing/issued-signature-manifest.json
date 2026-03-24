@@ -30,8 +30,8 @@
     },
     {
       "path": "replay-bundle.json",
-      "sha256": "36b3637efd06cabc6f149552942a09f52bc03e45c86f17c2ebe655978a7aa2cd",
-      "signature": "4vm+VlEY8R7W1MIipGu5ahtT9zR6uC+Q+lObN0FHMdBU83sNBxRLzPGSS2Cjxq0D1Av+rw3JXwOdCUWJvxh3BQ=="
+      "sha256": "274b74064dc9b3ef0c8517473d41345575324c0e0f1b7b3cd015364672eeed3c",
+      "signature": "Y446m2PQhsqJkIbeZsOVJ3d44zOXZVtgu76wstIsLU/uAF3kjdteF47h/77X+hXR46sYN9uXrFExKeyCsAMxDw=="
     },
     {
       "path": "witness-receipt.json",

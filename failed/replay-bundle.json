@@ -6,9 +6,9 @@
   "fixture": "failed",
   "replayCommand": [
     "python3",
-    "scripts/verify_example.py",
-    "--fixture",
-    "failed",
+    "scripts/verify_fixture.py",
+    "--fixture-root",
+    "fixtures/public/failed",
     "--check"
   ],
   "materialInputs": [

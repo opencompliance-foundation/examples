@@ -3,7 +3,7 @@
   "generatedAt": "2026-03-24T22:00:00Z",
   "bundleId": "exampleco-medium-bundle-2026-03-24",
   "hashAlgorithm": "sha256",
-  "rootHash": "fe233e3176154148d2bd1b96acb1f96ef1819edd8593b9b7fc972901b5243a3e",
+  "rootHash": "a4c2afa85be7477eba590aaacecf902d124f3d551823fee41d7362cf1a3c7aa4",
   "entries": [
     {
       "index": 0,
@@ -51,8 +51,8 @@
       "index": 6,
       "artifactType": "replay_bundle",
       "path": "replay-bundle.json",
-      "artifactSha256": "43aa76396a95551f48948de22e2968ded9b01c51adbb162d2059964c67311e87",
-      "leafHash": "1a73aabbdd746c477b4373f405f26ce9d4485426d6df7876332f68dc3540b090"
+      "artifactSha256": "4d302888ee984ed7e52961473e60a28291886f90b5d62f3e10d1bcacd0ef14ba",
+      "leafHash": "b28086273cc7b8ad0a94a92b7442024b96d343d4dd1103e0b35fc2d40965dd62"
     },
     {
       "index": 7,

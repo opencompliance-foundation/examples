@@ -3,7 +3,7 @@
   "generatedAt": "2026-03-24T22:00:00Z",
   "bundleId": "exampleco-stale-bundle-2026-03-24",
   "hashAlgorithm": "sha256",
-  "rootHash": "68beeda6b4feceb2b9c5f1a2f6151438bf63d5cfb626bd5b6edc92cb2e119491",
+  "rootHash": "852d0f9ea4f9dad1f52baa95e6b435a6872d3bd1b9da4df08567d78ee3d74f2c",
   "entries": [
     {
       "index": 0,
@@ -51,8 +51,8 @@
       "index": 6,
       "artifactType": "replay_bundle",
       "path": "replay-bundle.json",
-      "artifactSha256": "9231975bda31cbe9b380e1497f0c3909471b048a974d367043573ddc9a454ea0",
-      "leafHash": "926cf399c93ca0b18204f82950ac4e1e2354aef3ed1e8bca520b07f8776ef820"
+      "artifactSha256": "377f9f95d626ff0c94d529b11629b6a024c0174a90d4e0d3df9408cf581c5b9f",
+      "leafHash": "8332d51fd03f1683ffb226d64581752a1ce1acdb94d68aa0fdc362c7ed6599a8"
     },
     {
       "index": 7,

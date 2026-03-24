@@ -3,7 +3,7 @@
   "generatedAt": "2026-03-24T22:00:00Z",
   "bundleId": "exampleco-failed-bundle-2026-03-24",
   "hashAlgorithm": "sha256",
-  "rootHash": "bda9c839fc6ab16665c35f093829608f0337d814dd011428311bee4827617fd0",
+  "rootHash": "862264a177c62034791feb533a89e68910f995e89ad6c14f28a566ddeafcc518",
   "entries": [
     {
       "index": 0,
@@ -51,8 +51,8 @@
       "index": 6,
       "artifactType": "replay_bundle",
       "path": "replay-bundle.json",
-      "artifactSha256": "1594221ef6be4ba8d1936fe70e20d4d72863aecaf8c170b1b3810b237630b0f4",
-      "leafHash": "17b15e38045690e15a9e7ece0e05ba9286139678ea6bfece73696b32ea7b926c"
+      "artifactSha256": "ed0d30959ee632835509d787fd5936b51c635bd968189e17d48b9acacedd5fc4",
+      "leafHash": "8bd22090aacca6229af6776b111182ca947708ba67cbc0e0207baf1fa64cf60b"
     },
     {
       "index": 7,

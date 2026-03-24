@@ -6,9 +6,9 @@
   "fixture": "minimal",
   "replayCommand": [
     "python3",
-    "scripts/verify_example.py",
-    "--fixture",
-    "minimal",
+    "scripts/verify_fixture.py",
+    "--fixture-root",
+    "fixtures/public/minimal",
     "--check"
   ],
   "materialInputs": [

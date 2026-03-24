@@ -6,9 +6,9 @@
   "fixture": "medium",
   "replayCommand": [
     "python3",
-    "scripts/verify_example.py",
-    "--fixture",
-    "medium",
+    "scripts/verify_fixture.py",
+    "--fixture-root",
+    "fixtures/public/medium",
     "--check"
   ],
   "materialInputs": [

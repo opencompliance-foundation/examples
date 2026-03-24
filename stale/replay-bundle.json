@@ -6,9 +6,9 @@
   "fixture": "stale",
   "replayCommand": [
     "python3",
-    "scripts/verify_example.py",
-    "--fixture",
-    "stale",
+    "scripts/verify_fixture.py",
+    "--fixture-root",
+    "fixtures/public/stale",
     "--check"
   ],
   "materialInputs": [
