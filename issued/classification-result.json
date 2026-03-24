@@ -6,7 +6,7 @@
   "organisation": "ExampleCo",
   "profileId": "issued_narrow_corridor",
   "routeSummary": {
-    "decidable": 7,
+    "decidable": 8,
     "attestation": 4,
     "judgment": 0
   },
@@ -58,6 +58,18 @@
       "evidenceRequired": true,
       "leanBacked": true,
       "rationale": "Deterministic identity-policy evidence over a narrow password-quality predicate."
+    },
+    {
+      "claimId": "EX-CLAIM-212",
+      "title": "A managed web application firewall is attached to the scoped public ingress path, runs in blocking mode, and has a managed rule set active.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.web-01"
+      ],
+      "expectedClaimType": "web_application_firewall_state",
+      "evidenceRequired": true,
+      "leanBacked": true,
+      "rationale": "Deterministic perimeter-state evidence over a narrow managed-WAF predicate."
     },
     {
       "claimId": "EX-CLAIM-202",

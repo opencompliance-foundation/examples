@@ -10,33 +10,33 @@
   "artifacts": [
     {
       "path": "proof-bundle.json",
-      "sha256": "a7a73511f15662af35313f52aab9ce55b74410ada221ec9f40dae5001b6a1fc5",
-      "signature": "fB3f4KFcWr5pm+lWWXxtOmSTuINS62NbyYquDvyuLW5BDbX9Ync1ukagGlF3t6tivQW0odnbDkkNrPTClOTMDw=="
+      "sha256": "0d36d7ef1062c1e6ff9450369dd615df2d9fd7499f4e34cca72965b2345c63a6",
+      "signature": "rnwPwfCTqAUbtRz0camUhxuBSyrHwNdPoGaXRYdfw6M3aLibigWaWhF8jmrJ9WQq/8w4sowiXmq8Q24hSgVVBA=="
     },
     {
       "path": "trust-surface-report.md",
-      "sha256": "fc95791337ef7fb347b94a9afb5aa11b93bf7fcb92bd6ffec62eabd6644c4b8e",
-      "signature": "2eg91TvdwUeiamRdtvbk0B3f8oaXqTQcimEt8FioVikzdUyhPvMy8KevdmlAqT4ahaHXNVah/IQV4azE4u8fDw=="
+      "sha256": "424979c8485f90ae304c122672377a15006064e4d689e13a57cfdf0790158d03",
+      "signature": "kxcgqMIFY+DnyKU5JL0EkjtofTqPdDN2mCKS4jGVrFlm93n8VQnKVK1W60Ccbwetio9XjYizWFBKf5Qfx0peAg=="
     },
     {
       "path": "verification-result.json",
-      "sha256": "7aa92f5d75c23d8e933d61c7d3a33a4ade311ffab93bb4c6b08f7e8d0f3620cd",
-      "signature": "7UBwQ9FEyHoOI9uDNlPCSdVQdMyzlP0XV3vukBUyeAAH+Z8YHYhq6vqiWDAUtFMnkiTeM1nVJas9Gj9eruhyCw=="
+      "sha256": "92079a77526a44a22f74b34df0a5f5dbc1bb5f28b7b26ff17bba7b0364339461",
+      "signature": "L+PD8cTec7l05PVy/UGBo3RN2Bi960ZmtWDXoGRb1YUs3mPjbb3v9HkX35ssXue9PrTRcHPLFuICuueRVuR2Bg=="
     },
     {
       "path": "certificate.json",
-      "sha256": "84442707ccea13d3df47292f0542a4ae459e873903b3091a4bbbda1f16504f57",
-      "signature": "D8LgCpyUhJaJNGm2VBDV9foUxtGN216v0kpwBH2OGNSJJ6AevTmJJ7dwdsSaL5PmaL4k3rs76pl/NF8SiWcpCg=="
+      "sha256": "ab8fa2486b988badeed1dbf4cefa9ecc6f6bae6201c59abf4bd4449ecc5c67de",
+      "signature": "EfSkz2T+GsMMwSG0jdGE7BNbHehZAGDEHIdgQlphh65C173JIghq2YqPNHjA/2Y+C9/qbGc91Q6JCKuvyRzlBQ=="
     },
     {
       "path": "replay-bundle.json",
-      "sha256": "6e21b41e954ab0dffdfd7d403258f24eed3f4f1267a9b28621b0c06be6cb5d36",
-      "signature": "8JGpGaneGmJOs/8tWlVFSdMbXJpsqwCrwcAf6fueEc0e9cOrDZTb+aSZhkpteUGYp602IG5Xqj2eGV24FS89Cg=="
+      "sha256": "6d6f16da3cc28d9c468d0b4b40370b718e8ff674d1e3e3151230c57ed3173cf7",
+      "signature": "avSEbOeaM7TIkkULD/TnnqPhagTCKh5YD5qoHMpI6WPHWtEp/iRN2NJJfuYdt6BrlpfO7vND7tUf5BxRJkxTAA=="
     },
     {
       "path": "witness-receipt.json",
-      "sha256": "1cec137d0bff5dd56cb41485875e8bbac6429ebda6b8e751c0a57804491f1265",
-      "signature": "4UopPD9jCsVAS8LmO0qdOwuu8kFtIst04ha/Ca4pyQALQLhpapgKATATPWsuKRbZvoXL4CzXf/P7igf80DgDAQ=="
+      "sha256": "4f33a43ddcd26393f59e0ff7ebf5d15cdd65504c1cd74f3f8e71cef054d6fc46",
+      "signature": "Tsl0odi1bw6/8U5XvYkBKiQu/LKL4KcUPlZsIFHCwycE8E9xsLgltBm9Duye8S1LMqSnY6lUNJ0zqGnfPXetBw=="
     },
     {
       "path": "revocation.json",

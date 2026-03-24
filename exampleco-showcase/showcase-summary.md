@@ -11,7 +11,7 @@ Show how a hypothetical company could use OpenCompliance to publish corridor-sco
 
 - `4` scoped corridors
 - `3` issued outcomes and `1` blocked outcome
-- `14` proved claims across the showcased corridors
+- `15` proved claims across the showcased corridors
 - `9` attested claims across the showcased corridors
 - `1` failed claim, `1` judgment-required claim, and `0` evidence-missing claims across the selected corridors
 
@@ -39,7 +39,7 @@ The right public statement is not that ExampleCo is fully certified. The right s
 ### Issued mixed corridor (`issued`)
 
 - **Outcome**: `certificate_issued`
-- **Claim summary**: proved `7`, attested `4`, failed `0`, stale `0`, judgment `0`, missing `0`
+- **Claim summary**: proved `8`, attested `4`, failed `0`, stale `0`, judgment `0`, missing `0`
 - **Safe statement**: ExampleCo can state that the scoped identity, logging, access-review, training, restore, and incident-runbook corridor has no blocking gaps, while still disclosing which parts are proved and which parts are attested.
 - **Why included**: This demonstrates the most realistic near-term success path: some controls are proved, others remain documentary, and the certificate still stays narrow.
 - **Frameworks touched**: Cyber Essentials, GDPR, IRAP, ISO 27001, NCSC CAF 4.0, NIST CSF 2.0, NIST SP 800-53 Rev. 5.1, SOC 2
@@ -87,19 +87,19 @@ The right public statement is not that ExampleCo is fully certified. The right s
 
 - **Public position**: Framework-adjacent family mappings appear in the public cyber corridor, but adequacy and legal interpretation remain outside the proved slice.
 - **Corridors**: cyber-baseline, issued
-- **Claim summary**: proved `5`, attested `0`, failed `0`, stale `0`, judgment `0`, missing `0`
+- **Claim summary**: proved `6`, attested `0`, failed `0`, stale `0`, judgment `0`, missing `0`
 
 ### IRAP
 
 - **Public position**: Family-level overlap only in the current public example packs, not a complete IRAP assessment.
 - **Corridors**: cyber-baseline, issued
-- **Claim summary**: proved `9`, attested `2`, failed `0`, stale `0`, judgment `0`, missing `0`
+- **Claim summary**: proved `10`, attested `2`, failed `0`, stale `0`, judgment `0`, missing `0`
 
 ### ISO 27001
 
 - **Public position**: Family-proxy and corridor-scoped examples only, not clause-level certification or full Annex A coverage.
 - **Corridors**: cyber-baseline, failed, issued
-- **Claim summary**: proved `13`, attested `5`, failed `1`, stale `0`, judgment `1`, missing `0`
+- **Claim summary**: proved `14`, attested `5`, failed `1`, stale `0`, judgment `1`, missing `0`
 
 ### ISO/IEC 23894
 
@@ -135,19 +135,19 @@ The right public statement is not that ExampleCo is fully certified. The right s
 
 - **Public position**: Crosswalked family-level support only in the cyber baseline corridor.
 - **Corridors**: cyber-baseline, issued
-- **Claim summary**: proved `9`, attested `0`, failed `0`, stale `0`, judgment `0`, missing `0`
+- **Claim summary**: proved `10`, attested `0`, failed `0`, stale `0`, judgment `0`, missing `0`
 
 ### NIST SP 800-53 Rev. 5.1
 
 - **Public position**: Crosswalked family-level support only in the cyber baseline corridor.
 - **Corridors**: cyber-baseline, issued
-- **Claim summary**: proved `9`, attested `0`, failed `0`, stale `0`, judgment `0`, missing `0`
+- **Claim summary**: proved `10`, attested `0`, failed `0`, stale `0`, judgment `0`, missing `0`
 
 ### SOC 2
 
 - **Public position**: Narrow corridor evidence only, not a full opinion or clause-complete public mapping corpus.
 - **Corridors**: cyber-baseline, failed, issued
-- **Claim summary**: proved `13`, attested `3`, failed `1`, stale `0`, judgment `1`, missing `0`
+- **Claim summary**: proved `14`, attested `3`, failed `1`, stale `0`, judgment `1`, missing `0`
 
 ## Rebuild and check
 

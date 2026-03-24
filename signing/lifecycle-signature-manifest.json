@@ -15,13 +15,13 @@
     },
     {
       "path": "issued-lifecycle-reverification-required.json",
-      "sha256": "983c4d382b8c91f52a1a6f68bd400d83da7f4f98ac8c25508d8b829bd653e1c5",
-      "signature": "Lm5WzYTYRDfQyI3kXvwHJ1Qju1jWU7Y/z2msjnErIJXxBkXLy6DJ7xIplMWbNWs8LDyywthLmYNI2wfa3UFSBA=="
+      "sha256": "af15ffba02f76a0b96124ca639bdd2658f6acc1b4457aefcedf1225aab61ba4a",
+      "signature": "klNvswZnTSZRTa1Yaa2Jgm+38kpddoJxqqu4Y+X7DOKfPC1Kb51Rx4kTXuo/YzAOSJJ5dGa8ubCIsZnSPi0ZAg=="
     },
     {
       "path": "issued-lifecycle-revoked.json",
-      "sha256": "22cec0345f062474109604aa25dab89098a8edaf543d1f372c16ccfce21ff139",
-      "signature": "HrRa0cvTgTr5w6w/fMViYWDhhHpvx0M8fPGIiPSarG9CYdpGrfM3uwsb+vu+6trSy3R7N0E32kKIT0bQKXfOCw=="
+      "sha256": "f114fc51cd7a7c7d8511f6efc51ae26e8db2bc854baee62d38c8d5bfc6e72116",
+      "signature": "SaueEgfbJjjYCFR0dcs5B6q0+ROq3G3nKdrtfpvs17lqkz26I6jmNp7yPJfIhvgZ4Pve2u3nAy2rFfZufeUyCQ=="
     },
     {
       "path": "composed-agent-certificate.json",

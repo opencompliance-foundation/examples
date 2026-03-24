@@ -44,9 +44,9 @@
     "certificateIssuedCount": 3,
     "blockedCorridorCount": 1,
     "uniqueFrameworkCount": 14,
-    "uniqueControlRefCount": 20,
+    "uniqueControlRefCount": 21,
     "claimSummary": {
-      "proved": 14,
+      "proved": 15,
       "attested": 9,
       "failed": 1,
       "staleEvidence": 0,
@@ -54,11 +54,11 @@
       "evidenceMissing": 0
     },
     "routeSummary": {
-      "decidable": 15,
+      "decidable": 16,
       "attestation": 9,
       "judgment": 1
     },
-    "leanBackedProvedClaims": 9,
+    "leanBackedProvedClaims": 10,
     "omittedProvedClaimsOutsidePublicLean": 5
   },
   "workflow": [
@@ -244,10 +244,11 @@
         "oc.log-01",
         "oc.rec-01",
         "oc.seg-01",
-        "oc.train-01"
+        "oc.train-01",
+        "oc.web-01"
       ],
       "claimSummary": {
-        "proved": 7,
+        "proved": 8,
         "attested": 4,
         "failed": 0,
         "staleEvidence": 0,
@@ -255,7 +256,7 @@
         "evidenceMissing": 0
       },
       "routeSummary": {
-        "decidable": 7,
+        "decidable": 8,
         "attestation": 4,
         "judgment": 0
       },
@@ -276,9 +277,9 @@
       },
       "leanBoundary": {
         "status": "verified",
-        "theoremCount": 6,
-        "leanBackedClaimCount": 6,
-        "provedClaimCount": 7,
+        "theoremCount": 7,
+        "leanBackedClaimCount": 7,
+        "provedClaimCount": 8,
         "omittedProvedClaimCount": 1
       },
       "resultHighlights": {
@@ -650,7 +651,7 @@
         "issued"
       ],
       "claimSummary": {
-        "proved": 5,
+        "proved": 6,
         "attested": 0,
         "failed": 0,
         "staleEvidence": 0,
@@ -678,7 +679,7 @@
         "issued"
       ],
       "claimSummary": {
-        "proved": 9,
+        "proved": 10,
         "attested": 2,
         "failed": 0,
         "staleEvidence": 0,
@@ -710,7 +711,7 @@
         "failed"
       ],
       "claimSummary": {
-        "proved": 13,
+        "proved": 14,
         "attested": 5,
         "failed": 1,
         "staleEvidence": 0,
@@ -885,7 +886,7 @@
         "issued"
       ],
       "claimSummary": {
-        "proved": 9,
+        "proved": 10,
         "attested": 0,
         "failed": 0,
         "staleEvidence": 0,
@@ -913,7 +914,7 @@
         "issued"
       ],
       "claimSummary": {
-        "proved": 9,
+        "proved": 10,
         "attested": 0,
         "failed": 0,
         "staleEvidence": 0,
@@ -942,7 +943,7 @@
         "failed"
       ],
       "claimSummary": {
-        "proved": 13,
+        "proved": 14,
         "attested": 3,
         "failed": 1,
         "staleEvidence": 0,

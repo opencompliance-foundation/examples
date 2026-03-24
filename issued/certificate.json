@@ -31,17 +31,18 @@
     "oc.log-01",
     "oc.rec-01",
     "oc.seg-01",
-    "oc.train-01"
+    "oc.train-01",
+    "oc.web-01"
   ],
   "coverage": {
-    "proved": 7,
+    "proved": 8,
     "attested": 4,
     "failed": 0,
     "staleEvidence": 0,
     "judgmentRequired": 0,
     "evidenceMissing": 0
   },
-  "proofBundleSha256": "a7a73511f15662af35313f52aab9ce55b74410ada221ec9f40dae5001b6a1fc5",
-  "trustSurfaceSha256": "fc95791337ef7fb347b94a9afb5aa11b93bf7fcb92bd6ffec62eabd6644c4b8e",
+  "proofBundleSha256": "0d36d7ef1062c1e6ff9450369dd615df2d9fd7499f4e34cca72965b2345c63a6",
+  "trustSurfaceSha256": "424979c8485f90ae304c122672377a15006064e4d689e13a57cfdf0790158d03",
   "note": "Synthetic narrow-corridor certificate artifact for an example bundle with no blocking gaps."
 }

@@ -67,7 +67,7 @@
       ]
     },
     "control-implementation": {
-      "description": "Synthetic implementation statements for the 31 controls in the medium public corridor.",
+      "description": "Synthetic implementation statements for the 32 controls in the medium public corridor.",
       "implemented-requirements": [
         {
           "uuid": "416501b8-e192-54de-b77c-37ce43c1fd9e",
@@ -126,12 +126,26 @@
           ]
         },
         {
+          "uuid": "ee245afa-68dd-5507-a3ee-bb77569c673f",
+          "control-id": "oc.web-01",
+          "by-components": [
+            {
+              "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
+              "uuid": "292639d1-d514-5305-8f97-6d0dbac96535",
+              "description": "ExampleCo exports typed evidence covering managed web application firewall attached.",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            }
+          ]
+        },
+        {
           "uuid": "c640e1aa-861a-5fcd-b240-ac07f7595f16",
           "control-id": "oc.log-01",
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "0293ad16-c8f0-5394-8aba-ebd14e05ae8b",
+              "uuid": "9236bf72-87de-5bd3-82f9-d9ee1249972a",
               "description": "ExampleCo exports typed evidence covering scoped audit logging enabled.",
               "implementation-status": {
                 "state": "implemented"
@@ -145,7 +159,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "1d6f3be2-88b4-56b4-9461-1b0aadf26b0f",
+              "uuid": "92702a92-c835-53e6-b8b0-2190d6195493",
               "description": "ExampleCo exports typed evidence covering tls ingress hardened.",
               "implementation-status": {
                 "state": "implemented"
@@ -159,7 +173,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "4246034f-2f71-5616-a0bb-483add718772",
+              "uuid": "574793fb-9c5e-5f07-8444-f74a851c9a0e",
               "description": "ExampleCo exports typed evidence covering managed ingress boundary attached.",
               "implementation-status": {
                 "state": "implemented"
@@ -173,7 +187,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "a0bd9a54-58f5-5181-bf8e-98bcd2e39355",
+              "uuid": "fd8c032f-dfa9-5dd9-9598-ea7fd2b151fa",
               "description": "ExampleCo exports typed evidence covering administrative ingress restricted.",
               "implementation-status": {
                 "state": "implemented"
@@ -187,7 +201,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "b10de588-9f63-542d-9da5-7891290a4816",
+              "uuid": "da753781-5029-571c-b5ec-af8dcb070c8a",
               "description": "ExampleCo exports typed evidence covering plaintext transport disabled.",
               "implementation-status": {
                 "state": "implemented"
@@ -201,7 +215,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "5e4b95a7-cc8c-5f34-bd6e-716009f5f79b",
+              "uuid": "fcf97e61-5ff3-55df-8ed6-a253520045d9",
               "description": "ExampleCo exports typed evidence covering encryption at rest enabled.",
               "implementation-status": {
                 "state": "implemented"
@@ -215,7 +229,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "2dda13de-9657-5163-b37a-1b0258bd9949",
+              "uuid": "e9179ff7-e610-56c4-b09b-712123be3894",
               "description": "ExampleCo exports typed evidence covering no user-managed long-lived machine keys.",
               "implementation-status": {
                 "state": "implemented"
@@ -229,7 +243,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "91f53c4d-701d-5fed-9a45-386f15139aeb",
+              "uuid": "83ea26ad-5eec-59d0-8cd5-98eb3d29f971",
               "description": "ExampleCo exports typed evidence covering approved regions only.",
               "implementation-status": {
                 "state": "implemented"
@@ -243,7 +257,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "ec782006-7e55-5b1e-9f26-0c71163065ae",
+              "uuid": "6a742030-a8b1-5c36-b8e6-82bba4232d07",
               "description": "ExampleCo exports typed evidence covering backup schedule declared.",
               "implementation-status": {
                 "state": "implemented"
@@ -257,7 +271,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "9cbb0435-d6dc-5bda-9087-3904bf4e1af5",
+              "uuid": "11d3deb1-43da-5526-b90f-eadac2280a18",
               "description": "ExampleCo attaches a signed synthetic attestation covering training completion record available.",
               "implementation-status": {
                 "state": "implemented"
@@ -271,7 +285,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "24582db6-d0f2-5795-84e7-e8a534021261",
+              "uuid": "003cf1bf-bf74-5aac-97b4-608321ed586f",
               "description": "ExampleCo attaches a signed synthetic attestation covering restore exercise evidence present.",
               "implementation-status": {
                 "state": "implemented"
@@ -285,7 +299,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "d5e2f2df-675b-5c50-875a-f2712ca16d90",
+              "uuid": "8782d9c9-4319-504e-a7be-d0df7d75c4ba",
               "description": "ExampleCo attaches a signed synthetic attestation covering processor register current.",
               "implementation-status": {
                 "state": "implemented"
@@ -299,7 +313,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "f8c3b520-69cd-5578-8f22-b0cbc1c290dd",
+              "uuid": "7affda8d-2639-583d-b7c5-95296e7d38e3",
               "description": "ExampleCo attaches a signed synthetic attestation covering dsr runbook ownership documented.",
               "implementation-status": {
                 "state": "implemented"
@@ -313,7 +327,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "de478c73-0cd2-58f6-be6d-88e00bbd88e5",
+              "uuid": "d1e4336b-cb92-584d-a69d-a49b91e7cb57",
               "description": "ExampleCo keeps privacy by design adequacy review boundary outside the machine-proof corridor and routes it for human review.",
               "implementation-status": {
                 "state": "implemented"
@@ -327,7 +341,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "f2e8bd9f-d394-57cd-a1dc-226f15f5f214",
+              "uuid": "74846298-356d-5891-bebb-a7d82846f91b",
               "description": "ExampleCo exports typed evidence covering typed periodic access review export present.",
               "implementation-status": {
                 "state": "implemented"
@@ -341,7 +355,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "c6a83314-318d-5ac3-a795-ddfbbad46109",
+              "uuid": "1215d1b5-12ba-53ab-88f0-d3f75d7614de",
               "description": "ExampleCo exports typed evidence covering default branch protections enforced.",
               "implementation-status": {
                 "state": "implemented"
@@ -355,7 +369,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "1c348a18-29da-5f9c-9133-f087d87a0480",
+              "uuid": "0d18d4d0-d545-53b5-aa06-6828db4a61c1",
               "description": "ExampleCo exports typed evidence covering ci workflow policy constrained.",
               "implementation-status": {
                 "state": "implemented"
@@ -369,7 +383,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "b37a8961-ef52-5b41-a78b-06c8848b195a",
+              "uuid": "eae4da19-6202-5ec5-816e-3edc925db77e",
               "description": "ExampleCo attaches a signed synthetic attestation covering change review governance attested.",
               "implementation-status": {
                 "state": "implemented"
@@ -383,7 +397,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "0024305e-ca57-563c-92be-5f971aaebcc4",
+              "uuid": "732a8f15-83f5-5623-a240-f972be2e5e5b",
               "description": "ExampleCo attaches a signed synthetic attestation covering access review closure attested.",
               "implementation-status": {
                 "state": "implemented"
@@ -397,7 +411,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "6c7d5604-4a2e-5ebe-8a18-8ba65f48be15",
+              "uuid": "a8b80ea8-9ad4-56ad-a177-aea161d5b59b",
               "description": "ExampleCo attaches a signed synthetic attestation covering configuration exceptions attested.",
               "implementation-status": {
                 "state": "implemented"
@@ -411,7 +425,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "fa0508d6-9473-53b5-ad79-252af1d17fff",
+              "uuid": "b1dd7e64-4e94-5beb-a472-6ec9988cd84e",
               "description": "ExampleCo attaches a signed synthetic attestation covering patch exceptions attested.",
               "implementation-status": {
                 "state": "implemented"
@@ -425,7 +439,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "edf3101c-4a42-5bfc-a9cb-03a26d359d02",
+              "uuid": "87337677-d393-5a87-ba75-96ac08f6a513",
               "description": "ExampleCo keeps patch adequacy review boundary outside the machine-proof corridor and routes it for human review.",
               "implementation-status": {
                 "state": "implemented"
@@ -439,7 +453,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "64a1ffdc-221d-568b-aade-b2c8bae783cf",
+              "uuid": "016348e3-396c-5256-b1a6-e065a582bcf1",
               "description": "ExampleCo attaches a signed synthetic attestation covering incident response runbook current.",
               "implementation-status": {
                 "state": "implemented"
@@ -453,7 +467,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "b8fac122-9d7f-5704-ac43-5b255cbbd6bd",
+              "uuid": "eed2f0ad-c186-59af-ba4b-f4ee7f25f520",
               "description": "ExampleCo attaches a signed synthetic attestation covering incident escalation paths maintained.",
               "implementation-status": {
                 "state": "implemented"
@@ -467,7 +481,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "2faa9a87-b277-5178-8545-0b03014524bd",
+              "uuid": "2ddcdbfe-8f7e-5b8c-9de4-a889a380d0a1",
               "description": "ExampleCo attaches a signed synthetic attestation covering vendor security terms attested.",
               "implementation-status": {
                 "state": "implemented"
@@ -481,7 +495,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "fb28cab3-620f-5fc7-8341-489cadfbcd2b",
+              "uuid": "9dffc588-62ff-52ab-8bcb-54da429dd430",
               "description": "ExampleCo keeps vendor management adequacy boundary outside the machine-proof corridor and routes it for human review.",
               "implementation-status": {
                 "state": "implemented"
@@ -495,7 +509,7 @@
           "by-components": [
             {
               "component-uuid": "4d43b177-0264-5186-a2cd-75d76e2034e8",
-              "uuid": "f85842eb-1879-5e73-9348-3200c7fcc8f5",
+              "uuid": "dd9cb8b6-062f-5131-8367-94742445b0f4",
               "description": "ExampleCo decomposes production change control decomposition boundary into machine checks plus signed governance evidence.",
               "implementation-status": {
                 "state": "implemented"

@@ -7,7 +7,7 @@
 
 This synthetic example shows a wider OpenCompliance corridor without pretending the corridor is complete:
 
-- `7` proved claims
+- `8` proved claims
 - `4` attested claims
 - `0` failed claims
 - `0` stale-evidence claims
@@ -20,6 +20,7 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 - Infrastructure access in the scoped production environment requires unique named identities with no shared administrative accounts.
 - Scoped customer and environment boundaries are enforced with no undeclared cross-environment paths in the production slice.
 - Scoped password-quality controls enforce strong minimum length, no maximum-length restriction, and common-password blocking.
+- A managed web application firewall is attached to the scoped public ingress path, runs in blocking mode, and has a managed rule set active.
 - Audit logging is enabled for the scoped production stack.
 - Encryption at rest is enabled for the scoped customer data stores and no unencrypted store is present.
 - A typed export of periodic access review evidence is present for the current review window.

@@ -87,6 +87,17 @@
             ]
           },
           {
+            "id": "oc.web-01",
+            "title": "Managed web application firewall attached",
+            "parts": [
+              {
+                "id": "oc.web-01_stmt",
+                "name": "statement",
+                "prose": "A managed web application firewall is attached to the scoped public ingress path, runs in blocking mode, and has a managed rule set active."
+              }
+            ]
+          },
+          {
             "id": "oc.log-01",
             "title": "Scoped audit logging enabled",
             "parts": [
