@@ -1,0 +1,128 @@
+{
+  "bundleId": "exampleco-issued-bundle-2026-03-24",
+  "generatedAt": "2026-03-24T02:10:00Z",
+  "verifierVersion": "opencompliance-example/0.3.0",
+  "organisation": "ExampleCo",
+  "profileId": "issued_narrow_corridor",
+  "frameworkIntent": [
+    "ISO 27001",
+    "SOC 2"
+  ],
+  "scope": {
+    "inScope": [
+      "Identity provider MFA enforcement",
+      "Cloud audit logging",
+      "Security awareness training records",
+      "Restore exercise attestations"
+    ],
+    "outOfScope": [
+      "Whole-program policy adequacy",
+      "Full disaster recovery program effectiveness",
+      "Clause-complete framework certification"
+    ],
+    "note": "Synthetic public-safe ExampleCo proof bundle with no blocking gaps in the narrow issued corridor."
+  },
+  "claims": [
+    {
+      "claimId": "EX-CLAIM-201",
+      "title": "Administrative identities require MFA in the scoped production environment.",
+      "result": "proved",
+      "frameworkMappings": [
+        {
+          "framework": "SOC 2",
+          "family": "access_control",
+          "controlId": "soc2.family.access_control"
+        },
+        {
+          "framework": "ISO 27001",
+          "family": "identity_and_access_management",
+          "controlId": "iso27001.family.identity_and_access_management"
+        }
+      ],
+      "controlRefs": [
+        "oc.id-01"
+      ],
+      "evidenceRefs": [
+        "EV-201"
+      ],
+      "basis": "The identity provider export states MFA is required and conditional access is enabled."
+    },
+    {
+      "claimId": "EX-CLAIM-202",
+      "title": "Audit logging is enabled for the scoped production stack.",
+      "result": "proved",
+      "frameworkMappings": [
+        {
+          "framework": "SOC 2",
+          "family": "logging_monitoring",
+          "controlId": "soc2.family.logging_monitoring"
+        },
+        {
+          "framework": "ISO 27001",
+          "family": "logging_and_monitoring",
+          "controlId": "iso27001.family.logging_and_monitoring"
+        }
+      ],
+      "controlRefs": [
+        "oc.log-01"
+      ],
+      "evidenceRefs": [
+        "EV-202"
+      ],
+      "basis": "The cloud export states audit logging is enabled with a declared retention period."
+    },
+    {
+      "claimId": "EX-CLAIM-203",
+      "title": "Security awareness training completion is documented for the current review window.",
+      "result": "attested",
+      "frameworkMappings": [
+        {
+          "framework": "ISO 27001",
+          "family": "awareness_and_training",
+          "controlId": "iso27001.family.awareness_and_training"
+        }
+      ],
+      "controlRefs": [
+        "oc.train-01"
+      ],
+      "evidenceRefs": [
+        "EV-203"
+      ],
+      "basis": "The training claim is documentary and signed by a named human actor."
+    },
+    {
+      "claimId": "EX-CLAIM-204",
+      "title": "Restore testing has been performed in the declared review window.",
+      "result": "attested",
+      "frameworkMappings": [
+        {
+          "framework": "SOC 2",
+          "family": "backup_and_recovery",
+          "controlId": "soc2.family.backup_and_recovery"
+        },
+        {
+          "framework": "ISO 27001",
+          "family": "backup_and_recovery",
+          "controlId": "iso27001.family.backup_and_recovery"
+        }
+      ],
+      "controlRefs": [
+        "oc.rec-01"
+      ],
+      "evidenceRefs": [
+        "EV-204"
+      ],
+      "basis": "The restore exercise claim is documentary and signed by a named human actor."
+    }
+  ],
+  "summary": {
+    "proved": 2,
+    "attested": 2,
+    "judgmentRequired": 0,
+    "evidenceMissing": 0
+  },
+  "nextActions": [
+    "Keep the issued corridor narrow and explicit instead of over-claiming full framework coverage.",
+    "Publish the replay bundle and certificate artifacts alongside the trust-surface report."
+  ]
+}

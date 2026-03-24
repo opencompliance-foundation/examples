@@ -1,0 +1,38 @@
+{
+  "certificateId": "exampleco-issued-certificate-001",
+  "status": "issued",
+  "issuedAt": "2026-03-24T02:10:00Z",
+  "bundleId": "exampleco-issued-bundle-2026-03-24",
+  "verifierVersion": "opencompliance-example/0.3.0",
+  "organisation": "ExampleCo",
+  "profileId": "issued_narrow_corridor",
+  "scope": {
+    "inScope": [
+      "Identity provider MFA enforcement",
+      "Cloud audit logging",
+      "Security awareness training records",
+      "Restore exercise attestations"
+    ],
+    "outOfScope": [
+      "Whole-program policy adequacy",
+      "Full disaster recovery program effectiveness",
+      "Clause-complete framework certification"
+    ],
+    "note": "Synthetic public-safe ExampleCo proof bundle with no blocking gaps in the narrow issued corridor."
+  },
+  "controlRefs": [
+    "oc.id-01",
+    "oc.log-01",
+    "oc.rec-01",
+    "oc.train-01"
+  ],
+  "coverage": {
+    "proved": 2,
+    "attested": 2,
+    "judgmentRequired": 0,
+    "evidenceMissing": 0
+  },
+  "proofBundleSha256": "459247b5a3670cda9d90d32b88d95204850279f13eb2fafee8dbec1a0fe379c5",
+  "trustSurfaceSha256": "f0b7cd6b17e62c6f3186fbc06961407b108f96a5e7aa1400328bdbf1c660e55a",
+  "note": "Synthetic narrow-corridor certificate artifact for an example bundle with no blocking gaps."
+}

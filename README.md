@@ -11,6 +11,9 @@ Only public-safe synthetic fixtures belong here.
   - typed evidence claims,
   - a proof bundle,
   - a trust-surface report,
+  - a verification-result envelope,
+  - a typed punch-list,
+  - a replay bundle,
   - a witness receipt,
   - a revocation artifact,
   - and a seed OSCAL projection of the same bundle.
@@ -19,4 +22,11 @@ Only public-safe synthetic fixtures belong here.
   - multi-framework family mappings across ISO 27001, SOC 2, IRAP, and GDPR,
   - a wider set of typed machine and human claims,
   - explicit control references back into the synthetic OpenCompliance corridor catalog,
+  - a blocked Verify path with a typed punch-list and replay bundle,
   - and a larger OSCAL-shaped projection that stays public-safe.
+- `issued/`
+  A narrow certificate-eligible ExampleCo corridor showing:
+  - deterministic success-path verification,
+  - a scoped certificate artifact,
+  - a replay bundle suitable for exact-match witness reruns,
+  - and the same public-safe OSCAL projection style as the other packs.

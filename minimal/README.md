@@ -10,6 +10,9 @@ It exists to make the artifact model concrete without exposing customer evidence
 - `evidence-claims.json`
 - `proof-bundle.json`
 - `trust-surface-report.md`
+- `verification-result.json`
+- `punch-list.json`
+- `replay-bundle.json`
 - `witness-receipt.json`
 - `revocation.json`
 - `oscal/`
@@ -18,6 +21,7 @@ It exists to make the artifact model concrete without exposing customer evidence
 
 - review the format shape,
 - test import/export logic,
+- inspect the blocked Verify path,
 - derive basic conformance vectors,
 - and show how the same synthetic company pack could be projected into OSCAL-shaped artifacts.
 

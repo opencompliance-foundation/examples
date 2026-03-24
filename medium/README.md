@@ -11,6 +11,9 @@ It exists to show a richer public-safe corridor than `../minimal/` without leaki
 - `evidence-claims.json`
 - `proof-bundle.json`
 - `trust-surface-report.md`
+- `verification-result.json`
+- `punch-list.json`
+- `replay-bundle.json`
 - `witness-receipt.json`
 - `revocation.json`
 - `oscal/`
@@ -21,6 +24,7 @@ It exists to show a richer public-safe corridor than `../minimal/` without leaki
 - more typed machine claims,
 - more typed human attestations,
 - explicit `controlRefs` back into the synthetic OpenCompliance corridor catalog,
+- a typed blocked outcome via `punch-list.json` and `verification-result.json`,
 - and a wider OSCAL-shaped projection.
 
 ## Intended use

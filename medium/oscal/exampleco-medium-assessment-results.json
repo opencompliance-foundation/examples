@@ -1,27 +1,27 @@
 {
   "assessment-results": {
-    "uuid": "25555555-5555-4555-8555-555555555555",
+    "uuid": "oc-medium-assessment-results",
     "metadata": {
       "title": "ExampleCo Medium Corridor Assessment Results",
       "published": "2026-03-24T01:25:00Z",
       "last-modified": "2026-03-24T01:25:00Z",
       "version": "0.2.0",
       "oscal-version": "1.1.3",
-      "remarks": "Synthetic public-safe assessment-results projection for the ExampleCo medium corridor."
+      "remarks": "Synthetic assessment-results style output derived from the ExampleCo public proof bundle."
     },
     "import-ap": {
       "href": "./exampleco-medium-assessment-plan.json"
     },
     "results": [
       {
-        "uuid": "25555555-5555-4555-8555-555555555556",
-        "title": "ExampleCo medium synthetic assessment result",
-        "start": "2026-03-24T01:20:00Z",
+        "uuid": "oc-medium-assessment-result-001",
+        "title": "ExampleCo medium corridor result",
+        "description": "Result set derived from the public ExampleCo proof bundle.",
+        "start": "2026-03-24T01:25:00Z",
         "end": "2026-03-24T01:25:00Z",
         "reviewed-controls": {
           "control-selections": [
             {
-              "description": "All controls in the ExampleCo medium corridor.",
               "include-controls": [
                 {
                   "control-id": "oc.id-01"
@@ -65,62 +65,172 @@
         },
         "observations": [
           {
-            "uuid": "25555555-5555-4555-8555-555555555561",
+            "uuid": "oc-medium-observation-001",
             "title": "Observation for EX-CLAIM-101",
+            "description": "The synthetic identity export shows MFA required and conditional access enabled for scoped administrative identities.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T01:25:00Z",
             "remarks": "EX-CLAIM-101 proved from EV-101."
           },
           {
-            "uuid": "25555555-5555-4555-8555-555555555562",
+            "uuid": "oc-medium-observation-002",
             "title": "Observation for EX-CLAIM-102",
+            "description": "The cloud logging export shows logging enabled and retention declared for the scoped runtime.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T01:25:00Z",
             "remarks": "EX-CLAIM-102 proved from EV-102."
           },
           {
-            "uuid": "25555555-5555-4555-8555-555555555563",
+            "uuid": "oc-medium-observation-003",
             "title": "Observation for EX-CLAIM-103",
+            "description": "The ingress export states HTTPS-only listeners, managed certificates, and a minimum TLS version of 1.2.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T01:25:00Z",
             "remarks": "EX-CLAIM-103 proved from EV-103."
           },
           {
-            "uuid": "25555555-5555-4555-8555-555555555564",
+            "uuid": "oc-medium-observation-004",
             "title": "Observation for EX-CLAIM-104",
+            "description": "The IAM export states no user-managed keys are present for the scoped runtime service accounts.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T01:25:00Z",
             "remarks": "EX-CLAIM-104 proved from EV-104."
           },
           {
-            "uuid": "25555555-5555-4555-8555-555555555565",
+            "uuid": "oc-medium-observation-005",
             "title": "Observation for EX-CLAIM-105",
+            "description": "The asset inventory export shows observed regions match the declared approved region list and no undeclared regions are present.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T01:25:00Z",
             "remarks": "EX-CLAIM-105 proved from EV-105."
           },
           {
-            "uuid": "25555555-5555-4555-8555-555555555566",
+            "uuid": "oc-medium-observation-006",
             "title": "Observation for EX-CLAIM-106",
+            "description": "The backup configuration export shows snapshots enabled with a 24-hour schedule and a declared immutable window.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T01:25:00Z",
             "remarks": "EX-CLAIM-106 proved from EV-106."
           },
           {
-            "uuid": "25555555-5555-4555-8555-555555555567",
+            "uuid": "oc-medium-observation-007",
             "title": "Observation for EX-CLAIM-107",
+            "description": "The training claim is a signed synthetic attestation by the named security manager.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T01:25:00Z",
             "remarks": "EX-CLAIM-107 attested from EV-107."
           },
           {
-            "uuid": "25555555-5555-4555-8555-555555555568",
+            "uuid": "oc-medium-observation-008",
             "title": "Observation for EX-CLAIM-108",
+            "description": "The restore exercise claim is a signed synthetic attestation by the platform lead.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T01:25:00Z",
             "remarks": "EX-CLAIM-108 attested from EV-108."
           },
           {
-            "uuid": "25555555-5555-4555-8555-555555555569",
+            "uuid": "oc-medium-observation-009",
             "title": "Observation for EX-CLAIM-109",
+            "description": "The vendor register claim is a signed synthetic attestation by the privacy manager.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T01:25:00Z",
             "remarks": "EX-CLAIM-109 attested from EV-109."
           },
           {
-            "uuid": "25555555-5555-4555-8555-555555555570",
+            "uuid": "oc-medium-observation-010",
             "title": "Observation for EX-CLAIM-110",
+            "description": "The DSR runbook claim is a signed synthetic attestation by the privacy manager.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T01:25:00Z",
             "remarks": "EX-CLAIM-110 attested from EV-110."
           },
           {
-            "uuid": "25555555-5555-4555-8555-555555555571",
+            "uuid": "oc-medium-observation-011",
             "title": "Observation for EX-CLAIM-112",
-            "remarks": "EX-CLAIM-112 is blocked because no typed access review export is attached."
+            "description": "The corridor expects a typed access-review export, but no such evidence is attached to this public synthetic pack.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T01:25:00Z",
+            "remarks": "EX-CLAIM-112 is blocked because no typed evidence is attached."
           }
         ]
       }
-    ]
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "oc-medium-proof-bundle-resource",
+          "title": "ExampleCo proof bundle",
+          "rlinks": [
+            {
+              "href": "../proof-bundle.json"
+            }
+          ]
+        },
+        {
+          "uuid": "oc-medium-trust-surface-resource",
+          "title": "ExampleCo trust-surface report",
+          "rlinks": [
+            {
+              "href": "../trust-surface-report.md"
+            }
+          ]
+        }
+      ]
+    }
   }
 }

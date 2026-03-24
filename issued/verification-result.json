@@ -1,0 +1,16 @@
+{
+  "verificationResultId": "exampleco-issued-bundle-2026-03-24-result",
+  "generatedAt": "2026-03-24T02:10:00Z",
+  "bundleId": "exampleco-issued-bundle-2026-03-24",
+  "verifierVersion": "opencompliance-example/0.3.0",
+  "organisation": "ExampleCo",
+  "profileId": "issued_narrow_corridor",
+  "outcome": "certificate_issued",
+  "proofBundleSha256": "459247b5a3670cda9d90d32b88d95204850279f13eb2fafee8dbec1a0fe379c5",
+  "trustSurfaceSha256": "f0b7cd6b17e62c6f3186fbc06961407b108f96a5e7aa1400328bdbf1c660e55a",
+  "outcomeArtifact": {
+    "path": "certificate.json",
+    "sha256": "0280d7b37bc3fb6297a4c82ab82595c2944c38a392e51b9e131a5e685b45aa78"
+  },
+  "blockingIssueCount": 0
+}

@@ -1,24 +1,24 @@
 {
   "assessment-results": {
-    "uuid": "oc-minimal-assessment-results",
+    "uuid": "oc-issued-assessment-results",
     "metadata": {
-      "title": "ExampleCo Minimal Corridor Assessment Results",
-      "published": "2026-03-24T00:05:00Z",
-      "last-modified": "2026-03-24T00:05:00Z",
-      "version": "0.1.0",
+      "title": "ExampleCo Issued Corridor Assessment Results",
+      "published": "2026-03-24T02:10:00Z",
+      "last-modified": "2026-03-24T02:10:00Z",
+      "version": "0.3.0",
       "oscal-version": "1.1.3",
       "remarks": "Synthetic assessment-results style output derived from the ExampleCo public proof bundle."
     },
     "import-ap": {
-      "href": "./exampleco-minimal-assessment-plan.json"
+      "href": "./exampleco-issued-assessment-plan.json"
     },
     "results": [
       {
-        "uuid": "oc-minimal-assessment-result-001",
-        "title": "ExampleCo minimal corridor result",
+        "uuid": "oc-issued-assessment-result-001",
+        "title": "ExampleCo issued corridor result",
         "description": "Result set derived from the public ExampleCo proof bundle.",
-        "start": "2026-03-24T00:05:00Z",
-        "end": "2026-03-24T00:05:00Z",
+        "start": "2026-03-24T02:10:00Z",
+        "end": "2026-03-24T02:10:00Z",
         "reviewed-controls": {
           "control-selections": [
             {
@@ -41,8 +41,8 @@
         },
         "observations": [
           {
-            "uuid": "oc-minimal-observation-001",
-            "title": "Observation for EX-CLAIM-001",
+            "uuid": "oc-issued-observation-001",
+            "title": "Observation for EX-CLAIM-201",
             "description": "The identity provider export states MFA is required and conditional access is enabled.",
             "methods": [
               "EXAMINE"
@@ -50,12 +50,12 @@
             "types": [
               "observation"
             ],
-            "collected": "2026-03-24T00:05:00Z",
-            "remarks": "EX-CLAIM-001 proved from EV-001."
+            "collected": "2026-03-24T02:10:00Z",
+            "remarks": "EX-CLAIM-201 proved from EV-201."
           },
           {
-            "uuid": "oc-minimal-observation-002",
-            "title": "Observation for EX-CLAIM-002",
+            "uuid": "oc-issued-observation-002",
+            "title": "Observation for EX-CLAIM-202",
             "description": "The cloud export states audit logging is enabled with a declared retention period.",
             "methods": [
               "EXAMINE"
@@ -63,12 +63,12 @@
             "types": [
               "observation"
             ],
-            "collected": "2026-03-24T00:05:00Z",
-            "remarks": "EX-CLAIM-002 proved from EV-002."
+            "collected": "2026-03-24T02:10:00Z",
+            "remarks": "EX-CLAIM-202 proved from EV-202."
           },
           {
-            "uuid": "oc-minimal-observation-003",
-            "title": "Observation for EX-CLAIM-003",
+            "uuid": "oc-issued-observation-003",
+            "title": "Observation for EX-CLAIM-203",
             "description": "The training claim is documentary and signed by a named human actor.",
             "methods": [
               "EXAMINE"
@@ -76,21 +76,21 @@
             "types": [
               "observation"
             ],
-            "collected": "2026-03-24T00:05:00Z",
-            "remarks": "EX-CLAIM-003 attested from EV-003."
+            "collected": "2026-03-24T02:10:00Z",
+            "remarks": "EX-CLAIM-203 attested from EV-203."
           },
           {
-            "uuid": "oc-minimal-observation-004",
-            "title": "Observation for EX-CLAIM-005",
-            "description": "No typed restore-test export is attached to this public example.",
+            "uuid": "oc-issued-observation-004",
+            "title": "Observation for EX-CLAIM-204",
+            "description": "The restore exercise claim is documentary and signed by a named human actor.",
             "methods": [
               "EXAMINE"
             ],
             "types": [
               "observation"
             ],
-            "collected": "2026-03-24T00:05:00Z",
-            "remarks": "EX-CLAIM-005 is blocked because no typed evidence is attached."
+            "collected": "2026-03-24T02:10:00Z",
+            "remarks": "EX-CLAIM-204 attested from EV-204."
           }
         ]
       }
@@ -98,7 +98,7 @@
     "back-matter": {
       "resources": [
         {
-          "uuid": "oc-minimal-proof-bundle-resource",
+          "uuid": "oc-issued-proof-bundle-resource",
           "title": "ExampleCo proof bundle",
           "rlinks": [
             {
@@ -107,7 +107,7 @@
           ]
         },
         {
-          "uuid": "oc-minimal-trust-surface-resource",
+          "uuid": "oc-issued-trust-surface-resource",
           "title": "ExampleCo trust-surface report",
           "rlinks": [
             {
