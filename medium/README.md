@@ -27,7 +27,7 @@ It exists to show a richer public-safe corridor than `../minimal/` without leaki
 - four-framework family mappings across ISO 27001, SOC 2, IRAP, and GDPR,
 - more typed machine claims,
 - more typed human attestations,
-- raw source-export inputs for IAM, cloud config, repo policy, CI policy, and signed attestations,
+- raw source-export inputs for IAM, cloud config, storage encryption, repo policy, CI policy, and signed attestations,
 - a mixed change-control decomposition that keeps repo policy, CI policy, and signed governance evidence distinct,
 - explicit `controlRefs` back into the synthetic OpenCompliance corridor catalog,
 - a typed blocked outcome via `punch-list.json` and `verification-result.json`,
@@ -43,6 +43,6 @@ It exists to show a richer public-safe corridor than `../minimal/` without leaki
 
 ## Connector note
 
-The medium source-export path now includes synthetic repo branch-protection and CI workflow-policy claims plus signed governance attestations for change review, access-review closure, configuration exceptions, patch exceptions, incident procedures, incident contact maintenance, and vendor terms, and those claims now drive checked-in verification results for the public ExampleCo medium corridor.
+The medium source-export path now includes synthetic repo branch-protection, CI workflow-policy, and storage-encryption claims plus signed governance attestations for change review, access-review closure, configuration exceptions, patch exceptions, incident procedures, incident contact maintenance, and vendor terms, and those claims now drive checked-in verification results for the public ExampleCo medium corridor.
 
-That means the public connector surface and the public proof corridor now both cover repo, CI/CD, IAM/MFA, cloud/config, privacy operations, vendor governance, incident governance, and signed exception handling evidence in the same synthetic pack.
+That means the public connector surface and the public proof corridor now both cover repo, CI/CD, IAM/MFA, cloud/config, storage confidentiality, privacy operations, vendor governance, incident governance, and signed exception handling evidence in the same synthetic pack.

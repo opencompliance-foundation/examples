@@ -17,6 +17,7 @@
             "with-ids": [
               "oc.id-01",
               "oc.log-01",
+              "oc.crypt-01",
               "oc.train-01",
               "oc.rec-01",
               "oc.id-02",

@@ -110,6 +110,43 @@
             ]
           },
           {
+            "uuid": "88bd5321-921c-5175-83f4-7b6dae56ff19",
+            "relationship": "subset-of",
+            "matching-rationale": "Encryption at rest enabled is one narrow synthetic OpenCompliance slice of the broader encryption_at_rest, encryption_at_rest, data_at_rest_protection, security_of_processing, data_at_rest_protection, and protection_of_information_at_rest families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.crypt-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.encryption_at_rest"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.encryption_at_rest"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.data_at_rest_protection"
+              },
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.security_of_processing"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.data_at_rest_protection"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.protection_of_information_at_rest"
+              }
+            ]
+          },
+          {
             "uuid": "513fbbf0-4914-5a47-8f3a-1ae1a5e07531",
             "relationship": "subset-of",
             "matching-rationale": "Training completion record available is one narrow synthetic OpenCompliance slice of the broader security_awareness and awareness_and_training families.",

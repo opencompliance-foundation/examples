@@ -6,7 +6,7 @@
   "organisation": "ExampleCo",
   "profileId": "issued_narrow_corridor",
   "routeSummary": {
-    "decidable": 3,
+    "decidable": 4,
     "attestation": 4,
     "judgment": 0
   },
@@ -34,6 +34,18 @@
       "evidenceRequired": true,
       "leanBacked": true,
       "rationale": "Deterministic machine state over a narrow logging predicate."
+    },
+    {
+      "claimId": "EX-CLAIM-208",
+      "title": "Encryption at rest is enabled for the scoped customer data stores and no unencrypted store is present.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.crypt-01"
+      ],
+      "expectedClaimType": "encryption_at_rest_state",
+      "evidenceRequired": true,
+      "leanBacked": true,
+      "rationale": "Deterministic storage-configuration state over a narrow encryption-at-rest predicate."
     },
     {
       "claimId": "EX-CLAIM-203",

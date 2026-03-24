@@ -34,6 +34,9 @@
               "control-id": "oc.net-04"
             },
             {
+              "control-id": "oc.crypt-01"
+            },
+            {
               "control-id": "oc.key-01"
             },
             {

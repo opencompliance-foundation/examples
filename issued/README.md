@@ -26,6 +26,7 @@ It exists to show the narrow certificate path for OpenCompliance without leaking
 - the corridor is intentionally narrower than `../medium/`,
 - every in-scope control has either machine evidence or signed attestation,
 - typed access-review exports and signed closure attestations now appear together in the same issued pack,
+- the pack now also carries a narrow proved storage-encryption slice instead of leaving encryption-at-rest as prose only,
 - the pack also includes a signed incident-runbook attestation without pretending to prove the whole incident program,
 - there are no judgment-required or missing-evidence blockers,
 - and the deterministic Verify surface therefore issues a synthetic certificate artifact instead of a punch-list.

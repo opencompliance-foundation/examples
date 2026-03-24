@@ -42,6 +42,9 @@
                   "control-id": "oc.net-04"
                 },
                 {
+                  "control-id": "oc.crypt-01"
+                },
+                {
                   "control-id": "oc.key-01"
                 },
                 {
@@ -189,6 +192,19 @@
           },
           {
             "uuid": "oc-medium-observation-007",
+            "title": "Observation for EX-CLAIM-127",
+            "description": "The storage export shows encryption enabled across the scoped customer data stores and no unencrypted store present in the declared slice.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T01:25:00Z",
+            "remarks": "EX-CLAIM-127 proved from EV-127."
+          },
+          {
+            "uuid": "oc-medium-observation-008",
             "title": "Observation for EX-CLAIM-104",
             "description": "The IAM export states no user-managed keys are present for the scoped runtime service accounts.",
             "methods": [
@@ -201,7 +217,7 @@
             "remarks": "EX-CLAIM-104 proved from EV-104."
           },
           {
-            "uuid": "oc-medium-observation-008",
+            "uuid": "oc-medium-observation-009",
             "title": "Observation for EX-CLAIM-105",
             "description": "The asset inventory export shows observed regions match the declared approved region list and no undeclared regions are present.",
             "methods": [
@@ -214,7 +230,7 @@
             "remarks": "EX-CLAIM-105 proved from EV-105."
           },
           {
-            "uuid": "oc-medium-observation-009",
+            "uuid": "oc-medium-observation-010",
             "title": "Observation for EX-CLAIM-106",
             "description": "The backup configuration export shows snapshots enabled with a 24-hour schedule and a declared immutable window.",
             "methods": [
@@ -227,7 +243,7 @@
             "remarks": "EX-CLAIM-106 proved from EV-106."
           },
           {
-            "uuid": "oc-medium-observation-010",
+            "uuid": "oc-medium-observation-011",
             "title": "Observation for EX-CLAIM-107",
             "description": "The training claim is a signed synthetic attestation by the named security manager.",
             "methods": [
@@ -240,7 +256,7 @@
             "remarks": "EX-CLAIM-107 attested from EV-107."
           },
           {
-            "uuid": "oc-medium-observation-011",
+            "uuid": "oc-medium-observation-012",
             "title": "Observation for EX-CLAIM-108",
             "description": "The restore exercise claim is a signed synthetic attestation by the platform lead.",
             "methods": [
@@ -253,7 +269,7 @@
             "remarks": "EX-CLAIM-108 attested from EV-108."
           },
           {
-            "uuid": "oc-medium-observation-012",
+            "uuid": "oc-medium-observation-013",
             "title": "Observation for EX-CLAIM-109",
             "description": "The vendor register claim is a signed synthetic attestation by the privacy manager.",
             "methods": [
@@ -266,7 +282,7 @@
             "remarks": "EX-CLAIM-109 attested from EV-109."
           },
           {
-            "uuid": "oc-medium-observation-013",
+            "uuid": "oc-medium-observation-014",
             "title": "Observation for EX-CLAIM-110",
             "description": "The DSR runbook claim is a signed synthetic attestation by the privacy manager.",
             "methods": [
@@ -279,7 +295,7 @@
             "remarks": "EX-CLAIM-110 attested from EV-110."
           },
           {
-            "uuid": "oc-medium-observation-014",
+            "uuid": "oc-medium-observation-015",
             "title": "Observation for EX-CLAIM-112",
             "description": "The corridor expects a typed access-review export, but no such evidence is attached to this public synthetic pack.",
             "methods": [
@@ -292,7 +308,7 @@
             "remarks": "EX-CLAIM-112 is blocked because no typed evidence is attached."
           },
           {
-            "uuid": "oc-medium-observation-015",
+            "uuid": "oc-medium-observation-016",
             "title": "Observation for EX-CLAIM-113",
             "description": "The repository export shows the default branch is protected, approvals are required, status checks are enforced, and force pushes are blocked.",
             "methods": [
@@ -305,7 +321,7 @@
             "remarks": "EX-CLAIM-113 proved from EV-111."
           },
           {
-            "uuid": "oc-medium-observation-016",
+            "uuid": "oc-medium-observation-017",
             "title": "Observation for EX-CLAIM-114",
             "description": "The CI export shows workflow review, trusted publishing, protected refs, and environment approvals are all required.",
             "methods": [
@@ -318,7 +334,7 @@
             "remarks": "EX-CLAIM-114 proved from EV-112."
           },
           {
-            "uuid": "oc-medium-observation-017",
+            "uuid": "oc-medium-observation-018",
             "title": "Observation for EX-CLAIM-115",
             "description": "The change-review governance claim is a signed synthetic attestation by the named change owner.",
             "methods": [
@@ -331,7 +347,7 @@
             "remarks": "EX-CLAIM-115 attested from EV-113."
           },
           {
-            "uuid": "oc-medium-observation-018",
+            "uuid": "oc-medium-observation-019",
             "title": "Observation for EX-CLAIM-116",
             "description": "The access-review closure claim is a signed synthetic attestation by the named identity governance owner.",
             "methods": [
@@ -344,7 +360,7 @@
             "remarks": "EX-CLAIM-116 attested from EV-114."
           },
           {
-            "uuid": "oc-medium-observation-019",
+            "uuid": "oc-medium-observation-020",
             "title": "Observation for EX-CLAIM-117",
             "description": "The configuration-exception claim is a signed synthetic attestation by the named platform security owner.",
             "methods": [
@@ -357,7 +373,7 @@
             "remarks": "EX-CLAIM-117 attested from EV-115."
           },
           {
-            "uuid": "oc-medium-observation-020",
+            "uuid": "oc-medium-observation-021",
             "title": "Observation for EX-CLAIM-118",
             "description": "The patch-exception claim is a signed synthetic attestation by the named operations owner.",
             "methods": [
@@ -370,7 +386,7 @@
             "remarks": "EX-CLAIM-118 attested from EV-116."
           },
           {
-            "uuid": "oc-medium-observation-021",
+            "uuid": "oc-medium-observation-022",
             "title": "Observation for EX-CLAIM-120",
             "description": "The incident-runbook claim is a signed synthetic attestation by the named security operations owner.",
             "methods": [
@@ -383,7 +399,7 @@
             "remarks": "EX-CLAIM-120 attested from EV-117."
           },
           {
-            "uuid": "oc-medium-observation-022",
+            "uuid": "oc-medium-observation-023",
             "title": "Observation for EX-CLAIM-121",
             "description": "The incident-contact claim is a signed synthetic attestation by the named security operations owner.",
             "methods": [
@@ -396,7 +412,7 @@
             "remarks": "EX-CLAIM-121 attested from EV-118."
           },
           {
-            "uuid": "oc-medium-observation-023",
+            "uuid": "oc-medium-observation-024",
             "title": "Observation for EX-CLAIM-122",
             "description": "The vendor-terms claim is a signed synthetic attestation by the named privacy and supplier-assurance owner.",
             "methods": [

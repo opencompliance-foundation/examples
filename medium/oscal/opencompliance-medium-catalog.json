@@ -65,6 +65,17 @@
             ]
           },
           {
+            "id": "oc.crypt-01",
+            "title": "Encryption at rest enabled",
+            "parts": [
+              {
+                "id": "oc.crypt-01_stmt",
+                "name": "statement",
+                "prose": "Encryption at rest is enabled for the scoped customer data stores and no unencrypted store is present."
+              }
+            ]
+          },
+          {
             "id": "oc.key-01",
             "title": "No user-managed long-lived machine keys",
             "parts": [

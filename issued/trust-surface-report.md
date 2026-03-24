@@ -7,7 +7,7 @@
 
 This synthetic example shows a wider OpenCompliance corridor without pretending the corridor is complete:
 
-- `3` proved claims
+- `4` proved claims
 - `4` attested claims
 - `0` failed claims
 - `0` stale-evidence claims
@@ -18,6 +18,7 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 
 - Administrative identities require MFA in the scoped production environment.
 - Audit logging is enabled for the scoped production stack.
+- Encryption at rest is enabled for the scoped customer data stores and no unencrypted store is present.
 - A typed export of periodic access review evidence is present for the current review window.
 
 ## Attested

@@ -6,7 +6,7 @@
   "organisation": "ExampleCo",
   "profileId": "medium_multiframework_corridor",
   "routeSummary": {
-    "decidable": 12,
+    "decidable": 13,
     "attestation": 11,
     "judgment": 3
   },
@@ -82,6 +82,18 @@
       "evidenceRequired": true,
       "leanBacked": true,
       "rationale": "Deterministic transport-policy state over a narrow plaintext-disabled predicate."
+    },
+    {
+      "claimId": "EX-CLAIM-127",
+      "title": "Encryption at rest is enabled for the scoped customer data stores and no unencrypted store is present.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.crypt-01"
+      ],
+      "expectedClaimType": "encryption_at_rest_state",
+      "evidenceRequired": true,
+      "leanBacked": true,
+      "rationale": "Deterministic storage-configuration state over a narrow encryption-at-rest predicate."
     },
     {
       "claimId": "EX-CLAIM-104",

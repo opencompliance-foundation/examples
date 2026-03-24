@@ -7,7 +7,7 @@
 
 This synthetic example shows a wider OpenCompliance corridor without pretending the corridor is complete:
 
-- `11` proved claims
+- `12` proved claims
 - `11` attested claims
 - `0` failed claims
 - `0` stale-evidence claims
@@ -22,6 +22,7 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 - The managed network boundary is attached to the declared ingress path for scoped public services.
 - Administrative ingress is restricted to approved source ranges at the managed network boundary.
 - Plaintext transport is disabled on the scoped public ingress path.
+- Encryption at rest is enabled for the scoped customer data stores and no unencrypted store is present.
 - Scoped runtime service accounts do not use user-managed long-lived keys.
 - The scoped workload runs only in the declared approved regions.
 - Backup snapshots are scheduled with a declared immutable retention window.
