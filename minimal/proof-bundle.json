@@ -39,7 +39,8 @@
       "title": "Audit logging is enabled for the scoped production stack.",
       "result": "proved",
       "frameworkFamilies": [
-        "logging_monitoring"
+        "logging_monitoring",
+        "logging_and_monitoring"
       ],
       "evidenceRefs": [
         "EV-002"
