@@ -3,7 +3,7 @@
   "generatedAt": "2026-03-24T22:00:00Z",
   "bundleId": "exampleco-cyber-baseline-bundle-2026-03-24",
   "hashAlgorithm": "sha256",
-  "rootHash": "af0a80b2d497d69068218433e7061645695ac5b7a46fa3b842f2ec9247a71051",
+  "rootHash": "e307513c6fd07dba81fb54c46fdf7deb31ba352048e9ec4e120762cfc2f44376",
   "entries": [
     {
       "index": 0,
@@ -23,8 +23,8 @@
       "index": 2,
       "artifactType": "proof_bundle",
       "path": "proof-bundle.json",
-      "artifactSha256": "337eae0d32c03367be1eb1bfe4767898a64831dcd98253e09575c11e80ee90fd",
-      "leafHash": "9eb595e4dbfe99439f3f9a669d41f133717841f4d2eca7a356b1bc7efa52712e"
+      "artifactSha256": "c06fa306a9505069b80baade5efaf75a373f6d7890ae75d8d1a0458fe9bbdfbf",
+      "leafHash": "e3b224d800c80fa9ec86f79de6329163a3e83004c3d3199618a81d0159125fe4"
     },
     {
       "index": 3,
@@ -37,29 +37,29 @@
       "index": 4,
       "artifactType": "verification_result",
       "path": "verification-result.json",
-      "artifactSha256": "ee70eaa061350796b66f8343c56e0c8305b0b536f2c67b52d134e5985ee04a63",
-      "leafHash": "58af1f9877e95801b863aa6e085f1ccf9201b401205c8c3176b2ec0212c4d267"
+      "artifactSha256": "6bd97eef19a5ffc3de52488773e9bc4403c5c6714ce17f1a600647524c99ddb8",
+      "leafHash": "fda89ec53d8403bd13c05eddfb346b37b4c9decdf3902268b04e0a6b0dcb9382"
     },
     {
       "index": 5,
       "artifactType": "certificate",
       "path": "certificate.json",
-      "artifactSha256": "f6db715968d5a182d94a0da9809d26f70a8a8ffb7298c3feddf418710ec661d1",
-      "leafHash": "8fbf64dd11f6ffa3d0def43a87a721ef9132ea81f06d99ad561efaaa1afad0d4"
+      "artifactSha256": "6cac8209b7074018a447141dbd01e5891af64da36de402b0f49a9190257a7717",
+      "leafHash": "163cc725898db1f74e3f3e3a2d091f1377597b139f1fd7b0c0099adcb7cc89a3"
     },
     {
       "index": 6,
       "artifactType": "replay_bundle",
       "path": "replay-bundle.json",
-      "artifactSha256": "15459d82a7d4709421bf959b73fef23049eba2095f860906bdc0c01eb8d93504",
-      "leafHash": "37202568c0ccfea542c4804d004f3faefe2098fdce507d534e73704d8e6c4e15"
+      "artifactSha256": "b1e71f608334f2084e0bba44a10c5045008707796c92a60ba23575e11a599e09",
+      "leafHash": "e628782f0ac35c12cd834e528a3605da7574cf60c4caa80ebb645a8ac25cfe28"
     },
     {
       "index": 7,
       "artifactType": "witness_receipt",
       "path": "witness-receipt.json",
-      "artifactSha256": "913d34025190cefeebc68833a6ca3d30c5f8767d2f434c83c60cfc9b0f20674c",
-      "leafHash": "182754eafc8ce3e57bafa1cbe641a3a195b72721a0a6137a71157eb29bc120dc"
+      "artifactSha256": "bccd277acf16ca5c280b0467b28ba4549a54f525a642397ce954419ae582aea7",
+      "leafHash": "fe31025359868d2aeb9d9d5417f6c068e59270343499e094d807af3c23475f6d"
     },
     {
       "index": 8,

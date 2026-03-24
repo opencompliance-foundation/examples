@@ -15,7 +15,7 @@
     "system-characteristics": {
       "system-ids": [
         {
-          "identifier-type": "https://opencompliance.aguilar-pelaez.co.uk/example-system-id",
+          "identifier-type": "https://opencompliancefoundation.com/example-system-id",
           "id": "exampleco-medium-corridor"
         }
       ],

@@ -6,7 +6,7 @@
   "organisation": "ExampleCo",
   "profileId": "medium_multiframework_corridor",
   "outcome": "punch_list_issued",
-  "proofBundleSha256": "b8c5f5695c5aabfdf9c4ffdc478ae6709ef584d9084118ea9d2689a9a5575641",
+  "proofBundleSha256": "26f1e4ffa2e7ae7adb4a41d0dacd6cf6724763d063a0f6a32d9ed7f6fc7518ce",
   "trustSurfaceSha256": "ac3e7973dd49f12c2444e83a93d5fcb510da1f31ef3cba32b09a71a3f6908595",
   "outcomeArtifact": {
     "path": "punch-list.json",

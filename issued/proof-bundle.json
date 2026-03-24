@@ -245,6 +245,55 @@
         "theorem": "claim_EX_CLAIM_202_proved"
       }
     ],
+    "typedBoundaryLayer": {
+      "source": "LegalLean",
+      "dependency": {
+        "package": "legal-lean",
+        "primaryImports": [
+          "LegalLean.Core",
+          "LegalLean.Defeasible",
+          "LegalLean.Solver"
+        ]
+      },
+      "typedModules": [
+        {
+          "module": "OpenCompliance.Controls.Typed.TypedIdentity",
+          "covers": [
+            "FormalisationBoundary.formal",
+            "FormalisationBoundary.boundary",
+            "RequiresHumanDetermination"
+          ]
+        },
+        {
+          "module": "OpenCompliance.Controls.Typed.RiskAcceptance",
+          "covers": [
+            "Defeats",
+            "risk_acceptance_override"
+          ]
+        },
+        {
+          "module": "OpenCompliance.Controls.Typed.DiscretionaryTerms",
+          "covers": [
+            "Vague",
+            "judgment_boundary_inventory"
+          ]
+        },
+        {
+          "module": "OpenCompliance.Controls.Typed.ComplianceSolver",
+          "covers": [
+            "LegalLean.Solver",
+            "minimal_claim_corpus"
+          ]
+        }
+      ],
+      "runtimeStatus": {
+        "typedControlResultsLive": true,
+        "riskAcceptanceDefeasibilityLive": true,
+        "discretionaryTermTypingLive": true,
+        "fullMinimalSolverAgreement": false,
+        "pythonVerdictLayerReplaced": false
+      }
+    },
     "boundaryInventory": {
       "provedClaimCount": 3,
       "leanBackedClaimCount": 2,

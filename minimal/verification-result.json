@@ -6,7 +6,7 @@
   "organisation": "ExampleCo",
   "profileId": "minimal_saas_corridor",
   "outcome": "punch_list_issued",
-  "proofBundleSha256": "83fc36ba18bc43177c7d8c97bc957ef48fc0458d181f7de4569ee5acb1ccd244",
+  "proofBundleSha256": "3e6fb9299a14eeb708495af2d2cb9e3829938716e9a192c4f3271ab0a55ae442",
   "trustSurfaceSha256": "a5b6d7c3f5144fe7efd4095f6359bd0f819e167118bbcb45784ab39a103943af",
   "outcomeArtifact": {
     "path": "punch-list.json",
