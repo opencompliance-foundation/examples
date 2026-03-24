@@ -50,6 +50,13 @@
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
     {
+      "id": "soc2.family.change_management",
+      "framework": "SOC 2",
+      "family": "change_management",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
       "id": "iso27001.family.identity_and_access_management",
       "framework": "ISO 27001",
       "family": "identity_and_access_management",
@@ -99,6 +106,13 @@
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
     {
+      "id": "iso27001.family.secure_development_and_change_control",
+      "framework": "ISO 27001",
+      "family": "secure_development_and_change_control",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
       "id": "irap.family.identity_access",
       "framework": "IRAP",
       "family": "identity_access",
@@ -137,6 +151,13 @@
       "id": "irap.family.backup_and_recovery",
       "framework": "IRAP",
       "family": "backup_and_recovery",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "irap.family.secure_development_and_change",
+      "framework": "IRAP",
+      "family": "secure_development_and_change",
       "level": "family",
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },

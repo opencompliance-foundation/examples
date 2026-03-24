@@ -1,0 +1,13 @@
+{
+  "collectedAt": "2026-03-24T01:22:00Z",
+  "sourceSystem": "example-ci",
+  "actorId": "ci-policy-exporter",
+  "environment": "production",
+  "assetGroup": "deployment_workflows",
+  "evaluatedAt": "2026-03-24T01:22:00Z",
+  "expiresAt": "2026-03-31T01:22:00Z",
+  "workflowReviewRequired": true,
+  "trustedPublishingOnly": true,
+  "protectedRefsOnly": true,
+  "environmentApprovalsRequired": true
+}

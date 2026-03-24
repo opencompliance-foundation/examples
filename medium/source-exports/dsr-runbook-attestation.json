@@ -1,0 +1,13 @@
+{
+  "collectedAt": "2026-03-24T01:18:00Z",
+  "sourceSystem": "example-governance",
+  "actorId": "privacy-manager",
+  "environment": "organisation",
+  "assetGroup": "privacy_operations",
+  "evaluatedAt": "2026-03-24T01:18:00Z",
+  "expiresAt": "2026-06-24T01:18:00Z",
+  "signatureType": "synthetic_attestation",
+  "runbookApproved": true,
+  "ownerRole": "privacy_manager",
+  "reviewWindowDays": 180
+}

@@ -1,0 +1,18 @@
+{
+  "collectedAt": "2026-03-24T01:08:00Z",
+  "sourceSystem": "example-cloud-asset-inventory",
+  "actorId": "asset-inventory-bot",
+  "environment": "production",
+  "assetGroup": "customer_data_plane",
+  "evaluatedAt": "2026-03-24T01:08:00Z",
+  "expiresAt": "2026-03-31T01:08:00Z",
+  "approvedRegions": [
+    "eu-west-1",
+    "au-southeast-1"
+  ],
+  "observedRegions": [
+    "eu-west-1",
+    "au-southeast-1"
+  ],
+  "undeclaredRegionsPresent": false
+}

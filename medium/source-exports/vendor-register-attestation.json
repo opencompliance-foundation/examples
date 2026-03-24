@@ -1,0 +1,13 @@
+{
+  "collectedAt": "2026-03-24T01:16:00Z",
+  "sourceSystem": "example-governance",
+  "actorId": "privacy-manager",
+  "environment": "organisation",
+  "assetGroup": "third_party_processors",
+  "evaluatedAt": "2026-03-24T01:16:00Z",
+  "expiresAt": "2026-06-24T01:16:00Z",
+  "signatureType": "synthetic_attestation",
+  "registerCurrent": true,
+  "dpaCoverageDeclared": true,
+  "reviewedSubprocessors": 4
+}

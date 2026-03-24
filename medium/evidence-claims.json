@@ -317,15 +317,15 @@
       "evaluatedAt": "2026-03-24T01:12:00Z",
       "expiresAt": "2026-09-24T01:12:00Z"
     },
-    "signer": {
-      "signerId": "security-manager",
-      "signerType": "human",
-      "signatureType": "synthetic_attestation"
-    },
     "payload": {
       "trainingComplete": true,
       "completionWindowDays": 365,
       "attestedPopulation": "all_staff"
+    },
+    "signer": {
+      "signerId": "security-manager",
+      "signerType": "human",
+      "signatureType": "synthetic_attestation"
     },
     "provenance": {
       "exportId": "attestation-exampleco-training-2026-q1",
@@ -368,15 +368,15 @@
       "evaluatedAt": "2026-03-24T01:14:00Z",
       "expiresAt": "2026-06-24T01:14:00Z"
     },
-    "signer": {
-      "signerId": "platform-lead",
-      "signerType": "human",
-      "signatureType": "synthetic_attestation"
-    },
     "payload": {
       "restoreTestCompleted": true,
       "testWindowDays": 90,
       "scenarioId": "restore-drill-q1"
+    },
+    "signer": {
+      "signerId": "platform-lead",
+      "signerType": "human",
+      "signatureType": "synthetic_attestation"
     },
     "provenance": {
       "exportId": "attestation-exampleco-restore-q1",
@@ -419,15 +419,15 @@
       "evaluatedAt": "2026-03-24T01:16:00Z",
       "expiresAt": "2026-06-24T01:16:00Z"
     },
-    "signer": {
-      "signerId": "privacy-manager",
-      "signerType": "human",
-      "signatureType": "synthetic_attestation"
-    },
     "payload": {
       "registerCurrent": true,
       "dpaCoverageDeclared": true,
       "reviewedSubprocessors": 4
+    },
+    "signer": {
+      "signerId": "privacy-manager",
+      "signerType": "human",
+      "signatureType": "synthetic_attestation"
     },
     "provenance": {
       "exportId": "attestation-exampleco-vendors-2026-q1",
@@ -460,20 +460,115 @@
       "evaluatedAt": "2026-03-24T01:18:00Z",
       "expiresAt": "2026-06-24T01:18:00Z"
     },
-    "signer": {
-      "signerId": "privacy-manager",
-      "signerType": "human",
-      "signatureType": "synthetic_attestation"
-    },
     "payload": {
       "runbookApproved": true,
       "ownerRole": "privacy_manager",
       "reviewWindowDays": 180
     },
+    "signer": {
+      "signerId": "privacy-manager",
+      "signerType": "human",
+      "signatureType": "synthetic_attestation"
+    },
     "provenance": {
       "exportId": "attestation-exampleco-dsr-2026-q1",
       "collectionMethod": "synthetic_attestation",
       "sourcePath": "attestations/dsr-runbook-q1.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-111",
+    "claimType": "repo_branch_protection",
+    "collectedAt": "2026-03-24T01:20:00Z",
+    "sourceSystem": "example-repo",
+    "actor": {
+      "actorId": "repo-policy-exporter",
+      "actorType": "system"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "change_management",
+        "controlId": "soc2.family.change_management"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "secure_development_and_change_control",
+        "controlId": "iso27001.family.secure_development_and_change_control"
+      },
+      {
+        "framework": "IRAP",
+        "family": "secure_development_and_change",
+        "controlId": "irap.family.secure_development_and_change"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "application_repository"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:20:00Z",
+      "expiresAt": "2026-03-31T01:20:00Z"
+    },
+    "payload": {
+      "defaultBranchProtected": true,
+      "requiredApprovals": 2,
+      "statusChecksRequired": true,
+      "forcePushesBlocked": true,
+      "adminBypassRestricted": true
+    },
+    "provenance": {
+      "exportId": "export-exampleco-repo-2026-03-24-a",
+      "collectionMethod": "synthetic_export",
+      "sourcePath": "exports/repo/branch-protection.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-112",
+    "claimType": "ci_workflow_policy",
+    "collectedAt": "2026-03-24T01:22:00Z",
+    "sourceSystem": "example-ci",
+    "actor": {
+      "actorId": "ci-policy-exporter",
+      "actorType": "system"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "change_management",
+        "controlId": "soc2.family.change_management"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "secure_development_and_change_control",
+        "controlId": "iso27001.family.secure_development_and_change_control"
+      },
+      {
+        "framework": "IRAP",
+        "family": "secure_development_and_change",
+        "controlId": "irap.family.secure_development_and_change"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "deployment_workflows"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:22:00Z",
+      "expiresAt": "2026-03-31T01:22:00Z"
+    },
+    "payload": {
+      "workflowReviewRequired": true,
+      "trustedPublishingOnly": true,
+      "protectedRefsOnly": true,
+      "environmentApprovalsRequired": true
+    },
+    "provenance": {
+      "exportId": "export-exampleco-ci-2026-03-24-a",
+      "collectionMethod": "synthetic_export",
+      "sourcePath": "exports/ci/workflow-policy.json",
       "digestAlgorithm": "sha256"
     }
   }
