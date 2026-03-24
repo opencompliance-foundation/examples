@@ -55,6 +55,24 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 
 - A typed export of periodic access review evidence is present for the current review window.
 
+## Typed Boundary Layer
+
+The current public corridor uses `LegalLean` as its typed boundary vocabulary.
+
+- Dependency package: `legal-lean`
+- Live typed modules:
+- `OpenCompliance.Controls.Typed.TypedIdentity` covers `FormalisationBoundary.formal`, `FormalisationBoundary.boundary`, `RequiresHumanDetermination`
+- `OpenCompliance.Controls.Typed.RiskAcceptance` covers `Defeats`, `risk_acceptance_override`
+- `OpenCompliance.Controls.Typed.DiscretionaryTerms` covers `Vague`, `judgment_boundary_inventory`
+- `OpenCompliance.Controls.Typed.ComplianceSolver` covers `LegalLean.Solver`, `minimal_claim_corpus`
+
+- Runtime status:
+- typed control results live: `true`
+- risk-acceptance defeasibility live: `true`
+- discretionary-term typing live: `true`
+- full minimal solver agreement proved: `false`
+- Python verdict layer replaced: `false`
+
 ## Why This Example Exists
 
 It is public-safe and synthetic, but it demonstrates a more serious corridor than the minimal pack:

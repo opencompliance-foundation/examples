@@ -7,7 +7,7 @@
   "profileId": "minimal_saas_corridor",
   "outcome": "punch_list_issued",
   "proofBundleSha256": "3e6fb9299a14eeb708495af2d2cb9e3829938716e9a192c4f3271ab0a55ae442",
-  "trustSurfaceSha256": "a5b6d7c3f5144fe7efd4095f6359bd0f819e167118bbcb45784ab39a103943af",
+  "trustSurfaceSha256": "bd9f0d011dd3b3606d18531082a7004223ef87b63b012235ea97fec00f76bc06",
   "outcomeArtifact": {
     "path": "punch-list.json",
     "sha256": "5002a70d5e69f4d7bc0f4df6288516119afa12898c1b4db2f77ecc327bb6148f"

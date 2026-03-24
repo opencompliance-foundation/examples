@@ -1,6 +1,6 @@
 {
   "bundleId": "exampleco-stale-bundle-2026-03-24",
-  "rootHash": "7110aee5b5e9156c013857166adedb8073290d9183961e8606577acbdfb38951",
+  "rootHash": "3c9f949ae0fab4a64d81b5f39d8212f9e7708151135444f32b22339397a6c458",
   "proofs": [
     {
       "path": "profile.json",
@@ -12,11 +12,11 @@
         },
         {
           "position": "right",
-          "hash": "1de71b92dfe69552b6b1125b4a1e4e3589cf1e61434d6de8833708e1b401b193"
+          "hash": "4e8bb1f26c61af290ec507300dfafa07828fd197f5d60bd9c904ae944a1b069e"
         },
         {
           "position": "right",
-          "hash": "36b693cbbde2a8c2dcc31e26aacf3aa5a6b98f41e2697f31233df0c382aacf8d"
+          "hash": "bca3777a5f242fa4c0065fd541ab50b6be962f3f3c92fb668914bd05a0fbaff6"
         },
         {
           "position": "right",
@@ -34,11 +34,11 @@
         },
         {
           "position": "right",
-          "hash": "1de71b92dfe69552b6b1125b4a1e4e3589cf1e61434d6de8833708e1b401b193"
+          "hash": "4e8bb1f26c61af290ec507300dfafa07828fd197f5d60bd9c904ae944a1b069e"
         },
         {
           "position": "right",
-          "hash": "36b693cbbde2a8c2dcc31e26aacf3aa5a6b98f41e2697f31233df0c382aacf8d"
+          "hash": "bca3777a5f242fa4c0065fd541ab50b6be962f3f3c92fb668914bd05a0fbaff6"
         },
         {
           "position": "right",
@@ -52,7 +52,7 @@
       "proof": [
         {
           "position": "right",
-          "hash": "89930a6d13291fbc5e9c9071c8b3af86d0522b5fb2f37335215110e212f90852"
+          "hash": "78e4e62c3a1ed8cb647643b0d3f8f20028fd1a39d5775331aca857265de5d322"
         },
         {
           "position": "left",
@@ -60,7 +60,7 @@
         },
         {
           "position": "right",
-          "hash": "36b693cbbde2a8c2dcc31e26aacf3aa5a6b98f41e2697f31233df0c382aacf8d"
+          "hash": "bca3777a5f242fa4c0065fd541ab50b6be962f3f3c92fb668914bd05a0fbaff6"
         },
         {
           "position": "right",
@@ -70,7 +70,7 @@
     },
     {
       "path": "trust-surface-report.md",
-      "leafHash": "89930a6d13291fbc5e9c9071c8b3af86d0522b5fb2f37335215110e212f90852",
+      "leafHash": "78e4e62c3a1ed8cb647643b0d3f8f20028fd1a39d5775331aca857265de5d322",
       "proof": [
         {
           "position": "left",
@@ -82,7 +82,7 @@
         },
         {
           "position": "right",
-          "hash": "36b693cbbde2a8c2dcc31e26aacf3aa5a6b98f41e2697f31233df0c382aacf8d"
+          "hash": "bca3777a5f242fa4c0065fd541ab50b6be962f3f3c92fb668914bd05a0fbaff6"
         },
         {
           "position": "right",
@@ -92,7 +92,7 @@
     },
     {
       "path": "verification-result.json",
-      "leafHash": "55e04dac754cfbb1d875524652e10a15d5b5cea4cd169f366b7674b1e3ab7a43",
+      "leafHash": "68cb9612da9c805ee36857c44aba0057457ca2ffc586b50c2462ce0cfbf81768",
       "proof": [
         {
           "position": "right",
@@ -100,11 +100,11 @@
         },
         {
           "position": "right",
-          "hash": "9029444ce7ef3ccc362a3fc6af317c0b4c51950716dd1f9d49b7da22548aef42"
+          "hash": "490828d18c2c2bd7ac23cc09ed963b6124315b998a6aad9a867f423c91f63e77"
         },
         {
           "position": "left",
-          "hash": "33b6ea26b874076b5673dc9528e7e02663ddc3ed2564f99c65afc115cfae2b0b"
+          "hash": "2e6521144b5613b79adb8195a60fd9487997d3310ef5c0c7775e567adf49fae2"
         },
         {
           "position": "right",
@@ -118,15 +118,15 @@
       "proof": [
         {
           "position": "left",
-          "hash": "55e04dac754cfbb1d875524652e10a15d5b5cea4cd169f366b7674b1e3ab7a43"
+          "hash": "68cb9612da9c805ee36857c44aba0057457ca2ffc586b50c2462ce0cfbf81768"
         },
         {
           "position": "right",
-          "hash": "9029444ce7ef3ccc362a3fc6af317c0b4c51950716dd1f9d49b7da22548aef42"
+          "hash": "490828d18c2c2bd7ac23cc09ed963b6124315b998a6aad9a867f423c91f63e77"
         },
         {
           "position": "left",
-          "hash": "33b6ea26b874076b5673dc9528e7e02663ddc3ed2564f99c65afc115cfae2b0b"
+          "hash": "2e6521144b5613b79adb8195a60fd9487997d3310ef5c0c7775e567adf49fae2"
         },
         {
           "position": "right",
@@ -136,19 +136,19 @@
     },
     {
       "path": "replay-bundle.json",
-      "leafHash": "27a065c0944cd4b65afb916a5cb4858158fecd71da623877b71bc5fa9e9e9833",
+      "leafHash": "43c862bd8a6c2bf22d0d3866f2b285173c6d4b7530079fa1f8db22b8bb36e682",
       "proof": [
         {
           "position": "right",
-          "hash": "8ebac66aeeb3f49a7939b8576fcd78d4a470d783f1fc5e9ed4cd447faaeb5119"
+          "hash": "2934eb2e2cf9af5c6f23b6accfb81cf2ef4faf5bc09d8f4ee7b9d5450bb628dd"
         },
         {
           "position": "left",
-          "hash": "ba3f76fb301408f8efdff808091ca246a2aec4f53e68b187889ccbc0a6fdcaa1"
+          "hash": "04c9c40c7dfb0c28b9ceefe319c84d57f5199fdde85235ade2e8149d80cf60cd"
         },
         {
           "position": "left",
-          "hash": "33b6ea26b874076b5673dc9528e7e02663ddc3ed2564f99c65afc115cfae2b0b"
+          "hash": "2e6521144b5613b79adb8195a60fd9487997d3310ef5c0c7775e567adf49fae2"
         },
         {
           "position": "right",
@@ -158,19 +158,19 @@
     },
     {
       "path": "witness-receipt.json",
-      "leafHash": "8ebac66aeeb3f49a7939b8576fcd78d4a470d783f1fc5e9ed4cd447faaeb5119",
+      "leafHash": "2934eb2e2cf9af5c6f23b6accfb81cf2ef4faf5bc09d8f4ee7b9d5450bb628dd",
       "proof": [
         {
           "position": "left",
-          "hash": "27a065c0944cd4b65afb916a5cb4858158fecd71da623877b71bc5fa9e9e9833"
+          "hash": "43c862bd8a6c2bf22d0d3866f2b285173c6d4b7530079fa1f8db22b8bb36e682"
         },
         {
           "position": "left",
-          "hash": "ba3f76fb301408f8efdff808091ca246a2aec4f53e68b187889ccbc0a6fdcaa1"
+          "hash": "04c9c40c7dfb0c28b9ceefe319c84d57f5199fdde85235ade2e8149d80cf60cd"
         },
         {
           "position": "left",
-          "hash": "33b6ea26b874076b5673dc9528e7e02663ddc3ed2564f99c65afc115cfae2b0b"
+          "hash": "2e6521144b5613b79adb8195a60fd9487997d3310ef5c0c7775e567adf49fae2"
         },
         {
           "position": "right",
@@ -196,7 +196,7 @@
         },
         {
           "position": "left",
-          "hash": "cc9a34c0042879e0ebeb52d5e1fa728406000e7d818d61734a85a6acadc847fc"
+          "hash": "a1ad310d2521541e4f6e94ecf7370ebcea362646f18f2bfa595932822895d376"
         }
       ]
     }

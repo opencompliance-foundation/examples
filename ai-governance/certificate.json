@@ -39,6 +39,6 @@
     "evidenceMissing": 0
   },
   "proofBundleSha256": "1ba0c730d9dd815871676ffc6862e50106292c03229aff3801d5c92ee6887118",
-  "trustSurfaceSha256": "1ccbc93fc73eb768c6b47578f0dc9d7090b9e944e7fa63f6d4adf6c07257bf08",
+  "trustSurfaceSha256": "7357cb7bef4ea5018af96d020781f86b22d89c1178ae1b28907fda6065cb2ecd",
   "note": "Synthetic narrow-corridor certificate artifact for an example bundle with no blocking gaps."
 }

@@ -7,7 +7,7 @@
   "profileId": "failed_saas_corridor",
   "outcome": "punch_list_issued",
   "proofBundleSha256": "58968d1bc505852ba2828a7fbef7a35370e826adc55b174fc23bc89eaec7ab37",
-  "trustSurfaceSha256": "748fe7c53c44fb2bad0cdd423d50acd155b8233b30fbe907b6ab7bb5f9165db3",
+  "trustSurfaceSha256": "b43c8fb46a1adeed0cf2c0d28dac4490a51a9279039849e6386de9750cfe260c",
   "outcomeArtifact": {
     "path": "punch-list.json",
     "sha256": "f14627bee5aab1cbb61714b0ea2201e03035913bbbac37235ef83747c682e6c3"

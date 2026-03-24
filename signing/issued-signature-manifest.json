@@ -15,28 +15,28 @@
     },
     {
       "path": "trust-surface-report.md",
-      "sha256": "66f95b5773d66da8128783721acf32df951b85e65cf988175cbdfd402d7d61c0",
-      "signature": "S9GuuePJdjqSx/1rUQDsy1QwRY4NBp0CpP4eHPI1Jh4Vl19cqrySaxlzbD/PvB+oglK0oHceFfsTmSUkRONGAw=="
+      "sha256": "46aa2e0fce00c3f2fdafdb76d1cbc302723a2f872d599719a3209272c1babeb6",
+      "signature": "cRWa0kmdzNuDn7zPUERQtTe36OXMi7UMx0hf9oMqkFofuofCUM4xl5+747aCYhTnj5D/VljAaSGeCLaksVOXDw=="
     },
     {
       "path": "verification-result.json",
-      "sha256": "34571f7e41b7a5bc674d64ba82ad4ebec970e83cf25848a51026a7301e4c8d0e",
-      "signature": "7Vq5r+7Qhu+YUbpYkH02YRKLZdmSOQl2Wr9jtKJwEmVlkfqN3VKE9g7rqVMrHcSyjUsToZL4Q8AKyHaFMC6TCA=="
+      "sha256": "ec629e5edb905a51ec6c491720ff96275be704ccec3f8aa73dc47c338b508fa8",
+      "signature": "Km4KORr8uYTG2cI/9hlU6f+gZ+tCXdILhnT6YxiXeYyg1+z4bp3oqqZFlF+/oR/d38ZR7EpR0OXfsGzMYsGrAA=="
     },
     {
       "path": "certificate.json",
-      "sha256": "1181015a01c2720f542cf0161bc774e0248285d14e93218fb51b77eded477ce9",
-      "signature": "KuXDCkfYx3XEfHk0Nx8gemGNxe3wjvl4LyrpHX35iu+zanT81Rh/HDLAhcQi1hjPuAX1KJp+iRd9LnY9k4fFBw=="
+      "sha256": "64839e71e25d01c18c1c4cd821a1b8138a71d3282d3b8c8cd7e43fd3a997cb93",
+      "signature": "lQxw/QS+z1XDOneHCsLYAX1uDfNy2U9omBQb23kJkfPMvE6VglgOcNAqnWZPY7xzWbJUkGKZFSLbO1RIyt1LDQ=="
     },
     {
       "path": "replay-bundle.json",
-      "sha256": "1671d6b7ff609e8040a25c3fd7cf56f2560b60eb988d836c29dc25c5a2aa718f",
-      "signature": "4WvJtlgrXml/FPTI63rpgYZ8YJNm9n0JAd13lN/ri7k8leuh3WcYrrp2XCiIT2zf849gmNoI64amPjS2/LZCDg=="
+      "sha256": "d53d6d2f6bbbc7880a892ea00439b854ebfabc51c933ff5192475ff525800475",
+      "signature": "e5sO8p+V9Ro05O9bYcDZOku+KUH218jxKnTz0Pr76u6i8Ft73ZCLFiDIEev7FZP1Yny1gEezdDs3ACQw5qkdAw=="
     },
     {
       "path": "witness-receipt.json",
-      "sha256": "44221f2d755d2843c7d8af57191cb516c7ce0c70ad0c5929d94ed974af0586f6",
-      "signature": "rb7ufQV7FuO1jZBwARPwZA4LQmbG1wyoMRfTDchSef3tgf129NvN9+gHWZywsEu7mOGwLiiQByOGzWZG7CCaAQ=="
+      "sha256": "9ec62befccbdc0c7b8fe7aa5c6ddfc993f7095d1967f48befbaf308d6116160e",
+      "signature": "9xNUdb0RqkdXr5ropAfvHtaXZc9QDw8lxkIqZFAU43MkoPvlQpFFykjlS7lhEXltN79GdKyH1cVxzuFx/o8YBg=="
     },
     {
       "path": "revocation.json",

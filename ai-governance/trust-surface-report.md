@@ -37,6 +37,24 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 ## Evidence Missing
 
 
+## Typed Boundary Layer
+
+The current public corridor uses `LegalLean` as its typed boundary vocabulary.
+
+- Dependency package: `legal-lean`
+- Live typed modules:
+- `OpenCompliance.Controls.Typed.TypedIdentity` covers `FormalisationBoundary.formal`, `FormalisationBoundary.boundary`, `RequiresHumanDetermination`
+- `OpenCompliance.Controls.Typed.RiskAcceptance` covers `Defeats`, `risk_acceptance_override`
+- `OpenCompliance.Controls.Typed.DiscretionaryTerms` covers `Vague`, `judgment_boundary_inventory`
+- `OpenCompliance.Controls.Typed.ComplianceSolver` covers `LegalLean.Solver`, `minimal_claim_corpus`
+
+- Runtime status:
+- typed control results live: `true`
+- risk-acceptance defeasibility live: `true`
+- discretionary-term typing live: `true`
+- full minimal solver agreement proved: `false`
+- Python verdict layer replaced: `false`
+
 ## Why This Example Exists
 
 It is public-safe and synthetic, and it exists to show what an honest AI governance corridor can look like today:

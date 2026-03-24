@@ -3,7 +3,7 @@
   "generatedAt": "2026-03-24T22:00:00Z",
   "bundleId": "exampleco-failed-bundle-2026-03-24",
   "hashAlgorithm": "sha256",
-  "rootHash": "b36348e6b73faef3129de7a203d33d17ee89d42f7b42713d4af4d6d93692f040",
+  "rootHash": "fbd863c7603a62b723d62beaf799d00079f59902bff0234b60f3afec78b2696b",
   "entries": [
     {
       "index": 0,
@@ -30,15 +30,15 @@
       "index": 3,
       "artifactType": "trust_surface_report",
       "path": "trust-surface-report.md",
-      "artifactSha256": "748fe7c53c44fb2bad0cdd423d50acd155b8233b30fbe907b6ab7bb5f9165db3",
-      "leafHash": "36a32926bff6f7e556f3d99282dad69dbc35c5b65161ff7dd64a16d42af09208"
+      "artifactSha256": "b43c8fb46a1adeed0cf2c0d28dac4490a51a9279039849e6386de9750cfe260c",
+      "leafHash": "34a644cf0a99070924a92cba97bcb3600c0de7e2b063f38d76cfeb91c6ec3617"
     },
     {
       "index": 4,
       "artifactType": "verification_result",
       "path": "verification-result.json",
-      "artifactSha256": "497b057399a8db4515f08a2a029a93328b57ec6b95f44ad29cbe0bb64b3b2c67",
-      "leafHash": "8a620f211614a0f26ebf32e6c89d7a4e50d9e1a65fc56236281b075036bdb8f3"
+      "artifactSha256": "893f2d317c0e357ce472f3e99018893e9875bfa9426f6d669d78d886081b0a45",
+      "leafHash": "a0f7349615daca30fad6016e9836f8f5d30b95d5d6c9a5eb96f769393960fe77"
     },
     {
       "index": 5,
@@ -51,15 +51,15 @@
       "index": 6,
       "artifactType": "replay_bundle",
       "path": "replay-bundle.json",
-      "artifactSha256": "7d77f8d16bea56a114fe56779a121d28f1783019c025d81bcd9aa3db04be1684",
-      "leafHash": "55db49cf5a3ed072dacad4b5c06049b9216fa6d97713cbf437aa5bd5accc925a"
+      "artifactSha256": "f0fd40fc1fbb69556ef2e769c200a513e35ff97d65fa5770793844b5d664c9e8",
+      "leafHash": "14d768e13c4a6add9eb647b93a07dd76256412230e462da036c88868b2bb7e7a"
     },
     {
       "index": 7,
       "artifactType": "witness_receipt",
       "path": "witness-receipt.json",
-      "artifactSha256": "1ba2ba8a3c873a72eab626e907ac6fe78ef423eed6e25c30b7cc7ad26328aff4",
-      "leafHash": "a81925ebadf158e2bb7e8723532464d76941e28a3ff9b7ce89b19fb6f501c94b"
+      "artifactSha256": "4f080ddcae7be9550961bb879a3eda6ca168c3f3fe307ade266ceb36e0a3c092",
+      "leafHash": "e64ad3d0f912efea07e3d5704385f656ec7b432d1bc68cec8249d5db02236201"
     },
     {
       "index": 8,
