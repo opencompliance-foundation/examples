@@ -123,6 +123,16 @@
         "framework": "GDPR",
         "family": "security_of_processing",
         "controlId": "gdpr.family.security_of_processing"
+      },
+      {
+        "framework": "NIST CSF 2.0",
+        "family": "data_in_transit_protection",
+        "controlId": "nist_csf_2_0.family.data_in_transit_protection"
+      },
+      {
+        "framework": "NIST SP 800-53 Rev. 5.1",
+        "family": "transmission_confidentiality_and_integrity",
+        "controlId": "nist_sp_800_53_rev_5_1.family.transmission_confidentiality_and_integrity"
       }
     ],
     "scope": {
@@ -136,12 +146,83 @@
     "payload": {
       "httpsOnly": true,
       "minTlsVersion": "1.2",
-      "managedCertificatesActive": true
+      "managedCertificatesActive": true,
+      "plaintextDisabled": true
     },
     "provenance": {
       "exportId": "export-exampleco-edge-2026-03-24-a",
       "collectionMethod": "synthetic_export",
       "sourcePath": "exports/edge/tls.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-120",
+    "claimType": "network_firewall_boundary",
+    "collectedAt": "2026-03-24T01:05:00Z",
+    "sourceSystem": "example-network",
+    "actor": {
+      "actorId": "network-exporter",
+      "actorType": "system"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "network_security",
+        "controlId": "soc2.family.network_security"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "network_security",
+        "controlId": "iso27001.family.network_security"
+      },
+      {
+        "framework": "IRAP",
+        "family": "network_boundary_and_crypto",
+        "controlId": "irap.family.network_boundary_and_crypto"
+      },
+      {
+        "framework": "Cyber Essentials",
+        "family": "firewalls",
+        "controlId": "cyber_essentials.family.firewalls"
+      },
+      {
+        "framework": "NIST CSF 2.0",
+        "family": "boundary_protection",
+        "controlId": "nist_csf_2_0.family.boundary_protection"
+      },
+      {
+        "framework": "NIST SP 800-53 Rev. 5.1",
+        "family": "boundary_protection",
+        "controlId": "nist_sp_800_53_rev_5_1.family.boundary_protection"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "public_ingress"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:05:00Z",
+      "expiresAt": "2026-03-31T01:05:00Z"
+    },
+    "payload": {
+      "defaultDenyInbound": true,
+      "declaredIngressPorts": [
+        443
+      ],
+      "undeclaredIngressPresent": false,
+      "boundaryAttachedToIngressPath": true,
+      "adminIngressRestricted": true,
+      "approvedAdminSourceRanges": [
+        "198.51.100.0/24",
+        "203.0.113.0/24"
+      ],
+      "unapprovedAdminIngressPresent": false
+    },
+    "provenance": {
+      "exportId": "export-exampleco-network-2026-03-24-a",
+      "collectionMethod": "synthetic_export",
+      "sourcePath": "exports/network/firewall-boundary.json",
       "digestAlgorithm": "sha256"
     }
   },

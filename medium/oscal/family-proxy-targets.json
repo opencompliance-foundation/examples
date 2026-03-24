@@ -134,6 +134,27 @@
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
     {
+      "id": "cyber_essentials.family.firewalls",
+      "framework": "Cyber Essentials",
+      "family": "firewalls",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "nist_csf_2_0.family.boundary_protection",
+      "framework": "NIST CSF 2.0",
+      "family": "boundary_protection",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "nist_sp_800_53_rev_5_1.family.boundary_protection",
+      "framework": "NIST SP 800-53 Rev. 5.1",
+      "family": "boundary_protection",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
       "id": "soc2.family.key_management",
       "framework": "SOC 2",
       "family": "key_management",

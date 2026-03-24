@@ -121,6 +121,16 @@
           "framework": "GDPR",
           "family": "security_of_processing",
           "controlId": "gdpr.family.security_of_processing"
+        },
+        {
+          "framework": "NIST CSF 2.0",
+          "family": "data_in_transit_protection",
+          "controlId": "nist_csf_2_0.family.data_in_transit_protection"
+        },
+        {
+          "framework": "NIST SP 800-53 Rev. 5.1",
+          "family": "transmission_confidentiality_and_integrity",
+          "controlId": "nist_sp_800_53_rev_5_1.family.transmission_confidentiality_and_integrity"
         }
       ],
       "controlRefs": [
@@ -130,6 +140,138 @@
         "EV-103"
       ],
       "basis": "The ingress export states HTTPS-only listeners, managed certificates, and a minimum TLS version of 1.2."
+    },
+    {
+      "claimId": "EX-CLAIM-124",
+      "title": "The managed network boundary is attached to the declared ingress path for scoped public services.",
+      "result": "proved",
+      "frameworkMappings": [
+        {
+          "framework": "SOC 2",
+          "family": "network_security",
+          "controlId": "soc2.family.network_security"
+        },
+        {
+          "framework": "ISO 27001",
+          "family": "network_security",
+          "controlId": "iso27001.family.network_security"
+        },
+        {
+          "framework": "IRAP",
+          "family": "network_boundary_and_crypto",
+          "controlId": "irap.family.network_boundary_and_crypto"
+        },
+        {
+          "framework": "Cyber Essentials",
+          "family": "firewalls",
+          "controlId": "cyber_essentials.family.firewalls"
+        },
+        {
+          "framework": "NIST CSF 2.0",
+          "family": "boundary_protection",
+          "controlId": "nist_csf_2_0.family.boundary_protection"
+        },
+        {
+          "framework": "NIST SP 800-53 Rev. 5.1",
+          "family": "boundary_protection",
+          "controlId": "nist_sp_800_53_rev_5_1.family.boundary_protection"
+        }
+      ],
+      "controlRefs": [
+        "oc.net-02"
+      ],
+      "evidenceRefs": [
+        "EV-120"
+      ],
+      "basis": "The network boundary export shows the declared ingress path traverses the managed default-deny boundary."
+    },
+    {
+      "claimId": "EX-CLAIM-125",
+      "title": "Administrative ingress is restricted to approved source ranges at the managed network boundary.",
+      "result": "proved",
+      "frameworkMappings": [
+        {
+          "framework": "SOC 2",
+          "family": "network_security",
+          "controlId": "soc2.family.network_security"
+        },
+        {
+          "framework": "ISO 27001",
+          "family": "network_security",
+          "controlId": "iso27001.family.network_security"
+        },
+        {
+          "framework": "IRAP",
+          "family": "network_boundary_and_crypto",
+          "controlId": "irap.family.network_boundary_and_crypto"
+        },
+        {
+          "framework": "Cyber Essentials",
+          "family": "firewalls",
+          "controlId": "cyber_essentials.family.firewalls"
+        },
+        {
+          "framework": "NIST CSF 2.0",
+          "family": "boundary_protection",
+          "controlId": "nist_csf_2_0.family.boundary_protection"
+        },
+        {
+          "framework": "NIST SP 800-53 Rev. 5.1",
+          "family": "boundary_protection",
+          "controlId": "nist_sp_800_53_rev_5_1.family.boundary_protection"
+        }
+      ],
+      "controlRefs": [
+        "oc.net-03"
+      ],
+      "evidenceRefs": [
+        "EV-120"
+      ],
+      "basis": "The network boundary export shows admin ingress restricted to declared source ranges with no unapproved admin exposure."
+    },
+    {
+      "claimId": "EX-CLAIM-126",
+      "title": "Plaintext transport is disabled on the scoped public ingress path.",
+      "result": "proved",
+      "frameworkMappings": [
+        {
+          "framework": "SOC 2",
+          "family": "network_security",
+          "controlId": "soc2.family.network_security"
+        },
+        {
+          "framework": "ISO 27001",
+          "family": "network_security",
+          "controlId": "iso27001.family.network_security"
+        },
+        {
+          "framework": "IRAP",
+          "family": "network_boundary_and_crypto",
+          "controlId": "irap.family.network_boundary_and_crypto"
+        },
+        {
+          "framework": "GDPR",
+          "family": "security_of_processing",
+          "controlId": "gdpr.family.security_of_processing"
+        },
+        {
+          "framework": "NIST CSF 2.0",
+          "family": "data_in_transit_protection",
+          "controlId": "nist_csf_2_0.family.data_in_transit_protection"
+        },
+        {
+          "framework": "NIST SP 800-53 Rev. 5.1",
+          "family": "transmission_confidentiality_and_integrity",
+          "controlId": "nist_sp_800_53_rev_5_1.family.transmission_confidentiality_and_integrity"
+        }
+      ],
+      "controlRefs": [
+        "oc.net-04"
+      ],
+      "evidenceRefs": [
+        "EV-103"
+      ],
+      "basis": "The ingress export shows HTTPS-only listeners and an explicit plaintext-disabled transport policy."
     },
     {
       "claimId": "EX-CLAIM-104",
@@ -725,7 +867,7 @@
     }
   ],
   "summary": {
-    "proved": 8,
+    "proved": 11,
     "attested": 11,
     "failed": 0,
     "staleEvidence": 0,
@@ -733,7 +875,7 @@
     "evidenceMissing": 1
   },
   "nextActions": [
-    "Add a typed periodic access-review export.",
+    "Promote the remaining imported identity and cryptographic seed controls after the current network and transport wave.",
     "Keep privacy-by-design adequacy explicit as judgment rather than flattening it into a green check.",
     "Pin the same inputs and outputs in the witness receipt for replay."
   ],
@@ -741,11 +883,14 @@
     "batchId": "exampleco-medium-bundle-2026-03-24-lean-batch",
     "fixture": "medium",
     "status": "verified",
-    "theoremCount": 6,
+    "theoremCount": 9,
     "verifiedTheorems": [
       "claim_EX_CLAIM_101_proved",
       "claim_EX_CLAIM_102_proved",
       "claim_EX_CLAIM_103_proved",
+      "claim_EX_CLAIM_124_proved",
+      "claim_EX_CLAIM_125_proved",
+      "claim_EX_CLAIM_126_proved",
       "claim_EX_CLAIM_104_proved",
       "claim_EX_CLAIM_105_proved",
       "claim_EX_CLAIM_106_proved"
@@ -782,6 +927,30 @@
         "predicate": "TlsIngressSatisfied",
         "evidenceClaimType": "tls_ingress_configuration",
         "theorem": "claim_EX_CLAIM_103_proved"
+      },
+      {
+        "claimId": "EX-CLAIM-124",
+        "controlId": "oc.net-02",
+        "module": "OpenCompliance.Controls.Network",
+        "predicate": "ManagedIngressBoundaryAttached",
+        "evidenceClaimType": "network_firewall_boundary",
+        "theorem": "claim_EX_CLAIM_124_proved"
+      },
+      {
+        "claimId": "EX-CLAIM-125",
+        "controlId": "oc.net-03",
+        "module": "OpenCompliance.Controls.Network",
+        "predicate": "AdministrativeIngressRestricted",
+        "evidenceClaimType": "network_firewall_boundary",
+        "theorem": "claim_EX_CLAIM_125_proved"
+      },
+      {
+        "claimId": "EX-CLAIM-126",
+        "controlId": "oc.net-04",
+        "module": "OpenCompliance.Controls.Network",
+        "predicate": "PlaintextTransportDisabled",
+        "evidenceClaimType": "tls_ingress_configuration",
+        "theorem": "claim_EX_CLAIM_126_proved"
       },
       {
         "claimId": "EX-CLAIM-104",
@@ -868,8 +1037,8 @@
       }
     },
     "boundaryInventory": {
-      "provedClaimCount": 8,
-      "leanBackedClaimCount": 6,
+      "provedClaimCount": 11,
+      "leanBackedClaimCount": 9,
       "omittedProvedClaims": [
         {
           "claimId": "EX-CLAIM-113",

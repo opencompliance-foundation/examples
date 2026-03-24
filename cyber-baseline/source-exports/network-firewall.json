@@ -10,5 +10,11 @@
   "declaredIngressPorts": [
     443
   ],
-  "undeclaredIngressPresent": false
+  "undeclaredIngressPresent": false,
+  "boundaryAttachedToIngressPath": true,
+  "adminIngressRestricted": true,
+  "approvedAdminSourceRanges": [
+    "198.51.100.0/24"
+  ],
+  "unapprovedAdminIngressPresent": false
 }

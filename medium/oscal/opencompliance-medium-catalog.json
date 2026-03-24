@@ -256,6 +256,39 @@
                 "prose": "Public ingress is HTTPS-only with managed certificates and TLS 1.2 or higher."
               }
             ]
+          },
+          {
+            "id": "oc.net-02",
+            "title": "Managed ingress boundary attached",
+            "parts": [
+              {
+                "id": "oc.net-02_stmt",
+                "name": "statement",
+                "prose": "The managed network boundary is attached to the declared ingress path for scoped public services."
+              }
+            ]
+          },
+          {
+            "id": "oc.net-03",
+            "title": "Administrative ingress restricted",
+            "parts": [
+              {
+                "id": "oc.net-03_stmt",
+                "name": "statement",
+                "prose": "Administrative ingress is restricted to approved source ranges at the managed network boundary."
+              }
+            ]
+          },
+          {
+            "id": "oc.net-04",
+            "title": "Plaintext transport disabled",
+            "parts": [
+              {
+                "id": "oc.net-04_stmt",
+                "name": "statement",
+                "prose": "Plaintext transport is disabled on the scoped public ingress path."
+              }
+            ]
           }
         ]
       },

@@ -7,7 +7,7 @@
 
 This synthetic example shows a wider OpenCompliance corridor without pretending the corridor is complete:
 
-- `8` proved claims
+- `11` proved claims
 - `11` attested claims
 - `0` failed claims
 - `0` stale-evidence claims
@@ -19,6 +19,9 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 - Administrative identities require MFA and conditional access in the scoped production environment.
 - Audit logging is enabled with a declared retention window for the scoped production runtime.
 - Public ingress is HTTPS-only with managed certificates and TLS 1.2 or higher.
+- The managed network boundary is attached to the declared ingress path for scoped public services.
+- Administrative ingress is restricted to approved source ranges at the managed network boundary.
+- Plaintext transport is disabled on the scoped public ingress path.
 - Scoped runtime service accounts do not use user-managed long-lived keys.
 - The scoped workload runs only in the declared approved regions.
 - Backup snapshots are scheduled with a declared immutable retention window.
@@ -82,5 +85,6 @@ It is public-safe and synthetic, but it demonstrates a more serious corridor tha
 - multi-framework family mappings,
 - explicit control references back into the synthetic OpenCompliance catalog,
 - a cleaner split between runtime proofs and signed attestations,
+- a deeper ISO 27001 and SOC 2 overlap slice for ingress-boundary and transport controls,
 - a first public mixed-control decomposition for change management,
 - and a still-honest boundary where legal or adequacy judgment remains human.

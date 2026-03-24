@@ -32,7 +32,7 @@
       ],
       "expectedClaimType": "network_firewall_boundary",
       "evidenceRequired": true,
-      "leanBacked": false,
+      "leanBacked": true,
       "rationale": "Deterministic firewall and ingress policy state over a narrow boundary predicate."
     },
     {

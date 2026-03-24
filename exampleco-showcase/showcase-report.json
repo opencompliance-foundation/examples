@@ -58,8 +58,8 @@
       "attestation": 9,
       "judgment": 1
     },
-    "leanBackedProvedClaims": 4,
-    "omittedProvedClaimsOutsidePublicLean": 6
+    "leanBackedProvedClaims": 5,
+    "omittedProvedClaimsOutsidePublicLean": 5
   },
   "workflow": [
     {
@@ -156,10 +156,10 @@
       },
       "leanBoundary": {
         "status": "verified",
-        "theoremCount": 1,
-        "leanBackedClaimCount": 1,
+        "theoremCount": 2,
+        "leanBackedClaimCount": 2,
         "provedClaimCount": 5,
-        "omittedProvedClaimCount": 4
+        "omittedProvedClaimCount": 3
       },
       "resultHighlights": {
         "proved": [

@@ -6,7 +6,7 @@
   "organisation": "ExampleCo",
   "profileId": "medium_multiframework_corridor",
   "routeSummary": {
-    "decidable": 9,
+    "decidable": 12,
     "attestation": 11,
     "judgment": 3
   },
@@ -46,6 +46,42 @@
       "evidenceRequired": true,
       "leanBacked": true,
       "rationale": "Deterministic edge configuration over a narrow TLS predicate."
+    },
+    {
+      "claimId": "EX-CLAIM-124",
+      "title": "The managed network boundary is attached to the declared ingress path for scoped public services.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.net-02"
+      ],
+      "expectedClaimType": "network_firewall_boundary",
+      "evidenceRequired": true,
+      "leanBacked": true,
+      "rationale": "Deterministic ingress-path attachment state over a narrow managed-boundary predicate."
+    },
+    {
+      "claimId": "EX-CLAIM-125",
+      "title": "Administrative ingress is restricted to approved source ranges at the managed network boundary.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.net-03"
+      ],
+      "expectedClaimType": "network_firewall_boundary",
+      "evidenceRequired": true,
+      "leanBacked": true,
+      "rationale": "Deterministic ingress-rule state over a narrow approved-source restriction predicate."
+    },
+    {
+      "claimId": "EX-CLAIM-126",
+      "title": "Plaintext transport is disabled on the scoped public ingress path.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.net-04"
+      ],
+      "expectedClaimType": "tls_ingress_configuration",
+      "evidenceRequired": true,
+      "leanBacked": true,
+      "rationale": "Deterministic transport-policy state over a narrow plaintext-disabled predicate."
     },
     {
       "claimId": "EX-CLAIM-104",

@@ -273,12 +273,14 @@
     "batchId": "exampleco-cyber-baseline-bundle-2026-03-24-lean-batch",
     "fixture": "cyber-baseline",
     "status": "verified",
-    "theoremCount": 1,
+    "theoremCount": 2,
     "verifiedTheorems": [
-      "claim_EX_CLAIM_601_proved"
+      "claim_EX_CLAIM_601_proved",
+      "claim_EX_CLAIM_602_proved"
     ],
     "importedModules": [
-      "OpenCompliance.Controls.Identity"
+      "OpenCompliance.Controls.Identity",
+      "OpenCompliance.Controls.Network"
     ],
     "verifiedClaims": [
       {
@@ -288,6 +290,14 @@
         "predicate": "AdministrativeMfaSatisfied",
         "evidenceClaimType": "identity_mfa_enforcement",
         "theorem": "claim_EX_CLAIM_601_proved"
+      },
+      {
+        "claimId": "EX-CLAIM-602",
+        "controlId": "oc.boundary-01",
+        "module": "OpenCompliance.Controls.Network",
+        "predicate": "DefaultDenyNetworkBoundarySatisfied",
+        "evidenceClaimType": "network_firewall_boundary",
+        "theorem": "claim_EX_CLAIM_602_proved"
       }
     ],
     "typedBoundaryLayer": {
@@ -351,16 +361,8 @@
     },
     "boundaryInventory": {
       "provedClaimCount": 5,
-      "leanBackedClaimCount": 1,
+      "leanBackedClaimCount": 2,
       "omittedProvedClaims": [
-        {
-          "claimId": "EX-CLAIM-602",
-          "title": "The inbound network boundary defaults to deny and exposes only declared ingress ports.",
-          "controlRefs": [
-            "oc.boundary-01"
-          ],
-          "reason": "no_public_lean_predicate"
-        },
         {
           "claimId": "EX-CLAIM-603",
           "title": "Secure baseline configuration is applied and insecure defaults are absent in the managed device set.",
