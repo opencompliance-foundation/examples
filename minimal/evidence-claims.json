@@ -81,7 +81,8 @@
     },
     "payload": {
       "trainingComplete": true,
-      "completionWindowDays": 365
+      "completionWindowDays": 365,
+      "attestedPopulation": "all_staff"
     }
   }
 ]

@@ -1,0 +1,8 @@
+{
+  "revocationId": "exampleco-medium-revocation-2026-03-24",
+  "artifactType": "certificate",
+  "artifactId": "exampleco-medium-certificate-001",
+  "revokedAt": "2026-03-24T01:35:00Z",
+  "reason": "Synthetic example of revocation after drift, stale attestations, or a replay mismatch.",
+  "supersededBy": "exampleco-medium-bundle-2026-03-24"
+}

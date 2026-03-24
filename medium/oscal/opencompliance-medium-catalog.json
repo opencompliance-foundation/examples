@@ -1,0 +1,214 @@
+{
+  "catalog": {
+    "uuid": "21111111-1111-4111-8111-111111111111",
+    "metadata": {
+      "title": "OpenCompliance Medium Technical Corridor Catalog",
+      "published": "2026-03-24T01:00:00Z",
+      "last-modified": "2026-03-24T01:00:00Z",
+      "version": "0.2.0",
+      "oscal-version": "1.1.3",
+      "remarks": "Synthetic public-safe control catalog for the ExampleCo medium corridor. This is OpenCompliance seed content, not framework text."
+    },
+    "groups": [
+      {
+        "id": "oc.identity",
+        "title": "Identity and Access",
+        "controls": [
+          {
+            "id": "oc.id-01",
+            "title": "Scoped administrative MFA enforcement",
+            "parts": [
+              {
+                "id": "oc.id-01_stmt",
+                "name": "statement",
+                "prose": "Scoped administrative identities require MFA and conditional access in the production environment."
+              }
+            ]
+          },
+          {
+            "id": "oc.id-02",
+            "title": "Typed periodic access review export present",
+            "parts": [
+              {
+                "id": "oc.id-02_stmt",
+                "name": "statement",
+                "prose": "Periodic access review evidence is exported as a typed artifact for the declared review window."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oc.logging",
+        "title": "Logging and Monitoring",
+        "controls": [
+          {
+            "id": "oc.log-01",
+            "title": "Scoped audit logging enabled",
+            "parts": [
+              {
+                "id": "oc.log-01_stmt",
+                "name": "statement",
+                "prose": "Audit logging is enabled for the scoped production stack and a retention window is declared."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oc.network",
+        "title": "Network and Edge",
+        "controls": [
+          {
+            "id": "oc.net-01",
+            "title": "TLS ingress hardened",
+            "parts": [
+              {
+                "id": "oc.net-01_stmt",
+                "name": "statement",
+                "prose": "Public ingress is HTTPS-only, uses managed certificates, and enforces TLS 1.2 or higher."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oc.keys",
+        "title": "Machine Credentials",
+        "controls": [
+          {
+            "id": "oc.key-01",
+            "title": "No user-managed long-lived machine keys",
+            "parts": [
+              {
+                "id": "oc.key-01_stmt",
+                "name": "statement",
+                "prose": "Scoped runtime service accounts do not rely on user-managed long-lived keys."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oc.location",
+        "title": "Location and Boundary",
+        "controls": [
+          {
+            "id": "oc.loc-01",
+            "title": "Approved regions only",
+            "parts": [
+              {
+                "id": "oc.loc-01_stmt",
+                "name": "statement",
+                "prose": "The scoped workload runs only in the declared approved regions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oc.backup",
+        "title": "Backup and Recovery",
+        "controls": [
+          {
+            "id": "oc.backup-01",
+            "title": "Backup schedule declared",
+            "parts": [
+              {
+                "id": "oc.backup-01_stmt",
+                "name": "statement",
+                "prose": "Backup snapshots are scheduled with a declared immutable retention window."
+              }
+            ]
+          },
+          {
+            "id": "oc.rec-01",
+            "title": "Restore exercise evidence present",
+            "parts": [
+              {
+                "id": "oc.rec-01_stmt",
+                "name": "statement",
+                "prose": "A restore exercise is documented within the declared review window."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oc.training",
+        "title": "Awareness and Training",
+        "controls": [
+          {
+            "id": "oc.train-01",
+            "title": "Training completion record available",
+            "parts": [
+              {
+                "id": "oc.train-01_stmt",
+                "name": "statement",
+                "prose": "Security awareness completion is documented for the scoped review window."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oc.vendor",
+        "title": "Third Party and Processor Management",
+        "controls": [
+          {
+            "id": "oc.vendor-01",
+            "title": "Processor register current",
+            "parts": [
+              {
+                "id": "oc.vendor-01_stmt",
+                "name": "statement",
+                "prose": "The processor register is current and declared subprocessors have DPA coverage."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oc.privacy",
+        "title": "Privacy Operations",
+        "controls": [
+          {
+            "id": "oc.privacy-01",
+            "title": "DSR runbook ownership documented",
+            "parts": [
+              {
+                "id": "oc.privacy-01_stmt",
+                "name": "statement",
+                "prose": "The DSR runbook is approved and has a named owner for the current review window."
+              }
+            ]
+          },
+          {
+            "id": "oc.privacy-02",
+            "title": "Privacy by design adequacy review boundary",
+            "parts": [
+              {
+                "id": "oc.privacy-02_stmt",
+                "name": "statement",
+                "prose": "Privacy-by-design adequacy across the full product change process remains an explicit human judgment boundary."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "21111111-1111-4111-8111-111111111112",
+          "title": "ExampleCo medium proof bundle",
+          "rlinks": [
+            {
+              "href": "../proof-bundle.json"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

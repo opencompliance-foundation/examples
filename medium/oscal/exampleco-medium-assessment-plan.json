@@ -1,0 +1,61 @@
+{
+  "assessment-plan": {
+    "uuid": "24444444-4444-4444-8444-444444444444",
+    "metadata": {
+      "title": "ExampleCo Medium Corridor Assessment Plan",
+      "published": "2026-03-24T01:00:00Z",
+      "last-modified": "2026-03-24T01:00:00Z",
+      "version": "0.2.0",
+      "oscal-version": "1.1.3",
+      "remarks": "Synthetic public-safe assessment plan for the ExampleCo medium corridor."
+    },
+    "import-ssp": {
+      "href": "./exampleco-medium-ssp.json"
+    },
+    "reviewed-controls": {
+      "control-selections": [
+        {
+          "description": "All controls in the ExampleCo medium corridor.",
+          "include-controls": [
+            {
+              "control-id": "oc.id-01"
+            },
+            {
+              "control-id": "oc.id-02"
+            },
+            {
+              "control-id": "oc.log-01"
+            },
+            {
+              "control-id": "oc.net-01"
+            },
+            {
+              "control-id": "oc.key-01"
+            },
+            {
+              "control-id": "oc.loc-01"
+            },
+            {
+              "control-id": "oc.backup-01"
+            },
+            {
+              "control-id": "oc.rec-01"
+            },
+            {
+              "control-id": "oc.train-01"
+            },
+            {
+              "control-id": "oc.vendor-01"
+            },
+            {
+              "control-id": "oc.privacy-01"
+            },
+            {
+              "control-id": "oc.privacy-02"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

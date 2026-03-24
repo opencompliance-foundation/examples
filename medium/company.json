@@ -1,0 +1,20 @@
+{
+  "organisation": "ExampleCo",
+  "product": "ExampleLedger",
+  "industry": "Synthetic public SaaS example",
+  "customerSegments": [
+    "SMB finance teams",
+    "regulated buyers evaluating EU and Australian hosting options"
+  ],
+  "declaredRegions": [
+    "eu-west-1",
+    "au-southeast-1"
+  ],
+  "architecture": {
+    "identityProvider": "example-idp",
+    "runtime": "example-container-platform",
+    "dataStore": "example-managed-postgres",
+    "edge": "example-edge"
+  },
+  "note": "Synthetic public-safe organisation description for OpenCompliance example fixtures."
+}

@@ -1,0 +1,141 @@
+{
+  "system-security-plan": {
+    "uuid": "23333333-3333-4333-8333-333333333333",
+    "metadata": {
+      "title": "ExampleCo Medium Corridor SSP",
+      "published": "2026-03-24T01:00:00Z",
+      "last-modified": "2026-03-24T01:00:00Z",
+      "version": "0.2.0",
+      "oscal-version": "1.1.3",
+      "remarks": "Synthetic public-safe system security plan for the ExampleCo medium corridor."
+    },
+    "system-characteristics": {
+      "system-name": "ExampleCo ExampleLedger",
+      "description": "Synthetic public-safe SaaS environment used for OpenCompliance medium example fixtures."
+    },
+    "control-implementation": {
+      "implemented-requirements": [
+        {
+          "uuid": "23333333-3333-4333-8333-333333333334",
+          "control-id": "oc.id-01",
+          "statements": [
+            {
+              "statement-id": "oc.id-01_stmt",
+              "remarks": "Implemented through the synthetic identity enforcement claim."
+            }
+          ]
+        },
+        {
+          "uuid": "23333333-3333-4333-8333-333333333335",
+          "control-id": "oc.id-02",
+          "statements": [
+            {
+              "statement-id": "oc.id-02_stmt",
+              "remarks": "Expected typed export is absent in the current synthetic bundle."
+            }
+          ]
+        },
+        {
+          "uuid": "23333333-3333-4333-8333-333333333336",
+          "control-id": "oc.log-01",
+          "statements": [
+            {
+              "statement-id": "oc.log-01_stmt",
+              "remarks": "Implemented through the synthetic cloud logging claim."
+            }
+          ]
+        },
+        {
+          "uuid": "23333333-3333-4333-8333-333333333337",
+          "control-id": "oc.net-01",
+          "statements": [
+            {
+              "statement-id": "oc.net-01_stmt",
+              "remarks": "Implemented through the synthetic ingress TLS claim."
+            }
+          ]
+        },
+        {
+          "uuid": "23333333-3333-4333-8333-333333333338",
+          "control-id": "oc.key-01",
+          "statements": [
+            {
+              "statement-id": "oc.key-01_stmt",
+              "remarks": "Implemented through the synthetic service-account key hygiene claim."
+            }
+          ]
+        },
+        {
+          "uuid": "23333333-3333-4333-8333-333333333339",
+          "control-id": "oc.loc-01",
+          "statements": [
+            {
+              "statement-id": "oc.loc-01_stmt",
+              "remarks": "Implemented through the synthetic region inventory claim."
+            }
+          ]
+        },
+        {
+          "uuid": "23333333-3333-4333-8333-333333333340",
+          "control-id": "oc.backup-01",
+          "statements": [
+            {
+              "statement-id": "oc.backup-01_stmt",
+              "remarks": "Implemented through the synthetic backup schedule claim."
+            }
+          ]
+        },
+        {
+          "uuid": "23333333-3333-4333-8333-333333333341",
+          "control-id": "oc.rec-01",
+          "statements": [
+            {
+              "statement-id": "oc.rec-01_stmt",
+              "remarks": "Supported by a signed synthetic restore exercise attestation."
+            }
+          ]
+        },
+        {
+          "uuid": "23333333-3333-4333-8333-333333333342",
+          "control-id": "oc.train-01",
+          "statements": [
+            {
+              "statement-id": "oc.train-01_stmt",
+              "remarks": "Supported by a signed synthetic training attestation."
+            }
+          ]
+        },
+        {
+          "uuid": "23333333-3333-4333-8333-333333333343",
+          "control-id": "oc.vendor-01",
+          "statements": [
+            {
+              "statement-id": "oc.vendor-01_stmt",
+              "remarks": "Supported by a signed synthetic processor register attestation."
+            }
+          ]
+        },
+        {
+          "uuid": "23333333-3333-4333-8333-333333333344",
+          "control-id": "oc.privacy-01",
+          "statements": [
+            {
+              "statement-id": "oc.privacy-01_stmt",
+              "remarks": "Supported by a signed synthetic DSR runbook attestation."
+            }
+          ]
+        },
+        {
+          "uuid": "23333333-3333-4333-8333-333333333345",
+          "control-id": "oc.privacy-02",
+          "statements": [
+            {
+              "statement-id": "oc.privacy-02_stmt",
+              "remarks": "Marked as explicit human judgment boundary in the synthetic corridor."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -20,3 +20,9 @@ It exists to make the artifact model concrete without exposing customer evidence
 - test import/export logic,
 - derive basic conformance vectors,
 - and show how the same synthetic company pack could be projected into OSCAL-shaped artifacts.
+
+## Boundary
+
+This minimal pack is intentionally small.
+
+Use `../medium/` for the richer synthetic corridor that spans more frameworks, claim types, and OSCAL controls.
