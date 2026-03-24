@@ -9,6 +9,7 @@ It exists to make the artifact model concrete without exposing customer evidence
 - `profile.json`
 - `source-exports/`
 - `evidence-claims.json`
+- `classification-result.json`
 - `proof-bundle.json`
 - `trust-surface-report.md`
 - `verification-result.json`

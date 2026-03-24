@@ -1,0 +1,64 @@
+{
+  "classificationResultId": "exampleco-issued-bundle-2026-03-24-classification",
+  "generatedAt": "2026-03-24T02:10:00Z",
+  "bundleId": "exampleco-issued-bundle-2026-03-24",
+  "verifierVersion": "opencompliance-example/0.3.0",
+  "organisation": "ExampleCo",
+  "profileId": "issued_narrow_corridor",
+  "routeSummary": {
+    "decidable": 2,
+    "attestation": 2,
+    "judgment": 0
+  },
+  "items": [
+    {
+      "claimId": "EX-CLAIM-201",
+      "title": "Administrative identities require MFA in the scoped production environment.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.id-01"
+      ],
+      "expectedClaimType": "identity_mfa_enforcement",
+      "evidenceRequired": true,
+      "leanBacked": true,
+      "rationale": "Deterministic machine state over a narrow access-control predicate."
+    },
+    {
+      "claimId": "EX-CLAIM-202",
+      "title": "Audit logging is enabled for the scoped production stack.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.log-01"
+      ],
+      "expectedClaimType": "audit_logging_state",
+      "evidenceRequired": true,
+      "leanBacked": true,
+      "rationale": "Deterministic machine state over a narrow logging predicate."
+    },
+    {
+      "claimId": "EX-CLAIM-203",
+      "title": "Security awareness training completion is documented for the current review window.",
+      "route": "attestation",
+      "controlRefs": [
+        "oc.train-01"
+      ],
+      "expectedClaimType": "training_attestation",
+      "evidenceRequired": true,
+      "leanBacked": false,
+      "rationale": "Documentary evidence with a human attestor rather than a decidable system invariant."
+    },
+    {
+      "claimId": "EX-CLAIM-204",
+      "title": "Restore testing has been performed in the declared review window.",
+      "route": "attestation",
+      "controlRefs": [
+        "oc.rec-01"
+      ],
+      "expectedClaimType": "restore_test_attestation",
+      "evidenceRequired": true,
+      "leanBacked": false,
+      "rationale": "Recovery evidence is attestation-routed in the current corridor."
+    }
+  ],
+  "note": "Synthetic persisted routing artifact for the OpenCompliance prove/attest/judgment split."
+}

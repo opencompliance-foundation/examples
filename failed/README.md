@@ -9,6 +9,7 @@ It exists to show a present-but-failing claim as data instead of a verifier cras
 - `profile.json`
 - `source-exports/`
 - `evidence-claims.json`
+- `classification-result.json`
 - `proof-bundle.json`
 - `trust-surface-report.md`
 - `verification-result.json`

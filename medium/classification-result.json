@@ -1,0 +1,160 @@
+{
+  "classificationResultId": "exampleco-medium-bundle-2026-03-24-classification",
+  "generatedAt": "2026-03-24T01:25:00Z",
+  "bundleId": "exampleco-medium-bundle-2026-03-24",
+  "verifierVersion": "opencompliance-example/0.2.0",
+  "organisation": "ExampleCo",
+  "profileId": "medium_multiframework_corridor",
+  "routeSummary": {
+    "decidable": 7,
+    "attestation": 4,
+    "judgment": 1
+  },
+  "items": [
+    {
+      "claimId": "EX-CLAIM-101",
+      "title": "Administrative identities require MFA and conditional access in the scoped production environment.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.id-01"
+      ],
+      "expectedClaimType": "identity_mfa_enforcement",
+      "evidenceRequired": true,
+      "leanBacked": true,
+      "rationale": "Deterministic machine state over a narrow identity predicate."
+    },
+    {
+      "claimId": "EX-CLAIM-102",
+      "title": "Audit logging is enabled with a declared retention window for the scoped production runtime.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.log-01"
+      ],
+      "expectedClaimType": "audit_logging_state",
+      "evidenceRequired": true,
+      "leanBacked": true,
+      "rationale": "Deterministic machine state over a narrow logging predicate."
+    },
+    {
+      "claimId": "EX-CLAIM-103",
+      "title": "Public ingress is HTTPS-only with managed certificates and TLS 1.2 or higher.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.net-01"
+      ],
+      "expectedClaimType": "tls_ingress_configuration",
+      "evidenceRequired": true,
+      "leanBacked": true,
+      "rationale": "Deterministic edge configuration over a narrow TLS predicate."
+    },
+    {
+      "claimId": "EX-CLAIM-104",
+      "title": "Scoped runtime service accounts do not use user-managed long-lived keys.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.key-01"
+      ],
+      "expectedClaimType": "service_account_key_hygiene",
+      "evidenceRequired": true,
+      "leanBacked": true,
+      "rationale": "Deterministic machine credential state over a narrow key-hygiene predicate."
+    },
+    {
+      "claimId": "EX-CLAIM-105",
+      "title": "The scoped workload runs only in the declared approved regions.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.loc-01"
+      ],
+      "expectedClaimType": "approved_region_deployment",
+      "evidenceRequired": true,
+      "leanBacked": true,
+      "rationale": "Deterministic deployment-boundary state over a narrow location predicate."
+    },
+    {
+      "claimId": "EX-CLAIM-106",
+      "title": "Backup snapshots are scheduled with a declared immutable retention window.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.backup-01"
+      ],
+      "expectedClaimType": "backup_snapshot_schedule",
+      "evidenceRequired": true,
+      "leanBacked": true,
+      "rationale": "Deterministic backup configuration over a narrow recovery predicate."
+    },
+    {
+      "claimId": "EX-CLAIM-107",
+      "title": "Security awareness completion is documented for the current review period.",
+      "route": "attestation",
+      "controlRefs": [
+        "oc.train-01"
+      ],
+      "expectedClaimType": "training_attestation",
+      "evidenceRequired": true,
+      "leanBacked": false,
+      "rationale": "Documentary training evidence is attestation-routed in the current corridor."
+    },
+    {
+      "claimId": "EX-CLAIM-108",
+      "title": "A restore exercise is documented inside the declared review window.",
+      "route": "attestation",
+      "controlRefs": [
+        "oc.rec-01"
+      ],
+      "expectedClaimType": "restore_test_attestation",
+      "evidenceRequired": true,
+      "leanBacked": false,
+      "rationale": "Recovery exercise evidence is attestation-routed in the current corridor."
+    },
+    {
+      "claimId": "EX-CLAIM-109",
+      "title": "The processor register is current and DPA coverage is declared for the reviewed subprocessors.",
+      "route": "attestation",
+      "controlRefs": [
+        "oc.vendor-01"
+      ],
+      "expectedClaimType": "vendor_register_attestation",
+      "evidenceRequired": true,
+      "leanBacked": false,
+      "rationale": "Third-party and processor evidence is currently documentary rather than machine-proved."
+    },
+    {
+      "claimId": "EX-CLAIM-110",
+      "title": "The DSR runbook is approved and has a named owner for the current review window.",
+      "route": "attestation",
+      "controlRefs": [
+        "oc.privacy-01"
+      ],
+      "expectedClaimType": "dsr_runbook_attestation",
+      "evidenceRequired": true,
+      "leanBacked": false,
+      "rationale": "Privacy operations documentation is currently attestation-routed."
+    },
+    {
+      "claimId": "EX-CLAIM-111",
+      "title": "Privacy-by-design adequacy has been demonstrated for the full product change process.",
+      "route": "judgment",
+      "controlRefs": [
+        "oc.privacy-02"
+      ],
+      "expectedClaimType": null,
+      "evidenceRequired": false,
+      "leanBacked": false,
+      "rationale": "Privacy-by-design adequacy remains explicitly outside the machine-proof corridor."
+    },
+    {
+      "claimId": "EX-CLAIM-112",
+      "title": "A typed export of periodic access review evidence is present for the current review window.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.id-02"
+      ],
+      "expectedClaimType": "access_review_export",
+      "evidenceRequired": true,
+      "leanBacked": false,
+      "rationale": "Periodic access review can be machine-checked only when a typed export exists."
+    }
+  ],
+  "note": "Synthetic persisted routing artifact for the OpenCompliance prove/attest/judgment split."
+}

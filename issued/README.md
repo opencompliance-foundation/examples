@@ -9,6 +9,7 @@ It exists to show the narrow certificate path for OpenCompliance without leaking
 - `profile.json`
 - `source-exports/`
 - `evidence-claims.json`
+- `classification-result.json`
 - `proof-bundle.json`
 - `trust-surface-report.md`
 - `verification-result.json`

@@ -10,6 +10,7 @@ It exists to show a richer public-safe corridor than `../minimal/` without leaki
 - `profile.json`
 - `source-exports/`
 - `evidence-claims.json`
+- `classification-result.json`
 - `proof-bundle.json`
 - `trust-surface-report.md`
 - `verification-result.json`
