@@ -44,16 +44,18 @@ The current public corridor uses `LegalLean` as its typed boundary vocabulary.
 - Dependency package: `legal-lean`
 - Live typed modules:
 - `OpenCompliance.Controls.Typed.TypedIdentity` covers `FormalisationBoundary.formal`, `FormalisationBoundary.boundary`, `RequiresHumanDetermination`
+- `OpenCompliance.Controls.Typed.TypedLogging` covers `FormalisationBoundary.formal`, `FormalisationBoundary.boundary`, `narrow_audit_logging_runtime`
 - `OpenCompliance.Controls.Typed.RiskAcceptance` covers `Defeats`, `risk_acceptance_override`
 - `OpenCompliance.Controls.Typed.DiscretionaryTerms` covers `Vague`, `judgment_boundary_inventory`
-- `OpenCompliance.Controls.Typed.ComplianceSolver` covers `LegalLean.Solver`, `minimal_claim_corpus`
+- `OpenCompliance.Controls.Typed.ComplianceSolver` covers `LegalLean.Solver`, `minimal_claim_corpus`, `runtime_claim_decisions`
 
+- Runtime-consumed claims: `5`
 - Runtime status:
 - typed control results live: `true`
 - risk-acceptance defeasibility live: `true`
 - discretionary-term typing live: `true`
-- full minimal solver agreement proved: `false`
-- Python verdict layer replaced: `false`
+- full minimal solver agreement proved: `true`
+- Python verdict layer replaced: `true`
 
 ## Why This Example Exists
 

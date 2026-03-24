@@ -192,6 +192,14 @@
           ]
         },
         {
+          "module": "OpenCompliance.Controls.Typed.TypedLogging",
+          "covers": [
+            "FormalisationBoundary.formal",
+            "FormalisationBoundary.boundary",
+            "narrow_audit_logging_runtime"
+          ]
+        },
+        {
           "module": "OpenCompliance.Controls.Typed.RiskAcceptance",
           "covers": [
             "Defeats",
@@ -209,16 +217,24 @@
           "module": "OpenCompliance.Controls.Typed.ComplianceSolver",
           "covers": [
             "LegalLean.Solver",
-            "minimal_claim_corpus"
+            "minimal_claim_corpus",
+            "runtime_claim_decisions"
           ]
         }
+      ],
+      "runtimeConsumedClaims": [
+        "EX-CLAIM-001",
+        "EX-CLAIM-002",
+        "EX-CLAIM-003",
+        "EX-CLAIM-004",
+        "EX-CLAIM-005"
       ],
       "runtimeStatus": {
         "typedControlResultsLive": true,
         "riskAcceptanceDefeasibilityLive": true,
         "discretionaryTermTypingLive": true,
-        "fullMinimalSolverAgreement": false,
-        "pythonVerdictLayerReplaced": false
+        "fullMinimalSolverAgreement": true,
+        "pythonVerdictLayerReplaced": true
       }
     },
     "boundaryInventory": {

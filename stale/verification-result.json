@@ -6,8 +6,8 @@
   "organisation": "ExampleCo",
   "profileId": "stale_freshness_corridor",
   "outcome": "punch_list_issued",
-  "proofBundleSha256": "a1042ac8b93f5cb804679461d9b8aec493e9bbdaf79ac2caec86f0fc738efdfd",
-  "trustSurfaceSha256": "c804a80c76473ad56d4f789a61ebcb7a6edb22543784bc46824d3ce5fdf7b7ae",
+  "proofBundleSha256": "85db7ed4bb526191032ab85c75972489061c596a52019bbcac4865d35f0a93e0",
+  "trustSurfaceSha256": "ee8f54836b43f69ccf44ab60410a8da3a3b02d97bdb315219b5da50d234fd0f7",
   "outcomeArtifact": {
     "path": "punch-list.json",
     "sha256": "0870ab266bc3820a4f4a5e25c2cf0014aa34ff8566df96523d6d27b49b4e7845"

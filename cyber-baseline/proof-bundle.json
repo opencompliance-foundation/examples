@@ -310,6 +310,14 @@
           ]
         },
         {
+          "module": "OpenCompliance.Controls.Typed.TypedLogging",
+          "covers": [
+            "FormalisationBoundary.formal",
+            "FormalisationBoundary.boundary",
+            "narrow_audit_logging_runtime"
+          ]
+        },
+        {
           "module": "OpenCompliance.Controls.Typed.RiskAcceptance",
           "covers": [
             "Defeats",
@@ -327,10 +335,12 @@
           "module": "OpenCompliance.Controls.Typed.ComplianceSolver",
           "covers": [
             "LegalLean.Solver",
-            "minimal_claim_corpus"
+            "minimal_claim_corpus",
+            "runtime_claim_decisions"
           ]
         }
       ],
+      "runtimeConsumedClaims": [],
       "runtimeStatus": {
         "typedControlResultsLive": true,
         "riskAcceptanceDefeasibilityLive": true,
