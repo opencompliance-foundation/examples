@@ -372,5 +372,25 @@
     "Add a typed periodic access-review export.",
     "Keep privacy-by-design adequacy explicit as judgment rather than flattening it into a green check.",
     "Pin the same inputs and outputs in the witness receipt for replay."
-  ]
+  ],
+  "proofRunner": {
+    "batchId": "exampleco-medium-bundle-2026-03-24-lean-batch",
+    "fixture": "medium",
+    "status": "verified",
+    "theoremCount": 6,
+    "verifiedTheorems": [
+      "claim_EX_CLAIM_101_proved",
+      "claim_EX_CLAIM_102_proved",
+      "claim_EX_CLAIM_103_proved",
+      "claim_EX_CLAIM_104_proved",
+      "claim_EX_CLAIM_105_proved",
+      "claim_EX_CLAIM_106_proved"
+    ],
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "<generated-batch>"
+    ]
+  }
 }

@@ -37,7 +37,7 @@
     {
       "artifactType": "proof_bundle",
       "path": "proof-bundle.json",
-      "sha256": "459247b5a3670cda9d90d32b88d95204850279f13eb2fafee8dbec1a0fe379c5"
+      "sha256": "fbbed719d56bb91cee9d50bb69163a87738a709bb40def8297db74a37e576296"
     },
     {
       "artifactType": "trust_surface_report",
@@ -47,12 +47,12 @@
     {
       "artifactType": "verification_result",
       "path": "verification-result.json",
-      "sha256": "025ae93cdd29d9a4413874b5da86c75998e9e45e90ebb6a8c93d9377370e855f"
+      "sha256": "8f42006d25f25784a4524b1d3700144848c5e6568fabdbee43c2ca5f4e1a071d"
     },
     {
       "artifactType": "certificate",
       "path": "certificate.json",
-      "sha256": "0280d7b37bc3fb6297a4c82ab82595c2944c38a392e51b9e131a5e685b45aa78"
+      "sha256": "c7959fa975c1fd3afcfc578425ab45320a86101e79720a40c17e3cb9fb7b2609"
     }
   ],
   "note": "Synthetic replay contract for deterministic reruns of the public example corridor."

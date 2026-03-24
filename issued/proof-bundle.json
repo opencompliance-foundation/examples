@@ -124,5 +124,21 @@
   "nextActions": [
     "Keep the issued corridor narrow and explicit instead of over-claiming full framework coverage.",
     "Publish the replay bundle and certificate artifacts alongside the trust-surface report."
-  ]
+  ],
+  "proofRunner": {
+    "batchId": "exampleco-issued-bundle-2026-03-24-lean-batch",
+    "fixture": "issued",
+    "status": "verified",
+    "theoremCount": 2,
+    "verifiedTheorems": [
+      "claim_EX_CLAIM_201_proved",
+      "claim_EX_CLAIM_202_proved"
+    ],
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "<generated-batch>"
+    ]
+  }
 }

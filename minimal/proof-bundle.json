@@ -138,5 +138,21 @@
   "nextActions": [
     "Attach restore-test evidence as a typed claim.",
     "Separate documentary attestations from runtime proofs in the trust-surface output."
-  ]
+  ],
+  "proofRunner": {
+    "batchId": "exampleco-minimal-bundle-2026-03-24-lean-batch",
+    "fixture": "minimal",
+    "status": "verified",
+    "theoremCount": 2,
+    "verifiedTheorems": [
+      "claim_EX_CLAIM_001_proved",
+      "claim_EX_CLAIM_002_proved"
+    ],
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "<generated-batch>"
+    ]
+  }
 }
