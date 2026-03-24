@@ -118,6 +118,47 @@
             ]
           },
           {
+            "uuid": "ab094531-9ff6-574d-92fc-898a7d716104",
+            "relationship": "subset-of",
+            "matching-rationale": "Customer and environment segmentation enforced is one narrow synthetic OpenCompliance slice of the broader environment_and_tenant_separation, segregation_and_environment_separation, network_segmentation_and_isolation, security_of_processing, system_security_and_segregation, segmentation_and_isolation, and system_partitioning_and_boundary_protection families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.seg-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.environment_and_tenant_separation"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.segregation_and_environment_separation"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.network_segmentation_and_isolation"
+              },
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.security_of_processing"
+              },
+              {
+                "type": "control",
+                "id-ref": "ncsc_caf_4_0.family.system_security_and_segregation"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.segmentation_and_isolation"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.system_partitioning_and_boundary_protection"
+              }
+            ]
+          },
+          {
             "uuid": "57bdb2e8-615f-5a9a-9ccb-88fd59c6d5a6",
             "relationship": "subset-of",
             "matching-rationale": "Scoped audit logging enabled is one narrow synthetic OpenCompliance slice of the broader logging_monitoring, logging_and_monitoring, logging_monitoring, security_monitoring, protective_technology_and_logging, and audit_and_accountability families.",

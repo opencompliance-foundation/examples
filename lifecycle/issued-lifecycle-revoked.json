@@ -58,6 +58,7 @@
     "reusedClaims": [
       "EX-CLAIM-201",
       "EX-CLAIM-209",
+      "EX-CLAIM-210",
       "EX-CLAIM-208",
       "EX-CLAIM-203",
       "EX-CLAIM-204",
@@ -74,7 +75,7 @@
       {
         "status": "issued",
         "bundleId": "exampleco-issued-bundle-2026-03-24",
-        "artifactSha256": "5188d235ad9cfdb5bbf3f4843126d1ea53276d39aadea22de1c190f93ca852f1",
+        "artifactSha256": "8a24997a7dccc9a086ab760297ed415da38b63ca347ee824c9686060bf27c0f3",
         "recordedAt": "2026-03-24T02:10:00Z"
       },
       {
@@ -89,6 +90,6 @@
     "ComplianceDriftDetected",
     "CertificateRevoked"
   ],
-  "proofBundleSha256": "1f9757cb677a8eab6cd7755d18c80da4c90fb7862b120ee0786c3a20a141a2bd",
+  "proofBundleSha256": "00d96ad347c3e1feb54773999eee89f86c785051e5700b0b1cf0239830ceb417",
   "note": "Synthetic lifecycle decision derived from a normalized source-change event over a previously issued ExampleCo certificate."
 }

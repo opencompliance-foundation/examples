@@ -44,9 +44,9 @@
     "certificateIssuedCount": 3,
     "blockedCorridorCount": 1,
     "uniqueFrameworkCount": 14,
-    "uniqueControlRefCount": 18,
+    "uniqueControlRefCount": 19,
     "claimSummary": {
-      "proved": 12,
+      "proved": 13,
       "attested": 9,
       "failed": 1,
       "staleEvidence": 0,
@@ -54,11 +54,11 @@
       "evidenceMissing": 0
     },
     "routeSummary": {
-      "decidable": 13,
+      "decidable": 14,
       "attestation": 9,
       "judgment": 1
     },
-    "leanBackedProvedClaims": 7,
+    "leanBackedProvedClaims": 8,
     "omittedProvedClaimsOutsidePublicLean": 5
   },
   "workflow": [
@@ -242,10 +242,11 @@
         "oc.ir-01",
         "oc.log-01",
         "oc.rec-01",
+        "oc.seg-01",
         "oc.train-01"
       ],
       "claimSummary": {
-        "proved": 5,
+        "proved": 6,
         "attested": 4,
         "failed": 0,
         "staleEvidence": 0,
@@ -253,7 +254,7 @@
         "evidenceMissing": 0
       },
       "routeSummary": {
-        "decidable": 5,
+        "decidable": 6,
         "attestation": 4,
         "judgment": 0
       },
@@ -274,9 +275,9 @@
       },
       "leanBoundary": {
         "status": "verified",
-        "theoremCount": 4,
-        "leanBackedClaimCount": 4,
-        "provedClaimCount": 5,
+        "theoremCount": 5,
+        "leanBackedClaimCount": 5,
+        "provedClaimCount": 6,
         "omittedProvedClaimCount": 1
       },
       "resultHighlights": {
@@ -288,7 +289,7 @@
         "proved": [
           "Administrative identities require MFA in the scoped production environment.",
           "Infrastructure access in the scoped production environment requires unique named identities with no shared administrative accounts.",
-          "Audit logging is enabled for the scoped production stack."
+          "Scoped customer and environment boundaries are enforced with no undeclared cross-environment paths in the production slice."
         ]
       },
       "artifacts": {
@@ -648,7 +649,7 @@
         "issued"
       ],
       "claimSummary": {
-        "proved": 3,
+        "proved": 4,
         "attested": 0,
         "failed": 0,
         "staleEvidence": 0,
@@ -659,7 +660,7 @@
         "proved": [
           "Administrative identities require MFA and conditional access for the scoped managed admin boundary.",
           "Infrastructure access in the scoped production environment requires unique named identities with no shared administrative accounts.",
-          "Encryption at rest is enabled for the scoped customer data stores and no unencrypted store is present."
+          "Scoped customer and environment boundaries are enforced with no undeclared cross-environment paths in the production slice."
         ],
         "attested": [],
         "failed": [],
@@ -676,7 +677,7 @@
         "issued"
       ],
       "claimSummary": {
-        "proved": 7,
+        "proved": 8,
         "attested": 2,
         "failed": 0,
         "staleEvidence": 0,
@@ -708,7 +709,7 @@
         "failed"
       ],
       "claimSummary": {
-        "proved": 11,
+        "proved": 12,
         "attested": 5,
         "failed": 1,
         "staleEvidence": 0,
@@ -826,7 +827,7 @@
         "issued"
       ],
       "claimSummary": {
-        "proved": 2,
+        "proved": 3,
         "attested": 0,
         "failed": 0,
         "staleEvidence": 0,
@@ -836,7 +837,8 @@
       "sampleClaimTitles": {
         "proved": [
           "Administrative identities require MFA and conditional access for the scoped managed admin boundary.",
-          "Infrastructure access in the scoped production environment requires unique named identities with no shared administrative accounts."
+          "Infrastructure access in the scoped production environment requires unique named identities with no shared administrative accounts.",
+          "Scoped customer and environment boundaries are enforced with no undeclared cross-environment paths in the production slice."
         ],
         "attested": [],
         "failed": [],
@@ -882,7 +884,7 @@
         "issued"
       ],
       "claimSummary": {
-        "proved": 7,
+        "proved": 8,
         "attested": 0,
         "failed": 0,
         "staleEvidence": 0,
@@ -910,7 +912,7 @@
         "issued"
       ],
       "claimSummary": {
-        "proved": 7,
+        "proved": 8,
         "attested": 0,
         "failed": 0,
         "staleEvidence": 0,
@@ -939,7 +941,7 @@
         "failed"
       ],
       "claimSummary": {
-        "proved": 11,
+        "proved": 12,
         "attested": 3,
         "failed": 1,
         "staleEvidence": 0,

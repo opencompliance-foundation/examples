@@ -6,7 +6,7 @@
   "organisation": "ExampleCo",
   "profileId": "medium_multiframework_corridor",
   "routeSummary": {
-    "decidable": 14,
+    "decidable": 15,
     "attestation": 11,
     "judgment": 3
   },
@@ -34,6 +34,18 @@
       "evidenceRequired": true,
       "leanBacked": true,
       "rationale": "Deterministic identity-state evidence over a narrow unique-authentication predicate."
+    },
+    {
+      "claimId": "EX-CLAIM-129",
+      "title": "Scoped customer and environment boundaries are enforced with no undeclared cross-environment paths in the production slice.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.seg-01"
+      ],
+      "expectedClaimType": "environment_segmentation_state",
+      "evidenceRequired": true,
+      "leanBacked": true,
+      "rationale": "Deterministic architecture-state evidence over a narrow tenant and environment segmentation predicate."
     },
     {
       "claimId": "EX-CLAIM-102",

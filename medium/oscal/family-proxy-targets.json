@@ -57,6 +57,48 @@
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
     {
+      "id": "soc2.family.environment_and_tenant_separation",
+      "framework": "SOC 2",
+      "family": "environment_and_tenant_separation",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "iso27001.family.segregation_and_environment_separation",
+      "framework": "ISO 27001",
+      "family": "segregation_and_environment_separation",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "irap.family.network_segmentation_and_isolation",
+      "framework": "IRAP",
+      "family": "network_segmentation_and_isolation",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "ncsc_caf_4_0.family.system_security_and_segregation",
+      "framework": "NCSC CAF 4.0",
+      "family": "system_security_and_segregation",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "nist_csf_2_0.family.segmentation_and_isolation",
+      "framework": "NIST CSF 2.0",
+      "family": "segmentation_and_isolation",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "nist_sp_800_53_rev_5_1.family.system_partitioning_and_boundary_protection",
+      "framework": "NIST SP 800-53 Rev. 5.1",
+      "family": "system_partitioning_and_boundary_protection",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
       "id": "soc2.family.logging_monitoring",
       "framework": "SOC 2",
       "family": "logging_monitoring",

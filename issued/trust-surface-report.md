@@ -7,7 +7,7 @@
 
 This synthetic example shows a wider OpenCompliance corridor without pretending the corridor is complete:
 
-- `5` proved claims
+- `6` proved claims
 - `4` attested claims
 - `0` failed claims
 - `0` stale-evidence claims
@@ -18,6 +18,7 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 
 - Administrative identities require MFA in the scoped production environment.
 - Infrastructure access in the scoped production environment requires unique named identities with no shared administrative accounts.
+- Scoped customer and environment boundaries are enforced with no undeclared cross-environment paths in the production slice.
 - Audit logging is enabled for the scoped production stack.
 - Encryption at rest is enabled for the scoped customer data stores and no unencrypted store is present.
 - A typed export of periodic access review evidence is present for the current review window.

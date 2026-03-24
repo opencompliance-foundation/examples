@@ -65,6 +65,17 @@
         "title": "Miscellaneous Controls",
         "controls": [
           {
+            "id": "oc.seg-01",
+            "title": "Customer and environment segmentation enforced",
+            "parts": [
+              {
+                "id": "oc.seg-01_stmt",
+                "name": "statement",
+                "prose": "Scoped customer and environment boundaries are enforced with no undeclared cross-environment paths in the production slice."
+              }
+            ]
+          },
+          {
             "id": "oc.log-01",
             "title": "Scoped audit logging enabled",
             "parts": [
