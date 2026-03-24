@@ -9,6 +9,7 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 
 - `6` proved claims
 - `4` attested claims
+- `0` failed claims
 - `1` judgment-required claim
 - `1` evidence-missing claim
 
@@ -27,6 +28,9 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 - A restore exercise is documented inside the declared review window.
 - The processor register is current and DPA coverage is declared for the reviewed subprocessors.
 - The DSR runbook is approved and has a named owner for the current review window.
+
+## Failed
+
 
 ## Judgment Required
 

@@ -1,0 +1,16 @@
+{
+  "verificationResultId": "exampleco-failed-bundle-2026-03-24-result",
+  "generatedAt": "2026-03-24T04:30:00Z",
+  "bundleId": "exampleco-failed-bundle-2026-03-24",
+  "verifierVersion": "opencompliance-example/0.4.0",
+  "organisation": "ExampleCo",
+  "profileId": "failed_saas_corridor",
+  "outcome": "punch_list_issued",
+  "proofBundleSha256": "4f999a3e128667b0572bfc8ed517f150ac7fa2ad543bcb1f54c5d0263457802e",
+  "trustSurfaceSha256": "e419c21281c8e7b83e7ef5410d4d12736440ffd6422c6b216322209e2c033097",
+  "outcomeArtifact": {
+    "path": "punch-list.json",
+    "sha256": "f14627bee5aab1cbb61714b0ea2201e03035913bbbac37235ef83747c682e6c3"
+  },
+  "blockingIssueCount": 2
+}

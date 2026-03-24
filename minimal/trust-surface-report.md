@@ -9,6 +9,7 @@ This synthetic example shows the intended OpenCompliance split:
 
 - `2` proved claims
 - `1` attested claim
+- `0` failed claims
 - `1` judgment-required claim
 - `1` evidence-missing claim
 
@@ -20,6 +21,9 @@ This synthetic example shows the intended OpenCompliance split:
 ## Attested
 
 - Security awareness training completion is documented for the current review window.
+
+## Failed
+
 
 ## Judgment Required
 

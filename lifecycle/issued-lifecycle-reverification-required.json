@@ -69,7 +69,7 @@
       {
         "status": "issued",
         "bundleId": "exampleco-issued-bundle-2026-03-24",
-        "artifactSha256": "c7959fa975c1fd3afcfc578425ab45320a86101e79720a40c17e3cb9fb7b2609",
+        "artifactSha256": "941640a11c5fbc66020b1cca196abafbbba2fc9c667c6c24b15f3330f16c51ff",
         "recordedAt": "2026-03-24T02:10:00Z"
       },
       {
@@ -83,6 +83,6 @@
   "emittedEvents": [
     "ComplianceDriftDetected"
   ],
-  "proofBundleSha256": "fbbed719d56bb91cee9d50bb69163a87738a709bb40def8297db74a37e576296",
+  "proofBundleSha256": "569fc29d666934333f49a6b9df8af9df307ae5b044e6d4adecce1624e8445e52",
   "note": "Synthetic lifecycle decision derived from a normalized source-change event over a previously issued ExampleCo certificate."
 }

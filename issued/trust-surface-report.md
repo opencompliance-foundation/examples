@@ -9,6 +9,7 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 
 - `2` proved claims
 - `2` attested claims
+- `0` failed claims
 - `0` judgment-required claims
 - `0` evidence-missing claims
 
@@ -21,6 +22,9 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 
 - Security awareness training completion is documented for the current review window.
 - Restore testing has been performed in the declared review window.
+
+## Failed
+
 
 ## Judgment Required
 
