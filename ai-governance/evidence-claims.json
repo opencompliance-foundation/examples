@@ -28,6 +28,21 @@
         "framework": "ISO/IEC 42005",
         "family": "impact_assessment_inputs",
         "controlId": "iso_iec_42005.family.impact_assessment_inputs"
+      },
+      {
+        "framework": "Australia Voluntary AI Safety Standard",
+        "family": "accountability_and_governance",
+        "controlId": "australia_voluntary_ai_safety_standard.guardrail_1"
+      },
+      {
+        "framework": "UK ICO AI and data protection guidance",
+        "family": "governance_and_accountability",
+        "controlId": "ico_ai_guidance.family.governance_and_accountability"
+      },
+      {
+        "framework": "NIST AI 600-1 Generative AI Profile",
+        "family": "contextual_risk_and_use_case",
+        "controlId": "nist_ai_600_1.family.contextual_risk_and_use_case"
       }
     ],
     "scope": {
@@ -90,6 +105,21 @@
         "framework": "ISO/IEC 42005",
         "family": "impact_assessment_process",
         "controlId": "iso_iec_42005.family.impact_assessment_process"
+      },
+      {
+        "framework": "Australia Voluntary AI Safety Standard",
+        "family": "risk_management_process",
+        "controlId": "australia_voluntary_ai_safety_standard.guardrail_2"
+      },
+      {
+        "framework": "UK AI Cyber Security Code of Practice",
+        "family": "security_risk_assessment",
+        "controlId": "uk_ai_cyber_security_code_of_practice.principle_3"
+      },
+      {
+        "framework": "NIST AI 600-1 Generative AI Profile",
+        "family": "genai_risk_management",
+        "controlId": "nist_ai_600_1.family.genai_risk_management"
       }
     ],
     "scope": {
@@ -141,6 +171,21 @@
         "framework": "ISO/IEC 42001",
         "family": "roles_responsibilities_and_oversight",
         "controlId": "iso_iec_42001.family.roles_responsibilities_and_oversight"
+      },
+      {
+        "framework": "Australia Voluntary AI Safety Standard",
+        "family": "meaningful_human_oversight",
+        "controlId": "australia_voluntary_ai_safety_standard.guardrail_5"
+      },
+      {
+        "framework": "UK AI Cyber Security Code of Practice",
+        "family": "human_responsibility_for_ai_systems",
+        "controlId": "uk_ai_cyber_security_code_of_practice.principle_4"
+      },
+      {
+        "framework": "UK ICO AI and data protection guidance",
+        "family": "human_review_and_explainability",
+        "controlId": "ico_ai_guidance.family.human_review_and_explainability"
       }
     ],
     "scope": {
@@ -203,6 +248,31 @@
         "framework": "ISO/IEC 42005",
         "family": "impact_assessment_monitoring",
         "controlId": "iso_iec_42005.family.impact_assessment_monitoring"
+      },
+      {
+        "framework": "Australia Voluntary AI Safety Standard",
+        "family": "testing_and_post_deployment_monitoring",
+        "controlId": "australia_voluntary_ai_safety_standard.guardrail_4"
+      },
+      {
+        "framework": "UK AI Cyber Security Code of Practice",
+        "family": "monitoring_and_incident_response",
+        "controlId": "uk_ai_cyber_security_code_of_practice.principle_12"
+      },
+      {
+        "framework": "ETSI EN 304 223",
+        "family": "ai_cybersecurity_monitoring_and_maintenance",
+        "controlId": "etsi_en_304_223.family.ai_cybersecurity_monitoring_and_maintenance"
+      },
+      {
+        "framework": "ETSI TS 104 008",
+        "family": "continuous_auditing_and_conformity_assessment",
+        "controlId": "etsi_ts_104_008.family.continuous_auditing_and_conformity_assessment"
+      },
+      {
+        "framework": "NIST AI 600-1 Generative AI Profile",
+        "family": "post_deployment_monitoring",
+        "controlId": "nist_ai_600_1.family.post_deployment_monitoring"
       }
     ],
     "scope": {
@@ -259,6 +329,21 @@
         "framework": "ISO/IEC 42001",
         "family": "documented_information_and_communication",
         "controlId": "iso_iec_42001.family.documented_information_and_communication"
+      },
+      {
+        "framework": "Australia Voluntary AI Safety Standard",
+        "family": "disclosure_of_ai_and_ai_generated_content",
+        "controlId": "australia_voluntary_ai_safety_standard.guardrail_6"
+      },
+      {
+        "framework": "UK ICO AI and data protection guidance",
+        "family": "transparency_and_explainability",
+        "controlId": "ico_ai_guidance.family.transparency_and_explainability"
+      },
+      {
+        "framework": "NIST AI 600-1 Generative AI Profile",
+        "family": "transparency_and_content_provenance",
+        "controlId": "nist_ai_600_1.family.transparency_and_content_provenance"
       }
     ],
     "scope": {

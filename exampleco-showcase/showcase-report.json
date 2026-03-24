@@ -43,7 +43,7 @@
     "corridorCount": 4,
     "certificateIssuedCount": 3,
     "blockedCorridorCount": 1,
-    "uniqueFrameworkCount": 14,
+    "uniqueFrameworkCount": 20,
     "uniqueControlRefCount": 23,
     "claimSummary": {
       "proved": 16,
@@ -346,12 +346,18 @@
       "outcome": "certificate_issued",
       "blockingIssueCount": 0,
       "frameworks": [
+        "Australia Voluntary AI Safety Standard",
+        "ETSI EN 304 223",
+        "ETSI TS 104 008",
         "EU AI Act",
         "EU GPAI Code of Practice",
         "ISO/IEC 23894",
         "ISO/IEC 42001",
         "ISO/IEC 42005",
-        "NIST AI RMF 1.0"
+        "NIST AI 600-1 Generative AI Profile",
+        "NIST AI RMF 1.0",
+        "UK AI Cyber Security Code of Practice",
+        "UK ICO AI and data protection guidance"
       ],
       "frameworkIntent": [
         "EU AI Act",
@@ -565,6 +571,35 @@
   ],
   "frameworkCoverage": [
     {
+      "framework": "Australia Voluntary AI Safety Standard",
+      "corridors": [
+        "ai-governance"
+      ],
+      "claimSummary": {
+        "proved": 1,
+        "attested": 4,
+        "failed": 0,
+        "staleEvidence": 0,
+        "judgmentRequired": 0,
+        "evidenceMissing": 0
+      },
+      "sampleClaimTitles": {
+        "proved": [
+          "AI-generated content disclosure is enabled and enforcement checks are passing on the public assistant surface."
+        ],
+        "attested": [
+          "AI system intended use, deployment context, and named owner are documented for the current review window.",
+          "AI risk management process and risk tolerances are documented for the current review window.",
+          "Human oversight roles, escalation path, and override responsibility are documented for the current review window."
+        ],
+        "failed": [],
+        "staleEvidence": [],
+        "judgmentRequired": [],
+        "evidenceMissing": []
+      },
+      "publicPosition": ""
+    },
+    {
       "framework": "Cyber Essentials",
       "corridors": [
         "cyber-baseline",
@@ -591,6 +626,56 @@
         "evidenceMissing": []
       },
       "publicPosition": "Narrow public cyber hygiene corridor with clean machine-checkable examples, not a full certification claim."
+    },
+    {
+      "framework": "ETSI EN 304 223",
+      "corridors": [
+        "ai-governance"
+      ],
+      "claimSummary": {
+        "proved": 0,
+        "attested": 1,
+        "failed": 0,
+        "staleEvidence": 0,
+        "judgmentRequired": 0,
+        "evidenceMissing": 0
+      },
+      "sampleClaimTitles": {
+        "proved": [],
+        "attested": [
+          "Post-deployment monitoring ownership and incident escalation are documented for the current review window."
+        ],
+        "failed": [],
+        "staleEvidence": [],
+        "judgmentRequired": [],
+        "evidenceMissing": []
+      },
+      "publicPosition": ""
+    },
+    {
+      "framework": "ETSI TS 104 008",
+      "corridors": [
+        "ai-governance"
+      ],
+      "claimSummary": {
+        "proved": 0,
+        "attested": 1,
+        "failed": 0,
+        "staleEvidence": 0,
+        "judgmentRequired": 0,
+        "evidenceMissing": 0
+      },
+      "sampleClaimTitles": {
+        "proved": [],
+        "attested": [
+          "Post-deployment monitoring ownership and incident escalation are documented for the current review window."
+        ],
+        "failed": [],
+        "staleEvidence": [],
+        "judgmentRequired": [],
+        "evidenceMissing": []
+      },
+      "publicPosition": ""
     },
     {
       "framework": "EU AI Act",
@@ -858,6 +943,35 @@
       "publicPosition": "Crosswalked family-level support only in the cyber baseline corridor."
     },
     {
+      "framework": "NIST AI 600-1 Generative AI Profile",
+      "corridors": [
+        "ai-governance"
+      ],
+      "claimSummary": {
+        "proved": 1,
+        "attested": 3,
+        "failed": 0,
+        "staleEvidence": 0,
+        "judgmentRequired": 0,
+        "evidenceMissing": 0
+      },
+      "sampleClaimTitles": {
+        "proved": [
+          "AI-generated content disclosure is enabled and enforcement checks are passing on the public assistant surface."
+        ],
+        "attested": [
+          "AI system intended use, deployment context, and named owner are documented for the current review window.",
+          "AI risk management process and risk tolerances are documented for the current review window.",
+          "Post-deployment monitoring ownership and incident escalation are documented for the current review window."
+        ],
+        "failed": [],
+        "staleEvidence": [],
+        "judgmentRequired": [],
+        "evidenceMissing": []
+      },
+      "publicPosition": ""
+    },
+    {
       "framework": "NIST AI RMF 1.0",
       "corridors": [
         "ai-governance"
@@ -982,6 +1096,61 @@
         "evidenceMissing": []
       },
       "publicPosition": "Narrow corridor evidence only, not a full opinion or clause-complete public mapping corpus."
+    },
+    {
+      "framework": "UK AI Cyber Security Code of Practice",
+      "corridors": [
+        "ai-governance"
+      ],
+      "claimSummary": {
+        "proved": 0,
+        "attested": 3,
+        "failed": 0,
+        "staleEvidence": 0,
+        "judgmentRequired": 0,
+        "evidenceMissing": 0
+      },
+      "sampleClaimTitles": {
+        "proved": [],
+        "attested": [
+          "AI risk management process and risk tolerances are documented for the current review window.",
+          "Human oversight roles, escalation path, and override responsibility are documented for the current review window.",
+          "Post-deployment monitoring ownership and incident escalation are documented for the current review window."
+        ],
+        "failed": [],
+        "staleEvidence": [],
+        "judgmentRequired": [],
+        "evidenceMissing": []
+      },
+      "publicPosition": ""
+    },
+    {
+      "framework": "UK ICO AI and data protection guidance",
+      "corridors": [
+        "ai-governance"
+      ],
+      "claimSummary": {
+        "proved": 1,
+        "attested": 2,
+        "failed": 0,
+        "staleEvidence": 0,
+        "judgmentRequired": 0,
+        "evidenceMissing": 0
+      },
+      "sampleClaimTitles": {
+        "proved": [
+          "AI-generated content disclosure is enabled and enforcement checks are passing on the public assistant surface."
+        ],
+        "attested": [
+          "AI system intended use, deployment context, and named owner are documented for the current review window.",
+          "Human oversight roles, escalation path, and override responsibility are documented for the current review window."
+        ],
+        "failed": [],
+        "staleEvidence": [],
+        "judgmentRequired": [],
+        "evidenceMissing": []
+      },
+      "publicPosition": ""
     }
   ],
   "commands": {

@@ -51,7 +51,7 @@ The right public statement is not that ExampleCo is fully certified. The right s
 - **Claim summary**: proved `1`, attested `4`, failed `0`, stale `0`, judgment `0`, missing `0`
 - **Safe statement**: ExampleCo can state that AI context, risk process, oversight, and monitoring are documented and signed, and that AI-generated content disclosure is mechanically demonstrated on the scoped assistant surface.
 - **Why included**: This keeps AI marketing honest by separating documentary governance evidence from the one narrow technical control that is currently machine-checkable.
-- **Frameworks touched**: EU AI Act, EU GPAI Code of Practice, ISO/IEC 23894, ISO/IEC 42001, ISO/IEC 42005, NIST AI RMF 1.0
+- **Frameworks touched**: Australia Voluntary AI Safety Standard, ETSI EN 304 223, ETSI TS 104 008, EU AI Act, EU GPAI Code of Practice, ISO/IEC 23894, ISO/IEC 42001, ISO/IEC 42005, NIST AI 600-1 Generative AI Profile, NIST AI RMF 1.0, UK AI Cyber Security Code of Practice, UK ICO AI and data protection guidance
 - **Artifacts**: `ai-governance/trust-surface-report.md`, `ai-governance/verification-result.json`, `ai-governance/certificate.json`
 
 ### Blocked corridor (`failed`)
@@ -65,11 +65,29 @@ The right public statement is not that ExampleCo is fully certified. The right s
 
 ## Framework view
 
+### Australia Voluntary AI Safety Standard
+
+- **Public position**: 
+- **Corridors**: ai-governance
+- **Claim summary**: proved `1`, attested `4`, failed `0`, stale `0`, judgment `0`, missing `0`
+
 ### Cyber Essentials
 
 - **Public position**: Narrow public cyber hygiene corridor with clean machine-checkable examples, not a full certification claim.
 - **Corridors**: cyber-baseline, issued
 - **Claim summary**: proved `7`, attested `0`, failed `0`, stale `0`, judgment `0`, missing `0`
+
+### ETSI EN 304 223
+
+- **Public position**: 
+- **Corridors**: ai-governance
+- **Claim summary**: proved `0`, attested `1`, failed `0`, stale `0`, judgment `0`, missing `0`
+
+### ETSI TS 104 008
+
+- **Public position**: 
+- **Corridors**: ai-governance
+- **Claim summary**: proved `0`, attested `1`, failed `0`, stale `0`, judgment `0`, missing `0`
 
 ### EU AI Act
 
@@ -125,6 +143,12 @@ The right public statement is not that ExampleCo is fully certified. The right s
 - **Corridors**: cyber-baseline, issued
 - **Claim summary**: proved `5`, attested `1`, failed `0`, stale `0`, judgment `0`, missing `0`
 
+### NIST AI 600-1 Generative AI Profile
+
+- **Public position**: 
+- **Corridors**: ai-governance
+- **Claim summary**: proved `1`, attested `3`, failed `0`, stale `0`, judgment `0`, missing `0`
+
 ### NIST AI RMF 1.0
 
 - **Public position**: AI governance and transparency families appear in the synthetic AI corridor, still mostly attestation-backed.
@@ -148,6 +172,18 @@ The right public statement is not that ExampleCo is fully certified. The right s
 - **Public position**: Narrow corridor evidence only, not a full opinion or clause-complete public mapping corpus.
 - **Corridors**: cyber-baseline, failed, issued
 - **Claim summary**: proved `15`, attested `4`, failed `1`, stale `0`, judgment `1`, missing `0`
+
+### UK AI Cyber Security Code of Practice
+
+- **Public position**: 
+- **Corridors**: ai-governance
+- **Claim summary**: proved `0`, attested `3`, failed `0`, stale `0`, judgment `0`, missing `0`
+
+### UK ICO AI and data protection guidance
+
+- **Public position**: 
+- **Corridors**: ai-governance
+- **Claim summary**: proved `1`, attested `2`, failed `0`, stale `0`, judgment `0`, missing `0`
 
 ## Rebuild and check
 

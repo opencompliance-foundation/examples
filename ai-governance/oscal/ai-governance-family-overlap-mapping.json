@@ -10,7 +10,7 @@
     },
     "provenance": {
       "method": "manual-family-crosswalk",
-      "matching-rationale": "The public ExampleCo ai-governance seed supports family-level mappings from synthetic OpenCompliance controls to proxy EU AI Act, NIST AI RMF 1.0, ISO/IEC 42001, ISO/IEC 42005, ISO/IEC 23894, EU GPAI Code of Practice targets.",
+      "matching-rationale": "The public ExampleCo ai-governance seed supports family-level mappings from synthetic OpenCompliance controls to proxy EU AI Act, NIST AI RMF 1.0, ISO/IEC 42001, ISO/IEC 42005, Australia Voluntary AI Safety Standard, UK ICO AI and data protection guidance, NIST AI 600-1 Generative AI Profile, ISO/IEC 23894, UK AI Cyber Security Code of Practice, ETSI EN 304 223, ETSI TS 104 008, EU GPAI Code of Practice targets.",
       "status": "draft",
       "mapping-description": "Maps the synthetic OpenCompliance ai-governance corridor controls to public-safe proxy identifiers representing overlapping framework families."
     },
@@ -30,7 +30,7 @@
           {
             "uuid": "3de6576a-5ad1-5503-b9d6-a39f723f1f11",
             "relationship": "subset-of",
-            "matching-rationale": "AI system context and intended use documented is one narrow synthetic OpenCompliance slice of the broader technical_documentation_and_intended_purpose, context_and_intended_use, documented_context_and_ai_objectives, and impact_assessment_inputs families.",
+            "matching-rationale": "AI system context and intended use documented is one narrow synthetic OpenCompliance slice of the broader technical_documentation_and_intended_purpose, context_and_intended_use, documented_context_and_ai_objectives, impact_assessment_inputs, accountability_and_governance, governance_and_accountability, and contextual_risk_and_use_case families.",
             "sources": [
               {
                 "type": "control",
@@ -53,13 +53,25 @@
               {
                 "type": "control",
                 "id-ref": "iso_iec_42005.family.impact_assessment_inputs"
+              },
+              {
+                "type": "control",
+                "id-ref": "australia_voluntary_ai_safety_standard.guardrail_1"
+              },
+              {
+                "type": "control",
+                "id-ref": "ico_ai_guidance.family.governance_and_accountability"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_ai_600_1.family.contextual_risk_and_use_case"
               }
             ]
           },
           {
             "uuid": "8fa79223-277f-5b83-a8d4-b4ccd4a311ca",
             "relationship": "subset-of",
-            "matching-rationale": "AI risk management process documented is one narrow synthetic OpenCompliance slice of the broader ai_risk_management, risk_management_process, ai_management_system_risk_process, ai_risk_management_guidance, and impact_assessment_process families.",
+            "matching-rationale": "AI risk management process documented is one narrow synthetic OpenCompliance slice of the broader ai_risk_management, risk_management_process, ai_management_system_risk_process, ai_risk_management_guidance, impact_assessment_process, risk_management_process, security_risk_assessment, and genai_risk_management families.",
             "sources": [
               {
                 "type": "control",
@@ -86,13 +98,25 @@
               {
                 "type": "control",
                 "id-ref": "iso_iec_42005.family.impact_assessment_process"
+              },
+              {
+                "type": "control",
+                "id-ref": "australia_voluntary_ai_safety_standard.guardrail_2"
+              },
+              {
+                "type": "control",
+                "id-ref": "uk_ai_cyber_security_code_of_practice.principle_3"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_ai_600_1.family.genai_risk_management"
               }
             ]
           },
           {
             "uuid": "16d88087-f827-54b6-9a6d-aa5667403635",
             "relationship": "subset-of",
-            "matching-rationale": "AI human oversight assignment documented is one narrow synthetic OpenCompliance slice of the broader human_oversight, human_ai_roles_and_oversight, and roles_responsibilities_and_oversight families.",
+            "matching-rationale": "AI human oversight assignment documented is one narrow synthetic OpenCompliance slice of the broader human_oversight, human_ai_roles_and_oversight, roles_responsibilities_and_oversight, meaningful_human_oversight, human_responsibility_for_ai_systems, and human_review_and_explainability families.",
             "sources": [
               {
                 "type": "control",
@@ -111,13 +135,25 @@
               {
                 "type": "control",
                 "id-ref": "iso_iec_42001.family.roles_responsibilities_and_oversight"
+              },
+              {
+                "type": "control",
+                "id-ref": "australia_voluntary_ai_safety_standard.guardrail_5"
+              },
+              {
+                "type": "control",
+                "id-ref": "uk_ai_cyber_security_code_of_practice.principle_4"
+              },
+              {
+                "type": "control",
+                "id-ref": "ico_ai_guidance.family.human_review_and_explainability"
               }
             ]
           },
           {
             "uuid": "ef29a377-4557-5621-ba1d-0ab0a0323179",
             "relationship": "subset-of",
-            "matching-rationale": "AI monitoring and incident handling plan documented is one narrow synthetic OpenCompliance slice of the broader ai_monitoring_and_incident_handling, post_deployment_monitoring, monitoring_measurement_and_improvement, risk_monitoring_and_review, and impact_assessment_monitoring families.",
+            "matching-rationale": "AI monitoring and incident handling plan documented is one narrow synthetic OpenCompliance slice of the broader ai_monitoring_and_incident_handling, post_deployment_monitoring, monitoring_measurement_and_improvement, risk_monitoring_and_review, impact_assessment_monitoring, testing_and_post_deployment_monitoring, monitoring_and_incident_response, ai_cybersecurity_monitoring_and_maintenance, continuous_auditing_and_conformity_assessment, and post_deployment_monitoring families.",
             "sources": [
               {
                 "type": "control",
@@ -144,13 +180,33 @@
               {
                 "type": "control",
                 "id-ref": "iso_iec_42005.family.impact_assessment_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "australia_voluntary_ai_safety_standard.guardrail_4"
+              },
+              {
+                "type": "control",
+                "id-ref": "uk_ai_cyber_security_code_of_practice.principle_12"
+              },
+              {
+                "type": "control",
+                "id-ref": "etsi_en_304_223.family.ai_cybersecurity_monitoring_and_maintenance"
+              },
+              {
+                "type": "control",
+                "id-ref": "etsi_ts_104_008.family.continuous_auditing_and_conformity_assessment"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_ai_600_1.family.post_deployment_monitoring"
               }
             ]
           },
           {
             "uuid": "f80266de-51e4-5a49-bea7-399468cdaf76",
             "relationship": "subset-of",
-            "matching-rationale": "AI-generated content disclosure mechanism configured is one narrow synthetic OpenCompliance slice of the broader ai_generated_content_transparency, transparency_and_copyright, transparency_and_accountability, and documented_information_and_communication families.",
+            "matching-rationale": "AI-generated content disclosure mechanism configured is one narrow synthetic OpenCompliance slice of the broader ai_generated_content_transparency, transparency_and_copyright, transparency_and_accountability, documented_information_and_communication, disclosure_of_ai_and_ai_generated_content, transparency_and_explainability, and transparency_and_content_provenance families.",
             "sources": [
               {
                 "type": "control",
@@ -173,6 +229,18 @@
               {
                 "type": "control",
                 "id-ref": "iso_iec_42001.family.documented_information_and_communication"
+              },
+              {
+                "type": "control",
+                "id-ref": "australia_voluntary_ai_safety_standard.guardrail_6"
+              },
+              {
+                "type": "control",
+                "id-ref": "ico_ai_guidance.family.transparency_and_explainability"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_ai_600_1.family.transparency_and_content_provenance"
               }
             ]
           }

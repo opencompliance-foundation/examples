@@ -6,11 +6,11 @@
   "organisation": "ExampleCo",
   "profileId": "ai_governance_corridor",
   "outcome": "certificate_issued",
-  "proofBundleSha256": "98a9f3c1ee753fdd5819a736705bcac2d56ddb43c86f44137da00947009181c3",
+  "proofBundleSha256": "639f39db40d23a3e9de0ff9a3eb789cc41157bc902e8ca778a87415ca67b784f",
   "trustSurfaceSha256": "dc5bf237fa6ac8894e5346414ac4b3e5ac2ed0dbd5fff952d0e2af1be8885cf6",
   "outcomeArtifact": {
     "path": "certificate.json",
-    "sha256": "c3c83a8d723d044bfa0495fea977f6a828cf10bc18ff70627d8adacd74001eb6"
+    "sha256": "b216931f1a8bba909903d8a0cf423e8f1c2d64943ea550d205b1fd444213c47c"
   },
   "blockingIssueCount": 0
 }

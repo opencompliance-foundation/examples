@@ -29,6 +29,27 @@
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
     {
+      "id": "australia_voluntary_ai_safety_standard.guardrail_1",
+      "framework": "Australia Voluntary AI Safety Standard",
+      "family": "accountability_and_governance",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "ico_ai_guidance.family.governance_and_accountability",
+      "framework": "UK ICO AI and data protection guidance",
+      "family": "governance_and_accountability",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "nist_ai_600_1.family.contextual_risk_and_use_case",
+      "framework": "NIST AI 600-1 Generative AI Profile",
+      "family": "contextual_risk_and_use_case",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
       "id": "eu_ai_act.family.ai_risk_management",
       "framework": "EU AI Act",
       "family": "ai_risk_management",
@@ -64,6 +85,27 @@
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
     {
+      "id": "australia_voluntary_ai_safety_standard.guardrail_2",
+      "framework": "Australia Voluntary AI Safety Standard",
+      "family": "risk_management_process",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "uk_ai_cyber_security_code_of_practice.principle_3",
+      "framework": "UK AI Cyber Security Code of Practice",
+      "family": "security_risk_assessment",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "nist_ai_600_1.family.genai_risk_management",
+      "framework": "NIST AI 600-1 Generative AI Profile",
+      "family": "genai_risk_management",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
       "id": "eu_ai_act.family.human_oversight",
       "framework": "EU AI Act",
       "family": "human_oversight",
@@ -81,6 +123,27 @@
       "id": "iso_iec_42001.family.roles_responsibilities_and_oversight",
       "framework": "ISO/IEC 42001",
       "family": "roles_responsibilities_and_oversight",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "australia_voluntary_ai_safety_standard.guardrail_5",
+      "framework": "Australia Voluntary AI Safety Standard",
+      "family": "meaningful_human_oversight",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "uk_ai_cyber_security_code_of_practice.principle_4",
+      "framework": "UK AI Cyber Security Code of Practice",
+      "family": "human_responsibility_for_ai_systems",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "ico_ai_guidance.family.human_review_and_explainability",
+      "framework": "UK ICO AI and data protection guidance",
+      "family": "human_review_and_explainability",
       "level": "family",
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
@@ -120,6 +183,41 @@
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
     {
+      "id": "australia_voluntary_ai_safety_standard.guardrail_4",
+      "framework": "Australia Voluntary AI Safety Standard",
+      "family": "testing_and_post_deployment_monitoring",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "uk_ai_cyber_security_code_of_practice.principle_12",
+      "framework": "UK AI Cyber Security Code of Practice",
+      "family": "monitoring_and_incident_response",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "etsi_en_304_223.family.ai_cybersecurity_monitoring_and_maintenance",
+      "framework": "ETSI EN 304 223",
+      "family": "ai_cybersecurity_monitoring_and_maintenance",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "etsi_ts_104_008.family.continuous_auditing_and_conformity_assessment",
+      "framework": "ETSI TS 104 008",
+      "family": "continuous_auditing_and_conformity_assessment",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "nist_ai_600_1.family.post_deployment_monitoring",
+      "framework": "NIST AI 600-1 Generative AI Profile",
+      "family": "post_deployment_monitoring",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
       "id": "eu_ai_act.family.ai_generated_content_transparency",
       "framework": "EU AI Act",
       "family": "ai_generated_content_transparency",
@@ -144,6 +242,27 @@
       "id": "iso_iec_42001.family.documented_information_and_communication",
       "framework": "ISO/IEC 42001",
       "family": "documented_information_and_communication",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "australia_voluntary_ai_safety_standard.guardrail_6",
+      "framework": "Australia Voluntary AI Safety Standard",
+      "family": "disclosure_of_ai_and_ai_generated_content",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "ico_ai_guidance.family.transparency_and_explainability",
+      "framework": "UK ICO AI and data protection guidance",
+      "family": "transparency_and_explainability",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "nist_ai_600_1.family.transparency_and_content_provenance",
+      "framework": "NIST AI 600-1 Generative AI Profile",
+      "family": "transparency_and_content_provenance",
       "level": "family",
       "note": "Synthetic proxy target identifier used for public mapping examples."
     }
