@@ -73,6 +73,51 @@
             ]
           },
           {
+            "uuid": "a42c9190-ebe8-5939-9451-9635757b16f5",
+            "relationship": "subset-of",
+            "matching-rationale": "Unique infrastructure access identities required is one narrow synthetic OpenCompliance slice of the broader access_control, identity_and_access_management, identity_access, security_of_processing, user_access_control, identity_and_access_control, identity_management_and_access_control, and identification_and_authentication families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.id-04"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.identity_and_access_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.identity_access"
+              },
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.security_of_processing"
+              },
+              {
+                "type": "control",
+                "id-ref": "cyber_essentials.family.user_access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "ncsc_caf_4_0.family.identity_and_access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.identity_management_and_access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.identification_and_authentication"
+              }
+            ]
+          },
+          {
             "uuid": "57bdb2e8-615f-5a9a-9ccb-88fd59c6d5a6",
             "relationship": "subset-of",
             "matching-rationale": "Scoped audit logging enabled is one narrow synthetic OpenCompliance slice of the broader logging_monitoring, logging_and_monitoring, logging_monitoring, security_monitoring, protective_technology_and_logging, and audit_and_accountability families.",

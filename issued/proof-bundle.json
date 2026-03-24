@@ -48,6 +48,60 @@
       "basis": "The identity provider export states MFA is required and conditional access is enabled."
     },
     {
+      "claimId": "EX-CLAIM-209",
+      "title": "Infrastructure access in the scoped production environment requires unique named identities with no shared administrative accounts.",
+      "result": "proved",
+      "frameworkMappings": [
+        {
+          "framework": "SOC 2",
+          "family": "access_control",
+          "controlId": "soc2.family.access_control"
+        },
+        {
+          "framework": "ISO 27001",
+          "family": "identity_and_access_management",
+          "controlId": "iso27001.family.identity_and_access_management"
+        },
+        {
+          "framework": "IRAP",
+          "family": "identity_access",
+          "controlId": "irap.family.identity_access"
+        },
+        {
+          "framework": "GDPR",
+          "family": "security_of_processing",
+          "controlId": "gdpr.family.security_of_processing"
+        },
+        {
+          "framework": "Cyber Essentials",
+          "family": "user_access_control",
+          "controlId": "cyber_essentials.family.user_access_control"
+        },
+        {
+          "framework": "NCSC CAF 4.0",
+          "family": "identity_and_access_control",
+          "controlId": "ncsc_caf_4_0.family.identity_and_access_control"
+        },
+        {
+          "framework": "NIST CSF 2.0",
+          "family": "identity_management_and_access_control",
+          "controlId": "nist_csf_2_0.family.identity_management_and_access_control"
+        },
+        {
+          "framework": "NIST SP 800-53 Rev. 5.1",
+          "family": "identification_and_authentication",
+          "controlId": "nist_sp_800_53_rev_5_1.family.identification_and_authentication"
+        }
+      ],
+      "controlRefs": [
+        "oc.id-04"
+      ],
+      "evidenceRefs": [
+        "EV-209"
+      ],
+      "basis": "The identity export shows named accounts required for the scoped infrastructure access plane and no shared administrative accounts present."
+    },
+    {
       "claimId": "EX-CLAIM-202",
       "title": "Audit logging is enabled for the scoped production stack.",
       "result": "proved",
@@ -247,7 +301,7 @@
     }
   ],
   "summary": {
-    "proved": 4,
+    "proved": 5,
     "attested": 4,
     "failed": 0,
     "staleEvidence": 0,
@@ -262,9 +316,10 @@
     "batchId": "exampleco-issued-bundle-2026-03-24-lean-batch",
     "fixture": "issued",
     "status": "verified",
-    "theoremCount": 3,
+    "theoremCount": 4,
     "verifiedTheorems": [
       "claim_EX_CLAIM_201_proved",
+      "claim_EX_CLAIM_209_proved",
       "claim_EX_CLAIM_202_proved",
       "claim_EX_CLAIM_208_proved"
     ],
@@ -281,6 +336,14 @@
         "predicate": "AdministrativeMfaSatisfied",
         "evidenceClaimType": "identity_mfa_enforcement",
         "theorem": "claim_EX_CLAIM_201_proved"
+      },
+      {
+        "claimId": "EX-CLAIM-209",
+        "controlId": "oc.id-04",
+        "module": "OpenCompliance.Controls.Identity",
+        "predicate": "UniqueInfrastructureAuthenticationSatisfied",
+        "evidenceClaimType": "infrastructure_auth_uniqueness_state",
+        "theorem": "claim_EX_CLAIM_209_proved"
       },
       {
         "claimId": "EX-CLAIM-202",
@@ -359,8 +422,8 @@
       }
     },
     "boundaryInventory": {
-      "provedClaimCount": 4,
-      "leanBackedClaimCount": 3,
+      "provedClaimCount": 5,
+      "leanBackedClaimCount": 4,
       "omittedProvedClaims": [
         {
           "claimId": "EX-CLAIM-205",

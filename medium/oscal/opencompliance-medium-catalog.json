@@ -26,6 +26,17 @@
             ]
           },
           {
+            "id": "oc.id-04",
+            "title": "Unique infrastructure access identities required",
+            "parts": [
+              {
+                "id": "oc.id-04_stmt",
+                "name": "statement",
+                "prose": "Infrastructure access in the scoped production environment requires unique named identities with no shared administrative accounts."
+              }
+            ]
+          },
+          {
             "id": "oc.id-02",
             "title": "Typed periodic access review export present",
             "parts": [

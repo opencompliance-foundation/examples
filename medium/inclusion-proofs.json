@@ -1,6 +1,6 @@
 {
   "bundleId": "exampleco-medium-bundle-2026-03-24",
-  "rootHash": "72bc55ef746cf4e6a38632ea68c38e0b589bd79bf039ce74667ae469f668e002",
+  "rootHash": "80fe08e33b670ace11a3bfacdf163870cfd611b1f5bf606a4460e851732a23f8",
   "proofs": [
     {
       "path": "profile.json",
@@ -8,15 +8,15 @@
       "proof": [
         {
           "position": "right",
-          "hash": "a6a972a34c0ff22e649f021215e71f39369781618b49a9492247cb12dfbda627"
+          "hash": "d091e5d3f75e6f1658f66b3344d8f69891a1dc9cdbef7f31a045faaff2f82487"
         },
         {
           "position": "right",
-          "hash": "5dff56d6e8343a0402eab994c6d85a7fb7f9d13f354250d84b05540d1dbda0e4"
+          "hash": "95ccd218a594371da5c26485df5cb8c1ff5bdd2960ce72c02a5dd0da91cfa7dc"
         },
         {
           "position": "right",
-          "hash": "eeed8583b89bfd0abf3bba13fb1b61ac21e6d1af78eac6d3b0c7e0f1d8266f99"
+          "hash": "dd82094b6abbf5bf565ef273d873da4c6b5e1c12bd7796b68b8fc701a5a51f53"
         },
         {
           "position": "right",
@@ -26,7 +26,7 @@
     },
     {
       "path": "evidence-claims.json",
-      "leafHash": "a6a972a34c0ff22e649f021215e71f39369781618b49a9492247cb12dfbda627",
+      "leafHash": "d091e5d3f75e6f1658f66b3344d8f69891a1dc9cdbef7f31a045faaff2f82487",
       "proof": [
         {
           "position": "left",
@@ -34,11 +34,11 @@
         },
         {
           "position": "right",
-          "hash": "5dff56d6e8343a0402eab994c6d85a7fb7f9d13f354250d84b05540d1dbda0e4"
+          "hash": "95ccd218a594371da5c26485df5cb8c1ff5bdd2960ce72c02a5dd0da91cfa7dc"
         },
         {
           "position": "right",
-          "hash": "eeed8583b89bfd0abf3bba13fb1b61ac21e6d1af78eac6d3b0c7e0f1d8266f99"
+          "hash": "dd82094b6abbf5bf565ef273d873da4c6b5e1c12bd7796b68b8fc701a5a51f53"
         },
         {
           "position": "right",
@@ -48,19 +48,19 @@
     },
     {
       "path": "proof-bundle.json",
-      "leafHash": "e9cb53fbe013a58c25ab982b91cf8b6700b8b74f1c36860dc6e09e49f4ca109e",
+      "leafHash": "51cd289015fe5067858a4aa3c4df04104d0f85b8c90328dd611864676d2b330b",
       "proof": [
         {
           "position": "right",
-          "hash": "e666bba2720a3c41da6e2f42ec8ec7579603d84d908b4b23914d68a816cd9931"
+          "hash": "cd27baa5bc0dd51cb5e196598be48172e02162fc5fadb9b6acb0b57342b73a9f"
         },
         {
           "position": "left",
-          "hash": "035ed59a50239ef6020add22697957e5a2a05e2390298d87e9927928857bc7e3"
+          "hash": "7aab8d734044f22a3484e4bbfe9c2ecb0f28dad78096e6c937e3ac85f47e3b2f"
         },
         {
           "position": "right",
-          "hash": "eeed8583b89bfd0abf3bba13fb1b61ac21e6d1af78eac6d3b0c7e0f1d8266f99"
+          "hash": "dd82094b6abbf5bf565ef273d873da4c6b5e1c12bd7796b68b8fc701a5a51f53"
         },
         {
           "position": "right",
@@ -70,19 +70,19 @@
     },
     {
       "path": "trust-surface-report.md",
-      "leafHash": "e666bba2720a3c41da6e2f42ec8ec7579603d84d908b4b23914d68a816cd9931",
+      "leafHash": "cd27baa5bc0dd51cb5e196598be48172e02162fc5fadb9b6acb0b57342b73a9f",
       "proof": [
         {
           "position": "left",
-          "hash": "e9cb53fbe013a58c25ab982b91cf8b6700b8b74f1c36860dc6e09e49f4ca109e"
+          "hash": "51cd289015fe5067858a4aa3c4df04104d0f85b8c90328dd611864676d2b330b"
         },
         {
           "position": "left",
-          "hash": "035ed59a50239ef6020add22697957e5a2a05e2390298d87e9927928857bc7e3"
+          "hash": "7aab8d734044f22a3484e4bbfe9c2ecb0f28dad78096e6c937e3ac85f47e3b2f"
         },
         {
           "position": "right",
-          "hash": "eeed8583b89bfd0abf3bba13fb1b61ac21e6d1af78eac6d3b0c7e0f1d8266f99"
+          "hash": "dd82094b6abbf5bf565ef273d873da4c6b5e1c12bd7796b68b8fc701a5a51f53"
         },
         {
           "position": "right",
@@ -92,7 +92,7 @@
     },
     {
       "path": "verification-result.json",
-      "leafHash": "183559532074a929185fec160f980fe7e14712c914705256e2758bb1df606110",
+      "leafHash": "300a77df1e4c689a53a2494ed81c05bb69905f0559045249bf8aa88e1d307e67",
       "proof": [
         {
           "position": "right",
@@ -100,11 +100,11 @@
         },
         {
           "position": "right",
-          "hash": "b573a787ddded4fa05e34787a66c0116cf5c3f1503308c152434310010bfafe4"
+          "hash": "c02e7c7be095c84ed788fd856f2c93c1187e55940120947985e501af6f2c0d06"
         },
         {
           "position": "left",
-          "hash": "1145c5fc377adc5034e94d640756e8d45259cd5dd339dd8ed42f7a5c11bcfc6a"
+          "hash": "ea8dde75db0d72d61f411a75d176754b6440c5afc6b6d151cdee842b107514a9"
         },
         {
           "position": "right",
@@ -118,15 +118,15 @@
       "proof": [
         {
           "position": "left",
-          "hash": "183559532074a929185fec160f980fe7e14712c914705256e2758bb1df606110"
+          "hash": "300a77df1e4c689a53a2494ed81c05bb69905f0559045249bf8aa88e1d307e67"
         },
         {
           "position": "right",
-          "hash": "b573a787ddded4fa05e34787a66c0116cf5c3f1503308c152434310010bfafe4"
+          "hash": "c02e7c7be095c84ed788fd856f2c93c1187e55940120947985e501af6f2c0d06"
         },
         {
           "position": "left",
-          "hash": "1145c5fc377adc5034e94d640756e8d45259cd5dd339dd8ed42f7a5c11bcfc6a"
+          "hash": "ea8dde75db0d72d61f411a75d176754b6440c5afc6b6d151cdee842b107514a9"
         },
         {
           "position": "right",
@@ -136,19 +136,19 @@
     },
     {
       "path": "replay-bundle.json",
-      "leafHash": "d45f367a060b900f57d1d00a3e8b9c8816752f204d2ed87859f47e90caac46e3",
+      "leafHash": "08880b0c362ef25030282d1fa4058d8e872a3ef3f22283d5f65ba1d3a62d11cb",
       "proof": [
         {
           "position": "right",
-          "hash": "33e0357025f3877ea0d486d23264a251efacd625671180a37e7f31b24c837c0a"
+          "hash": "0a689f02f84c7396479acab1efe877f901d128649f52ea5f75bcb01b42742914"
         },
         {
           "position": "left",
-          "hash": "179d27f4cb3ca2e4e52e7d9aa831005927417a2b48c3f07822f4bdaf90614597"
+          "hash": "01a218ae3f8c44ce1de4160df5078861227ddf63f7956accafac65565ea33800"
         },
         {
           "position": "left",
-          "hash": "1145c5fc377adc5034e94d640756e8d45259cd5dd339dd8ed42f7a5c11bcfc6a"
+          "hash": "ea8dde75db0d72d61f411a75d176754b6440c5afc6b6d151cdee842b107514a9"
         },
         {
           "position": "right",
@@ -158,19 +158,19 @@
     },
     {
       "path": "witness-receipt.json",
-      "leafHash": "33e0357025f3877ea0d486d23264a251efacd625671180a37e7f31b24c837c0a",
+      "leafHash": "0a689f02f84c7396479acab1efe877f901d128649f52ea5f75bcb01b42742914",
       "proof": [
         {
           "position": "left",
-          "hash": "d45f367a060b900f57d1d00a3e8b9c8816752f204d2ed87859f47e90caac46e3"
+          "hash": "08880b0c362ef25030282d1fa4058d8e872a3ef3f22283d5f65ba1d3a62d11cb"
         },
         {
           "position": "left",
-          "hash": "179d27f4cb3ca2e4e52e7d9aa831005927417a2b48c3f07822f4bdaf90614597"
+          "hash": "01a218ae3f8c44ce1de4160df5078861227ddf63f7956accafac65565ea33800"
         },
         {
           "position": "left",
-          "hash": "1145c5fc377adc5034e94d640756e8d45259cd5dd339dd8ed42f7a5c11bcfc6a"
+          "hash": "ea8dde75db0d72d61f411a75d176754b6440c5afc6b6d151cdee842b107514a9"
         },
         {
           "position": "right",
@@ -196,7 +196,7 @@
         },
         {
           "position": "left",
-          "hash": "215a18a575963ceab37c436616aa40fd345be578e30d0db89bf29c8e8b7a454d"
+          "hash": "9ea7d9e431ac3924529331b7588a384ff1af62680b7211fe3b0016f2fbcf5568"
         }
       ]
     }

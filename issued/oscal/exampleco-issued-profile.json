@@ -16,6 +16,7 @@
           {
             "with-ids": [
               "oc.id-01",
+              "oc.id-04",
               "oc.log-01",
               "oc.crypt-01",
               "oc.train-01",

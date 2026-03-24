@@ -50,6 +50,76 @@
     }
   },
   {
+    "claimId": "EV-128",
+    "claimType": "infrastructure_auth_uniqueness_state",
+    "collectedAt": "2026-03-24T01:00:00Z",
+    "sourceSystem": "example-idp",
+    "actor": {
+      "actorId": "idp-sync-bot",
+      "actorType": "system"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "access_control",
+        "controlId": "soc2.family.access_control"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "identity_and_access_management",
+        "controlId": "iso27001.family.identity_and_access_management"
+      },
+      {
+        "framework": "IRAP",
+        "family": "identity_access",
+        "controlId": "irap.family.identity_access"
+      },
+      {
+        "framework": "GDPR",
+        "family": "security_of_processing",
+        "controlId": "gdpr.family.security_of_processing"
+      },
+      {
+        "framework": "Cyber Essentials",
+        "family": "user_access_control",
+        "controlId": "cyber_essentials.family.user_access_control"
+      },
+      {
+        "framework": "NCSC CAF 4.0",
+        "family": "identity_and_access_control",
+        "controlId": "ncsc_caf_4_0.family.identity_and_access_control"
+      },
+      {
+        "framework": "NIST CSF 2.0",
+        "family": "identity_management_and_access_control",
+        "controlId": "nist_csf_2_0.family.identity_management_and_access_control"
+      },
+      {
+        "framework": "NIST SP 800-53 Rev. 5.1",
+        "family": "identification_and_authentication",
+        "controlId": "nist_sp_800_53_rev_5_1.family.identification_and_authentication"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "human_admin_identities"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:00:00Z",
+      "expiresAt": "2026-04-24T01:00:00Z"
+    },
+    "payload": {
+      "namedAccountsRequired": true,
+      "sharedAccountsPresent": false
+    },
+    "provenance": {
+      "exportId": "export-exampleco-idp-2026-03-24-b",
+      "collectionMethod": "synthetic_export",
+      "sourcePath": "exports/idp/admin-identities.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
     "claimId": "EV-102",
     "claimType": "audit_logging_state",
     "collectedAt": "2026-03-24T01:02:00Z",

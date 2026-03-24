@@ -6,7 +6,7 @@
   "organisation": "ExampleCo",
   "profileId": "medium_multiframework_corridor",
   "routeSummary": {
-    "decidable": 13,
+    "decidable": 14,
     "attestation": 11,
     "judgment": 3
   },
@@ -22,6 +22,18 @@
       "evidenceRequired": true,
       "leanBacked": true,
       "rationale": "Deterministic machine state over a narrow identity predicate."
+    },
+    {
+      "claimId": "EX-CLAIM-128",
+      "title": "Infrastructure access in the scoped production environment requires unique named identities with no shared administrative accounts.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.id-04"
+      ],
+      "expectedClaimType": "infrastructure_auth_uniqueness_state",
+      "evidenceRequired": true,
+      "leanBacked": true,
+      "rationale": "Deterministic identity-state evidence over a narrow unique-authentication predicate."
     },
     {
       "claimId": "EX-CLAIM-102",

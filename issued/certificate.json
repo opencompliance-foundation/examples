@@ -25,20 +25,21 @@
     "oc.id-01",
     "oc.id-02",
     "oc.id-03",
+    "oc.id-04",
     "oc.ir-01",
     "oc.log-01",
     "oc.rec-01",
     "oc.train-01"
   ],
   "coverage": {
-    "proved": 4,
+    "proved": 5,
     "attested": 4,
     "failed": 0,
     "staleEvidence": 0,
     "judgmentRequired": 0,
     "evidenceMissing": 0
   },
-  "proofBundleSha256": "0125ff6f61dfe466e292e19aa30f673d7a6e3c459a5af2b4cc2659541c6c27df",
-  "trustSurfaceSha256": "5e8b446a1e9d4fee431aa55f7feade8d1f752c9876ab57cc794ab22360cbcee0",
+  "proofBundleSha256": "1f9757cb677a8eab6cd7755d18c80da4c90fb7862b120ee0786c3a20a141a2bd",
+  "trustSurfaceSha256": "6384723b5128cd10908f0026ce293eb28650b1640ce14e23a17e6bb30c498719",
   "note": "Synthetic narrow-corridor certificate artifact for an example bundle with no blocking gaps."
 }

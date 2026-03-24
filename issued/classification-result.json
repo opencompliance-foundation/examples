@@ -6,7 +6,7 @@
   "organisation": "ExampleCo",
   "profileId": "issued_narrow_corridor",
   "routeSummary": {
-    "decidable": 4,
+    "decidable": 5,
     "attestation": 4,
     "judgment": 0
   },
@@ -22,6 +22,18 @@
       "evidenceRequired": true,
       "leanBacked": true,
       "rationale": "Deterministic machine state over a narrow access-control predicate."
+    },
+    {
+      "claimId": "EX-CLAIM-209",
+      "title": "Infrastructure access in the scoped production environment requires unique named identities with no shared administrative accounts.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.id-04"
+      ],
+      "expectedClaimType": "infrastructure_auth_uniqueness_state",
+      "evidenceRequired": true,
+      "leanBacked": true,
+      "rationale": "Deterministic identity-state evidence over a narrow unique-authentication predicate."
     },
     {
       "claimId": "EX-CLAIM-202",
