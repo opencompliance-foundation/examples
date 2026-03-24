@@ -7,6 +7,7 @@ It exists to show the narrow certificate path for OpenCompliance without leaking
 ## Files
 
 - `profile.json`
+- `source-exports/`
 - `evidence-claims.json`
 - `proof-bundle.json`
 - `trust-surface-report.md`
@@ -27,6 +28,7 @@ It exists to show the narrow certificate path for OpenCompliance without leaking
 ## Intended use
 
 - test the successful Verify path,
+- inspect a raw-to-typed evidence conversion path,
 - review a narrow certificate artifact without over-claiming whole-framework coverage,
 - exercise replay-bundle and witness-receipt generation for a certificate-eligible run,
 - and keep the public examples honest about what a scoped certificate means.

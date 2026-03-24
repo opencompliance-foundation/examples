@@ -9,6 +9,7 @@ Only public-safe synthetic fixtures belong here.
 - `minimal/`
   A small example pack showing:
   - typed evidence claims,
+  - raw synthetic source exports that generate those claims,
   - a proof bundle,
   - a trust-surface report,
   - a verification-result envelope,
@@ -27,6 +28,7 @@ Only public-safe synthetic fixtures belong here.
 - `issued/`
   A narrow certificate-eligible ExampleCo corridor showing:
   - deterministic success-path verification,
+  - raw synthetic source exports that generate the covered claims,
   - a scoped certificate artifact,
   - a replay bundle suitable for exact-match witness reruns,
   - and the same public-safe OSCAL projection style as the other packs.

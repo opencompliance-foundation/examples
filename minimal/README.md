@@ -7,6 +7,7 @@ It exists to make the artifact model concrete without exposing customer evidence
 ## Files
 
 - `profile.json`
+- `source-exports/`
 - `evidence-claims.json`
 - `proof-bundle.json`
 - `trust-surface-report.md`
@@ -20,6 +21,7 @@ It exists to make the artifact model concrete without exposing customer evidence
 ## Intended use
 
 - review the format shape,
+- inspect a raw-to-typed evidence conversion path,
 - test import/export logic,
 - inspect the blocked Verify path,
 - derive basic conformance vectors,
