@@ -278,6 +278,47 @@
             ]
           },
           {
+            "uuid": "b190200d-b524-5ae0-9408-69755afeed10",
+            "relationship": "subset-of",
+            "matching-rationale": "Scoped centralized monitoring enabled is one narrow synthetic OpenCompliance slice of the broader logging_monitoring, logging_and_monitoring, logging_monitoring, security_of_processing, security_monitoring, security_continuous_monitoring, and audit_and_accountability families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.mon-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.logging_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.logging_and_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.logging_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.security_of_processing"
+              },
+              {
+                "type": "control",
+                "id-ref": "ncsc_caf_4_0.family.security_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.security_continuous_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.audit_and_accountability"
+              }
+            ]
+          },
+          {
             "uuid": "88bd5321-921c-5175-83f4-7b6dae56ff19",
             "relationship": "subset-of",
             "matching-rationale": "Encryption at rest enabled is one narrow synthetic OpenCompliance slice of the broader encryption_at_rest, encryption_at_rest, data_at_rest_protection, security_of_processing, data_at_rest_protection, and protection_of_information_at_rest families.",
@@ -432,6 +473,47 @@
               {
                 "type": "control",
                 "id-ref": "irap.family.incident_response"
+              }
+            ]
+          },
+          {
+            "uuid": "e79fe9cb-0b34-5d01-82de-72731d539150",
+            "relationship": "subset-of",
+            "matching-rationale": "Monitoring review operations current is one narrow synthetic OpenCompliance slice of the broader logging_monitoring, logging_and_monitoring, logging_monitoring, security_of_processing, security_monitoring, security_continuous_monitoring, and audit_and_accountability families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.mon-02"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.logging_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.logging_and_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.logging_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.security_of_processing"
+              },
+              {
+                "type": "control",
+                "id-ref": "ncsc_caf_4_0.family.security_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.security_continuous_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.audit_and_accountability"
               }
             ]
           }

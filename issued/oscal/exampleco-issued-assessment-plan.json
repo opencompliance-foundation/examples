@@ -34,6 +34,9 @@
               "control-id": "oc.log-01"
             },
             {
+              "control-id": "oc.mon-01"
+            },
+            {
               "control-id": "oc.crypt-01"
             },
             {
@@ -50,6 +53,9 @@
             },
             {
               "control-id": "oc.ir-01"
+            },
+            {
+              "control-id": "oc.mon-02"
             }
           ]
         }

@@ -6,8 +6,8 @@
   "organisation": "ExampleCo",
   "profileId": "issued_narrow_corridor",
   "routeSummary": {
-    "decidable": 8,
-    "attestation": 4,
+    "decidable": 9,
+    "attestation": 5,
     "judgment": 0
   },
   "items": [
@@ -84,6 +84,18 @@
       "rationale": "Deterministic machine state over a narrow logging predicate."
     },
     {
+      "claimId": "EX-CLAIM-213",
+      "title": "Scoped runtime telemetry is forwarded to the declared central monitoring sink with detection rules enabled.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.mon-01"
+      ],
+      "expectedClaimType": "central_monitoring_state",
+      "evidenceRequired": true,
+      "leanBacked": true,
+      "rationale": "Deterministic telemetry-state evidence over a narrow centralized-monitoring predicate."
+    },
+    {
       "claimId": "EX-CLAIM-208",
       "title": "Encryption at rest is enabled for the scoped customer data stores and no unencrypted store is present.",
       "route": "decidable",
@@ -154,6 +166,18 @@
       "evidenceRequired": true,
       "leanBacked": false,
       "rationale": "Incident runbook ownership and approval remain documentary facts in the current narrow issued corridor."
+    },
+    {
+      "claimId": "EX-CLAIM-214",
+      "title": "Monitoring review cadence, ownership, and retention operations are attested for the scoped production telemetry program.",
+      "route": "attestation",
+      "controlRefs": [
+        "oc.mon-02"
+      ],
+      "expectedClaimType": "monitoring_review_attestation",
+      "evidenceRequired": true,
+      "leanBacked": false,
+      "rationale": "Monitoring review operations remain documentary and owner-attested even when telemetry forwarding is machine-checkable."
     }
   ],
   "note": "Synthetic persisted routing artifact for the OpenCompliance prove/attest/judgment split."

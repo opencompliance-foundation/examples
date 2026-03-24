@@ -42,6 +42,9 @@
                   "control-id": "oc.log-01"
                 },
                 {
+                  "control-id": "oc.mon-01"
+                },
+                {
                   "control-id": "oc.crypt-01"
                 },
                 {
@@ -58,6 +61,9 @@
                 },
                 {
                   "control-id": "oc.ir-01"
+                },
+                {
+                  "control-id": "oc.mon-02"
                 }
               ]
             }
@@ -144,6 +150,19 @@
           },
           {
             "uuid": "oc-issued-observation-007",
+            "title": "Observation for EX-CLAIM-213",
+            "description": "The monitoring export shows the scoped stack forwarding telemetry into the declared central sink with detection rules enabled.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T02:10:00Z",
+            "remarks": "EX-CLAIM-213 proved from EV-213."
+          },
+          {
+            "uuid": "oc-issued-observation-008",
             "title": "Observation for EX-CLAIM-208",
             "description": "The storage export shows encryption enabled across the scoped customer data stores and no unencrypted store present in the declared slice.",
             "methods": [
@@ -156,7 +175,7 @@
             "remarks": "EX-CLAIM-208 proved from EV-208."
           },
           {
-            "uuid": "oc-issued-observation-008",
+            "uuid": "oc-issued-observation-009",
             "title": "Observation for EX-CLAIM-203",
             "description": "The training claim is documentary and signed by a named human actor.",
             "methods": [
@@ -169,7 +188,7 @@
             "remarks": "EX-CLAIM-203 attested from EV-203."
           },
           {
-            "uuid": "oc-issued-observation-009",
+            "uuid": "oc-issued-observation-010",
             "title": "Observation for EX-CLAIM-204",
             "description": "The restore exercise claim is documentary and signed by a named human actor.",
             "methods": [
@@ -182,7 +201,7 @@
             "remarks": "EX-CLAIM-204 attested from EV-204."
           },
           {
-            "uuid": "oc-issued-observation-010",
+            "uuid": "oc-issued-observation-011",
             "title": "Observation for EX-CLAIM-205",
             "description": "The access-review export shows the declared review window was completed for the scoped privileged identities.",
             "methods": [
@@ -195,7 +214,7 @@
             "remarks": "EX-CLAIM-205 proved from EV-205."
           },
           {
-            "uuid": "oc-issued-observation-011",
+            "uuid": "oc-issued-observation-012",
             "title": "Observation for EX-CLAIM-206",
             "description": "The access-review closure claim is documentary and signed by the named identity governance owner.",
             "methods": [
@@ -208,7 +227,7 @@
             "remarks": "EX-CLAIM-206 attested from EV-206."
           },
           {
-            "uuid": "oc-issued-observation-012",
+            "uuid": "oc-issued-observation-013",
             "title": "Observation for EX-CLAIM-207",
             "description": "The incident-runbook claim is documentary and signed by the named security operations owner.",
             "methods": [
@@ -219,6 +238,19 @@
             ],
             "collected": "2026-03-24T02:10:00Z",
             "remarks": "EX-CLAIM-207 attested from EV-207."
+          },
+          {
+            "uuid": "oc-issued-observation-014",
+            "title": "Observation for EX-CLAIM-214",
+            "description": "The monitoring-operations claim is documentary and signed by the named detection engineering owner.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T02:10:00Z",
+            "remarks": "EX-CLAIM-214 attested from EV-214."
           }
         ]
       }

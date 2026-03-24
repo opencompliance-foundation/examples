@@ -6,8 +6,8 @@
   "organisation": "ExampleCo",
   "profileId": "medium_multiframework_corridor",
   "routeSummary": {
-    "decidable": 17,
-    "attestation": 11,
+    "decidable": 18,
+    "attestation": 12,
     "judgment": 3
   },
   "items": [
@@ -82,6 +82,18 @@
       "evidenceRequired": true,
       "leanBacked": true,
       "rationale": "Deterministic machine state over a narrow logging predicate."
+    },
+    {
+      "claimId": "EX-CLAIM-132",
+      "title": "Scoped runtime telemetry is forwarded to the declared central monitoring sink with detection rules enabled.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.mon-01"
+      ],
+      "expectedClaimType": "central_monitoring_state",
+      "evidenceRequired": true,
+      "leanBacked": true,
+      "rationale": "Deterministic telemetry-state evidence over a narrow centralized-monitoring predicate."
     },
     {
       "claimId": "EX-CLAIM-103",
@@ -298,6 +310,18 @@
       "evidenceRequired": true,
       "leanBacked": false,
       "rationale": "Access-review closure is an accountable signoff activity and remains attestation-routed even when the export slice is machine-checkable."
+    },
+    {
+      "claimId": "EX-CLAIM-133",
+      "title": "Monitoring review cadence, ownership, and retention operations are attested for the scoped production telemetry program.",
+      "route": "attestation",
+      "controlRefs": [
+        "oc.mon-02"
+      ],
+      "expectedClaimType": "monitoring_review_attestation",
+      "evidenceRequired": true,
+      "leanBacked": false,
+      "rationale": "Monitoring review operations remain documentary and owner-attested even when telemetry forwarding is machine-checkable."
     },
     {
       "claimId": "EX-CLAIM-117",

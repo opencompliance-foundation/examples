@@ -21,12 +21,14 @@
               "oc.id-05",
               "oc.web-01",
               "oc.log-01",
+              "oc.mon-01",
               "oc.crypt-01",
               "oc.train-01",
               "oc.rec-01",
               "oc.id-02",
               "oc.id-03",
-              "oc.ir-01"
+              "oc.ir-01",
+              "oc.mon-02"
             ]
           }
         ]

@@ -109,6 +109,17 @@
             ]
           },
           {
+            "id": "oc.mon-01",
+            "title": "Scoped centralized monitoring enabled",
+            "parts": [
+              {
+                "id": "oc.mon-01_stmt",
+                "name": "statement",
+                "prose": "Scoped runtime telemetry is forwarded to the declared central monitoring sink with detection rules enabled."
+              }
+            ]
+          },
+          {
             "id": "oc.crypt-01",
             "title": "Encryption at rest enabled",
             "parts": [
@@ -237,6 +248,17 @@
                 "id": "oc.change-02_stmt",
                 "name": "statement",
                 "prose": "The production change-review policy is approved and declares an emergency change path for the current review window."
+              }
+            ]
+          },
+          {
+            "id": "oc.mon-02",
+            "title": "Monitoring review operations current",
+            "parts": [
+              {
+                "id": "oc.mon-02_stmt",
+                "name": "statement",
+                "prose": "Monitoring review cadence, ownership, and retention operations are attested for the scoped production telemetry program."
               }
             ]
           },

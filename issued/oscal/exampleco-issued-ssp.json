@@ -67,7 +67,7 @@
       ]
     },
     "control-implementation": {
-      "description": "Synthetic implementation statements for the 12 controls in the issued public corridor.",
+      "description": "Synthetic implementation statements for the 14 controls in the issued public corridor.",
       "implemented-requirements": [
         {
           "uuid": "e872a60a-bea3-5996-9073-ed9460dea304",
@@ -154,12 +154,26 @@
           ]
         },
         {
+          "uuid": "347f5c9e-d540-57ff-99e3-aafa6c16f6a8",
+          "control-id": "oc.mon-01",
+          "by-components": [
+            {
+              "component-uuid": "75de4c4f-8af1-5e4a-8915-5ed8e95e8069",
+              "uuid": "29868118-8e76-523d-9ba2-4d45e8ded8fd",
+              "description": "ExampleCo exports typed evidence covering scoped centralized monitoring enabled.",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            }
+          ]
+        },
+        {
           "uuid": "b28b8974-ce33-5f97-a21d-d9a1b58dbe6d",
           "control-id": "oc.crypt-01",
           "by-components": [
             {
               "component-uuid": "75de4c4f-8af1-5e4a-8915-5ed8e95e8069",
-              "uuid": "49639b09-6740-5961-a7c4-43588cc10d9a",
+              "uuid": "489488a1-db07-5765-bb83-dc69ab6d1964",
               "description": "ExampleCo exports typed evidence covering encryption at rest enabled.",
               "implementation-status": {
                 "state": "implemented"
@@ -173,7 +187,7 @@
           "by-components": [
             {
               "component-uuid": "75de4c4f-8af1-5e4a-8915-5ed8e95e8069",
-              "uuid": "a37de89c-cee2-5d0b-9a45-a96d59558061",
+              "uuid": "0aea5c87-4784-5976-abb1-d172411aaa31",
               "description": "ExampleCo attaches a signed synthetic attestation covering training completion record available.",
               "implementation-status": {
                 "state": "implemented"
@@ -187,7 +201,7 @@
           "by-components": [
             {
               "component-uuid": "75de4c4f-8af1-5e4a-8915-5ed8e95e8069",
-              "uuid": "05b64e40-7c3a-5e4d-a430-35f88c20a937",
+              "uuid": "3ead2510-6752-5d07-bd68-7a9e7807512a",
               "description": "ExampleCo attaches a signed synthetic attestation covering restore exercise evidence present.",
               "implementation-status": {
                 "state": "implemented"
@@ -201,7 +215,7 @@
           "by-components": [
             {
               "component-uuid": "75de4c4f-8af1-5e4a-8915-5ed8e95e8069",
-              "uuid": "a064ca2b-1fa2-5ae3-bb33-fb0abdbd0438",
+              "uuid": "05c5f7d0-e4db-5233-b500-eaa4ac4ab331",
               "description": "ExampleCo exports typed evidence covering typed periodic access review export present.",
               "implementation-status": {
                 "state": "implemented"
@@ -215,7 +229,7 @@
           "by-components": [
             {
               "component-uuid": "75de4c4f-8af1-5e4a-8915-5ed8e95e8069",
-              "uuid": "4ef61127-68da-56ae-8b12-b6d9fea8acae",
+              "uuid": "aaf76f1c-e88b-52f1-8966-c82fb2481056",
               "description": "ExampleCo attaches a signed synthetic attestation covering access review closure attested.",
               "implementation-status": {
                 "state": "implemented"
@@ -229,8 +243,22 @@
           "by-components": [
             {
               "component-uuid": "75de4c4f-8af1-5e4a-8915-5ed8e95e8069",
-              "uuid": "f8da9757-7b97-53ff-9dbf-c0918bf5ee6a",
+              "uuid": "416cb4a8-9ad9-5e38-b496-8e9b1bea8ae2",
               "description": "ExampleCo attaches a signed synthetic attestation covering incident response runbook current.",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "372e0177-810e-54c8-9356-b367912e3a5e",
+          "control-id": "oc.mon-02",
+          "by-components": [
+            {
+              "component-uuid": "75de4c4f-8af1-5e4a-8915-5ed8e95e8069",
+              "uuid": "21feb55e-ca4b-5d35-8efb-67429dc1691d",
+              "description": "ExampleCo attaches a signed synthetic attestation covering monitoring review operations current.",
               "implementation-status": {
                 "state": "implemented"
               }

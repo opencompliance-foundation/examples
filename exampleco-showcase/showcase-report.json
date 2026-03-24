@@ -44,21 +44,21 @@
     "certificateIssuedCount": 3,
     "blockedCorridorCount": 1,
     "uniqueFrameworkCount": 14,
-    "uniqueControlRefCount": 21,
+    "uniqueControlRefCount": 23,
     "claimSummary": {
-      "proved": 15,
-      "attested": 9,
+      "proved": 16,
+      "attested": 10,
       "failed": 1,
       "staleEvidence": 0,
       "judgmentRequired": 1,
       "evidenceMissing": 0
     },
     "routeSummary": {
-      "decidable": 16,
-      "attestation": 9,
+      "decidable": 17,
+      "attestation": 10,
       "judgment": 1
     },
-    "leanBackedProvedClaims": 10,
+    "leanBackedProvedClaims": 11,
     "omittedProvedClaimsOutsidePublicLean": 5
   },
   "workflow": [
@@ -242,22 +242,24 @@
         "oc.id-05",
         "oc.ir-01",
         "oc.log-01",
+        "oc.mon-01",
+        "oc.mon-02",
         "oc.rec-01",
         "oc.seg-01",
         "oc.train-01",
         "oc.web-01"
       ],
       "claimSummary": {
-        "proved": 8,
-        "attested": 4,
+        "proved": 9,
+        "attested": 5,
         "failed": 0,
         "staleEvidence": 0,
         "judgmentRequired": 0,
         "evidenceMissing": 0
       },
       "routeSummary": {
-        "decidable": 8,
-        "attestation": 4,
+        "decidable": 9,
+        "attestation": 5,
         "judgment": 0
       },
       "mixedControlCount": 0,
@@ -277,9 +279,9 @@
       },
       "leanBoundary": {
         "status": "verified",
-        "theoremCount": 7,
-        "leanBackedClaimCount": 7,
-        "provedClaimCount": 8,
+        "theoremCount": 8,
+        "leanBackedClaimCount": 8,
+        "provedClaimCount": 9,
         "omittedProvedClaimCount": 1
       },
       "resultHighlights": {
@@ -651,8 +653,8 @@
         "issued"
       ],
       "claimSummary": {
-        "proved": 6,
-        "attested": 0,
+        "proved": 7,
+        "attested": 1,
         "failed": 0,
         "staleEvidence": 0,
         "judgmentRequired": 0,
@@ -664,7 +666,9 @@
           "Infrastructure access in the scoped production environment requires unique named identities with no shared administrative accounts.",
           "Scoped customer and environment boundaries are enforced with no undeclared cross-environment paths in the production slice."
         ],
-        "attested": [],
+        "attested": [
+          "Monitoring review cadence, ownership, and retention operations are attested for the scoped production telemetry program."
+        ],
         "failed": [],
         "staleEvidence": [],
         "judgmentRequired": [],
@@ -679,8 +683,8 @@
         "issued"
       ],
       "claimSummary": {
-        "proved": 10,
-        "attested": 2,
+        "proved": 11,
+        "attested": 3,
         "failed": 0,
         "staleEvidence": 0,
         "judgmentRequired": 0,
@@ -694,7 +698,8 @@
         ],
         "attested": [
           "Access review closure and high-risk exception resolution are attested for the current review window.",
-          "The incident response runbook is approved, owned, and current for the declared review window."
+          "The incident response runbook is approved, owned, and current for the declared review window.",
+          "Monitoring review cadence, ownership, and retention operations are attested for the scoped production telemetry program."
         ],
         "failed": [],
         "staleEvidence": [],
@@ -711,8 +716,8 @@
         "failed"
       ],
       "claimSummary": {
-        "proved": 14,
-        "attested": 5,
+        "proved": 15,
+        "attested": 6,
         "failed": 1,
         "staleEvidence": 0,
         "judgmentRequired": 1,
@@ -829,8 +834,8 @@
         "issued"
       ],
       "claimSummary": {
-        "proved": 4,
-        "attested": 0,
+        "proved": 5,
+        "attested": 1,
         "failed": 0,
         "staleEvidence": 0,
         "judgmentRequired": 0,
@@ -842,7 +847,9 @@
           "Infrastructure access in the scoped production environment requires unique named identities with no shared administrative accounts.",
           "Scoped customer and environment boundaries are enforced with no undeclared cross-environment paths in the production slice."
         ],
-        "attested": [],
+        "attested": [
+          "Monitoring review cadence, ownership, and retention operations are attested for the scoped production telemetry program."
+        ],
         "failed": [],
         "staleEvidence": [],
         "judgmentRequired": [],
@@ -886,8 +893,8 @@
         "issued"
       ],
       "claimSummary": {
-        "proved": 10,
-        "attested": 0,
+        "proved": 11,
+        "attested": 1,
         "failed": 0,
         "staleEvidence": 0,
         "judgmentRequired": 0,
@@ -899,7 +906,9 @@
           "The inbound network boundary defaults to deny and exposes only declared ingress ports.",
           "Secure baseline configuration is applied and insecure defaults are absent in the managed device set."
         ],
-        "attested": [],
+        "attested": [
+          "Monitoring review cadence, ownership, and retention operations are attested for the scoped production telemetry program."
+        ],
         "failed": [],
         "staleEvidence": [],
         "judgmentRequired": [],
@@ -914,8 +923,8 @@
         "issued"
       ],
       "claimSummary": {
-        "proved": 10,
-        "attested": 0,
+        "proved": 11,
+        "attested": 1,
         "failed": 0,
         "staleEvidence": 0,
         "judgmentRequired": 0,
@@ -927,7 +936,9 @@
           "The inbound network boundary defaults to deny and exposes only declared ingress ports.",
           "Secure baseline configuration is applied and insecure defaults are absent in the managed device set."
         ],
-        "attested": [],
+        "attested": [
+          "Monitoring review cadence, ownership, and retention operations are attested for the scoped production telemetry program."
+        ],
         "failed": [],
         "staleEvidence": [],
         "judgmentRequired": [],
@@ -943,8 +954,8 @@
         "failed"
       ],
       "claimSummary": {
-        "proved": 14,
-        "attested": 3,
+        "proved": 15,
+        "attested": 4,
         "failed": 1,
         "staleEvidence": 0,
         "judgmentRequired": 1,

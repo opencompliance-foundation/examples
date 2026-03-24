@@ -61,12 +61,14 @@
       "EX-CLAIM-210",
       "EX-CLAIM-211",
       "EX-CLAIM-212",
+      "EX-CLAIM-213",
       "EX-CLAIM-208",
       "EX-CLAIM-203",
       "EX-CLAIM-204",
       "EX-CLAIM-205",
       "EX-CLAIM-206",
-      "EX-CLAIM-207"
+      "EX-CLAIM-207",
+      "EX-CLAIM-214"
     ],
     "avoidsFullRerun": true
   },
@@ -77,7 +79,7 @@
       {
         "status": "issued",
         "bundleId": "exampleco-issued-bundle-2026-03-24",
-        "artifactSha256": "ab8fa2486b988badeed1dbf4cefa9ecc6f6bae6201c59abf4bd4449ecc5c67de",
+        "artifactSha256": "178a7e63b7dccfc5123074e1f6fd2f02505c961831e4c392da89955cbed1a7d6",
         "recordedAt": "2026-03-24T02:10:00Z"
       },
       {
@@ -92,6 +94,6 @@
     "ComplianceDriftDetected",
     "CertificateRevoked"
   ],
-  "proofBundleSha256": "0d36d7ef1062c1e6ff9450369dd615df2d9fd7499f4e34cca72965b2345c63a6",
+  "proofBundleSha256": "34578b7f1a576d92a81b81eb318f6a8ec78a31776927eaa164e959a256c4c94b",
   "note": "Synthetic lifecycle decision derived from a normalized source-change event over a previously issued ExampleCo certificate."
 }

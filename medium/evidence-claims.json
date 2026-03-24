@@ -363,6 +363,72 @@
     }
   },
   {
+    "claimId": "EV-132",
+    "claimType": "central_monitoring_state",
+    "collectedAt": "2026-03-24T01:03:00Z",
+    "sourceSystem": "example-monitoring",
+    "actor": {
+      "actorId": "monitoring-config-exporter",
+      "actorType": "system"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "logging_monitoring",
+        "controlId": "soc2.family.logging_monitoring"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "logging_and_monitoring",
+        "controlId": "iso27001.family.logging_and_monitoring"
+      },
+      {
+        "framework": "IRAP",
+        "family": "logging_monitoring",
+        "controlId": "irap.family.logging_monitoring"
+      },
+      {
+        "framework": "GDPR",
+        "family": "security_of_processing",
+        "controlId": "gdpr.family.security_of_processing"
+      },
+      {
+        "framework": "NCSC CAF 4.0",
+        "family": "security_monitoring",
+        "controlId": "ncsc_caf_4_0.family.security_monitoring"
+      },
+      {
+        "framework": "NIST CSF 2.0",
+        "family": "security_continuous_monitoring",
+        "controlId": "nist_csf_2_0.family.security_continuous_monitoring"
+      },
+      {
+        "framework": "NIST SP 800-53 Rev. 5.1",
+        "family": "audit_and_accountability",
+        "controlId": "nist_sp_800_53_rev_5_1.family.audit_and_accountability"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "customer_runtime"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:03:00Z",
+      "expiresAt": "2026-03-31T01:03:00Z"
+    },
+    "payload": {
+      "centralSinkConfigured": true,
+      "scopedAssetsForwarded": true,
+      "alertRulesEnabled": true
+    },
+    "provenance": {
+      "exportId": "export-exampleco-monitoring-2026-03-24-a",
+      "collectionMethod": "synthetic_export",
+      "sourcePath": "exports/monitoring/central-sink.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
     "claimId": "EV-103",
     "claimType": "tls_ingress_configuration",
     "collectedAt": "2026-03-24T01:04:00Z",
@@ -1369,6 +1435,78 @@
       "exportId": "attestation-exampleco-vendor-terms-2026-q1",
       "collectionMethod": "synthetic_attestation",
       "sourcePath": "attestations/vendor-security-terms-q1.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-133",
+    "claimType": "monitoring_review_attestation",
+    "collectedAt": "2026-03-24T01:28:00Z",
+    "sourceSystem": "example-governance",
+    "actor": {
+      "actorId": "detection-engineering-owner@exampleco.test",
+      "actorType": "human"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "logging_monitoring",
+        "controlId": "soc2.family.logging_monitoring"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "logging_and_monitoring",
+        "controlId": "iso27001.family.logging_and_monitoring"
+      },
+      {
+        "framework": "IRAP",
+        "family": "logging_monitoring",
+        "controlId": "irap.family.logging_monitoring"
+      },
+      {
+        "framework": "GDPR",
+        "family": "security_of_processing",
+        "controlId": "gdpr.family.security_of_processing"
+      },
+      {
+        "framework": "NCSC CAF 4.0",
+        "family": "security_monitoring",
+        "controlId": "ncsc_caf_4_0.family.security_monitoring"
+      },
+      {
+        "framework": "NIST CSF 2.0",
+        "family": "security_continuous_monitoring",
+        "controlId": "nist_csf_2_0.family.security_continuous_monitoring"
+      },
+      {
+        "framework": "NIST SP 800-53 Rev. 5.1",
+        "family": "audit_and_accountability",
+        "controlId": "nist_sp_800_53_rev_5_1.family.audit_and_accountability"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "telemetry_program"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:28:00Z",
+      "expiresAt": "2026-06-22T01:28:00Z"
+    },
+    "payload": {
+      "alertReviewCadenceDeclared": true,
+      "monitoringOwnerRole": "detection_engineering_owner",
+      "retentionOperationsCovered": true,
+      "reviewWindowDays": 90
+    },
+    "signer": {
+      "signerId": "detection-engineering-owner@exampleco.test",
+      "signerType": "human",
+      "signatureType": "synthetic_ed25519_attestation"
+    },
+    "provenance": {
+      "exportId": "attestation-exampleco-monitoring-review-2026-q1",
+      "collectionMethod": "synthetic_attestation",
+      "sourcePath": "attestations/monitoring-review-q1.json",
       "digestAlgorithm": "sha256"
     }
   }

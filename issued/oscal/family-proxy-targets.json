@@ -183,6 +183,13 @@
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
     {
+      "id": "nist_csf_2_0.family.security_continuous_monitoring",
+      "framework": "NIST CSF 2.0",
+      "family": "security_continuous_monitoring",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
       "id": "soc2.family.encryption_at_rest",
       "framework": "SOC 2",
       "family": "encryption_at_rest",

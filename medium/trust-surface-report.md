@@ -7,8 +7,8 @@
 
 This synthetic example shows a wider OpenCompliance corridor without pretending the corridor is complete:
 
-- `16` proved claims
-- `11` attested claims
+- `17` proved claims
+- `12` attested claims
 - `0` failed claims
 - `0` stale-evidence claims
 - `3` judgment-required claims
@@ -22,6 +22,7 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 - Scoped password-quality controls enforce strong minimum length, no maximum-length restriction, and common-password blocking.
 - A managed web application firewall is attached to the scoped public ingress path, runs in blocking mode, and has a managed rule set active.
 - Audit logging is enabled with a declared retention window for the scoped production runtime.
+- Scoped runtime telemetry is forwarded to the declared central monitoring sink with detection rules enabled.
 - Public ingress is HTTPS-only with managed certificates and TLS 1.2 or higher.
 - The managed network boundary is attached to the declared ingress path for scoped public services.
 - Administrative ingress is restricted to approved source ranges at the managed network boundary.
@@ -41,6 +42,7 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 - The DSR runbook is approved and has a named owner for the current review window.
 - The production change-review policy is approved and declares an emergency change path for the current review window.
 - Access review closure and high-risk exception resolution are attested for the current review window.
+- Monitoring review cadence, ownership, and retention operations are attested for the scoped production telemetry program.
 - Configuration exceptions are current, owned, and not already expired in the current review window.
 - Patch exceptions declare compensating controls and no declared exception is already expired in the current review window.
 - The incident response runbook is approved, owned, and current for the declared review window.
@@ -90,6 +92,6 @@ It is public-safe and synthetic, but it demonstrates a more serious corridor tha
 - multi-framework family mappings,
 - explicit control references back into the synthetic OpenCompliance catalog,
 - a cleaner split between runtime proofs and signed attestations,
-- a deeper ISO 27001 and SOC 2 overlap slice for perimeter, ingress-boundary, and transport controls,
+- a deeper ISO 27001 and SOC 2 overlap slice for perimeter, centralized monitoring, ingress-boundary, and transport controls,
 - a first public mixed-control decomposition for change management,
 - and a still-honest boundary where legal or adequacy judgment remains human.
