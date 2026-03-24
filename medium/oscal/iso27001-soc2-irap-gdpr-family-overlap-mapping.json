@@ -186,6 +186,56 @@
             ]
           },
           {
+            "uuid": "26666666-6666-4666-8666-666666666685",
+            "relationship": "subset-of",
+            "matching-rationale": "The mixed production change-control boundary combines repository policy, CI workflow policy, and signed governance evidence as one still-bounded slice of broader change-management families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.change-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.change_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.secure_development_and_change_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.secure_development_and_change"
+              }
+            ]
+          },
+          {
+            "uuid": "26666666-6666-4666-8666-666666666686",
+            "relationship": "subset-of",
+            "matching-rationale": "Signed change-review governance evidence is one documentary slice of broader secure development and change-management families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.change-02"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.change_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.secure_development_and_change_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.secure_development_and_change"
+              }
+            ]
+          },
+          {
             "uuid": "26666666-6666-4666-8666-666666666675",
             "relationship": "subset-of",
             "matching-rationale": "Machine credential hygiene is one narrow technical slice of key and credential families.",

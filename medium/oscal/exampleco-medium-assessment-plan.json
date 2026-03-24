@@ -36,6 +36,12 @@
               "control-id": "oc.ci-01"
             },
             {
+              "control-id": "oc.change-01"
+            },
+            {
+              "control-id": "oc.change-02"
+            },
+            {
               "control-id": "oc.key-01"
             },
             {

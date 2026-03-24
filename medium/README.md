@@ -28,6 +28,7 @@ It exists to show a richer public-safe corridor than `../minimal/` without leaki
 - more typed machine claims,
 - more typed human attestations,
 - raw source-export inputs for IAM, cloud config, repo policy, CI policy, and signed attestations,
+- a mixed change-control decomposition that keeps repo policy, CI policy, and signed governance evidence distinct,
 - explicit `controlRefs` back into the synthetic OpenCompliance corridor catalog,
 - a typed blocked outcome via `punch-list.json` and `verification-result.json`,
 - and a wider OSCAL-shaped projection.
@@ -42,6 +43,6 @@ It exists to show a richer public-safe corridor than `../minimal/` without leaki
 
 ## Connector note
 
-The medium source-export path now includes synthetic repo branch-protection and CI workflow-policy claims, and those claims now drive checked-in verification results for the public ExampleCo medium corridor.
+The medium source-export path now includes synthetic repo branch-protection and CI workflow-policy claims plus a signed change-review governance attestation, and those claims now drive checked-in verification results for the public ExampleCo medium corridor.
 
-That means the public connector surface and the public proof corridor now both cover repo, CI/CD, IAM/MFA, and cloud/config evidence classes in the same synthetic pack.
+That means the public connector surface and the public proof corridor now both cover repo, CI/CD, IAM/MFA, cloud/config, and signed governance evidence in the same synthetic pack.

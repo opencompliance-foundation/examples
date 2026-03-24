@@ -97,6 +97,28 @@
                 "prose": "The scoped CI workflow requires review, trusted publishing, protected refs, and environment approvals."
               }
             ]
+          },
+          {
+            "id": "oc.change-01",
+            "title": "Production change control decomposition boundary",
+            "parts": [
+              {
+                "id": "oc.change-01_stmt",
+                "name": "statement",
+                "prose": "The synthetic production change-control boundary decomposes into repository policy, CI workflow policy, and signed change-review governance evidence."
+              }
+            ]
+          },
+          {
+            "id": "oc.change-02",
+            "title": "Change review governance attested",
+            "parts": [
+              {
+                "id": "oc.change-02_stmt",
+                "name": "statement",
+                "prose": "A named change owner attests that the scoped change-review policy is approved and an emergency change path is declared for the current review window."
+              }
+            ]
           }
         ]
       },

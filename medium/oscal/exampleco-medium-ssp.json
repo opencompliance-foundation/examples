@@ -76,6 +76,26 @@
           ]
         },
         {
+          "uuid": "23333333-3333-4333-8333-333333333348",
+          "control-id": "oc.change-01",
+          "statements": [
+            {
+              "statement-id": "oc.change-01_stmt",
+              "remarks": "Persisted as a mixed-control decomposition over repo policy, CI policy, and signed change-review governance evidence."
+            }
+          ]
+        },
+        {
+          "uuid": "23333333-3333-4333-8333-333333333349",
+          "control-id": "oc.change-02",
+          "statements": [
+            {
+              "statement-id": "oc.change-02_stmt",
+              "remarks": "Supported by a signed synthetic change-review governance attestation."
+            }
+          ]
+        },
+        {
           "uuid": "23333333-3333-4333-8333-333333333338",
           "control-id": "oc.key-01",
           "statements": [

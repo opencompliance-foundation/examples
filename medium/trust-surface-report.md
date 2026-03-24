@@ -8,7 +8,7 @@
 This synthetic example shows a wider OpenCompliance corridor without pretending the corridor is complete:
 
 - `8` proved claims
-- `4` attested claims
+- `5` attested claims
 - `0` failed claims
 - `0` stale-evidence claims
 - `1` judgment-required claim
@@ -31,6 +31,7 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 - A restore exercise is documented inside the declared review window.
 - The processor register is current and DPA coverage is declared for the reviewed subprocessors.
 - The DSR runbook is approved and has a named owner for the current review window.
+- The production change-review policy is approved and declares an emergency change path for the current review window.
 
 ## Failed
 
@@ -53,4 +54,5 @@ It is public-safe and synthetic, but it demonstrates a more serious corridor tha
 - multi-framework family mappings,
 - explicit control references back into the synthetic OpenCompliance catalog,
 - a cleaner split between runtime proofs and signed attestations,
+- a first public mixed-control decomposition for change management,
 - and a still-honest boundary where legal or adequacy judgment remains human.

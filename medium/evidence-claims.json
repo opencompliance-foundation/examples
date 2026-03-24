@@ -571,5 +571,56 @@
       "sourcePath": "exports/ci/workflow-policy.json",
       "digestAlgorithm": "sha256"
     }
+  },
+  {
+    "claimId": "EV-113",
+    "claimType": "change_review_attestation",
+    "collectedAt": "2026-03-24T01:23:00Z",
+    "sourceSystem": "example-governance",
+    "actor": {
+      "actorId": "security-manager@exampleco.test",
+      "actorType": "human"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "change_management",
+        "controlId": "soc2.family.change_management"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "secure_development_and_change_control",
+        "controlId": "iso27001.family.secure_development_and_change_control"
+      },
+      {
+        "framework": "IRAP",
+        "family": "secure_development_and_change",
+        "controlId": "irap.family.secure_development_and_change"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "change_management_program"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:23:00Z",
+      "expiresAt": "2026-06-22T01:23:00Z"
+    },
+    "payload": {
+      "changeReviewPolicyApproved": true,
+      "emergencyChangeProcessDeclared": true,
+      "reviewWindowDays": 90
+    },
+    "signer": {
+      "signerId": "security-manager@exampleco.test",
+      "signerType": "human",
+      "signatureType": "synthetic_ed25519_attestation"
+    },
+    "provenance": {
+      "exportId": "attestation-exampleco-change-review-2026-q1",
+      "collectionMethod": "synthetic_attestation",
+      "sourcePath": "attestations/change-review-q1.json",
+      "digestAlgorithm": "sha256"
+    }
   }
 ]

@@ -7,7 +7,7 @@
   "profileId": "medium_multiframework_corridor",
   "routeSummary": {
     "decidable": 9,
-    "attestation": 4,
+    "attestation": 5,
     "judgment": 1
   },
   "items": [
@@ -178,7 +178,89 @@
       "evidenceRequired": true,
       "leanBacked": false,
       "rationale": "Deterministic delivery-policy state over a narrow CI workflow predicate."
+    },
+    {
+      "claimId": "EX-CLAIM-115",
+      "title": "The production change-review policy is approved and declares an emergency change path for the current review window.",
+      "route": "attestation",
+      "controlRefs": [
+        "oc.change-02"
+      ],
+      "expectedClaimType": "change_review_attestation",
+      "evidenceRequired": true,
+      "leanBacked": false,
+      "rationale": "The wider change-review governance layer is still documentary even when repo and CI guardrails are machine-checked."
     }
   ],
-  "note": "Synthetic persisted routing artifact for the OpenCompliance prove/attest/judgment split."
+  "note": "Synthetic persisted routing artifact for the OpenCompliance prove/attest/judgment split.",
+  "mixedControls": [
+    {
+      "controlId": "oc.change-01",
+      "title": "Production change control decomposes into machine policy checks plus signed governance evidence.",
+      "controlRefs": [
+        "oc.change-01"
+      ],
+      "frameworkMappings": [
+        {
+          "framework": "SOC 2",
+          "family": "change_management",
+          "controlId": "soc2.family.change_management"
+        },
+        {
+          "framework": "ISO 27001",
+          "family": "secure_development_and_change_control",
+          "controlId": "iso27001.family.secure_development_and_change_control"
+        },
+        {
+          "framework": "IRAP",
+          "family": "secure_development_and_change",
+          "controlId": "irap.family.secure_development_and_change"
+        }
+      ],
+      "rationale": "The current corridor can prove repository and CI guardrails, but wider change-review governance still arrives as signed human evidence rather than a theorem over system state.",
+      "decompositionSummary": {
+        "decidable": 2,
+        "attestation": 1,
+        "judgment": 0
+      },
+      "subObligations": [
+        {
+          "claimId": "EX-CLAIM-113",
+          "title": "Default branch protections are enforced for the scoped production repository.",
+          "route": "decidable",
+          "controlRefs": [
+            "oc.repo-01"
+          ],
+          "expectedClaimType": "repo_branch_protection",
+          "evidenceRequired": true,
+          "leanBacked": false,
+          "rationale": "Deterministic repository policy state over a narrow branch-protection predicate."
+        },
+        {
+          "claimId": "EX-CLAIM-114",
+          "title": "CI workflow policy constrains deployment to reviewed workflows and protected refs.",
+          "route": "decidable",
+          "controlRefs": [
+            "oc.ci-01"
+          ],
+          "expectedClaimType": "ci_workflow_policy",
+          "evidenceRequired": true,
+          "leanBacked": false,
+          "rationale": "Deterministic delivery-policy state over a narrow CI workflow predicate."
+        },
+        {
+          "claimId": "EX-CLAIM-115",
+          "title": "The production change-review policy is approved and declares an emergency change path for the current review window.",
+          "route": "attestation",
+          "controlRefs": [
+            "oc.change-02"
+          ],
+          "expectedClaimType": "change_review_attestation",
+          "evidenceRequired": true,
+          "leanBacked": false,
+          "rationale": "The wider change-review governance layer is still documentary even when repo and CI guardrails are machine-checked."
+        }
+      ]
+    }
+  ]
 }

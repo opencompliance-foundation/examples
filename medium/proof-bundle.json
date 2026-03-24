@@ -420,11 +420,40 @@
         "EV-112"
       ],
       "basis": "The CI export shows workflow review, trusted publishing, protected refs, and environment approvals are all required."
+    },
+    {
+      "claimId": "EX-CLAIM-115",
+      "title": "The production change-review policy is approved and declares an emergency change path for the current review window.",
+      "result": "attested",
+      "frameworkMappings": [
+        {
+          "framework": "SOC 2",
+          "family": "change_management",
+          "controlId": "soc2.family.change_management"
+        },
+        {
+          "framework": "ISO 27001",
+          "family": "secure_development_and_change_control",
+          "controlId": "iso27001.family.secure_development_and_change_control"
+        },
+        {
+          "framework": "IRAP",
+          "family": "secure_development_and_change",
+          "controlId": "irap.family.secure_development_and_change"
+        }
+      ],
+      "controlRefs": [
+        "oc.change-02"
+      ],
+      "evidenceRefs": [
+        "EV-113"
+      ],
+      "basis": "The change-review governance claim is a signed synthetic attestation by the named change owner."
     }
   ],
   "summary": {
     "proved": 8,
-    "attested": 4,
+    "attested": 5,
     "failed": 0,
     "staleEvidence": 0,
     "judgmentRequired": 1,
