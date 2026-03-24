@@ -1,0 +1,144 @@
+{
+  "assessment-results": {
+    "uuid": "55555555-5555-4555-8555-555555555555",
+    "metadata": {
+      "title": "ExampleCo Minimal Assessment Results",
+      "last-modified": "2026-03-24T00:05:00Z",
+      "version": "0.1.0",
+      "oscal-version": "1.1.3",
+      "remarks": "Synthetic assessment-results style output derived from the ExampleCo public proof bundle."
+    },
+    "import-ap": {
+      "href": "./exampleco-minimal-assessment-plan.json"
+    },
+    "results": [
+      {
+        "uuid": "55555555-5555-4555-8555-555555555556",
+        "title": "ExampleCo minimal corridor results",
+        "description": "Result set derived from the public ExampleCo proof bundle.",
+        "start": "2026-03-24T00:00:00Z",
+        "end": "2026-03-24T00:05:00Z",
+        "reviewed-controls": {
+          "control-selections": [
+            {
+              "include-controls": [
+                {
+                  "control-id": "oc.id-01"
+                },
+                {
+                  "control-id": "oc.log-01"
+                },
+                {
+                  "control-id": "oc.train-01"
+                },
+                {
+                  "control-id": "oc.rec-01"
+                }
+              ]
+            }
+          ]
+        },
+        "observations": [
+          {
+            "uuid": "55555555-5555-4555-8555-555555555561",
+            "title": "Administrative MFA enforced",
+            "description": "Runtime evidence shows MFA required and conditional access enabled for scoped administrative identities.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "subjects": [
+              {
+                "subject-uuid": "33333333-3333-4333-8333-333333333335",
+                "type": "component"
+              }
+            ],
+            "collected": "2026-03-24T00:00:00Z",
+            "remarks": "Corresponds to EX-CLAIM-001 with result proved."
+          },
+          {
+            "uuid": "55555555-5555-4555-8555-555555555562",
+            "title": "Audit logging enabled",
+            "description": "Runtime evidence shows audit logging enabled with a declared retention period for the scoped production stack.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "subjects": [
+              {
+                "subject-uuid": "33333333-3333-4333-8333-333333333335",
+                "type": "component"
+              }
+            ],
+            "collected": "2026-03-24T00:00:00Z",
+            "remarks": "Corresponds to EX-CLAIM-002 with result proved."
+          },
+          {
+            "uuid": "55555555-5555-4555-8555-555555555563",
+            "title": "Training completion documented",
+            "description": "Documentary evidence records training completion for the scoped review window.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "subjects": [
+              {
+                "subject-uuid": "33333333-3333-4333-8333-333333333335",
+                "type": "component"
+              }
+            ],
+            "collected": "2026-03-24T00:00:00Z",
+            "remarks": "Corresponds to EX-CLAIM-003 with result attested."
+          },
+          {
+            "uuid": "55555555-5555-4555-8555-555555555564",
+            "title": "Restore-test export missing",
+            "description": "No typed restore-test evidence was attached to the public example bundle.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "subjects": [
+              {
+                "subject-uuid": "33333333-3333-4333-8333-333333333335",
+                "type": "component"
+              }
+            ],
+            "collected": "2026-03-24T00:00:00Z",
+            "remarks": "Corresponds to EX-CLAIM-005 with result evidence_missing."
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "55555555-5555-4555-8555-555555555571",
+          "title": "ExampleCo proof bundle",
+          "rlinks": [
+            {
+              "href": "../proof-bundle.json"
+            }
+          ]
+        },
+        {
+          "uuid": "55555555-5555-4555-8555-555555555572",
+          "title": "ExampleCo trust-surface report",
+          "rlinks": [
+            {
+              "href": "../trust-surface-report.md"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

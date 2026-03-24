@@ -12,4 +12,5 @@ Only public-safe synthetic fixtures belong here.
   - a proof bundle,
   - a trust-surface report,
   - a witness receipt,
-  - and a revocation artifact.
+  - a revocation artifact,
+  - and a seed OSCAL projection of the same bundle.

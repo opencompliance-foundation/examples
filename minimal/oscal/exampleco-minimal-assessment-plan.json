@@ -1,0 +1,68 @@
+{
+  "assessment-plan": {
+    "uuid": "44444444-4444-4444-8444-444444444444",
+    "metadata": {
+      "title": "ExampleCo Minimal Assessment Plan",
+      "last-modified": "2026-03-24T00:00:00Z",
+      "version": "0.1.0",
+      "oscal-version": "1.1.3",
+      "remarks": "Synthetic assessment plan for the ExampleCo minimal public corridor."
+    },
+    "import-ssp": {
+      "href": "./exampleco-minimal-ssp.json"
+    },
+    "reviewed-controls": {
+      "control-selections": [
+        {
+          "include-controls": [
+            {
+              "control-id": "oc.id-01"
+            },
+            {
+              "control-id": "oc.log-01"
+            },
+            {
+              "control-id": "oc.train-01"
+            },
+            {
+              "control-id": "oc.rec-01"
+            }
+          ]
+        }
+      ],
+      "control-objective-selections": [
+        {
+          "include-all": {}
+        }
+      ]
+    },
+    "assessment-subjects": [
+      {
+        "type": "component",
+        "description": "Synthetic ExampleCo corridor component used for the minimal assessment example.",
+        "include-all": {}
+      }
+    ],
+    "tasks": [
+      {
+        "uuid": "44444444-4444-4444-8444-444444444445",
+        "type": "action",
+        "title": "Evaluate ExampleCo corridor evidence",
+        "description": "Assess the synthetic identity, logging, training, and recovery evidence used by the ExampleCo minimal bundle."
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "44444444-4444-4444-8444-444444444446",
+          "title": "ExampleCo evidence claims",
+          "rlinks": [
+            {
+              "href": "../evidence-claims.json"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

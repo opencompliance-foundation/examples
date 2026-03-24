@@ -12,9 +12,11 @@ It exists to make the artifact model concrete without exposing customer evidence
 - `trust-surface-report.md`
 - `witness-receipt.json`
 - `revocation.json`
+- `oscal/`
 
 ## Intended use
 
 - review the format shape,
 - test import/export logic,
-- and derive basic conformance vectors.
+- derive basic conformance vectors,
+- and show how the same synthetic company pack could be projected into OSCAL-shaped artifacts.
