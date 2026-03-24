@@ -6,7 +6,7 @@
   "organisation": "ExampleCo",
   "profileId": "stale_freshness_corridor",
   "outcome": "punch_list_issued",
-  "proofBundleSha256": "076edf634a7c1d89cee6e10923db2a13a7d620e0bd8ff0359ca82f461ce9d7ca",
+  "proofBundleSha256": "6a5a6cc7cb9a7947b47af74db24861fc02933916695dc3381857a4a1971b5fd4",
   "trustSurfaceSha256": "a30319146aa5200517f3c9ca8222ba99709cc7b6ae01c8069eda76d87b5372e7",
   "outcomeArtifact": {
     "path": "punch-list.json",

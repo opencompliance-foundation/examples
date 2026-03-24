@@ -136,6 +136,24 @@
     "verifiedTheorems": [
       "claim_EX_CLAIM_401_proved"
     ],
+    "importedModules": [
+      "OpenCompliance.Controls.Identity"
+    ],
+    "verifiedClaims": [
+      {
+        "claimId": "EX-CLAIM-401",
+        "controlId": "oc.id-01",
+        "module": "OpenCompliance.Controls.Identity",
+        "predicate": "AdministrativeMfaSatisfied",
+        "evidenceClaimType": "identity_mfa_enforcement",
+        "theorem": "claim_EX_CLAIM_401_proved"
+      }
+    ],
+    "boundaryInventory": {
+      "provedClaimCount": 1,
+      "leanBackedClaimCount": 1,
+      "omittedProvedClaims": []
+    },
     "command": [
       "lake",
       "env",

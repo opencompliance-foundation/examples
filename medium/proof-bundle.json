@@ -477,6 +477,86 @@
       "claim_EX_CLAIM_105_proved",
       "claim_EX_CLAIM_106_proved"
     ],
+    "importedModules": [
+      "OpenCompliance.Controls.Backup",
+      "OpenCompliance.Controls.Identity",
+      "OpenCompliance.Controls.Keys",
+      "OpenCompliance.Controls.Location",
+      "OpenCompliance.Controls.Logging",
+      "OpenCompliance.Controls.Network"
+    ],
+    "verifiedClaims": [
+      {
+        "claimId": "EX-CLAIM-101",
+        "controlId": "oc.id-01",
+        "module": "OpenCompliance.Controls.Identity",
+        "predicate": "AdministrativeMfaSatisfied",
+        "evidenceClaimType": "identity_mfa_enforcement",
+        "theorem": "claim_EX_CLAIM_101_proved"
+      },
+      {
+        "claimId": "EX-CLAIM-102",
+        "controlId": "oc.log-01",
+        "module": "OpenCompliance.Controls.Logging",
+        "predicate": "NarrowAuditLoggingCorridor",
+        "evidenceClaimType": "audit_logging_state",
+        "theorem": "claim_EX_CLAIM_102_proved"
+      },
+      {
+        "claimId": "EX-CLAIM-103",
+        "controlId": "oc.net-01",
+        "module": "OpenCompliance.Controls.Network",
+        "predicate": "TlsIngressSatisfied",
+        "evidenceClaimType": "tls_ingress_configuration",
+        "theorem": "claim_EX_CLAIM_103_proved"
+      },
+      {
+        "claimId": "EX-CLAIM-104",
+        "controlId": "oc.key-01",
+        "module": "OpenCompliance.Controls.Keys",
+        "predicate": "NarrowServiceAccountKeyCorridor",
+        "evidenceClaimType": "service_account_key_hygiene",
+        "theorem": "claim_EX_CLAIM_104_proved"
+      },
+      {
+        "claimId": "EX-CLAIM-105",
+        "controlId": "oc.loc-01",
+        "module": "OpenCompliance.Controls.Location",
+        "predicate": "ApprovedRegionBoundarySatisfied",
+        "evidenceClaimType": "approved_region_deployment",
+        "theorem": "claim_EX_CLAIM_105_proved"
+      },
+      {
+        "claimId": "EX-CLAIM-106",
+        "controlId": "oc.backup-01",
+        "module": "OpenCompliance.Controls.Backup",
+        "predicate": "BackupSnapshotScheduleSatisfied",
+        "evidenceClaimType": "backup_snapshot_schedule",
+        "theorem": "claim_EX_CLAIM_106_proved"
+      }
+    ],
+    "boundaryInventory": {
+      "provedClaimCount": 8,
+      "leanBackedClaimCount": 6,
+      "omittedProvedClaims": [
+        {
+          "claimId": "EX-CLAIM-113",
+          "title": "Default branch protections are enforced for the scoped production repository.",
+          "controlRefs": [
+            "oc.repo-01"
+          ],
+          "reason": "no_public_lean_predicate"
+        },
+        {
+          "claimId": "EX-CLAIM-114",
+          "title": "CI workflow policy constrains deployment to reviewed workflows and protected refs.",
+          "controlRefs": [
+            "oc.ci-01"
+          ],
+          "reason": "no_public_lean_predicate"
+        }
+      ]
+    },
     "command": [
       "lake",
       "env",

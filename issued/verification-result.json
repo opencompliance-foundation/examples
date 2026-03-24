@@ -6,11 +6,11 @@
   "organisation": "ExampleCo",
   "profileId": "issued_narrow_corridor",
   "outcome": "certificate_issued",
-  "proofBundleSha256": "1cdeca1828ba9801a91451b1c372f8dc092a2f022873b43fe6ea0a9cdc041377",
+  "proofBundleSha256": "28844163bc55d26d15477717827e5bad036af1d52ce706aa5b35c420695078fe",
   "trustSurfaceSha256": "aaee95e0367b8097ac67ce5b89273eb0fd5f5f259ffe3e6cf97405133d45c86b",
   "outcomeArtifact": {
     "path": "certificate.json",
-    "sha256": "787c46d663a449dfc48cb0dd5fb4fb64c8ffa48c6c710ba532438d106afa0a7f"
+    "sha256": "4c25c85056fdf1c53f8254ab59318635fc87cbb91c3af3009ec5f5d7b04313b8"
   },
   "blockingIssueCount": 0
 }

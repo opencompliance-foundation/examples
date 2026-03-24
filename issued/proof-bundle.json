@@ -136,6 +136,33 @@
       "claim_EX_CLAIM_201_proved",
       "claim_EX_CLAIM_202_proved"
     ],
+    "importedModules": [
+      "OpenCompliance.Controls.Identity",
+      "OpenCompliance.Controls.Logging"
+    ],
+    "verifiedClaims": [
+      {
+        "claimId": "EX-CLAIM-201",
+        "controlId": "oc.id-01",
+        "module": "OpenCompliance.Controls.Identity",
+        "predicate": "AdministrativeMfaSatisfied",
+        "evidenceClaimType": "identity_mfa_enforcement",
+        "theorem": "claim_EX_CLAIM_201_proved"
+      },
+      {
+        "claimId": "EX-CLAIM-202",
+        "controlId": "oc.log-01",
+        "module": "OpenCompliance.Controls.Logging",
+        "predicate": "NarrowAuditLoggingCorridor",
+        "evidenceClaimType": "audit_logging_state",
+        "theorem": "claim_EX_CLAIM_202_proved"
+      }
+    ],
+    "boundaryInventory": {
+      "provedClaimCount": 2,
+      "leanBackedClaimCount": 2,
+      "omittedProvedClaims": []
+    },
     "command": [
       "lake",
       "env",
