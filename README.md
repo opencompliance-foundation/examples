@@ -44,3 +44,15 @@ Only public-safe synthetic fixtures belong here.
   - a typed punch-list that distinguishes stale evidence from failed predicates or missing claims,
   - a replay bundle and witness receipt for a blocked run,
   - and the same public-safe OSCAL projection style as the issued corridor.
+- `cyber-baseline/`
+  A narrow certificate-eligible ExampleCo corridor showing:
+  - Cyber Essentials-style cyber hygiene claims for MFA, network boundary, secure configuration, patching, and malware protection,
+  - crosswalkable family-level mappings into adjacent cyber frameworks,
+  - a scoped certificate artifact and replay bundle,
+  - and a public-safe OSCAL projection for the same corridor.
+- `ai-governance/`
+  A narrow certificate-eligible ExampleCo corridor showing:
+  - signed AI-governance attestations for context, risk process, oversight, and monitoring,
+  - a machine-checkable AI-generated content disclosure control,
+  - a scoped certificate artifact and replay bundle,
+  - and a public-safe OSCAL projection that stays explicit about what remains outside scope.

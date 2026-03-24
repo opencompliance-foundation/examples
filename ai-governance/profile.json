@@ -1,0 +1,29 @@
+{
+  "profileId": "ai_governance_corridor",
+  "organisation": "ExampleCo",
+  "frameworkIntent": [
+    "EU AI Act",
+    "EU GPAI Code of Practice",
+    "NIST AI RMF 1.0",
+    "ISO/IEC 42001",
+    "ISO/IEC 23894",
+    "ISO/IEC 42005"
+  ],
+  "scope": {
+    "inScope": [
+      "AI intended use and deployment context documentation",
+      "AI risk management process attestation",
+      "Human oversight role assignment",
+      "Monitoring and incident escalation ownership",
+      "AI-generated content disclosure configuration"
+    ],
+    "outOfScope": [
+      "High-risk AI system classification decisions",
+      "Fundamental-rights impact adequacy",
+      "Model performance or robustness evaluation quality",
+      "Prohibited-practice analysis",
+      "Full AI Act or ISO certification"
+    ],
+    "note": "Synthetic public-safe ExampleCo profile for a narrow AI governance and transparency corridor."
+  }
+}

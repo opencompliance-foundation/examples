@@ -1,0 +1,18 @@
+{
+  "organisation": "ExampleCo",
+  "product": "ExampleAssist",
+  "industry": "Synthetic public AI workflow example",
+  "customerSegments": [
+    "professional services teams",
+    "regulated buyers evaluating AI governance posture"
+  ],
+  "aiSurface": {
+    "deploymentModel": "retrieval-assisted text generation",
+    "userChannels": [
+      "web_app",
+      "api"
+    ],
+    "disclosureSurface": "assistant response renderer and API metadata"
+  },
+  "note": "Synthetic public-safe organisation description for the OpenCompliance AI governance fixture."
+}

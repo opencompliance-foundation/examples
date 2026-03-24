@@ -1,0 +1,223 @@
+{
+  "mapping-collection": {
+    "uuid": "ee8fe726-7ba7-5925-b3f5-2500d38b46c7",
+    "metadata": {
+      "title": "ExampleCo Cyber Baseline Family Overlap Mapping",
+      "last-modified": "2026-03-24T06:10:00Z",
+      "version": "0.6.0",
+      "oscal-version": "1.1.3",
+      "remarks": "Synthetic family-level mapping seed. This file does not reproduce framework text and does not claim exact clause, article, or control equivalence."
+    },
+    "provenance": {
+      "method": "manual-family-crosswalk",
+      "matching-rationale": "The public ExampleCo cyber-baseline seed supports family-level mappings from synthetic OpenCompliance controls to proxy SOC 2, ISO 27001, IRAP, GDPR, Cyber Essentials, NCSC CAF 4.0, NIST CSF 2.0, NIST SP 800-53 Rev. 5.1 targets.",
+      "status": "draft",
+      "mapping-description": "Maps the synthetic OpenCompliance cyber-baseline corridor controls to public-safe proxy identifiers representing overlapping framework families."
+    },
+    "mappings": [
+      {
+        "uuid": "d7d130cd-c07e-580d-bb82-b50caefd986a",
+        "status": "draft",
+        "source-resource": {
+          "type": "catalog",
+          "href": "./opencompliance-cyber-baseline-catalog.json"
+        },
+        "target-resource": {
+          "type": "resource",
+          "href": "./family-proxy-targets.json"
+        },
+        "maps": [
+          {
+            "uuid": "d8caa760-26c7-55b0-90b5-b0a33553501a",
+            "relationship": "subset-of",
+            "matching-rationale": "Scoped administrative MFA enforcement is one narrow synthetic OpenCompliance slice of the broader access_control, identity_and_access_management, identity_access, security_of_processing, user_access_control, identity_and_access_control, identity_management_and_access_control, and identification_and_authentication families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.id-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.identity_and_access_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.identity_access"
+              },
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.security_of_processing"
+              },
+              {
+                "type": "control",
+                "id-ref": "cyber_essentials.family.user_access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "ncsc_caf_4_0.family.identity_and_access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.identity_management_and_access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.identification_and_authentication"
+              }
+            ]
+          },
+          {
+            "uuid": "14cd046b-dfec-50cc-a81d-c6d8033d43ef",
+            "relationship": "subset-of",
+            "matching-rationale": "Default-deny network boundary in place is one narrow synthetic OpenCompliance slice of the broader firewalls, boundary_protection, boundary_protection, network_security, network_security, and network_boundary_and_crypto families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.boundary-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "cyber_essentials.family.firewalls"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.boundary_protection"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.boundary_protection"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.network_security"
+              },
+              {
+                "type": "control",
+                "id-ref": "soc2.family.network_security"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.network_boundary_and_crypto"
+              }
+            ]
+          },
+          {
+            "uuid": "80b2ebff-9bac-500a-8368-a14bf5ec8cf4",
+            "relationship": "subset-of",
+            "matching-rationale": "Secure baseline configuration export present is one narrow synthetic OpenCompliance slice of the broader secure_configuration, configuration_management, configuration_settings, secure_configuration, system_operations_and_hardening, and secure_configuration families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.cfg-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "cyber_essentials.family.secure_configuration"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.configuration_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.configuration_settings"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.secure_configuration"
+              },
+              {
+                "type": "control",
+                "id-ref": "soc2.family.system_operations_and_hardening"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.secure_configuration"
+              }
+            ]
+          },
+          {
+            "uuid": "2d2f2bba-953f-5d51-8ccd-75adb3143c6a",
+            "relationship": "subset-of",
+            "matching-rationale": "Supported security updates current is one narrow synthetic OpenCompliance slice of the broader security_update_management, software_maintenance_and_patch_management, flaw_remediation, vulnerability_and_patch_management, vulnerability_management, and patch_and_vulnerability_management families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.patch-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "cyber_essentials.family.security_update_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.software_maintenance_and_patch_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.flaw_remediation"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.vulnerability_and_patch_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "soc2.family.vulnerability_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.patch_and_vulnerability_management"
+              }
+            ]
+          },
+          {
+            "uuid": "48be6287-da36-5ede-a6cb-7681d888d865",
+            "relationship": "subset-of",
+            "matching-rationale": "Endpoint malware protection baseline enabled is one narrow synthetic OpenCompliance slice of the broader malware_protection, malicious_code_protection, malicious_code_protection, malware_protection, and endpoint_protection families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.malware-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "cyber_essentials.family.malware_protection"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.malicious_code_protection"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.malicious_code_protection"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.malware_protection"
+              },
+              {
+                "type": "control",
+                "id-ref": "soc2.family.endpoint_protection"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

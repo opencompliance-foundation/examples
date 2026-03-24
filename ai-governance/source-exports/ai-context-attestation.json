@@ -1,0 +1,14 @@
+{
+  "collectedAt": "2026-03-24T06:31:00Z",
+  "sourceSystem": "example-ai-governance",
+  "actorId": "ai-governance-lead@exampleco.test",
+  "environment": "production",
+  "assetGroup": "ai_assistant_surface",
+  "evaluatedAt": "2026-03-24T06:31:00Z",
+  "expiresAt": "2026-06-22T06:31:00Z",
+  "signatureType": "synthetic_ed25519_attestation",
+  "intendedUseDocumented": true,
+  "deploymentContextDocumented": true,
+  "ownerAssigned": true,
+  "reviewWindowDays": 90
+}

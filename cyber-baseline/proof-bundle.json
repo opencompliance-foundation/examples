@@ -1,0 +1,338 @@
+{
+  "bundleId": "exampleco-cyber-baseline-bundle-2026-03-24",
+  "generatedAt": "2026-03-24T06:10:00Z",
+  "verifierVersion": "opencompliance-example/0.6.0",
+  "organisation": "ExampleCo",
+  "profileId": "cyber_baseline_corridor",
+  "frameworkIntent": [
+    "Cyber Essentials",
+    "NIST CSF 2.0",
+    "NIST SP 800-53 Rev. 5.1",
+    "ISO 27001",
+    "SOC 2",
+    "IRAP"
+  ],
+  "scope": {
+    "inScope": [
+      "Administrative MFA and conditional access",
+      "Default-deny network boundary",
+      "Secure baseline configuration",
+      "Security update state",
+      "Malware protection baseline"
+    ],
+    "outOfScope": [
+      "Physical security controls",
+      "Penetration testing coverage",
+      "Supplier due diligence",
+      "Full-framework certification or attestation",
+      "Endpoint telemetry beyond the declared synthetic managed fleet"
+    ],
+    "note": "Synthetic public-safe ExampleCo proof bundle for a narrow Cyber Essentials-style baseline corridor crosswalked to adjacent public cyber frameworks."
+  },
+  "claims": [
+    {
+      "claimId": "EX-CLAIM-601",
+      "title": "Administrative identities require MFA and conditional access for the scoped managed admin boundary.",
+      "result": "proved",
+      "frameworkMappings": [
+        {
+          "framework": "SOC 2",
+          "family": "access_control",
+          "controlId": "soc2.family.access_control"
+        },
+        {
+          "framework": "ISO 27001",
+          "family": "identity_and_access_management",
+          "controlId": "iso27001.family.identity_and_access_management"
+        },
+        {
+          "framework": "IRAP",
+          "family": "identity_access",
+          "controlId": "irap.family.identity_access"
+        },
+        {
+          "framework": "GDPR",
+          "family": "security_of_processing",
+          "controlId": "gdpr.family.security_of_processing"
+        },
+        {
+          "framework": "Cyber Essentials",
+          "family": "user_access_control",
+          "controlId": "cyber_essentials.family.user_access_control"
+        },
+        {
+          "framework": "NCSC CAF 4.0",
+          "family": "identity_and_access_control",
+          "controlId": "ncsc_caf_4_0.family.identity_and_access_control"
+        },
+        {
+          "framework": "NIST CSF 2.0",
+          "family": "identity_management_and_access_control",
+          "controlId": "nist_csf_2_0.family.identity_management_and_access_control"
+        },
+        {
+          "framework": "NIST SP 800-53 Rev. 5.1",
+          "family": "identification_and_authentication",
+          "controlId": "nist_sp_800_53_rev_5_1.family.identification_and_authentication"
+        }
+      ],
+      "controlRefs": [
+        "oc.id-01"
+      ],
+      "evidenceRefs": [
+        "EV-601"
+      ],
+      "basis": "The identity export shows MFA required and conditional access enabled for scoped administrative identities."
+    },
+    {
+      "claimId": "EX-CLAIM-602",
+      "title": "The inbound network boundary defaults to deny and exposes only declared ingress ports.",
+      "result": "proved",
+      "frameworkMappings": [
+        {
+          "framework": "Cyber Essentials",
+          "family": "firewalls",
+          "controlId": "cyber_essentials.family.firewalls"
+        },
+        {
+          "framework": "NIST CSF 2.0",
+          "family": "boundary_protection",
+          "controlId": "nist_csf_2_0.family.boundary_protection"
+        },
+        {
+          "framework": "NIST SP 800-53 Rev. 5.1",
+          "family": "boundary_protection",
+          "controlId": "nist_sp_800_53_rev_5_1.family.boundary_protection"
+        },
+        {
+          "framework": "ISO 27001",
+          "family": "network_security",
+          "controlId": "iso27001.family.network_security"
+        },
+        {
+          "framework": "SOC 2",
+          "family": "network_security",
+          "controlId": "soc2.family.network_security"
+        },
+        {
+          "framework": "IRAP",
+          "family": "network_boundary_and_crypto",
+          "controlId": "irap.family.network_boundary_and_crypto"
+        }
+      ],
+      "controlRefs": [
+        "oc.boundary-01"
+      ],
+      "evidenceRefs": [
+        "EV-602"
+      ],
+      "basis": "The network boundary export shows default-deny inbound posture, declared ingress ports, and no undeclared exposure."
+    },
+    {
+      "claimId": "EX-CLAIM-603",
+      "title": "Secure baseline configuration is applied and insecure defaults are absent in the managed device set.",
+      "result": "proved",
+      "frameworkMappings": [
+        {
+          "framework": "Cyber Essentials",
+          "family": "secure_configuration",
+          "controlId": "cyber_essentials.family.secure_configuration"
+        },
+        {
+          "framework": "NIST CSF 2.0",
+          "family": "configuration_management",
+          "controlId": "nist_csf_2_0.family.configuration_management"
+        },
+        {
+          "framework": "NIST SP 800-53 Rev. 5.1",
+          "family": "configuration_settings",
+          "controlId": "nist_sp_800_53_rev_5_1.family.configuration_settings"
+        },
+        {
+          "framework": "ISO 27001",
+          "family": "secure_configuration",
+          "controlId": "iso27001.family.secure_configuration"
+        },
+        {
+          "framework": "SOC 2",
+          "family": "system_operations_and_hardening",
+          "controlId": "soc2.family.system_operations_and_hardening"
+        },
+        {
+          "framework": "IRAP",
+          "family": "secure_configuration",
+          "controlId": "irap.family.secure_configuration"
+        }
+      ],
+      "controlRefs": [
+        "oc.cfg-01"
+      ],
+      "evidenceRefs": [
+        "EV-603"
+      ],
+      "basis": "The configuration export shows the approved baseline applied, insecure defaults absent, and a recent configuration snapshot."
+    },
+    {
+      "claimId": "EX-CLAIM-604",
+      "title": "Supported versions are in use and no critical security updates are overdue in the managed device set.",
+      "result": "proved",
+      "frameworkMappings": [
+        {
+          "framework": "Cyber Essentials",
+          "family": "security_update_management",
+          "controlId": "cyber_essentials.family.security_update_management"
+        },
+        {
+          "framework": "NIST CSF 2.0",
+          "family": "software_maintenance_and_patch_management",
+          "controlId": "nist_csf_2_0.family.software_maintenance_and_patch_management"
+        },
+        {
+          "framework": "NIST SP 800-53 Rev. 5.1",
+          "family": "flaw_remediation",
+          "controlId": "nist_sp_800_53_rev_5_1.family.flaw_remediation"
+        },
+        {
+          "framework": "ISO 27001",
+          "family": "vulnerability_and_patch_management",
+          "controlId": "iso27001.family.vulnerability_and_patch_management"
+        },
+        {
+          "framework": "SOC 2",
+          "family": "vulnerability_management",
+          "controlId": "soc2.family.vulnerability_management"
+        },
+        {
+          "framework": "IRAP",
+          "family": "patch_and_vulnerability_management",
+          "controlId": "irap.family.patch_and_vulnerability_management"
+        }
+      ],
+      "controlRefs": [
+        "oc.patch-01"
+      ],
+      "evidenceRefs": [
+        "EV-604"
+      ],
+      "basis": "The update export shows supported versions only, no overdue critical patches, and a declared patch window inside the corridor threshold."
+    },
+    {
+      "claimId": "EX-CLAIM-605",
+      "title": "Malware protection is enabled, current, and tamper-protected on the managed device set.",
+      "result": "proved",
+      "frameworkMappings": [
+        {
+          "framework": "Cyber Essentials",
+          "family": "malware_protection",
+          "controlId": "cyber_essentials.family.malware_protection"
+        },
+        {
+          "framework": "NIST CSF 2.0",
+          "family": "malicious_code_protection",
+          "controlId": "nist_csf_2_0.family.malicious_code_protection"
+        },
+        {
+          "framework": "NIST SP 800-53 Rev. 5.1",
+          "family": "malicious_code_protection",
+          "controlId": "nist_sp_800_53_rev_5_1.family.malicious_code_protection"
+        },
+        {
+          "framework": "ISO 27001",
+          "family": "malware_protection",
+          "controlId": "iso27001.family.malware_protection"
+        },
+        {
+          "framework": "SOC 2",
+          "family": "endpoint_protection",
+          "controlId": "soc2.family.endpoint_protection"
+        }
+      ],
+      "controlRefs": [
+        "oc.malware-01"
+      ],
+      "evidenceRefs": [
+        "EV-605"
+      ],
+      "basis": "The endpoint protection export shows malware protection enabled, signatures current, and tamper protection active."
+    }
+  ],
+  "summary": {
+    "proved": 5,
+    "attested": 0,
+    "failed": 0,
+    "staleEvidence": 0,
+    "judgmentRequired": 0,
+    "evidenceMissing": 0
+  },
+  "nextActions": [
+    "Keep the cyber baseline corridor narrow and explicit instead of implying full Cyber Essentials certification.",
+    "Add managed-device inventory typing so patching and malware evidence can be scoped per fleet slice rather than only per export.",
+    "Promote the current family-proxy Cyber Essentials mappings to reviewed requirement-topic anchors where the public source text supports it."
+  ],
+  "proofRunner": {
+    "batchId": "exampleco-cyber-baseline-bundle-2026-03-24-lean-batch",
+    "fixture": "cyber-baseline",
+    "status": "verified",
+    "theoremCount": 1,
+    "verifiedTheorems": [
+      "claim_EX_CLAIM_601_proved"
+    ],
+    "importedModules": [
+      "OpenCompliance.Controls.Identity"
+    ],
+    "verifiedClaims": [
+      {
+        "claimId": "EX-CLAIM-601",
+        "controlId": "oc.id-01",
+        "module": "OpenCompliance.Controls.Identity",
+        "predicate": "AdministrativeMfaSatisfied",
+        "evidenceClaimType": "identity_mfa_enforcement",
+        "theorem": "claim_EX_CLAIM_601_proved"
+      }
+    ],
+    "boundaryInventory": {
+      "provedClaimCount": 5,
+      "leanBackedClaimCount": 1,
+      "omittedProvedClaims": [
+        {
+          "claimId": "EX-CLAIM-602",
+          "title": "The inbound network boundary defaults to deny and exposes only declared ingress ports.",
+          "controlRefs": [
+            "oc.boundary-01"
+          ],
+          "reason": "no_public_lean_predicate"
+        },
+        {
+          "claimId": "EX-CLAIM-603",
+          "title": "Secure baseline configuration is applied and insecure defaults are absent in the managed device set.",
+          "controlRefs": [
+            "oc.cfg-01"
+          ],
+          "reason": "no_public_lean_predicate"
+        },
+        {
+          "claimId": "EX-CLAIM-604",
+          "title": "Supported versions are in use and no critical security updates are overdue in the managed device set.",
+          "controlRefs": [
+            "oc.patch-01"
+          ],
+          "reason": "no_public_lean_predicate"
+        },
+        {
+          "claimId": "EX-CLAIM-605",
+          "title": "Malware protection is enabled, current, and tamper-protected on the managed device set.",
+          "controlRefs": [
+            "oc.malware-01"
+          ],
+          "reason": "no_public_lean_predicate"
+        }
+      ]
+    },
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "<generated-batch>"
+    ]
+  }
+}

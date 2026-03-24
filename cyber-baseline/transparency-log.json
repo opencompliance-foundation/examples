@@ -1,0 +1,72 @@
+{
+  "logId": "cyber-baseline-transparency-log",
+  "generatedAt": "2026-03-24T22:00:00Z",
+  "bundleId": "exampleco-cyber-baseline-bundle-2026-03-24",
+  "hashAlgorithm": "sha256",
+  "rootHash": "af0a80b2d497d69068218433e7061645695ac5b7a46fa3b842f2ec9247a71051",
+  "entries": [
+    {
+      "index": 0,
+      "artifactType": "profile",
+      "path": "profile.json",
+      "artifactSha256": "d9049584f9bed1bb9ad6da2ef9e9bd755b9e03b3815b203120b1ad2091935e7f",
+      "leafHash": "b94aff9ab4bf438dca4efc64ee278b122bf7cbeb3bdba14bcc5237c4629fdc09"
+    },
+    {
+      "index": 1,
+      "artifactType": "evidence_claims",
+      "path": "evidence-claims.json",
+      "artifactSha256": "80466d313d960bbd180cf70e787e3b5269e983da8877b2b55f5d186a75bdb022",
+      "leafHash": "2c11ad368672f73b145d0a5f148a068b2ac8c6a97ed2345269d71d4208b8c2ef"
+    },
+    {
+      "index": 2,
+      "artifactType": "proof_bundle",
+      "path": "proof-bundle.json",
+      "artifactSha256": "337eae0d32c03367be1eb1bfe4767898a64831dcd98253e09575c11e80ee90fd",
+      "leafHash": "9eb595e4dbfe99439f3f9a669d41f133717841f4d2eca7a356b1bc7efa52712e"
+    },
+    {
+      "index": 3,
+      "artifactType": "trust_surface_report",
+      "path": "trust-surface-report.md",
+      "artifactSha256": "3977b94697a4c6e94a538105d15b2e9bab4fae9035cf98f8797eaaba7ca022d7",
+      "leafHash": "499761f0ac6a322b4e6dfcf40b40bc700670a9f06075b30ff11a1375d5c1c713"
+    },
+    {
+      "index": 4,
+      "artifactType": "verification_result",
+      "path": "verification-result.json",
+      "artifactSha256": "ee70eaa061350796b66f8343c56e0c8305b0b536f2c67b52d134e5985ee04a63",
+      "leafHash": "58af1f9877e95801b863aa6e085f1ccf9201b401205c8c3176b2ec0212c4d267"
+    },
+    {
+      "index": 5,
+      "artifactType": "certificate",
+      "path": "certificate.json",
+      "artifactSha256": "f6db715968d5a182d94a0da9809d26f70a8a8ffb7298c3feddf418710ec661d1",
+      "leafHash": "8fbf64dd11f6ffa3d0def43a87a721ef9132ea81f06d99ad561efaaa1afad0d4"
+    },
+    {
+      "index": 6,
+      "artifactType": "replay_bundle",
+      "path": "replay-bundle.json",
+      "artifactSha256": "15459d82a7d4709421bf959b73fef23049eba2095f860906bdc0c01eb8d93504",
+      "leafHash": "37202568c0ccfea542c4804d004f3faefe2098fdce507d534e73704d8e6c4e15"
+    },
+    {
+      "index": 7,
+      "artifactType": "witness_receipt",
+      "path": "witness-receipt.json",
+      "artifactSha256": "913d34025190cefeebc68833a6ca3d30c5f8767d2f434c83c60cfc9b0f20674c",
+      "leafHash": "182754eafc8ce3e57bafa1cbe641a3a195b72721a0a6137a71157eb29bc120dc"
+    },
+    {
+      "index": 8,
+      "artifactType": "revocation",
+      "path": "revocation.json",
+      "artifactSha256": "b3ec00d1914f4ec689884e8cd6f287a172aa4dd3f1f82ce74bb87745a99a750d",
+      "leafHash": "0a08a50b2705e132a4c61e94b2b9b52a27654a637d5b114754ea8cac95d529fb"
+    }
+  ]
+}

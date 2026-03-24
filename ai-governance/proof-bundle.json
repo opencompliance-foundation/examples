@@ -1,0 +1,251 @@
+{
+  "bundleId": "exampleco-ai-governance-bundle-2026-03-24",
+  "generatedAt": "2026-03-24T06:40:00Z",
+  "verifierVersion": "opencompliance-example/0.7.0",
+  "organisation": "ExampleCo",
+  "profileId": "ai_governance_corridor",
+  "frameworkIntent": [
+    "EU AI Act",
+    "EU GPAI Code of Practice",
+    "NIST AI RMF 1.0",
+    "ISO/IEC 42001",
+    "ISO/IEC 23894",
+    "ISO/IEC 42005"
+  ],
+  "scope": {
+    "inScope": [
+      "AI intended use and deployment context documentation",
+      "AI risk management process attestation",
+      "Human oversight role assignment",
+      "Monitoring and incident escalation ownership",
+      "AI-generated content disclosure configuration"
+    ],
+    "outOfScope": [
+      "High-risk AI system classification decisions",
+      "Fundamental-rights impact adequacy",
+      "Model performance or robustness evaluation quality",
+      "Prohibited-practice analysis",
+      "Full AI Act or ISO certification"
+    ],
+    "note": "Synthetic public-safe ExampleCo proof bundle for a narrow AI governance corridor spanning documentary governance evidence and one machine-checkable disclosure control."
+  },
+  "claims": [
+    {
+      "claimId": "EX-CLAIM-701",
+      "title": "AI system intended use, deployment context, and named owner are documented for the current review window.",
+      "result": "attested",
+      "frameworkMappings": [
+        {
+          "framework": "EU AI Act",
+          "family": "technical_documentation_and_intended_purpose",
+          "controlId": "eu_ai_act.family.technical_documentation_and_intended_purpose"
+        },
+        {
+          "framework": "NIST AI RMF 1.0",
+          "family": "context_and_intended_use",
+          "controlId": "nist_ai_rmf_1_0.family.context_and_intended_use"
+        },
+        {
+          "framework": "ISO/IEC 42001",
+          "family": "documented_context_and_ai_objectives",
+          "controlId": "iso_iec_42001.family.documented_context_and_ai_objectives"
+        },
+        {
+          "framework": "ISO/IEC 42005",
+          "family": "impact_assessment_inputs",
+          "controlId": "iso_iec_42005.family.impact_assessment_inputs"
+        }
+      ],
+      "controlRefs": [
+        "oc.ai-01"
+      ],
+      "evidenceRefs": [
+        "EV-701"
+      ],
+      "basis": "The AI context claim is a signed synthetic attestation covering intended use, deployment context, and accountable ownership."
+    },
+    {
+      "claimId": "EX-CLAIM-702",
+      "title": "AI risk management process and risk tolerances are documented for the current review window.",
+      "result": "attested",
+      "frameworkMappings": [
+        {
+          "framework": "EU AI Act",
+          "family": "ai_risk_management",
+          "controlId": "eu_ai_act.family.ai_risk_management"
+        },
+        {
+          "framework": "NIST AI RMF 1.0",
+          "family": "risk_management_process",
+          "controlId": "nist_ai_rmf_1_0.family.risk_management_process"
+        },
+        {
+          "framework": "ISO/IEC 42001",
+          "family": "ai_management_system_risk_process",
+          "controlId": "iso_iec_42001.family.ai_management_system_risk_process"
+        },
+        {
+          "framework": "ISO/IEC 23894",
+          "family": "ai_risk_management_guidance",
+          "controlId": "iso_iec_23894.family.ai_risk_management_guidance"
+        },
+        {
+          "framework": "ISO/IEC 42005",
+          "family": "impact_assessment_process",
+          "controlId": "iso_iec_42005.family.impact_assessment_process"
+        }
+      ],
+      "controlRefs": [
+        "oc.ai-02"
+      ],
+      "evidenceRefs": [
+        "EV-702"
+      ],
+      "basis": "The AI risk management claim is a signed synthetic attestation covering the documented process and declared risk tolerances."
+    },
+    {
+      "claimId": "EX-CLAIM-703",
+      "title": "Human oversight roles, escalation path, and override responsibility are documented for the current review window.",
+      "result": "attested",
+      "frameworkMappings": [
+        {
+          "framework": "EU AI Act",
+          "family": "human_oversight",
+          "controlId": "eu_ai_act.family.human_oversight"
+        },
+        {
+          "framework": "NIST AI RMF 1.0",
+          "family": "human_ai_roles_and_oversight",
+          "controlId": "nist_ai_rmf_1_0.family.human_ai_roles_and_oversight"
+        },
+        {
+          "framework": "ISO/IEC 42001",
+          "family": "roles_responsibilities_and_oversight",
+          "controlId": "iso_iec_42001.family.roles_responsibilities_and_oversight"
+        }
+      ],
+      "controlRefs": [
+        "oc.ai-03"
+      ],
+      "evidenceRefs": [
+        "EV-703"
+      ],
+      "basis": "The human oversight claim is a signed synthetic attestation covering roles, escalation, and override responsibility."
+    },
+    {
+      "claimId": "EX-CLAIM-704",
+      "title": "Post-deployment monitoring ownership and incident escalation are documented for the current review window.",
+      "result": "attested",
+      "frameworkMappings": [
+        {
+          "framework": "EU AI Act",
+          "family": "ai_monitoring_and_incident_handling",
+          "controlId": "eu_ai_act.family.ai_monitoring_and_incident_handling"
+        },
+        {
+          "framework": "NIST AI RMF 1.0",
+          "family": "post_deployment_monitoring",
+          "controlId": "nist_ai_rmf_1_0.family.post_deployment_monitoring"
+        },
+        {
+          "framework": "ISO/IEC 42001",
+          "family": "monitoring_measurement_and_improvement",
+          "controlId": "iso_iec_42001.family.monitoring_measurement_and_improvement"
+        },
+        {
+          "framework": "ISO/IEC 23894",
+          "family": "risk_monitoring_and_review",
+          "controlId": "iso_iec_23894.family.risk_monitoring_and_review"
+        },
+        {
+          "framework": "ISO/IEC 42005",
+          "family": "impact_assessment_monitoring",
+          "controlId": "iso_iec_42005.family.impact_assessment_monitoring"
+        }
+      ],
+      "controlRefs": [
+        "oc.ai-04"
+      ],
+      "evidenceRefs": [
+        "EV-704"
+      ],
+      "basis": "The AI monitoring claim is a signed synthetic attestation covering monitoring ownership and incident escalation."
+    },
+    {
+      "claimId": "EX-CLAIM-705",
+      "title": "AI-generated content disclosure is enabled and enforcement checks are passing on the public assistant surface.",
+      "result": "proved",
+      "frameworkMappings": [
+        {
+          "framework": "EU AI Act",
+          "family": "ai_generated_content_transparency",
+          "controlId": "eu_ai_act.family.ai_generated_content_transparency"
+        },
+        {
+          "framework": "EU GPAI Code of Practice",
+          "family": "transparency_and_copyright",
+          "controlId": "eu_gpai_code.family.transparency_and_copyright"
+        },
+        {
+          "framework": "NIST AI RMF 1.0",
+          "family": "transparency_and_accountability",
+          "controlId": "nist_ai_rmf_1_0.family.transparency_and_accountability"
+        },
+        {
+          "framework": "ISO/IEC 42001",
+          "family": "documented_information_and_communication",
+          "controlId": "iso_iec_42001.family.documented_information_and_communication"
+        }
+      ],
+      "controlRefs": [
+        "oc.ai-05"
+      ],
+      "evidenceRefs": [
+        "EV-705"
+      ],
+      "basis": "The disclosure export shows visible labeling, metadata markers, and passing enforcement checks for the scoped assistant surface."
+    }
+  ],
+  "summary": {
+    "proved": 1,
+    "attested": 4,
+    "failed": 0,
+    "staleEvidence": 0,
+    "judgmentRequired": 0,
+    "evidenceMissing": 0
+  },
+  "nextActions": [
+    "Keep legal classification, fundamental-rights analysis, and prohibited-practice review outside the issued corridor unless they are explicitly modeled.",
+    "Add typed model-card, evaluation, and post-deployment telemetry exports so more of the AI corridor can move from attestations to machine evidence.",
+    "Promote the current EU and NIST family proxies to reviewed exact-anchor mappings where public source text supports that level of precision."
+  ],
+  "proofRunner": {
+    "batchId": "exampleco-ai-governance-bundle-2026-03-24-lean-batch",
+    "fixture": "ai-governance",
+    "status": "verified",
+    "theoremCount": 0,
+    "verifiedTheorems": [],
+    "importedModules": [],
+    "verifiedClaims": [],
+    "boundaryInventory": {
+      "provedClaimCount": 1,
+      "leanBackedClaimCount": 0,
+      "omittedProvedClaims": [
+        {
+          "claimId": "EX-CLAIM-705",
+          "title": "AI-generated content disclosure is enabled and enforcement checks are passing on the public assistant surface.",
+          "controlRefs": [
+            "oc.ai-05"
+          ],
+          "reason": "no_public_lean_predicate"
+        }
+      ]
+    },
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "<generated-batch>"
+    ]
+  }
+}

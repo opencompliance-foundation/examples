@@ -1,0 +1,16 @@
+{
+  "verificationResultId": "exampleco-cyber-baseline-bundle-2026-03-24-result",
+  "generatedAt": "2026-03-24T06:10:00Z",
+  "bundleId": "exampleco-cyber-baseline-bundle-2026-03-24",
+  "verifierVersion": "opencompliance-example/0.6.0",
+  "organisation": "ExampleCo",
+  "profileId": "cyber_baseline_corridor",
+  "outcome": "certificate_issued",
+  "proofBundleSha256": "337eae0d32c03367be1eb1bfe4767898a64831dcd98253e09575c11e80ee90fd",
+  "trustSurfaceSha256": "3977b94697a4c6e94a538105d15b2e9bab4fae9035cf98f8797eaaba7ca022d7",
+  "outcomeArtifact": {
+    "path": "certificate.json",
+    "sha256": "f6db715968d5a182d94a0da9809d26f70a8a8ffb7298c3feddf418710ec661d1"
+  },
+  "blockingIssueCount": 0
+}

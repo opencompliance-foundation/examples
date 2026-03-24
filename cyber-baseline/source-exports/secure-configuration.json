@@ -1,0 +1,12 @@
+{
+  "collectedAt": "2026-03-24T06:04:00Z",
+  "sourceSystem": "example-endpoint-manager",
+  "actorId": "config-exporter",
+  "environment": "production",
+  "assetGroup": "managed_endpoints",
+  "evaluatedAt": "2026-03-24T06:04:00Z",
+  "expiresAt": "2026-03-31T06:04:00Z",
+  "baselineApplied": true,
+  "insecureDefaultsPresent": false,
+  "snapshotAgeDays": 7
+}

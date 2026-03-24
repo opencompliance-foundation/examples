@@ -1,0 +1,14 @@
+{
+  "collectedAt": "2026-03-24T06:02:00Z",
+  "sourceSystem": "example-network",
+  "actorId": "network-exporter",
+  "environment": "production",
+  "assetGroup": "public_ingress",
+  "evaluatedAt": "2026-03-24T06:02:00Z",
+  "expiresAt": "2026-03-31T06:02:00Z",
+  "defaultDenyInbound": true,
+  "declaredIngressPorts": [
+    443
+  ],
+  "undeclaredIngressPresent": false
+}
