@@ -6,7 +6,7 @@
   "organisation": "ExampleCo",
   "profileId": "issued_narrow_corridor",
   "routeSummary": {
-    "decidable": 6,
+    "decidable": 7,
     "attestation": 4,
     "judgment": 0
   },
@@ -46,6 +46,18 @@
       "evidenceRequired": true,
       "leanBacked": true,
       "rationale": "Deterministic architecture-state evidence over a narrow tenant and environment segmentation predicate."
+    },
+    {
+      "claimId": "EX-CLAIM-211",
+      "title": "Scoped password-quality controls enforce strong minimum length, no maximum-length restriction, and common-password blocking.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.id-05"
+      ],
+      "expectedClaimType": "password_policy_state",
+      "evidenceRequired": true,
+      "leanBacked": true,
+      "rationale": "Deterministic identity-policy evidence over a narrow password-quality predicate."
     },
     {
       "claimId": "EX-CLAIM-202",

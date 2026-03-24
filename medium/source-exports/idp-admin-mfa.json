@@ -9,5 +9,8 @@
   "mfaRequired": true,
   "conditionalAccessEnabled": true,
   "namedAccountsRequired": true,
-  "sharedAccountsPresent": false
+  "sharedAccountsPresent": false,
+  "minimumLengthAtLeast12": true,
+  "noMaximumLengthRestriction": true,
+  "commonPasswordBlockingEnabled": true
 }

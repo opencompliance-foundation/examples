@@ -37,6 +37,17 @@
             ]
           },
           {
+            "id": "oc.id-05",
+            "title": "Scoped password policy enforced",
+            "parts": [
+              {
+                "id": "oc.id-05_stmt",
+                "name": "statement",
+                "prose": "Scoped password-quality controls enforce strong minimum length, no maximum-length restriction, and common-password blocking."
+              }
+            ]
+          },
+          {
             "id": "oc.id-02",
             "title": "Typed periodic access review export present",
             "parts": [

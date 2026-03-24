@@ -44,9 +44,9 @@
     "certificateIssuedCount": 3,
     "blockedCorridorCount": 1,
     "uniqueFrameworkCount": 14,
-    "uniqueControlRefCount": 19,
+    "uniqueControlRefCount": 20,
     "claimSummary": {
-      "proved": 13,
+      "proved": 14,
       "attested": 9,
       "failed": 1,
       "staleEvidence": 0,
@@ -54,11 +54,11 @@
       "evidenceMissing": 0
     },
     "routeSummary": {
-      "decidable": 14,
+      "decidable": 15,
       "attestation": 9,
       "judgment": 1
     },
-    "leanBackedProvedClaims": 8,
+    "leanBackedProvedClaims": 9,
     "omittedProvedClaimsOutsidePublicLean": 5
   },
   "workflow": [
@@ -239,6 +239,7 @@
         "oc.id-02",
         "oc.id-03",
         "oc.id-04",
+        "oc.id-05",
         "oc.ir-01",
         "oc.log-01",
         "oc.rec-01",
@@ -246,7 +247,7 @@
         "oc.train-01"
       ],
       "claimSummary": {
-        "proved": 6,
+        "proved": 7,
         "attested": 4,
         "failed": 0,
         "staleEvidence": 0,
@@ -254,7 +255,7 @@
         "evidenceMissing": 0
       },
       "routeSummary": {
-        "decidable": 6,
+        "decidable": 7,
         "attestation": 4,
         "judgment": 0
       },
@@ -275,9 +276,9 @@
       },
       "leanBoundary": {
         "status": "verified",
-        "theoremCount": 5,
-        "leanBackedClaimCount": 5,
-        "provedClaimCount": 6,
+        "theoremCount": 6,
+        "leanBackedClaimCount": 6,
+        "provedClaimCount": 7,
         "omittedProvedClaimCount": 1
       },
       "resultHighlights": {
@@ -567,7 +568,7 @@
         "issued"
       ],
       "claimSummary": {
-        "proved": 6,
+        "proved": 7,
         "attested": 0,
         "failed": 0,
         "staleEvidence": 0,
@@ -649,7 +650,7 @@
         "issued"
       ],
       "claimSummary": {
-        "proved": 4,
+        "proved": 5,
         "attested": 0,
         "failed": 0,
         "staleEvidence": 0,
@@ -677,7 +678,7 @@
         "issued"
       ],
       "claimSummary": {
-        "proved": 8,
+        "proved": 9,
         "attested": 2,
         "failed": 0,
         "staleEvidence": 0,
@@ -709,7 +710,7 @@
         "failed"
       ],
       "claimSummary": {
-        "proved": 12,
+        "proved": 13,
         "attested": 5,
         "failed": 1,
         "staleEvidence": 0,
@@ -827,7 +828,7 @@
         "issued"
       ],
       "claimSummary": {
-        "proved": 3,
+        "proved": 4,
         "attested": 0,
         "failed": 0,
         "staleEvidence": 0,
@@ -884,7 +885,7 @@
         "issued"
       ],
       "claimSummary": {
-        "proved": 8,
+        "proved": 9,
         "attested": 0,
         "failed": 0,
         "staleEvidence": 0,
@@ -912,7 +913,7 @@
         "issued"
       ],
       "claimSummary": {
-        "proved": 8,
+        "proved": 9,
         "attested": 0,
         "failed": 0,
         "staleEvidence": 0,
@@ -941,7 +942,7 @@
         "failed"
       ],
       "claimSummary": {
-        "proved": 12,
+        "proved": 13,
         "attested": 3,
         "failed": 1,
         "staleEvidence": 0,

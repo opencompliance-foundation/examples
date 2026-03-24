@@ -7,7 +7,7 @@
 
 This synthetic example shows a wider OpenCompliance corridor without pretending the corridor is complete:
 
-- `14` proved claims
+- `15` proved claims
 - `11` attested claims
 - `0` failed claims
 - `0` stale-evidence claims
@@ -19,6 +19,7 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 - Administrative identities require MFA and conditional access in the scoped production environment.
 - Infrastructure access in the scoped production environment requires unique named identities with no shared administrative accounts.
 - Scoped customer and environment boundaries are enforced with no undeclared cross-environment paths in the production slice.
+- Scoped password-quality controls enforce strong minimum length, no maximum-length restriction, and common-password blocking.
 - Audit logging is enabled with a declared retention window for the scoped production runtime.
 - Public ingress is HTTPS-only with managed certificates and TLS 1.2 or higher.
 - The managed network boundary is attached to the declared ingress path for scoped public services.
