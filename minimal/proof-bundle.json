@@ -1,0 +1,92 @@
+{
+  "bundleId": "exampleco-minimal-bundle-2026-03-24",
+  "generatedAt": "2026-03-24T00:05:00Z",
+  "verifierVersion": "opencompliance-example/0.1.0",
+  "organisation": "ExampleCo",
+  "profileId": "minimal_saas_corridor",
+  "frameworkIntent": [
+    "ISO 27001",
+    "SOC 2"
+  ],
+  "scope": {
+    "inScope": [
+      "Identity provider MFA enforcement",
+      "Cloud audit logging",
+      "Security awareness training records"
+    ],
+    "outOfScope": [
+      "Full organisation-wide policy adequacy",
+      "Disaster recovery testing history"
+    ],
+    "note": "Synthetic public-safe example proof bundle."
+  },
+  "claims": [
+    {
+      "claimId": "EX-CLAIM-001",
+      "title": "Administrative identities require MFA in the scoped production environment.",
+      "result": "proved",
+      "frameworkFamilies": [
+        "access_control",
+        "identity_and_access_management"
+      ],
+      "evidenceRefs": [
+        "EV-001"
+      ],
+      "basis": "The identity provider export states MFA is required and conditional access is enabled."
+    },
+    {
+      "claimId": "EX-CLAIM-002",
+      "title": "Audit logging is enabled for the scoped production stack.",
+      "result": "proved",
+      "frameworkFamilies": [
+        "logging_monitoring"
+      ],
+      "evidenceRefs": [
+        "EV-002"
+      ],
+      "basis": "The cloud export states audit logging is enabled with a declared retention period."
+    },
+    {
+      "claimId": "EX-CLAIM-003",
+      "title": "Security awareness training completion is documented for the current review window.",
+      "result": "attested",
+      "frameworkFamilies": [
+        "awareness_and_training"
+      ],
+      "evidenceRefs": [
+        "EV-003"
+      ],
+      "basis": "The training claim is documentary and signed by a named human actor."
+    },
+    {
+      "claimId": "EX-CLAIM-004",
+      "title": "The overall policy suite is adequate for the whole framework boundary.",
+      "result": "judgment_required",
+      "frameworkFamilies": [
+        "overall_control_adequacy"
+      ],
+      "evidenceRefs": [],
+      "basis": "This remains an auditor and management judgment zone."
+    },
+    {
+      "claimId": "EX-CLAIM-005",
+      "title": "Restore testing has been performed in the last quarter.",
+      "result": "evidence_missing",
+      "frameworkFamilies": [
+        "backup_and_recovery"
+      ],
+      "evidenceRefs": [],
+      "basis": "No typed restore-test export is attached to this public example."
+    }
+  ],
+  "summary": {
+    "proved": 2,
+    "attested": 1,
+    "judgmentRequired": 1,
+    "evidenceMissing": 1
+  },
+  "nextActions": [
+    "Attach restore-test evidence as a typed claim.",
+    "Separate documentary attestations from runtime proofs in the trust-surface output."
+  ]
+}

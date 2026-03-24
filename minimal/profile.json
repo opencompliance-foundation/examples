@@ -1,0 +1,20 @@
+{
+  "profileId": "minimal_saas_corridor",
+  "organisation": "ExampleCo",
+  "frameworkIntent": [
+    "ISO 27001",
+    "SOC 2"
+  ],
+  "scope": {
+    "inScope": [
+      "Identity provider MFA enforcement",
+      "Cloud audit logging",
+      "Security awareness training records"
+    ],
+    "outOfScope": [
+      "Full organisation-wide policy adequacy",
+      "Disaster recovery testing history"
+    ],
+    "note": "Synthetic public-safe example profile."
+  }
+}

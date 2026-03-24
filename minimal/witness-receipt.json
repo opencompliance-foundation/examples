@@ -1,0 +1,20 @@
+{
+  "receiptId": "exampleco-minimal-receipt-2026-03-24",
+  "issuedAt": "2026-03-24T00:10:00Z",
+  "bundleId": "exampleco-minimal-bundle-2026-03-24",
+  "verifierVersion": "opencompliance-example/0.1.0",
+  "replayResult": "exact_match",
+  "checkedArtifacts": [
+    {
+      "artifactType": "proof_bundle",
+      "path": "proof-bundle.json",
+      "sha256": "e7a394ad1a8950487623716877dfdf1c10483def8c217c86f5ad081bcc9141f2"
+    },
+    {
+      "artifactType": "trust_surface_report",
+      "path": "trust-surface-report.md",
+      "sha256": "5c98c489ef4fb01f362591ede4c4f3598b0480faba2fcaa3a6dcf05cc36d4143"
+    }
+  ],
+  "note": "Synthetic public witness receipt for exact-match replay."
+}

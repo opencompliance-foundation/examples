@@ -1,0 +1,8 @@
+{
+  "revocationId": "exampleco-minimal-revocation-2026-03-24",
+  "artifactType": "certificate",
+  "artifactId": "exampleco-minimal-certificate-001",
+  "revokedAt": "2026-03-24T00:15:00Z",
+  "reason": "Synthetic example of public revocation after drift or stale evidence.",
+  "supersededBy": "exampleco-minimal-bundle-2026-03-24"
+}
