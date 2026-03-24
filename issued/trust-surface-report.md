@@ -10,6 +10,7 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 - `2` proved claims
 - `2` attested claims
 - `0` failed claims
+- `0` stale-evidence claims
 - `0` judgment-required claims
 - `0` evidence-missing claims
 
@@ -24,6 +25,9 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 - Restore testing has been performed in the declared review window.
 
 ## Failed
+
+
+## Stale Evidence
 
 
 ## Judgment Required

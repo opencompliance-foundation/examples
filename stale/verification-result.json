@@ -1,0 +1,16 @@
+{
+  "verificationResultId": "exampleco-stale-bundle-2026-03-24-result",
+  "generatedAt": "2026-03-24T05:20:00Z",
+  "bundleId": "exampleco-stale-bundle-2026-03-24",
+  "verifierVersion": "opencompliance-example/0.5.0",
+  "organisation": "ExampleCo",
+  "profileId": "stale_freshness_corridor",
+  "outcome": "punch_list_issued",
+  "proofBundleSha256": "076edf634a7c1d89cee6e10923db2a13a7d620e0bd8ff0359ca82f461ce9d7ca",
+  "trustSurfaceSha256": "a30319146aa5200517f3c9ca8222ba99709cc7b6ae01c8069eda76d87b5372e7",
+  "outcomeArtifact": {
+    "path": "punch-list.json",
+    "sha256": "0870ab266bc3820a4f4a5e25c2cf0014aa34ff8566df96523d6d27b49b4e7845"
+  },
+  "blockingIssueCount": 2
+}

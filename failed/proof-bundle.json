@@ -111,6 +111,7 @@
     "proved": 1,
     "attested": 1,
     "failed": 1,
+    "staleEvidence": 0,
     "judgmentRequired": 1,
     "evidenceMissing": 0
   },

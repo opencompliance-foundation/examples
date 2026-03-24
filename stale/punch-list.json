@@ -1,0 +1,55 @@
+{
+  "punchListId": "exampleco-stale-bundle-2026-03-24-punch-list",
+  "generatedAt": "2026-03-24T05:20:00Z",
+  "bundleId": "exampleco-stale-bundle-2026-03-24",
+  "verifierVersion": "opencompliance-example/0.5.0",
+  "organisation": "ExampleCo",
+  "profileId": "stale_freshness_corridor",
+  "blockingIssueCount": 2,
+  "blockingIssues": [
+    {
+      "claimId": "EX-CLAIM-402",
+      "title": "Audit logging is enabled for the scoped production stack.",
+      "issueType": "stale_machine_evidence",
+      "route": "decidable",
+      "frameworkMappings": [
+        {
+          "framework": "SOC 2",
+          "family": "logging_monitoring",
+          "controlId": "soc2.family.logging_monitoring"
+        },
+        {
+          "framework": "ISO 27001",
+          "family": "logging_and_monitoring",
+          "controlId": "iso27001.family.logging_and_monitoring"
+        }
+      ],
+      "controlRefs": [
+        "oc.log-01"
+      ],
+      "requiredAction": "refresh_typed_evidence_claim",
+      "reason": "The cloud logging export exists, but its freshness window expired before this verification run.",
+      "requiredClaimType": "audit_logging_state"
+    },
+    {
+      "claimId": "EX-CLAIM-403",
+      "title": "Security awareness training completion is documented for the current review window.",
+      "issueType": "stale_attestation",
+      "route": "attestation",
+      "frameworkMappings": [
+        {
+          "framework": "ISO 27001",
+          "family": "awareness_and_training",
+          "controlId": "iso27001.family.awareness_and_training"
+        }
+      ],
+      "controlRefs": [
+        "oc.train-01"
+      ],
+      "requiredAction": "renew_signed_attestation",
+      "reason": "The training attestation exists, but its freshness window expired before this verification run.",
+      "requiredClaimType": "training_attestation"
+    }
+  ],
+  "note": "Synthetic typed remediation artifact derived from the deterministic proof bundle."
+}

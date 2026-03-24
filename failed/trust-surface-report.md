@@ -10,6 +10,7 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 - `1` proved claim
 - `1` attested claim
 - `1` failed claim
+- `0` stale-evidence claims
 - `1` judgment-required claim
 - `0` evidence-missing claims
 
@@ -24,6 +25,9 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 ## Failed
 
 - Audit logging is enabled for the scoped production stack.
+
+## Stale Evidence
+
 
 ## Judgment Required
 

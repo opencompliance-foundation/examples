@@ -6,8 +6,8 @@
   "organisation": "ExampleCo",
   "profileId": "failed_saas_corridor",
   "outcome": "punch_list_issued",
-  "proofBundleSha256": "4f999a3e128667b0572bfc8ed517f150ac7fa2ad543bcb1f54c5d0263457802e",
-  "trustSurfaceSha256": "e419c21281c8e7b83e7ef5410d4d12736440ffd6422c6b216322209e2c033097",
+  "proofBundleSha256": "6da427a09da128b95e3b92bb02d3e3bacf1d69b62f6245e6ff65e5d479fc5daf",
+  "trustSurfaceSha256": "748fe7c53c44fb2bad0cdd423d50acd155b8233b30fbe907b6ab7bb5f9165db3",
   "outcomeArtifact": {
     "path": "punch-list.json",
     "sha256": "f14627bee5aab1cbb61714b0ea2201e03035913bbbac37235ef83747c682e6c3"

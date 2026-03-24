@@ -10,6 +10,7 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 - `8` proved claims
 - `4` attested claims
 - `0` failed claims
+- `0` stale-evidence claims
 - `1` judgment-required claim
 - `1` evidence-missing claim
 
@@ -32,6 +33,9 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 - The DSR runbook is approved and has a named owner for the current review window.
 
 ## Failed
+
+
+## Stale Evidence
 
 
 ## Judgment Required
