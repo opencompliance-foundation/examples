@@ -56,6 +56,26 @@
           ]
         },
         {
+          "uuid": "23333333-3333-4333-8333-333333333346",
+          "control-id": "oc.repo-01",
+          "statements": [
+            {
+              "statement-id": "oc.repo-01_stmt",
+              "remarks": "Implemented through the synthetic repository branch-protection claim."
+            }
+          ]
+        },
+        {
+          "uuid": "23333333-3333-4333-8333-333333333347",
+          "control-id": "oc.ci-01",
+          "statements": [
+            {
+              "statement-id": "oc.ci-01_stmt",
+              "remarks": "Implemented through the synthetic CI workflow-policy claim."
+            }
+          ]
+        },
+        {
           "uuid": "23333333-3333-4333-8333-333333333338",
           "control-id": "oc.key-01",
           "statements": [

@@ -36,6 +36,12 @@
                   "control-id": "oc.net-01"
                 },
                 {
+                  "control-id": "oc.repo-01"
+                },
+                {
+                  "control-id": "oc.ci-01"
+                },
+                {
                   "control-id": "oc.key-01"
                 },
                 {
@@ -206,6 +212,32 @@
             ],
             "collected": "2026-03-24T01:25:00Z",
             "remarks": "EX-CLAIM-112 is blocked because no typed evidence is attached."
+          },
+          {
+            "uuid": "oc-medium-observation-012",
+            "title": "Observation for EX-CLAIM-113",
+            "description": "The repository export shows the default branch is protected, approvals are required, status checks are enforced, and force pushes are blocked.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T01:25:00Z",
+            "remarks": "EX-CLAIM-113 proved from EV-111."
+          },
+          {
+            "uuid": "oc-medium-observation-013",
+            "title": "Observation for EX-CLAIM-114",
+            "description": "The CI export shows workflow review, trusted publishing, protected refs, and environment approvals are all required.",
+            "methods": [
+              "EXAMINE"
+            ],
+            "types": [
+              "observation"
+            ],
+            "collected": "2026-03-24T01:25:00Z",
+            "remarks": "EX-CLAIM-114 proved from EV-112."
           }
         ]
       }

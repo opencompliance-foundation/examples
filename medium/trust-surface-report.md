@@ -7,7 +7,7 @@
 
 This synthetic example shows a wider OpenCompliance corridor without pretending the corridor is complete:
 
-- `6` proved claims
+- `8` proved claims
 - `4` attested claims
 - `0` failed claims
 - `1` judgment-required claim
@@ -21,6 +21,8 @@ This synthetic example shows a wider OpenCompliance corridor without pretending 
 - Scoped runtime service accounts do not use user-managed long-lived keys.
 - The scoped workload runs only in the declared approved regions.
 - Backup snapshots are scheduled with a declared immutable retention window.
+- Default branch protections are enforced for the scoped production repository.
+- CI workflow policy constrains deployment to reviewed workflows and protected refs.
 
 ## Attested
 

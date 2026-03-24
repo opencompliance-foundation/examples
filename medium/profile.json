@@ -10,6 +10,8 @@
   "scope": {
     "inScope": [
       "Administrative identity enforcement",
+      "Repository default-branch protections",
+      "CI workflow deployment policy",
       "Ingress TLS posture",
       "Cloud audit logging",
       "Machine identity key hygiene",

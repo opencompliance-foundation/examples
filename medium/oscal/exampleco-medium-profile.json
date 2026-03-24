@@ -19,6 +19,8 @@
               "oc.id-02",
               "oc.log-01",
               "oc.net-01",
+              "oc.repo-01",
+              "oc.ci-01",
               "oc.key-01",
               "oc.loc-01",
               "oc.backup-01",

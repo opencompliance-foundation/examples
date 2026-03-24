@@ -73,6 +73,34 @@
         ]
       },
       {
+        "id": "oc.change",
+        "title": "Change and Delivery Controls",
+        "controls": [
+          {
+            "id": "oc.repo-01",
+            "title": "Default branch protections enforced",
+            "parts": [
+              {
+                "id": "oc.repo-01_stmt",
+                "name": "statement",
+                "prose": "The scoped repository default branch is protected with approvals, status checks, and force-push restrictions."
+              }
+            ]
+          },
+          {
+            "id": "oc.ci-01",
+            "title": "CI workflow policy constrained",
+            "parts": [
+              {
+                "id": "oc.ci-01_stmt",
+                "name": "statement",
+                "prose": "The scoped CI workflow requires review, trusted publishing, protected refs, and environment approvals."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "oc.keys",
         "title": "Machine Credentials",
         "controls": [

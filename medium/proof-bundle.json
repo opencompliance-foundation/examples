@@ -13,6 +13,8 @@
   "scope": {
     "inScope": [
       "Administrative identity enforcement",
+      "Repository default-branch protections",
+      "CI workflow deployment policy",
       "Ingress TLS posture",
       "Cloud audit logging",
       "Machine identity key hygiene",
@@ -360,10 +362,68 @@
       ],
       "evidenceRefs": [],
       "basis": "The corridor expects a typed access-review export, but no such evidence is attached to this public synthetic pack."
+    },
+    {
+      "claimId": "EX-CLAIM-113",
+      "title": "Default branch protections are enforced for the scoped production repository.",
+      "result": "proved",
+      "frameworkMappings": [
+        {
+          "framework": "SOC 2",
+          "family": "change_management",
+          "controlId": "soc2.family.change_management"
+        },
+        {
+          "framework": "ISO 27001",
+          "family": "secure_development_and_change_control",
+          "controlId": "iso27001.family.secure_development_and_change_control"
+        },
+        {
+          "framework": "IRAP",
+          "family": "secure_development_and_change",
+          "controlId": "irap.family.secure_development_and_change"
+        }
+      ],
+      "controlRefs": [
+        "oc.repo-01"
+      ],
+      "evidenceRefs": [
+        "EV-111"
+      ],
+      "basis": "The repository export shows the default branch is protected, approvals are required, status checks are enforced, and force pushes are blocked."
+    },
+    {
+      "claimId": "EX-CLAIM-114",
+      "title": "CI workflow policy constrains deployment to reviewed workflows and protected refs.",
+      "result": "proved",
+      "frameworkMappings": [
+        {
+          "framework": "SOC 2",
+          "family": "change_management",
+          "controlId": "soc2.family.change_management"
+        },
+        {
+          "framework": "ISO 27001",
+          "family": "secure_development_and_change_control",
+          "controlId": "iso27001.family.secure_development_and_change_control"
+        },
+        {
+          "framework": "IRAP",
+          "family": "secure_development_and_change",
+          "controlId": "irap.family.secure_development_and_change"
+        }
+      ],
+      "controlRefs": [
+        "oc.ci-01"
+      ],
+      "evidenceRefs": [
+        "EV-112"
+      ],
+      "basis": "The CI export shows workflow review, trusted publishing, protected refs, and environment approvals are all required."
     }
   ],
   "summary": {
-    "proved": 6,
+    "proved": 8,
     "attested": 4,
     "failed": 0,
     "judgmentRequired": 1,

@@ -136,6 +136,56 @@
             ]
           },
           {
+            "uuid": "26666666-6666-4666-8666-666666666683",
+            "relationship": "subset-of",
+            "matching-rationale": "Repository branch protection is one narrow technical slice of broader secure development and change-management families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.repo-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.change_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.secure_development_and_change_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.secure_development_and_change"
+              }
+            ]
+          },
+          {
+            "uuid": "26666666-6666-4666-8666-666666666684",
+            "relationship": "subset-of",
+            "matching-rationale": "CI workflow policy is one narrow technical slice of broader secure development and change-management families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.ci-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.change_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.secure_development_and_change_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.secure_development_and_change"
+              }
+            ]
+          },
+          {
             "uuid": "26666666-6666-4666-8666-666666666675",
             "relationship": "subset-of",
             "matching-rationale": "Machine credential hygiene is one narrow technical slice of key and credential families.",

@@ -42,6 +42,6 @@ It exists to show a richer public-safe corridor than `../minimal/` without leaki
 
 ## Connector note
 
-The medium source-export path now includes synthetic repo branch-protection and CI workflow-policy claims so the public connector surface covers repo, CI/CD, IAM/MFA, and cloud/config evidence classes.
+The medium source-export path now includes synthetic repo branch-protection and CI workflow-policy claims, and those claims now drive checked-in verification results for the public ExampleCo medium corridor.
 
-Those extra typed claims are not yet consumed by the current checked-in proof corridor. They exist to show the connector substrate and schema surface honestly before the proof corridor widens.
+That means the public connector surface and the public proof corridor now both cover repo, CI/CD, IAM/MFA, and cloud/config evidence classes in the same synthetic pack.

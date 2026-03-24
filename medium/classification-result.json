@@ -6,7 +6,7 @@
   "organisation": "ExampleCo",
   "profileId": "medium_multiframework_corridor",
   "routeSummary": {
-    "decidable": 7,
+    "decidable": 9,
     "attestation": 4,
     "judgment": 1
   },
@@ -154,6 +154,30 @@
       "evidenceRequired": true,
       "leanBacked": false,
       "rationale": "Periodic access review can be machine-checked only when a typed export exists."
+    },
+    {
+      "claimId": "EX-CLAIM-113",
+      "title": "Default branch protections are enforced for the scoped production repository.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.repo-01"
+      ],
+      "expectedClaimType": "repo_branch_protection",
+      "evidenceRequired": true,
+      "leanBacked": false,
+      "rationale": "Deterministic repository policy state over a narrow branch-protection predicate."
+    },
+    {
+      "claimId": "EX-CLAIM-114",
+      "title": "CI workflow policy constrains deployment to reviewed workflows and protected refs.",
+      "route": "decidable",
+      "controlRefs": [
+        "oc.ci-01"
+      ],
+      "expectedClaimType": "ci_workflow_policy",
+      "evidenceRequired": true,
+      "leanBacked": false,
+      "rationale": "Deterministic delivery-policy state over a narrow CI workflow predicate."
     }
   ],
   "note": "Synthetic persisted routing artifact for the OpenCompliance prove/attest/judgment split."
