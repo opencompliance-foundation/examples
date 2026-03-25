@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenCompliance Verify Workbench</title>
+  <meta name="description" content="Local browser workbench for the OpenCompliance Verify API.">
+  <link rel="stylesheet" href="../../docs/styles.css">
+  <style>
+    .workbench-grid {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      margin-top: 1.5rem;
+    }
+
+    .field-row {
+      display: grid;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .field-row label {
+      display: grid;
+      gap: 0.35rem;
+      font-size: 0.92rem;
+      color: rgba(240, 244, 255, 0.86);
+    }
+
+    .field-row input,
+    .field-row select,
+    .field-row textarea {
+      width: 100%;
+      border: 1px solid rgba(139, 163, 255, 0.22);
+      border-radius: 14px;
+      background: rgba(7, 12, 26, 0.7);
+      color: #f1f5ff;
+      padding: 0.85rem 0.95rem;
+      font: inherit;
+      box-sizing: border-box;
+    }
+
+    .field-row textarea {
+      min-height: 14rem;
+      resize: vertical;
+      font-family: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+      font-size: 0.88rem;
+      line-height: 1.5;
+    }
+
+    .toggle-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .toggle-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding: 0.7rem 0.95rem;
+      border-radius: 999px;
+      border: 1px solid rgba(139, 163, 255, 0.22);
+      background: rgba(7, 12, 26, 0.58);
+      color: rgba(240, 244, 255, 0.9);
+    }
+
+    .toggle-chip input {
+      accent-color: #72e2ff;
+    }
+
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .button-row button {
+      border: none;
+      border-radius: 999px;
+      padding: 0.78rem 1.1rem;
+      font: inherit;
+      cursor: pointer;
+      color: #08101f;
+      background: linear-gradient(135deg, #72e2ff 0%, #b8f7d4 100%);
+    }
+
+    .button-row .secondary {
+      color: #eff4ff;
+      background: rgba(7, 12, 26, 0.68);
+      border: 1px solid rgba(139, 163, 255, 0.22);
+    }
+
+    .summary-grid {
+      display: grid;
+      gap: 0.75rem;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      margin-top: 1rem;
+    }
+
+    .summary-card {
+      padding: 0.9rem 1rem;
+      border-radius: 16px;
+      background: rgba(7, 12, 26, 0.65);
+      border: 1px solid rgba(139, 163, 255, 0.14);
+    }
+
+    .summary-card .label {
+      display: block;
+      font-size: 0.76rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: rgba(184, 198, 255, 0.72);
+      margin-bottom: 0.4rem;
+    }
+
+    .summary-card .value {
+      display: block;
+      font-size: 1.3rem;
+      color: #f3f7ff;
+    }
+
+    .status-banner {
+      margin-top: 1rem;
+      padding: 0.9rem 1rem;
+      border-radius: 16px;
+      background: rgba(7, 12, 26, 0.72);
+      border: 1px solid rgba(139, 163, 255, 0.18);
+      color: #f3f7ff;
+    }
+
+    .status-banner.error {
+      border-color: rgba(255, 123, 123, 0.34);
+      background: rgba(63, 15, 21, 0.56);
+    }
+
+    .hint {
+      color: rgba(184, 198, 255, 0.72);
+      font-size: 0.86rem;
+      margin-top: 0.4rem;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .panel pre {
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+  </style>
+</head>
+<body>
+  <main class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="../../docs/index.html">
+        <span class="brand-mark">OC</span>
+        <span>OpenCompliance</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="../../docs/index.html">Overview</a>
+        <a href="../../docs/verifier-release.html">Verifier Release</a>
+        <a href="../../docs/verify-workbench.html">Workbench Docs</a>
+        <a href="../../docs/repositories.html">Repositories</a>
+      </nav>
+    </header>
+
+    <section class="page-hero">
+      <div class="eyebrow">Local UX</div>
+      <h1>Verify Workbench</h1>
+      <p class="lead">This is a local browser front end for the deterministic Verify API. Serve this repository over `http://127.0.0.1`, run the API on `127.0.0.1:8788`, and you can load a synthetic ExampleCo bundle or submit a fixture-path request without leaving the browser.</p>
+    </section>
+
+    <div class="panel">
+      <pre><code>cd projects/dev/opencompliance
+python3 scripts/serve_verify_api.py --port 8788
+
+# second terminal, same directory
+python3 -m http.server 8000
+
+# then open http://127.0.0.1:8000/ui/verify/</code></pre>
+    </div>
+
+    <div class="workbench-grid">
+      <section class="section-card">
+        <div class="kicker">Request Builder</div>
+        <h2>Build a Verify request</h2>
+
+        <div class="field-row">
+          <label for="apiBase">API base URL
+            <input id="apiBase" type="text" value="http://127.0.0.1:8788">
+          </label>
+          <label for="fixtureName">Fixture name
+            <select id="fixtureName">
+              <option value="minimal">minimal</option>
+              <option value="failed">failed</option>
+              <option value="stale">stale</option>
+              <option value="medium">medium</option>
+              <option value="issued" selected>issued</option>
+              <option value="cyber-baseline">cyber-baseline</option>
+              <option value="ai-governance">ai-governance</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="toggle-row">
+          <label class="toggle-chip">
+            <input type="radio" name="mode" value="inline_bundle" checked>
+            <span>inline_bundle</span>
+          </label>
+          <label class="toggle-chip">
+            <input type="radio" name="mode" value="fixture_path">
+            <span>fixture_path</span>
+          </label>
+        </div>
+
+        <div id="fixturePathPanel" class="field-row hidden">
+          <label for="fixtureRoot">Fixture root (absolute path)
+            <input id="fixtureRoot" type="text" placeholder="/abs/path/to/fixture-root">
+          </label>
+          <p class="hint">Use this when you want the API to verify an existing fixture-shaped directory on disk.</p>
+        </div>
+
+        <div id="inlinePanel">
+          <div class="button-row">
+            <button type="button" class="secondary" id="loadSelectedFixtureButton">Load selected fixture</button>
+          </div>
+          <p class="hint">This loads the checked-in synthetic ExampleCo fixture selected above from <code>../../fixtures/public/*</code>.</p>
+          <div class="field-row">
+            <label for="profileInput">Profile JSON
+              <textarea id="profileInput" spellcheck="false"></textarea>
+            </label>
+            <label for="evidenceInput">Evidence claims JSON
+              <textarea id="evidenceInput" spellcheck="false"></textarea>
+            </label>
+          </div>
+        </div>
+
+        <div class="button-row">
+          <button type="button" id="fetchContractButton" class="secondary">Fetch contract</button>
+          <button type="button" id="verifyButton">Verify</button>
+        </div>
+      </section>
+
+      <section class="section-card">
+        <div class="kicker">Result</div>
+        <h2>Response</h2>
+        <div id="statusBanner" class="status-banner">Ready. Load a fixture or enter a request, then run Verify.</div>
+        <div id="summaryGrid" class="summary-grid hidden">
+          <div class="summary-card">
+            <span class="label">Outcome</span>
+            <span id="outcomeValue" class="value">-</span>
+          </div>
+          <div class="summary-card">
+            <span class="label">Bundle</span>
+            <span id="bundleValue" class="value">-</span>
+          </div>
+          <div class="summary-card">
+            <span class="label">Proved</span>
+            <span id="provedValue" class="value">0</span>
+          </div>
+          <div class="summary-card">
+            <span class="label">Attested</span>
+            <span id="attestedValue" class="value">0</span>
+          </div>
+          <div class="summary-card">
+            <span class="label">Blocking</span>
+            <span id="blockingValue" class="value">0</span>
+          </div>
+        </div>
+
+        <div class="panel" style="margin-top: 1rem;">
+          <pre id="resultOutput"><code>{}</code></pre>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    const fixtureExamples = {
+      "failed": "../../fixtures/public/failed",
+      "stale": "../../fixtures/public/stale",
+      "medium": "../../fixtures/public/medium",
+      "minimal": "../../fixtures/public/minimal",
+      "issued": "../../fixtures/public/issued",
+      "cyber-baseline": "../../fixtures/public/cyber-baseline",
+      "ai-governance": "../../fixtures/public/ai-governance"
+    };
+
+    const apiBaseInput = document.getElementById("apiBase");
+    const fixtureNameInput = document.getElementById("fixtureName");
+    const fixtureRootInput = document.getElementById("fixtureRoot");
+    const profileInput = document.getElementById("profileInput");
+    const evidenceInput = document.getElementById("evidenceInput");
+    const fixturePathPanel = document.getElementById("fixturePathPanel");
+    const inlinePanel = document.getElementById("inlinePanel");
+    const statusBanner = document.getElementById("statusBanner");
+    const resultOutput = document.getElementById("resultOutput");
+    const summaryGrid = document.getElementById("summaryGrid");
+
+    function selectedMode() {
+      return document.querySelector('input[name="mode"]:checked').value;
+    }
+
+    function setStatus(message, isError = false) {
+      statusBanner.textContent = message;
+      statusBanner.classList.toggle("error", isError);
+    }
+
+    function setMode(mode) {
+      fixturePathPanel.classList.toggle("hidden", mode !== "fixture_path");
+      inlinePanel.classList.toggle("hidden", mode !== "inline_bundle");
+    }
+
+    function setResult(payload) {
+      resultOutput.textContent = JSON.stringify(payload, null, 2);
+    }
+
+    function setSummary(payload) {
+      const summary = payload?.artifacts?.proofBundle?.summary;
+      if (!summary) {
+        summaryGrid.classList.add("hidden");
+        return;
+      }
+      summaryGrid.classList.remove("hidden");
+      document.getElementById("outcomeValue").textContent = payload.verificationOutcome;
+      document.getElementById("bundleValue").textContent = payload.bundleId;
+      document.getElementById("provedValue").textContent = summary.proved ?? 0;
+      document.getElementById("attestedValue").textContent = summary.attested ?? 0;
+      document.getElementById("blockingValue").textContent =
+        (summary.failed ?? 0) +
+        (summary.staleEvidence ?? 0) +
+        (summary.judgmentRequired ?? 0) +
+        (summary.evidenceMissing ?? 0);
+    }
+
+    async function loadFixtureExample(fixtureName) {
+      const root = fixtureExamples[fixtureName];
+      if (!root) {
+        setStatus(`No inline loader is configured for ${fixtureName}.`, true);
+        return;
+      }
+      try {
+        const [profileResponse, evidenceResponse] = await Promise.all([
+          fetch(`${root}/profile.json`),
+          fetch(`${root}/evidence-claims.json`)
+        ]);
+        if (!profileResponse.ok || !evidenceResponse.ok) {
+          throw new Error("Could not fetch the synthetic fixture from the local repo server.");
+        }
+        const [profile, evidenceClaims] = await Promise.all([
+          profileResponse.json(),
+          evidenceResponse.json()
+        ]);
+        fixtureNameInput.value = fixtureName;
+        profileInput.value = JSON.stringify(profile, null, 2);
+        evidenceInput.value = JSON.stringify(evidenceClaims, null, 2);
+        document.querySelector('input[name="mode"][value="inline_bundle"]').checked = true;
+        setMode("inline_bundle");
+        setStatus(`Loaded the ${fixtureName} synthetic ExampleCo corridor into the inline editor.`);
+      } catch (error) {
+        setStatus(error.message, true);
+      }
+    }
+
+    async function fetchContract() {
+      try {
+        const response = await fetch(`${apiBaseInput.value.replace(/\\/$/, "")}/contract`);
+        const payload = await response.json();
+        if (!response.ok) {
+          throw new Error(payload.message || "Could not fetch the verifier contract.");
+        }
+        setResult(payload);
+        summaryGrid.classList.add("hidden");
+        setStatus("Fetched the current verifier contract from the local API.");
+      } catch (error) {
+        setStatus(error.message, true);
+      }
+    }
+
+    async function runVerify() {
+      const mode = selectedMode();
+      const fixtureName = fixtureNameInput.value;
+      const input = { mode };
+      if (mode === "fixture_path") {
+        input.fixtureRoot = fixtureRootInput.value.trim();
+        input.useDefaultOscalSeed = true;
+      } else {
+        input.profile = JSON.parse(profileInput.value);
+        input.evidenceClaims = JSON.parse(evidenceInput.value);
+        input.useDefaultOscalSeed = true;
+      }
+      try {
+        setStatus("Verifying...");
+        const response = await fetch(`${apiBaseInput.value.replace(/\\/$/, "")}/verify`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ fixtureName, input })
+        });
+        const payload = await response.json();
+        if (!response.ok) {
+          throw new Error(payload.message || "Verify request failed.");
+        }
+        setResult(payload);
+        setSummary(payload);
+        setStatus(`Verification completed with outcome ${payload.verificationOutcome}.`);
+      } catch (error) {
+        summaryGrid.classList.add("hidden");
+        setStatus(error.message, true);
+      }
+    }
+
+    document.querySelectorAll('input[name="mode"]').forEach((input) => {
+      input.addEventListener("change", (event) => setMode(event.target.value));
+    });
+
+    document.getElementById("loadSelectedFixtureButton").addEventListener("click", () => {
+      loadFixtureExample(fixtureNameInput.value);
+    });
+    document.getElementById("fetchContractButton").addEventListener("click", fetchContract);
+    document.getElementById("verifyButton").addEventListener("click", runVerify);
+
+    setMode(selectedMode());
+    loadFixtureExample("issued");
+  </script>
+</body>
+</html>
