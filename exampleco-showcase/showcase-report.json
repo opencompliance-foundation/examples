@@ -58,8 +58,8 @@
       "attestation": 10,
       "judgment": 1
     },
-    "leanBackedProvedClaims": 11,
-    "omittedProvedClaimsOutsidePublicLean": 5
+    "leanBackedProvedClaims": 16,
+    "omittedProvedClaimsOutsidePublicLean": 0
   },
   "workflow": [
     {
@@ -156,10 +156,10 @@
       },
       "leanBoundary": {
         "status": "verified",
-        "theoremCount": 2,
-        "leanBackedClaimCount": 2,
+        "theoremCount": 5,
+        "leanBackedClaimCount": 5,
         "provedClaimCount": 5,
-        "omittedProvedClaimCount": 3
+        "omittedProvedClaimCount": 0
       },
       "resultHighlights": {
         "proved": [
@@ -279,10 +279,10 @@
       },
       "leanBoundary": {
         "status": "verified",
-        "theoremCount": 8,
-        "leanBackedClaimCount": 8,
+        "theoremCount": 9,
+        "leanBackedClaimCount": 9,
         "provedClaimCount": 9,
-        "omittedProvedClaimCount": 1
+        "omittedProvedClaimCount": 0
       },
       "resultHighlights": {
         "attested": [
@@ -407,10 +407,10 @@
       },
       "leanBoundary": {
         "status": "verified",
-        "theoremCount": 0,
-        "leanBackedClaimCount": 0,
+        "theoremCount": 1,
+        "leanBackedClaimCount": 1,
         "provedClaimCount": 1,
-        "omittedProvedClaimCount": 1
+        "omittedProvedClaimCount": 0
       },
       "resultHighlights": {
         "attested": [

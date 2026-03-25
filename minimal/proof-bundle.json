@@ -220,6 +220,15 @@
             "minimal_claim_corpus",
             "runtime_claim_decisions"
           ]
+        },
+        {
+          "module": "OpenCompliance.Controls.Typed.PublicRuntime",
+          "covers": [
+            "formalDecision",
+            "documentaryDecision",
+            "judgmentDecision",
+            "public_corridor_runtime_claim_decisions"
+          ]
         }
       ],
       "runtimeConsumedClaims": [

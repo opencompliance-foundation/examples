@@ -6,8 +6,8 @@
   "organisation": "ExampleCo",
   "profileId": "medium_multiframework_corridor",
   "outcome": "punch_list_issued",
-  "proofBundleSha256": "f49164c02a8ad98cb772dcdecc6e54bfe6017a2758399407e6839662700c3e00",
-  "trustSurfaceSha256": "703f317bf8f8a9cf517e7fd7d945094c404df409b8f64129c9df0acce67ce863",
+  "proofBundleSha256": "e85bd647a504b20b368bb996f01b582d848a868b003870dc810966f36de1a9a0",
+  "trustSurfaceSha256": "9e801be940e33dd8590a6015834bbc36c1895e246a393a5d8e69cfaf13aa269f",
   "outcomeArtifact": {
     "path": "punch-list.json",
     "sha256": "a4faaf1b12b78e16d2e20c5b1b47a2b932796ee3b7cb32d48937ef1b5f1aae46"

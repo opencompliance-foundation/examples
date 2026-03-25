@@ -1226,7 +1226,7 @@
     "batchId": "exampleco-medium-bundle-2026-03-24-lean-batch",
     "fixture": "medium",
     "status": "verified",
-    "theoremCount": 15,
+    "theoremCount": 17,
     "verifiedTheorems": [
       "claim_EX_CLAIM_101_proved",
       "claim_EX_CLAIM_128_proved",
@@ -1242,11 +1242,14 @@
       "claim_EX_CLAIM_127_proved",
       "claim_EX_CLAIM_104_proved",
       "claim_EX_CLAIM_105_proved",
-      "claim_EX_CLAIM_106_proved"
+      "claim_EX_CLAIM_106_proved",
+      "claim_EX_CLAIM_113_proved",
+      "claim_EX_CLAIM_114_proved"
     ],
     "importedModules": [
       "OpenCompliance.Controls.Backup",
       "OpenCompliance.Controls.Cryptography",
+      "OpenCompliance.Controls.Development",
       "OpenCompliance.Controls.Identity",
       "OpenCompliance.Controls.Keys",
       "OpenCompliance.Controls.Location",
@@ -1373,6 +1376,22 @@
         "predicate": "BackupSnapshotScheduleSatisfied",
         "evidenceClaimType": "backup_snapshot_schedule",
         "theorem": "claim_EX_CLAIM_106_proved"
+      },
+      {
+        "claimId": "EX-CLAIM-113",
+        "controlId": "oc.repo-01",
+        "module": "OpenCompliance.Controls.Development",
+        "predicate": "DefaultBranchProtectionsEnforced",
+        "evidenceClaimType": "repo_branch_protection",
+        "theorem": "claim_EX_CLAIM_113_proved"
+      },
+      {
+        "claimId": "EX-CLAIM-114",
+        "controlId": "oc.ci-01",
+        "module": "OpenCompliance.Controls.Development",
+        "predicate": "CiWorkflowPolicyConstrained",
+        "evidenceClaimType": "ci_workflow_policy",
+        "theorem": "claim_EX_CLAIM_114_proved"
       }
     ],
     "typedBoundaryLayer": {
@@ -1423,38 +1442,64 @@
             "minimal_claim_corpus",
             "runtime_claim_decisions"
           ]
+        },
+        {
+          "module": "OpenCompliance.Controls.Typed.PublicRuntime",
+          "covers": [
+            "formalDecision",
+            "documentaryDecision",
+            "judgmentDecision",
+            "public_corridor_runtime_claim_decisions"
+          ]
         }
       ],
-      "runtimeConsumedClaims": [],
+      "runtimeConsumedClaims": [
+        "EX-CLAIM-101",
+        "EX-CLAIM-128",
+        "EX-CLAIM-129",
+        "EX-CLAIM-130",
+        "EX-CLAIM-131",
+        "EX-CLAIM-102",
+        "EX-CLAIM-132",
+        "EX-CLAIM-103",
+        "EX-CLAIM-124",
+        "EX-CLAIM-125",
+        "EX-CLAIM-126",
+        "EX-CLAIM-127",
+        "EX-CLAIM-104",
+        "EX-CLAIM-105",
+        "EX-CLAIM-106",
+        "EX-CLAIM-107",
+        "EX-CLAIM-108",
+        "EX-CLAIM-109",
+        "EX-CLAIM-110",
+        "EX-CLAIM-111",
+        "EX-CLAIM-112",
+        "EX-CLAIM-113",
+        "EX-CLAIM-114",
+        "EX-CLAIM-115",
+        "EX-CLAIM-116",
+        "EX-CLAIM-133",
+        "EX-CLAIM-117",
+        "EX-CLAIM-118",
+        "EX-CLAIM-119",
+        "EX-CLAIM-120",
+        "EX-CLAIM-121",
+        "EX-CLAIM-122",
+        "EX-CLAIM-123"
+      ],
       "runtimeStatus": {
         "typedControlResultsLive": true,
         "riskAcceptanceDefeasibilityLive": true,
         "discretionaryTermTypingLive": true,
         "fullMinimalSolverAgreement": false,
-        "pythonVerdictLayerReplaced": false
+        "pythonVerdictLayerReplaced": true
       }
     },
     "boundaryInventory": {
       "provedClaimCount": 17,
-      "leanBackedClaimCount": 15,
-      "omittedProvedClaims": [
-        {
-          "claimId": "EX-CLAIM-113",
-          "title": "Default branch protections are enforced for the scoped production repository.",
-          "controlRefs": [
-            "oc.repo-01"
-          ],
-          "reason": "no_public_lean_predicate"
-        },
-        {
-          "claimId": "EX-CLAIM-114",
-          "title": "CI workflow policy constrains deployment to reviewed workflows and protected refs.",
-          "controlRefs": [
-            "oc.ci-01"
-          ],
-          "reason": "no_public_lean_predicate"
-        }
-      ]
+      "leanBackedClaimCount": 17,
+      "omittedProvedClaims": []
     },
     "command": [
       "lake",

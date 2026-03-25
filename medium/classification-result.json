@@ -260,7 +260,7 @@
       ],
       "expectedClaimType": "access_review_export",
       "evidenceRequired": true,
-      "leanBacked": false,
+      "leanBacked": true,
       "rationale": "Periodic access review can be machine-checked only when a typed export exists."
     },
     {
@@ -272,7 +272,7 @@
       ],
       "expectedClaimType": "repo_branch_protection",
       "evidenceRequired": true,
-      "leanBacked": false,
+      "leanBacked": true,
       "rationale": "Deterministic repository policy state over a narrow branch-protection predicate."
     },
     {
@@ -284,7 +284,7 @@
       ],
       "expectedClaimType": "ci_workflow_policy",
       "evidenceRequired": true,
-      "leanBacked": false,
+      "leanBacked": true,
       "rationale": "Deterministic delivery-policy state over a narrow CI workflow predicate."
     },
     {
@@ -449,7 +449,7 @@
           ],
           "expectedClaimType": "repo_branch_protection",
           "evidenceRequired": true,
-          "leanBacked": false,
+          "leanBacked": true,
           "rationale": "Deterministic repository policy state over a narrow branch-protection predicate."
         },
         {
@@ -461,7 +461,7 @@
           ],
           "expectedClaimType": "ci_workflow_policy",
           "evidenceRequired": true,
-          "leanBacked": false,
+          "leanBacked": true,
           "rationale": "Deterministic delivery-policy state over a narrow CI workflow predicate."
         },
         {

@@ -44,7 +44,7 @@
       ],
       "expectedClaimType": "secure_configuration_state",
       "evidenceRequired": true,
-      "leanBacked": false,
+      "leanBacked": true,
       "rationale": "Deterministic configuration state over a narrow hardening predicate."
     },
     {
@@ -56,7 +56,7 @@
       ],
       "expectedClaimType": "security_update_state",
       "evidenceRequired": true,
-      "leanBacked": false,
+      "leanBacked": true,
       "rationale": "Deterministic patch and support-window state over a narrow update-management predicate."
     },
     {
@@ -68,7 +68,7 @@
       ],
       "expectedClaimType": "malware_protection_state",
       "evidenceRequired": true,
-      "leanBacked": false,
+      "leanBacked": true,
       "rationale": "Deterministic endpoint protection state over a narrow malware-baseline predicate."
     }
   ],

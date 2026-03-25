@@ -308,10 +308,23 @@
     "batchId": "exampleco-ai-governance-bundle-2026-03-24-lean-batch",
     "fixture": "ai-governance",
     "status": "verified",
-    "theoremCount": 0,
-    "verifiedTheorems": [],
-    "importedModules": [],
-    "verifiedClaims": [],
+    "theoremCount": 1,
+    "verifiedTheorems": [
+      "claim_EX_CLAIM_705_proved"
+    ],
+    "importedModules": [
+      "OpenCompliance.Controls.AI"
+    ],
+    "verifiedClaims": [
+      {
+        "claimId": "EX-CLAIM-705",
+        "controlId": "oc.ai-05",
+        "module": "OpenCompliance.Controls.AI",
+        "predicate": "AiGeneratedContentDisclosureConfigured",
+        "evidenceClaimType": "ai_content_labeling_state",
+        "theorem": "claim_EX_CLAIM_705_proved"
+      }
+    ],
     "typedBoundaryLayer": {
       "source": "LegalLean",
       "dependency": {
@@ -360,30 +373,36 @@
             "minimal_claim_corpus",
             "runtime_claim_decisions"
           ]
+        },
+        {
+          "module": "OpenCompliance.Controls.Typed.PublicRuntime",
+          "covers": [
+            "formalDecision",
+            "documentaryDecision",
+            "judgmentDecision",
+            "public_corridor_runtime_claim_decisions"
+          ]
         }
       ],
-      "runtimeConsumedClaims": [],
+      "runtimeConsumedClaims": [
+        "EX-CLAIM-701",
+        "EX-CLAIM-702",
+        "EX-CLAIM-703",
+        "EX-CLAIM-704",
+        "EX-CLAIM-705"
+      ],
       "runtimeStatus": {
         "typedControlResultsLive": true,
         "riskAcceptanceDefeasibilityLive": true,
         "discretionaryTermTypingLive": true,
         "fullMinimalSolverAgreement": false,
-        "pythonVerdictLayerReplaced": false
+        "pythonVerdictLayerReplaced": true
       }
     },
     "boundaryInventory": {
       "provedClaimCount": 1,
-      "leanBackedClaimCount": 0,
-      "omittedProvedClaims": [
-        {
-          "claimId": "EX-CLAIM-705",
-          "title": "AI-generated content disclosure is enabled and enforcement checks are passing on the public assistant surface.",
-          "controlRefs": [
-            "oc.ai-05"
-          ],
-          "reason": "no_public_lean_predicate"
-        }
-      ]
+      "leanBackedClaimCount": 1,
+      "omittedProvedClaims": []
     },
     "command": [
       "lake",

@@ -6,8 +6,8 @@
   "organisation": "ExampleCo",
   "profileId": "minimal_saas_corridor",
   "outcome": "punch_list_issued",
-  "proofBundleSha256": "aedde27d65b7921686157fed11f15b515538247fd316145d625cb84d5ea3c4b7",
-  "trustSurfaceSha256": "11af7d2a09b9aa7ebd646400e4408bf647cc1210219eaae0ad998093ca502daf",
+  "proofBundleSha256": "2617cb30633b3d9673ffbfb68ab04a0e7240cf62d7c735fc267b08e7b33176ce",
+  "trustSurfaceSha256": "485c6c6a5b4ee0693f663cc4c688c9bbd6d3848abb1710c2c3046b55ab72332c",
   "outcomeArtifact": {
     "path": "punch-list.json",
     "sha256": "5002a70d5e69f4d7bc0f4df6288516119afa12898c1b4db2f77ecc327bb6148f"

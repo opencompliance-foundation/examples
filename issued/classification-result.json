@@ -140,7 +140,7 @@
       ],
       "expectedClaimType": "access_review_export",
       "evidenceRequired": true,
-      "leanBacked": false,
+      "leanBacked": true,
       "rationale": "Periodic access review can be machine-checked when a typed export exists for the scoped population and window."
     },
     {

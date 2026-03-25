@@ -273,14 +273,20 @@
     "batchId": "exampleco-cyber-baseline-bundle-2026-03-24-lean-batch",
     "fixture": "cyber-baseline",
     "status": "verified",
-    "theoremCount": 2,
+    "theoremCount": 5,
     "verifiedTheorems": [
       "claim_EX_CLAIM_601_proved",
-      "claim_EX_CLAIM_602_proved"
+      "claim_EX_CLAIM_602_proved",
+      "claim_EX_CLAIM_603_proved",
+      "claim_EX_CLAIM_604_proved",
+      "claim_EX_CLAIM_605_proved"
     ],
     "importedModules": [
+      "OpenCompliance.Controls.Configuration",
+      "OpenCompliance.Controls.Endpoint",
       "OpenCompliance.Controls.Identity",
-      "OpenCompliance.Controls.Network"
+      "OpenCompliance.Controls.Network",
+      "OpenCompliance.Controls.Patching"
     ],
     "verifiedClaims": [
       {
@@ -298,6 +304,30 @@
         "predicate": "DefaultDenyNetworkBoundarySatisfied",
         "evidenceClaimType": "network_firewall_boundary",
         "theorem": "claim_EX_CLAIM_602_proved"
+      },
+      {
+        "claimId": "EX-CLAIM-603",
+        "controlId": "oc.cfg-01",
+        "module": "OpenCompliance.Controls.Configuration",
+        "predicate": "SecureConfigurationBaselineSatisfied",
+        "evidenceClaimType": "secure_configuration_state",
+        "theorem": "claim_EX_CLAIM_603_proved"
+      },
+      {
+        "claimId": "EX-CLAIM-604",
+        "controlId": "oc.patch-01",
+        "module": "OpenCompliance.Controls.Patching",
+        "predicate": "SupportedSecurityUpdatesCurrent",
+        "evidenceClaimType": "security_update_state",
+        "theorem": "claim_EX_CLAIM_604_proved"
+      },
+      {
+        "claimId": "EX-CLAIM-605",
+        "controlId": "oc.malware-01",
+        "module": "OpenCompliance.Controls.Endpoint",
+        "predicate": "MalwareProtectionBaselineSatisfied",
+        "evidenceClaimType": "malware_protection_state",
+        "theorem": "claim_EX_CLAIM_605_proved"
       }
     ],
     "typedBoundaryLayer": {
@@ -348,46 +378,36 @@
             "minimal_claim_corpus",
             "runtime_claim_decisions"
           ]
+        },
+        {
+          "module": "OpenCompliance.Controls.Typed.PublicRuntime",
+          "covers": [
+            "formalDecision",
+            "documentaryDecision",
+            "judgmentDecision",
+            "public_corridor_runtime_claim_decisions"
+          ]
         }
       ],
-      "runtimeConsumedClaims": [],
+      "runtimeConsumedClaims": [
+        "EX-CLAIM-601",
+        "EX-CLAIM-602",
+        "EX-CLAIM-603",
+        "EX-CLAIM-604",
+        "EX-CLAIM-605"
+      ],
       "runtimeStatus": {
         "typedControlResultsLive": true,
         "riskAcceptanceDefeasibilityLive": true,
         "discretionaryTermTypingLive": true,
         "fullMinimalSolverAgreement": false,
-        "pythonVerdictLayerReplaced": false
+        "pythonVerdictLayerReplaced": true
       }
     },
     "boundaryInventory": {
       "provedClaimCount": 5,
-      "leanBackedClaimCount": 2,
-      "omittedProvedClaims": [
-        {
-          "claimId": "EX-CLAIM-603",
-          "title": "Secure baseline configuration is applied and insecure defaults are absent in the managed device set.",
-          "controlRefs": [
-            "oc.cfg-01"
-          ],
-          "reason": "no_public_lean_predicate"
-        },
-        {
-          "claimId": "EX-CLAIM-604",
-          "title": "Supported versions are in use and no critical security updates are overdue in the managed device set.",
-          "controlRefs": [
-            "oc.patch-01"
-          ],
-          "reason": "no_public_lean_predicate"
-        },
-        {
-          "claimId": "EX-CLAIM-605",
-          "title": "Malware protection is enabled, current, and tamper-protected on the managed device set.",
-          "controlRefs": [
-            "oc.malware-01"
-          ],
-          "reason": "no_public_lean_predicate"
-        }
-      ]
+      "leanBackedClaimCount": 5,
+      "omittedProvedClaims": []
     },
     "command": [
       "lake",

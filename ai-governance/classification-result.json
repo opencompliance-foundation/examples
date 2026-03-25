@@ -68,7 +68,7 @@
       ],
       "expectedClaimType": "ai_content_labeling_state",
       "evidenceRequired": true,
-      "leanBacked": false,
+      "leanBacked": true,
       "rationale": "Deterministic disclosure configuration over a narrow transparency predicate."
     }
   ],
