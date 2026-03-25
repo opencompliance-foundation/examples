@@ -1,0 +1,23 @@
+{
+  "organisation": "ExampleCo",
+  "product": "ExampleLedger",
+  "industry": "Synthetic public SaaS example",
+  "customerSegments": [
+    "SMB finance teams",
+    "regulated buyers evaluating baseline security hygiene"
+  ],
+  "managedFleet": {
+    "deviceClasses": [
+      "corporate_macbook",
+      "corporate_windows_laptop"
+    ],
+    "managementPlane": "example-endpoint-manager"
+  },
+  "architecture": {
+    "identityProvider": "example-idp",
+    "edge": "example-edge",
+    "endpointProtection": "example-endpoint-protection",
+    "patching": "example-vulnerability-manager"
+  },
+  "note": "Synthetic public-safe organisation description for the OpenCompliance cyber baseline fixture."
+}

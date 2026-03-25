@@ -1,0 +1,13 @@
+{
+  "collectedAt": "2026-03-24T01:23:00Z",
+  "sourceSystem": "example-governance",
+  "actorId": "security-manager@exampleco.test",
+  "environment": "production",
+  "assetGroup": "change_management_program",
+  "evaluatedAt": "2026-03-24T01:23:00Z",
+  "expiresAt": "2026-06-22T01:23:00Z",
+  "signatureType": "synthetic_ed25519_attestation",
+  "changeReviewPolicyApproved": true,
+  "emergencyChangeProcessDeclared": true,
+  "reviewWindowDays": 90
+}

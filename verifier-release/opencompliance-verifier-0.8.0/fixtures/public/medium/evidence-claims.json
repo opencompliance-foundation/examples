@@ -1,0 +1,1513 @@
+[
+  {
+    "claimId": "EV-101",
+    "claimType": "identity_mfa_enforcement",
+    "collectedAt": "2026-03-24T01:00:00Z",
+    "sourceSystem": "example-idp",
+    "actor": {
+      "actorId": "idp-sync-bot",
+      "actorType": "system"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "access_control",
+        "controlId": "soc2.family.access_control"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "identity_and_access_management",
+        "controlId": "iso27001.family.identity_and_access_management"
+      },
+      {
+        "framework": "IRAP",
+        "family": "identity_access",
+        "controlId": "irap.family.identity_access"
+      },
+      {
+        "framework": "GDPR",
+        "family": "security_of_processing",
+        "controlId": "gdpr.family.security_of_processing"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "human_admin_identities"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:00:00Z",
+      "expiresAt": "2026-04-24T01:00:00Z"
+    },
+    "payload": {
+      "mfaRequired": true,
+      "conditionalAccessEnabled": true
+    },
+    "provenance": {
+      "exportId": "export-exampleco-idp-2026-03-24-a",
+      "collectionMethod": "synthetic_export",
+      "sourcePath": "exports/idp/admin-identities.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-128",
+    "claimType": "infrastructure_auth_uniqueness_state",
+    "collectedAt": "2026-03-24T01:00:00Z",
+    "sourceSystem": "example-idp",
+    "actor": {
+      "actorId": "idp-sync-bot",
+      "actorType": "system"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "access_control",
+        "controlId": "soc2.family.access_control"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "identity_and_access_management",
+        "controlId": "iso27001.family.identity_and_access_management"
+      },
+      {
+        "framework": "IRAP",
+        "family": "identity_access",
+        "controlId": "irap.family.identity_access"
+      },
+      {
+        "framework": "GDPR",
+        "family": "security_of_processing",
+        "controlId": "gdpr.family.security_of_processing"
+      },
+      {
+        "framework": "Cyber Essentials",
+        "family": "user_access_control",
+        "controlId": "cyber_essentials.family.user_access_control"
+      },
+      {
+        "framework": "NCSC CAF 4.0",
+        "family": "identity_and_access_control",
+        "controlId": "ncsc_caf_4_0.family.identity_and_access_control"
+      },
+      {
+        "framework": "NIST CSF 2.0",
+        "family": "identity_management_and_access_control",
+        "controlId": "nist_csf_2_0.family.identity_management_and_access_control"
+      },
+      {
+        "framework": "NIST SP 800-53 Rev. 5.1",
+        "family": "identification_and_authentication",
+        "controlId": "nist_sp_800_53_rev_5_1.family.identification_and_authentication"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "human_admin_identities"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:00:00Z",
+      "expiresAt": "2026-04-24T01:00:00Z"
+    },
+    "payload": {
+      "namedAccountsRequired": true,
+      "sharedAccountsPresent": false
+    },
+    "provenance": {
+      "exportId": "export-exampleco-idp-2026-03-24-b",
+      "collectionMethod": "synthetic_export",
+      "sourcePath": "exports/idp/admin-identities.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-130",
+    "claimType": "password_policy_state",
+    "collectedAt": "2026-03-24T01:00:00Z",
+    "sourceSystem": "example-idp",
+    "actor": {
+      "actorId": "idp-sync-bot",
+      "actorType": "system"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "access_control",
+        "controlId": "soc2.family.access_control"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "identity_and_access_management",
+        "controlId": "iso27001.family.identity_and_access_management"
+      },
+      {
+        "framework": "IRAP",
+        "family": "identity_access",
+        "controlId": "irap.family.identity_access"
+      },
+      {
+        "framework": "GDPR",
+        "family": "security_of_processing",
+        "controlId": "gdpr.family.security_of_processing"
+      },
+      {
+        "framework": "Cyber Essentials",
+        "family": "user_access_control",
+        "controlId": "cyber_essentials.family.user_access_control"
+      },
+      {
+        "framework": "NCSC CAF 4.0",
+        "family": "identity_and_access_control",
+        "controlId": "ncsc_caf_4_0.family.identity_and_access_control"
+      },
+      {
+        "framework": "NIST CSF 2.0",
+        "family": "identity_management_and_access_control",
+        "controlId": "nist_csf_2_0.family.identity_management_and_access_control"
+      },
+      {
+        "framework": "NIST SP 800-53 Rev. 5.1",
+        "family": "authenticator_management",
+        "controlId": "nist_sp_800_53_rev_5_1.family.authenticator_management"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "human_admin_identities"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:00:00Z",
+      "expiresAt": "2026-04-24T01:00:00Z"
+    },
+    "payload": {
+      "minimumLengthAtLeast12": true,
+      "noMaximumLengthRestriction": true,
+      "commonPasswordBlockingEnabled": true
+    },
+    "provenance": {
+      "exportId": "export-exampleco-idp-2026-03-24-c",
+      "collectionMethod": "synthetic_export",
+      "sourcePath": "exports/idp/password-policy.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-131",
+    "claimType": "web_application_firewall_state",
+    "collectedAt": "2026-03-24T01:04:30Z",
+    "sourceSystem": "example-edge",
+    "actor": {
+      "actorId": "edge-config-exporter",
+      "actorType": "system"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "network_security",
+        "controlId": "soc2.family.network_security"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "network_security",
+        "controlId": "iso27001.family.network_security"
+      },
+      {
+        "framework": "IRAP",
+        "family": "network_boundary_and_crypto",
+        "controlId": "irap.family.network_boundary_and_crypto"
+      },
+      {
+        "framework": "GDPR",
+        "family": "security_of_processing",
+        "controlId": "gdpr.family.security_of_processing"
+      },
+      {
+        "framework": "NIST CSF 2.0",
+        "family": "boundary_protection",
+        "controlId": "nist_csf_2_0.family.boundary_protection"
+      },
+      {
+        "framework": "NIST SP 800-53 Rev. 5.1",
+        "family": "boundary_protection",
+        "controlId": "nist_sp_800_53_rev_5_1.family.boundary_protection"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "public_ingress"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:04:30Z",
+      "expiresAt": "2026-03-31T01:04:30Z"
+    },
+    "payload": {
+      "wafAttachedToPublicIngress": true,
+      "blockingModeEnabled": true,
+      "managedRuleSetActive": true
+    },
+    "provenance": {
+      "exportId": "export-exampleco-edge-2026-03-24-b",
+      "collectionMethod": "synthetic_export",
+      "sourcePath": "exports/edge/waf.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-129",
+    "claimType": "environment_segmentation_state",
+    "collectedAt": "2026-03-24T01:05:00Z",
+    "sourceSystem": "example-architecture",
+    "actor": {
+      "actorId": "architecture-exporter",
+      "actorType": "system"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "environment_and_tenant_separation",
+        "controlId": "soc2.family.environment_and_tenant_separation"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "segregation_and_environment_separation",
+        "controlId": "iso27001.family.segregation_and_environment_separation"
+      },
+      {
+        "framework": "IRAP",
+        "family": "network_segmentation_and_isolation",
+        "controlId": "irap.family.network_segmentation_and_isolation"
+      },
+      {
+        "framework": "GDPR",
+        "family": "security_of_processing",
+        "controlId": "gdpr.family.security_of_processing"
+      },
+      {
+        "framework": "NCSC CAF 4.0",
+        "family": "system_security_and_segregation",
+        "controlId": "ncsc_caf_4_0.family.system_security_and_segregation"
+      },
+      {
+        "framework": "NIST CSF 2.0",
+        "family": "segmentation_and_isolation",
+        "controlId": "nist_csf_2_0.family.segmentation_and_isolation"
+      },
+      {
+        "framework": "NIST SP 800-53 Rev. 5.1",
+        "family": "system_partitioning_and_boundary_protection",
+        "controlId": "nist_sp_800_53_rev_5_1.family.system_partitioning_and_boundary_protection"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "tenant_and_environment_boundary"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:05:00Z",
+      "expiresAt": "2026-03-31T01:05:00Z"
+    },
+    "payload": {
+      "customerBoundaryEnforced": true,
+      "productionSeparatedFromNonProduction": true,
+      "undeclaredCrossEnvironmentPathsPresent": false
+    },
+    "provenance": {
+      "exportId": "export-exampleco-architecture-2026-03-24-a",
+      "collectionMethod": "synthetic_export",
+      "sourcePath": "exports/architecture/environment-segmentation.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-102",
+    "claimType": "audit_logging_state",
+    "collectedAt": "2026-03-24T01:02:00Z",
+    "sourceSystem": "example-cloud",
+    "actor": {
+      "actorId": "cloud-config-exporter",
+      "actorType": "system"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "logging_monitoring",
+        "controlId": "soc2.family.logging_monitoring"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "logging_and_monitoring",
+        "controlId": "iso27001.family.logging_and_monitoring"
+      },
+      {
+        "framework": "IRAP",
+        "family": "logging_monitoring",
+        "controlId": "irap.family.logging_monitoring"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "customer_runtime"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:02:00Z",
+      "expiresAt": "2026-03-31T01:02:00Z"
+    },
+    "payload": {
+      "auditLoggingEnabled": true,
+      "retentionDays": 180
+    },
+    "provenance": {
+      "exportId": "export-exampleco-cloud-2026-03-24-a",
+      "collectionMethod": "synthetic_export",
+      "sourcePath": "exports/cloud/audit-logging.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-132",
+    "claimType": "central_monitoring_state",
+    "collectedAt": "2026-03-24T01:03:00Z",
+    "sourceSystem": "example-monitoring",
+    "actor": {
+      "actorId": "monitoring-config-exporter",
+      "actorType": "system"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "logging_monitoring",
+        "controlId": "soc2.family.logging_monitoring"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "logging_and_monitoring",
+        "controlId": "iso27001.family.logging_and_monitoring"
+      },
+      {
+        "framework": "IRAP",
+        "family": "logging_monitoring",
+        "controlId": "irap.family.logging_monitoring"
+      },
+      {
+        "framework": "GDPR",
+        "family": "security_of_processing",
+        "controlId": "gdpr.family.security_of_processing"
+      },
+      {
+        "framework": "NCSC CAF 4.0",
+        "family": "security_monitoring",
+        "controlId": "ncsc_caf_4_0.family.security_monitoring"
+      },
+      {
+        "framework": "NIST CSF 2.0",
+        "family": "security_continuous_monitoring",
+        "controlId": "nist_csf_2_0.family.security_continuous_monitoring"
+      },
+      {
+        "framework": "NIST SP 800-53 Rev. 5.1",
+        "family": "audit_and_accountability",
+        "controlId": "nist_sp_800_53_rev_5_1.family.audit_and_accountability"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "customer_runtime"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:03:00Z",
+      "expiresAt": "2026-03-31T01:03:00Z"
+    },
+    "payload": {
+      "centralSinkConfigured": true,
+      "scopedAssetsForwarded": true,
+      "alertRulesEnabled": true
+    },
+    "provenance": {
+      "exportId": "export-exampleco-monitoring-2026-03-24-a",
+      "collectionMethod": "synthetic_export",
+      "sourcePath": "exports/monitoring/central-sink.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-103",
+    "claimType": "tls_ingress_configuration",
+    "collectedAt": "2026-03-24T01:04:00Z",
+    "sourceSystem": "example-edge",
+    "actor": {
+      "actorId": "edge-config-exporter",
+      "actorType": "system"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "network_security",
+        "controlId": "soc2.family.network_security"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "network_security",
+        "controlId": "iso27001.family.network_security"
+      },
+      {
+        "framework": "IRAP",
+        "family": "network_boundary_and_crypto",
+        "controlId": "irap.family.network_boundary_and_crypto"
+      },
+      {
+        "framework": "GDPR",
+        "family": "security_of_processing",
+        "controlId": "gdpr.family.security_of_processing"
+      },
+      {
+        "framework": "NIST CSF 2.0",
+        "family": "data_in_transit_protection",
+        "controlId": "nist_csf_2_0.family.data_in_transit_protection"
+      },
+      {
+        "framework": "NIST SP 800-53 Rev. 5.1",
+        "family": "transmission_confidentiality_and_integrity",
+        "controlId": "nist_sp_800_53_rev_5_1.family.transmission_confidentiality_and_integrity"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "public_ingress"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:04:00Z",
+      "expiresAt": "2026-03-31T01:04:00Z"
+    },
+    "payload": {
+      "httpsOnly": true,
+      "minTlsVersion": "1.2",
+      "managedCertificatesActive": true,
+      "plaintextDisabled": true
+    },
+    "provenance": {
+      "exportId": "export-exampleco-edge-2026-03-24-a",
+      "collectionMethod": "synthetic_export",
+      "sourcePath": "exports/edge/tls.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-127",
+    "claimType": "encryption_at_rest_state",
+    "collectedAt": "2026-03-24T01:05:00Z",
+    "sourceSystem": "example-storage",
+    "actor": {
+      "actorId": "storage-config-exporter",
+      "actorType": "system"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "encryption_at_rest",
+        "controlId": "soc2.family.encryption_at_rest"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "encryption_at_rest",
+        "controlId": "iso27001.family.encryption_at_rest"
+      },
+      {
+        "framework": "IRAP",
+        "family": "data_at_rest_protection",
+        "controlId": "irap.family.data_at_rest_protection"
+      },
+      {
+        "framework": "GDPR",
+        "family": "security_of_processing",
+        "controlId": "gdpr.family.security_of_processing"
+      },
+      {
+        "framework": "NIST CSF 2.0",
+        "family": "data_at_rest_protection",
+        "controlId": "nist_csf_2_0.family.data_at_rest_protection"
+      },
+      {
+        "framework": "NIST SP 800-53 Rev. 5.1",
+        "family": "protection_of_information_at_rest",
+        "controlId": "nist_sp_800_53_rev_5_1.family.protection_of_information_at_rest"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "customer_runtime"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:05:00Z",
+      "expiresAt": "2026-03-31T01:05:00Z"
+    },
+    "payload": {
+      "encryptionEnabled": true,
+      "customerDataStoresCovered": true,
+      "unencryptedStoresPresent": false
+    },
+    "provenance": {
+      "exportId": "export-exampleco-storage-2026-03-24-a",
+      "collectionMethod": "synthetic_export",
+      "sourcePath": "exports/storage/encryption-at-rest.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-120",
+    "claimType": "network_firewall_boundary",
+    "collectedAt": "2026-03-24T01:05:00Z",
+    "sourceSystem": "example-network",
+    "actor": {
+      "actorId": "network-exporter",
+      "actorType": "system"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "network_security",
+        "controlId": "soc2.family.network_security"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "network_security",
+        "controlId": "iso27001.family.network_security"
+      },
+      {
+        "framework": "IRAP",
+        "family": "network_boundary_and_crypto",
+        "controlId": "irap.family.network_boundary_and_crypto"
+      },
+      {
+        "framework": "Cyber Essentials",
+        "family": "firewalls",
+        "controlId": "cyber_essentials.family.firewalls"
+      },
+      {
+        "framework": "NIST CSF 2.0",
+        "family": "boundary_protection",
+        "controlId": "nist_csf_2_0.family.boundary_protection"
+      },
+      {
+        "framework": "NIST SP 800-53 Rev. 5.1",
+        "family": "boundary_protection",
+        "controlId": "nist_sp_800_53_rev_5_1.family.boundary_protection"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "public_ingress"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:05:00Z",
+      "expiresAt": "2026-03-31T01:05:00Z"
+    },
+    "payload": {
+      "defaultDenyInbound": true,
+      "declaredIngressPorts": [
+        443
+      ],
+      "undeclaredIngressPresent": false,
+      "boundaryAttachedToIngressPath": true,
+      "adminIngressRestricted": true,
+      "approvedAdminSourceRanges": [
+        "198.51.100.0/24",
+        "203.0.113.0/24"
+      ],
+      "unapprovedAdminIngressPresent": false
+    },
+    "provenance": {
+      "exportId": "export-exampleco-network-2026-03-24-a",
+      "collectionMethod": "synthetic_export",
+      "sourcePath": "exports/network/firewall-boundary.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-104",
+    "claimType": "service_account_key_hygiene",
+    "collectedAt": "2026-03-24T01:06:00Z",
+    "sourceSystem": "example-cloud-iam",
+    "actor": {
+      "actorId": "iam-exporter",
+      "actorType": "system"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "key_management",
+        "controlId": "soc2.family.key_management"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "cryptographic_key_management",
+        "controlId": "iso27001.family.cryptographic_key_management"
+      },
+      {
+        "framework": "IRAP",
+        "family": "secrets_and_machine_credentials",
+        "controlId": "irap.family.secrets_and_machine_credentials"
+      },
+      {
+        "framework": "GDPR",
+        "family": "security_of_processing",
+        "controlId": "gdpr.family.security_of_processing"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "runtime_service_accounts"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:06:00Z",
+      "expiresAt": "2026-03-31T01:06:00Z"
+    },
+    "payload": {
+      "userManagedKeysPresent": false,
+      "maxUserManagedKeyAgeDays": 0
+    },
+    "provenance": {
+      "exportId": "export-exampleco-iam-2026-03-24-a",
+      "collectionMethod": "synthetic_export",
+      "sourcePath": "exports/iam/service-account-keys.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-105",
+    "claimType": "approved_region_deployment",
+    "collectedAt": "2026-03-24T01:08:00Z",
+    "sourceSystem": "example-cloud-asset-inventory",
+    "actor": {
+      "actorId": "asset-inventory-bot",
+      "actorType": "system"
+    },
+    "controlMappings": [
+      {
+        "framework": "IRAP",
+        "family": "hosting_and_data_location",
+        "controlId": "irap.family.hosting_and_data_location"
+      },
+      {
+        "framework": "GDPR",
+        "family": "data_locality_and_transfer_boundary",
+        "controlId": "gdpr.family.data_locality_and_transfer_boundary"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "customer_data_plane"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:08:00Z",
+      "expiresAt": "2026-03-31T01:08:00Z"
+    },
+    "payload": {
+      "approvedRegions": [
+        "eu-west-1",
+        "au-southeast-1"
+      ],
+      "observedRegions": [
+        "eu-west-1",
+        "au-southeast-1"
+      ],
+      "undeclaredRegionsPresent": false
+    },
+    "provenance": {
+      "exportId": "export-exampleco-assets-2026-03-24-a",
+      "collectionMethod": "synthetic_export",
+      "sourcePath": "exports/assets/regions.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-106",
+    "claimType": "backup_snapshot_schedule",
+    "collectedAt": "2026-03-24T01:10:00Z",
+    "sourceSystem": "example-backup-service",
+    "actor": {
+      "actorId": "backup-config-exporter",
+      "actorType": "system"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "backup_and_recovery",
+        "controlId": "soc2.family.backup_and_recovery"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "backup_and_recovery",
+        "controlId": "iso27001.family.backup_and_recovery"
+      },
+      {
+        "framework": "IRAP",
+        "family": "backup_and_recovery",
+        "controlId": "irap.family.backup_and_recovery"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "primary_data_store"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:10:00Z",
+      "expiresAt": "2026-03-31T01:10:00Z"
+    },
+    "payload": {
+      "snapshotsEnabled": true,
+      "snapshotFrequencyHours": 24,
+      "immutableWindowDays": 30
+    },
+    "provenance": {
+      "exportId": "export-exampleco-backups-2026-03-24-a",
+      "collectionMethod": "synthetic_export",
+      "sourcePath": "exports/backups/snapshot-schedule.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-107",
+    "claimType": "training_attestation",
+    "collectedAt": "2026-03-24T01:12:00Z",
+    "sourceSystem": "example-hris",
+    "actor": {
+      "actorId": "security-manager",
+      "actorType": "human"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "security_awareness",
+        "controlId": "soc2.family.security_awareness"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "awareness_and_training",
+        "controlId": "iso27001.family.awareness_and_training"
+      }
+    ],
+    "scope": {
+      "environment": "organisation",
+      "assetGroup": "staff"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:12:00Z",
+      "expiresAt": "2026-09-24T01:12:00Z"
+    },
+    "payload": {
+      "trainingComplete": true,
+      "completionWindowDays": 365,
+      "attestedPopulation": "all_staff"
+    },
+    "signer": {
+      "signerId": "security-manager",
+      "signerType": "human",
+      "signatureType": "synthetic_attestation"
+    },
+    "provenance": {
+      "exportId": "attestation-exampleco-training-2026-q1",
+      "collectionMethod": "synthetic_attestation",
+      "sourcePath": "attestations/training-q1.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-108",
+    "claimType": "restore_test_attestation",
+    "collectedAt": "2026-03-24T01:14:00Z",
+    "sourceSystem": "example-resilience",
+    "actor": {
+      "actorId": "platform-lead",
+      "actorType": "human"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "backup_and_recovery",
+        "controlId": "soc2.family.backup_and_recovery"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "backup_and_recovery",
+        "controlId": "iso27001.family.backup_and_recovery"
+      },
+      {
+        "framework": "IRAP",
+        "family": "backup_and_recovery",
+        "controlId": "irap.family.backup_and_recovery"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "primary_data_store"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:14:00Z",
+      "expiresAt": "2026-06-24T01:14:00Z"
+    },
+    "payload": {
+      "restoreTestCompleted": true,
+      "testWindowDays": 90,
+      "scenarioId": "restore-drill-q1"
+    },
+    "signer": {
+      "signerId": "platform-lead",
+      "signerType": "human",
+      "signatureType": "synthetic_attestation"
+    },
+    "provenance": {
+      "exportId": "attestation-exampleco-restore-q1",
+      "collectionMethod": "synthetic_attestation",
+      "sourcePath": "attestations/restore-drill-q1.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-109",
+    "claimType": "vendor_register_attestation",
+    "collectedAt": "2026-03-24T01:16:00Z",
+    "sourceSystem": "example-governance",
+    "actor": {
+      "actorId": "privacy-manager",
+      "actorType": "human"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "vendor_management",
+        "controlId": "soc2.family.vendor_management"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "supplier_relationships",
+        "controlId": "iso27001.family.supplier_relationships"
+      },
+      {
+        "framework": "GDPR",
+        "family": "processors_and_subprocessors",
+        "controlId": "gdpr.family.processors_and_subprocessors"
+      }
+    ],
+    "scope": {
+      "environment": "organisation",
+      "assetGroup": "third_party_processors"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:16:00Z",
+      "expiresAt": "2026-06-24T01:16:00Z"
+    },
+    "payload": {
+      "registerCurrent": true,
+      "dpaCoverageDeclared": true,
+      "reviewedSubprocessors": 4
+    },
+    "signer": {
+      "signerId": "privacy-manager",
+      "signerType": "human",
+      "signatureType": "synthetic_attestation"
+    },
+    "provenance": {
+      "exportId": "attestation-exampleco-vendors-2026-q1",
+      "collectionMethod": "synthetic_attestation",
+      "sourcePath": "attestations/vendor-register-q1.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-110",
+    "claimType": "dsr_runbook_attestation",
+    "collectedAt": "2026-03-24T01:18:00Z",
+    "sourceSystem": "example-governance",
+    "actor": {
+      "actorId": "privacy-manager",
+      "actorType": "human"
+    },
+    "controlMappings": [
+      {
+        "framework": "GDPR",
+        "family": "data_subject_rights",
+        "controlId": "gdpr.family.data_subject_rights"
+      }
+    ],
+    "scope": {
+      "environment": "organisation",
+      "assetGroup": "privacy_operations"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:18:00Z",
+      "expiresAt": "2026-06-24T01:18:00Z"
+    },
+    "payload": {
+      "runbookApproved": true,
+      "ownerRole": "privacy_manager",
+      "reviewWindowDays": 180
+    },
+    "signer": {
+      "signerId": "privacy-manager",
+      "signerType": "human",
+      "signatureType": "synthetic_attestation"
+    },
+    "provenance": {
+      "exportId": "attestation-exampleco-dsr-2026-q1",
+      "collectionMethod": "synthetic_attestation",
+      "sourcePath": "attestations/dsr-runbook-q1.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-111",
+    "claimType": "repo_branch_protection",
+    "collectedAt": "2026-03-24T01:20:00Z",
+    "sourceSystem": "example-repo",
+    "actor": {
+      "actorId": "repo-policy-exporter",
+      "actorType": "system"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "change_management",
+        "controlId": "soc2.family.change_management"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "secure_development_and_change_control",
+        "controlId": "iso27001.family.secure_development_and_change_control"
+      },
+      {
+        "framework": "IRAP",
+        "family": "secure_development_and_change",
+        "controlId": "irap.family.secure_development_and_change"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "application_repository"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:20:00Z",
+      "expiresAt": "2026-03-31T01:20:00Z"
+    },
+    "payload": {
+      "defaultBranchProtected": true,
+      "requiredApprovals": 2,
+      "statusChecksRequired": true,
+      "forcePushesBlocked": true,
+      "adminBypassRestricted": true
+    },
+    "provenance": {
+      "exportId": "export-exampleco-repo-2026-03-24-a",
+      "collectionMethod": "synthetic_export",
+      "sourcePath": "exports/repo/branch-protection.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-112",
+    "claimType": "ci_workflow_policy",
+    "collectedAt": "2026-03-24T01:22:00Z",
+    "sourceSystem": "example-ci",
+    "actor": {
+      "actorId": "ci-policy-exporter",
+      "actorType": "system"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "change_management",
+        "controlId": "soc2.family.change_management"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "secure_development_and_change_control",
+        "controlId": "iso27001.family.secure_development_and_change_control"
+      },
+      {
+        "framework": "IRAP",
+        "family": "secure_development_and_change",
+        "controlId": "irap.family.secure_development_and_change"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "deployment_workflows"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:22:00Z",
+      "expiresAt": "2026-03-31T01:22:00Z"
+    },
+    "payload": {
+      "workflowReviewRequired": true,
+      "trustedPublishingOnly": true,
+      "protectedRefsOnly": true,
+      "environmentApprovalsRequired": true
+    },
+    "provenance": {
+      "exportId": "export-exampleco-ci-2026-03-24-a",
+      "collectionMethod": "synthetic_export",
+      "sourcePath": "exports/ci/workflow-policy.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-113",
+    "claimType": "change_review_attestation",
+    "collectedAt": "2026-03-24T01:23:00Z",
+    "sourceSystem": "example-governance",
+    "actor": {
+      "actorId": "security-manager@exampleco.test",
+      "actorType": "human"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "change_management",
+        "controlId": "soc2.family.change_management"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "secure_development_and_change_control",
+        "controlId": "iso27001.family.secure_development_and_change_control"
+      },
+      {
+        "framework": "IRAP",
+        "family": "secure_development_and_change",
+        "controlId": "irap.family.secure_development_and_change"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "change_management_program"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:23:00Z",
+      "expiresAt": "2026-06-22T01:23:00Z"
+    },
+    "payload": {
+      "changeReviewPolicyApproved": true,
+      "emergencyChangeProcessDeclared": true,
+      "reviewWindowDays": 90
+    },
+    "signer": {
+      "signerId": "security-manager@exampleco.test",
+      "signerType": "human",
+      "signatureType": "synthetic_ed25519_attestation"
+    },
+    "provenance": {
+      "exportId": "attestation-exampleco-change-review-2026-q1",
+      "collectionMethod": "synthetic_attestation",
+      "sourcePath": "attestations/change-review-q1.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-114",
+    "claimType": "access_review_closure_attestation",
+    "collectedAt": "2026-03-24T01:24:00Z",
+    "sourceSystem": "example-governance",
+    "actor": {
+      "actorId": "identity-governance-owner@exampleco.test",
+      "actorType": "human"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "access_control",
+        "controlId": "soc2.family.access_control"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "identity_and_access_management",
+        "controlId": "iso27001.family.identity_and_access_management"
+      },
+      {
+        "framework": "IRAP",
+        "family": "identity_access",
+        "controlId": "irap.family.identity_access"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "human_admin_identities"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:24:00Z",
+      "expiresAt": "2026-06-22T01:24:00Z"
+    },
+    "payload": {
+      "reviewCompleted": true,
+      "reviewWindowDays": 90,
+      "reviewPopulation": "scoped_privileged_identities",
+      "highRiskFindingsOpen": 0
+    },
+    "signer": {
+      "signerId": "identity-governance-owner@exampleco.test",
+      "signerType": "human",
+      "signatureType": "synthetic_ed25519_attestation"
+    },
+    "provenance": {
+      "exportId": "attestation-exampleco-access-review-closure-2026-q1",
+      "collectionMethod": "synthetic_attestation",
+      "sourcePath": "attestations/access-review-closure-q1.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-115",
+    "claimType": "configuration_exception_attestation",
+    "collectedAt": "2026-03-24T01:25:00Z",
+    "sourceSystem": "example-governance",
+    "actor": {
+      "actorId": "platform-security-owner@exampleco.test",
+      "actorType": "human"
+    },
+    "controlMappings": [
+      {
+        "framework": "Cyber Essentials",
+        "family": "secure_configuration",
+        "controlId": "cyber_essentials.family.secure_configuration"
+      },
+      {
+        "framework": "NIST CSF 2.0",
+        "family": "configuration_management",
+        "controlId": "nist_csf_2_0.family.configuration_management"
+      },
+      {
+        "framework": "NIST SP 800-53 Rev. 5.1",
+        "family": "configuration_settings",
+        "controlId": "nist_sp_800_53_rev_5_1.family.configuration_settings"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "secure_configuration",
+        "controlId": "iso27001.family.secure_configuration"
+      },
+      {
+        "framework": "SOC 2",
+        "family": "system_operations_and_hardening",
+        "controlId": "soc2.family.system_operations_and_hardening"
+      },
+      {
+        "framework": "IRAP",
+        "family": "secure_configuration",
+        "controlId": "irap.family.secure_configuration"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "production_hardening_exceptions"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:25:00Z",
+      "expiresAt": "2026-06-22T01:25:00Z"
+    },
+    "payload": {
+      "exceptionRegisterCurrent": true,
+      "expiredExceptionsCount": 0,
+      "reviewWindowDays": 90
+    },
+    "signer": {
+      "signerId": "platform-security-owner@exampleco.test",
+      "signerType": "human",
+      "signatureType": "synthetic_ed25519_attestation"
+    },
+    "provenance": {
+      "exportId": "attestation-exampleco-configuration-exceptions-2026-q1",
+      "collectionMethod": "synthetic_attestation",
+      "sourcePath": "attestations/configuration-exceptions-q1.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-116",
+    "claimType": "patch_exception_attestation",
+    "collectedAt": "2026-03-24T01:26:00Z",
+    "sourceSystem": "example-governance",
+    "actor": {
+      "actorId": "operations-owner@exampleco.test",
+      "actorType": "human"
+    },
+    "controlMappings": [
+      {
+        "framework": "Cyber Essentials",
+        "family": "security_update_management",
+        "controlId": "cyber_essentials.family.security_update_management"
+      },
+      {
+        "framework": "NIST CSF 2.0",
+        "family": "software_maintenance_and_patch_management",
+        "controlId": "nist_csf_2_0.family.software_maintenance_and_patch_management"
+      },
+      {
+        "framework": "NIST SP 800-53 Rev. 5.1",
+        "family": "flaw_remediation",
+        "controlId": "nist_sp_800_53_rev_5_1.family.flaw_remediation"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "vulnerability_and_patch_management",
+        "controlId": "iso27001.family.vulnerability_and_patch_management"
+      },
+      {
+        "framework": "SOC 2",
+        "family": "vulnerability_management",
+        "controlId": "soc2.family.vulnerability_management"
+      },
+      {
+        "framework": "IRAP",
+        "family": "patch_and_vulnerability_management",
+        "controlId": "irap.family.patch_and_vulnerability_management"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "production_patch_exceptions"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:26:00Z",
+      "expiresAt": "2026-06-22T01:26:00Z"
+    },
+    "payload": {
+      "exceptionRegisterCurrent": true,
+      "compensatingControlsDeclared": true,
+      "expiredExceptionsCount": 0,
+      "reviewWindowDays": 90
+    },
+    "signer": {
+      "signerId": "operations-owner@exampleco.test",
+      "signerType": "human",
+      "signatureType": "synthetic_ed25519_attestation"
+    },
+    "provenance": {
+      "exportId": "attestation-exampleco-patch-exceptions-2026-q1",
+      "collectionMethod": "synthetic_attestation",
+      "sourcePath": "attestations/patch-exceptions-q1.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-117",
+    "claimType": "incident_response_runbook_attestation",
+    "collectedAt": "2026-03-24T01:27:00Z",
+    "sourceSystem": "example-governance",
+    "actor": {
+      "actorId": "security-operations-owner@exampleco.test",
+      "actorType": "human"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "incident_response",
+        "controlId": "soc2.family.incident_response"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "incident_response",
+        "controlId": "iso27001.family.incident_response"
+      },
+      {
+        "framework": "IRAP",
+        "family": "incident_response",
+        "controlId": "irap.family.incident_response"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "incident_response_program"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:27:00Z",
+      "expiresAt": "2026-06-22T01:27:00Z"
+    },
+    "payload": {
+      "runbookApproved": true,
+      "ownerRole": "security_operations_owner",
+      "reviewWindowDays": 90
+    },
+    "signer": {
+      "signerId": "security-operations-owner@exampleco.test",
+      "signerType": "human",
+      "signatureType": "synthetic_ed25519_attestation"
+    },
+    "provenance": {
+      "exportId": "attestation-exampleco-incident-runbook-2026-q1",
+      "collectionMethod": "synthetic_attestation",
+      "sourcePath": "attestations/incident-runbook-q1.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-118",
+    "claimType": "incident_contact_matrix_attestation",
+    "collectedAt": "2026-03-24T01:28:00Z",
+    "sourceSystem": "example-governance",
+    "actor": {
+      "actorId": "security-operations-owner@exampleco.test",
+      "actorType": "human"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "incident_response",
+        "controlId": "soc2.family.incident_response"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "incident_response",
+        "controlId": "iso27001.family.incident_response"
+      },
+      {
+        "framework": "IRAP",
+        "family": "incident_response",
+        "controlId": "irap.family.incident_response"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "incident_response_program"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:28:00Z",
+      "expiresAt": "2026-06-22T01:28:00Z"
+    },
+    "payload": {
+      "contactsCurrent": true,
+      "escalationPathDocumented": true,
+      "reviewWindowDays": 90
+    },
+    "signer": {
+      "signerId": "security-operations-owner@exampleco.test",
+      "signerType": "human",
+      "signatureType": "synthetic_ed25519_attestation"
+    },
+    "provenance": {
+      "exportId": "attestation-exampleco-incident-contacts-2026-q1",
+      "collectionMethod": "synthetic_attestation",
+      "sourcePath": "attestations/incident-contact-matrix-q1.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-119",
+    "claimType": "vendor_security_terms_attestation",
+    "collectedAt": "2026-03-24T01:29:00Z",
+    "sourceSystem": "example-governance",
+    "actor": {
+      "actorId": "privacy-manager@exampleco.test",
+      "actorType": "human"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "vendor_management",
+        "controlId": "soc2.family.vendor_management"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "supplier_relationships",
+        "controlId": "iso27001.family.supplier_relationships"
+      },
+      {
+        "framework": "GDPR",
+        "family": "processors_and_subprocessors",
+        "controlId": "gdpr.family.processors_and_subprocessors"
+      }
+    ],
+    "scope": {
+      "environment": "organisation",
+      "assetGroup": "high_risk_vendors"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:29:00Z",
+      "expiresAt": "2026-06-22T01:29:00Z"
+    },
+    "payload": {
+      "requiredSecurityTermsPresent": true,
+      "privacyTermsPresent": true,
+      "highRiskVendorsCovered": 3,
+      "reviewWindowDays": 90
+    },
+    "signer": {
+      "signerId": "privacy-manager@exampleco.test",
+      "signerType": "human",
+      "signatureType": "synthetic_ed25519_attestation"
+    },
+    "provenance": {
+      "exportId": "attestation-exampleco-vendor-terms-2026-q1",
+      "collectionMethod": "synthetic_attestation",
+      "sourcePath": "attestations/vendor-security-terms-q1.json",
+      "digestAlgorithm": "sha256"
+    }
+  },
+  {
+    "claimId": "EV-133",
+    "claimType": "monitoring_review_attestation",
+    "collectedAt": "2026-03-24T01:28:00Z",
+    "sourceSystem": "example-governance",
+    "actor": {
+      "actorId": "detection-engineering-owner@exampleco.test",
+      "actorType": "human"
+    },
+    "controlMappings": [
+      {
+        "framework": "SOC 2",
+        "family": "logging_monitoring",
+        "controlId": "soc2.family.logging_monitoring"
+      },
+      {
+        "framework": "ISO 27001",
+        "family": "logging_and_monitoring",
+        "controlId": "iso27001.family.logging_and_monitoring"
+      },
+      {
+        "framework": "IRAP",
+        "family": "logging_monitoring",
+        "controlId": "irap.family.logging_monitoring"
+      },
+      {
+        "framework": "GDPR",
+        "family": "security_of_processing",
+        "controlId": "gdpr.family.security_of_processing"
+      },
+      {
+        "framework": "NCSC CAF 4.0",
+        "family": "security_monitoring",
+        "controlId": "ncsc_caf_4_0.family.security_monitoring"
+      },
+      {
+        "framework": "NIST CSF 2.0",
+        "family": "security_continuous_monitoring",
+        "controlId": "nist_csf_2_0.family.security_continuous_monitoring"
+      },
+      {
+        "framework": "NIST SP 800-53 Rev. 5.1",
+        "family": "audit_and_accountability",
+        "controlId": "nist_sp_800_53_rev_5_1.family.audit_and_accountability"
+      }
+    ],
+    "scope": {
+      "environment": "production",
+      "assetGroup": "telemetry_program"
+    },
+    "freshness": {
+      "evaluatedAt": "2026-03-24T01:28:00Z",
+      "expiresAt": "2026-06-22T01:28:00Z"
+    },
+    "payload": {
+      "alertReviewCadenceDeclared": true,
+      "monitoringOwnerRole": "detection_engineering_owner",
+      "retentionOperationsCovered": true,
+      "reviewWindowDays": 90
+    },
+    "signer": {
+      "signerId": "detection-engineering-owner@exampleco.test",
+      "signerType": "human",
+      "signatureType": "synthetic_ed25519_attestation"
+    },
+    "provenance": {
+      "exportId": "attestation-exampleco-monitoring-review-2026-q1",
+      "collectionMethod": "synthetic_attestation",
+      "sourcePath": "attestations/monitoring-review-q1.json",
+      "digestAlgorithm": "sha256"
+    }
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "collectedAt": "2026-03-24T01:20:00Z",
+  "sourceSystem": "example-repo",
+  "actorId": "repo-policy-exporter",
+  "environment": "production",
+  "assetGroup": "application_repository",
+  "evaluatedAt": "2026-03-24T01:20:00Z",
+  "expiresAt": "2026-03-31T01:20:00Z",
+  "defaultBranchProtected": true,
+  "requiredApprovals": 2,
+  "statusChecksRequired": true,
+  "forcePushesBlocked": true,
+  "adminBypassRestricted": true
+}

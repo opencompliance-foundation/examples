@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CI Workflow Policy Payload",
+  "type": "object",
+  "required": [
+    "workflowReviewRequired",
+    "trustedPublishingOnly",
+    "protectedRefsOnly",
+    "environmentApprovalsRequired"
+  ],
+  "properties": {
+    "workflowReviewRequired": {
+      "type": "boolean"
+    },
+    "trustedPublishingOnly": {
+      "type": "boolean"
+    },
+    "protectedRefsOnly": {
+      "type": "boolean"
+    },
+    "environmentApprovalsRequired": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

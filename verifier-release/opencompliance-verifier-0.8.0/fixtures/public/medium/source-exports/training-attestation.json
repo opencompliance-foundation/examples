@@ -1,0 +1,13 @@
+{
+  "collectedAt": "2026-03-24T01:12:00Z",
+  "sourceSystem": "example-hris",
+  "actorId": "security-manager",
+  "environment": "organisation",
+  "assetGroup": "staff",
+  "evaluatedAt": "2026-03-24T01:12:00Z",
+  "expiresAt": "2026-09-24T01:12:00Z",
+  "signatureType": "synthetic_attestation",
+  "trainingComplete": true,
+  "completionWindowDays": 365,
+  "attestedPopulation": "all_staff"
+}

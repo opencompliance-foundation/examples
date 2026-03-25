@@ -1,0 +1,8 @@
+{
+  "revocationId": "exampleco-cyber-baseline-revocation-2026-03-24",
+  "artifactType": "certificate",
+  "artifactId": "exampleco-cyber-baseline-certificate-001",
+  "revokedAt": "2026-03-24T06:20:00Z",
+  "reason": "Synthetic example of cyber baseline certificate revocation after later drift, stale exports, or replay mismatch.",
+  "supersededBy": "exampleco-cyber-baseline-bundle-2026-03-24"
+}

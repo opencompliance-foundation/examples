@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/change_review_attestation.schema.json",
+  "title": "Change Review Attestation",
+  "type": "object",
+  "required": [
+    "changeReviewPolicyApproved",
+    "emergencyChangeProcessDeclared",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "changeReviewPolicyApproved": {
+      "type": "boolean"
+    },
+    "emergencyChangeProcessDeclared": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,145 @@
+{
+  "system-security-plan": {
+    "uuid": "e74dfd3c-d913-52c3-9321-a07e294f7cee",
+    "metadata": {
+      "title": "ExampleCo Cyber Baseline Corridor System Security Plan",
+      "published": "2026-03-24T06:10:00Z",
+      "last-modified": "2026-03-24T06:10:00Z",
+      "version": "0.6.0",
+      "oscal-version": "1.1.3",
+      "remarks": "Synthetic public-safe SSP for the ExampleCo cyber-baseline corridor."
+    },
+    "import-profile": {
+      "href": "./exampleco-cyber-baseline-profile.json"
+    },
+    "system-characteristics": {
+      "system-ids": [
+        {
+          "identifier-type": "https://opencompliancefoundation.com/example-system-id",
+          "id": "exampleco-cyber-baseline-corridor"
+        }
+      ],
+      "system-name": "ExampleCo Cyber Baseline Corridor",
+      "description": "Synthetic system boundary covering Administrative MFA and conditional access, Default-deny network boundary, Secure baseline configuration, and 2 additional scoped controls.",
+      "security-sensitivity-level": "moderate",
+      "system-information": {
+        "information-types": [
+          {
+            "uuid": "814d1af6-fdc2-5140-b8a4-f859d962aa35",
+            "title": "Synthetic compliance telemetry",
+            "description": "Public-safe operational and documentary evidence used for OpenCompliance example artifacts.",
+            "confidentiality-impact": {
+              "base": "low"
+            },
+            "integrity-impact": {
+              "base": "moderate"
+            },
+            "availability-impact": {
+              "base": "low"
+            }
+          }
+        ]
+      },
+      "status": {
+        "state": "operational"
+      },
+      "authorization-boundary": {
+        "description": "Synthetic public-safe ExampleCo profile for a narrow cyber hygiene baseline corridor."
+      },
+      "network-architecture": {
+        "description": "Synthetic architecture boundary used only for public example fixtures."
+      },
+      "data-flow": {
+        "description": "Evidence flows from synthetic exports and signed attestations into OpenCompliance typed claims."
+      }
+    },
+    "system-implementation": {
+      "components": [
+        {
+          "uuid": "e16feb70-9df3-5f2a-b3ca-c65f4d9dfb13",
+          "type": "this-system",
+          "title": "ExampleCo cyber-baseline corridor",
+          "description": "Synthetic corridor component representing the in-scope runtime and documentary boundary.",
+          "status": {
+            "state": "operational"
+          }
+        }
+      ]
+    },
+    "control-implementation": {
+      "description": "Synthetic implementation statements for the 5 controls in the cyber-baseline public corridor.",
+      "implemented-requirements": [
+        {
+          "uuid": "1ff12873-f155-506f-a1f3-e603514a0b96",
+          "control-id": "oc.id-01",
+          "by-components": [
+            {
+              "component-uuid": "e16feb70-9df3-5f2a-b3ca-c65f4d9dfb13",
+              "uuid": "ad66209c-d460-594d-8377-113ab2973ea9",
+              "description": "ExampleCo exports typed evidence covering scoped administrative mfa enforcement.",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "e4ec0ebb-8b78-58b5-8bb4-7c006e58d72f",
+          "control-id": "oc.boundary-01",
+          "by-components": [
+            {
+              "component-uuid": "e16feb70-9df3-5f2a-b3ca-c65f4d9dfb13",
+              "uuid": "f96b468d-e09f-500e-bbd0-9b6bbd380877",
+              "description": "ExampleCo exports typed evidence covering default-deny network boundary in place.",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "64755544-2e06-5fb0-8532-598b8dec8d00",
+          "control-id": "oc.cfg-01",
+          "by-components": [
+            {
+              "component-uuid": "e16feb70-9df3-5f2a-b3ca-c65f4d9dfb13",
+              "uuid": "26aefc12-305e-557f-b19e-fe0549283483",
+              "description": "ExampleCo exports typed evidence covering secure baseline configuration export present.",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "289110bb-05bd-5477-8626-e58042505bac",
+          "control-id": "oc.patch-01",
+          "by-components": [
+            {
+              "component-uuid": "e16feb70-9df3-5f2a-b3ca-c65f4d9dfb13",
+              "uuid": "097dc06c-4794-599f-bf8e-bf4ecb2afcc0",
+              "description": "ExampleCo exports typed evidence covering supported security updates current.",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "9f418702-f55a-5b23-a5f5-f332acf023df",
+          "control-id": "oc.malware-01",
+          "by-components": [
+            {
+              "component-uuid": "e16feb70-9df3-5f2a-b3ca-c65f4d9dfb13",
+              "uuid": "16999732-7c44-549e-9942-936394f51b8f",
+              "description": "ExampleCo exports typed evidence covering endpoint malware protection baseline enabled.",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

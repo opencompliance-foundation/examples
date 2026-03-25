@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Vendor Register Attestation Payload",
+  "type": "object",
+  "required": [
+    "registerCurrent",
+    "dpaCoverageDeclared",
+    "reviewedSubprocessors"
+  ],
+  "properties": {
+    "registerCurrent": {
+      "type": "boolean"
+    },
+    "dpaCoverageDeclared": {
+      "type": "boolean"
+    },
+    "reviewedSubprocessors": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "additionalProperties": false
+}

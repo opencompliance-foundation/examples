@@ -1,0 +1,48 @@
+# Medium Public Example
+
+This example is synthetic.
+
+It exists to show a richer public-safe corridor than `../minimal/` without leaking customer or internal deployment material.
+
+## Files
+
+- `company.json`
+- `profile.json`
+- `source-exports/`
+- `evidence-claims.json`
+- `classification-result.json`
+- `proof-bundle.json`
+- `trust-surface-report.md`
+- `verification-result.json`
+- `punch-list.json`
+- `replay-bundle.json`
+- `witness-receipt.json`
+- `revocation.json`
+- `transparency-log.json`
+- `inclusion-proofs.json`
+- `oscal/`
+
+## What is different from the minimal pack
+
+- four-framework family mappings across ISO 27001, SOC 2, IRAP, and GDPR,
+- more typed machine claims,
+- more typed human attestations,
+- raw source-export inputs for IAM, cloud config, storage encryption, repo policy, CI policy, and signed attestations,
+- a mixed change-control decomposition that keeps repo policy, CI policy, and signed governance evidence distinct,
+- explicit `controlRefs` back into the synthetic OpenCompliance corridor catalog,
+- a typed blocked outcome via `punch-list.json` and `verification-result.json`,
+- and a wider OSCAL-shaped projection.
+
+## Intended use
+
+- test multi-framework import and export logic,
+- exercise deterministic claim generation from raw synthetic source exports,
+- exercise richer schema payloads,
+- validate a larger witness receipt,
+- and review how OpenCompliance keeps proofs, attestations, judgment, and missing evidence separate in a more realistic synthetic corridor.
+
+## Connector note
+
+The medium source-export path now includes synthetic repo branch-protection, CI workflow-policy, and storage-encryption claims plus signed governance attestations for change review, access-review closure, configuration exceptions, patch exceptions, incident procedures, incident contact maintenance, and vendor terms, and those claims now drive checked-in verification results for the public ExampleCo medium corridor.
+
+That means the public connector surface and the public proof corridor now both cover repo, CI/CD, IAM/MFA, cloud/config, storage confidentiality, privacy operations, vendor governance, incident governance, and signed exception handling evidence in the same synthetic pack.

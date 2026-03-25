@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/configuration_exception_attestation.schema.json",
+  "title": "Configuration Exception Attestation",
+  "type": "object",
+  "required": [
+    "exceptionRegisterCurrent",
+    "expiredExceptionsCount",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "exceptionRegisterCurrent": {
+      "type": "boolean"
+    },
+    "expiredExceptionsCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

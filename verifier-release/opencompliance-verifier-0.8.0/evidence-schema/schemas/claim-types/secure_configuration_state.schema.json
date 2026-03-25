@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/secure_configuration_state.schema.json",
+  "title": "Secure Configuration State",
+  "type": "object",
+  "required": [
+    "baselineApplied",
+    "insecureDefaultsPresent",
+    "snapshotAgeDays"
+  ],
+  "properties": {
+    "baselineApplied": {
+      "type": "boolean"
+    },
+    "insecureDefaultsPresent": {
+      "type": "boolean"
+    },
+    "snapshotAgeDays": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "additionalProperties": false
+}

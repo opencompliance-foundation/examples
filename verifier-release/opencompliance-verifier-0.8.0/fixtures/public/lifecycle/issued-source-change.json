@@ -1,0 +1,22 @@
+{
+  "sourceChangeId": "exampleco-issued-source-change-001",
+  "occurredAt": "2026-03-24T03:00:00Z",
+  "sourceSystem": "gcp",
+  "changes": [
+    {
+      "sourcePath": "source-exports/cloud-logging.json",
+      "changeType": "evidence_missing",
+      "reason": "The scheduled audit-logging export did not arrive in the current sync window, so the prior proof state is no longer current.",
+      "impactedEvidenceRefs": [
+        "EV-202"
+      ],
+      "impactedEvidenceTypes": [
+        "audit_logging_state"
+      ],
+      "impactedControlRefs": [
+        "oc.log-01"
+      ]
+    }
+  ],
+  "note": "Synthetic fail-closed drift example for the previously issued ExampleCo corridor."
+}

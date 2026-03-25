@@ -1,0 +1,39 @@
+{
+  "$schema": "https://opencompliancefoundation.com/specs/schemas/verifier-release.schema.json",
+  "releaseId": "opencompliance-verifier-0.8.0",
+  "verifierVersion": "opencompliance-verifier/0.8.0",
+  "generatedAt": "2026-03-25T23:30:00Z",
+  "bundleLayoutVersion": 1,
+  "entrypoints": {
+    "verifyFixture": "scripts/verify_fixture.py",
+    "runLeanBatch": "scripts/run_lean_batch.py",
+    "validateExamples": "conformance/scripts/validate_public_examples.py",
+    "verifySignedArtifacts": "scripts/verify_signed_artifacts.py",
+    "verifyTransparency": "scripts/verify_transparency_log.py"
+  },
+  "includedFixtures": [
+    "minimal",
+    "failed",
+    "stale",
+    "medium",
+    "issued",
+    "cyber-baseline",
+    "ai-governance"
+  ],
+  "includedRoots": [
+    "src/",
+    "scripts/",
+    "open-specs/",
+    "lean4-controls/",
+    "evidence-schema/",
+    "conformance/",
+    "fixtures/public/"
+  ],
+  "publicKeyPath": "public-key.pem",
+  "signedArtifactManifestPath": "signed-artifact-manifest.json",
+  "notes": [
+    "This bundle preserves the same relative layout assumptions as the private reference runtime.",
+    "All example data is synthetic and public-safe.",
+    "The signed-artifact manifest covers the bundle contents except the manifest file itself."
+  ]
+}

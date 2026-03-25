@@ -1,0 +1,12 @@
+{
+  "collectedAt": "2026-03-24T01:03:00Z",
+  "sourceSystem": "example-monitoring",
+  "actorId": "monitoring-config-exporter",
+  "environment": "production",
+  "assetGroup": "customer_runtime",
+  "evaluatedAt": "2026-03-24T01:03:00Z",
+  "expiresAt": "2026-03-31T01:03:00Z",
+  "centralSinkConfigured": true,
+  "scopedAssetsForwarded": true,
+  "alertRulesEnabled": true
+}

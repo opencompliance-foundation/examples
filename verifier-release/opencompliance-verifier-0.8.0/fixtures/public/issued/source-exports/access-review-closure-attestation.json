@@ -1,0 +1,14 @@
+{
+  "collectedAt": "2026-03-24T02:02:00Z",
+  "sourceSystem": "example-governance",
+  "actorId": "identity-governance-owner@exampleco.test",
+  "environment": "production",
+  "assetGroup": "human_admin_identities",
+  "evaluatedAt": "2026-03-24T02:02:00Z",
+  "expiresAt": "2026-06-30T23:59:59Z",
+  "signatureType": "synthetic-dsse",
+  "reviewCompleted": true,
+  "reviewWindowDays": 90,
+  "reviewPopulation": "scoped_privileged_identities",
+  "highRiskFindingsOpen": 0
+}

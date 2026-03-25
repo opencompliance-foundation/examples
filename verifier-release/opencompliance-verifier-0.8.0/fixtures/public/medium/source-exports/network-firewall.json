@@ -1,0 +1,21 @@
+{
+  "collectedAt": "2026-03-24T01:05:00Z",
+  "sourceSystem": "example-network",
+  "actorId": "network-exporter",
+  "environment": "production",
+  "assetGroup": "public_ingress",
+  "evaluatedAt": "2026-03-24T01:05:00Z",
+  "expiresAt": "2026-03-31T01:05:00Z",
+  "defaultDenyInbound": true,
+  "declaredIngressPorts": [
+    443
+  ],
+  "undeclaredIngressPresent": false,
+  "boundaryAttachedToIngressPath": true,
+  "adminIngressRestricted": true,
+  "approvedAdminSourceRanges": [
+    "198.51.100.0/24",
+    "203.0.113.0/24"
+  ],
+  "unapprovedAdminIngressPresent": false
+}

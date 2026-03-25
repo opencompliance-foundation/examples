@@ -1,0 +1,247 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-25T01:25:00Z",
+  "purpose": "Prioritised framework order for OpenCompliance depth work, combining core assurance frameworks with the next wave of public AI governance and AI security standards relevant to legal-tech deployer style environments.",
+  "frameworks": [
+    {
+      "framework": "ISO 27001",
+      "category": "core_assurance",
+      "priorityRank": 1,
+      "priorityTier": "core_now",
+      "sourceAvailability": "blocked_nonpublic_source_review",
+      "openComplianceState": "private_seed_depth_and_public_family_proxy",
+      "operatorBenefit": "Still the strongest customer-facing security management baseline for SaaS diligence and procurement.",
+      "nextAction": "Continue private seed decomposition, promote the remaining availability and vulnerability-management slices, and keep blocker-aware exact-anchor review explicit."
+    },
+    {
+      "framework": "SOC 2",
+      "category": "core_assurance",
+      "priorityRank": 2,
+      "priorityTier": "core_now",
+      "sourceAvailability": "blocked_nonpublic_source_review",
+      "openComplianceState": "private_seed_depth_and_public_family_proxy",
+      "operatorBenefit": "Directly relevant to US buyer assurance, trust-center narratives, and recurring security questionnaires.",
+      "nextAction": "Continue private seed decomposition and publish only blocker-aware narrow control mappings until licensed criterion review exists."
+    },
+    {
+      "framework": "GDPR",
+      "category": "core_assurance",
+      "priorityRank": 3,
+      "priorityTier": "core_now",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "public_exact_anchor_review_available",
+      "operatorBenefit": "Directly relevant to UK and EU personal-data handling, customer diligence, and AI systems that process personal data.",
+      "nextAction": "Maintain the reviewed article-level layer across security of processing, transfer boundaries, data-subject-rights operations, and processor governance, then widen from the current deployer corridor into privacy-by-design and AI-adjacent rights handling."
+    },
+    {
+      "framework": "IRAP",
+      "category": "core_assurance",
+      "priorityRank": 4,
+      "priorityTier": "core_now",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "public_exact_anchor_review_available",
+      "operatorBenefit": "Important for Australian government and regulated-enterprise pathways, especially for a legal-tech deployer pushing into Australia.",
+      "nextAction": "Maintain the public exact-anchor layer across identity, password, key, locality, boundary, logging, recovery, incident, repository-integrity, secure configuration, change governance, access review, CI-policy, and patch-exception controls, then widen into the remaining hardening and judgment-boundary slices while keeping hosted shared-responsibility assumptions explicit."
+    },
+    {
+      "framework": "EU AI Act",
+      "category": "ai_governance",
+      "priorityRank": 5,
+      "priorityTier": "ai_now",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "public_exact_anchor_review_available",
+      "operatorBenefit": "Most important binding AI governance regime for EU-facing deployments and for any provable AI transparency or oversight story.",
+      "nextAction": "Keep the current reviewed articles for risk, oversight, monitoring, and transparency, and only promote the remaining documentation-heavy Article 11 and logging-heavy Article 12 candidates once the typed corridor grows beyond simple signed attestations."
+    },
+    {
+      "framework": "UK ICO AI and data protection guidance",
+      "category": "ai_governance",
+      "priorityRank": 6,
+      "priorityTier": "ai_now",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "public_exact_anchor_review_available",
+      "operatorBenefit": "Highly relevant where AI use intersects with personal data, transparency, and UK-regulator expectations.",
+      "nextAction": "Use the reviewed governance, rights, and transparency anchors now in the pilot, but keep monitoring the guidance refresh triggered by the Data (Use and Access) Act before treating the guidance text as stable long-term anchor inventory."
+    },
+    {
+      "framework": "UK AI Cyber Security Code of Practice",
+      "category": "ai_security",
+      "priorityRank": 7,
+      "priorityTier": "ai_now",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "public_exact_anchor_review_available",
+      "operatorBenefit": "Best near-term public baseline for securing AI systems used or operated by UK software vendors.",
+      "nextAction": "Keep using the reviewed principles for risk assessment, human responsibility, and monitoring, and widen next into more technical AI security controls only when the public fixture corridor stops being mostly documentary."
+    },
+    {
+      "framework": "NIST AI RMF 1.0",
+      "category": "ai_governance",
+      "priorityRank": 8,
+      "priorityTier": "ai_now",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "public_exact_anchor_review_available",
+      "operatorBenefit": "Strong voluntary structure for operational AI governance, especially when the company wants a rigorous internal control language without waiting for certification.",
+      "nextAction": "Keep using it as the backbone public exact-anchor layer for the AI corridor while the GenAI-specific, ETSI, and ISO candidate layers deepen around it."
+    },
+    {
+      "framework": "NIST AI 600-1 Generative AI Profile",
+      "category": "ai_governance",
+      "priorityRank": 9,
+      "priorityTier": "ai_now",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "public_exact_anchor_review_available",
+      "operatorBenefit": "Directly relevant for generative-AI deployments and complements the core NIST AI RMF with GenAI-specific risk treatment.",
+      "nextAction": "Use the reviewed GenAI anchors for context, risk governance, post-deployment monitoring, and content transparency as the first deployer-grade GenAI exact-anchor layer, then widen into additional GAI actions when the fixture corridor grows beyond the current documentary scope."
+    },
+    {
+      "framework": "NIST AI 100-4",
+      "category": "ai_assurance",
+      "priorityRank": 10,
+      "priorityTier": "ai_now",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "public_exact_anchor_review_available",
+      "operatorBenefit": "Highly relevant wherever a legal-tech deployer needs provenance, labeling, authenticity, and disclosure controls for synthetic or transformed content.",
+      "nextAction": "Use the first reviewed NIST AI 100-4 anchor to keep the new provenance-metadata control honest, then widen from simple metadata presence toward verifiable provenance retention and testing once the public corridor carries richer replayable artifacts."
+    },
+    {
+      "framework": "ISO/IEC 5338",
+      "category": "ai_governance",
+      "priorityRank": 11,
+      "priorityTier": "ai_now",
+      "sourceAvailability": "crosswalk_candidate",
+      "openComplianceState": "crosswalk_candidate_only",
+      "operatorBenefit": "Useful for turning AI lifecycle work into a process model that sits between RMF-style governance language and concrete engineering controls.",
+      "nextAction": "Use the public abstract to shape candidate lifecycle and evaluation-control families now, but keep every clause-grade anchor explicitly blocked behind licensed review."
+    },
+    {
+      "framework": "ISO/IEC 42001",
+      "category": "ai_governance",
+      "priorityRank": 12,
+      "priorityTier": "ai_now",
+      "sourceAvailability": "crosswalk_candidate",
+      "openComplianceState": "crosswalk_candidate_only",
+      "operatorBenefit": "Most obvious management-system-style target for organisations that want AI governance to look certifiable and auditable.",
+      "nextAction": "Keep publishing only crosswalk-derived candidate anchors until licensed clause review exists."
+    },
+    {
+      "framework": "ISO/IEC 42005",
+      "category": "ai_governance",
+      "priorityRank": 13,
+      "priorityTier": "ai_now",
+      "sourceAvailability": "crosswalk_candidate",
+      "openComplianceState": "crosswalk_candidate_only",
+      "operatorBenefit": "Useful for impact-assessment depth and for turning AI risk work into a more explicit, reviewable artifact chain.",
+      "nextAction": "Use it to shape impact-assessment-oriented claim types and candidate exact-anchor plans."
+    },
+    {
+      "framework": "ISO/IEC 5259-5",
+      "category": "ai_governance",
+      "priorityRank": 14,
+      "priorityTier": "candidate_next",
+      "sourceAvailability": "crosswalk_candidate",
+      "openComplianceState": "crosswalk_candidate_only",
+      "operatorBenefit": "Relevant for board-level data-quality governance where AI outputs depend on trustworthy source, training, or evaluation data.",
+      "nextAction": "Use the published standard summary to shape the new planned data-quality-governance control now, but keep exact clause publication blocked until licensed review exists."
+    },
+    {
+      "framework": "Australia Voluntary AI Safety Standard",
+      "category": "ai_governance",
+      "priorityRank": 15,
+      "priorityTier": "regional_now",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "public_exact_anchor_review_available",
+      "operatorBenefit": "Relevant for Australian deployments and especially useful because it is deployer-oriented and openly structured as ten guardrails.",
+      "nextAction": "Keep treating it as the Australian public-anchor bridge for context, risk, oversight, monitoring, and disclosure controls, then add more operational slices only when the public AI corridor includes live evaluation and deployment evidence."
+    },
+    {
+      "framework": "ETSI EN 304 223",
+      "category": "ai_security",
+      "priorityRank": 16,
+      "priorityTier": "regional_now",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "public_exact_anchor_review_available",
+      "operatorBenefit": "Strong European baseline for AI cybersecurity, especially useful if a legal-tech deployer wants a public AI security story beyond governance prose.",
+      "nextAction": "Use the reviewed monitoring and incident-handling anchor as the first ETSI AI security foothold, then widen into supply-chain and secure-development provisions when there is a real public AI security corridor to attach them to."
+    },
+    {
+      "framework": "ETSI TS 104 008",
+      "category": "ai_assurance",
+      "priorityRank": 17,
+      "priorityTier": "regional_now",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "public_exact_anchor_review_available",
+      "operatorBenefit": "Directly relevant to OpenCompliance itself because it frames continuous auditing-based conformity assessment for dynamic AI systems.",
+      "nextAction": "Use the reviewed continuous-auditing anchor to shape the transparency, witness, and continuous-verification plane, then widen only when the public runtime can emit richer monitoring and conformity-assessment evidence."
+    },
+    {
+      "framework": "ISO/IEC 23894",
+      "category": "ai_governance",
+      "priorityRank": 18,
+      "priorityTier": "candidate_next",
+      "sourceAvailability": "crosswalk_candidate",
+      "openComplianceState": "crosswalk_candidate_only",
+      "operatorBenefit": "Useful for risk-management language and audit conversations, but not as primary as 42001 or 42005 for the current corridor.",
+      "nextAction": "Keep it as a candidate exact-anchor layer behind NIST AI RMF and 42001 until licensed review exists."
+    },
+    {
+      "framework": "NIST SP 800-218A",
+      "category": "ai_security",
+      "priorityRank": 19,
+      "priorityTier": "candidate_next",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "priority_backlog",
+      "operatorBenefit": "High-value if a legal-tech deployer wants to prove GenAI-aware secure development practices rather than only governance documentation.",
+      "nextAction": "Use it to shape future secure-development and model-lifecycle controls, not the current documentary AI-governance corridor."
+    },
+    {
+      "framework": "NIST AI 700-2",
+      "category": "ai_assurance",
+      "priorityRank": 20,
+      "priorityTier": "candidate_next",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "public_exact_anchor_review_available",
+      "operatorBenefit": "Useful for a future evaluation layer that needs structured evidence about AI risks and impacts rather than only governance attestations.",
+      "nextAction": "Use the first reviewed ARIA anchor to shape the new planned AI-evaluation control now, then widen from signed evaluation records toward reproducible testing and field-evaluation bundles when the public fixture surface can carry them."
+    },
+    {
+      "framework": "EU GPAI Code of Practice",
+      "category": "ai_governance",
+      "priorityRank": 21,
+      "priorityTier": "candidate_next",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "public_exact_anchor_review_available",
+      "operatorBenefit": "Important if a legal-tech deployer ever trains, fine-tunes, or meaningfully distributes general-purpose models instead of only deploying third-party models.",
+      "nextAction": "Keep it in the review layer but avoid over-prioritising it unless the operating model changes toward GPAI provider responsibilities."
+    },
+    {
+      "framework": "NIST AI 800-1",
+      "category": "ai_security",
+      "priorityRank": 22,
+      "priorityTier": "emerging_draft",
+      "sourceAvailability": "public_draft",
+      "openComplianceState": "emerging_backlog",
+      "operatorBenefit": "Potentially important for dual-use or foundation-model misuse risk, but still draft and less immediately relevant for ordinary deployer controls.",
+      "nextAction": "Track the draft and use it to shape future foundation-model misuse controls only if the operator expands into that risk class."
+    },
+    {
+      "framework": "ISO/IEC AWI 25704",
+      "category": "ai_assurance",
+      "priorityRank": 23,
+      "priorityTier": "emerging_draft",
+      "sourceAvailability": "public_draft",
+      "openComplianceState": "emerging_backlog",
+      "operatorBenefit": "Potentially useful for future process-capability assessment of AI life cycle work, but still too early for direct control mapping.",
+      "nextAction": "Use the public abstract as a candidate pointer for future process-assessment artifacts, but keep draft maturity and clause-level mapping clearly outside the reviewed public layer."
+    },
+    {
+      "framework": "ISO/IEC 42006",
+      "category": "ai_assurance",
+      "priorityRank": 24,
+      "priorityTier": "ecosystem_watch",
+      "sourceAvailability": "crosswalk_candidate",
+      "openComplianceState": "ecosystem_backlog",
+      "operatorBenefit": "Relevant to the audit and certification ecosystem around AI management systems, but not a direct first-order operator control framework.",
+      "nextAction": "Track it as ecosystem infrastructure for the certification layer rather than as an immediate control-mapping target."
+    }
+  ]
+}

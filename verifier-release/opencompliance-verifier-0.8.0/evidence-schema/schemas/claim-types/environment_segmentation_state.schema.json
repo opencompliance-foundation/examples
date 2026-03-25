@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/environment_segmentation_state.schema.json",
+  "title": "Environment Segmentation State",
+  "type": "object",
+  "required": [
+    "customerBoundaryEnforced",
+    "productionSeparatedFromNonProduction",
+    "undeclaredCrossEnvironmentPathsPresent"
+  ],
+  "properties": {
+    "customerBoundaryEnforced": {
+      "type": "boolean"
+    },
+    "productionSeparatedFromNonProduction": {
+      "type": "boolean"
+    },
+    "undeclaredCrossEnvironmentPathsPresent": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

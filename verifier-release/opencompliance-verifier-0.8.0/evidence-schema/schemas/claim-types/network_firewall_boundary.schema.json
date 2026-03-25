@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/network_firewall_boundary.schema.json",
+  "title": "Network Firewall Boundary State",
+  "type": "object",
+  "required": [
+    "defaultDenyInbound",
+    "declaredIngressPorts",
+    "undeclaredIngressPresent",
+    "boundaryAttachedToIngressPath",
+    "adminIngressRestricted",
+    "approvedAdminSourceRanges",
+    "unapprovedAdminIngressPresent"
+  ],
+  "properties": {
+    "defaultDenyInbound": {
+      "type": "boolean"
+    },
+    "declaredIngressPorts": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
+    "undeclaredIngressPresent": {
+      "type": "boolean"
+    },
+    "boundaryAttachedToIngressPath": {
+      "type": "boolean"
+    },
+    "adminIngressRestricted": {
+      "type": "boolean"
+    },
+    "approvedAdminSourceRanges": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "unapprovedAdminIngressPresent": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

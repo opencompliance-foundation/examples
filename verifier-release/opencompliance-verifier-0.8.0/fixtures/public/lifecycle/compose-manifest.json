@@ -1,0 +1,30 @@
+{
+  "composedCertificateId": "exampleco-agent-certificate-001",
+  "generatedAt": "2026-03-24T03:30:00Z",
+  "scope": {
+    "inScope": [
+      "Identity provider MFA enforcement",
+      "Cloud audit logging",
+      "Security awareness training records",
+      "Restore exercise attestations"
+    ],
+    "outOfScope": [
+      "Whole-program policy adequacy",
+      "Clause-complete framework certification"
+    ],
+    "note": "Synthetic higher-level ExampleCo agent certificate composed from two narrower issued component certificates."
+  },
+  "components": [
+    {
+      "componentName": "identity",
+      "certificatePath": "component-identity-certificate.json",
+      "profilePath": "component-identity-profile.json"
+    },
+    {
+      "componentName": "recovery",
+      "certificatePath": "component-recovery-certificate.json",
+      "profilePath": "component-recovery-profile.json"
+    }
+  ],
+  "note": "Synthetic composition manifest showing how two aligned issued certificates can be lifted into a larger trust artifact."
+}

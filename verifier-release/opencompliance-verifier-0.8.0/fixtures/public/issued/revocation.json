@@ -1,0 +1,8 @@
+{
+  "revocationId": "exampleco-issued-revocation-2026-03-24",
+  "artifactType": "certificate",
+  "artifactId": "exampleco-issued-certificate-001",
+  "revokedAt": "2026-03-24T02:20:00Z",
+  "reason": "Synthetic example of certificate revocation after later drift or stale attestation expiry.",
+  "supersededBy": "exampleco-issued-bundle-2026-03-24"
+}

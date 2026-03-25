@@ -1,0 +1,11 @@
+{
+  "collectedAt": "2026-03-24T00:00:00Z",
+  "sourceSystem": "example-cloud",
+  "actorId": "cloud-config-exporter",
+  "environment": "production",
+  "assetGroup": "customer_facing_stack",
+  "evaluatedAt": "2026-03-24T00:00:00Z",
+  "expiresAt": "2026-04-24T00:00:00Z",
+  "auditLoggingEnabled": true,
+  "retentionDays": 90
+}

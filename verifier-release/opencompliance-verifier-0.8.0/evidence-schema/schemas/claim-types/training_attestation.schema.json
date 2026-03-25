@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Training Attestation Payload",
+  "type": "object",
+  "required": [
+    "trainingComplete",
+    "completionWindowDays",
+    "attestedPopulation"
+  ],
+  "properties": {
+    "trainingComplete": {
+      "type": "boolean"
+    },
+    "completionWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "attestedPopulation": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

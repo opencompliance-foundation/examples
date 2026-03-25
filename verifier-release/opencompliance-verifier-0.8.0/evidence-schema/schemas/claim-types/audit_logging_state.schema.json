@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Audit Logging State Payload",
+  "type": "object",
+  "required": [
+    "auditLoggingEnabled",
+    "retentionDays"
+  ],
+  "properties": {
+    "auditLoggingEnabled": {
+      "type": "boolean"
+    },
+    "retentionDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

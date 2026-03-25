@@ -1,0 +1,201 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/specs/schemas/certificate-lifecycle.schema.json",
+  "title": "OpenCompliance Certificate Lifecycle Event",
+  "type": "object",
+  "required": [
+    "lifecycleEventId",
+    "generatedAt",
+    "certificateId",
+    "organisation",
+    "profileId",
+    "frameworkIntent",
+    "previousStatus",
+    "newStatus",
+    "decisionReason",
+    "sourceChangeId",
+    "sourceChange",
+    "impactedControlRefs",
+    "impactedClaims",
+    "deltaRecheck",
+    "lineage",
+    "compositionBlocked",
+    "emittedEvents",
+    "proofBundleSha256"
+  ],
+  "properties": {
+    "lifecycleEventId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "certificateId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "organisation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "profileId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "frameworkIntent": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "previousStatus": {
+      "type": "string",
+      "minLength": 1
+    },
+    "newStatus": {
+      "type": "string",
+      "enum": [
+        "re_verification_required",
+        "revoked"
+      ]
+    },
+    "decisionReason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceChangeId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceChange": {
+      "type": "object"
+    },
+    "impactedControlRefs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "impactedClaims": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "claimId",
+          "title",
+          "previousResult",
+          "controlRefs",
+          "evidenceRefs",
+          "nextAction"
+        ],
+        "properties": {
+          "claimId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "previousResult": {
+            "type": "string",
+            "minLength": 1
+          },
+          "controlRefs": {
+            "type": "array"
+          },
+          "evidenceRefs": {
+            "type": "array"
+          },
+          "nextAction": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "deltaRecheck": {
+      "type": "object",
+      "required": [
+        "recheckClaims",
+        "reusedClaims",
+        "avoidsFullRerun"
+      ],
+      "properties": {
+        "recheckClaims": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "reusedClaims": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "avoidsFullRerun": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "lineage": {
+      "type": "object",
+      "required": [
+        "certificateId",
+        "previousBundleId",
+        "history"
+      ],
+      "properties": {
+        "certificateId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "previousBundleId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "history": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "compositionBlocked": {
+      "type": "boolean"
+    },
+    "emittedEvents": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "proofBundleSha256": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    },
+    "note": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/infrastructure_auth_uniqueness_state.schema.json",
+  "title": "Infrastructure Access Uniqueness Payload",
+  "type": "object",
+  "required": [
+    "namedAccountsRequired",
+    "sharedAccountsPresent"
+  ],
+  "properties": {
+    "namedAccountsRequired": {
+      "type": "boolean"
+    },
+    "sharedAccountsPresent": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

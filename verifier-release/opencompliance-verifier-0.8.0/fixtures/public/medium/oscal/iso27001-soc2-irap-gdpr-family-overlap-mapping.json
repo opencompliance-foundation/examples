@@ -1,0 +1,1100 @@
+{
+  "mapping-collection": {
+    "uuid": "8a8e0951-e840-5b0a-92d4-30ca7e7b3261",
+    "metadata": {
+      "title": "ExampleCo Medium Family Overlap Mapping",
+      "last-modified": "2026-03-24T01:25:00Z",
+      "version": "0.2.0",
+      "oscal-version": "1.1.3",
+      "remarks": "Synthetic family-level mapping seed. This file does not reproduce framework text and does not claim exact clause, article, or control equivalence."
+    },
+    "provenance": {
+      "method": "manual-family-crosswalk",
+      "matching-rationale": "The public ExampleCo medium seed supports family-level mappings from synthetic OpenCompliance controls to proxy SOC 2, ISO 27001, IRAP, GDPR, Cyber Essentials, NCSC CAF 4.0, NIST CSF 2.0, NIST SP 800-53 Rev. 5.1 targets.",
+      "status": "draft",
+      "mapping-description": "Maps the synthetic OpenCompliance medium corridor controls to public-safe proxy identifiers representing overlapping framework families."
+    },
+    "mappings": [
+      {
+        "uuid": "c7c5939b-ab44-5d9c-98bb-fffc8b01552f",
+        "status": "draft",
+        "source-resource": {
+          "type": "catalog",
+          "href": "./opencompliance-medium-catalog.json"
+        },
+        "target-resource": {
+          "type": "resource",
+          "href": "./family-proxy-targets.json"
+        },
+        "maps": [
+          {
+            "uuid": "9f8b3b0d-3019-5757-8fea-bd189c504181",
+            "relationship": "subset-of",
+            "matching-rationale": "Scoped administrative MFA enforcement is one narrow synthetic OpenCompliance slice of the broader access_control, identity_and_access_management, identity_access, security_of_processing, user_access_control, identity_and_access_control, identity_management_and_access_control, and identification_and_authentication families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.id-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.identity_and_access_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.identity_access"
+              },
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.security_of_processing"
+              },
+              {
+                "type": "control",
+                "id-ref": "cyber_essentials.family.user_access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "ncsc_caf_4_0.family.identity_and_access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.identity_management_and_access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.identification_and_authentication"
+              }
+            ]
+          },
+          {
+            "uuid": "89d2aee6-9b4b-525c-a4fe-b8c1deccc17c",
+            "relationship": "subset-of",
+            "matching-rationale": "Unique infrastructure access identities required is one narrow synthetic OpenCompliance slice of the broader access_control, identity_and_access_management, identity_access, security_of_processing, user_access_control, identity_and_access_control, identity_management_and_access_control, and identification_and_authentication families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.id-04"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.identity_and_access_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.identity_access"
+              },
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.security_of_processing"
+              },
+              {
+                "type": "control",
+                "id-ref": "cyber_essentials.family.user_access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "ncsc_caf_4_0.family.identity_and_access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.identity_management_and_access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.identification_and_authentication"
+              }
+            ]
+          },
+          {
+            "uuid": "7a84cd0b-96f2-583e-ad52-eb90593cb3ec",
+            "relationship": "subset-of",
+            "matching-rationale": "Customer and environment segmentation enforced is one narrow synthetic OpenCompliance slice of the broader environment_and_tenant_separation, segregation_and_environment_separation, network_segmentation_and_isolation, security_of_processing, system_security_and_segregation, segmentation_and_isolation, and system_partitioning_and_boundary_protection families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.seg-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.environment_and_tenant_separation"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.segregation_and_environment_separation"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.network_segmentation_and_isolation"
+              },
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.security_of_processing"
+              },
+              {
+                "type": "control",
+                "id-ref": "ncsc_caf_4_0.family.system_security_and_segregation"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.segmentation_and_isolation"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.system_partitioning_and_boundary_protection"
+              }
+            ]
+          },
+          {
+            "uuid": "697d6419-d972-5af2-9fb1-7515eb3f3f25",
+            "relationship": "subset-of",
+            "matching-rationale": "Scoped password policy enforced is one narrow synthetic OpenCompliance slice of the broader access_control, identity_and_access_management, identity_access, security_of_processing, user_access_control, identity_and_access_control, identity_management_and_access_control, and authenticator_management families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.id-05"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.identity_and_access_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.identity_access"
+              },
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.security_of_processing"
+              },
+              {
+                "type": "control",
+                "id-ref": "cyber_essentials.family.user_access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "ncsc_caf_4_0.family.identity_and_access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.identity_management_and_access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.authenticator_management"
+              }
+            ]
+          },
+          {
+            "uuid": "8f45c232-d765-5648-9fb4-09e41bb698a0",
+            "relationship": "subset-of",
+            "matching-rationale": "Managed web application firewall attached is one narrow synthetic OpenCompliance slice of the broader network_security, network_security, network_boundary_and_crypto, security_of_processing, boundary_protection, and boundary_protection families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.web-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.network_security"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.network_security"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.network_boundary_and_crypto"
+              },
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.security_of_processing"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.boundary_protection"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.boundary_protection"
+              }
+            ]
+          },
+          {
+            "uuid": "f9434c1b-a0e6-5dac-941d-04a6aa195a48",
+            "relationship": "subset-of",
+            "matching-rationale": "Scoped audit logging enabled is one narrow synthetic OpenCompliance slice of the broader logging_monitoring, logging_and_monitoring, logging_monitoring, security_monitoring, protective_technology_and_logging, and audit_and_accountability families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.log-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.logging_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.logging_and_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.logging_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "ncsc_caf_4_0.family.security_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.protective_technology_and_logging"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.audit_and_accountability"
+              }
+            ]
+          },
+          {
+            "uuid": "45dbde6e-5bbb-5f1f-a504-4893fd3045b7",
+            "relationship": "subset-of",
+            "matching-rationale": "Scoped centralized monitoring enabled is one narrow synthetic OpenCompliance slice of the broader logging_monitoring, logging_and_monitoring, logging_monitoring, security_of_processing, security_monitoring, security_continuous_monitoring, and audit_and_accountability families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.mon-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.logging_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.logging_and_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.logging_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.security_of_processing"
+              },
+              {
+                "type": "control",
+                "id-ref": "ncsc_caf_4_0.family.security_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.security_continuous_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.audit_and_accountability"
+              }
+            ]
+          },
+          {
+            "uuid": "4168995d-c905-584b-945c-80b1f3376347",
+            "relationship": "subset-of",
+            "matching-rationale": "TLS ingress hardened is one narrow synthetic OpenCompliance slice of the broader network_security, network_security, network_boundary_and_crypto, security_of_processing, data_in_transit_protection, and transmission_confidentiality_and_integrity families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.net-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.network_security"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.network_security"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.network_boundary_and_crypto"
+              },
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.security_of_processing"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.data_in_transit_protection"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.transmission_confidentiality_and_integrity"
+              }
+            ]
+          },
+          {
+            "uuid": "8eb083fd-d78a-596f-aa28-b719362896c7",
+            "relationship": "subset-of",
+            "matching-rationale": "Managed ingress boundary attached is one narrow synthetic OpenCompliance slice of the broader network_security, network_security, network_boundary_and_crypto, firewalls, boundary_protection, and boundary_protection families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.net-02"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.network_security"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.network_security"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.network_boundary_and_crypto"
+              },
+              {
+                "type": "control",
+                "id-ref": "cyber_essentials.family.firewalls"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.boundary_protection"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.boundary_protection"
+              }
+            ]
+          },
+          {
+            "uuid": "0fc2849c-ab4f-5199-8786-59f1146bdb1d",
+            "relationship": "subset-of",
+            "matching-rationale": "Administrative ingress restricted is one narrow synthetic OpenCompliance slice of the broader network_security, network_security, network_boundary_and_crypto, firewalls, boundary_protection, and boundary_protection families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.net-03"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.network_security"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.network_security"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.network_boundary_and_crypto"
+              },
+              {
+                "type": "control",
+                "id-ref": "cyber_essentials.family.firewalls"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.boundary_protection"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.boundary_protection"
+              }
+            ]
+          },
+          {
+            "uuid": "deb76f5e-7114-5c48-8712-0dfc8054d63f",
+            "relationship": "subset-of",
+            "matching-rationale": "Plaintext transport disabled is one narrow synthetic OpenCompliance slice of the broader network_security, network_security, network_boundary_and_crypto, security_of_processing, data_in_transit_protection, and transmission_confidentiality_and_integrity families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.net-04"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.network_security"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.network_security"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.network_boundary_and_crypto"
+              },
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.security_of_processing"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.data_in_transit_protection"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.transmission_confidentiality_and_integrity"
+              }
+            ]
+          },
+          {
+            "uuid": "8a2abee9-a5be-5fcc-89ef-a84fd78d8f0b",
+            "relationship": "subset-of",
+            "matching-rationale": "Encryption at rest enabled is one narrow synthetic OpenCompliance slice of the broader encryption_at_rest, encryption_at_rest, data_at_rest_protection, security_of_processing, data_at_rest_protection, and protection_of_information_at_rest families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.crypt-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.encryption_at_rest"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.encryption_at_rest"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.data_at_rest_protection"
+              },
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.security_of_processing"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.data_at_rest_protection"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.protection_of_information_at_rest"
+              }
+            ]
+          },
+          {
+            "uuid": "45037565-6070-5eaf-9f51-17323bc58942",
+            "relationship": "subset-of",
+            "matching-rationale": "No user-managed long-lived machine keys is one narrow synthetic OpenCompliance slice of the broader key_management, cryptographic_key_management, secrets_and_machine_credentials, and security_of_processing families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.key-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.key_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.cryptographic_key_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.secrets_and_machine_credentials"
+              },
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.security_of_processing"
+              }
+            ]
+          },
+          {
+            "uuid": "657553bd-7edd-5c25-b91e-dc6218d05549",
+            "relationship": "subset-of",
+            "matching-rationale": "Approved regions only is one narrow synthetic OpenCompliance slice of the broader hosting_and_data_location and data_locality_and_transfer_boundary families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.loc-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "irap.family.hosting_and_data_location"
+              },
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.data_locality_and_transfer_boundary"
+              }
+            ]
+          },
+          {
+            "uuid": "711da215-aa0a-5bd3-91fb-ac8c778a06ec",
+            "relationship": "subset-of",
+            "matching-rationale": "Backup schedule declared is one narrow synthetic OpenCompliance slice of the broader backup_and_recovery, backup_and_recovery, backup_and_recovery, data_backup_and_recovery_preparation, and system_backup families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.backup-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.backup_and_recovery"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.backup_and_recovery"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.backup_and_recovery"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.data_backup_and_recovery_preparation"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.system_backup"
+              }
+            ]
+          },
+          {
+            "uuid": "17568266-95e9-5725-8cf7-260e21970228",
+            "relationship": "subset-of",
+            "matching-rationale": "Training completion record available is one narrow synthetic OpenCompliance slice of the broader security_awareness and awareness_and_training families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.train-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.security_awareness"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.awareness_and_training"
+              }
+            ]
+          },
+          {
+            "uuid": "5cf18625-1fd8-5e6d-8abc-e1066d36c57f",
+            "relationship": "subset-of",
+            "matching-rationale": "Restore exercise evidence present is one narrow synthetic OpenCompliance slice of the broader backup_and_recovery, backup_and_recovery, and backup_and_recovery families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.rec-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.backup_and_recovery"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.backup_and_recovery"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.backup_and_recovery"
+              }
+            ]
+          },
+          {
+            "uuid": "d65585ad-cc96-50bb-9d11-07e1ecdac8fc",
+            "relationship": "subset-of",
+            "matching-rationale": "Processor register current is one narrow synthetic OpenCompliance slice of the broader vendor_management, supplier_relationships, and processors_and_subprocessors families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.vendor-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.vendor_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.supplier_relationships"
+              },
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.processors_and_subprocessors"
+              }
+            ]
+          },
+          {
+            "uuid": "95571895-b4d4-504a-b5cf-d985d442eba7",
+            "relationship": "subset-of",
+            "matching-rationale": "DSR runbook ownership documented is one narrow synthetic OpenCompliance slice of the broader data_subject_rights families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.privacy-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.data_subject_rights"
+              }
+            ]
+          },
+          {
+            "uuid": "886a4adb-871d-57a1-8911-eb676a9855a5",
+            "relationship": "subset-of",
+            "matching-rationale": "Privacy by design adequacy review boundary is one narrow synthetic OpenCompliance slice of the broader privacy_by_design_and_default families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.privacy-02"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.privacy_by_design_and_default"
+              }
+            ]
+          },
+          {
+            "uuid": "b2d07286-254e-5800-8629-edff7058662a",
+            "relationship": "subset-of",
+            "matching-rationale": "Typed periodic access review export present is one narrow synthetic OpenCompliance slice of the broader access_control, identity_and_access_management, and identity_access families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.id-02"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.identity_and_access_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.identity_access"
+              }
+            ]
+          },
+          {
+            "uuid": "378262e0-8731-5783-bd6d-0d14dae391d8",
+            "relationship": "subset-of",
+            "matching-rationale": "Default branch protections enforced is one narrow synthetic OpenCompliance slice of the broader change_management, secure_development_and_change_control, and secure_development_and_change families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.repo-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.change_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.secure_development_and_change_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.secure_development_and_change"
+              }
+            ]
+          },
+          {
+            "uuid": "79d6c9c9-c4e8-5f15-aadb-e1e0a17e9c99",
+            "relationship": "subset-of",
+            "matching-rationale": "CI workflow policy constrained is one narrow synthetic OpenCompliance slice of the broader change_management, secure_development_and_change_control, and secure_development_and_change families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.ci-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.change_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.secure_development_and_change_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.secure_development_and_change"
+              }
+            ]
+          },
+          {
+            "uuid": "d0ae28a1-9cfa-5b0d-8e39-6d1c4f74aae5",
+            "relationship": "subset-of",
+            "matching-rationale": "Change review governance attested is one narrow synthetic OpenCompliance slice of the broader change_management, secure_development_and_change_control, and secure_development_and_change families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.change-02"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.change_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.secure_development_and_change_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.secure_development_and_change"
+              }
+            ]
+          },
+          {
+            "uuid": "59e3d721-cb49-5e11-9bd0-aa0430306621",
+            "relationship": "subset-of",
+            "matching-rationale": "Access review closure attested is one narrow synthetic OpenCompliance slice of the broader access_control, identity_and_access_management, and identity_access families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.id-03"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.access_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.identity_and_access_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.identity_access"
+              }
+            ]
+          },
+          {
+            "uuid": "e4e1ea4e-7368-5569-bba5-b60aec4387e8",
+            "relationship": "subset-of",
+            "matching-rationale": "Monitoring review operations current is one narrow synthetic OpenCompliance slice of the broader logging_monitoring, logging_and_monitoring, logging_monitoring, security_of_processing, security_monitoring, security_continuous_monitoring, and audit_and_accountability families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.mon-02"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.logging_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.logging_and_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.logging_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.security_of_processing"
+              },
+              {
+                "type": "control",
+                "id-ref": "ncsc_caf_4_0.family.security_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.security_continuous_monitoring"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.audit_and_accountability"
+              }
+            ]
+          },
+          {
+            "uuid": "244ff16c-e765-54e8-be2b-fe945a8a60a6",
+            "relationship": "subset-of",
+            "matching-rationale": "Configuration exceptions attested is one narrow synthetic OpenCompliance slice of the broader secure_configuration, configuration_management, configuration_settings, secure_configuration, system_operations_and_hardening, and secure_configuration families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.cfg-02"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "cyber_essentials.family.secure_configuration"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.configuration_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.configuration_settings"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.secure_configuration"
+              },
+              {
+                "type": "control",
+                "id-ref": "soc2.family.system_operations_and_hardening"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.secure_configuration"
+              }
+            ]
+          },
+          {
+            "uuid": "0c876acb-186d-5029-b727-272f9905636d",
+            "relationship": "subset-of",
+            "matching-rationale": "Patch exceptions attested is one narrow synthetic OpenCompliance slice of the broader security_update_management, software_maintenance_and_patch_management, flaw_remediation, vulnerability_and_patch_management, vulnerability_management, and patch_and_vulnerability_management families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.patch-02"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "cyber_essentials.family.security_update_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.software_maintenance_and_patch_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.flaw_remediation"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.vulnerability_and_patch_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "soc2.family.vulnerability_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.patch_and_vulnerability_management"
+              }
+            ]
+          },
+          {
+            "uuid": "dd8efb3c-bd3b-5260-8bed-eb636f8f8391",
+            "relationship": "subset-of",
+            "matching-rationale": "Patch adequacy review boundary is one narrow synthetic OpenCompliance slice of the broader security_update_management, software_maintenance_and_patch_management, flaw_remediation, vulnerability_and_patch_management, vulnerability_management, and patch_and_vulnerability_management families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.patch-03"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "cyber_essentials.family.security_update_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_csf_2_0.family.software_maintenance_and_patch_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "nist_sp_800_53_rev_5_1.family.flaw_remediation"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.vulnerability_and_patch_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "soc2.family.vulnerability_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.patch_and_vulnerability_management"
+              }
+            ]
+          },
+          {
+            "uuid": "142ea6b8-345c-55f7-b3da-76944090fa9e",
+            "relationship": "subset-of",
+            "matching-rationale": "Incident response runbook current is one narrow synthetic OpenCompliance slice of the broader incident_response, incident_response, and incident_response families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.ir-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.incident_response"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.incident_response"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.incident_response"
+              }
+            ]
+          },
+          {
+            "uuid": "140e5d86-5475-563d-982c-fc1c286f48e2",
+            "relationship": "subset-of",
+            "matching-rationale": "Incident escalation paths maintained is one narrow synthetic OpenCompliance slice of the broader incident_response, incident_response, and incident_response families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.ir-02"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.incident_response"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.incident_response"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.incident_response"
+              }
+            ]
+          },
+          {
+            "uuid": "6cd4861b-6ce2-5730-ac22-571b95b275f1",
+            "relationship": "subset-of",
+            "matching-rationale": "Vendor security terms attested is one narrow synthetic OpenCompliance slice of the broader vendor_management, supplier_relationships, and processors_and_subprocessors families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.vendor-02"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.vendor_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.supplier_relationships"
+              },
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.processors_and_subprocessors"
+              }
+            ]
+          },
+          {
+            "uuid": "253e0477-8962-5c57-a514-e8a1c0a5f632",
+            "relationship": "subset-of",
+            "matching-rationale": "Vendor management adequacy boundary is one narrow synthetic OpenCompliance slice of the broader vendor_management, supplier_relationships, and processors_and_subprocessors families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.vendor-03"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.vendor_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.supplier_relationships"
+              },
+              {
+                "type": "control",
+                "id-ref": "gdpr.family.processors_and_subprocessors"
+              }
+            ]
+          },
+          {
+            "uuid": "6619a38e-b96f-5335-bed9-748e9c0ce9fc",
+            "relationship": "subset-of",
+            "matching-rationale": "Production change control decomposition boundary is one narrow synthetic OpenCompliance slice of the broader change_management, secure_development_and_change_control, and secure_development_and_change families.",
+            "sources": [
+              {
+                "type": "control",
+                "id-ref": "oc.change-01"
+              }
+            ],
+            "targets": [
+              {
+                "type": "control",
+                "id-ref": "soc2.family.change_management"
+              },
+              {
+                "type": "control",
+                "id-ref": "iso27001.family.secure_development_and_change_control"
+              },
+              {
+                "type": "control",
+                "id-ref": "irap.family.secure_development_and_change"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

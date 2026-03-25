@@ -1,0 +1,244 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/specs/schemas/exact-anchor-review-pilot.schema.json",
+  "title": "OpenCompliance Exact Anchor Review Pilot",
+  "type": "object",
+  "required": [
+    "version",
+    "pilotId",
+    "status",
+    "reviewMode",
+    "scope",
+    "summary",
+    "controls"
+  ],
+  "properties": {
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "pilotId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reviewMode": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "object",
+      "required": [
+        "frameworks",
+        "controlsCovered",
+        "note"
+      ],
+      "properties": {
+        "frameworks": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "controlsCovered": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": true
+    },
+    "summary": {
+      "type": "object",
+      "required": [
+        "reviewEntries",
+        "publicSourceReviewed",
+        "candidatePublicSourceUnreviewed",
+        "blockedNonpublicSourceReview"
+      ],
+      "properties": {
+        "reviewEntries": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "publicSourceReviewed": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "candidatePublicSourceUnreviewed": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "blockedNonpublicSourceReview": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": true
+    },
+    "controls": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "controlId",
+          "title",
+          "decompositionNote",
+          "reviews"
+        ],
+        "properties": {
+          "controlId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "decompositionNote": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reviews": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "framework",
+                "anchorType",
+                "relation",
+                "mappingMethod",
+                "reviewStatus",
+                "confidence",
+                "sourceAvailability",
+                "externalReviewState",
+                "rationale",
+                "authoritativeSource"
+              ],
+              "properties": {
+                "framework": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "anchorType": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "anchorId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "relation": {
+                  "type": "string",
+                  "enum": [
+                    "subset-of",
+                    "equivalent-to",
+                    "superset-of",
+                    "intersects-with",
+                    "undetermined"
+                  ]
+                },
+                "mappingMethod": {
+                  "type": "string",
+                  "enum": [
+                    "syntactic",
+                    "semantic",
+                    "functional"
+                  ]
+                },
+                "reviewStatus": {
+                  "type": "string",
+                  "enum": [
+                    "public_source_reviewed",
+                    "candidate_public_source_unreviewed",
+                    "blocked_nonpublic_source_review"
+                  ]
+                },
+                "confidence": {
+                  "type": "string",
+                  "enum": [
+                    "low",
+                    "medium",
+                    "high",
+                    "withheld"
+                  ]
+                },
+                "sourceAvailability": {
+                  "type": "string",
+                  "enum": [
+                    "public_text",
+                    "public_machine_readable",
+                    "licensed_text_required"
+                  ]
+                },
+                "externalReviewState": {
+                  "type": "string",
+                  "enum": [
+                    "not_started",
+                    "not_yet_external_reviewed",
+                    "needs_framework_specialist_review"
+                  ]
+                },
+                "candidateAnchorKinds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "blocker": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "nextAction": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "rationale": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "authoritativeSource": {
+                  "type": "object",
+                  "required": [
+                    "authority",
+                    "documentId",
+                    "locator"
+                  ],
+                  "properties": {
+                    "authority": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "documentId": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "locator": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

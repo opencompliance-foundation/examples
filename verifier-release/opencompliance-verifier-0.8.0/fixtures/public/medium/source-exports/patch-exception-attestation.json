@@ -1,0 +1,14 @@
+{
+  "collectedAt": "2026-03-24T01:26:00Z",
+  "sourceSystem": "example-governance",
+  "actorId": "operations-owner@exampleco.test",
+  "environment": "production",
+  "assetGroup": "production_patch_exceptions",
+  "evaluatedAt": "2026-03-24T01:26:00Z",
+  "expiresAt": "2026-06-22T01:26:00Z",
+  "signatureType": "synthetic_ed25519_attestation",
+  "exceptionRegisterCurrent": true,
+  "compensatingControlsDeclared": true,
+  "expiredExceptionsCount": 0,
+  "reviewWindowDays": 90
+}

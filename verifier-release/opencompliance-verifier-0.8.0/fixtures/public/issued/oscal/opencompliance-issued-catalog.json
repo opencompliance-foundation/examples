@@ -1,0 +1,194 @@
+{
+  "catalog": {
+    "uuid": "d71de0ee-5544-5c86-9ae8-3bcad5e76423",
+    "metadata": {
+      "title": "OpenCompliance Issued Corridor Catalog",
+      "published": "2026-03-24T02:10:00Z",
+      "last-modified": "2026-03-24T02:10:00Z",
+      "version": "0.3.0",
+      "oscal-version": "1.1.3",
+      "remarks": "Synthetic public-safe control catalog for the ExampleCo issued corridor. This is OpenCompliance seed content, not framework text."
+    },
+    "groups": [
+      {
+        "id": "oc.identity",
+        "title": "Identity and Access",
+        "controls": [
+          {
+            "id": "oc.id-01",
+            "title": "Scoped administrative MFA enforcement",
+            "parts": [
+              {
+                "id": "oc.id-01_stmt",
+                "name": "statement",
+                "prose": "Administrative identities require MFA in the scoped production environment."
+              }
+            ]
+          },
+          {
+            "id": "oc.id-04",
+            "title": "Unique infrastructure access identities required",
+            "parts": [
+              {
+                "id": "oc.id-04_stmt",
+                "name": "statement",
+                "prose": "Infrastructure access in the scoped production environment requires unique named identities with no shared administrative accounts."
+              }
+            ]
+          },
+          {
+            "id": "oc.id-05",
+            "title": "Scoped password policy enforced",
+            "parts": [
+              {
+                "id": "oc.id-05_stmt",
+                "name": "statement",
+                "prose": "Scoped password-quality controls enforce strong minimum length, no maximum-length restriction, and common-password blocking."
+              }
+            ]
+          },
+          {
+            "id": "oc.id-02",
+            "title": "Typed periodic access review export present",
+            "parts": [
+              {
+                "id": "oc.id-02_stmt",
+                "name": "statement",
+                "prose": "A typed export of periodic access review evidence is present for the current review window."
+              }
+            ]
+          },
+          {
+            "id": "oc.id-03",
+            "title": "Access review closure attested",
+            "parts": [
+              {
+                "id": "oc.id-03_stmt",
+                "name": "statement",
+                "prose": "Access review closure and high-risk exception resolution are attested for the current review window."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oc.misc",
+        "title": "Miscellaneous Controls",
+        "controls": [
+          {
+            "id": "oc.seg-01",
+            "title": "Customer and environment segmentation enforced",
+            "parts": [
+              {
+                "id": "oc.seg-01_stmt",
+                "name": "statement",
+                "prose": "Scoped customer and environment boundaries are enforced with no undeclared cross-environment paths in the production slice."
+              }
+            ]
+          },
+          {
+            "id": "oc.web-01",
+            "title": "Managed web application firewall attached",
+            "parts": [
+              {
+                "id": "oc.web-01_stmt",
+                "name": "statement",
+                "prose": "A managed web application firewall is attached to the scoped public ingress path, runs in blocking mode, and has a managed rule set active."
+              }
+            ]
+          },
+          {
+            "id": "oc.log-01",
+            "title": "Scoped audit logging enabled",
+            "parts": [
+              {
+                "id": "oc.log-01_stmt",
+                "name": "statement",
+                "prose": "Audit logging is enabled for the scoped production stack."
+              }
+            ]
+          },
+          {
+            "id": "oc.mon-01",
+            "title": "Scoped centralized monitoring enabled",
+            "parts": [
+              {
+                "id": "oc.mon-01_stmt",
+                "name": "statement",
+                "prose": "Scoped runtime telemetry is forwarded to the declared central monitoring sink with detection rules enabled."
+              }
+            ]
+          },
+          {
+            "id": "oc.crypt-01",
+            "title": "Encryption at rest enabled",
+            "parts": [
+              {
+                "id": "oc.crypt-01_stmt",
+                "name": "statement",
+                "prose": "Encryption at rest is enabled for the scoped customer data stores and no unencrypted store is present."
+              }
+            ]
+          },
+          {
+            "id": "oc.train-01",
+            "title": "Training completion record available",
+            "parts": [
+              {
+                "id": "oc.train-01_stmt",
+                "name": "statement",
+                "prose": "Security awareness training completion is documented for the current review window."
+              }
+            ]
+          },
+          {
+            "id": "oc.rec-01",
+            "title": "Restore exercise evidence present",
+            "parts": [
+              {
+                "id": "oc.rec-01_stmt",
+                "name": "statement",
+                "prose": "Restore testing has been performed in the declared review window."
+              }
+            ]
+          },
+          {
+            "id": "oc.ir-01",
+            "title": "Incident response runbook current",
+            "parts": [
+              {
+                "id": "oc.ir-01_stmt",
+                "name": "statement",
+                "prose": "The incident response runbook is approved, owned, and current for the declared review window."
+              }
+            ]
+          },
+          {
+            "id": "oc.mon-02",
+            "title": "Monitoring review operations current",
+            "parts": [
+              {
+                "id": "oc.mon-02_stmt",
+                "name": "statement",
+                "prose": "Monitoring review cadence, ownership, and retention operations are attested for the scoped production telemetry program."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "07c49a91-8a55-5a3d-9693-d8a91c85a407",
+          "title": "ExampleCo issued proof bundle",
+          "rlinks": [
+            {
+              "href": "../proof-bundle.json"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

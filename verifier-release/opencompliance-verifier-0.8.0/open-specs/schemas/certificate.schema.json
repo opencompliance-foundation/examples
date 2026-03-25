@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/specs/schemas/certificate.schema.json",
+  "title": "OpenCompliance Certificate",
+  "type": "object",
+  "required": [
+    "certificateId",
+    "status",
+    "issuedAt",
+    "bundleId",
+    "verifierVersion",
+    "organisation",
+    "profileId",
+    "scope",
+    "controlRefs",
+    "coverage",
+    "proofBundleSha256",
+    "trustSurfaceSha256"
+  ],
+  "properties": {
+    "certificateId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "issued"
+      ]
+    },
+    "issuedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "bundleId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "verifierVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "organisation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "profileId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "object"
+    },
+    "controlRefs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "required": [
+        "proved",
+        "attested",
+        "failed",
+        "staleEvidence",
+        "judgmentRequired",
+        "evidenceMissing"
+      ],
+      "properties": {
+        "proved": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "attested": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "failed": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "staleEvidence": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "judgmentRequired": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "evidenceMissing": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "proofBundleSha256": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    },
+    "trustSurfaceSha256": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    },
+    "note": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Backup Snapshot Schedule Payload",
+  "type": "object",
+  "required": [
+    "snapshotsEnabled",
+    "snapshotFrequencyHours",
+    "immutableWindowDays"
+  ],
+  "properties": {
+    "snapshotsEnabled": {
+      "type": "boolean"
+    },
+    "snapshotFrequencyHours": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "immutableWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

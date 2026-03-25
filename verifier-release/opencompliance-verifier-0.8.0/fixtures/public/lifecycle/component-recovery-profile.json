@@ -1,0 +1,20 @@
+{
+  "profileId": "component_recovery_corridor",
+  "organisation": "ExampleCo",
+  "frameworkIntent": [
+    "ISO 27001",
+    "SOC 2"
+  ],
+  "scope": {
+    "inScope": [
+      "Security awareness training records",
+      "Restore exercise attestations"
+    ],
+    "outOfScope": [
+      "Identity provider MFA enforcement",
+      "Cloud audit logging",
+      "Whole-program policy adequacy"
+    ],
+    "note": "Synthetic component scope for the training and recovery half of the ExampleCo issued corridor."
+  }
+}

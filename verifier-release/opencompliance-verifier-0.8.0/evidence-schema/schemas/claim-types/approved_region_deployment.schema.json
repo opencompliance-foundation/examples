@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Approved Region Deployment Payload",
+  "type": "object",
+  "required": [
+    "approvedRegions",
+    "observedRegions",
+    "undeclaredRegionsPresent"
+  ],
+  "properties": {
+    "approvedRegions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "observedRegions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "undeclaredRegionsPresent": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

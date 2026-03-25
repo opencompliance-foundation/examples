@@ -1,0 +1,14 @@
+{
+  "collectedAt": "2026-03-24T01:29:00Z",
+  "sourceSystem": "example-governance",
+  "actorId": "privacy-manager@exampleco.test",
+  "environment": "organisation",
+  "assetGroup": "high_risk_vendors",
+  "evaluatedAt": "2026-03-24T01:29:00Z",
+  "expiresAt": "2026-06-22T01:29:00Z",
+  "signatureType": "synthetic_ed25519_attestation",
+  "requiredSecurityTermsPresent": true,
+  "privacyTermsPresent": true,
+  "highRiskVendorsCovered": 3,
+  "reviewWindowDays": 90
+}

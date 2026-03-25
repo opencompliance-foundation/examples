@@ -1,0 +1,13 @@
+{
+  "collectedAt": "2026-03-24T01:27:00Z",
+  "sourceSystem": "example-governance",
+  "actorId": "security-operations-owner@exampleco.test",
+  "environment": "production",
+  "assetGroup": "incident_response_program",
+  "evaluatedAt": "2026-03-24T01:27:00Z",
+  "expiresAt": "2026-06-22T01:27:00Z",
+  "signatureType": "synthetic_ed25519_attestation",
+  "runbookApproved": true,
+  "ownerRole": "security_operations_owner",
+  "reviewWindowDays": 90
+}

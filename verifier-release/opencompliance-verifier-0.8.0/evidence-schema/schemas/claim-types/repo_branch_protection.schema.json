@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Repository Branch Protection Payload",
+  "type": "object",
+  "required": [
+    "defaultBranchProtected",
+    "requiredApprovals",
+    "statusChecksRequired",
+    "forcePushesBlocked",
+    "adminBypassRestricted"
+  ],
+  "properties": {
+    "defaultBranchProtected": {
+      "type": "boolean"
+    },
+    "requiredApprovals": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "statusChecksRequired": {
+      "type": "boolean"
+    },
+    "forcePushesBlocked": {
+      "type": "boolean"
+    },
+    "adminBypassRestricted": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

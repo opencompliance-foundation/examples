@@ -1,0 +1,33 @@
+{
+  "profileId": "medium_multiframework_corridor",
+  "organisation": "ExampleCo",
+  "frameworkIntent": [
+    "ISO 27001",
+    "SOC 2",
+    "IRAP",
+    "GDPR"
+  ],
+  "scope": {
+    "inScope": [
+      "Administrative identity enforcement",
+      "Repository default-branch protections",
+      "CI workflow deployment policy",
+      "Ingress TLS posture",
+      "Cloud audit logging",
+      "Machine identity key hygiene",
+      "Approved deployment regions",
+      "Backup snapshot scheduling",
+      "Security awareness records",
+      "Restore exercise attestations",
+      "Processor register review",
+      "DSR runbook ownership"
+    ],
+    "outOfScope": [
+      "Physical site security",
+      "Board oversight effectiveness",
+      "Whole-program policy adequacy outside the declared corridor",
+      "Clause-complete framework certification"
+    ],
+    "note": "Synthetic public-safe ExampleCo profile spanning a wider but still narrow technical and documentary corridor."
+  }
+}

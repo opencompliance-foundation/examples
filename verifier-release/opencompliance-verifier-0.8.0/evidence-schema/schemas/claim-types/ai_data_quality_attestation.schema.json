@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/ai_data_quality_attestation.schema.json",
+  "title": "AI Data Quality Attestation",
+  "type": "object",
+  "required": [
+    "dataSourcesEnumerated",
+    "qualityCriteriaDocumented",
+    "lineageDocumented",
+    "stewardAssigned",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "dataSourcesEnumerated": {
+      "type": "boolean"
+    },
+    "qualityCriteriaDocumented": {
+      "type": "boolean"
+    },
+    "lineageDocumented": {
+      "type": "boolean"
+    },
+    "stewardAssigned": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

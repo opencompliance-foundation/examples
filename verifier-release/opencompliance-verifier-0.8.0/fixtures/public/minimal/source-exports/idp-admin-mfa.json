@@ -1,0 +1,11 @@
+{
+  "collectedAt": "2026-03-24T00:00:00Z",
+  "sourceSystem": "example-idp",
+  "actorId": "idp-sync-bot",
+  "environment": "production",
+  "assetGroup": "human_admin_identities",
+  "evaluatedAt": "2026-03-24T00:00:00Z",
+  "expiresAt": "2026-04-24T00:00:00Z",
+  "mfaRequired": true,
+  "conditionalAccessEnabled": true
+}

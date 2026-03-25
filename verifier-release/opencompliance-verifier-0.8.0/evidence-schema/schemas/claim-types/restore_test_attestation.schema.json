@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Restore Test Attestation Payload",
+  "type": "object",
+  "required": [
+    "restoreTestCompleted",
+    "testWindowDays",
+    "scenarioId"
+  ],
+  "properties": {
+    "restoreTestCompleted": {
+      "type": "boolean"
+    },
+    "testWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "scenarioId": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

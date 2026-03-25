@@ -62,3 +62,8 @@ Only public-safe synthetic fixtures belong here.
   - which narrow statements ExampleCo can safely make for cyber, mixed issuance, AI governance, and blocked controls,
   - direct links to the public artifact roots,
   - and a generated showcase report plus human-readable summary built from the corridor outputs rather than hand-edited prose.
+- `verifier-release/`
+  A versioned public verifier bundle showing:
+  - the Python runtime, Lean corridor, specs, schemas, conformance scripts, and current synthetic corridors stitched into one replayable package,
+  - a release manifest that says which verifier version and fixture set the bundle covers,
+  - and a signed file manifest so others can verify the shipped release contents rather than trusting an undocumented snapshot.

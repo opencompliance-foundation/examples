@@ -1,0 +1,8 @@
+{
+  "revocationId": "exampleco-stale-revocation-2026-03-24",
+  "artifactType": "certificate",
+  "artifactId": "exampleco-stale-certificate-001",
+  "revokedAt": "2026-03-24T05:30:00Z",
+  "reason": "Synthetic example of revocation after evidence freshness expires before the next verification run.",
+  "supersededBy": "exampleco-stale-bundle-2026-03-24"
+}

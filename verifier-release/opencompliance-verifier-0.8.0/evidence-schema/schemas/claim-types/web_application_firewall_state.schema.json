@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/web_application_firewall_state.schema.json",
+  "title": "Web Application Firewall State",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "wafAttachedToPublicIngress",
+    "blockingModeEnabled",
+    "managedRuleSetActive"
+  ],
+  "properties": {
+    "wafAttachedToPublicIngress": {
+      "type": "boolean"
+    },
+    "blockingModeEnabled": {
+      "type": "boolean"
+    },
+    "managedRuleSetActive": {
+      "type": "boolean"
+    }
+  }
+}

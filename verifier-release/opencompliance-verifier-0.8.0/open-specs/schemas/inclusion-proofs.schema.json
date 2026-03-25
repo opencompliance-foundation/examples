@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/specs/schemas/inclusion-proofs.schema.json",
+  "title": "OpenCompliance Transparency Inclusion Proofs",
+  "type": "object",
+  "required": [
+    "bundleId",
+    "rootHash",
+    "proofs"
+  ],
+  "properties": {
+    "bundleId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rootHash": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    },
+    "proofs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "leafHash",
+          "proof"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "leafHash": {
+            "type": "string",
+            "minLength": 64,
+            "maxLength": 64
+          },
+          "proof": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "position",
+                "hash"
+              ],
+              "properties": {
+                "position": {
+                  "type": "string",
+                  "enum": [
+                    "left",
+                    "right"
+                  ]
+                },
+                "hash": {
+                  "type": "string",
+                  "minLength": 64,
+                  "maxLength": 64
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

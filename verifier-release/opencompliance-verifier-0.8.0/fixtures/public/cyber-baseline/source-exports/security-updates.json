@@ -1,0 +1,12 @@
+{
+  "collectedAt": "2026-03-24T06:06:00Z",
+  "sourceSystem": "example-vulnerability-manager",
+  "actorId": "patch-exporter",
+  "environment": "production",
+  "assetGroup": "managed_endpoints",
+  "evaluatedAt": "2026-03-24T06:06:00Z",
+  "expiresAt": "2026-03-31T06:06:00Z",
+  "supportedVersionsOnly": true,
+  "criticalOverdueCount": 0,
+  "patchWindowDays": 7
+}

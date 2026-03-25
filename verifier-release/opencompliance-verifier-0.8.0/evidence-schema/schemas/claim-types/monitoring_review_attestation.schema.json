@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/monitoring_review_attestation.schema.json",
+  "title": "Monitoring Review Attestation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "alertReviewCadenceDeclared",
+    "monitoringOwnerRole",
+    "retentionOperationsCovered",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "alertReviewCadenceDeclared": {
+      "type": "boolean"
+    },
+    "monitoringOwnerRole": {
+      "type": "string",
+      "minLength": 1
+    },
+    "retentionOperationsCovered": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  }
+}

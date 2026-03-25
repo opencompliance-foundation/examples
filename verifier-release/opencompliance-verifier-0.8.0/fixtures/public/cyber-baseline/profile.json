@@ -1,0 +1,29 @@
+{
+  "profileId": "cyber_baseline_corridor",
+  "organisation": "ExampleCo",
+  "frameworkIntent": [
+    "Cyber Essentials",
+    "NIST CSF 2.0",
+    "NIST SP 800-53 Rev. 5.1",
+    "ISO 27001",
+    "SOC 2",
+    "IRAP"
+  ],
+  "scope": {
+    "inScope": [
+      "Administrative MFA and conditional access",
+      "Default-deny network boundary",
+      "Secure baseline configuration",
+      "Security update state",
+      "Malware protection baseline"
+    ],
+    "outOfScope": [
+      "Physical security controls",
+      "Penetration testing coverage",
+      "Supplier due diligence",
+      "Full-framework certification or attestation",
+      "Endpoint telemetry beyond the declared synthetic managed fleet"
+    ],
+    "note": "Synthetic public-safe ExampleCo profile for a narrow cyber hygiene baseline corridor."
+  }
+}

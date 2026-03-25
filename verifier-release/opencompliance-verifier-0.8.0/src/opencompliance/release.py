@@ -1,0 +1,18 @@
+from __future__ import annotations
+
+
+PUBLIC_VERIFIER_NAME = "opencompliance-verifier"
+PUBLIC_VERIFIER_SEMVER = "0.8.0"
+PUBLIC_VERIFIER_VERSION = f"{PUBLIC_VERIFIER_NAME}/{PUBLIC_VERIFIER_SEMVER}"
+PUBLIC_VERIFIER_RELEASE_ID = f"{PUBLIC_VERIFIER_NAME}-{PUBLIC_VERIFIER_SEMVER}"
+PUBLIC_VERIFIER_RELEASED_AT = "2026-03-25T23:30:00Z"
+PUBLIC_VERIFIER_LAYOUT_VERSION = 1
+PUBLIC_VERIFIER_INCLUDED_FIXTURES = (
+    "minimal",
+    "failed",
+    "stale",
+    "medium",
+    "issued",
+    "cyber-baseline",
+    "ai-governance",
+)

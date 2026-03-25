@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/specs/schemas/punch-list.schema.json",
+  "title": "OpenCompliance Punch-List",
+  "type": "object",
+  "required": [
+    "punchListId",
+    "generatedAt",
+    "bundleId",
+    "verifierVersion",
+    "organisation",
+    "profileId",
+    "blockingIssueCount",
+    "blockingIssues"
+  ],
+  "properties": {
+    "punchListId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "bundleId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "verifierVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "organisation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "profileId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "blockingIssueCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "blockingIssues": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "claimId",
+          "title",
+          "issueType",
+          "route",
+          "frameworkMappings",
+          "controlRefs",
+          "requiredAction",
+          "reason"
+        ],
+        "properties": {
+          "claimId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "issueType": {
+            "type": "string",
+            "enum": [
+              "failing_machine_evidence",
+              "failing_attestation",
+              "stale_machine_evidence",
+              "stale_attestation",
+              "missing_machine_evidence",
+              "missing_attestation",
+              "human_judgment_required"
+            ]
+          },
+          "route": {
+            "type": "string",
+            "enum": [
+              "decidable",
+              "attestation",
+              "judgment"
+            ]
+          },
+          "requiredClaimType": {
+            "type": "string"
+          },
+          "frameworkMappings": {
+            "type": "array"
+          },
+          "controlRefs": {
+            "type": "array"
+          },
+          "requiredAction": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "note": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

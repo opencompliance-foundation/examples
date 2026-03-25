@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DSR Runbook Attestation Payload",
+  "type": "object",
+  "required": [
+    "runbookApproved",
+    "ownerRole",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "runbookApproved": {
+      "type": "boolean"
+    },
+    "ownerRole": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

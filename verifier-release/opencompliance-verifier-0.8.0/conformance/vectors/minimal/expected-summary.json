@@ -1,0 +1,11 @@
+{
+  "bundleId": "exampleco-minimal-bundle-2026-03-24",
+  "expectedCounts": {
+    "proved": 2,
+    "attested": 1,
+    "failed": 0,
+    "staleEvidence": 0,
+    "judgmentRequired": 1,
+    "evidenceMissing": 1
+  }
+}

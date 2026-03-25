@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/ai_monitoring_attestation.schema.json",
+  "title": "AI Monitoring Attestation",
+  "type": "object",
+  "required": [
+    "monitoringOwnerAssigned",
+    "incidentEscalationPathDocumented",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "monitoringOwnerAssigned": {
+      "type": "boolean"
+    },
+    "incidentEscalationPathDocumented": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

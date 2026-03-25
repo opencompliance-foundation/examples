@@ -1,0 +1,12 @@
+{
+  "collectedAt": "2026-03-24T02:01:00Z",
+  "sourceSystem": "example-architecture",
+  "actorId": "architecture-exporter",
+  "environment": "production",
+  "assetGroup": "tenant_and_environment_boundary",
+  "evaluatedAt": "2026-03-24T02:01:00Z",
+  "expiresAt": "2026-04-24T00:00:00Z",
+  "customerBoundaryEnforced": true,
+  "productionSeparatedFromNonProduction": true,
+  "undeclaredCrossEnvironmentPathsPresent": false
+}

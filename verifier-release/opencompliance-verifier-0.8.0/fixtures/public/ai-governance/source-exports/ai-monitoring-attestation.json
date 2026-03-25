@@ -1,0 +1,13 @@
+{
+  "collectedAt": "2026-03-24T06:37:00Z",
+  "sourceSystem": "example-ai-governance",
+  "actorId": "ai-monitoring-owner@exampleco.test",
+  "environment": "production",
+  "assetGroup": "ai_assistant_surface",
+  "evaluatedAt": "2026-03-24T06:37:00Z",
+  "expiresAt": "2026-06-22T06:37:00Z",
+  "signatureType": "synthetic_ed25519_attestation",
+  "monitoringOwnerAssigned": true,
+  "incidentEscalationPathDocumented": true,
+  "reviewWindowDays": 90
+}

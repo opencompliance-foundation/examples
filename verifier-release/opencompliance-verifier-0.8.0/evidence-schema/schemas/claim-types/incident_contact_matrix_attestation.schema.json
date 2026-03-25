@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/incident_contact_matrix_attestation.schema.json",
+  "title": "Incident Contact Matrix Attestation",
+  "type": "object",
+  "required": [
+    "contactsCurrent",
+    "escalationPathDocumented",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "contactsCurrent": {
+      "type": "boolean"
+    },
+    "escalationPathDocumented": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

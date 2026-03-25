@@ -1,0 +1,13 @@
+{
+  "collectedAt": "2026-03-24T01:04:00Z",
+  "sourceSystem": "example-edge",
+  "actorId": "edge-config-exporter",
+  "environment": "production",
+  "assetGroup": "public_ingress",
+  "evaluatedAt": "2026-03-24T01:04:00Z",
+  "expiresAt": "2026-03-31T01:04:00Z",
+  "httpsOnly": true,
+  "minTlsVersion": "1.2",
+  "managedCertificatesActive": true,
+  "plaintextDisabled": true
+}

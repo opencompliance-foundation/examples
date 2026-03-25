@@ -1,0 +1,315 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/specs/schemas/control-boundaries.schema.json",
+  "title": "OpenCompliance Control Boundaries",
+  "type": "object",
+  "required": [
+    "version",
+    "corridor",
+    "mappingLevel",
+    "mappingModel",
+    "controls",
+    "auxiliaryClaims"
+  ],
+  "properties": {
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "corridor": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mappingLevel": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mappingModel": {
+      "type": "object",
+      "required": [
+        "currentState",
+        "targetState"
+      ],
+      "properties": {
+        "currentState": {
+          "type": "object",
+          "required": [
+            "level",
+            "description",
+            "leanAttachmentPoint",
+            "relation",
+            "mappingMethod",
+            "reviewStatus"
+          ],
+          "properties": {
+            "level": {
+              "type": "string",
+              "minLength": 1
+            },
+            "description": {
+              "type": "string",
+              "minLength": 1
+            },
+            "leanAttachmentPoint": {
+              "type": "string",
+              "minLength": 1
+            },
+            "relation": {
+              "type": "string",
+              "minLength": 1
+            },
+            "mappingMethod": {
+              "type": "string",
+              "minLength": 1
+            },
+            "reviewStatus": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        },
+        "targetState": {
+          "type": "object",
+          "required": [
+            "level",
+            "description",
+            "requiredCapabilities"
+          ],
+          "properties": {
+            "level": {
+              "type": "string",
+              "minLength": 1
+            },
+            "description": {
+              "type": "string",
+              "minLength": 1
+            },
+            "requiredCapabilities": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    },
+    "controls": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "controlId",
+          "title",
+          "classification",
+          "publicExamples",
+          "sourceMappings",
+          "mappingStatus",
+          "boundary"
+        ],
+        "properties": {
+          "controlId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "classification": {
+            "type": "string",
+            "enum": [
+              "decidable",
+              "attestation",
+              "judgment",
+              "mixed"
+            ]
+          },
+          "publicExamples": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "sourceMappings": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "framework",
+                "family",
+                "controlId"
+              ],
+              "properties": {
+                "framework": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "family": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "controlId": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": true
+            }
+          },
+          "mappingStatus": {
+            "type": "object",
+            "required": [
+              "currentAnchorKind",
+              "relation",
+              "mappingMethod",
+              "reviewStatus",
+              "confidence",
+              "targetAnchorPlans"
+            ],
+            "properties": {
+              "currentAnchorKind": {
+                "type": "string",
+                "minLength": 1
+              },
+              "relation": {
+                "type": "string",
+                "minLength": 1
+              },
+              "mappingMethod": {
+                "type": "string",
+                "minLength": 1
+              },
+              "reviewStatus": {
+                "type": "string",
+                "minLength": 1
+              },
+              "confidence": {
+                "type": "string",
+                "minLength": 1
+              },
+              "targetAnchorPlans": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "framework",
+                    "anchorKinds"
+                  ],
+                  "properties": {
+                    "framework": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "anchorKinds": {
+                      "type": "array",
+                      "minItems": 1,
+                      "items": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              }
+            },
+            "additionalProperties": true
+          },
+          "boundary": {
+            "type": "object",
+            "required": [
+              "proves",
+              "doesNotProve"
+            ],
+            "properties": {
+              "proves": {
+                "type": "string",
+                "minLength": 1
+              },
+              "doesNotProve": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "auxiliaryClaims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claimKey",
+          "classification",
+          "publicExamples",
+          "boundary"
+        ],
+        "properties": {
+          "claimKey": {
+            "type": "string",
+            "minLength": 1
+          },
+          "classification": {
+            "type": "string",
+            "enum": [
+              "decidable",
+              "attestation",
+              "judgment",
+              "mixed"
+            ]
+          },
+          "publicExamples": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "boundary": {
+            "type": "object",
+            "required": [
+              "proves",
+              "doesNotProve"
+            ],
+            "properties": {
+              "proves": {
+                "type": "string",
+                "minLength": 1
+              },
+              "doesNotProve": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

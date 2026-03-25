@@ -1,0 +1,61 @@
+{
+  "profile": {
+    "uuid": "bbc7aac6-a606-5cc9-8d0f-e48bb13d5592",
+    "metadata": {
+      "title": "ExampleCo Medium Corridor Profile",
+      "published": "2026-03-24T01:25:00Z",
+      "last-modified": "2026-03-24T01:25:00Z",
+      "version": "0.2.0",
+      "oscal-version": "1.1.3",
+      "remarks": "Synthetic public-safe profile selecting the medium ExampleCo OpenCompliance corridor."
+    },
+    "imports": [
+      {
+        "href": "./opencompliance-medium-catalog.json",
+        "include-controls": [
+          {
+            "with-ids": [
+              "oc.id-01",
+              "oc.id-04",
+              "oc.seg-01",
+              "oc.id-05",
+              "oc.web-01",
+              "oc.log-01",
+              "oc.mon-01",
+              "oc.net-01",
+              "oc.net-02",
+              "oc.net-03",
+              "oc.net-04",
+              "oc.crypt-01",
+              "oc.key-01",
+              "oc.loc-01",
+              "oc.backup-01",
+              "oc.train-01",
+              "oc.rec-01",
+              "oc.vendor-01",
+              "oc.privacy-01",
+              "oc.privacy-02",
+              "oc.id-02",
+              "oc.repo-01",
+              "oc.ci-01",
+              "oc.change-02",
+              "oc.id-03",
+              "oc.mon-02",
+              "oc.cfg-02",
+              "oc.patch-02",
+              "oc.patch-03",
+              "oc.ir-01",
+              "oc.ir-02",
+              "oc.vendor-02",
+              "oc.vendor-03",
+              "oc.change-01"
+            ]
+          }
+        ]
+      }
+    ],
+    "merge": {
+      "as-is": true
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "assessment-plan": {
+    "uuid": "25270e09-1113-5d6c-8451-67024f52cce4",
+    "metadata": {
+      "title": "ExampleCo Issued Corridor Assessment Plan",
+      "last-modified": "2026-03-24T02:10:00Z",
+      "version": "0.3.0",
+      "oscal-version": "1.1.3",
+      "remarks": "Synthetic assessment plan for the ExampleCo issued public corridor."
+    },
+    "import-ssp": {
+      "href": "./exampleco-issued-ssp.json"
+    },
+    "reviewed-controls": {
+      "control-selections": [
+        {
+          "include-controls": [
+            {
+              "control-id": "oc.id-01"
+            },
+            {
+              "control-id": "oc.id-04"
+            },
+            {
+              "control-id": "oc.seg-01"
+            },
+            {
+              "control-id": "oc.id-05"
+            },
+            {
+              "control-id": "oc.web-01"
+            },
+            {
+              "control-id": "oc.log-01"
+            },
+            {
+              "control-id": "oc.mon-01"
+            },
+            {
+              "control-id": "oc.crypt-01"
+            },
+            {
+              "control-id": "oc.train-01"
+            },
+            {
+              "control-id": "oc.rec-01"
+            },
+            {
+              "control-id": "oc.id-02"
+            },
+            {
+              "control-id": "oc.id-03"
+            },
+            {
+              "control-id": "oc.ir-01"
+            },
+            {
+              "control-id": "oc.mon-02"
+            }
+          ]
+        }
+      ],
+      "control-objective-selections": [
+        {
+          "include-all": {}
+        }
+      ]
+    },
+    "assessment-subjects": [
+      {
+        "type": "component",
+        "description": "Synthetic ExampleCo corridor component used for the issued assessment example.",
+        "include-all": {}
+      }
+    ],
+    "tasks": [
+      {
+        "uuid": "7a6ca2a9-8c19-53f5-930b-a5dc82098156",
+        "type": "action",
+        "title": "Evaluate ExampleCo issued corridor evidence",
+        "description": "Assess the synthetic evidence used by the ExampleCo issued bundle."
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "510578c7-90a9-5735-9877-6e2c936d4360",
+          "title": "ExampleCo evidence claims",
+          "rlinks": [
+            {
+              "href": "../evidence-claims.json"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

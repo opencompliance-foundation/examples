@@ -1,0 +1,14 @@
+{
+  "collectedAt": "2026-03-24T02:04:00Z",
+  "sourceSystem": "example-governance",
+  "actorId": "detection-engineering-owner@exampleco.test",
+  "environment": "production",
+  "assetGroup": "telemetry_program",
+  "evaluatedAt": "2026-03-24T02:04:00Z",
+  "expiresAt": "2026-06-30T23:59:59Z",
+  "signatureType": "synthetic-dsse",
+  "alertReviewCadenceDeclared": true,
+  "monitoringOwnerRole": "detection_engineering_owner",
+  "retentionOperationsCovered": true,
+  "reviewWindowDays": 90
+}

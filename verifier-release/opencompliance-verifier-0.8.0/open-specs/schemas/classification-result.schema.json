@@ -1,0 +1,274 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/specs/schemas/classification-result.schema.json",
+  "title": "OpenCompliance Classification Result",
+  "type": "object",
+  "required": [
+    "classificationResultId",
+    "generatedAt",
+    "bundleId",
+    "verifierVersion",
+    "organisation",
+    "profileId",
+    "routeSummary",
+    "items"
+  ],
+  "properties": {
+    "classificationResultId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "bundleId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "verifierVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "organisation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "profileId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "routeSummary": {
+      "type": "object",
+      "required": [
+        "decidable",
+        "attestation",
+        "judgment"
+      ],
+      "properties": {
+        "decidable": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "attestation": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "judgment": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "claimId",
+          "title",
+          "route",
+          "controlRefs",
+          "expectedClaimType",
+          "evidenceRequired",
+          "leanBacked",
+          "rationale"
+        ],
+        "properties": {
+          "claimId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "route": {
+            "type": "string",
+            "enum": [
+              "decidable",
+              "attestation",
+              "judgment"
+            ]
+          },
+          "controlRefs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "expectedClaimType": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "evidenceRequired": {
+            "type": "boolean"
+          },
+          "leanBacked": {
+            "type": "boolean"
+          },
+          "rationale": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "mixedControls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "controlId",
+          "title",
+          "controlRefs",
+          "frameworkMappings",
+          "rationale",
+          "decompositionSummary",
+          "subObligations"
+        ],
+        "properties": {
+          "controlId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "controlRefs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "frameworkMappings": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "framework",
+                "family",
+                "controlId"
+              ],
+              "properties": {
+                "framework": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "family": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "controlId": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "rationale": {
+            "type": "string",
+            "minLength": 1
+          },
+          "decompositionSummary": {
+            "type": "object",
+            "required": [
+              "decidable",
+              "attestation",
+              "judgment"
+            ],
+            "properties": {
+              "decidable": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "attestation": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "judgment": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "additionalProperties": false
+          },
+          "subObligations": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "claimId",
+                "title",
+                "route",
+                "controlRefs",
+                "expectedClaimType",
+                "evidenceRequired",
+                "leanBacked",
+                "rationale"
+              ],
+              "properties": {
+                "claimId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "title": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "route": {
+                  "type": "string",
+                  "enum": [
+                    "decidable",
+                    "attestation",
+                    "judgment"
+                  ]
+                },
+                "controlRefs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "expectedClaimType": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "evidenceRequired": {
+                  "type": "boolean"
+                },
+                "leanBacked": {
+                  "type": "boolean"
+                },
+                "rationale": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "note": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

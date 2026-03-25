@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/encryption_at_rest_state.schema.json",
+  "title": "Encryption At Rest State",
+  "type": "object",
+  "required": [
+    "encryptionEnabled",
+    "customerDataStoresCovered",
+    "unencryptedStoresPresent"
+  ],
+  "properties": {
+    "encryptionEnabled": {
+      "type": "boolean"
+    },
+    "customerDataStoresCovered": {
+      "type": "boolean"
+    },
+    "unencryptedStoresPresent": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,8 @@
+{
+  "revocationId": "exampleco-failed-revocation-2026-03-24",
+  "artifactType": "certificate",
+  "artifactId": "exampleco-failed-certificate-001",
+  "revokedAt": "2026-03-24T04:40:00Z",
+  "reason": "Synthetic example of failure-state publication after present but non-compliant machine evidence.",
+  "supersededBy": "exampleco-failed-bundle-2026-03-24"
+}

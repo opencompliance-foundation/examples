@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/specs/schemas/verification-result.schema.json",
+  "title": "OpenCompliance Verification Result",
+  "type": "object",
+  "required": [
+    "verificationResultId",
+    "generatedAt",
+    "bundleId",
+    "verifierVersion",
+    "organisation",
+    "profileId",
+    "outcome",
+    "proofBundleSha256",
+    "trustSurfaceSha256",
+    "outcomeArtifact",
+    "blockingIssueCount"
+  ],
+  "properties": {
+    "verificationResultId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "bundleId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "verifierVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "organisation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "profileId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "outcome": {
+      "type": "string",
+      "enum": [
+        "certificate_issued",
+        "punch_list_issued"
+      ]
+    },
+    "proofBundleSha256": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    },
+    "trustSurfaceSha256": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    },
+    "outcomeArtifact": {
+      "type": "object",
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "minLength": 64,
+          "maxLength": 64
+        }
+      },
+      "additionalProperties": false
+    },
+    "blockingIssueCount": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "additionalProperties": false
+}

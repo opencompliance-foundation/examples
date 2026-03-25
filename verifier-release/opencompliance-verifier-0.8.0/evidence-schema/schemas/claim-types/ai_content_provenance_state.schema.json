@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/ai_content_provenance_state.schema.json",
+  "title": "AI Content Provenance State",
+  "type": "object",
+  "required": [
+    "provenanceMetadataEnabled",
+    "originHistoryRetained",
+    "verificationChecksPassing"
+  ],
+  "properties": {
+    "provenanceMetadataEnabled": {
+      "type": "boolean"
+    },
+    "originHistoryRetained": {
+      "type": "boolean"
+    },
+    "verificationChecksPassing": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

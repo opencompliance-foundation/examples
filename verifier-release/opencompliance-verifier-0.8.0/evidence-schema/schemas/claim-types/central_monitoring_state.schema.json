@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/central_monitoring_state.schema.json",
+  "title": "Central Monitoring State",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "centralSinkConfigured",
+    "scopedAssetsForwarded",
+    "alertRulesEnabled"
+  ],
+  "properties": {
+    "centralSinkConfigured": {
+      "type": "boolean"
+    },
+    "scopedAssetsForwarded": {
+      "type": "boolean"
+    },
+    "alertRulesEnabled": {
+      "type": "boolean"
+    }
+  }
+}
