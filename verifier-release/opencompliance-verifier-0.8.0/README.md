@@ -9,6 +9,7 @@ Included:
 - Python verifier runtime under `src/opencompliance/`
 - Lean 4 proof corridor under `lean4-controls/`
 - Open specs, schemas, and control boundaries under `open-specs/`
+- Machine-readable verifier contract under `open-specs/verifier-contract.json`
 - Evidence-claim schemas under `evidence-schema/`
 - Conformance scripts and vectors under `conformance/`
 - Synthetic ExampleCo fixtures under `fixtures/public/`

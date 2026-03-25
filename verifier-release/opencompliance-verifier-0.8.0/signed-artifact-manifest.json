@@ -10,8 +10,8 @@
   "artifacts": [
     {
       "path": "README.md",
-      "sha256": "a33409ee91221e5c5f2f1b2d6d5cd4e75ce8e88783342aaf8c6011513da82291",
-      "signature": "cFfXGl1EOQbVghbWH/mLc0wqHaTROkNIk50fLOlI6y8JrILXLFOsC/vqbmm0PcPFotYvzfnKcdYXb3ClZTJvCQ=="
+      "sha256": "8beb8d6b0a3a8bfeec97b578ebfdea36b8862c3c3d593cd43e0d2d1554d20cc0",
+      "signature": "N+L9lYRJzJMv6+ZJQh1lPJdkg07ufFtgom9KeGSVvnnjBcs9c+AIcWh1OuVd2ghq5xDNwIKo16IRhe6Q8a/NBw=="
     },
     {
       "path": "VERSION",
@@ -60,8 +60,8 @@
     },
     {
       "path": "conformance/scripts/validate_public_examples.py",
-      "sha256": "978155721efccc0a60f6f74141cc1309892697f911d5b69439d639ab706251e8",
-      "signature": "q50GiNZfbcsP08RRhO7GZTv6/3pbi1oC/Bxmk14mww2sa5fdV3EiO4URWEiKmOALnztUrysX9VjVOkOqBShxAg=="
+      "sha256": "c151062f7b25a100973cf5d2085b5fa176e016d7df23637915e808cd429eb6c3",
+      "signature": "PLeaMvU5+ouPL7MuxR3CvmnOjmIL8HhZH1Q7nvHm8idZD+TX4cB2j3W7vVQnx2l5qZxjO6PPZ2pjkWxvhJ5vAg=="
     },
     {
       "path": "conformance/vectors/ai-governance/README.md",
@@ -1770,8 +1770,8 @@
     },
     {
       "path": "open-specs/STATUS.md",
-      "sha256": "a031ffc56371f88e1824c2d3aab9e443776e206b4a42ce638da209beacf4e47b",
-      "signature": "AzeqwpAbIPFXRNvu+1TEmJUQ2FElpYofqNpHEehPCbquHkIa9lfBFq9gi2hF9Ov2fSKoHGcyHVJVW4Fa0ZvNBA=="
+      "sha256": "bdb89c7b24e328bfdcc4742d1a0c71246f829c20884d21249a10f6f5d64b361c",
+      "signature": "uUd1cdQQ2GlhHBeioEA9l/juW9CKFno8O/OOuv7GKZi4IcV/Bm00Bx6UEDqs0lBThPutBbqpEpvS8fuc9X7vAQ=="
     },
     {
       "path": "open-specs/VERSIONING.md",
@@ -1847,6 +1847,11 @@
       "path": "open-specs/artifacts/verification-result.md",
       "sha256": "778e3726e8c9b4addee7808377cdf60b4eebab2fd2edd970852c77b1207764e4",
       "signature": "UyS+faG4SHbiBO8Z1tcFW5m+qsLFbvvLL/O6yPmZfzxqeMybFrPkZQnvuUHMLJblX8+PvD88n9OpuZ7BBFH/CQ=="
+    },
+    {
+      "path": "open-specs/artifacts/verifier-contract.md",
+      "sha256": "03c36ff816c7216319041de4d767a39cb608616a93aea074b4221c15e3aa9a57",
+      "signature": "z1/b0tkOU9qmdJh3htLD+ogwO8vt6ATKOC2D8Zp4d6iMhIRp4x9ZhAhvlxI2ApDL0fdZJfPo41BymM2FZ5x/CQ=="
     },
     {
       "path": "open-specs/artifacts/verifier-release.md",
@@ -1974,14 +1979,24 @@
       "signature": "Ur+Fcskie2y4CbzKmfbTkaH6sGGfSJZEVf91UpS29Osdp3aPc2VOsqiqHwQ8jBFyh61S4+wcGo9T34Q2PY0BAA=="
     },
     {
+      "path": "open-specs/schemas/verifier-contract.schema.json",
+      "sha256": "c3ad7379cc648cf0fb7f34e00c16b646af767153dc100eb7850bae39f55f4983",
+      "signature": "H/X82sEVY9w8dOM5anxjjKd8cVrMsTk/NMAua2l5oxZ+BT9J1jnmBAD7Ah8XUaDlydIUOd+N/N/LgFwEfX95Cw=="
+    },
+    {
       "path": "open-specs/schemas/verifier-release.schema.json",
-      "sha256": "c31acabe4024fb0504ba7a535f0e72e4db96f5fbdd7b5c55b4274a3b05810e4a",
-      "signature": "1pCgIqHCyZSoxpadK8s9W/8t7iQlSrZqGNktzj4Swe6wNy0UmU4aDi6aY7vS+7I0swg6i3o68bdmKO3O2UgCBA=="
+      "sha256": "00a1493711b07177e2cddda3c2c04255f927ca8e2044e07d0ca491c07202992c",
+      "signature": "MV2rGlsAg6wIeb8xLLXnpm4TeCF5JvrmLGXpj+sF+PUnQI/P9iJFlXle5GvZ3b61RYvYcON12evJvsDefIubBw=="
     },
     {
       "path": "open-specs/schemas/witness-receipt.schema.json",
       "sha256": "8eb4c051f6b8aa384d7bb90ebf32049073159f9e31d85ae1919b61bbdb1c2265",
       "signature": "1/GOb51g3eBwIWZy73XoF9AApHFiS5CnOvqm6K6Lf6NACLimCEp32fe65p+lmvPLKOtX+PmQbZqC/PkgZnzQBQ=="
+    },
+    {
+      "path": "open-specs/verifier-contract.json",
+      "sha256": "22141f2b593868c86c1ef19d83d665dd7d30fbca856ab00381f36ba7f20d4b3e",
+      "signature": "RoQSvJp5Dji/OttPg1aar0iwKvrFYgS2gnyZVc+Q38Z4hv2p/6OWtGCiXjD7NupYvEmJYfQk100ipczp13YiAA=="
     },
     {
       "path": "public-key.pem",
@@ -1990,8 +2005,8 @@
     },
     {
       "path": "release-manifest.json",
-      "sha256": "125785a679b2a45b01af33c4594a2fd11db0ee248ae54b9120b8806ee029a63d",
-      "signature": "MM+3Ub5ueYPc2TrMr4TVBQi4kkfRsLA68cHzIRIOnsvxMnOmtRlcwVjn590Ullsp6/FHq+oFc2a8F+kpSM8uAw=="
+      "sha256": "1d67ddf707b6edb4a869f9c46dc3daf49768a99c2baeb4c75efae95699e253c5",
+      "signature": "7EObgDz9ljXCIl89hOZTRnQUGlYYZrGE+qlJ0Td9oDkviXGYETwSaHI9lBTsnULtyKxXV6UrH61AgAtVn9O4Bg=="
     },
     {
       "path": "scripts/run_lean_batch.py",
@@ -2100,8 +2115,8 @@
     },
     {
       "path": "src/opencompliance/release.py",
-      "sha256": "3aa708c0c60f0868895f6b23a588192886881c067022a338c4a09cceb3b1f5a6",
-      "signature": "VjIx1qnOgx9bPIPqvfC1nla94+62HWyHByOda789atIj2AQrhUaTOMcJRMZBtgjVuhYf/cbKFkzRwb7RidwEDw=="
+      "sha256": "db84a1e621b68f213fc5420320bbf8494a5176f2fa2ca82c9586322842ea3f2f",
+      "signature": "cksLLcyFvpE+f1n2xLcztcSVYJAHTnKqa45GU5/dOtLS2XIci+cv7iea65edKeUNvMBJJjjNzyto0qtiZXlSAQ=="
     },
     {
       "path": "src/opencompliance/seed_decomposition.py",

@@ -29,11 +29,13 @@
     "conformance/",
     "fixtures/public/"
   ],
+  "verifierContractPath": "open-specs/verifier-contract.json",
   "publicKeyPath": "public-key.pem",
   "signedArtifactManifestPath": "signed-artifact-manifest.json",
   "notes": [
     "This bundle preserves the same relative layout assumptions as the private reference runtime.",
     "All example data is synthetic and public-safe.",
-    "The signed-artifact manifest covers the bundle contents except the manifest file itself."
+    "The signed-artifact manifest covers the bundle contents except the manifest file itself.",
+    "The verifier contract defines the current release-level runtime and artifact expectations."
   ]
 }
