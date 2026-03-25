@@ -1770,8 +1770,8 @@
     },
     {
       "path": "open-specs/STATUS.md",
-      "sha256": "bdb89c7b24e328bfdcc4742d1a0c71246f829c20884d21249a10f6f5d64b361c",
-      "signature": "uUd1cdQQ2GlhHBeioEA9l/juW9CKFno8O/OOuv7GKZi4IcV/Bm00Bx6UEDqs0lBThPutBbqpEpvS8fuc9X7vAQ=="
+      "sha256": "a3e70409fa576c86cdffb2303d117fefb389df3f65b26eb58be24fd8b155d85a",
+      "signature": "wjm3tf8xUmTFSEh+4YMVTEq7Znxk3Iq1I0RsBrSKQ/5xvv6lXn8HOBLmUqLoMLoMYA0WLxFN/X6c6w1hzZC0CQ=="
     },
     {
       "path": "open-specs/VERSIONING.md",

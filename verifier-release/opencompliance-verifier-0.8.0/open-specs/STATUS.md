@@ -34,7 +34,7 @@
 
 - No normative schema registry.
 - No compatibility guarantees beyond `0.x` draft expectations.
-- No production-grade release automation or independent release attestation beyond the current synthetic signed bundle.
+- A private scripted release path now rebuilds, validates, and smoke-checks the current synthetic bundle before publication; the remaining gap is CI-backed release attestation and independent release witnesses beyond the current synthetic signed bundle.
 - No independent implementation conformance programme.
 - No externally reviewed clause-, Annex A-, criterion-, or point-of-focus anchor set for the public corridor yet.
 - No live-connector or real-organisation corridors yet for the newer Cyber Essentials and AI-governance controls.
