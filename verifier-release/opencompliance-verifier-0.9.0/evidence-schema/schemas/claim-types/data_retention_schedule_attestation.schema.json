@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/data_retention_schedule_attestation.schema.json",
+  "title": "Data Retention Schedule Attestation",
+  "type": "object",
+  "required": [
+    "scheduleDefined",
+    "exceptionHandlingDefined",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "scheduleDefined": {
+      "type": "boolean"
+    },
+    "exceptionHandlingDefined": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

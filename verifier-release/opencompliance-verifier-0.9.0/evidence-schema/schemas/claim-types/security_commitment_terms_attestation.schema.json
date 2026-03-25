@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/security_commitment_terms_attestation.schema.json",
+  "title": "Security Commitment Terms Attestation",
+  "type": "object",
+  "required": [
+    "termsPresent",
+    "agreementTypesCovered",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "termsPresent": {
+      "type": "boolean"
+    },
+    "agreementTypesCovered": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

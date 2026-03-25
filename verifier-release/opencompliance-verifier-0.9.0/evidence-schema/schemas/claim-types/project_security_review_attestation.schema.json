@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/project_security_review_attestation.schema.json",
+  "title": "Project Security Review Attestation",
+  "type": "object",
+  "required": [
+    "reviewPerformed",
+    "exceptionsTracked",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "reviewPerformed": {
+      "type": "boolean"
+    },
+    "exceptionsTracked": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

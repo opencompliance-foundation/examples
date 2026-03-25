@@ -1,0 +1,307 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/specs/schemas/verifier-contract.schema.json",
+  "title": "OpenCompliance Public Verifier Contract",
+  "type": "object",
+  "required": [
+    "$schema",
+    "contractId",
+    "contractVersion",
+    "verifierVersion",
+    "releaseId",
+    "releaseGeneratedAt",
+    "bundleLayoutVersion",
+    "includedFixtures",
+    "entrypoints",
+    "includedRoots",
+    "releaseArtifacts",
+    "fixtureArtifacts",
+    "artifactPolicies",
+    "apiSurface",
+    "typedBoundary"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "const": "https://opencompliancefoundation.com/specs/schemas/verifier-contract.schema.json"
+    },
+    "contractId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "contractVersion": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "verifierVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "releaseId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "releaseGeneratedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "bundleLayoutVersion": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "includedFixtures": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "entrypoints": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "includedRoots": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "releaseArtifacts": {
+      "$ref": "#/$defs/artifactMap"
+    },
+    "fixtureArtifacts": {
+      "$ref": "#/$defs/artifactMap"
+    },
+    "artifactPolicies": {
+      "type": "object",
+      "required": [
+        "alwaysRequired",
+        "byVerificationOutcome"
+      ],
+      "properties": {
+        "alwaysRequired": {
+          "$ref": "#/$defs/artifactNameList"
+        },
+        "byVerificationOutcome": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": {
+            "$ref": "#/$defs/artifactNameList"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "apiSurface": {
+      "type": "object",
+      "required": [
+        "transport",
+        "defaultHost",
+        "defaultPort",
+        "requestModes",
+        "endpoints"
+      ],
+      "properties": {
+        "transport": {
+          "type": "string",
+          "const": "http-json-local"
+        },
+        "defaultHost": {
+          "type": "string",
+          "minLength": 1
+        },
+        "defaultPort": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 65535
+        },
+        "requestModes": {
+          "$ref": "#/$defs/stringList"
+        },
+        "endpoints": {
+          "type": "object",
+          "required": [
+            "healthz",
+            "fixtures",
+            "contract",
+            "verify"
+          ],
+          "properties": {
+            "healthz": {
+              "$ref": "#/$defs/httpEndpoint"
+            },
+            "fixtures": {
+              "$ref": "#/$defs/httpEndpoint"
+            },
+            "contract": {
+              "$ref": "#/$defs/httpEndpoint"
+            },
+            "verify": {
+              "$ref": "#/$defs/httpEndpoint"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "typedBoundary": {
+      "type": "object",
+      "required": [
+        "source",
+        "controlRoutes",
+        "claimResults",
+        "summaryFields",
+        "proofRunnerStatuses",
+        "requiredTypedModules",
+        "requiredModuleCoverage",
+        "requiredRuntimeStatusFlags",
+        "requiredBoundaryInventoryFields"
+      ],
+      "properties": {
+        "source": {
+          "type": "string",
+          "minLength": 1
+        },
+        "controlRoutes": {
+          "$ref": "#/$defs/stringList"
+        },
+        "claimResults": {
+          "$ref": "#/$defs/stringList"
+        },
+        "summaryFields": {
+          "$ref": "#/$defs/stringList"
+        },
+        "proofRunnerStatuses": {
+          "$ref": "#/$defs/stringList"
+        },
+        "requiredTypedModules": {
+          "$ref": "#/$defs/stringList"
+        },
+        "requiredModuleCoverage": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": {
+            "$ref": "#/$defs/stringList"
+          }
+        },
+        "requiredRuntimeStatusFlags": {
+          "$ref": "#/$defs/stringList"
+        },
+        "requiredBoundaryInventoryFields": {
+          "$ref": "#/$defs/stringList"
+        }
+      },
+      "additionalProperties": false
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "stringList": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "artifactNameList": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "artifactDescriptor": {
+      "type": "object",
+      "required": [
+        "relativeTo",
+        "required"
+      ],
+      "properties": {
+        "relativeTo": {
+          "type": "string",
+          "enum": [
+            "releaseRoot",
+            "fixtureRoot"
+          ]
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pathPattern": {
+          "type": "string",
+          "minLength": 1
+        },
+        "schema": {
+          "type": "string",
+          "minLength": 1
+        },
+        "contentType": {
+          "type": "string",
+          "minLength": 1
+        },
+        "required": {
+          "type": "boolean"
+        }
+      },
+      "oneOf": [
+        {
+          "required": [
+            "path"
+          ]
+        },
+        {
+          "required": [
+            "pathPattern"
+          ]
+        }
+      ],
+      "additionalProperties": false
+    },
+    "artifactMap": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "$ref": "#/$defs/artifactDescriptor"
+      }
+    },
+    "httpEndpoint": {
+      "type": "object",
+      "required": [
+        "method",
+        "path"
+      ],
+      "properties": {
+        "method": {
+          "type": "string",
+          "enum": [
+            "GET",
+            "POST"
+          ]
+        },
+        "path": {
+          "type": "string",
+          "pattern": "^/"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/remote_working_attestation.schema.json",
+  "title": "Remote Working Attestation",
+  "type": "object",
+  "required": [
+    "procedureCurrent",
+    "incidentReportingCovered",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "procedureCurrent": {
+      "type": "boolean"
+    },
+    "incidentReportingCovered": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

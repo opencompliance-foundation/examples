@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/isms_context_definition_attestation.schema.json",
+  "title": "ISMS Context Definition Attestation",
+  "type": "object",
+  "required": [
+    "contextDefined",
+    "scopeVersion",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "contextDefined": {
+      "type": "boolean"
+    },
+    "scopeVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

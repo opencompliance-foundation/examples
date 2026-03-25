@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/risk_management_cycle_attestation.schema.json",
+  "title": "Risk Management Cycle Attestation",
+  "type": "object",
+  "required": [
+    "cycleCompleted",
+    "completionWindowDays",
+    "treatmentOutputsRecorded"
+  ],
+  "properties": {
+    "cycleCompleted": {
+      "type": "boolean"
+    },
+    "completionWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "treatmentOutputsRecorded": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

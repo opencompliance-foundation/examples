@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/project_security_requirement_attestation.schema.json",
+  "title": "Project Security Requirement Attestation",
+  "type": "object",
+  "required": [
+    "requirementsDefined",
+    "projectTypesCovered",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "requirementsDefined": {
+      "type": "boolean"
+    },
+    "projectTypesCovered": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

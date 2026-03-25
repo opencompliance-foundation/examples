@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/security_commitment_governance_attestation.schema.json",
+  "title": "Security Commitment Governance Attestation",
+  "type": "object",
+  "required": [
+    "ownerRole",
+    "reviewWindowDays",
+    "exceptionHandlingDefined"
+  ],
+  "properties": {
+    "ownerRole": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "exceptionHandlingDefined": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

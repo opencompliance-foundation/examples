@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/outsourced_development_requirement_attestation.schema.json",
+  "title": "Outsourced Development Requirement Attestation",
+  "type": "object",
+  "required": [
+    "requirementsDefined",
+    "relationshipScopeCount",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "requirementsDefined": {
+      "type": "boolean"
+    },
+    "relationshipScopeCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/isms_stakeholder_obligation_attestation.schema.json",
+  "title": "ISMS Stakeholder Obligation Attestation",
+  "type": "object",
+  "required": [
+    "obligationsCurrent",
+    "ownerRole",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "obligationsCurrent": {
+      "type": "boolean"
+    },
+    "ownerRole": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/risk_management_process_attestation.schema.json",
+  "title": "Risk Management Process Attestation",
+  "type": "object",
+  "required": [
+    "processDefined",
+    "reviewWindowDays",
+    "scopeVersion"
+  ],
+  "properties": {
+    "processDefined": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "scopeVersion": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

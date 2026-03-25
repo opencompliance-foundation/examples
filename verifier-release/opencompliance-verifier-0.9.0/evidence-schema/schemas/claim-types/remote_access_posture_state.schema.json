@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/remote_access_posture_state.schema.json",
+  "title": "Remote Access Posture State",
+  "type": "object",
+  "required": [
+    "remotePathDeclared",
+    "devicePostureBounded",
+    "systemCount"
+  ],
+  "properties": {
+    "remotePathDeclared": {
+      "type": "boolean"
+    },
+    "devicePostureBounded": {
+      "type": "boolean"
+    },
+    "systemCount": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

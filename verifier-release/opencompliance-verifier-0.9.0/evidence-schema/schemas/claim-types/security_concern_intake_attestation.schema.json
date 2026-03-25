@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/security_concern_intake_attestation.schema.json",
+  "title": "Security Concern Intake Attestation",
+  "type": "object",
+  "required": [
+    "intakePathDefined",
+    "ownerRole",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "intakePathDefined": {
+      "type": "boolean"
+    },
+    "ownerRole": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

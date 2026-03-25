@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/facility_cabling_documentation_attestation.schema.json",
+  "title": "Facility Cabling and Utility Documentation Attestation",
+  "type": "object",
+  "required": [
+    "documentationCurrent",
+    "reviewWindowDays",
+    "dependencyPointsCovered"
+  ],
+  "properties": {
+    "documentationCurrent": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "dependencyPointsCovered": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

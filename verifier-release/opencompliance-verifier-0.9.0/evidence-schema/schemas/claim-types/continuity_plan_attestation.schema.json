@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/continuity_plan_attestation.schema.json",
+  "title": "Continuity Plan Attestation",
+  "type": "object",
+  "required": [
+    "planApproved",
+    "ownerRole",
+    "reviewWindowDays",
+    "criticalServiceCoverageDeclared"
+  ],
+  "properties": {
+    "planApproved": {
+      "type": "boolean"
+    },
+    "ownerRole": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "criticalServiceCoverageDeclared": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

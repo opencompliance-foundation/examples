@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/intellectual_property_issue_attestation.schema.json",
+  "title": "Intellectual Property Issue Attestation",
+  "type": "object",
+  "required": [
+    "handlingRulesCurrent",
+    "ownerRole",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "handlingRulesCurrent": {
+      "type": "boolean"
+    },
+    "ownerRole": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/corrective_action_process_attestation.schema.json",
+  "title": "Corrective Action Process Attestation",
+  "type": "object",
+  "required": [
+    "processDefined",
+    "ownerRole",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "processDefined": {
+      "type": "boolean"
+    },
+    "ownerRole": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/compliance_requirement_register_attestation.schema.json",
+  "title": "Compliance Requirement Register Attestation",
+  "type": "object",
+  "required": [
+    "registerCurrent",
+    "requirementClassesCovered",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "registerCurrent": {
+      "type": "boolean"
+    },
+    "requirementClassesCovered": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}
