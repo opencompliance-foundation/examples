@@ -228,8 +228,8 @@
     },
     {
       "path": "docs/README.md",
-      "sha256": "f21a97d323d60b4c0fbe17b0c621609cb944973b50d6a16c59510368b06eb128",
-      "signature": "FXXUyOA3pr9Tvtv8DcpueuKg8F8Pct2GVLST6OA3+ogs0b/o9Qq79lMMyv+obqvoFX78GYJlrMW+PQayCNeFAg=="
+      "sha256": "d195691959b78821b879d377ebe104ad8d0b3ccd1805ae69bf50c0dbb8996729",
+      "signature": "Qgib1rVabDM899WUReWgaoP6pcO6uVn1+GJKr4PkdC9VvWSfIXZlZXDUuFqge+HomxXjI9HjTe4bihULMw5zBQ=="
     },
     {
       "path": "docs/actor-ontology.html",
@@ -248,13 +248,13 @@
     },
     {
       "path": "docs/auditor-search.html",
-      "sha256": "f286239ccd891a01ac6554bf739dbdc4a0563eba0f0172faf790187a23357f79",
-      "signature": "DmheOzC1sOsJPcg2F61p67zy67w+l2lkGjqolUbCWd4wpHNPYoAtS0g3pIig/9HcsbOk57oFlM+Ovm4Aw27oAg=="
+      "sha256": "c127d526265b6879106adf8e6fbffb5fd4323bc46003605e3e7b6bc0b5919565",
+      "signature": "/TZr7jSz1yW0PkozpfzZD0hVhcPcekA5SZpBo13ARJgMVGdbzFrjAE8u80P5wVrBG8xMm5p+mvNBBN5N0PepBQ=="
     },
     {
       "path": "docs/auditor-search.js",
-      "sha256": "4717dfeb586ce24c046cb8b3975e6f1a1100092d992d79349a333a7b17af52bf",
-      "signature": "WEh0B8PCT6XcaoYZqFPPE7ulb2Q8k4tgeeSN+dSKxwfI+PZQHdOmPLAHiRYa/GmgstGQvfsNXecTfIZmRlqABw=="
+      "sha256": "b04d396a8e7d3ff89200a3181237a2ce8fa83040806dbba4a7d95908c6326c43",
+      "signature": "7tfAZubnfJ3cDkpav8mZn3U4i4Gwrax6zvyN9YjUgF/FUfF6+X4TTxBZilDG8Z342+NVm2DcQw9GgqQpZj2GCA=="
     },
     {
       "path": "docs/classification-model.md",
@@ -283,8 +283,8 @@
     },
     {
       "path": "docs/data/auditors.json",
-      "sha256": "0cfe79f29d3f3ee2a39db8f8cdd95b294e339e0c8da03e1eb0777bae2a7a45f9",
-      "signature": "cvBqp2xMZyaof87gV2M+K/n0t6VvII6+FSw9KucklAKYrLl9WBhOMRHrCrNdvlALHBPjh+I8nDe5IaM6ReRVBg=="
+      "sha256": "cc9e273bb9954bfa027aca4da0f31bee77cdfb96868fd8eccb02a68bda3380cc",
+      "signature": "FJymfShXN4q8xLKcdfcCniVBy5CWr6amVndZjLXB3EF5fhCiCGyqc8K1hAZQQ16aTFGNYiH0Z1qbK+LO3TzpCA=="
     },
     {
       "path": "docs/evidence-corridor.md",
@@ -308,18 +308,18 @@
     },
     {
       "path": "docs/index.html",
-      "sha256": "87abb718cf7e0c2dfa157fc25a9c2a3cf3eb10df9e754b0b9f349c03751af8c8",
-      "signature": "/xxC9f0EIz4wA1HFPuSdaTqz6/DQ/i7uOEAPZ6JOCJHHHE8UabUKi6nfhyG8Mo262BxLHJEf/xnBg7l7ClDhDw=="
+      "sha256": "6539d59240234c5c94221d390c9afc7f652d43edb48373622e7c1742531401a5",
+      "signature": "2F1HSV0ZFe6IkPniDqeHnr7NWrJCG0K3HwDGYQUPIw0lnfwgHUowOcZFchUunjky6TH3yE0Krv4VSfTQ9MgtCg=="
     },
     {
       "path": "docs/llm.txt",
-      "sha256": "cf47fa0a15c84d53b5a394a4f2df98f717a3afee00fe9bad6075b4169bca1e55",
-      "signature": "j+HcXsnD/qZqIGvfRhLSVs6Locg9rdA/Zq4Z5+Hcbt+8uEKSsSuzFThoZVAJ5YQ/HOifD7beyzmSvYt1vfmDDw=="
+      "sha256": "fb334003399fa52cf7b8f4e7eea888e4898dc9a46f5beb07c0bf22d59f7ce1cb",
+      "signature": "7jlb/KJdSw8+kqOtbSNpzFkfmv8YWzL1BQ9ReFFsGNF2adGBVXiFEKPS401X4iLC84DYZ5QqWPcecDkT3fW8Aw=="
     },
     {
       "path": "docs/llms.txt",
-      "sha256": "cf47fa0a15c84d53b5a394a4f2df98f717a3afee00fe9bad6075b4169bca1e55",
-      "signature": "j+HcXsnD/qZqIGvfRhLSVs6Locg9rdA/Zq4Z5+Hcbt+8uEKSsSuzFThoZVAJ5YQ/HOifD7beyzmSvYt1vfmDDw=="
+      "sha256": "fb334003399fa52cf7b8f4e7eea888e4898dc9a46f5beb07c0bf22d59f7ce1cb",
+      "signature": "7jlb/KJdSw8+kqOtbSNpzFkfmv8YWzL1BQ9ReFFsGNF2adGBVXiFEKPS401X4iLC84DYZ5QqWPcecDkT3fW8Aw=="
     },
     {
       "path": "docs/open-proof-layer.html",
@@ -373,8 +373,8 @@
     },
     {
       "path": "docs/styles.css",
-      "sha256": "76f818dffbf5caa6d4a3f1a578252a58c83fbf56052b3105f931681f698b4863",
-      "signature": "bQUjbY6alxh4dNamlCdkHmL8BIpD7uAohuDeS2Y6Q9hJGJQ1bzY3lCu13P3qZc9ZZcB0FRQ0dFSoTAKmwnESDQ=="
+      "sha256": "6bd5521c5b6576933ded0f6d0d147d0fb992ef98c8f440e5f97056303a642997",
+      "signature": "R0J5/GPUPsIiXmf+7c2fkrfyqYBCDs2k+RzC4EI4y7zZSuR4eB6Ne53xHfuuHmUtXrmhcNiKR9Oa8DXxtuZDDQ=="
     },
     {
       "path": "docs/tamper-evident-verification.md",
