@@ -2453,8 +2453,8 @@
     },
     {
       "path": "src/opencompliance/lean_tooling.py",
-      "sha256": "91d983ba810e8674df54ea4352e90b512366d7f9cab499f9099460aca92ef325",
-      "signature": "GFZ4N0tAZnajpipKqmaEO7Zyr1MJwJPjxx7HSc72bD9DxO79xkgmxT8PaoQunFmMt6v+MCukau9e9u3DYmeCBw=="
+      "sha256": "fe66e915a4e708a0ab62c0fc8df1ee1d79ee4541694cf12e2523495566fae1f8",
+      "signature": "FVuO9SSe0tFbfZ7dP9qF5QaSv3eRNMNVk+xuKDPXKIzGpPIu3yeykmG+ZOCzvIhg1Uuj1LJZOdlYn5nKH2I2AQ=="
     },
     {
       "path": "src/opencompliance/legallean_runtime.py",
