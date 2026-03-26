@@ -1,0 +1,49 @@
+{
+  "claimId": "EV-EX-201",
+  "claimType": "access_review_closure_attestation",
+  "collectedAt": "2026-03-24T01:24:00Z",
+  "sourceSystem": "example-governance",
+  "actor": {
+    "actorId": "identity-governance-owner@exampleco.test",
+    "actorType": "delegated_approver",
+    "actorRole": "identity_governance_delegate"
+  },
+  "trustPolicyRef": "oc.trust.delegated-security-approver",
+  "controlMappings": [
+    {
+      "framework": "SOC 2",
+      "family": "access_control",
+      "controlId": "soc2.family.access_control"
+    }
+  ],
+  "scope": {
+    "environment": "production",
+    "assetGroup": "human_admin_identities"
+  },
+  "freshness": {
+    "evaluatedAt": "2026-03-24T01:24:00Z",
+    "expiresAt": "2026-06-22T01:24:00Z"
+  },
+  "payload": {
+    "reviewCompleted": true,
+    "reviewWindowDays": 90,
+    "reviewPopulation": "scoped_privileged_identities",
+    "highRiskFindingsOpen": 0
+  },
+  "signer": {
+    "signerId": "identity-governance-owner@exampleco.test",
+    "signerType": "delegated_approver",
+    "signatureType": "synthetic_ed25519_attestation",
+    "signedAt": "2026-03-24T01:24:00Z",
+    "signerRole": "identity_governance_delegate",
+    "trustPolicyId": "oc.trust.delegated-security-approver",
+    "delegatedBy": "head-of-security@exampleco.test",
+    "delegationScope": "privileged_identity_review"
+  },
+  "provenance": {
+    "exportId": "exampleco-medium-access-review-closure-001",
+    "collectionMethod": "signed_attestation",
+    "sourcePath": "/synthetic/governance/access-review-closure",
+    "digestAlgorithm": "sha256"
+  }
+}

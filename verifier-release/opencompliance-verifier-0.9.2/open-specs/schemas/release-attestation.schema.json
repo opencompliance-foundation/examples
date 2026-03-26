@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/specs/schemas/release-attestation.schema.json",
+  "title": "OpenCompliance Release Attestation",
+  "type": "object",
+  "required": [
+    "$schema",
+    "attestationId",
+    "generatedAt",
+    "releaseId",
+    "verifierVersion",
+    "attestationScope",
+    "witness",
+    "checks",
+    "note"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "const": "https://opencompliancefoundation.com/specs/schemas/release-attestation.schema.json"
+    },
+    "attestationId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "releaseId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "verifierVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "attestationScope": {
+      "type": "string",
+      "const": "portable_bundle_self_replay"
+    },
+    "witness": {
+      "type": "object",
+      "required": [
+        "witnessId",
+        "witnessType",
+        "witnessRole",
+        "trustPolicyId"
+      ],
+      "properties": {
+        "witnessId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "witnessType": {
+          "type": "string",
+          "const": "independent_witness"
+        },
+        "witnessRole": {
+          "type": "string",
+          "const": "independent_replay_witness"
+        },
+        "trustPolicyId": {
+          "type": "string",
+          "const": "oc.trust.independent-witness"
+        }
+      },
+      "additionalProperties": false
+    },
+    "checks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "command",
+          "description",
+          "status",
+          "summary"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "command": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "const": "verified"
+          },
+          "summary": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "note": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": false
+}

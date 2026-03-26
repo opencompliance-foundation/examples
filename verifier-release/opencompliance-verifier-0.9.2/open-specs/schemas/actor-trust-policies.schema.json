@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/specs/schemas/actor-trust-policies.schema.json",
+  "title": "OpenCompliance Actor Trust Policies",
+  "type": "object",
+  "required": [
+    "registryVersion",
+    "policies"
+  ],
+  "properties": {
+    "registryVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "policies": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "policyId",
+          "surface",
+          "description",
+          "allowedActorTypes",
+          "allowedSignerTypes",
+          "requiredSignerRoles",
+          "delegationRequired"
+        ],
+        "properties": {
+          "policyId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "surface": {
+            "type": "string",
+            "enum": [
+              "evidence_claim",
+              "signed_artifact",
+              "witness_receipt"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "allowedActorTypes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "system",
+                "human",
+                "delegated_approver",
+                "verifier_service",
+                "independent_witness"
+              ]
+            }
+          },
+          "allowedSignerTypes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "human",
+                "delegated_approver",
+                "verifier_service",
+                "independent_witness"
+              ]
+            }
+          },
+          "requiredSignerRoles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "delegationRequired": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenCompliance | Proof-Carrying Compliance</title>
+  <meta name="description" content="OpenCompliance is an OSCAL-native, Lean 4 proof-carrying compliance engine that distinguishes proofs, attestations, and judgment instead of flattening everything into a dashboard checkbox.">
+  <meta name="theme-color" content="#0b1324">
+  <meta property="og:title" content="OpenCompliance">
+  <meta property="og:description" content="Proof-carrying compliance for OSCAL, Lean 4, typed evidence claims, and tamper-evident audit artifacts.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="OpenCompliance">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="OpenCompliance">
+  <meta name="twitter:description" content="An open proof layer for compliance.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">OC</span>
+        <span>OpenCompliance</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html" aria-current="page">Overview</a>
+        <a href="architecture.html">Architecture</a>
+        <a href="trust.html">Trust Model</a>
+        <a href="open-proof-layer.html">Essay</a>
+        <a href="competitive-landscape.html">Landscape</a>
+        <a href="foundation.html">Foundation</a>
+        <a href="frameworks.html">Frameworks</a>
+        <a href="roadmap.html">Roadmap</a>
+        <a href="showcase.html">Showcase</a>
+        <a href="public-artifacts.html">Public Artifacts</a>
+        <a href="repositories.html">Repositories</a>
+        <a href="auditor-search.html">Auditor Search</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">Open Proof Layer</div>
+        <h1>Compliance should say what it proves.</h1>
+        <p class="lead">OpenCompliance is an OSCAL-native, Lean 4 proof-carrying compliance engine. It treats technical controls as theorems when they really are theorems, treats human attestations as signed claims when they are not, and keeps judgment-heavy controls explicit instead of hiding them behind green checks.</p>
+        <div class="artifact-strip">
+          <div class="artifact">
+            <span class="artifact-label">Kernel</span>
+            <strong>Lean 4 proofs for the narrow technical corridor.</strong>
+          </div>
+          <div class="artifact">
+            <span class="artifact-label">Wire Format</span>
+            <strong>OSCAL packages and mappings as the external contract.</strong>
+          </div>
+          <div class="artifact">
+            <span class="artifact-label">Evidence</span>
+            <strong>Typed claims with signer, scope, freshness, and provenance.</strong>
+          </div>
+          <div class="artifact">
+            <span class="artifact-label">Outcome</span>
+            <strong>Deterministic certificates, punch-lists, and a trust-surface report.</strong>
+          </div>
+        </div>
+      </div>
+
+      <aside class="hero-panel">
+        <div>
+          <div class="kicker">What It Is</div>
+          <p>A product and public specification effort for mapping parts of ISO 27001 and SOC 2 into formal models that can be checked, replayed, and inspected, then widening the public review layer to GDPR, IRAP, Cyber Essentials, NIST, and AI-governance frameworks without bluffing about what is already proved.</p>
+        </div>
+        <div>
+          <div class="kicker">What It Is Not</div>
+          <p>Not a claim that auditors, certifying bodies, or judgment disappear. OpenCompliance aims to improve evidence and audit clarity, not pretend law and assurance are fully automatable.</p>
+        </div>
+        <div class="pill-row">
+          <span class="pill">Proofs</span>
+          <span class="pill">Attestations</span>
+          <span class="pill">Judgment</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="double-grid">
+      <article class="section-card">
+        <div class="kicker">Product Pitch</div>
+        <h2>The short version</h2>
+        <p>OpenCompliance is a proof-carrying compliance engine, not a checklist dashboard. It ingests controls and evidence, routes each obligation into proof, attestation, or human review, then returns either a certificate or a typed punch-list together with a trust-surface report that states exactly what was proved, assumed, attested, excluded, or deferred to judgment.</p>
+        <p>The point is not maximal automation. The point is epistemic honesty with better artifacts.</p>
+        <div class="card-actions">
+          <a class="pill" href="showcase.html">See the company-level story</a>
+          <a class="pill" href="verifier-release.html">Inspect verifier release</a>
+        </div>
+      </article>
+
+      <article class="section-card">
+        <div class="kicker">Why This Matters</div>
+        <h2>The industry problem</h2>
+        <p>Most compliance tooling collapses very different kinds of reasoning into one dashboard status. A runtime proof, a stale screenshot, a manually uploaded PDF, and a partner attestation often end up looking identical in the UI.</p>
+        <p>OpenCompliance tries to break that habit by making the boundary between proof and assertion visible and machine-readable.</p>
+        <div class="card-actions">
+          <a class="pill" href="competitive-landscape.html">See the landscape</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="section-title">
+      <h2>What happens when a company presses Verify?</h2>
+    </section>
+    <section class="flow-grid">
+      <article class="flow-step">
+        <div class="kicker">Step 1</div>
+        <strong>Ingest the corridor</strong>
+        <p>OpenCompliance imports the target control profile and the matching OSCAL mappings for the in-scope corridor.</p>
+        <div class="card-actions">
+          <a class="pill" href="architecture.html">See the pipeline</a>
+        </div>
+      </article>
+      <article class="flow-step">
+        <div class="kicker">Step 2</div>
+        <strong>Collect typed evidence</strong>
+        <p>Machine evidence, human attestations, and exclusions are stored as typed claims with signer, actor role, trust-policy, scope, source, freshness, and control mappings.</p>
+        <div class="card-actions">
+          <a class="pill" href="https://github.com/opencompliance-foundation/evidence-schema">Open evidence schema</a>
+          <a class="pill" href="actor-ontology.html">See actor ontology</a>
+        </div>
+      </article>
+      <article class="flow-step">
+        <div class="kicker">Step 3</div>
+        <strong>Classify each obligation</strong>
+        <p>Every control is routed into one of four buckets: decidable, attestation, judgment, or mixed.</p>
+        <div class="card-actions">
+          <a class="pill" href="trust.html">See boundary model</a>
+        </div>
+      </article>
+      <article class="flow-step">
+        <div class="kicker">Step 4</div>
+        <strong>Run Lean 4 on the technical slice</strong>
+        <p>Only the decidable corridor enters the proof kernel. The proof bundle now records which proved claims entered the public Lean batch, which LegalLean typed modules define the current proof-versus-boundary vocabulary, and which public-corridor claims are now runtime-consumed from Lean rather than re-decided only in Python.</p>
+        <div class="card-actions">
+          <a class="pill" href="https://github.com/opencompliance-foundation/lean4-controls">Open Lean corridor</a>
+        </div>
+      </article>
+      <article class="flow-step">
+        <div class="kicker">Step 5</div>
+        <strong>Bind the output to artifacts</strong>
+        <p>Proof bundles, certificates, and revocations become signed artifacts with canonical digests that can be logged and replayed later.</p>
+        <div class="card-actions">
+          <a class="pill" href="public-artifacts.html">See published artifacts</a>
+        </div>
+      </article>
+      <article class="flow-step">
+        <div class="kicker">Step 6</div>
+        <strong>Return a clear verdict</strong>
+        <p>The output is a certificate or typed punch-list plus a trust-surface report saying what is proved, attested, judgment-dependent, or out of scope.</p>
+        <div class="card-actions">
+          <a class="pill" href="showcase.html">See final outputs</a>
+        </div>
+      </article>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="card-grid">
+      <article class="section-card">
+        <div class="kicker">Trust Surface</div>
+        <h3>Proof is only one layer</h3>
+        <p>The product’s signature artifact is the trust-surface report. It is a machine-generated summary of what the compliance result rests on.</p>
+        <div class="card-actions">
+          <a class="pill" href="showcase.html">See trust-surface examples</a>
+        </div>
+      </article>
+      <article class="section-card">
+        <div class="kicker">Tamper Evidence</div>
+        <h3>Shortcut-proof by construction</h3>
+        <p>The system should make it difficult to jump from messy internal state to a public certificate without leaving a signed, append-only, replayable trail.</p>
+        <div class="card-actions">
+          <a class="pill" href="trust.html">See trust hardening</a>
+        </div>
+      </article>
+      <article class="section-card">
+        <div class="kicker">Open Commons</div>
+        <h3>Build the semantic layer in public</h3>
+        <p>The public value is not just the UI. It is the open mapping corpus, typed evidence model, proof boundaries, and replayable examples others can inspect and improve.</p>
+        <div class="card-actions">
+          <a class="pill" href="repositories.html">See public repos</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="section-title">
+      <h2>Explicit limitations</h2>
+    </section>
+    <section class="double-grid">
+      <article class="callout">
+        <div class="kicker">Boundary</div>
+        <p>OpenCompliance does <strong>not</strong> replace licensed CPA firms, ISO certification bodies, or internal human judgment. It improves the quality, structure, and inspectability of evidence that those parties review.</p>
+        <p>Physical controls, policy adequacy, board oversight, and other normative questions remain partly or wholly attestation-driven or judgment-driven.</p>
+        <div class="card-actions">
+          <a class="pill" href="foundation.html">See the foundation boundary</a>
+        </div>
+      </article>
+      <article class="callout">
+        <div class="kicker">MVP Corridor</div>
+        <p>The initial scope is deliberately narrow: the technical overlap corridor between SOC 2 Security and ISO 27001. Access-control invariants, MFA enforcement, typed access-review exports, scoped password policy, managed web-application-firewall state, unique named infrastructure identities, customer and environment segmentation, centralized monitoring, repository protections, CI policy guarantees, secure baseline configuration, update hygiene, AI output disclosure, and similar inspectable controls come first. The public fixture set now also includes dedicated synthetic cyber-baseline and AI-governance corridors, and the medium/issued/cyber/AI slices now prove additional access-review, repository-integrity, CI-policy, secure-baseline, security-update, malware-protection, and disclosure predicates instead of leaving that wave as aspirational only. The reviewed mapping pilot remains broader than the implemented proofs, covering public exact anchors across GDPR, IRAP, Cyber Essentials, NCSC CAF, NIST CSF 2.0, NIST SP 800-53, the EU AI Act, the EU GPAI Code of Practice, NIST AI RMF, NIST AI 600-1, NIST AI 100-4, NIST AI 700-2, and the first ETSI AI entries, while keeping the ISO AI standards at candidate status until licensed review exists. The LegalLean runtime handoff is now live across every current public fixture, even though that still falls short of a released live-evidence verifier.</p>
+        <div class="card-actions">
+          <a class="pill" href="frameworks.html">See framework depth</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="section-title">
+      <h2>Read by angle</h2>
+    </section>
+    <section class="card-grid">
+      <article class="mini-card panel">
+        <div class="kicker">Architecture</div>
+        <p>The runtime pipeline, components, and how proofs, attestations, and publication-safe artifacts fit together.</p>
+        <a class="pill" href="architecture.html">Open architecture</a>
+      </article>
+      <article class="mini-card panel">
+        <div class="kicker">Trust Model</div>
+        <p>How signed artifacts, transparency logs, witness reruns, and fail-closed issuance make the system tamper-evident without blockchain.</p>
+        <a class="pill" href="trust.html">Open trust model</a>
+      </article>
+      <article class="mini-card panel">
+        <div class="kicker">Essay</div>
+        <p>Why an open, limitation-aware proof layer would move the compliance industry forward even before it solves every control.</p>
+        <a class="pill" href="open-proof-layer.html">Read the essay</a>
+      </article>
+      <article class="mini-card panel">
+        <div class="kicker">Landscape</div>
+        <p>Where OpenCompliance overlaps with Ceel, Vanta, and Drata, and why the open-source proof layer still matters.</p>
+        <a class="pill" href="competitive-landscape.html">Open landscape</a>
+      </article>
+      <article class="mini-card panel">
+        <div class="kicker">Examples</div>
+        <p>The public repos now carry blocked, stale-evidence, cyber-baseline, AI-governance, and successful synthetic ExampleCo corridors, persisted classification artifacts, a first mixed-control decomposition in the medium corridor, additional Lean-backed password-policy, managed-WAF, centralized-monitoring, network-boundary, plaintext-transport, encryption-at-rest, unique-infrastructure-identity, and segmentation proofs, raw source-export inputs, boundary-aware proof-runner metadata, a LegalLean typed-boundary summary, signed governance evidence, public transparency logs, a lifecycle drift pack, typed claims, signature manifests, scoped certificates or punch-lists, OSCAL-shaped projections, replayable witness receipts, and now also planned public AI-assurance controls for provenance metadata, evaluation design, and data-quality governance.</p>
+        <a class="pill" href="public-artifacts.html">Open examples</a>
+        <a class="pill" href="verifier-release.html">Run public verifier</a>
+      </article>
+      <article class="mini-card panel">
+        <div class="kicker">Showcase</div>
+        <p>A company-level ExampleCo walkthrough now shows how a hypothetical team can aggregate four corridor results into one honest buyer-facing assurance story without overstating full-framework compliance.</p>
+        <a class="pill" href="showcase.html">Open showcase</a>
+      </article>
+      <article class="mini-card panel">
+        <div class="kicker">Lifecycle</div>
+        <p>See how a source change maps to impacted controls, triggers fail-closed revocation or re-verification, and blocks higher-level composition until trust is restored.</p>
+        <a class="pill" href="continuous-verification.html">Open lifecycle</a>
+      </article>
+      <article class="mini-card panel">
+        <div class="kicker">Auditor Search</div>
+        <p>Explore publication-safe AICPA auditor records by firm, state, peer-reviewed status, program status, review recency, and center memberships with explicit data provenance.</p>
+        <a class="pill" href="auditor-search.html">Open auditor search</a>
+      </article>
+      <article class="mini-card panel">
+        <div class="kicker">Foundation</div>
+        <p>Why the shared semantic layer should live in a neutral home, how sponsors fit in, and how the documents should be peer reviewed.</p>
+        <a class="pill" href="foundation.html">Open foundation</a>
+      </article>
+    </section>
+
+    <section class="section-title">
+      <h2>Follow the public source</h2>
+    </section>
+    <section class="card-grid">
+      <article class="section-card">
+        <div class="kicker">GitHub Org</div>
+        <h3>The public root is explicit</h3>
+        <p>The published project surface is organized under a single GitHub organization so people can inspect the site, specs, examples, schemas, validators, and Lean corridor directly.</p>
+        <a class="pill" href="https://github.com/opencompliance-foundation">Open GitHub org</a>
+      </article>
+      <article class="section-card">
+        <div class="kicker">Repository Map</div>
+        <h3>Start with the repo directory</h3>
+        <p>If you only read one page before diving into GitHub, read the repository map. It tells you which repo is normative, which repo is executable, and which repo is only explanatory.</p>
+        <a class="pill" href="repositories.html">Open repository map</a>
+      </article>
+      <article class="section-card">
+        <div class="kicker">Site Repo</div>
+        <h3>What you are reading now</h3>
+        <p>The public docs bundle, including the trust model, roadmap, publication plan, and repository map, lives in its own repo.</p>
+        <a class="pill" href="https://github.com/opencompliance-foundation/site">Open site repo</a>
+      </article>
+      <article class="section-card">
+        <div class="kicker">Specs Repo</div>
+        <h3>Normative public semantics</h3>
+        <p>Artifact contracts, mapping methodology, control-boundary metadata, exact-anchor review pilots, and versioning rules belong in the public specs repo.</p>
+        <a class="pill" href="https://github.com/opencompliance-foundation/specs">Open specs repo</a>
+      </article>
+      <article class="section-card">
+        <div class="kicker">Examples Repo</div>
+        <h3>Synthetic replay bundles</h3>
+        <p>The ExampleCo corridors, lifecycle packs, witness receipts, transparency logs, and OSCAL-shaped projections are published as synthetic public examples.</p>
+        <a class="pill" href="https://github.com/opencompliance-foundation/examples">Open examples repo</a>
+      </article>
+      <article class="section-card">
+        <div class="kicker">Conformance Repo</div>
+        <h3>Executable checks</h3>
+        <p>The public validator and conformance vectors are published separately so the examples and schemas can be checked rather than trusted by prose.</p>
+        <a class="pill" href="https://github.com/opencompliance-foundation/conformance">Open conformance repo</a>
+      </article>
+      <article class="section-card">
+        <div class="kicker">Evidence Schema</div>
+        <h3>Typed claim surface</h3>
+        <p>The public evidence envelope and claim-type payload schemas are published on their own so others can integrate or critique them independently.</p>
+        <a class="pill" href="https://github.com/opencompliance-foundation/evidence-schema">Open schema repo</a>
+      </article>
+      <article class="section-card">
+        <div class="kicker">Lean 4 Controls</div>
+        <h3>Narrow proof corridor</h3>
+        <p>The public Lean package shows exactly what the current proof slice covers, imports LegalLean for typed boundary work, and makes the proof boundary explicit instead of leaving it as prose alone.</p>
+        <a class="pill" href="https://github.com/opencompliance-foundation/lean4-controls">Open Lean repo</a>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <p><strong>Publishing note.</strong> This site is designed to be publishable as a docs-only GitHub Pages bundle. The docs, open specs, and example fixtures can later be split into separate public repositories or submodules while the main working repository remains private.</p>
+      <div class="footer-nav">
+        <a href="architecture.html">Architecture</a>
+        <a href="trust.html">Trust model</a>
+        <a href="competitive-landscape.html">Landscape</a>
+        <a href="foundation.html">Foundation</a>
+        <a href="continuous-verification.html">Continuous verification</a>
+        <a href="roadmap.html">Roadmap</a>
+        <a href="public-artifacts.html">Public artifacts</a>
+        <a href="repositories.html">Repositories</a>
+        <a href="auditor-search.html">Auditor search</a>
+        <a href="https://github.com/opencompliance-foundation">GitHub org</a>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
