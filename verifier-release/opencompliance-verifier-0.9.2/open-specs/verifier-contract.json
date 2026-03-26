@@ -1,7 +1,7 @@
 {
   "$schema": "https://opencompliancefoundation.com/specs/schemas/verifier-contract.schema.json",
-  "contractId": "opencompliance-public-verifier-contract-v4",
-  "contractVersion": 4,
+  "contractId": "opencompliance-public-verifier-contract-v5",
+  "contractVersion": 5,
   "verifierVersion": "opencompliance-verifier/0.9.2",
   "releaseId": "opencompliance-verifier-0.9.2",
   "releaseGeneratedAt": "2026-03-26T11:40:00Z",
@@ -65,6 +65,20 @@
       "relativeTo": "releaseRoot",
       "path": "release-attestation.json",
       "schema": "https://opencompliancefoundation.com/specs/schemas/release-attestation.schema.json",
+      "required": true
+    }
+  },
+  "trustRegistries": {
+    "actorTrustPolicies": {
+      "relativeTo": "releaseRoot",
+      "path": "open-specs/actor-trust-policies.json",
+      "schema": "https://opencompliancefoundation.com/specs/schemas/actor-trust-policies.schema.json",
+      "required": true
+    },
+    "actorIdentities": {
+      "relativeTo": "releaseRoot",
+      "path": "open-specs/actor-identities.json",
+      "schema": "https://opencompliancefoundation.com/specs/schemas/actor-identities.schema.json",
       "required": true
     }
   },

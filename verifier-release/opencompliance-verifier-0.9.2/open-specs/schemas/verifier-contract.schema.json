@@ -15,6 +15,7 @@
     "entrypoints",
     "includedRoots",
     "releaseArtifacts",
+    "trustRegistries",
     "fixtureArtifacts",
     "artifactPolicies",
     "apiSurface",
@@ -74,6 +75,9 @@
       }
     },
     "releaseArtifacts": {
+      "$ref": "#/$defs/artifactMap"
+    },
+    "trustRegistries": {
       "$ref": "#/$defs/artifactMap"
     },
     "fixtureArtifacts": {

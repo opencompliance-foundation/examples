@@ -393,8 +393,8 @@
     },
     {
       "path": "docs/verifier-release.html",
-      "sha256": "12bb4d5b2dbf044a5b6c08315474e9f8c247e37c7bba2b8015256ab275fd3d81",
-      "signature": "hLc9QHAo/UCnb3rzyqFQJb23FT9y2mruYw264BqxxoNGmbbg/JCQ/3wkCzkIHbqghV7iQbDJkP/XSF4T0BE7CQ=="
+      "sha256": "17f1660db1ad7af40322df7397082bc16c4e96e5b6e5982f7fcedbb10176d184",
+      "signature": "zQ09OXkohLKXesDYcjFNnl6RJMDyKiRgnfdN2Nv6CMe411VflSUhQ3+tv3wwm9e1Qzyiktwet0LNU7xvReCrDw=="
     },
     {
       "path": "docs/verify-contract.md",
@@ -2203,8 +2203,8 @@
     },
     {
       "path": "open-specs/artifacts/verifier-contract.md",
-      "sha256": "d0a38d4d275d0d06738d74f611488bfbb073898727338608d7c7ded08513e985",
-      "signature": "Ufza2lWUEaodQl5qxVAQ1gNpSd7+vfRoayrAb3VfH5hNecMdGRMz24h9TBdnByFCjXng/Vrem8pPWX9+CRuXAg=="
+      "sha256": "bb8712bc5f27bef1309df006c4b8abbbe54562d217fa674a205834fa26af041e",
+      "signature": "Y5ciHAxCwghc7u0ZhMOwHYPCyVvTAAhbl8NAp0E6XAce0yQ47Sof+3rjxUiSNbxR5qdUU4pyIxU8sijtsEvDCg=="
     },
     {
       "path": "open-specs/artifacts/verifier-release.md",
@@ -2348,8 +2348,8 @@
     },
     {
       "path": "open-specs/schemas/verifier-contract.schema.json",
-      "sha256": "4d74085d38574ade5935170ecdafc1df6583289fa92d7a2a0ba26b9e5e779e37",
-      "signature": "2Fb/bNNT/F3J+MF+dHzywRpvI3cpHWSfBgNKhwm/IMIxWSs4xEO4Jo+/J1Rtb86sNKGMGz8zt9kkCmiGyuVZAg=="
+      "sha256": "6e7be0c07e3867f3414f8236bac03838b008344a7314b24cd0933cac782e896e",
+      "signature": "8d1Xlgb0qfYRnxIROnlhrgOPqhgPZusU8RRqPdWaYxadXC1dW6WZ1l+NQaxVO8xDutjRezs0fXdG4lIft6ZoDg=="
     },
     {
       "path": "open-specs/schemas/verifier-release.schema.json",
@@ -2363,8 +2363,8 @@
     },
     {
       "path": "open-specs/verifier-contract.json",
-      "sha256": "bb3a4f0d4dac1e7bf8d5510f14d816ff29ebbadb492cfa8a29a2d26f19fdfdb0",
-      "signature": "Gx2jgj9nPtLUwuVwwdAlQrvonP9CNkfLSwr2cIOZSpQBiAfvPu1bidJiR2+0xZwJjk6RRaPOvFDCUALltQTcDQ=="
+      "sha256": "a06a3d8e5a4a91e10fc5961019214f68da84725f624271eecca0e568bcac9104",
+      "signature": "9IwvSB/TAupWJa/3TgunL9ms5NWiBaDa7EXsQahbdC/ik5Ay9fbdwyTHEV4S6OTEjIToPrvMhAExCoBbsfOGBQ=="
     },
     {
       "path": "public-key.pem",
@@ -2508,8 +2508,8 @@
     },
     {
       "path": "src/opencompliance/release.py",
-      "sha256": "1e11329749c02c1c8150a93f9e3f1a8731a97e95e77aa9a1c1366b27baa55625",
-      "signature": "WiGXZ4jnet7Jn0/OXe1ddwK2SO4z0qCXTWCo0Zc1bHgn8sND8/zdm7edKOYnbR9Fhh2vTw/EM74jyq1zVQpQAA=="
+      "sha256": "fbc4cf4714cc789b2c70bfd02cc489d8b54833f31b11a5e1786dcdeae74ebc2f",
+      "signature": "TIBUtncuZakRhXXFCi5MzoCMZ/8oOVmW4o8cj6Z3EMlenBr54I/yg9sEPrlyiTQmGKxyhUsw/hlsgAagwnI/Bw=="
     },
     {
       "path": "src/opencompliance/release_attestation.py",

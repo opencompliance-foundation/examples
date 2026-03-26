@@ -7,12 +7,26 @@ PUBLIC_VERIFIER_VERSION = f"{PUBLIC_VERIFIER_NAME}/{PUBLIC_VERIFIER_SEMVER}"
 PUBLIC_VERIFIER_RELEASE_ID = f"{PUBLIC_VERIFIER_NAME}-{PUBLIC_VERIFIER_SEMVER}"
 PUBLIC_VERIFIER_RELEASED_AT = "2026-03-26T11:40:00Z"
 PUBLIC_VERIFIER_LAYOUT_VERSION = 1
-PUBLIC_VERIFIER_CONTRACT_ID = "opencompliance-public-verifier-contract-v4"
-PUBLIC_VERIFIER_CONTRACT_VERSION = 4
+PUBLIC_VERIFIER_CONTRACT_ID = "opencompliance-public-verifier-contract-v5"
+PUBLIC_VERIFIER_CONTRACT_VERSION = 5
 PUBLIC_VERIFIER_RELEASE_SCHEMA_URL = "https://opencompliancefoundation.com/specs/schemas/verifier-release.schema.json"
 PUBLIC_VERIFIER_CONTRACT_SCHEMA_URL = "https://opencompliancefoundation.com/specs/schemas/verifier-contract.schema.json"
 PUBLIC_VERIFIER_RELEASE_ATTESTATION_SCHEMA_URL = "https://opencompliancefoundation.com/specs/schemas/release-attestation.schema.json"
 PUBLIC_VERIFIER_CONTRACT_PATH = "open-specs/verifier-contract.json"
+PUBLIC_VERIFIER_TRUST_REGISTRIES = {
+    "actorTrustPolicies": {
+        "relativeTo": "releaseRoot",
+        "path": "open-specs/actor-trust-policies.json",
+        "schema": "https://opencompliancefoundation.com/specs/schemas/actor-trust-policies.schema.json",
+        "required": True,
+    },
+    "actorIdentities": {
+        "relativeTo": "releaseRoot",
+        "path": "open-specs/actor-identities.json",
+        "schema": "https://opencompliancefoundation.com/specs/schemas/actor-identities.schema.json",
+        "required": True,
+    },
+}
 PUBLIC_VERIFIER_INCLUDED_FIXTURES = (
     "minimal",
     "failed",
@@ -278,6 +292,7 @@ def build_public_verifier_contract() -> dict[str, object]:
         "entrypoints": PUBLIC_VERIFIER_ENTRYPOINTS,
         "includedRoots": list(PUBLIC_VERIFIER_INCLUDED_ROOTS),
         "releaseArtifacts": PUBLIC_VERIFIER_RELEASE_ARTIFACTS,
+        "trustRegistries": PUBLIC_VERIFIER_TRUST_REGISTRIES,
         "fixtureArtifacts": PUBLIC_VERIFIER_FIXTURE_ARTIFACTS,
         "artifactPolicies": {
             "alwaysRequired": list(PUBLIC_VERIFIER_OUTCOME_POLICIES["alwaysRequired"]),
