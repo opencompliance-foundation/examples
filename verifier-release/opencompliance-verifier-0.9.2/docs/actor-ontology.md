@@ -63,7 +63,7 @@ The current public registries are published in:
 - `open-specs/actor-trust-policies.json`
 - `open-specs/actor-identities.json`
 
-The policy registry defines what kinds of actors and signer roles are allowed. The identity registry pins the current synthetic ExampleCo exporters, delegated approvers, human owners, verifier-service signer, and witness identities so validation can fail closed on unknown IDs rather than only malformed shapes.
+The policy registry defines what kinds of actors and signer roles are allowed. The identity registry pins the current synthetic ExampleCo exporters, delegated approvers, human owners, verifier-service signer, and witness identities so validation can fail closed on unknown IDs rather than only malformed shapes. The current verifier-service identity also pins the allowed synthetic `keyId`, so signed-artifact verification can reject drifted signer material before the cryptographic check runs.
 
 ## Current validation rules
 
@@ -101,4 +101,4 @@ It still does not yet model:
 - certificate-body or CPA-firm opinion objects,
 - or live identity-provider-backed signer verification.
 
-It is now strong enough to reject incomplete delegated attestations deterministically, keep verifier and witness identities explicit in public artifacts, and stop pretending every signed claim is the same kind of human statement.
+It is now strong enough to reject incomplete delegated attestations deterministically, keep verifier and witness identities explicit in public artifacts, fail closed on mismatched signer key IDs for signed manifests, and stop pretending every signed claim is the same kind of human statement.

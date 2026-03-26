@@ -8,6 +8,7 @@ from typing import Any
 from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PrivateKey, Ed25519PublicKey
 
+from .actor_ontology import validate_registered_identity
 from .artifacts import artifact_bytes_from_path, artifact_sha256_from_path
 
 
@@ -45,6 +46,14 @@ def sign_artifacts(
     signer: dict[str, str],
     note: str,
 ) -> dict[str, Any]:
+    validate_registered_identity(
+        signer["signerId"],
+        surface="signed_artifact",
+        actor_type=signer["signerType"],
+        role=signer["signerRole"],
+        trust_policy_id=signer["trustPolicyId"],
+        key_id=signer["keyId"],
+    )
     private_key = _load_private_key(private_key_path)
     signatures = [
         _signature_entry(private_key, artifact_root / relative_path, relative_path)
@@ -66,6 +75,14 @@ def verify_signed_artifacts(
 ) -> dict[str, Any]:
     manifest = _load_json(manifest_path)
     signer = manifest["signer"]
+    validate_registered_identity(
+        signer["signerId"],
+        surface="signed_artifact",
+        actor_type=signer["signerType"],
+        role=signer["signerRole"],
+        trust_policy_id=signer["trustPolicyId"],
+        key_id=signer["keyId"],
+    )
     resolved_public_key_path = public_key_path or (manifest_path.parent / signer["publicKeyPath"])
     public_key = _load_public_key(resolved_public_key_path)
 
@@ -86,6 +103,7 @@ def verify_signed_artifacts(
         "status": "verified",
         "verifiedArtifactCount": len(verified_paths),
         "verifiedPaths": verified_paths,
+        "signerId": signer["signerId"],
         "signerKeyId": signer["keyId"],
         "signerType": signer["signerType"],
         "trustPolicyId": signer["trustPolicyId"],

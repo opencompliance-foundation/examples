@@ -320,6 +320,9 @@
       "surfaces": [
         "signed_artifact"
       ],
+      "keyIds": [
+        "oc-synthetic-ed25519-001"
+      ],
       "synthetic": true,
       "notes": "Synthetic verifier-service signing identity for public artifact bundles."
     },

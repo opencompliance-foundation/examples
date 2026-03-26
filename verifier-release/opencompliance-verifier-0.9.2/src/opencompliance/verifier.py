@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 from typing import Any
 
-from .actor_ontology import INDEPENDENT_WITNESS_POLICY_ID
+from .actor_ontology import INDEPENDENT_WITNESS_POLICY_ID, validate_registered_identity
 from .artifacts import artifact_sha256_from_path, pretty_json_text, sha256_json, sha256_text
 from .evidence import EvidenceRegistry
 from .example_specs import FIXTURE_SPECS
@@ -604,6 +604,19 @@ def generate_witness_receipt(
 ) -> dict[str, Any]:
     spec = select_fixture_spec(fixture_root)
     checked_artifacts = replay_bundle["materialInputs"] + replay_bundle["expectedOutputs"]
+    witness = {
+        "witnessId": "oc-synthetic-independent-witness",
+        "witnessType": "independent_witness",
+        "witnessRole": "independent_replay_witness",
+        "trustPolicyId": INDEPENDENT_WITNESS_POLICY_ID,
+    }
+    validate_registered_identity(
+        witness["witnessId"],
+        surface="witness_receipt",
+        actor_type=witness["witnessType"],
+        role=witness["witnessRole"],
+        trust_policy_id=witness["trustPolicyId"],
+    )
     receipt = {
         "receiptId": spec.receipt_id,
         "issuedAt": spec.receipt_issued_at,
@@ -611,12 +624,7 @@ def generate_witness_receipt(
         "verifierVersion": spec.verifier_version,
         "replayBundleId": replay_bundle["replayBundleId"],
         "replayResult": "exact_match",
-        "witness": {
-            "witnessId": "oc-synthetic-independent-witness",
-            "witnessType": "independent_witness",
-            "witnessRole": "independent_replay_witness",
-            "trustPolicyId": INDEPENDENT_WITNESS_POLICY_ID,
-        },
+        "witness": witness,
         "checkedArtifacts": checked_artifacts,
         "note": spec.receipt_note,
     }

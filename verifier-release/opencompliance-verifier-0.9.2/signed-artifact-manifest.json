@@ -63,8 +63,8 @@
     },
     {
       "path": "conformance/scripts/validate_public_examples.py",
-      "sha256": "1282ab49d7d38b9f82902e03a96dd78ea63414cd21cea316b0426953293201cf",
-      "signature": "5mNXhoYkfmwI5BbjNWu8xKkOFQvgcbbOda49WBxeGuVTIkxtpezDyBh2ZzZ2FLMsuijDIbn/rcGBsSPzsvX2AA=="
+      "sha256": "35de91cb1e80dc972a3f35922d767814af273fc9d231e13c2b49f3e58f990d83",
+      "signature": "hbqbQCtXHLSfXTTBRJZFrtXz8abAq5Vy+LHEtdn3goOgWApYHSl3xG/GXzOHy0o6IEEr0pLoO1UcU9JnPRn6Ag=="
     },
     {
       "path": "conformance/vectors/ai-governance/README.md",
@@ -238,8 +238,8 @@
     },
     {
       "path": "docs/actor-ontology.md",
-      "sha256": "1245f6ee4a2ce87636a2573f2edb4b032b20eb113b9d85aa86dfcd104031297a",
-      "signature": "hWf0FZE7BMWQ7mh0XZGRgeYDDfEgAafDWzNKhpDBWjvzOidLUH/rFBdz0lrFwJIOMNThWx84hZ/ZSXS7v5yJAg=="
+      "sha256": "92fdb92b5478ff845c5b93f8741e6dce70dbb1c8c5ca5f9f7899d84c9830dedc",
+      "signature": "yO7rHOpi9XsPFcMj4jw/olcloRKSNjX4c/g1qNdqbYf3A8L+x33ASvCPHDvDSdpAAWREKIoWg6f0eomqoqkTCw=="
     },
     {
       "path": "docs/architecture.html",
@@ -393,8 +393,8 @@
     },
     {
       "path": "docs/verifier-release.html",
-      "sha256": "17f1660db1ad7af40322df7397082bc16c4e96e5b6e5982f7fcedbb10176d184",
-      "signature": "zQ09OXkohLKXesDYcjFNnl6RJMDyKiRgnfdN2Nv6CMe411VflSUhQ3+tv3wwm9e1Qzyiktwet0LNU7xvReCrDw=="
+      "sha256": "f24b1a183e529fc2691ad1575b064d03905827fa2f93cb91d99eb8baddaacd65",
+      "signature": "lDb2hEhjXMJU/v5MvthazhiwWByZWj7zHKMj4Rn8e9oKLDEhrXR23C8bvmykYwG4wZXCaP7rbiuKOs+Exma3AQ=="
     },
     {
       "path": "docs/verify-contract.md",
@@ -2123,8 +2123,8 @@
     },
     {
       "path": "open-specs/actor-identities.json",
-      "sha256": "b26abbed077963866b29eb32faf76373e3a64a14fed56b700109bc4be2aa23d6",
-      "signature": "gjTboNxmfCvP4ger+g7kwLHfkxyAM7b1bbsaOCX5jWBlJ9r8uTTjBdJQtuY28x1qhuByAda3Log8dv7ys23ZAw=="
+      "sha256": "dad20e2bf4d9d798fa4b96be3e5a8820a2b6f128d90d3d5ee13657c6e72f0085",
+      "signature": "nAftt+DalOR6e6BSs0QlBeOSR8qW+JowdHKPV3bZarU+srLxeQGEv2rinHZIHotvs0uW5RWSb3CDGFXPqGFEDw=="
     },
     {
       "path": "open-specs/actor-trust-policies.json",
@@ -2203,8 +2203,8 @@
     },
     {
       "path": "open-specs/artifacts/verifier-contract.md",
-      "sha256": "bb8712bc5f27bef1309df006c4b8abbbe54562d217fa674a205834fa26af041e",
-      "signature": "Y5ciHAxCwghc7u0ZhMOwHYPCyVvTAAhbl8NAp0E6XAce0yQ47Sof+3rjxUiSNbxR5qdUU4pyIxU8sijtsEvDCg=="
+      "sha256": "379c110b3248996792e57d3f7fd052aa45fb0ac6f7a2f7702c13e6198afc5e8b",
+      "signature": "Skm8aiEk+9gI63XHNlDYFMQLI98W+cbMgppItZEPWFz2WRUReKkwEhfznDcK2kn2sy1PxW9VIkY9HS0jHIRVAw=="
     },
     {
       "path": "open-specs/artifacts/verifier-release.md",
@@ -2263,8 +2263,8 @@
     },
     {
       "path": "open-specs/schemas/actor-identities.schema.json",
-      "sha256": "25f00d70cd240b2267bf5810c95d0bc98a78d10b86ec7223c7b5777e639c8d7a",
-      "signature": "+2pg88AqkN/f+iV9jwU+4HI9Ga48B+tndKNFZ631YrQQGxmYN1q2mf5onPcIhp00pT3r8FJroh860A2YVv9RBQ=="
+      "sha256": "8df3869de357d79d35cb2d47a932e46f92e33b6eb44ccb8e44fd0e7e199ca4e8",
+      "signature": "574fUWG8pyQJlzb8pmX5non/c/F+JVDDESo36yqLQmw19RU2pFqMYGHPc2YavJTBk8xV32m4F+1fFxkKpiJLCg=="
     },
     {
       "path": "open-specs/schemas/actor-trust-policies.schema.json",
@@ -2423,8 +2423,8 @@
     },
     {
       "path": "src/opencompliance/actor_ontology.py",
-      "sha256": "ca7c207b5a0b5871efbe49ef0436674d3ecd40e0003ff1e52a7e771dbc22988d",
-      "signature": "rx1lip0j55UDEsCIHg+5p87JlnDsrSSx9/7nlfQ4iNlvDPDmIdpujvLo8GSlOuEwO1Xpd/RVVwHMfsZAygy+Cg=="
+      "sha256": "266d8c0506ece9f03348fdd8aed5a047e7ea3341a641c447104e5c0fc62155fa",
+      "signature": "xvzT6JqcYt3/N9eIGc+O8EOOZIuzKZg7ZsalX1RMt0P3kFIdEqi8xeZ7cW42bwPjNmLLVGk9FbIwVq+pMF/GDA=="
     },
     {
       "path": "src/opencompliance/artifacts.py",
@@ -2513,8 +2513,8 @@
     },
     {
       "path": "src/opencompliance/release_attestation.py",
-      "sha256": "5cd8aed837bdb2aa978de02f2910b3836bf5888473da8a208138608c1054e2eb",
-      "signature": "JAKJ1ri461NFHdh3kOkCTaeZpzcbecOKNHrHvf8ZKbHNpnhZL3B+riYSZGnwm8WFs+b51bGqZemCv6z7C0veAQ=="
+      "sha256": "6eb245ae7388897e0216b7f4f0716ba6727bf54488c195e2b09806471ae9838d",
+      "signature": "/kA6NwirGprmbdnbNPNXBiXV/ndhRqfFPqBgKxnvGAxyLSg6Bk02EOaL9AYrCNt+8jccWckR03r3McEHkxWYCA=="
     },
     {
       "path": "src/opencompliance/seed_decomposition.py",
@@ -2523,8 +2523,8 @@
     },
     {
       "path": "src/opencompliance/signing.py",
-      "sha256": "0a63a669fa1fd6e460af769ced9f7217c4df3b0d6f8f247056e2e1606321f643",
-      "signature": "XHTi2umOwVNXLbb3zzYp2ElaTE5Au4ZYXmIVMB/xI5LiOvp65EkC87Lz56q8Vc8cUviiI8pq2AEwQP0JzmJ9Bw=="
+      "sha256": "0c376385490c1e2eca76e1c6ee98e5a13b1cc78588b59e5a0589de263db39091",
+      "signature": "tDsNtPq8/KTa1nxV0KvFfeveEv4V3koG2Dmke3/ckOgqJTcWk1c3FCizy7odL6PtINdq+gZT/ICUuIH0QfszAA=="
     },
     {
       "path": "src/opencompliance/transparency.py",
@@ -2543,8 +2543,8 @@
     },
     {
       "path": "src/opencompliance/verifier.py",
-      "sha256": "625089520f2afa285ee9a4eda92446fdfe3269076bd64e98c6330b0ad42cf1d8",
-      "signature": "tcPS9TEYln0JAolh3918E/+p0lRVZxF+YNrpeCyQ2v1GGBeFv1RW/uXdGz8Z3hwhIiF/7G7jcrZRlU00M/d5Bw=="
+      "sha256": "84b2615b52a2050ce81b94329048257c45f6120cdd98e3461137d24e6da5a03e",
+      "signature": "xjX20EdYbSfM5o0L2zzIfpiy1GrtVHCRkB+9lgk635YvYEQ8mdtC784hl0YG25b2fEcsMQmsp2jztCWyg/MNCg=="
     },
     {
       "path": "ui/verify/README.md",

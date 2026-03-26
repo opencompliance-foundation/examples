@@ -8,7 +8,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from .actor_ontology import INDEPENDENT_WITNESS_POLICY_ID
+from .actor_ontology import INDEPENDENT_WITNESS_POLICY_ID, validate_registered_identity
 
 
 RELEASE_ATTESTATION_SCHEMA_URL = "https://opencompliancefoundation.com/specs/schemas/release-attestation.schema.json"
@@ -87,6 +87,19 @@ def generate_release_attestation(
     verifier_version: str,
     generated_at: str,
 ) -> dict[str, Any]:
+    witness = {
+        "witnessId": "oc-synthetic-release-witness",
+        "witnessType": "independent_witness",
+        "witnessRole": "independent_replay_witness",
+        "trustPolicyId": INDEPENDENT_WITNESS_POLICY_ID,
+    }
+    validate_registered_identity(
+        witness["witnessId"],
+        surface="release_attestation",
+        actor_type=witness["witnessType"],
+        role=witness["witnessRole"],
+        trust_policy_id=witness["trustPolicyId"],
+    )
     checks_payload: list[dict[str, Any]] = []
     try:
         for check in default_release_attestation_checks():
@@ -123,12 +136,7 @@ def generate_release_attestation(
         "releaseId": release_id,
         "verifierVersion": verifier_version,
         "attestationScope": "portable_bundle_self_replay",
-        "witness": {
-            "witnessId": "oc-synthetic-release-witness",
-            "witnessType": "independent_witness",
-            "witnessRole": "independent_replay_witness",
-            "trustPolicyId": INDEPENDENT_WITNESS_POLICY_ID,
-        },
+        "witness": witness,
         "checks": checks_payload,
         "note": (
             "Synthetic release attestation for the public verifier bundle. "

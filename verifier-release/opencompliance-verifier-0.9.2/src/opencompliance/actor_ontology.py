@@ -387,6 +387,7 @@ ACTOR_IDENTITIES: tuple[dict[str, Any], ...] = (
         "defaultSignerRole": "release_signer",
         "trustPolicyIds": [VERIFIER_SERVICE_POLICY_ID],
         "surfaces": ["signed_artifact"],
+        "keyIds": ["oc-synthetic-ed25519-001"],
         "synthetic": True,
         "notes": "Synthetic verifier-service signing identity for public artifact bundles.",
     },
@@ -602,3 +603,36 @@ def default_delegation_scope_for_claim_type(claim_type: str) -> str | None:
 
 def actor_identity(identity_id: str) -> dict[str, Any] | None:
     return ACTOR_IDENTITY_BY_ID.get(identity_id)
+
+
+def validate_registered_identity(
+    identity_id: str,
+    *,
+    surface: str,
+    actor_type: str,
+    role: str | None,
+    trust_policy_id: str | None,
+    key_id: str | None = None,
+) -> dict[str, Any]:
+    identity = actor_identity(identity_id)
+    if identity is None:
+        raise ValueError(f"unknown identity {identity_id}")
+    if surface not in set(identity["surfaces"]):
+        raise ValueError(f"identity {identity_id} is not registered for surface {surface}")
+    if identity["actorType"] != actor_type:
+        raise ValueError(
+            f"identity {identity_id} actorType mismatch: {identity['actorType']} != {actor_type}"
+        )
+    if trust_policy_id and trust_policy_id not in set(identity["trustPolicyIds"]):
+        raise ValueError(
+            f"identity {identity_id} does not allow trust policy {trust_policy_id}"
+        )
+    expected_role = identity.get("defaultSignerRole")
+    if expected_role is not None and role != expected_role:
+        raise ValueError(
+            f"identity {identity_id} signer role mismatch: {expected_role} != {role}"
+        )
+    key_ids = identity.get("keyIds")
+    if key_id is not None and key_ids is not None and key_id not in set(key_ids):
+        raise ValueError(f"identity {identity_id} does not allow keyId {key_id}")
+    return identity
