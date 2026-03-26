@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/specs/schemas/actor-identities.schema.json",
+  "title": "OpenCompliance Actor Identities",
+  "type": "object",
+  "required": [
+    "registryVersion",
+    "identities"
+  ],
+  "properties": {
+    "registryVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "identities": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "identityId",
+          "actorType",
+          "trustPolicyIds",
+          "surfaces",
+          "synthetic",
+          "notes"
+        ],
+        "properties": {
+          "identityId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "actorType": {
+            "type": "string",
+            "enum": [
+              "system",
+              "human",
+              "delegated_approver",
+              "verifier_service",
+              "independent_witness"
+            ]
+          },
+          "defaultActorRole": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "defaultSignerRole": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "trustPolicyIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "surfaces": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "enum": [
+                "evidence_claim",
+                "signed_artifact",
+                "witness_receipt",
+                "release_attestation"
+              ]
+            }
+          },
+          "synthetic": {
+            "type": "boolean"
+          },
+          "notes": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

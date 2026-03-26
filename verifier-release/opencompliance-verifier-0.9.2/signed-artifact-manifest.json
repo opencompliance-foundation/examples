@@ -238,8 +238,8 @@
     },
     {
       "path": "docs/actor-ontology.md",
-      "sha256": "231df09340b4cc7d01ccf18199773de4157d5c97736d40e0c89ca4a235e00b2a",
-      "signature": "CZR8OndYBECUqHz0Xmqk1nn24HmJy/dl6dUy9NAM1DggPJCOn/QNGus4QQ5HdmPlCWhkokMS5n73m2LCu8PzCg=="
+      "sha256": "1245f6ee4a2ce87636a2573f2edb4b032b20eb113b9d85aa86dfcd104031297a",
+      "signature": "hWf0FZE7BMWQ7mh0XZGRgeYDDfEgAafDWzNKhpDBWjvzOidLUH/rFBdz0lrFwJIOMNThWx84hZ/ZSXS7v5yJAg=="
     },
     {
       "path": "docs/architecture.html",
@@ -333,8 +333,13 @@
     },
     {
       "path": "docs/public-artifacts.html",
-      "sha256": "121fe4d7da30b212370040ee3f34b93e50f58ca887c6de4e77909b2e5b72c2dd",
-      "signature": "WNNkSNYlkpSlR3vf+pfs2Wprj1v2HTHuq5JtEBWcfv2U2BxWJll65cRjNSJtphFKl9/7VA1Wfz68HSWuXu1rAQ=="
+      "sha256": "35a8d1c1ebc378241378e5b90f307e4c9d2c5227c4ca684947b27515a80387c9",
+      "signature": "lAgIkQyd6wyjJ+a2Kks9nGYEQGwuyxk76wrjUS/q/1GYdoXyTQxSyameqzStgfIBvUMwC66S2Ni0r1plQWLlBg=="
+    },
+    {
+      "path": "docs/public-artifacts.md",
+      "sha256": "d465c692258af7719808e79162fcf646589bb79034c28741c8e83a0f52ddb6de",
+      "signature": "7LOGqI3quGl8RXiTZllGqx7vLDwf9BjTAWkcxQh1Am7paH0syrHx8VbJEcLTTVCHl+LJGt6OzFksfUoFifRXCw=="
     },
     {
       "path": "docs/repositories.html",
@@ -2103,8 +2108,8 @@
     },
     {
       "path": "open-specs/README.md",
-      "sha256": "f62454306f2bf64014cd9109da25036699bb4e1d52f7eb283fc35dc088f6c33f",
-      "signature": "8neMuxxIOa/Hc4Ex21AffuCnFBdNEuiYUl8UL/YA4rmnxEGeVwy0Y6y267N0DHop2cSo6gAdzNNxDS/aod58AQ=="
+      "sha256": "fbc02ba3f93f966a78de28e471f2df86f127b3949c801c32f53797c5f6646532",
+      "signature": "M867PcjZpNurGtOgLPw65QPolliKKrVyPe5zeXucYxqS2cLyKEWKlOiqaTWYtzWKuIhYFWaP84RXqX4N95OFDg=="
     },
     {
       "path": "open-specs/STATUS.md",
@@ -2115,6 +2120,11 @@
       "path": "open-specs/VERSIONING.md",
       "sha256": "215168ccd61f86897382adba44b9f1c684a75f10aa0c2aae42b53f9e5b9cdac3",
       "signature": "sjioVaojD1MaAFfHTs12y3N5Jk87K2m5X5qiDv1mIUMV2zB+fw/yvuRZNNSyxlM6SEe04yAg/q5oZ9wK2jqdCg=="
+    },
+    {
+      "path": "open-specs/actor-identities.json",
+      "sha256": "b26abbed077963866b29eb32faf76373e3a64a14fed56b700109bc4be2aa23d6",
+      "signature": "gjTboNxmfCvP4ger+g7kwLHfkxyAM7b1bbsaOCX5jWBlJ9r8uTTjBdJQtuY28x1qhuByAda3Log8dv7ys23ZAw=="
     },
     {
       "path": "open-specs/actor-trust-policies.json",
@@ -2250,6 +2260,11 @@
       "path": "open-specs/review-pilots/exact-anchor-review-pilot.json",
       "sha256": "d3ad593aa3a3c94f23ee3d2bdb3c3aa0fbb5c98d450e1ddf6244dd014ff03d7d",
       "signature": "1K5RVzmZoOzzUQLapOsE+2sVr4Nx0yu/Hf49QxMYb39qJh0VjRBCiFcguDcFtrfTTBd7QkDBxKM5WFZ8TLnaCA=="
+    },
+    {
+      "path": "open-specs/schemas/actor-identities.schema.json",
+      "sha256": "25f00d70cd240b2267bf5810c95d0bc98a78d10b86ec7223c7b5777e639c8d7a",
+      "signature": "+2pg88AqkN/f+iV9jwU+4HI9Ga48B+tndKNFZ631YrQQGxmYN1q2mf5onPcIhp00pT3r8FJroh860A2YVv9RBQ=="
     },
     {
       "path": "open-specs/schemas/actor-trust-policies.schema.json",
@@ -2408,8 +2423,8 @@
     },
     {
       "path": "src/opencompliance/actor_ontology.py",
-      "sha256": "b076bbd67c953a8728f6ceb583726741882e117115b08143fa1652d3903476de",
-      "signature": "u7MSOAQEwcRNee0TDQai4IJU454OsUWmNlhUpjNuSvBlGMUJDH60oZ9E1xtuKwDoqgfd/UHziNR3/Ga6+bQzBg=="
+      "sha256": "ca7c207b5a0b5871efbe49ef0436674d3ecd40e0003ff1e52a7e771dbc22988d",
+      "signature": "rx1lip0j55UDEsCIHg+5p87JlnDsrSSx9/7nlfQ4iNlvDPDmIdpujvLo8GSlOuEwO1Xpd/RVVwHMfsZAygy+Cg=="
     },
     {
       "path": "src/opencompliance/artifacts.py",
@@ -2438,8 +2453,8 @@
     },
     {
       "path": "src/opencompliance/evidence_validation.py",
-      "sha256": "a108c542d938a9ec958a1544a484d110ee51e10afec773ddd800d1bdf930aa39",
-      "signature": "ULbMdlg74HmuuwdIhxpQZ3rsoNtpfLtaBXOYQjGUA6Ck0UBGR2YX1aG389DYkz8hn3XR8Bq9DTQGmcSP33+7BA=="
+      "sha256": "518b4d114bcc489b7a5e31aa1af6ec13ceecc2df3ab9102c8e5a066f3ad06b6a",
+      "signature": "a7HigE4lg+MzlQkGieGB4AqiNFb4WanlpxS/hclZy4Tr5dnhOiPLdwvmBaAQssDsglCoGrYTNQzumRVeuVG9AA=="
     },
     {
       "path": "src/opencompliance/example_specs.py",

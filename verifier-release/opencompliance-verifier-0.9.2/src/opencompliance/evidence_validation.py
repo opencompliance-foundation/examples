@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any
 
 from .actor_ontology import (
+    ACTOR_IDENTITY_BY_ID,
     ACTOR_TYPES,
     EVIDENCE_CLAIM_ACTOR_TYPES,
     SIGNED_ACTOR_TYPES,
@@ -133,6 +134,53 @@ def validate_claim(raw: dict[str, Any]) -> list[dict[str, str]]:
             )
         )
 
+    actor_id = actor.get("actorId")
+    identity = None
+    if not actor_id:
+        reasons.append(
+            _reason(
+                "missing_actor_identity",
+                "actor.actorId",
+                "Evidence claims must reference a known actor identity.",
+            )
+        )
+    else:
+        identity = ACTOR_IDENTITY_BY_ID.get(actor_id)
+        if identity is None:
+            reasons.append(
+                _reason(
+                    "unknown_actor_identity",
+                    "actor.actorId",
+                    "Actor identity is outside the current OpenCompliance synthetic identity registry.",
+                )
+            )
+        else:
+            if actor_type and identity["actorType"] != actor_type:
+                reasons.append(
+                    _reason(
+                        "actor_identity_type_mismatch",
+                        "actor.actorType",
+                        "Actor type does not match the registered actor identity.",
+                    )
+                )
+            if trust_policy_ref and trust_policy_ref not in set(identity["trustPolicyIds"]):
+                reasons.append(
+                    _reason(
+                        "actor_identity_policy_mismatch",
+                        "trustPolicyRef",
+                        "Claim trust policy is not allowed for the registered actor identity.",
+                    )
+                )
+            default_actor_role = identity.get("defaultActorRole")
+            if actor.get("actorRole") and default_actor_role and actor["actorRole"] != default_actor_role:
+                reasons.append(
+                    _reason(
+                        "actor_identity_role_mismatch",
+                        "actor.actorRole",
+                        "Actor role does not match the registered actor identity.",
+                    )
+                )
+
     if claim_type in SYSTEM_CLAIM_TYPES and actor_type != "system":
         reasons.append(
             _reason(
@@ -223,6 +271,42 @@ def validate_claim(raw: dict[str, Any]) -> list[dict[str, str]]:
                         "Signer type is outside the current OpenCompliance signing actor ontology.",
                     )
                 )
+            signer_id = signer.get("signerId")
+            signer_identity = ACTOR_IDENTITY_BY_ID.get(signer_id) if signer_id else None
+            if signer_id and signer_identity is None:
+                reasons.append(
+                    _reason(
+                        "unknown_signer_identity",
+                        "signer.signerId",
+                        "Signer identity is outside the current OpenCompliance synthetic identity registry.",
+                    )
+                )
+            elif signer_identity is not None:
+                if signer_type and signer_identity["actorType"] != signer_type:
+                    reasons.append(
+                        _reason(
+                            "signer_identity_type_mismatch",
+                            "signer.signerType",
+                            "Signer type does not match the registered signer identity.",
+                        )
+                    )
+                default_signer_role = signer_identity.get("defaultSignerRole")
+                if signer.get("signerRole") and default_signer_role and signer["signerRole"] != default_signer_role:
+                    reasons.append(
+                        _reason(
+                            "signer_identity_role_mismatch",
+                            "signer.signerRole",
+                            "Signer role does not match the registered signer identity.",
+                        )
+                    )
+                if signer.get("trustPolicyId") and signer["trustPolicyId"] not in set(signer_identity["trustPolicyIds"]):
+                    reasons.append(
+                        _reason(
+                            "signer_identity_policy_mismatch",
+                            "signer.trustPolicyId",
+                            "Signer trust policy is not allowed for the registered signer identity.",
+                        )
+                    )
             if trust_policy_ref in TRUST_POLICY_BY_ID:
                 policy = TRUST_POLICY_BY_ID[trust_policy_ref]
                 if signer_type not in set(policy["allowedSignerTypes"]):

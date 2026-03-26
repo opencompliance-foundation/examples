@@ -58,7 +58,12 @@ Evidence claims now carry a `trustPolicyRef`, and signed attestations now carry 
 - `trustPolicyId`
 - `delegatedBy` and `delegationScope` where delegation is required
 
-The current public registry is published in `open-specs/actor-trust-policies.json`.
+The current public registries are published in:
+
+- `open-specs/actor-trust-policies.json`
+- `open-specs/actor-identities.json`
+
+The policy registry defines what kinds of actors and signer roles are allowed. The identity registry pins the current synthetic ExampleCo exporters, delegated approvers, human owners, verifier-service signer, and witness identities so validation can fail closed on unknown IDs rather than only malformed shapes.
 
 ## Current validation rules
 
