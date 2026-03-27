@@ -308,23 +308,23 @@
     },
     {
       "path": "docs/frameworks.html",
-      "sha256": "70d80edf9482a99edb1c543f1001d7413f468a1dbd7e6dbcb3f755f68e6280e5",
-      "signature": "dDwBIz11crzwK8pMpL7DCtKtYxLl7/nEiuvmVJgJxVnnOnTqCF0V9fgafYIy0fF5yZDJsSW/UDthyU+kKr+RDw=="
+      "sha256": "292ec5a8154f12d6e51beb4860fd3edbfd3245b31b1564c89b0fb44143e8176a",
+      "signature": "Sw9cHTzE5LxGW2+woW+xAo9OGUW6JDtHYIJvVltYplw17fU2VhLGbtXy+scKZNqSeTbe5ogb/0lztvtP+NhbDQ=="
     },
     {
       "path": "docs/index.html",
-      "sha256": "a65d16c9aa23e2ba26911c1d4a71fac76077ea391d25399796a0d69a66ee3c32",
-      "signature": "U+G519wFjtbOi5xabp7n/fYJwrF3wQ0flaq6EwZpWhdyHPsrOIG8lNwRqvnT7CoEOqd/fCz/q6fFSVnn6cjSBg=="
+      "sha256": "b087cc3ddbabc4b539ff4147dccace63280a9da387493b2695462382f9afebd8",
+      "signature": "erMEtN9V9IwSv5T09Kko8HyXCr7Y45LTwugg3tcJfECwQi8pWMW9NlyUaUhVVv3e7A2xdukP/zadPj7msQvuBw=="
     },
     {
       "path": "docs/llm.txt",
-      "sha256": "fecbe961cbd3d777cc218bf0f3188e513193b3453271c39c3de5ef804f64f4fe",
-      "signature": "EQ04MW1NI9RtCOFiT9iGWZ9mwOZX13VAw6WUBsNQ7Tj/xBHJRcvLSwFdgs7j2IRfR2ny1omlfXeRANB5qTY2Ag=="
+      "sha256": "a4fbdacc543d9f2f4978b7fb7106267c8367fce7ad0dd83d26cf0db96122f491",
+      "signature": "BhCLcNnRrp3KbKbp5ajfWy2zk82zI1oo3/wJtM1IPiUHMQvNuN/ruD0uEY7Fok0N34eC98k2UdUPbKvlLIoTBg=="
     },
     {
       "path": "docs/llms.txt",
-      "sha256": "fecbe961cbd3d777cc218bf0f3188e513193b3453271c39c3de5ef804f64f4fe",
-      "signature": "EQ04MW1NI9RtCOFiT9iGWZ9mwOZX13VAw6WUBsNQ7Tj/xBHJRcvLSwFdgs7j2IRfR2ny1omlfXeRANB5qTY2Ag=="
+      "sha256": "a4fbdacc543d9f2f4978b7fb7106267c8367fce7ad0dd83d26cf0db96122f491",
+      "signature": "BhCLcNnRrp3KbKbp5ajfWy2zk82zI1oo3/wJtM1IPiUHMQvNuN/ruD0uEY7Fok0N34eC98k2UdUPbKvlLIoTBg=="
     },
     {
       "path": "docs/open-proof-layer.html",
@@ -338,8 +338,8 @@
     },
     {
       "path": "docs/public-artifacts.html",
-      "sha256": "86e8fa6ef462e3a5d0e60e2a30db82a38f3eb5d8d7ff406dad34268e9b56ce3b",
-      "signature": "x15Vhuq/U/CNpRAelMEBNp9rr6x4ckrel4TmDt2+3tvivj/JgKht4n0gaVq4OqMelfJM01wuorfKizjyKz9GCg=="
+      "sha256": "24b1af4ebe93306fef63229a2e94761ab465d8c3512ee74834b5e32d4aeccf9f",
+      "signature": "/RO88LAGslhbxDdcGQ5bTbgWzVjR8Yhlgv2uo2Cn1MirdYWzOHGwpyMr3duy5MCikjkX8lznapw816IhPdgWDg=="
     },
     {
       "path": "docs/public-artifacts.md",
@@ -368,8 +368,8 @@
     },
     {
       "path": "docs/roadmap.html",
-      "sha256": "345b106707057c3be69e7fa2595a37b3e0fabb0f276e7bf1e950a505bd354795",
-      "signature": "aFpziDBUwbNfpU1AXAyDogNIT1g2DFqLSmZ3qgB5EC4Q0lnz9HYsq+E8Nmp/olN2bj1g9UOulindaRPhtMr7AQ=="
+      "sha256": "9a8e6353463bd833a01a2dbe02bfa59dd0d7bdf43e76db11f7ce1408fac4f46f",
+      "signature": "obNDTNspuLhGflHk17Q5xF2QzD+nm3S7aQTnr32F6dkzxa1M0oRTGWGe6KYTJ4wpc6qRj+wmiJcNSRYOMII5Aw=="
     },
     {
       "path": "docs/robots.txt",
@@ -388,8 +388,13 @@
     },
     {
       "path": "docs/sitemap.xml",
-      "sha256": "7ef21671e1c14331d87e6838d12c33f417d8abc6f64314cfcf7d42f6802835b3",
-      "signature": "x5tiukQ5GWsfGjt/MeBSytIUJVyDZSyPmYjIMU6xDDCL7VxFzgo74R80NtON/u5TpjLVng5KhgIKMt76WHiSCA=="
+      "sha256": "d51187c3a86c1a7f53b3b63f849e553dde085a8be99a0e3004b1247b5b7791a6",
+      "signature": "UEUfk3PO1od6aHtVDXId9oFEHByp5LcWza71A+1VOJUxIu2TieVDpmuwNvYqffmnBq6ChOpEnFyob1tUYYMqAA=="
+    },
+    {
+      "path": "docs/standards-mapping.html",
+      "sha256": "2755eeb2f6ef1f4abcb0fcf0d6be123149dcedb8ceac9de96bca3a498f8513a7",
+      "signature": "RnUucIcC+tVDfZASmTSEc8twivWI6YFxQ7a0Yi6KSej7TeIyXozlfW+no2oQYnobeGxSeo96yuIoCm5VOOjVBw=="
     },
     {
       "path": "docs/styles.css",
@@ -2203,13 +2208,13 @@
     },
     {
       "path": "open-specs/README.md",
-      "sha256": "fbc02ba3f93f966a78de28e471f2df86f127b3949c801c32f53797c5f6646532",
-      "signature": "M867PcjZpNurGtOgLPw65QPolliKKrVyPe5zeXucYxqS2cLyKEWKlOiqaTWYtzWKuIhYFWaP84RXqX4N95OFDg=="
+      "sha256": "8b4a457101c91f8f313a927635be99ed479d5579d0be98dacb8c6c5bd7d42acf",
+      "signature": "+ELpCP4oePw1H3V504r9IXxf73W7q+FJcBx4iPrmbpEGVxH60ati9k6sxLRwCc/+5xdwa9/iMA9lEEhwhklKBA=="
     },
     {
       "path": "open-specs/STATUS.md",
-      "sha256": "7b6d4d9923aece0fcb0ee380a1ecc40253e2497cad20ca263b12a85f22a71aa2",
-      "signature": "Wx78TouuGyFf2ROtJswLwoELHlLsuyQXMgHHzlLZQEKFG3RcbnZLp5NKeVTbb2/uJ/m9iena7P9vWJ+mSmT8Ag=="
+      "sha256": "0c1b5e8b452e924bba615b528ea5360a988dfb17f6ae5c907ff2ea251bc9d0a9",
+      "signature": "jPieLHaqZCJiL7SaKPzft4MGJu6tNPigFZUlRVVQuPAwqYaJ1Aybj8+DH0mROOEMB+JxOFgbRV8l260p1ZHrBQ=="
     },
     {
       "path": "open-specs/VERSIONING.md",
@@ -2322,6 +2327,16 @@
       "signature": "dRV0GV7u4CbYBB6GWF0ZP71cqvffkZ1W3IA1Cy4gFEO1veVC636z/AhXkgoStK+xPiQsHyA/vNIQgfwJJUTNDQ=="
     },
     {
+      "path": "open-specs/external-review-program.json",
+      "sha256": "1aef2cc62a2a4ac0f6e13815f9291d225b71995ca59f22a3d367f27ad5810e6f",
+      "signature": "8b3wFCksXwYhSmPUXvRo/cRAHx0ZbiJqYYCOzcVNxI/gWBZWodi81hP/4XUX5iLbrxgY8fO1oPaAF+dnhBwlAw=="
+    },
+    {
+      "path": "open-specs/external-review-program.md",
+      "sha256": "f3b837d04a983f9aee590e8ccc81abf84c98bffe7906ef1834f88be277f44ba6",
+      "signature": "cmBhDH2PVe0WD8wyszFL1Tw7e4x1Ljjjj5XDG5KBMs+XlzLGM0m0MrSwmm72FaKpBywyiG9C2XXS/ShIZzT8Ag=="
+    },
+    {
       "path": "open-specs/framework-coverage.json",
       "sha256": "5addd3f4d8fa79d296ef42167640ffe9804fc5617585f9a525ab6499bef35ad0",
       "signature": "s5ndNB6CcFp/D43Qks9IogFLMlHdLX+z5FmV5jl1cH9HuGxU+tyaR4oDPWWwux0M9FypFeM3/RtU27Svn8O5DA=="
@@ -2350,6 +2365,16 @@
       "path": "open-specs/mapping-methodology.md",
       "sha256": "447d1b6cb487180c28211a57b8e7b2842543efbabf4ee8bec496de4a9fdf4414",
       "signature": "+nGMJ2pu3JCQWWR5s85byYG1syGnjLWhkHz4huDmMPsbl67Sv6SJ7eEJU+2i6Fhcz6O6dc7GNBvXLcXo3jy5Dg=="
+    },
+    {
+      "path": "open-specs/proprietary-framework-publication-model.json",
+      "sha256": "b3a33c80be9dba195a384947ceaeb6ad579240e9252989c9b7ee3ad4f6d52202",
+      "signature": "k3l2Ij58xFuEOBaQBmHQAhQgAW0oEpONOFyJGVKjrXE2bMfdiTTLODYyz5qnrY/0eSFgpNeM79/vp7xsW8noAw=="
+    },
+    {
+      "path": "open-specs/proprietary-framework-publication-model.md",
+      "sha256": "fe711e89fb83fc07359a8b7c1f5e8d3cb139bf671eaac933ad4b51b7dbada85c",
+      "signature": "xUYKtV9ptEM7oRW8t77A7a0cLTXTM5thNY0ZwRQE1S9xTbdaLShxguKtsds0QrYUaCqM4wkDLImfxbB0gIvKDg=="
     },
     {
       "path": "open-specs/review-pilots/README.md",
@@ -2407,6 +2432,11 @@
       "signature": "idEO+lElMqyTGaARbXdQvET8nZV2ZOzqxPsIGPm4bGDEvlu4ewnZtSKzUbxRvLlDHOpZY0CtmeCfnYw0+IJyBQ=="
     },
     {
+      "path": "open-specs/schemas/external-review-program.schema.json",
+      "sha256": "683fd12570e1dd253a3ba7c31fbf9b6ad3da274dc4185513ea9cf29daff160f4",
+      "signature": "sUG18oRO3ul8Dj8rebzkrEjx9n8nhbs+zMog4bl20GrZGCKzgehxIgklyuNmpHWMhr4BavPh/a69JBrDzffNBw=="
+    },
+    {
       "path": "open-specs/schemas/inclusion-proofs.schema.json",
       "sha256": "5b46b984a69024e048bd67066a946106782927f7362221bd3082fa776463268a",
       "signature": "IbjHC9STHQM3pY9Et+CAw5SFiSi2q+LpVJsF267q1Y/giXyLL90wXazplQ0dZJpo/zc+JKzgOvNyUrzXzvSKBA=="
@@ -2415,6 +2445,11 @@
       "path": "open-specs/schemas/proof-bundle.schema.json",
       "sha256": "053ee4faeea1e103e997e34548285c4ceeff31f7506c7cc10bb7a10caa4b4755",
       "signature": "edn5iEtJegpTQc/DE1efxJgVwXBhG/KWtuNynTOTbpZmmDXic6ZvN2akey1d9qnt7CjNdfxR6vzfZsNz0KJADA=="
+    },
+    {
+      "path": "open-specs/schemas/proprietary-framework-publication-model.schema.json",
+      "sha256": "be6beacf3567f42548e5b5a0a840d47e48717d56462444157b9512e01107d9cf",
+      "signature": "++iBmH/wO5+2Z6XYKL0bwDiRELn5kYsdN2SDtQxIaTedSNlN0UxEGbnXMpbydsccxoPd4jPpqEo4qmDM8PACAA=="
     },
     {
       "path": "open-specs/schemas/punch-list.schema.json",
@@ -2440,6 +2475,11 @@
       "path": "open-specs/schemas/signed-artifact-manifest.schema.json",
       "sha256": "d89267f8992538de7a178c7a3be13b1a535731809edabeae85d3ca4351d96736",
       "signature": "JS3CUHmH/LATC0EMxloeIx4ZRhB3FC6NnGnHTVDDPLUtp0/+JW5OQ1VVpP8nxDRmsyw9AFlvIUNl4/grh/8QAQ=="
+    },
+    {
+      "path": "open-specs/schemas/standards-mapping-status.schema.json",
+      "sha256": "afe5a85428d5366a3b924d090a038201dc369bd53445c3f19141170003957922",
+      "signature": "lm1D71HQTpXVN254JrGt7fKdsLXBG9bPeNPYi4fD80WQEJpKNJqi1AQeGTtSbSpnxoubiAPqngXLWYeEGOE/CA=="
     },
     {
       "path": "open-specs/schemas/transparency-log.schema.json",
@@ -2470,6 +2510,16 @@
       "path": "open-specs/schemas/witness-receipt.schema.json",
       "sha256": "95db24c5e080cb0a894e6a38d95e7556fe70e50d382c2ba974b6de59a546f187",
       "signature": "suYXAwemRbxQGUNEljjM7gsW6Rb5tgS9gCl6RjiNrU4lUnIt13RTTlE2BWgRVPkVfpHxzRNCrgGwzFzozLqlDA=="
+    },
+    {
+      "path": "open-specs/standards-mapping-status.json",
+      "sha256": "22023e3ae01b5c5a964720794115d046baeb5957934a5ca188255f8e704d8a68",
+      "signature": "yp1dDc7tM7CUU7BnGj2gpVmTM4FI1ucWPLuiPgBtVnPOU+IJVfl1sDix8UkM5HnFfIHjsacwlJJ3I2UcbdwJCg=="
+    },
+    {
+      "path": "open-specs/standards-mapping-status.md",
+      "sha256": "6cf89140b2fd0f4216223adc01448c8afac6a32306e5ec27def2d06332097374",
+      "signature": "IL40FqLl6f+i2q93YLQWYlwBSH2JL1QbZJ+jOBbp1krgiEgocc4q/AFXKPFeOknyXfL066Wa0knsAur0T1GwAA=="
     },
     {
       "path": "open-specs/trust-root-profiles.json",

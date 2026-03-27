@@ -1,0 +1,262 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/specs/schemas/standards-mapping-status.schema.json",
+  "title": "OpenCompliance Standards Mapping Status",
+  "type": "object",
+  "required": [
+    "version",
+    "generatedAt",
+    "purpose",
+    "targetState",
+    "frameworks"
+  ],
+  "properties": {
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "generatedAt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 1
+    },
+    "targetState": {
+      "type": "object",
+      "required": [
+        "description",
+        "requiredCapabilities"
+      ],
+      "properties": {
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "requiredCapabilities": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "frameworks": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "framework",
+          "sourceAvailability",
+          "openComplianceState",
+          "summary",
+          "familyRollout",
+          "workstreams",
+          "publicNotes"
+        ],
+        "properties": {
+          "framework": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceAvailability": {
+            "type": "string",
+            "minLength": 1
+          },
+          "openComplianceState": {
+            "type": "string",
+            "minLength": 1
+          },
+          "summary": {
+            "type": "object",
+            "required": [
+              "seedControlsTouchingFramework",
+              "frameworkAnchorCount",
+              "privateAtomicObligations",
+              "mappedPublicControls",
+              "implementedPublicControls",
+              "plannedPublicControls",
+              "leanBackedPublicControls",
+              "blockedExactAnchorPublicControls",
+              "remainingSeedControls",
+              "familyRolloutEntries",
+              "routeCounts",
+              "exactAnchorStatusCounts"
+            ],
+            "properties": {
+              "seedControlsTouchingFramework": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "frameworkAnchorCount": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "privateAtomicObligations": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "mappedPublicControls": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "implementedPublicControls": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "plannedPublicControls": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "leanBackedPublicControls": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "blockedExactAnchorPublicControls": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "remainingSeedControls": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "familyRolloutEntries": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "routeCounts": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "exactAnchorStatusCounts": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              }
+            },
+            "additionalProperties": true
+          },
+          "familyRollout": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "family",
+                "mappedControls",
+                "implementedControls",
+                "plannedControls",
+                "leanBackedControls",
+                "routeCounts",
+                "controlIds"
+              ],
+              "properties": {
+                "family": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "mappedControls": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "implementedControls": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "plannedControls": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "leanBackedControls": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "routeCounts": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "integer",
+                    "minimum": 0
+                  }
+                },
+                "controlIds": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              },
+              "additionalProperties": true
+            }
+          },
+          "workstreams": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "title",
+                "status",
+                "summary",
+                "remainingWork",
+                "blockedBy"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "title": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "status": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "summary": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "remainingWork": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "blockedBy": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              },
+              "additionalProperties": true
+            }
+          },
+          "publicNotes": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

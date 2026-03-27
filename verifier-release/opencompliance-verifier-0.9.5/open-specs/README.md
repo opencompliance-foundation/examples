@@ -39,6 +39,12 @@ They are useful now for review and example generation. The public synthetic Exam
 - `framework-priorities.md`
 - `framework-coverage.json`
 - `framework-coverage.md`
+- `standards-mapping-status.json`
+- `standards-mapping-status.md`
+- `proprietary-framework-publication-model.json`
+- `proprietary-framework-publication-model.md`
+- `external-review-program.json`
+- `external-review-program.md`
 - `actor-identities.json`
 - `actor-trust-policies.json`
 - `control-boundaries.json`
@@ -54,6 +60,9 @@ They are useful now for review and example generation. The public synthetic Exam
 - `artifacts/revocation.md`
 - `artifacts/public-example-pack.md`
 - `schemas/control-boundaries.schema.json`
+- `schemas/standards-mapping-status.schema.json`
+- `schemas/proprietary-framework-publication-model.schema.json`
+- `schemas/external-review-program.schema.json`
 - `schemas/actor-identities.schema.json`
 - `schemas/actor-trust-policies.schema.json`
 - `schemas/exact-anchor-review-pilot.schema.json`
