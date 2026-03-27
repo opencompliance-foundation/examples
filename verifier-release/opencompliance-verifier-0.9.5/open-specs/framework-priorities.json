@@ -402,6 +402,56 @@
       "openComplianceState": "ecosystem_backlog",
       "operatorBenefit": "Relevant to the audit and certification ecosystem around AI management systems, but not a direct first-order operator control framework.",
       "nextAction": "Track it as ecosystem infrastructure for the certification layer rather than as an immediate control-mapping target."
+    },
+    {
+      "framework": "ISO/IEC TS 6254",
+      "category": "ai_assurance",
+      "priorityRank": 41,
+      "priorityTier": "candidate_next",
+      "sourceAvailability": "crosswalk_candidate",
+      "openComplianceState": "priority_backlog",
+      "operatorBenefit": "Useful for startups that need a stronger explainability and interpretability story than simple transparency labeling, especially for high-impact or customer-facing AI use cases.",
+      "nextAction": "Track it as the next explainability-oriented ISO candidate layer and only normalize public controls once licensed review or stronger public crosswalk material exists."
+    },
+    {
+      "framework": "ISO/IEC 22989",
+      "category": "ai_foundation",
+      "priorityRank": 42,
+      "priorityTier": "ecosystem_watch",
+      "sourceAvailability": "crosswalk_candidate",
+      "openComplianceState": "ecosystem_backlog",
+      "operatorBenefit": "Important as the common concepts-and-terminology baseline for AI governance and assurance work, even though it is not a first-order control framework by itself.",
+      "nextAction": "Use it as terminology and ontology support for future AI-control normalization rather than as an immediate fixture-backed mapping target."
+    },
+    {
+      "framework": "ISO/IEC 23053",
+      "category": "ai_engineering",
+      "priorityRank": 43,
+      "priorityTier": "candidate_next",
+      "sourceAvailability": "crosswalk_candidate",
+      "openComplianceState": "priority_backlog",
+      "operatorBenefit": "Useful for startups that want a more explicit machine-learning systems framework connecting data, model, and evaluation work to auditable engineering controls.",
+      "nextAction": "Treat it as the next engineering-oriented ISO AI layer after the current governance corridor, starting with evaluation and data-lineage candidates once stronger public review material exists."
+    },
+    {
+      "framework": "ISO/IEC 38507",
+      "category": "ai_governance",
+      "priorityRank": 44,
+      "priorityTier": "candidate_next",
+      "sourceAvailability": "crosswalk_candidate",
+      "openComplianceState": "priority_backlog",
+      "operatorBenefit": "Useful for board- and leadership-level governance expectations where organisations need a more explicit governance-of-AI story than technical controls alone provide.",
+      "nextAction": "Use it to shape future governance-role and accountability controls, but keep clause-grade publication blocked until licensed review exists."
+    },
+    {
+      "framework": "ISO/IEC AWI 42003",
+      "category": "ai_assurance",
+      "priorityRank": 45,
+      "priorityTier": "emerging_draft",
+      "sourceAvailability": "public_draft",
+      "openComplianceState": "emerging_backlog",
+      "operatorBenefit": "Potentially useful as guidance around AI management systems once the project matures, but it is still draft-stage and not yet a stable mapping target.",
+      "nextAction": "Track the draft and use it only as a watch-list signal for future AIMS guidance, not as a current reviewed exact-anchor layer."
     }
   ]
 }

@@ -308,8 +308,8 @@
     },
     {
       "path": "docs/frameworks.html",
-      "sha256": "292ec5a8154f12d6e51beb4860fd3edbfd3245b31b1564c89b0fb44143e8176a",
-      "signature": "Sw9cHTzE5LxGW2+woW+xAo9OGUW6JDtHYIJvVltYplw17fU2VhLGbtXy+scKZNqSeTbe5ogb/0lztvtP+NhbDQ=="
+      "sha256": "4fa61ddec065c0b47c6dc94f3867b98a9223a84d720a83de757fc4d826999bfb",
+      "signature": "1vhHRQ5nMXPC8cHEtwZNBzyLpoK6raQP6131T8B+U/yD6hY+OTxVUx7PFk2+zRnqjGPZGcPievu4ctoaYVbiAA=="
     },
     {
       "path": "docs/index.html",
@@ -318,13 +318,13 @@
     },
     {
       "path": "docs/llm.txt",
-      "sha256": "a4fbdacc543d9f2f4978b7fb7106267c8367fce7ad0dd83d26cf0db96122f491",
-      "signature": "BhCLcNnRrp3KbKbp5ajfWy2zk82zI1oo3/wJtM1IPiUHMQvNuN/ruD0uEY7Fok0N34eC98k2UdUPbKvlLIoTBg=="
+      "sha256": "70aea66557b81f4c76d50fddfb4eff509a715d30896f7a42b69b80a39602768e",
+      "signature": "lcr3Dyn6d2eeu02s6dBAjDPYeconGtxP94YvFQfgpco33UIjaFupMhbQLopIFpChw1yfPVZYsrl/o3sX9AVeBw=="
     },
     {
       "path": "docs/llms.txt",
-      "sha256": "a4fbdacc543d9f2f4978b7fb7106267c8367fce7ad0dd83d26cf0db96122f491",
-      "signature": "BhCLcNnRrp3KbKbp5ajfWy2zk82zI1oo3/wJtM1IPiUHMQvNuN/ruD0uEY7Fok0N34eC98k2UdUPbKvlLIoTBg=="
+      "sha256": "70aea66557b81f4c76d50fddfb4eff509a715d30896f7a42b69b80a39602768e",
+      "signature": "lcr3Dyn6d2eeu02s6dBAjDPYeconGtxP94YvFQfgpco33UIjaFupMhbQLopIFpChw1yfPVZYsrl/o3sX9AVeBw=="
     },
     {
       "path": "docs/open-proof-layer.html",
@@ -393,8 +393,8 @@
     },
     {
       "path": "docs/standards-mapping.html",
-      "sha256": "2755eeb2f6ef1f4abcb0fcf0d6be123149dcedb8ceac9de96bca3a498f8513a7",
-      "signature": "RnUucIcC+tVDfZASmTSEc8twivWI6YFxQ7a0Yi6KSej7TeIyXozlfW+no2oQYnobeGxSeo96yuIoCm5VOOjVBw=="
+      "sha256": "38a80f41e402b54ac7e9dd4a5468fce9f62ebc718f878048f50c8c1737b57bbe",
+      "signature": "hKOGQLSzAN3fQVTK101cUd5kW/oJ6Ewg6oxPnJdLCV6LnexVzUDB3ypn38jA1XwOqMs+lmLLadodhcrUfCWUAw=="
     },
     {
       "path": "docs/styles.css",
@@ -2208,13 +2208,13 @@
     },
     {
       "path": "open-specs/README.md",
-      "sha256": "8b4a457101c91f8f313a927635be99ed479d5579d0be98dacb8c6c5bd7d42acf",
-      "signature": "+ELpCP4oePw1H3V504r9IXxf73W7q+FJcBx4iPrmbpEGVxH60ati9k6sxLRwCc/+5xdwa9/iMA9lEEhwhklKBA=="
+      "sha256": "ce4943e48e5bfadbc4b9222afbbc3bddda502677060175ad5d8df4b1ab75cbd3",
+      "signature": "NHbsghvEjtja/FLDuWaZ8W3HPqekBrJqnlcF719SkTad+9PEXP8bOeiGNLA8osOFW2yMEM4f6rEmiZKQ/zL/Ag=="
     },
     {
       "path": "open-specs/STATUS.md",
-      "sha256": "0c1b5e8b452e924bba615b528ea5360a988dfb17f6ae5c907ff2ea251bc9d0a9",
-      "signature": "jPieLHaqZCJiL7SaKPzft4MGJu6tNPigFZUlRVVQuPAwqYaJ1Aybj8+DH0mROOEMB+JxOFgbRV8l260p1ZHrBQ=="
+      "sha256": "05493e8bc5f79492b57b313ffb5593a5f0c84a717373149e676ffe941dae3c09",
+      "signature": "sSB5TIZ1+oSt2ZycYe/yoB6PeHIBQHRq35g7MMnJpv6cyRqzJogLiAGaO5RVVkAE+MvCeZ9gENdYi7SaZn28BA=="
     },
     {
       "path": "open-specs/VERSIONING.md",
@@ -2328,8 +2328,8 @@
     },
     {
       "path": "open-specs/external-review-program.json",
-      "sha256": "1aef2cc62a2a4ac0f6e13815f9291d225b71995ca59f22a3d367f27ad5810e6f",
-      "signature": "8b3wFCksXwYhSmPUXvRo/cRAHx0ZbiJqYYCOzcVNxI/gWBZWodi81hP/4XUX5iLbrxgY8fO1oPaAF+dnhBwlAw=="
+      "sha256": "e21bf9042bf43610f4826591daab054e7c5548f678c006b4a2c539fac944aabe",
+      "signature": "GKopuGYgWyVIj8t/b7mIVoDhTybAE38XabEfvAGkaaP75L3yiyO49qndiozW6dsf5K84BhXD4LQTdk5VxS1SDw=="
     },
     {
       "path": "open-specs/external-review-program.md",
@@ -2338,28 +2338,58 @@
     },
     {
       "path": "open-specs/framework-coverage.json",
-      "sha256": "5addd3f4d8fa79d296ef42167640ffe9804fc5617585f9a525ab6499bef35ad0",
-      "signature": "s5ndNB6CcFp/D43Qks9IogFLMlHdLX+z5FmV5jl1cH9HuGxU+tyaR4oDPWWwux0M9FypFeM3/RtU27Svn8O5DA=="
+      "sha256": "f1014f6881964058b1867de0e62dc9dd29901c6687304273dee9cedfd091c7a8",
+      "signature": "6YZ+ma27dj6wChCsJCeysTBuxGlTIJ3nbyb+gxfCblhDieMbeccX7Blcvj4IjwWmk7IsEifjZnZrNBwR80C1AA=="
     },
     {
       "path": "open-specs/framework-coverage.md",
-      "sha256": "9f9c8e45736273bf98b4b7c4618deac4929da0cbd8aca27fa8d743fb447117df",
-      "signature": "oUUBnf4UZZZhUpa7+emjCE+U8w1+thFPUoQ1mV/l5t+SHqjxc0V/U+NhWETLAOfnzXbMyMczXzdVNZqy3+XFDw=="
+      "sha256": "543d8d24b6a7541d1a00553e1f1ad695e9a292675a4ae00c9e6de7efc14a1f7b",
+      "signature": "4WnihVx11/ba4d/mR+wQTAPgI6UuAQHtnWka8HTtWwYdDg0trouPhKefH3HB5wM0WT/EijqCwYNlDz2145YRCw=="
     },
     {
       "path": "open-specs/framework-priorities.json",
-      "sha256": "d03e281df6f9003c83d47a56108c8e8c6e1d4c48254991242acc9b408e53a9b2",
-      "signature": "pfk8t+6tDV5C8EtojqshAYTEnjUv/gE8ocsMTOBUalpkuKw6xnQRFie7OwmoPLIlPEySjTZxocs8smoBZwcTBQ=="
+      "sha256": "76428c677073da1aef72282713a8c539ce96a08e22c14b96de9cb69fac08c484",
+      "signature": "jlyjC5WY5deAtObYkNDFaWreDHjljQj9gIqdKHIN9Ybo8fsauFLNTviJwohaPJLw//aZoR64hY8IQjeoeeb4Bg=="
     },
     {
       "path": "open-specs/framework-priorities.md",
-      "sha256": "29211891a5faa3e9f7d1bab11d1e15bfec46b28028bdf08966e7a6ddb3e741f5",
-      "signature": "s/N/nIW5F7dkItoJFghfy0sbX20X3WDK7jLi8PyY4M5pp9jqx+z7vPC5Y4b4O9z6OAyVaw0AODyc3NVuZ9SwBA=="
+      "sha256": "5ce0a97801f3e0a50fb05c81b6e826e197908279fe8dc95979b0ef5963fbb776",
+      "signature": "AKR8hjE3h+81a2T6v/3xhfR0JLLLx1daD9hAGtHRCvjxIrydSTBTkwEDrorfLUxfgODfvHdIDystCAzYOuzfBw=="
     },
     {
       "path": "open-specs/framework-source-availability.md",
-      "sha256": "cd33016a92aeee11b2184270f8f7b2a8b758459d39d3e765b1a6c518f2116104",
-      "signature": "AwFwjxHzeqFyOWmWSwvP9vgY+n58Jo3+OEzISfwfH9xI5iIGVcLZpmaFvueOHKYCCAfEDAtYV2tDtRaWoh9LBw=="
+      "sha256": "63f337383069345e35ab1d2612a60379713f30ff71054c4d27adc746d84b49e1",
+      "signature": "kqpbwcxO9ZSj06jPlRaGJqeH2N+3jaDCTEh0KFmV/oi3r/O3C8D9pvTE0KgfUlrWKtM5Hk5jnBi/UZEnxNRWCw=="
+    },
+    {
+      "path": "open-specs/gdpr-ai-mapping-status.json",
+      "sha256": "7b790092541f12c031b8ededed3ae46f5eeb1f2046be4d7a50154fd0725f87a3",
+      "signature": "hbM+WeZU1K8IxDWlwSkpZ2Er8ailuplUl/fYO9Wn3RxzTTVbxKf1QqNr36zKrE2uoSX1AeMImXDRNE7GvKHTCw=="
+    },
+    {
+      "path": "open-specs/gdpr-ai-mapping-status.md",
+      "sha256": "f7a66e7c51bed0de7a092fe479ade1855355df53639746c12038a32cdf5b5b56",
+      "signature": "NqRcV5UaRrhF3HE27WnykIvXZfP8Z6Y6WJChRSmxb4qzlKHHnSgPwb0P7tVUSnQK0GCOzGXI8HtqyH5qbabMBA=="
+    },
+    {
+      "path": "open-specs/gdpr-ai-publication-model.json",
+      "sha256": "4367d13da46de4171d283516f1ecbf5519fe2d3ca642207ad1f357844404d05a",
+      "signature": "KVPV0WHwryJ1OsrFl1nwEefWD3XYt+qYke0//37V1beh8LRx4LFjvtI3hB1HioCKujYFkZ6xB9EAMbNlp2aCDQ=="
+    },
+    {
+      "path": "open-specs/gdpr-ai-publication-model.md",
+      "sha256": "3ef852b1c5c1ba0c37eb8d5b14cde8ff5cf7906ba9be89c8ccd4f59eb0a6a373",
+      "signature": "f6l5gxXhIQKq2kNHezhJDgDGDPRYDaI55+PHKfHT4G07DeWf4JvhJgtREe/hoAr72GZISwJb/7PfVAXIKkVmBQ=="
+    },
+    {
+      "path": "open-specs/gdpr-ai-review-program.json",
+      "sha256": "98584bc66c34f141fe9c246a515006cb69dfb2fc71a5158fec2b7a9b512ec466",
+      "signature": "XqXgBUg8+yjkISacQyqa4R2+jmn5BlwlGSRbBJqWNLRybEZsReiGnE7r/j4dxCXAMimXnFFwj7N+pd9zHLX5BA=="
+    },
+    {
+      "path": "open-specs/gdpr-ai-review-program.md",
+      "sha256": "2e4e44989ba1b409986d5e89882821bfcf442669f1670d7cec79c68edba83dc8",
+      "signature": "6PMb/8xdEwgk8okxxFB63HDEfgm8vnB84pDE1H7dopLFFIfy+0pTe4vMuNJiiYDUGfs/6phh96GT+NctZJfIDQ=="
     },
     {
       "path": "open-specs/mapping-methodology.md",
@@ -2368,8 +2398,8 @@
     },
     {
       "path": "open-specs/proprietary-framework-publication-model.json",
-      "sha256": "b3a33c80be9dba195a384947ceaeb6ad579240e9252989c9b7ee3ad4f6d52202",
-      "signature": "k3l2Ij58xFuEOBaQBmHQAhQgAW0oEpONOFyJGVKjrXE2bMfdiTTLODYyz5qnrY/0eSFgpNeM79/vp7xsW8noAw=="
+      "sha256": "3faf5b4e95ec04407d92c92b81468a6f978f2864b420004d3207a267a18dca18",
+      "signature": "0JY4GCKujgGZ1efRf9hU3yN6c5MnlZFpLPh+9w4GqayG6SWdXIWmYCfkhbtehlu77EgVVanc+ak5ApEqJvcUCQ=="
     },
     {
       "path": "open-specs/proprietary-framework-publication-model.md",
@@ -2435,6 +2465,21 @@
       "path": "open-specs/schemas/external-review-program.schema.json",
       "sha256": "683fd12570e1dd253a3ba7c31fbf9b6ad3da274dc4185513ea9cf29daff160f4",
       "signature": "sUG18oRO3ul8Dj8rebzkrEjx9n8nhbs+zMog4bl20GrZGCKzgehxIgklyuNmpHWMhr4BavPh/a69JBrDzffNBw=="
+    },
+    {
+      "path": "open-specs/schemas/gdpr-ai-mapping-status.schema.json",
+      "sha256": "0d8c36ea381b75c440b4aea793d7aa0881e88902bb4b1afeb9377aed440fa6f3",
+      "signature": "RA/3/PyCC1E2veS2+yCrMSXa2+SBLp0BO76D5YbJZVESaQlAtepTGpnBeZgNU8WR+pIZlgQNuSAzrLxJxzoUAA=="
+    },
+    {
+      "path": "open-specs/schemas/gdpr-ai-publication-model.schema.json",
+      "sha256": "cd01f4f0be03886406c9aef3a71d45dc2110fbdfb5f1a4796e50cf1080e25241",
+      "signature": "im1Hql1DAeBK1Undl7ImqHp1Q1kgKT+CBzqHetoT0CwR0DyfaHTsomHwNvqIB00CFlFCsJcp9gYB57vgAMlPDw=="
+    },
+    {
+      "path": "open-specs/schemas/gdpr-ai-review-program.schema.json",
+      "sha256": "0c5819d4f820d23eb2add9a778da5036da1184d70aafff0a834fa113b83c1436",
+      "signature": "3lrb+fr1bmi0RdOygXA+VoAFch3o0LLbbURNaZxR89TTDiZlQ8jvcBzdWTch2z2FD5M5/iFfZ+A7SATLEJH1AQ=="
     },
     {
       "path": "open-specs/schemas/inclusion-proofs.schema.json",
@@ -2513,13 +2558,13 @@
     },
     {
       "path": "open-specs/standards-mapping-status.json",
-      "sha256": "22023e3ae01b5c5a964720794115d046baeb5957934a5ca188255f8e704d8a68",
-      "signature": "yp1dDc7tM7CUU7BnGj2gpVmTM4FI1ucWPLuiPgBtVnPOU+IJVfl1sDix8UkM5HnFfIHjsacwlJJ3I2UcbdwJCg=="
+      "sha256": "7b76ece9bf3569fdb3c958e3888eaf41194d6fadbf8ce6c0979d861bee846f1e",
+      "signature": "fsGbGBIje0uCdqawegR8q6iWW/hifeIOMLIAG1Yvtb/N5sSkJ36ZAZmjmLfujULp42MHGucOU7AIkuL/IqeSDg=="
     },
     {
       "path": "open-specs/standards-mapping-status.md",
-      "sha256": "6cf89140b2fd0f4216223adc01448c8afac6a32306e5ec27def2d06332097374",
-      "signature": "IL40FqLl6f+i2q93YLQWYlwBSH2JL1QbZJ+jOBbp1krgiEgocc4q/AFXKPFeOknyXfL066Wa0knsAur0T1GwAA=="
+      "sha256": "f70e06ef2dbe46c3cebda7d19b70fa667b551861c3a8d507e648d426695c66ee",
+      "signature": "gkBHyVUOv9lwLMqwXJbDFfpLUg67ownRP1Guvb4w7JZrs/IauyuNqlQFaz9R8g5CGUGLQCb5I7egSUeJixzCBQ=="
     },
     {
       "path": "open-specs/trust-root-profiles.json",

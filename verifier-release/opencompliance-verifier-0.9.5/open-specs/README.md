@@ -41,10 +41,16 @@ They are useful now for review and example generation. The public synthetic Exam
 - `framework-coverage.md`
 - `standards-mapping-status.json`
 - `standards-mapping-status.md`
+- `gdpr-ai-mapping-status.json`
+- `gdpr-ai-mapping-status.md`
 - `proprietary-framework-publication-model.json`
 - `proprietary-framework-publication-model.md`
 - `external-review-program.json`
 - `external-review-program.md`
+- `gdpr-ai-publication-model.json`
+- `gdpr-ai-publication-model.md`
+- `gdpr-ai-review-program.json`
+- `gdpr-ai-review-program.md`
 - `actor-identities.json`
 - `actor-trust-policies.json`
 - `control-boundaries.json`
@@ -63,6 +69,9 @@ They are useful now for review and example generation. The public synthetic Exam
 - `schemas/standards-mapping-status.schema.json`
 - `schemas/proprietary-framework-publication-model.schema.json`
 - `schemas/external-review-program.schema.json`
+- `schemas/gdpr-ai-mapping-status.schema.json`
+- `schemas/gdpr-ai-publication-model.schema.json`
+- `schemas/gdpr-ai-review-program.schema.json`
 - `schemas/actor-identities.schema.json`
 - `schemas/actor-trust-policies.schema.json`
 - `schemas/exact-anchor-review-pilot.schema.json`

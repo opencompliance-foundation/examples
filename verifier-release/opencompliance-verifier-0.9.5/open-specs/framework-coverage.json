@@ -14,8 +14,8 @@
       "nextAction": "Continue private seed decomposition, promote the remaining availability and vulnerability-management slices, and keep blocker-aware exact-anchor review explicit.",
       "summary": {
         "mappedPublicControls": 85,
-        "implementedPublicControls": 38,
-        "plannedPublicControls": 47,
+        "implementedPublicControls": 41,
+        "plannedPublicControls": 44,
         "leanBackedPublicControls": 21,
         "routeCounts": {
           "decidable": 22,
@@ -124,6 +124,7 @@
         "oc.change-02",
         "oc.ci-01",
         "oc.crypt-01",
+        "oc.data-04",
         "oc.id-01",
         "oc.id-02",
         "oc.id-03",
@@ -148,6 +149,8 @@
         "oc.rec-03",
         "oc.repo-01",
         "oc.risk-04",
+        "oc.risk-05",
+        "oc.risk-06",
         "oc.seg-01",
         "oc.train-01",
         "oc.vendor-01",
@@ -216,8 +219,8 @@
       "nextAction": "Continue private seed decomposition and publish only blocker-aware narrow control mappings until licensed criterion review exists.",
       "summary": {
         "mappedPublicControls": 58,
-        "implementedPublicControls": 38,
-        "plannedPublicControls": 20,
+        "implementedPublicControls": 41,
+        "plannedPublicControls": 17,
         "leanBackedPublicControls": 21,
         "routeCounts": {
           "decidable": 21,
@@ -299,6 +302,7 @@
         "oc.change-02",
         "oc.ci-01",
         "oc.crypt-01",
+        "oc.data-04",
         "oc.id-01",
         "oc.id-02",
         "oc.id-03",
@@ -323,6 +327,8 @@
         "oc.rec-03",
         "oc.repo-01",
         "oc.risk-04",
+        "oc.risk-05",
+        "oc.risk-06",
         "oc.seg-01",
         "oc.train-01",
         "oc.vendor-01",
@@ -391,8 +397,8 @@
       "nextAction": "Maintain the reviewed article-level layer across security of processing, transfer boundaries, data-subject-rights operations, and processor governance, then widen from the current deployer corridor into privacy-by-design and AI-adjacent rights handling.",
       "summary": {
         "mappedPublicControls": 20,
-        "implementedPublicControls": 17,
-        "plannedPublicControls": 3,
+        "implementedPublicControls": 18,
+        "plannedPublicControls": 2,
         "leanBackedPublicControls": 11,
         "routeCounts": {
           "decidable": 11,
@@ -429,6 +435,7 @@
       ],
       "implementedControlIds": [
         "oc.crypt-01",
+        "oc.data-04",
         "oc.id-01",
         "oc.id-04",
         "oc.id-05",
@@ -1166,9 +1173,9 @@
       "nextAction": "Keep the current reviewed articles for risk, oversight, monitoring, and transparency, and only promote the remaining documentation-heavy Article 11 and logging-heavy Article 12 candidates once the typed corridor grows beyond simple signed attestations.",
       "summary": {
         "mappedPublicControls": 7,
-        "implementedPublicControls": 5,
-        "plannedPublicControls": 2,
-        "leanBackedPublicControls": 1,
+        "implementedPublicControls": 7,
+        "plannedPublicControls": 0,
+        "leanBackedPublicControls": 2,
         "routeCounts": {
           "decidable": 2,
           "attestation": 5,
@@ -1194,7 +1201,9 @@
         "oc.ai-02",
         "oc.ai-03",
         "oc.ai-04",
-        "oc.ai-05"
+        "oc.ai-05",
+        "oc.ai-06",
+        "oc.ai-08"
       ],
       "reviewedControlIds": [
         "oc.ai-02",
@@ -1210,8 +1219,8 @@
       ],
       "blockedControlIds": [],
       "nextDepthControlIds": [
-        "oc.ai-01",
         "oc.ai-06",
+        "oc.ai-01",
         "oc.ai-05",
         "oc.ai-02",
         "oc.ai-03",
@@ -1326,8 +1335,8 @@
       "nextAction": "Keep using it as the backbone public exact-anchor layer for the AI corridor while the GenAI-specific, ETSI, and ISO candidate layers deepen around it.",
       "summary": {
         "mappedPublicControls": 7,
-        "implementedPublicControls": 5,
-        "plannedPublicControls": 2,
+        "implementedPublicControls": 7,
+        "plannedPublicControls": 0,
         "leanBackedPublicControls": 1,
         "routeCounts": {
           "decidable": 1,
@@ -1354,7 +1363,9 @@
         "oc.ai-02",
         "oc.ai-03",
         "oc.ai-04",
-        "oc.ai-05"
+        "oc.ai-05",
+        "oc.ai-07",
+        "oc.ai-08"
       ],
       "reviewedControlIds": [
         "oc.ai-01",
@@ -1385,9 +1396,9 @@
       "nextAction": "Use the reviewed GenAI anchors for context, risk governance, post-deployment monitoring, and content transparency as the first deployer-grade GenAI exact-anchor layer, then widen into additional GAI actions when the fixture corridor grows beyond the current documentary scope.",
       "summary": {
         "mappedPublicControls": 7,
-        "implementedPublicControls": 4,
-        "plannedPublicControls": 3,
-        "leanBackedPublicControls": 1,
+        "implementedPublicControls": 7,
+        "plannedPublicControls": 0,
+        "leanBackedPublicControls": 2,
         "routeCounts": {
           "decidable": 2,
           "attestation": 5,
@@ -1412,7 +1423,10 @@
         "oc.ai-01",
         "oc.ai-02",
         "oc.ai-04",
-        "oc.ai-05"
+        "oc.ai-05",
+        "oc.ai-06",
+        "oc.ai-07",
+        "oc.ai-08"
       ],
       "reviewedControlIds": [
         "oc.ai-01",
@@ -1424,13 +1438,13 @@
       "candidateControlIds": [],
       "blockedControlIds": [],
       "nextDepthControlIds": [
-        "oc.ai-05",
         "oc.ai-07",
         "oc.ai-08",
+        "oc.ai-05",
+        "oc.ai-06",
         "oc.ai-01",
         "oc.ai-02",
-        "oc.ai-04",
-        "oc.ai-06"
+        "oc.ai-04"
       ]
     },
     {
@@ -1444,9 +1458,9 @@
       "nextAction": "Use the first reviewed NIST AI 100-4 anchor to keep the provenance-metadata control honest, then widen from simple metadata presence toward verifiable provenance retention and testing once the public corridor carries richer replayable artifacts.",
       "summary": {
         "mappedPublicControls": 1,
-        "implementedPublicControls": 0,
-        "plannedPublicControls": 1,
-        "leanBackedPublicControls": 0,
+        "implementedPublicControls": 1,
+        "plannedPublicControls": 0,
+        "leanBackedPublicControls": 1,
         "routeCounts": {
           "decidable": 1,
           "attestation": 0,
@@ -1461,7 +1475,9 @@
       "mappedControlIds": [
         "oc.ai-06"
       ],
-      "implementedControlIds": [],
+      "implementedControlIds": [
+        "oc.ai-06"
+      ],
       "reviewedControlIds": [
         "oc.ai-06"
       ],
@@ -1482,8 +1498,8 @@
       "nextAction": "Use the public abstract to shape candidate lifecycle and evaluation-control families now, but keep every clause-grade anchor explicitly blocked behind licensed review.",
       "summary": {
         "mappedPublicControls": 1,
-        "implementedPublicControls": 0,
-        "plannedPublicControls": 1,
+        "implementedPublicControls": 1,
+        "plannedPublicControls": 0,
         "leanBackedPublicControls": 0,
         "routeCounts": {
           "decidable": 0,
@@ -1499,7 +1515,9 @@
       "mappedControlIds": [
         "oc.ai-07"
       ],
-      "implementedControlIds": [],
+      "implementedControlIds": [
+        "oc.ai-07"
+      ],
       "reviewedControlIds": [],
       "candidateControlIds": [
         "oc.ai-07"
@@ -1520,9 +1538,9 @@
       "nextAction": "Keep publishing only crosswalk-derived candidate anchors until licensed clause review exists.",
       "summary": {
         "mappedPublicControls": 7,
-        "implementedPublicControls": 5,
-        "plannedPublicControls": 2,
-        "leanBackedPublicControls": 1,
+        "implementedPublicControls": 7,
+        "plannedPublicControls": 0,
+        "leanBackedPublicControls": 2,
         "routeCounts": {
           "decidable": 2,
           "attestation": 5,
@@ -1548,7 +1566,9 @@
         "oc.ai-02",
         "oc.ai-03",
         "oc.ai-04",
-        "oc.ai-05"
+        "oc.ai-05",
+        "oc.ai-06",
+        "oc.ai-08"
       ],
       "reviewedControlIds": [],
       "candidateControlIds": [
@@ -1562,11 +1582,11 @@
       "blockedControlIds": [],
       "nextDepthControlIds": [
         "oc.ai-05",
+        "oc.ai-06",
         "oc.ai-01",
         "oc.ai-02",
         "oc.ai-03",
         "oc.ai-04",
-        "oc.ai-06",
         "oc.ai-08"
       ]
     },
@@ -1581,8 +1601,8 @@
       "nextAction": "Use it to shape impact-assessment-oriented claim types and candidate exact-anchor plans.",
       "summary": {
         "mappedPublicControls": 4,
-        "implementedPublicControls": 3,
-        "plannedPublicControls": 1,
+        "implementedPublicControls": 4,
+        "plannedPublicControls": 0,
         "leanBackedPublicControls": 0,
         "routeCounts": {
           "decidable": 0,
@@ -1604,7 +1624,8 @@
       "implementedControlIds": [
         "oc.ai-01",
         "oc.ai-02",
-        "oc.ai-04"
+        "oc.ai-04",
+        "oc.ai-07"
       ],
       "reviewedControlIds": [],
       "candidateControlIds": [
@@ -1631,8 +1652,8 @@
       "nextAction": "Use the published standard summary to shape the new planned data-quality-governance control now, but keep exact clause publication blocked until licensed review exists.",
       "summary": {
         "mappedPublicControls": 1,
-        "implementedPublicControls": 0,
-        "plannedPublicControls": 1,
+        "implementedPublicControls": 1,
+        "plannedPublicControls": 0,
         "leanBackedPublicControls": 0,
         "routeCounts": {
           "decidable": 0,
@@ -1648,7 +1669,9 @@
       "mappedControlIds": [
         "oc.ai-08"
       ],
-      "implementedControlIds": [],
+      "implementedControlIds": [
+        "oc.ai-08"
+      ],
       "reviewedControlIds": [],
       "candidateControlIds": [
         "oc.ai-08"
@@ -1669,9 +1692,9 @@
       "nextAction": "Keep treating it as the Australian public-anchor bridge for context, risk, oversight, monitoring, and disclosure controls, then add more operational slices only when the public AI corridor includes live evaluation and deployment evidence.",
       "summary": {
         "mappedPublicControls": 6,
-        "implementedPublicControls": 5,
-        "plannedPublicControls": 1,
-        "leanBackedPublicControls": 1,
+        "implementedPublicControls": 6,
+        "plannedPublicControls": 0,
+        "leanBackedPublicControls": 2,
         "routeCounts": {
           "decidable": 2,
           "attestation": 4,
@@ -1696,7 +1719,8 @@
         "oc.ai-02",
         "oc.ai-03",
         "oc.ai-04",
-        "oc.ai-05"
+        "oc.ai-05",
+        "oc.ai-06"
       ],
       "reviewedControlIds": [
         "oc.ai-01",
@@ -1710,11 +1734,11 @@
       "blockedControlIds": [],
       "nextDepthControlIds": [
         "oc.ai-05",
+        "oc.ai-06",
         "oc.ai-01",
         "oc.ai-02",
         "oc.ai-03",
-        "oc.ai-04",
-        "oc.ai-06"
+        "oc.ai-04"
       ]
     },
     {
@@ -1884,8 +1908,8 @@
       "nextAction": "Use the first reviewed ARIA anchor to shape the new planned AI-evaluation control now, then widen from signed evaluation records toward reproducible testing and field-evaluation bundles when the public fixture surface can carry them.",
       "summary": {
         "mappedPublicControls": 1,
-        "implementedPublicControls": 0,
-        "plannedPublicControls": 1,
+        "implementedPublicControls": 1,
+        "plannedPublicControls": 0,
         "leanBackedPublicControls": 0,
         "routeCounts": {
           "decidable": 0,
@@ -1901,7 +1925,9 @@
       "mappedControlIds": [
         "oc.ai-07"
       ],
-      "implementedControlIds": [],
+      "implementedControlIds": [
+        "oc.ai-07"
+      ],
       "reviewedControlIds": [
         "oc.ai-07"
       ],
@@ -2186,8 +2212,8 @@
       "nextAction": "Use the public abstract as a candidate pointer for future process-assessment artifacts, but keep draft maturity and clause-level mapping clearly outside the reviewed public layer.",
       "summary": {
         "mappedPublicControls": 1,
-        "implementedPublicControls": 0,
-        "plannedPublicControls": 1,
+        "implementedPublicControls": 1,
+        "plannedPublicControls": 0,
         "leanBackedPublicControls": 0,
         "routeCounts": {
           "decidable": 0,
@@ -2203,7 +2229,9 @@
       "mappedControlIds": [
         "oc.ai-07"
       ],
-      "implementedControlIds": [],
+      "implementedControlIds": [
+        "oc.ai-07"
+      ],
       "reviewedControlIds": [],
       "candidateControlIds": [
         "oc.ai-07"
@@ -2222,6 +2250,166 @@
       "openComplianceState": "ecosystem_backlog",
       "operatorBenefit": "Relevant to the audit and certification ecosystem around AI management systems, but not a direct first-order operator control framework.",
       "nextAction": "Track it as ecosystem infrastructure for the certification layer rather than as an immediate control-mapping target.",
+      "summary": {
+        "mappedPublicControls": 0,
+        "implementedPublicControls": 0,
+        "plannedPublicControls": 0,
+        "leanBackedPublicControls": 0,
+        "routeCounts": {
+          "decidable": 0,
+          "attestation": 0,
+          "judgment": 0
+        },
+        "exactAnchorStatusCounts": {
+          "public_source_reviewed": 0,
+          "candidate_public_source_unreviewed": 0,
+          "blocked_nonpublic_source_review": 0
+        }
+      },
+      "mappedControlIds": [],
+      "implementedControlIds": [],
+      "reviewedControlIds": [],
+      "candidateControlIds": [],
+      "blockedControlIds": [],
+      "nextDepthControlIds": []
+    },
+    {
+      "framework": "ISO/IEC TS 6254",
+      "category": "ai_assurance",
+      "priorityRank": 41,
+      "priorityTier": "candidate_next",
+      "sourceAvailability": "crosswalk_candidate",
+      "openComplianceState": "priority_backlog",
+      "operatorBenefit": "Useful for startups that need a stronger explainability and interpretability story than simple transparency labeling, especially for high-impact or customer-facing AI use cases.",
+      "nextAction": "Track it as the next explainability-oriented ISO candidate layer and only normalize public controls once licensed review or stronger public crosswalk material exists.",
+      "summary": {
+        "mappedPublicControls": 0,
+        "implementedPublicControls": 0,
+        "plannedPublicControls": 0,
+        "leanBackedPublicControls": 0,
+        "routeCounts": {
+          "decidable": 0,
+          "attestation": 0,
+          "judgment": 0
+        },
+        "exactAnchorStatusCounts": {
+          "public_source_reviewed": 0,
+          "candidate_public_source_unreviewed": 0,
+          "blocked_nonpublic_source_review": 0
+        }
+      },
+      "mappedControlIds": [],
+      "implementedControlIds": [],
+      "reviewedControlIds": [],
+      "candidateControlIds": [],
+      "blockedControlIds": [],
+      "nextDepthControlIds": []
+    },
+    {
+      "framework": "ISO/IEC 22989",
+      "category": "ai_foundation",
+      "priorityRank": 42,
+      "priorityTier": "ecosystem_watch",
+      "sourceAvailability": "crosswalk_candidate",
+      "openComplianceState": "ecosystem_backlog",
+      "operatorBenefit": "Important as the common concepts-and-terminology baseline for AI governance and assurance work, even though it is not a first-order control framework by itself.",
+      "nextAction": "Use it as terminology and ontology support for future AI-control normalization rather than as an immediate fixture-backed mapping target.",
+      "summary": {
+        "mappedPublicControls": 0,
+        "implementedPublicControls": 0,
+        "plannedPublicControls": 0,
+        "leanBackedPublicControls": 0,
+        "routeCounts": {
+          "decidable": 0,
+          "attestation": 0,
+          "judgment": 0
+        },
+        "exactAnchorStatusCounts": {
+          "public_source_reviewed": 0,
+          "candidate_public_source_unreviewed": 0,
+          "blocked_nonpublic_source_review": 0
+        }
+      },
+      "mappedControlIds": [],
+      "implementedControlIds": [],
+      "reviewedControlIds": [],
+      "candidateControlIds": [],
+      "blockedControlIds": [],
+      "nextDepthControlIds": []
+    },
+    {
+      "framework": "ISO/IEC 23053",
+      "category": "ai_engineering",
+      "priorityRank": 43,
+      "priorityTier": "candidate_next",
+      "sourceAvailability": "crosswalk_candidate",
+      "openComplianceState": "priority_backlog",
+      "operatorBenefit": "Useful for startups that want a more explicit machine-learning systems framework connecting data, model, and evaluation work to auditable engineering controls.",
+      "nextAction": "Treat it as the next engineering-oriented ISO AI layer after the current governance corridor, starting with evaluation and data-lineage candidates once stronger public review material exists.",
+      "summary": {
+        "mappedPublicControls": 0,
+        "implementedPublicControls": 0,
+        "plannedPublicControls": 0,
+        "leanBackedPublicControls": 0,
+        "routeCounts": {
+          "decidable": 0,
+          "attestation": 0,
+          "judgment": 0
+        },
+        "exactAnchorStatusCounts": {
+          "public_source_reviewed": 0,
+          "candidate_public_source_unreviewed": 0,
+          "blocked_nonpublic_source_review": 0
+        }
+      },
+      "mappedControlIds": [],
+      "implementedControlIds": [],
+      "reviewedControlIds": [],
+      "candidateControlIds": [],
+      "blockedControlIds": [],
+      "nextDepthControlIds": []
+    },
+    {
+      "framework": "ISO/IEC 38507",
+      "category": "ai_governance",
+      "priorityRank": 44,
+      "priorityTier": "candidate_next",
+      "sourceAvailability": "crosswalk_candidate",
+      "openComplianceState": "priority_backlog",
+      "operatorBenefit": "Useful for board- and leadership-level governance expectations where organisations need a more explicit governance-of-AI story than technical controls alone provide.",
+      "nextAction": "Use it to shape future governance-role and accountability controls, but keep clause-grade publication blocked until licensed review exists.",
+      "summary": {
+        "mappedPublicControls": 0,
+        "implementedPublicControls": 0,
+        "plannedPublicControls": 0,
+        "leanBackedPublicControls": 0,
+        "routeCounts": {
+          "decidable": 0,
+          "attestation": 0,
+          "judgment": 0
+        },
+        "exactAnchorStatusCounts": {
+          "public_source_reviewed": 0,
+          "candidate_public_source_unreviewed": 0,
+          "blocked_nonpublic_source_review": 0
+        }
+      },
+      "mappedControlIds": [],
+      "implementedControlIds": [],
+      "reviewedControlIds": [],
+      "candidateControlIds": [],
+      "blockedControlIds": [],
+      "nextDepthControlIds": []
+    },
+    {
+      "framework": "ISO/IEC AWI 42003",
+      "category": "ai_assurance",
+      "priorityRank": 45,
+      "priorityTier": "emerging_draft",
+      "sourceAvailability": "public_draft",
+      "openComplianceState": "emerging_backlog",
+      "operatorBenefit": "Potentially useful as guidance around AI management systems once the project matures, but it is still draft-stage and not yet a stable mapping target.",
+      "nextAction": "Track the draft and use it only as a watch-list signal for future AIMS guidance, not as a current reviewed exact-anchor layer.",
       "summary": {
         "mappedPublicControls": 0,
         "implementedPublicControls": 0,

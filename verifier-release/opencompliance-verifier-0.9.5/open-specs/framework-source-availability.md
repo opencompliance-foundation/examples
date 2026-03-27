@@ -69,6 +69,14 @@ It exists to keep the mapping corpus honest.
   Public summaries are useful for candidate data-quality-governance mappings, but exact clause-grade publication still needs licensed review.
 - `ISO/IEC 42006`
   Public descriptions make the standard strategically relevant, but exact clause-grade publication still needs licensed review.
+- `ISO/IEC TS 6254`
+  Public summaries are useful for candidate explainability-oriented mappings, but exact clause-grade publication still needs licensed review.
+- `ISO/IEC 22989`
+  Public summaries are useful for terminology and ontology support, but they are not enough for a reviewed control-mapping layer without licensed review.
+- `ISO/IEC 23053`
+  Public summaries are useful for candidate ML-systems-framework mappings, but exact clause-grade publication still needs licensed review.
+- `ISO/IEC 38507`
+  Public summaries are useful for candidate governance-role and accountability mappings, but exact clause-grade publication still needs licensed review.
 
 ## Explicit blocker state
 
@@ -95,6 +103,8 @@ It exists to keep the mapping corpus honest.
   Public draft guidance exists, but it is still draft and should not yet be treated as a stable exact-anchor target.
 - `ISO/IEC AWI 25704`
   The public draft abstract is useful as a candidate pointer for future process-assessment artifacts, but the project is still under development and not yet a mature exact-anchor target.
+- `ISO/IEC AWI 42003`
+  The project is still under development, so any mapping should remain draft-watch metadata rather than a stable exact-anchor target.
 - `ETSI TS 104 008`
   The specification is public and usable, but it is new enough that OpenCompliance should treat it as a strategic design input before claiming mature control coverage against it.
 

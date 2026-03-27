@@ -53,6 +53,9 @@ This remains the main AI wave: one binding EU regime, one UK privacy-regulator l
 ## Follow-on AI order
 
 - `ISO/IEC 5259-5`
+- `ISO/IEC TS 6254`
+- `ISO/IEC 23053`
+- `ISO/IEC 38507`
 - `Australia Voluntary AI Safety Standard`
 - `ETSI EN 304 223`
 - `ETSI TS 104 008`
@@ -61,7 +64,7 @@ This remains the main AI wave: one binding EU regime, one UK privacy-regulator l
 - `NIST AI 700-2`
 - `EU GPAI Code of Practice`
 
-These matter for AI data governance, continuous conformity, evaluation, secure development, and regional expansion, but they sit behind the immediate AI order for most startup operators.
+These matter for AI data governance, explainability, engineering structure, board governance, continuous conformity, evaluation, secure development, and regional expansion, but they sit behind the immediate AI order for most startup operators.
 
 ## Triggered market-entry regimes
 
@@ -76,8 +79,10 @@ These are not universal for every startup, but they become mandatory or commerci
 
 ## Watch list
 
+- `ISO/IEC 22989`
+- `ISO/IEC AWI 42003`
 - `NIST AI 800-1`
 - `ISO/IEC AWI 25704`
 - `ISO/IEC 42006`
 
-These remain strategically relevant, but they are not the next place to spend the deepest implementation effort.
+These remain strategically relevant, but they are not the next place to spend the deepest implementation effort. `ISO/IEC 22989` matters as vocabulary and ontology support, while `ISO/IEC AWI 42003` remains draft-stage guidance rather than a current control-mapping target.

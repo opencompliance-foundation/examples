@@ -9,7 +9,7 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Source availability: `blocked_nonpublic_source_review`
 - OpenCompliance state: `private_seed_depth_and_public_family_proxy`
 - Mapped public controls: `85`
-- Implemented public controls: `38`
+- Implemented public controls: `41`
 - Lean-backed public controls: `21`
 - Exact anchors reviewed / candidate / blocked: `0` / `0` / `35`
 - Operator benefit: Still the strongest customer-facing security management baseline for SaaS diligence and procurement.
@@ -23,7 +23,7 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Source availability: `blocked_nonpublic_source_review`
 - OpenCompliance state: `private_seed_depth_and_public_family_proxy`
 - Mapped public controls: `58`
-- Implemented public controls: `38`
+- Implemented public controls: `41`
 - Lean-backed public controls: `21`
 - Exact anchors reviewed / candidate / blocked: `0` / `0` / `35`
 - Operator benefit: Directly relevant to US buyer assurance, trust-center narratives, and recurring security questionnaires.
@@ -37,7 +37,7 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Source availability: `public_exact_feasible`
 - OpenCompliance state: `public_exact_anchor_review_available`
 - Mapped public controls: `20`
-- Implemented public controls: `17`
+- Implemented public controls: `18`
 - Lean-backed public controls: `11`
 - Exact anchors reviewed / candidate / blocked: `23` / `0` / `0`
 - Operator benefit: Directly relevant to UK and EU personal-data handling, customer diligence, and AI systems that process personal data.
@@ -199,12 +199,12 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Source availability: `public_exact_feasible`
 - OpenCompliance state: `public_exact_anchor_review_available`
 - Mapped public controls: `7`
-- Implemented public controls: `5`
-- Lean-backed public controls: `1`
+- Implemented public controls: `7`
+- Lean-backed public controls: `2`
 - Exact anchors reviewed / candidate / blocked: `5` / `3` / `0`
 - Operator benefit: Most important binding AI governance regime for EU-facing deployments and for any provable AI transparency or oversight story.
 - Next action: Keep the current reviewed articles for risk, oversight, monitoring, and transparency, and only promote the remaining documentation-heavy Article 11 and logging-heavy Article 12 candidates once the typed corridor grows beyond simple signed attestations.
-- Next depth controls: `oc.ai-01`, `oc.ai-06`, `oc.ai-05`, `oc.ai-02`, `oc.ai-03`, `oc.ai-04`, `oc.ai-08`
+- Next depth controls: `oc.ai-06`, `oc.ai-01`, `oc.ai-05`, `oc.ai-02`, `oc.ai-03`, `oc.ai-04`, `oc.ai-08`
 
 ## 16. UK ICO AI and data protection guidance
 
@@ -241,7 +241,7 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Source availability: `public_exact_feasible`
 - OpenCompliance state: `public_exact_anchor_review_available`
 - Mapped public controls: `7`
-- Implemented public controls: `5`
+- Implemented public controls: `7`
 - Lean-backed public controls: `1`
 - Exact anchors reviewed / candidate / blocked: `4` / `0` / `0`
 - Operator benefit: Strong voluntary structure for operational AI governance, especially when the company wants a rigorous internal control language without waiting for certification.
@@ -255,12 +255,12 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Source availability: `public_exact_feasible`
 - OpenCompliance state: `public_exact_anchor_review_available`
 - Mapped public controls: `7`
-- Implemented public controls: `4`
-- Lean-backed public controls: `1`
+- Implemented public controls: `7`
+- Lean-backed public controls: `2`
 - Exact anchors reviewed / candidate / blocked: `5` / `0` / `0`
 - Operator benefit: Directly relevant for generative-AI deployments and complements the core NIST AI RMF with GenAI-specific risk treatment.
 - Next action: Use the reviewed GenAI anchors for context, risk governance, post-deployment monitoring, and content transparency as the first deployer-grade GenAI exact-anchor layer, then widen into additional GAI actions when the fixture corridor grows beyond the current documentary scope.
-- Next depth controls: `oc.ai-05`, `oc.ai-07`, `oc.ai-08`, `oc.ai-01`, `oc.ai-02`, `oc.ai-04`, `oc.ai-06`
+- Next depth controls: `oc.ai-07`, `oc.ai-08`, `oc.ai-05`, `oc.ai-06`, `oc.ai-01`, `oc.ai-02`, `oc.ai-04`
 
 ## 20. NIST AI 100-4
 
@@ -269,8 +269,8 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Source availability: `public_exact_feasible`
 - OpenCompliance state: `public_exact_anchor_review_available`
 - Mapped public controls: `1`
-- Implemented public controls: `0`
-- Lean-backed public controls: `0`
+- Implemented public controls: `1`
+- Lean-backed public controls: `1`
 - Exact anchors reviewed / candidate / blocked: `1` / `0` / `0`
 - Operator benefit: Highly relevant wherever a startup needs provenance, labeling, authenticity, and disclosure controls for synthetic or transformed content.
 - Next action: Use the first reviewed NIST AI 100-4 anchor to keep the provenance-metadata control honest, then widen from simple metadata presence toward verifiable provenance retention and testing once the public corridor carries richer replayable artifacts.
@@ -283,7 +283,7 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Source availability: `crosswalk_candidate`
 - OpenCompliance state: `crosswalk_candidate_only`
 - Mapped public controls: `1`
-- Implemented public controls: `0`
+- Implemented public controls: `1`
 - Lean-backed public controls: `0`
 - Exact anchors reviewed / candidate / blocked: `0` / `1` / `0`
 - Operator benefit: Useful for turning AI lifecycle work into a process model that sits between RMF-style governance language and concrete engineering controls.
@@ -297,12 +297,12 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Source availability: `crosswalk_candidate`
 - OpenCompliance state: `crosswalk_candidate_only`
 - Mapped public controls: `7`
-- Implemented public controls: `5`
-- Lean-backed public controls: `1`
+- Implemented public controls: `7`
+- Lean-backed public controls: `2`
 - Exact anchors reviewed / candidate / blocked: `0` / `6` / `0`
 - Operator benefit: Most obvious management-system-style target for organisations that want AI governance to look certifiable and auditable.
 - Next action: Keep publishing only crosswalk-derived candidate anchors until licensed clause review exists.
-- Next depth controls: `oc.ai-05`, `oc.ai-01`, `oc.ai-02`, `oc.ai-03`, `oc.ai-04`, `oc.ai-06`, `oc.ai-08`
+- Next depth controls: `oc.ai-05`, `oc.ai-06`, `oc.ai-01`, `oc.ai-02`, `oc.ai-03`, `oc.ai-04`, `oc.ai-08`
 
 ## 23. ISO/IEC 42005
 
@@ -311,7 +311,7 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Source availability: `crosswalk_candidate`
 - OpenCompliance state: `crosswalk_candidate_only`
 - Mapped public controls: `4`
-- Implemented public controls: `3`
+- Implemented public controls: `4`
 - Lean-backed public controls: `0`
 - Exact anchors reviewed / candidate / blocked: `0` / `3` / `0`
 - Operator benefit: Useful for impact-assessment depth and for turning AI risk work into a more explicit, reviewable artifact chain.
@@ -325,7 +325,7 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Source availability: `crosswalk_candidate`
 - OpenCompliance state: `crosswalk_candidate_only`
 - Mapped public controls: `1`
-- Implemented public controls: `0`
+- Implemented public controls: `1`
 - Lean-backed public controls: `0`
 - Exact anchors reviewed / candidate / blocked: `0` / `1` / `0`
 - Operator benefit: Relevant for board-level data-quality governance where AI outputs depend on trustworthy source, training, or evaluation data.
@@ -339,12 +339,12 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Source availability: `public_exact_feasible`
 - OpenCompliance state: `public_exact_anchor_review_available`
 - Mapped public controls: `6`
-- Implemented public controls: `5`
-- Lean-backed public controls: `1`
+- Implemented public controls: `6`
+- Lean-backed public controls: `2`
 - Exact anchors reviewed / candidate / blocked: `6` / `0` / `0`
 - Operator benefit: Relevant for Australian deployments and especially useful because it is deployer-oriented and openly structured as ten guardrails.
 - Next action: Keep treating it as the Australian public-anchor bridge for context, risk, oversight, monitoring, and disclosure controls, then add more operational slices only when the public AI corridor includes live evaluation and deployment evidence.
-- Next depth controls: `oc.ai-05`, `oc.ai-01`, `oc.ai-02`, `oc.ai-03`, `oc.ai-04`, `oc.ai-06`
+- Next depth controls: `oc.ai-05`, `oc.ai-06`, `oc.ai-01`, `oc.ai-02`, `oc.ai-03`, `oc.ai-04`
 
 ## 26. ETSI EN 304 223
 
@@ -408,7 +408,7 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Source availability: `public_exact_feasible`
 - OpenCompliance state: `public_exact_anchor_review_available`
 - Mapped public controls: `1`
-- Implemented public controls: `0`
+- Implemented public controls: `1`
 - Lean-backed public controls: `0`
 - Exact anchors reviewed / candidate / blocked: `1` / `0` / `0`
 - Operator benefit: Useful for a future evaluation layer that needs structured evidence about AI risks and impacts rather than only governance attestations.
@@ -527,7 +527,7 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Source availability: `public_draft`
 - OpenCompliance state: `emerging_backlog`
 - Mapped public controls: `1`
-- Implemented public controls: `0`
+- Implemented public controls: `1`
 - Lean-backed public controls: `0`
 - Exact anchors reviewed / candidate / blocked: `0` / `1` / `0`
 - Operator benefit: Potentially useful for future process-capability assessment of AI life cycle work, but still too early for direct control mapping.
@@ -546,4 +546,69 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
 - Operator benefit: Relevant to the audit and certification ecosystem around AI management systems, but not a direct first-order operator control framework.
 - Next action: Track it as ecosystem infrastructure for the certification layer rather than as an immediate control-mapping target.
+
+## 41. ISO/IEC TS 6254
+
+- Category: `ai_assurance`
+- Priority tier: `candidate_next`
+- Source availability: `crosswalk_candidate`
+- OpenCompliance state: `priority_backlog`
+- Mapped public controls: `0`
+- Implemented public controls: `0`
+- Lean-backed public controls: `0`
+- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Operator benefit: Useful for startups that need a stronger explainability and interpretability story than simple transparency labeling, especially for high-impact or customer-facing AI use cases.
+- Next action: Track it as the next explainability-oriented ISO candidate layer and only normalize public controls once licensed review or stronger public crosswalk material exists.
+
+## 42. ISO/IEC 22989
+
+- Category: `ai_foundation`
+- Priority tier: `ecosystem_watch`
+- Source availability: `crosswalk_candidate`
+- OpenCompliance state: `ecosystem_backlog`
+- Mapped public controls: `0`
+- Implemented public controls: `0`
+- Lean-backed public controls: `0`
+- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Operator benefit: Important as the common concepts-and-terminology baseline for AI governance and assurance work, even though it is not a first-order control framework by itself.
+- Next action: Use it as terminology and ontology support for future AI-control normalization rather than as an immediate fixture-backed mapping target.
+
+## 43. ISO/IEC 23053
+
+- Category: `ai_engineering`
+- Priority tier: `candidate_next`
+- Source availability: `crosswalk_candidate`
+- OpenCompliance state: `priority_backlog`
+- Mapped public controls: `0`
+- Implemented public controls: `0`
+- Lean-backed public controls: `0`
+- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Operator benefit: Useful for startups that want a more explicit machine-learning systems framework connecting data, model, and evaluation work to auditable engineering controls.
+- Next action: Treat it as the next engineering-oriented ISO AI layer after the current governance corridor, starting with evaluation and data-lineage candidates once stronger public review material exists.
+
+## 44. ISO/IEC 38507
+
+- Category: `ai_governance`
+- Priority tier: `candidate_next`
+- Source availability: `crosswalk_candidate`
+- OpenCompliance state: `priority_backlog`
+- Mapped public controls: `0`
+- Implemented public controls: `0`
+- Lean-backed public controls: `0`
+- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Operator benefit: Useful for board- and leadership-level governance expectations where organisations need a more explicit governance-of-AI story than technical controls alone provide.
+- Next action: Use it to shape future governance-role and accountability controls, but keep clause-grade publication blocked until licensed review exists.
+
+## 45. ISO/IEC AWI 42003
+
+- Category: `ai_assurance`
+- Priority tier: `emerging_draft`
+- Source availability: `public_draft`
+- OpenCompliance state: `emerging_backlog`
+- Mapped public controls: `0`
+- Implemented public controls: `0`
+- Lean-backed public controls: `0`
+- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Operator benefit: Potentially useful as guidance around AI management systems once the project matures, but it is still draft-stage and not yet a stable mapping target.
+- Next action: Track the draft and use it only as a watch-list signal for future AIMS guidance, not as a current reviewed exact-anchor layer.
 

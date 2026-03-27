@@ -11,8 +11,8 @@ It is intentionally narrower than a private exact-anchor corpus. It says what ex
 - Framework anchors in private depth corpus: `423`
 - Private atomic obligations: `243`
 - Mapped public controls: `85`
-- Implemented public controls: `38`
-- Planned public controls: `47`
+- Implemented public controls: `41`
+- Planned public controls: `44`
 - Lean-backed public controls: `21`
 - Blocked exact-anchor public controls: `35`
 - Family rollout entries: `29`
@@ -31,7 +31,7 @@ It is intentionally narrower than a private exact-anchor corpus. It says what ex
   - Remaining work: Run licensed-source review against the authoritative standard text and replace blocker-only records with reviewed exact anchors where publication is defensible.
   - Blocked by: `licensed_exact_anchor_review`
 - `Public-control normalization`: `partial`
-  - Current state: 85 public controls map to ISO 27001, with 38 already exercised by public fixtures and 47 still planned.
+  - Current state: 85 public controls map to ISO 27001, with 41 already exercised by public fixtures and 44 still planned.
   - Remaining work: Promote or retire the remaining planned controls so every publication-safe atomic obligation lands in an explicit public control or an explicit non-coverage statement.
 - `Typed claim coverage`: `partial`
   - Current state: The private bridge currently reuses 68 existing claim types and still references 87 planned future claim types.
@@ -43,7 +43,7 @@ It is intentionally narrower than a private exact-anchor corpus. It says what ex
   - Current state: The current framework-depth split for ISO 27001 is 122 attestation atoms and 63 judgment atoms.
   - Remaining work: Keep the attestation and judgment routes explicit as public controls, claim schemas, and trust-surface outputs widen.
 - `Fixture rollout`: `partial`
-  - Current state: 29 framework families now have a rollout matrix, but only 38 of 85 mapped controls are currently exercised in public fixtures.
+  - Current state: 29 framework families now have a rollout matrix, but only 41 of 85 mapped controls are currently exercised in public fixtures.
   - Remaining work: Grow fixture coverage family by family, keeping planned controls explicit until they have source exports, typed claims, verifier outputs, and conformance coverage.
 - `Publication model`: `published_program`
   - Current state: A machine-readable proprietary-framework publication model now records what can be published publicly, what stays private, and where licensed review is required.
@@ -92,8 +92,8 @@ It is intentionally narrower than a private exact-anchor corpus. It says what ex
 - Framework anchors in private depth corpus: `175`
 - Private atomic obligations: `215`
 - Mapped public controls: `58`
-- Implemented public controls: `38`
-- Planned public controls: `20`
+- Implemented public controls: `41`
+- Planned public controls: `17`
 - Lean-backed public controls: `21`
 - Blocked exact-anchor public controls: `35`
 - Family rollout entries: `18`
@@ -112,7 +112,7 @@ It is intentionally narrower than a private exact-anchor corpus. It says what ex
   - Remaining work: Run licensed-source review against the authoritative standard text and replace blocker-only records with reviewed exact anchors where publication is defensible.
   - Blocked by: `licensed_exact_anchor_review`
 - `Public-control normalization`: `partial`
-  - Current state: 58 public controls map to SOC 2, with 38 already exercised by public fixtures and 20 still planned.
+  - Current state: 58 public controls map to SOC 2, with 41 already exercised by public fixtures and 17 still planned.
   - Remaining work: Promote or retire the remaining planned controls so every publication-safe atomic obligation lands in an explicit public control or an explicit non-coverage statement.
 - `Typed claim coverage`: `partial`
   - Current state: The private bridge currently reuses 68 existing claim types and still references 87 planned future claim types.
@@ -124,7 +124,7 @@ It is intentionally narrower than a private exact-anchor corpus. It says what ex
   - Current state: The current framework-depth split for SOC 2 is 105 attestation atoms and 54 judgment atoms.
   - Remaining work: Keep the attestation and judgment routes explicit as public controls, claim schemas, and trust-surface outputs widen.
 - `Fixture rollout`: `partial`
-  - Current state: 18 framework families now have a rollout matrix, but only 38 of 58 mapped controls are currently exercised in public fixtures.
+  - Current state: 18 framework families now have a rollout matrix, but only 41 of 58 mapped controls are currently exercised in public fixtures.
   - Remaining work: Grow fixture coverage family by family, keeping planned controls explicit until they have source exports, typed claims, verifier outputs, and conformance coverage.
 - `Publication model`: `published_program`
   - Current state: A machine-readable proprietary-framework publication model now records what can be published publicly, what stays private, and where licensed review is required.

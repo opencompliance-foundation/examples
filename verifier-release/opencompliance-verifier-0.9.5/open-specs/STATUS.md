@@ -19,8 +19,11 @@
 - A public framework-priority list now records a fuller startup-relevant depth order: ISO 27001, SOC 2, GDPR, IRAP, then privacy and cloud ISO extensions, open cyber baseline frameworks, operational and resilience standards, the AI-governance and AI-security wave, and finally triggered market-entry regimes such as PCI DSS, HIPAA, FedRAMP, NIS2, DORA, and the Cyber Resilience Act.
 - A public framework-coverage report now joins that priority list with current control-boundary mappings and exact-anchor review state so others can see where the corridor is implemented, reviewed, blocked, or still only planned.
 - A public-safe standards-mapping status file now explains what remains to fully map ISO 27001 and SOC 2 into the OpenCompliance control layer, including current blocker counts, family rollout counts, claim-coverage gaps, and Lean-coverage gaps.
+- A sibling public-safe GDPR and AI mapping status file now records the current GDPR exact-anchor corridor plus the broader ISO AI standards wave, including zero-coverage AI standards that are now tracked explicitly rather than left invisible.
 - A proprietary-framework publication model now states exactly what can be published publicly for ISO 27001, SOC 2, ISO/IEC 27701, and candidate ISO AI standards, what stays private, and where licensed review is required.
 - A machine-readable external review and conformance program now records the reviewer roles, tracks, phases, and pass gates for the ISO 27001 / SOC 2 completion wave.
+- A sibling GDPR and AI publication model plus review program now define what can be published safely for public-law and AI-standards work, and how those waves should be challenged by privacy and AI-specialist reviewers.
+- The public framework stack now tracks 45 prioritised frameworks and regimes, including the newer ISO AI entries ISO/IEC TS 6254, ISO/IEC 22989, ISO/IEC 23053, ISO/IEC 38507, and the draft-watch item ISO/IEC AWI 42003.
 - A public actor trust-policy registry now records the current evidence-claim, verifier-service, and independent-witness identity rules instead of leaving delegated approval and witness identity semantics implicit.
 - A public trust-root profile registry now records the current synthetic release signer and witness roots plus the environment-override path for non-synthetic publication, so the move from reference roots to live release identities is an explicit contract rather than only a roadmap note.
 - The next planned public control wave is now promoted into the public ontology for continuity planning and adequacy (`oc.rec-02` / `oc.rec-03`), risk-management process, cycle, and adequacy (`oc.risk-04` / `oc.risk-05` / `oc.risk-06`), and retention/deletion governance (`oc.data-04` / `oc.data-05` / `oc.data-06`), with matching typed claim schemas where those slices are attestation-backed.
@@ -50,6 +53,7 @@
 - No externally reviewed clause-, Annex A-, criterion-, or point-of-focus anchor set for the public corridor yet.
 - No live-connector or real-organisation corridors yet for the newer Cyber Essentials and AI-governance controls.
 - No public exact-anchor review yet for the ISO AI standards beyond the current candidate layer, and no live-evidence corridor yet for the newer AI provenance, AI evaluation, or AI data-quality-governance controls.
+- No public-control normalization yet for the newly tracked ISO AI entries ISO/IEC TS 6254, ISO/IEC 22989, ISO/IEC 23053, ISO/IEC 38507, or ISO/IEC AWI 42003 beyond inventory and publication-boundary state.
 
 ## Publishing rule
 
