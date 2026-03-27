@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/specs/schemas/connector-ingress-profiles.schema.json",
+  "title": "OpenCompliance Connector Ingress Profiles",
+  "type": "object",
+  "required": [
+    "registryVersion",
+    "profiles"
+  ],
+  "properties": {
+    "registryVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "profiles": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "profileId",
+          "description",
+          "actorIdentityId",
+          "allowedClaimTypes",
+          "allowedSourceSystems",
+          "allowedCollectionMethods",
+          "allowedSourcePathPrefixes"
+        ],
+        "properties": {
+          "profileId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "actorIdentityId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "allowedClaimTypes": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "allowedSourceSystems": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "allowedCollectionMethods": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "allowedSourcePathPrefixes": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
