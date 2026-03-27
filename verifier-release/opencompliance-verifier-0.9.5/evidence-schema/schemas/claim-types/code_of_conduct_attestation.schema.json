@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/code_of_conduct_attestation.schema.json",
+  "title": "Code of Conduct Attestation",
+  "type": "object",
+  "required": [
+    "acknowledgementsCurrent",
+    "populationScope",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "acknowledgementsCurrent": {
+      "type": "boolean"
+    },
+    "populationScope": {
+      "type": "string",
+      "enum": [
+        "employees",
+        "contractors",
+        "mixed"
+      ]
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

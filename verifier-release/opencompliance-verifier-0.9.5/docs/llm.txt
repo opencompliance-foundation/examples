@@ -1,0 +1,46 @@
+# OpenCompliance
+
+Canonical site: https://opencompliancefoundation.com/
+GitHub organization: https://github.com/opencompliance-foundation
+
+OpenCompliance is a proof-carrying compliance project.
+
+Primary pages:
+- /index.html: overview, product thesis, limitations, verify flow, and prominent GitHub entry points
+- /repositories.html: direct links to the GitHub organization and every public repository
+- /architecture.html: runtime pipeline and component model
+- /trust.html: trust surface, tamper-evident design, and fail-closed issuance
+- /open-proof-layer.html: essay on why an open proof layer helps the industry
+- /competitive-landscape.html: overlap with commercial trust/compliance platforms and the open-source thesis
+- /foundation.html: foundation charter, sponsor model, repo structure, and peer review discipline
+- /frameworks.html: standards depth order, framework coverage, and AI-standard priorities
+- /agentic-ai.html: agentic-AI data-protection boundary, including purpose limitation, rights, explainability, retention, and supply-chain roles
+- /actor-ontology.html: actor kinds, delegated approver rules, verifier identities, and trust-policy registry
+- /roadmap.html: phased roadmap
+- /showcase.html: ExampleCo walkthrough showing how a hypothetical company can present corridor-scoped proofs, attestations, and punch-lists
+- /public-artifacts.html: docs/specs/examples publication strategy
+- /auditor-search.html: static publication-safe multi-registry explorer for AICPA, UKAS, PCAOB, ANAB, and FedRAMP assurance records with source, jurisdiction, signal, recency, center, and provenance filters
+- /verifier-release.html: versioned public verifier bundle, release manifest, and runnable replay path
+- /release-identity.html: synthetic fallback versus environment-supplied release signer and witness roots
+- /verify-contract.html: deterministic Verify API contract, accepted input modes, emitted artifacts, and boundary notes
+- /verify-workbench.html: local browser workbench for the deterministic Verify API and copied public release bundle
+
+Public repositories:
+- https://github.com/opencompliance-foundation/site: static project site published at opencompliancefoundation.com
+- https://github.com/opencompliance-foundation/governance: charter, governance, conflicts, sponsor model, and release/sign-off policy
+- https://github.com/opencompliance-foundation/specs: public artifact formats, mapping methodology, control-boundary metadata, exact-anchor review pilots, and versioning rules
+- https://github.com/opencompliance-foundation/examples: synthetic ExampleCo bundles, the ExampleCo showcase meta-pack, lifecycle packs, replay bundles, transparency logs, witness receipts, and the versioned public verifier release bundle
+- https://github.com/opencompliance-foundation/conformance: executable validators, conformance vectors, public-boundary checks, and the showcase builder
+- https://github.com/opencompliance-foundation/evidence-schema: typed evidence envelope schema plus public claim-type payload schemas
+- https://github.com/opencompliance-foundation/lean4-controls: buildable Lean 4 corridor with explicit proof-boundary notes
+
+Key concepts:
+- OSCAL as the external control and assessment interchange format
+- Lean 4 as the proof kernel for the narrow technical corridor
+- typed evidence claims with signer, scope, freshness, and provenance
+- three-tier classification: decidable, attestation, judgment
+- trust-surface reports instead of flattened green checks
+- signed artifacts, append-only transparency logs, and witness reruns without blockchain
+
+Important limitation:
+OpenCompliance does not replace auditors, licensed CPA firms, ISO certification bodies, or human judgment.

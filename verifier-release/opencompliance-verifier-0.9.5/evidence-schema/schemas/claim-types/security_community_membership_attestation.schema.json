@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/security_community_membership_attestation.schema.json",
+  "title": "Security Community Membership Attestation",
+  "type": "object",
+  "required": [
+    "groupsCovered",
+    "participationCurrent",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "groupsCovered": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "participationCurrent": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

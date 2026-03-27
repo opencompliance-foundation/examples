@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/conduct_governance_attestation.schema.json",
+  "title": "Conduct Governance Attestation",
+  "type": "object",
+  "required": [
+    "disciplinaryPathDefined",
+    "populationScope",
+    "refreshTriggersDefined",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "disciplinaryPathDefined": {
+      "type": "boolean"
+    },
+    "populationScope": {
+      "type": "string",
+      "enum": [
+        "employees",
+        "contractors",
+        "mixed"
+      ]
+    },
+    "refreshTriggersDefined": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

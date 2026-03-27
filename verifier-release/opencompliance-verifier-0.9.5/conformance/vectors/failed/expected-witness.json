@@ -1,0 +1,46 @@
+{
+  "bundleId": "exampleco-failed-bundle-2026-03-24",
+  "requiredReplayResult": "exact_match",
+  "requiredArtifacts": [
+    {
+      "artifactType": "profile",
+      "path": "profile.json",
+      "sha256": "f9dada0a3daa101e61a0e3a896b2317cdb4f65e4cf439eafe0eb54901372768e"
+    },
+    {
+      "artifactType": "evidence_claims",
+      "path": "evidence-claims.json",
+      "sha256": "a8a8ad244e21249f08ef47dd41aea35ecc3209839177254252e1287541a74455"
+    },
+    {
+      "artifactType": "oscal_catalog",
+      "path": "oscal/opencompliance-failed-catalog.json",
+      "sha256": "370709e8a3924a368c1fdf6787f9e23d702c7c51a0ad923294f64d50cbd996dd"
+    },
+    {
+      "artifactType": "oscal_profile",
+      "path": "oscal/exampleco-failed-profile.json",
+      "sha256": "757f19e389590053cc588ea56cd8cd7e82191a1c6ff79fcda413df6b3231f807"
+    },
+    {
+      "artifactType": "proof_bundle",
+      "path": "proof-bundle.json",
+      "sha256": "4c1fdc617dfc7e1f6e19fe7b5f3ae70ac5bdfdc044ea1efdd38f1a5c74c1e1fb"
+    },
+    {
+      "artifactType": "trust_surface_report",
+      "path": "trust-surface-report.md",
+      "sha256": "a2c05215c327d7df2c18887fa3f5af5b9cc657fc5f8c28cd5f76ace28faaedfe"
+    },
+    {
+      "artifactType": "verification_result",
+      "path": "verification-result.json",
+      "sha256": "fe0acab9e9f2a98174d5f9f36041ad6d75c2d75e646d4d3aebdd2cb15fecec05"
+    },
+    {
+      "artifactType": "punch_list",
+      "path": "punch-list.json",
+      "sha256": "8658789894a67f69d4cbac7a1fd32d0dc8b7f145f841fdfe417e088d1f4ebca1"
+    }
+  ]
+}

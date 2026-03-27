@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/disciplinary_action_attestation.schema.json",
+  "title": "Disciplinary Action Attestation",
+  "type": "object",
+  "required": [
+    "actionRecordsCurrent",
+    "reviewWindowDays",
+    "reviewedBreachesCount"
+  ],
+  "properties": {
+    "actionRecordsCurrent": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "reviewedBreachesCount": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "additionalProperties": false
+}

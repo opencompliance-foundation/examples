@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/customer_support_governance_attestation.schema.json",
+  "title": "Customer Support Governance Attestation",
+  "type": "object",
+  "required": [
+    "escalationOwnershipDefined",
+    "reviewWindowDays",
+    "staffingModelCurrent"
+  ],
+  "properties": {
+    "escalationOwnershipDefined": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "staffingModelCurrent": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

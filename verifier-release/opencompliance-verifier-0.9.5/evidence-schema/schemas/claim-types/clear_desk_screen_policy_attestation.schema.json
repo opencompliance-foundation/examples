@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/clear_desk_screen_policy_attestation.schema.json",
+  "title": "Clear Desk and Screen Policy Attestation",
+  "type": "object",
+  "required": [
+    "policyCurrent",
+    "reviewWindowDays",
+    "workspaceTypesCovered"
+  ],
+  "properties": {
+    "policyCurrent": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "workspaceTypesCovered": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

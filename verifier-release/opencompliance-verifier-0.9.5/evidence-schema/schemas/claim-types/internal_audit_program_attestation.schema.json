@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/internal_audit_program_attestation.schema.json",
+  "title": "Internal Audit Program Attestation",
+  "type": "object",
+  "required": [
+    "programCurrent",
+    "reviewWindowDays",
+    "scheduleDefined"
+  ],
+  "properties": {
+    "programCurrent": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "scheduleDefined": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

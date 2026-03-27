@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/customer_support_channel_attestation.schema.json",
+  "title": "Customer Support Channel Attestation",
+  "type": "object",
+  "required": [
+    "channelsDocumented",
+    "channelsReachable",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "channelsDocumented": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "channelsReachable": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

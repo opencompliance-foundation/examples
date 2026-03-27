@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/clear_desk_screen_coverage_attestation.schema.json",
+  "title": "Clear Desk and Screen Coverage Attestation",
+  "type": "object",
+  "required": [
+    "areasCovered",
+    "communicationCurrent",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "areasCovered": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "communicationCurrent": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

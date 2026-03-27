@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/specs/schemas/trust-root-profiles.schema.json",
+  "title": "OpenCompliance Trust Root Profiles",
+  "type": "object",
+  "required": [
+    "registryVersion",
+    "profiles"
+  ],
+  "properties": {
+    "registryVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "profiles": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "profileId",
+          "surface",
+          "mode",
+          "description",
+          "actorType",
+          "role",
+          "trustPolicyId",
+          "identityId",
+          "fallbackIdentityId",
+          "keyId",
+          "publicKeyPath",
+          "privateKeyPath",
+          "environmentVariables",
+          "syntheticFallbackAllowed",
+          "notes"
+        ],
+        "properties": {
+          "profileId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "surface": {
+            "type": "string",
+            "enum": [
+              "signed_artifact",
+              "release_attestation"
+            ]
+          },
+          "mode": {
+            "type": "string",
+            "enum": [
+              "synthetic_reference",
+              "environment_override"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "actorType": {
+            "type": "string",
+            "enum": [
+              "verifier_service",
+              "independent_witness"
+            ]
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1
+          },
+          "trustPolicyId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "identityId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "fallbackIdentityId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "keyId": {
+            "type": "string"
+          },
+          "publicKeyPath": {
+            "type": "string"
+          },
+          "privateKeyPath": {
+            "type": "string"
+          },
+          "environmentVariables": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "syntheticFallbackAllowed": {
+            "type": "boolean"
+          },
+          "notes": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

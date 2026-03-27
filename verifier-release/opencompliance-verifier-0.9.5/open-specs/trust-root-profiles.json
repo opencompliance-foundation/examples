@@ -1,0 +1,92 @@
+{
+  "registryVersion": "0.1.0",
+  "profiles": [
+    {
+      "profileId": "oc.trust-root.synthetic-release-signer",
+      "surface": "signed_artifact",
+      "mode": "synthetic_reference",
+      "description": "Synthetic verifier-service signing root used by the public reference release line.",
+      "actorType": "verifier_service",
+      "role": "release_signer",
+      "trustPolicyId": "oc.trust.verifier-service",
+      "identityId": "oc-synthetic-signer",
+      "fallbackIdentityId": "oc-synthetic-signer",
+      "keyId": "oc-synthetic-ed25519-001",
+      "publicKeyPath": "public-key.pem",
+      "privateKeyPath": "fixtures/internal/signing/exampleco-synthetic-ed25519-private-key.pem",
+      "environmentVariables": [],
+      "syntheticFallbackAllowed": true,
+      "notes": [
+        "This is the default publication root for the public reference release line.",
+        "It is intentionally synthetic and public-safe."
+      ]
+    },
+    {
+      "profileId": "oc.trust-root.environment-release-signer",
+      "surface": "signed_artifact",
+      "mode": "environment_override",
+      "description": "Environment-supplied verifier-service signing root for non-synthetic release publication.",
+      "actorType": "verifier_service",
+      "role": "release_signer",
+      "trustPolicyId": "oc.trust.verifier-service",
+      "identityId": "oc-live-release-signer",
+      "fallbackIdentityId": "oc-synthetic-signer",
+      "keyId": "env-supplied",
+      "publicKeyPath": "public-key.pem",
+      "privateKeyPath": "",
+      "environmentVariables": [
+        "OPENCOMPLIANCE_RELEASE_PRIVATE_KEY_PATH",
+        "OPENCOMPLIANCE_RELEASE_PUBLIC_KEY_PATH"
+      ],
+      "syntheticFallbackAllowed": true,
+      "notes": [
+        "This profile becomes active only when the release signing key paths are supplied through the environment.",
+        "The signer identity defaults to oc-live-release-signer but may be overridden by environment for a differently registered verifier-service identity.",
+        "This path is implemented but not exercised by the public reference release."
+      ]
+    },
+    {
+      "profileId": "oc.trust-root.synthetic-release-witness",
+      "surface": "release_attestation",
+      "mode": "synthetic_reference",
+      "description": "Synthetic independent witness identity used by the public reference release attestation.",
+      "actorType": "independent_witness",
+      "role": "independent_replay_witness",
+      "trustPolicyId": "oc.trust.independent-witness",
+      "identityId": "oc-synthetic-release-witness",
+      "fallbackIdentityId": "oc-synthetic-release-witness",
+      "keyId": "",
+      "publicKeyPath": "",
+      "privateKeyPath": "",
+      "environmentVariables": [],
+      "syntheticFallbackAllowed": true,
+      "notes": [
+        "This is the default witness identity for the public reference release line.",
+        "It remains synthetic until an environment-supplied or externally trusted witness root is configured."
+      ]
+    },
+    {
+      "profileId": "oc.trust-root.environment-release-witness",
+      "surface": "release_attestation",
+      "mode": "environment_override",
+      "description": "Environment-selected independent witness identity for non-synthetic release attestation.",
+      "actorType": "independent_witness",
+      "role": "independent_replay_witness",
+      "trustPolicyId": "oc.trust.independent-witness",
+      "identityId": "oc-live-release-witness",
+      "fallbackIdentityId": "oc-synthetic-release-witness",
+      "keyId": "",
+      "publicKeyPath": "",
+      "privateKeyPath": "",
+      "environmentVariables": [
+        "OPENCOMPLIANCE_RELEASE_WITNESS_MODE",
+        "OPENCOMPLIANCE_RELEASE_WITNESS_ID"
+      ],
+      "syntheticFallbackAllowed": true,
+      "notes": [
+        "This profile becomes active when the release witness mode is set to live or a witness ID is supplied through the environment.",
+        "The current release attestation is still unsigned metadata, so this profile governs identity disclosure rather than cryptographic witness signing."
+      ]
+    }
+  ]
+}
