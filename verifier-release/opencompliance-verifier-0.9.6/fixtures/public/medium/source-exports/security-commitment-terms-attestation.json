@@ -1,0 +1,13 @@
+{
+  "collectedAt": "2026-03-24T01:31:00Z",
+  "sourceSystem": "example-governance",
+  "actorId": "privacy-manager@exampleco.test",
+  "environment": "organisation",
+  "assetGroup": "service_commitment_agreements",
+  "evaluatedAt": "2026-03-24T01:31:00Z",
+  "expiresAt": "2026-06-22T01:31:00Z",
+  "signatureType": "synthetic_ed25519_attestation",
+  "termsPresent": true,
+  "agreementTypesCovered": 4,
+  "reviewWindowDays": 90
+}

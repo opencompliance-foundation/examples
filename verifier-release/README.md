@@ -2,6 +2,6 @@
 
 This directory contains generated, public-safe OpenCompliance verifier release bundles.
 
-- current release: `opencompliance-verifier-0.9.5`
+- current release: `opencompliance-verifier-0.9.6`
 
 Each release is a stitched snapshot of the public verifier runtime, Lean corridor, public schemas, conformance scripts, and synthetic ExampleCo fixtures.

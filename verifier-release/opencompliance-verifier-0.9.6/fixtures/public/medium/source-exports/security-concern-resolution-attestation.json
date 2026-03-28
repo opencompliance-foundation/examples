@@ -1,0 +1,13 @@
+{
+  "collectedAt": "2026-03-24T01:36:00Z",
+  "sourceSystem": "example-security-operations",
+  "actorId": "security-operations-owner@exampleco.test",
+  "environment": "production",
+  "assetGroup": "security_concern_program",
+  "evaluatedAt": "2026-03-24T01:36:00Z",
+  "expiresAt": "2026-06-22T01:36:00Z",
+  "signatureType": "synthetic_ed25519_attestation",
+  "resolutionTrackingCurrent": true,
+  "ownersAssigned": true,
+  "reviewWindowDays": 90
+}
