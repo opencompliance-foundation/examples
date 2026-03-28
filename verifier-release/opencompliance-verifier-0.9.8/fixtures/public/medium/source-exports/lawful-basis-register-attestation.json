@@ -1,0 +1,14 @@
+{
+  "collectedAt": "2026-03-24T01:20:00Z",
+  "sourceSystem": "example-governance",
+  "actorId": "privacy-manager",
+  "environment": "organisation",
+  "assetGroup": "privacy_governance",
+  "evaluatedAt": "2026-03-24T01:20:00Z",
+  "expiresAt": "2026-06-22T01:20:00Z",
+  "signatureType": "synthetic_attestation",
+  "registerMaintained": true,
+  "purposeBoundariesDocumented": true,
+  "lawfulBasisAssigned": true,
+  "reviewWindowDays": 90
+}

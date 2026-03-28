@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/lawful_basis_register_attestation.schema.json",
+  "title": "Lawful Basis Register Attestation",
+  "type": "object",
+  "required": [
+    "registerMaintained",
+    "purposeBoundariesDocumented",
+    "lawfulBasisAssigned",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "registerMaintained": {
+      "type": "boolean"
+    },
+    "purposeBoundariesDocumented": {
+      "type": "boolean"
+    },
+    "lawfulBasisAssigned": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

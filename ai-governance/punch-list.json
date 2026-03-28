@@ -1,0 +1,35 @@
+{
+  "punchListId": "exampleco-ai-governance-bundle-2026-03-24-punch-list",
+  "generatedAt": "2026-03-24T06:40:00Z",
+  "bundleId": "exampleco-ai-governance-bundle-2026-03-24",
+  "verifierVersion": "opencompliance-verifier/0.9.8",
+  "organisation": "ExampleCo",
+  "profileId": "ai_governance_corridor",
+  "blockingIssueCount": 1,
+  "blockingIssues": [
+    {
+      "claimId": "EX-CLAIM-712",
+      "title": "The legality and contestability of significant-effect automated decisions have been fully demonstrated for every in-scope use case.",
+      "issueType": "human_judgment_required",
+      "route": "judgment",
+      "frameworkMappings": [
+        {
+          "framework": "GDPR",
+          "family": "automated_decision_and_rights_boundary",
+          "controlId": "gdpr.family.automated_decision_and_rights_boundary"
+        },
+        {
+          "framework": "UK ICO AI and data protection guidance",
+          "family": "automated_decision_adequacy",
+          "controlId": "ico_ai_guidance.family.automated_decision_adequacy"
+        }
+      ],
+      "controlRefs": [
+        "oc.ai-10"
+      ],
+      "requiredAction": "obtain_human_review",
+      "reason": "This remains a human legal and product-adequacy zone that the public synthetic corridor does not reduce to a proof or attestation-only green check."
+    }
+  ],
+  "note": "Synthetic typed remediation artifact derived from the deterministic proof bundle."
+}

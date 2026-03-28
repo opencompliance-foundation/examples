@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/privacy_notice_attestation.schema.json",
+  "title": "Privacy Notice Attestation",
+  "type": "object",
+  "required": [
+    "noticePublished",
+    "categoriesAndPurposesListed",
+    "rightsProcessLinked",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "noticePublished": {
+      "type": "boolean"
+    },
+    "categoriesAndPurposesListed": {
+      "type": "boolean"
+    },
+    "rightsProcessLinked": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

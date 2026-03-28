@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-28T12:30:00Z",
+  "purpose": "Define the external review and conformance path for ISO 27001 and SOC 2 mapping work inside OpenCompliance.",
+  "targetFrameworks": [
+    "ISO 27001",
+    "SOC 2"
+  ],
+  "reviewTracks": [
+    {
+      "trackId": "exact_anchor_review",
+      "goal": "Challenge the exact-anchor mapping edges and blocker decisions.",
+      "requiredRoles": [
+        "iso_lead_auditor",
+        "soc2_assurance_practitioner",
+        "oscal_mapping_specialist"
+      ]
+    },
+    {
+      "trackId": "decomposition_review",
+      "goal": "Challenge the source-to-atom decomposition and route assignment.",
+      "requiredRoles": [
+        "iso_lead_auditor",
+        "soc2_assurance_practitioner",
+        "formal_methods_reviewer"
+      ]
+    },
+    {
+      "trackId": "claim_schema_review",
+      "goal": "Challenge whether typed claim schemas match the intended evidence-bearing atoms.",
+      "requiredRoles": [
+        "compliance_engineer",
+        "privacy_counsel",
+        "assurance_practitioner"
+      ]
+    },
+    {
+      "trackId": "lean_boundary_review",
+      "goal": "Challenge which atoms are allowed into Lean and whether attestation and judgment boundaries are honest.",
+      "requiredRoles": [
+        "formal_methods_reviewer",
+        "oscal_mapping_specialist"
+      ]
+    },
+    {
+      "trackId": "public_docs_review",
+      "goal": "Challenge whether the public site overclaims what is proved or reviewed.",
+      "requiredRoles": [
+        "privacy_counsel",
+        "assurance_practitioner",
+        "public_interest_reviewer"
+      ]
+    }
+  ],
+  "reviewerRoles": [
+    {
+      "roleId": "iso_lead_auditor",
+      "description": "ISO 27001 practitioner with enough authority to challenge decomposition and control scope."
+    },
+    {
+      "roleId": "soc2_assurance_practitioner",
+      "description": "SOC 2 assurance practitioner or CPA-side reviewer who can challenge criterion and point-of-focus treatment."
+    },
+    {
+      "roleId": "formal_methods_reviewer",
+      "description": "Formal methods reviewer who can challenge proof boundaries and theorem attachment points."
+    },
+    {
+      "roleId": "oscal_mapping_specialist",
+      "description": "Reviewer who can challenge control, statement, and mapping semantics in machine-readable form."
+    },
+    {
+      "roleId": "privacy_counsel",
+      "description": "Reviewer who can challenge rights, disclosure, and legal boundary language in the public artifacts."
+    },
+    {
+      "roleId": "compliance_engineer",
+      "description": "Implementation reviewer for evidence, fixtures, and conformance behavior."
+    },
+    {
+      "roleId": "public_interest_reviewer",
+      "description": "External scrutiny role to ensure the public site remains honest about claims and limitations."
+    }
+  ],
+  "phases": [
+    {
+      "phaseId": "internal_preflight",
+      "goal": "Ensure machine-readable status, publication model, and blocker inventory exist before requesting external time.",
+      "passCriteria": [
+        "Framework coverage is current.",
+        "Exact-anchor blockers are explicit.",
+        "Source-to-atom graph status is recorded."
+      ]
+    },
+    {
+      "phaseId": "licensed_anchor_review",
+      "goal": "Review proprietary exact anchors privately where licensed material is required.",
+      "passCriteria": [
+        "Anchor choices are challenged by a framework-qualified reviewer.",
+        "Public-vs-private publication decisions are recorded per anchor class."
+      ]
+    },
+    {
+      "phaseId": "route_and_claim_review",
+      "goal": "Review decomposition, route, and typed claim coverage before widening the public verifier surface.",
+      "passCriteria": [
+        "Decidable atoms are explicitly distinguished from attestation and judgment atoms.",
+        "Typed claim contracts exist for promoted non-judgment atoms."
+      ]
+    },
+    {
+      "phaseId": "public_release_review",
+      "goal": "Check that the site and public repos do not overclaim the state of mapping or proof coverage.",
+      "passCriteria": [
+        "Public wording stays blocker-aware.",
+        "No page implies certification or CPA opinion issuance by OpenCompliance."
+      ]
+    }
+  ],
+  "currentState": {
+    "status": "program_defined",
+    "remainingBlockers": [
+      "licensed exact-anchor review materials are still required for ISO 27001 and SOC 2",
+      "external reviewers have not yet run the program against the current blocker-aware corpus"
+    ]
+  }
+}

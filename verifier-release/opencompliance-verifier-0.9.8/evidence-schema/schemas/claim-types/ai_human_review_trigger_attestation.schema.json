@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/ai_human_review_trigger_attestation.schema.json",
+  "title": "AI Human Review Trigger Attestation",
+  "type": "object",
+  "required": [
+    "highImpactTriggerCriteriaDocumented",
+    "humanReviewOwnerAssigned",
+    "contestPathDocumented",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "highImpactTriggerCriteriaDocumented": {
+      "type": "boolean"
+    },
+    "humanReviewOwnerAssigned": {
+      "type": "boolean"
+    },
+    "contestPathDocumented": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/privacy_impact_assessment_attestation.schema.json",
+  "title": "Privacy Impact Assessment Attestation",
+  "type": "object",
+  "required": [
+    "assessmentCurrent",
+    "scopeDocumented",
+    "signoffAssigned",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "assessmentCurrent": {
+      "type": "boolean"
+    },
+    "scopeDocumented": {
+      "type": "boolean"
+    },
+    "signoffAssigned": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

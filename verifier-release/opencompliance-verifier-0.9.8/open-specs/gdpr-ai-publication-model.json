@@ -1,0 +1,211 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-28T12:30:00Z",
+  "purpose": "Define what OpenCompliance publishes publicly versus privately for GDPR and the current ISO AI standards wave.",
+  "frameworkPolicies": [
+    {
+      "framework": "GDPR",
+      "sourceAvailability": "public_exact_feasible",
+      "publicAllowed": [
+        "article-level and obligation-level exact anchors",
+        "public-control mappings",
+        "typed claim contracts",
+        "reviewed public-law rationale"
+      ],
+      "privateAllowed": [
+        "working notes and reviewer drafts",
+        "internal decomposition scratch space"
+      ],
+      "publicBlocked": [
+        "claiming mechanised or proved coverage for judgment-heavy obligations without explicit boundary notes"
+      ]
+    },
+    {
+      "framework": "ISO/IEC 42001",
+      "sourceAvailability": "crosswalk_candidate",
+      "publicAllowed": [
+        "crosswalk-derived candidate anchors",
+        "public-control coverage counts",
+        "candidate review metadata"
+      ],
+      "privateAllowed": [
+        "licensed clause review",
+        "private exact-anchor notes"
+      ],
+      "publicBlocked": [
+        "claiming reviewed exact anchors from public crosswalk material alone"
+      ]
+    },
+    {
+      "framework": "ISO/IEC 42005",
+      "sourceAvailability": "crosswalk_candidate",
+      "publicAllowed": [
+        "crosswalk-derived candidate anchors",
+        "impact-assessment-oriented control mappings",
+        "candidate review metadata"
+      ],
+      "privateAllowed": [
+        "licensed clause review",
+        "private impact-assessment anchor notes"
+      ],
+      "publicBlocked": [
+        "claiming reviewed exact anchors from public crosswalk material alone"
+      ]
+    },
+    {
+      "framework": "ISO/IEC 5338",
+      "sourceAvailability": "crosswalk_candidate",
+      "publicAllowed": [
+        "candidate lifecycle-process mappings",
+        "public control and fixture coverage counts"
+      ],
+      "privateAllowed": [
+        "licensed clause review",
+        "private lifecycle-process notes"
+      ],
+      "publicBlocked": [
+        "exact clause publication without licensed review"
+      ]
+    },
+    {
+      "framework": "ISO/IEC 23894",
+      "sourceAvailability": "crosswalk_candidate",
+      "publicAllowed": [
+        "candidate risk-management mappings",
+        "candidate review metadata"
+      ],
+      "privateAllowed": [
+        "licensed clause review",
+        "private risk-management review notes"
+      ],
+      "publicBlocked": [
+        "exact clause publication without licensed review"
+      ]
+    },
+    {
+      "framework": "ISO/IEC 5259-5",
+      "sourceAvailability": "crosswalk_candidate",
+      "publicAllowed": [
+        "candidate data-quality-governance mappings",
+        "public control coverage counts"
+      ],
+      "privateAllowed": [
+        "licensed clause review",
+        "private data-quality notes"
+      ],
+      "publicBlocked": [
+        "exact clause publication without licensed review"
+      ]
+    },
+    {
+      "framework": "ISO/IEC TS 6254",
+      "sourceAvailability": "crosswalk_candidate",
+      "publicAllowed": [
+        "candidate explainability-oriented mappings",
+        "framework inventory and maturity state"
+      ],
+      "privateAllowed": [
+        "licensed clause review",
+        "private explainability notes"
+      ],
+      "publicBlocked": [
+        "exact clause publication without licensed review"
+      ]
+    },
+    {
+      "framework": "ISO/IEC 22989",
+      "sourceAvailability": "crosswalk_candidate",
+      "publicAllowed": [
+        "framework inventory and terminology-support state",
+        "ontology support notes"
+      ],
+      "privateAllowed": [
+        "licensed terminology review",
+        "private ontology notes"
+      ],
+      "publicBlocked": [
+        "presenting terminology support as a reviewed control-mapping layer"
+      ]
+    },
+    {
+      "framework": "ISO/IEC 23053",
+      "sourceAvailability": "crosswalk_candidate",
+      "publicAllowed": [
+        "candidate ML-systems-framework mappings",
+        "public inventory and maturity state"
+      ],
+      "privateAllowed": [
+        "licensed clause review",
+        "private engineering-framework notes"
+      ],
+      "publicBlocked": [
+        "exact clause publication without licensed review"
+      ]
+    },
+    {
+      "framework": "ISO/IEC 38507",
+      "sourceAvailability": "crosswalk_candidate",
+      "publicAllowed": [
+        "candidate governance-role mappings",
+        "public inventory and maturity state"
+      ],
+      "privateAllowed": [
+        "licensed clause review",
+        "private governance notes"
+      ],
+      "publicBlocked": [
+        "exact clause publication without licensed review"
+      ]
+    },
+    {
+      "framework": "ISO/IEC 42006",
+      "sourceAvailability": "crosswalk_candidate",
+      "publicAllowed": [
+        "ecosystem inventory and certification-layer notes"
+      ],
+      "privateAllowed": [
+        "licensed clause review",
+        "private certification-process notes"
+      ],
+      "publicBlocked": [
+        "presenting certification-body requirements as current operator control coverage"
+      ]
+    },
+    {
+      "framework": "ISO/IEC AWI 42003",
+      "sourceAvailability": "public_draft",
+      "publicAllowed": [
+        "draft-watch inventory",
+        "maturity-state notes"
+      ],
+      "privateAllowed": [
+        "draft-monitoring notes"
+      ],
+      "publicBlocked": [
+        "treating a draft guidance project as a stable exact-anchor target"
+      ]
+    }
+  ],
+  "workflow": [
+    {
+      "step": 1,
+      "name": "Inventory and maturity publication",
+      "output": "Public status files that separate reviewed, candidate, zero-coverage, and draft-watch states."
+    },
+    {
+      "step": 2,
+      "name": "Candidate control normalization",
+      "output": "Explicit public-control mappings only where the boundary is concrete enough to stay honest."
+    },
+    {
+      "step": 3,
+      "name": "Licensed or specialist review",
+      "output": "Private notes or specialist sign-off where candidate mappings need stronger review."
+    },
+    {
+      "step": 4,
+      "name": "Public promotion",
+      "output": "Only the reviewable, publication-safe derived metadata is promoted into the public layer."
+    }
+  ]
+}

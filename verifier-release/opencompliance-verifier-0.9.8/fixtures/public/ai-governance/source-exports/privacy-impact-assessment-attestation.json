@@ -1,0 +1,14 @@
+{
+  "collectedAt": "2026-03-24T06:34:00Z",
+  "sourceSystem": "example-ai-governance",
+  "actorId": "privacy-manager",
+  "environment": "production",
+  "assetGroup": "ai_privacy_governance",
+  "evaluatedAt": "2026-03-24T06:34:00Z",
+  "expiresAt": "2026-06-22T06:34:00Z",
+  "signatureType": "synthetic_attestation",
+  "assessmentCurrent": true,
+  "scopeDocumented": true,
+  "signoffAssigned": true,
+  "reviewWindowDays": 90
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-28T12:30:00Z",
+  "purpose": "Public-safe status view for the private exact-anchor review packet queue that prepares licensed review of blocked ISO 27001 and SOC 2 control mappings.",
+  "frameworks": [
+    {
+      "framework": "ISO 27001",
+      "coverageFramework": "ISO 27001",
+      "sourceAvailability": "blocked_nonpublic_source_review",
+      "blockedExactAnchorPublicControls": 71,
+      "packetCount": 71,
+      "familyRolloutEntries": 29,
+      "mappedPublicControls": 85,
+      "implementedPublicControls": 85,
+      "nextMilestones": [
+        "Run licensed exact-anchor review for the currently blocked promoted controls.",
+        "Promote only the next claim-schema-complete and fixture-ready controls into the public ontology.",
+        "Expand Lean coverage across the remaining decidable atoms after the exact-anchor and claim-schema gates are met."
+      ],
+      "privatePacketPath": "internal/control-seed/full-map/iso27001-exact-anchor-review-packets.json"
+    },
+    {
+      "framework": "SOC 2",
+      "coverageFramework": "SOC 2",
+      "sourceAvailability": "blocked_nonpublic_source_review",
+      "blockedExactAnchorPublicControls": 50,
+      "packetCount": 50,
+      "familyRolloutEntries": 18,
+      "mappedPublicControls": 58,
+      "implementedPublicControls": 58,
+      "nextMilestones": [
+        "Run licensed exact-anchor review for the currently blocked promoted controls.",
+        "Promote only the next claim-schema-complete and fixture-ready controls into the public ontology.",
+        "Expand Lean coverage across the remaining decidable atoms after the exact-anchor and claim-schema gates are met."
+      ],
+      "privatePacketPath": "internal/control-seed/full-map/soc2-exact-anchor-review-packets.json"
+    }
+  ]
+}
