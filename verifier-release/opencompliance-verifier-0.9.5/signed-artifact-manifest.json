@@ -103,8 +103,8 @@
     },
     {
       "path": "conformance/vectors/cyber-baseline/expected-witness.json",
-      "sha256": "74952c5406830404fc6a745b0d73a4752f6c7f2068c2db3eb4b98c5a1044e3b1",
-      "signature": "U366nLDe9utg63VJ75Es1gW7/7WRHMep7qe4Lg76V2Dz4i1d4yWQueQCuvYRSjd6iqU9qwHLTarXYmO2/9xEDw=="
+      "sha256": "111c6ccd2769b25744457be68348d7862542f0b9636548f9e2fd42e32e83d951",
+      "signature": "ISnH3HnMdQJ1vJ2a4+ksR3M8/i7DSWUKMF8EAZ9wR+HLPk8bGLP2edhDxxbDyBRi2Vh/WKHMx1m4nDp+t71JDw=="
     },
     {
       "path": "conformance/vectors/failed/README.md",
@@ -143,8 +143,8 @@
     },
     {
       "path": "conformance/vectors/issued/expected-witness.json",
-      "sha256": "e6b8fae1cca688c45fe84c307a30163a93bb8c1ec95b4e559e93ec6f6b1a1d70",
-      "signature": "mtyBUZHa252ntJrRaa1e0lV+hPJppyXpNSaDi+jpG7kScWFETnfNQlkTQfoxQApi3QKGL7zZuFI8KantIeFvCg=="
+      "sha256": "e04838d5ea1313d09f273163ef9867f7e87a0e680c570b0d2e95cc75bfeb40df",
+      "signature": "wP1+RyROzBgZ40wHYPmnLm2nwUVk26L3VsUjRbcVQxM9LCDP0CMmj9VYLS0wVMBW7zgztKMbcsLxt+fhMOEfBg=="
     },
     {
       "path": "conformance/vectors/medium/README.md",
@@ -163,8 +163,8 @@
     },
     {
       "path": "conformance/vectors/medium/expected-witness.json",
-      "sha256": "591404292775abb0f7a303bb9cf15c3cf99d93cc1725f15dd2550aa19128752b",
-      "signature": "bx0HvZ+kzKNwyEUwAh4N8bkeJfKxQa9hwCzzZ4zklz8ktah/oJRYhYoK+zjVLewV48cYdVwRd1tUsrED0FOyBw=="
+      "sha256": "e99b091883e49ded77bb8cbf80b5ab92b01a9fe3d3ff56ab5a01fdab0d360fb4",
+      "signature": "7sAIhP3flXwzDl/lvzJlZ7NsuBsnyaxoFZAMUuLx3ttuTWgGw12mWtW2Tje6q4U9+FWYN5KpRUX11o9P0nCZDQ=="
     },
     {
       "path": "conformance/vectors/minimal/README.md",
@@ -308,8 +308,8 @@
     },
     {
       "path": "docs/frameworks.html",
-      "sha256": "9ef40eb86ca98dc001351e78b565ff5b46e187a2abd2d195d0cea881f75267bb",
-      "signature": "tr9AQmywpdcl/HmRgcWr8H3tXiOWUC0qJpkdT/1ebagHmXYyWofi93vdAbd8zpmbIP9PJrFR4aaHkgVdPVdoBg=="
+      "sha256": "43f547c976cd9cca45a897bc2e518aa379ed532e0efafaac64823869eb5298ec",
+      "signature": "cCDI7+76N6rqVX615m2xJh6KhUvA/knHEJ4N9dgfIuqln45G/xqIRXiDOdDqBEVBhqQMNCpFHnNUMB7fKkdEBA=="
     },
     {
       "path": "docs/index.html",
@@ -318,13 +318,13 @@
     },
     {
       "path": "docs/llm.txt",
-      "sha256": "4ab59d9fda3355579b44fdb905f9cdc3addcb44a5651cd8bf89f847dfdb0fbfb",
-      "signature": "njfZ7Cm8ITBXzedO9dWycP86x1PNEcvD7nugXjtQwtIlXO3WoyjNtRtsRWJwGn6yCKsJJMXjyZmLrsua2JZgDw=="
+      "sha256": "5ff638511e0e75fb103a77208477edcb0955946759be9134963615774d1bde02",
+      "signature": "9fTlwgat7HlE/oI1tobiwn2eeEPyn8SKh1aZEaZeinp7n0LnEjizZVnymQPQDZlq0xRpCQJhlT7vWXoCtyZvAQ=="
     },
     {
       "path": "docs/llms.txt",
-      "sha256": "4ab59d9fda3355579b44fdb905f9cdc3addcb44a5651cd8bf89f847dfdb0fbfb",
-      "signature": "njfZ7Cm8ITBXzedO9dWycP86x1PNEcvD7nugXjtQwtIlXO3WoyjNtRtsRWJwGn6yCKsJJMXjyZmLrsua2JZgDw=="
+      "sha256": "5ff638511e0e75fb103a77208477edcb0955946759be9134963615774d1bde02",
+      "signature": "9fTlwgat7HlE/oI1tobiwn2eeEPyn8SKh1aZEaZeinp7n0LnEjizZVnymQPQDZlq0xRpCQJhlT7vWXoCtyZvAQ=="
     },
     {
       "path": "docs/open-proof-layer.html",
@@ -393,8 +393,8 @@
     },
     {
       "path": "docs/standards-mapping.html",
-      "sha256": "38a80f41e402b54ac7e9dd4a5468fce9f62ebc718f878048f50c8c1737b57bbe",
-      "signature": "hKOGQLSzAN3fQVTK101cUd5kW/oJ6Ewg6oxPnJdLCV6LnexVzUDB3ypn38jA1XwOqMs+lmLLadodhcrUfCWUAw=="
+      "sha256": "805da3cdfa9fdd6f242e439580ff557955052caf84a8055455ab65a5210408a8",
+      "signature": "9YKIz3XPaQg+sWSdx9tcdWZYfz0/EPZTOav2LHqR2hhfj/qGCmvP7PBNWVWoQUPTJ+1g3vfFW6T9luockvljBA=="
     },
     {
       "path": "docs/styles.css",
@@ -1038,8 +1038,8 @@
     },
     {
       "path": "fixtures/public/cyber-baseline/certificate.json",
-      "sha256": "a2dc38224033a74148af537c625081a6744887a22008edc7be81d1504a5db4ff",
-      "signature": "SlXAMJfowSokzeM+NiCKqv+3RLcVUkLabwS+65zDjnSBjTn7FZpbdcGPb2BQuEUeXTgc0WgYe/4jA+35oiu+Ag=="
+      "sha256": "b3584aeb43b5bbb8f73415bcf5641fd19de4d0e2fbcef9b3ad0c509e3bfe6ffe",
+      "signature": "RwIGrX99lFLAnBOgfK58qRRoomm8E6H+H9yzP9ha1l8x4uQqehSLOsRRi2Zd34Df1hNdFZ6V3LAQ5HJBx1N3DA=="
     },
     {
       "path": "fixtures/public/cyber-baseline/classification-result.json",
@@ -1053,13 +1053,13 @@
     },
     {
       "path": "fixtures/public/cyber-baseline/evidence-claims.json",
-      "sha256": "bb1ab96ae234c1dcc910a94524a18549d364ee4e29897efe5b500c3df42f330f",
-      "signature": "JuFo6htmhVFSwU4uYd9k6JFHL+5WpGzPCLpXx2TAqaeFx3UoCdX2gRoiAIrmfKzhEt3cW2Shneioq6PSdfCBBw=="
+      "sha256": "b54de7342bafd5788ba5305741ddeddb8aaf3f78a2ed0354e94e2a6672c668a0",
+      "signature": "RxeGs7KdXY4xUJQ3ED3xtFwV6fO7nNuQUmhQVlIih+t38nJmE1fKmukqmpFWjYxO7E1g3dDWJg4ceY0mN+MlDw=="
     },
     {
       "path": "fixtures/public/cyber-baseline/inclusion-proofs.json",
-      "sha256": "0e68363eeb7266c785536bfb51c27775eb5a2849c1a625d49d479545a6de96fc",
-      "signature": "kztUB1L7gs6Yzkg3TVrhv6NYxeKayOI4iMeeYtnqzmRaHSoDFSB266u61W38WkNK9iurhQY7fkKxfTpSuhr5DA=="
+      "sha256": "f21812d81fe5cc369855dda9a384c67237c734fd98c4aaecd99d61ae194260b0",
+      "signature": "8mM6VZmYHip43onkVvNFMpP8a8IzJuhWoVrZ62HL3twmSMsLYCHAyDEztYqVSSKMSptKkZ0BoVIDVIAMUiKRDw=="
     },
     {
       "path": "fixtures/public/cyber-baseline/oscal/README.md",
@@ -1068,13 +1068,13 @@
     },
     {
       "path": "fixtures/public/cyber-baseline/oscal/cyber-essentials-baseline-family-overlap-mapping.json",
-      "sha256": "891bcbd52517dbe4758a39e2f76f65acca6ad502ef6eac7279bb28f86d3d88f3",
-      "signature": "oTeLOGISRQVD+o242KFVVfajFNz2MLNX1Fj0ul08v9bCQTbJNelf6eIA8xUjTfKgsHPe/YbS9jsPiPCMwhFRCg=="
+      "sha256": "257d5a7f65bccdf65824c0da96c729fcb6cccdb84ce21e98e1396f04d532be64",
+      "signature": "m1obNpCKGTnugBdpgbVPyf10xVkQ5O0zv6rbT7Q6waAAt9BHB9MYw56Y555a008khZtvGJaFTRxCha2ZW8caAg=="
     },
     {
       "path": "fixtures/public/cyber-baseline/oscal/exampleco-cyber-baseline-assessment-plan.json",
-      "sha256": "2031a25645b1c123ae388abbd4926312c1eb80f869101779fe92da38d49c3b7e",
-      "signature": "kE/E0i6L5xDMUKxXnswDlQfwcHChQI1GvJq9sGQgXo63aHvUkkqO5K6k83n8o3NPVmDftdrdQUBu5el+8oP3Dg=="
+      "sha256": "f345f115ebefcc7641a4bf195375e6f1e4e87091ae968ce1a3bc0a2b83fe49ec",
+      "signature": "R8M0bXxZQCVn/BP3rwBww5lUcPbno1pW5SJMOg1LGwguw7gM8iqeXcsAv71LsCnOgEm1+kn/JUWKitYJek7uBw=="
     },
     {
       "path": "fixtures/public/cyber-baseline/oscal/exampleco-cyber-baseline-assessment-results.json",
@@ -1083,23 +1083,23 @@
     },
     {
       "path": "fixtures/public/cyber-baseline/oscal/exampleco-cyber-baseline-profile.json",
-      "sha256": "c2a6a573775f058895d385a417fa43b2f6fcd505a95c7ba96601d27c782ae337",
-      "signature": "xk/kZsrkDxYsGP3anGKtJu7KOjXCv//dda5Qr1XMY4zHYgVUxE/usEW7dQ82X0IxIUuqAvqLIylfXsRmePKfAA=="
+      "sha256": "8d3e9dc98a2502b71ca46425bf99ba227368f72ad2e0d427e26788497b6af77f",
+      "signature": "QSWWgNbJJwzwsA/khGUw+3unMDcPOWmYeqL1ZkalVjTQzah160j57gmeajq+gXlqVjVTcrHAEB2yovC4jSj7Aw=="
     },
     {
       "path": "fixtures/public/cyber-baseline/oscal/exampleco-cyber-baseline-ssp.json",
-      "sha256": "35f949f156ef111a403e5083da4904849ff12a3ef95bf4d6cd3f7076dff5bc11",
-      "signature": "u71+CZ6QwZOZRLAsAVTQKUp9DQl2bMuPzKAZJesZ8F6TUxhIClCiUBEYHoBqrwcz6xq6pWNu9OlyNABos9MKDQ=="
+      "sha256": "929bd43bead00a2b7933bec55c3dbf4b29d8d817b91d791ce62e382209cf872d",
+      "signature": "pP1S3n1bh9GC5/cDOa70BOTzzsix3LiRtNUZ2/QCzwi3514m1dBwbA2zAx6Hl8cued9pSHd2WpCzjWLmbFTHAw=="
     },
     {
       "path": "fixtures/public/cyber-baseline/oscal/family-proxy-targets.json",
-      "sha256": "35118f81ac18644982dbacf507631fe4568b3197907e7d836b69639563b717e7",
-      "signature": "eNavPdJ4AUpH1yhjlehoq6qsX8fzmPNJDszpTbhP6HW8pK6uUlJAK72WYVUisqmgUawVEU2XzZIVDD9rLOFjBg=="
+      "sha256": "9f136ca2672e94ca6205ff5014e74ed4a2798d0ba6029a1cb0fdae5f3d74b24e",
+      "signature": "8WoiI1hF1oSRdpMe0YOv0D23ESlBKFbk2LfvaAw9L6IvoqfKVKaeZcj0zfZue6Jjag1eHwPPBidJADxCnf5GAw=="
     },
     {
       "path": "fixtures/public/cyber-baseline/oscal/opencompliance-cyber-baseline-catalog.json",
-      "sha256": "5a0257d6af86867fafd352d311b83655508b86ac68ef7137d7e588b27e9833d9",
-      "signature": "F/hRxNbeGsVh25feO+aX0Yh+it+Cqu4RDhFrvv4P/vNF0yKJIs1B/RQhm65FcC1owQhOt4YJhoKbhZD7ccXZBw=="
+      "sha256": "24bc3d46e37c30c9cadabd561ad786e7dca2717c0347c3a085adc76e19ca9b3f",
+      "signature": "GSY9r+axu6evj/wWr2iOtDNHRqWGlcdRbc4YO+I1VQ597x/C0Ks9goBa9L1CxdwhaVSho15QYZmrmHdJV+6BBQ=="
     },
     {
       "path": "fixtures/public/cyber-baseline/profile.json",
@@ -1108,13 +1108,13 @@
     },
     {
       "path": "fixtures/public/cyber-baseline/proof-bundle.json",
-      "sha256": "4b7dc6f174159c862b379142c6f995053273be4d15aa022456a322255f8e0178",
-      "signature": "6mhKxrZgJ5Bbb384FO4ikDQdbn2obUAsEj+4CTyCM9F44yMjUWt2StpZQui5wDijR7bd7EQ5lH+sCd8w/oLHAw=="
+      "sha256": "88611f8f66b4ca290a7135ef19a342c392f0c638234cfafee241d69642e99fbb",
+      "signature": "lceTnF0xgu9v9Ey+g/Ejaqcmu7ukKAunITae1nsfKtRnKv9lQB2FIvzasZxDkkUNA5sO0W4Xwc29SvbGjy9+Dg=="
     },
     {
       "path": "fixtures/public/cyber-baseline/replay-bundle.json",
-      "sha256": "1f5ac88f3ca503d7a87b00810004741988989a3d1c975765a4ed849517e23964",
-      "signature": "ZlxjbItlkyDB9UAurFPzGZi/LulK3wWn98jq9mCkW9IOIKG0UkJCvZ4/FZFohaegTY57O9grFkiYDSciSamUCw=="
+      "sha256": "d82525becb508e8a2f6eec26309bcaca5a59a29e2a32e56ec091d8153e7d78f5",
+      "signature": "BPZK63MxNHbKmtQLNeYCR84vLCWomAiK3tzITf/YSimXXjBgVq7/uFODt8i+ZL6QI1PUPeODIcPDwBXfbQ75BQ=="
     },
     {
       "path": "fixtures/public/cyber-baseline/revocation.json",
@@ -1148,8 +1148,8 @@
     },
     {
       "path": "fixtures/public/cyber-baseline/transparency-log.json",
-      "sha256": "7d02b68ad4c1019c50b9313ddea3bb8b4a5521537886c87667104a1a6c03bbf8",
-      "signature": "Tm9zNOhLONB4Q9RKWqqZI7q8FRPlDqvwvybRvKFnmCFUq3y511XO4Ynf5ORTlgthbzT1ipj1A3ytPM0B9XbOAg=="
+      "sha256": "d3197f99de3c79e8d6de3dc2907b1b7f881abade727db874e5be57a067ec3b4d",
+      "signature": "nBcrPMNtxoJuqa6RAy5xWe9Lxc8BIGvXo3vxshibeCUVRzNnbDxqwqq3VjRIqFTmwfXFN5VPosSEMyZOwfTOAw=="
     },
     {
       "path": "fixtures/public/cyber-baseline/trust-surface-report.md",
@@ -1158,13 +1158,13 @@
     },
     {
       "path": "fixtures/public/cyber-baseline/verification-result.json",
-      "sha256": "dc971c45922e42ad1101e4376c40a4dc6a0f46da3c087091cc4cf0d704e1d232",
-      "signature": "h3e/iRugGLOS0B7FV561cmEQMspIkHvkrBTk/xVgByovo0I1jVUyZCeRDb+aoBWdLW+Sgpq2+I6IjzOiTWDKDA=="
+      "sha256": "fd2c9dcc2b74a7e44a26fc59e32be07e125dea3b6f716d3c5c13d45649c50527",
+      "signature": "zUnsoyM8jY8GcCU66EVyUTZZg07FzZMwRCFzn0jLWp4EcScsyOp4idAi/Y8uFYJkdxuJHvKKy5Y2nXT54L/uDw=="
     },
     {
       "path": "fixtures/public/cyber-baseline/witness-receipt.json",
-      "sha256": "19e2e176b6e82860df17c3013ac25921b6a9e5514316865f89affa32baee6fcb",
-      "signature": "hh21oDy9ktv7PJNDdvnPavT0pE2yaoC7wPrxdr12frzkAMIw9AAbyGKuLba22haLbx1Ud4Ln+DsSzOfDmy9QDw=="
+      "sha256": "4138d7fd45ec264446ace46381c82eccc44c20ed90065cdf3e5780e1030acc22",
+      "signature": "t2OVdBo/ZP6jiY01FWCwdFPvVQ2boo+N4qcexpS2PJXbltDUtApnvmgLdQD1iKbaFJNZAQBgGE5CSVFtsjl9Bg=="
     },
     {
       "path": "fixtures/public/exampleco-showcase/README.md",
@@ -1183,13 +1183,13 @@
     },
     {
       "path": "fixtures/public/exampleco-showcase/showcase-report.json",
-      "sha256": "0c284b78685878c123045d6fb29bfa942cce6eb19233ae45837229a98e2fe999",
-      "signature": "HXAVnVrg9S874cN25TiGhXuZSJeBPkunmiB2OhKE+8xXdJ1tKWz94r+ayu0pLWiY3Q+daENCE6meodyXD92vDg=="
+      "sha256": "6b52ead60cc79235e5ec76056b90e1c233609195903cb9929a6ceb26b0aa5a85",
+      "signature": "E56k+3okS+xD9mlyJHmpcxNB7qVKgSOOR1UgbjD3zZ7iwkdRcCCieP5n8tsBo/0OT6RRalsPQp0Tsz2XvkqJCg=="
     },
     {
       "path": "fixtures/public/exampleco-showcase/showcase-summary.md",
-      "sha256": "c3f9249783f0ee2a31c3581260e7fddefd9b023531445bfecb7a2ca58d2a60c2",
-      "signature": "geHGWm3E3yByUY+nAJ7gzUFhSsYyCiET2zKpxoxATqEnA01/lvhioNrYvSaehn7cqwNexh/xp3wGzgTrEt35AA=="
+      "sha256": "6bcd63c62124a98a013c762f335696dd16a1d2e7aded9de3fec80ee5a5bbb3da",
+      "signature": "6Hgz+pSJmhheMmb1dEQu9GuWpYLQ0w4Kn2n0AJnJXP9R88oluZHXQMHKM/YNDUiORfzYAgFX3ay+kOLY0hWRBQ=="
     },
     {
       "path": "fixtures/public/failed/README.md",
@@ -1318,8 +1318,8 @@
     },
     {
       "path": "fixtures/public/issued/certificate.json",
-      "sha256": "56432ced31cc58a35737232d33c50f1e4ca71c13f46abdfb94c268a320900d41",
-      "signature": "0lFO4Q5GVtPepAnBgdAWrfC20JlQ9qYM8tFYHiZ9z6u8cBaVQfgeugY3nki+Y6PHe8OblTxb9SK5ATTmTfCWAw=="
+      "sha256": "34b95217db1ecf35a68d7153727e3e275066c827a67e8c9df62831d203ce49d1",
+      "signature": "Pn6AqCt6VWMp9ja7sVXA2LtDwzancQfP/Hsq2a4SMGistEU9SfoVVejyj+AOhjVFOa3TY5GtD+5elgJSDVJ1DQ=="
     },
     {
       "path": "fixtures/public/issued/classification-result.json",
@@ -1328,13 +1328,13 @@
     },
     {
       "path": "fixtures/public/issued/evidence-claims.json",
-      "sha256": "311f474bf80236d03d0cf9df4f67a1dedc63d8baf7ced15c431f579caeda7606",
-      "signature": "9iXTeLQL5mhK0oSriQBOqodOHchLPpHAmQAHRx2/TMJRNZn20iFmU7vfchZ7vZ1iRDeQuvBSUIQssuEXN0HWAg=="
+      "sha256": "cd59f7837fd36fbf3b01b73bfd989b04301d1c17d3e7fbd2bc6769c0106ff8f8",
+      "signature": "c90KX8hpztd1uJGlkCr8IlujZ2aG9jf6ZnK+0y10XPLg8GHNDdrpwyvLmV6az50NSBUwE5xTuqP4RzDXpHfRAg=="
     },
     {
       "path": "fixtures/public/issued/inclusion-proofs.json",
-      "sha256": "f7678f3898b6948dedce4f2244c88db6a44620bca8cde492f66f65d7698f166b",
-      "signature": "HXlHHAk3E91MYxHVOHtfFbZH20IsUHCJv1KPvNErB9TGx3hy/vLd4h4YLx67yLIa9otIarIWhrvfHgLvlyPbBg=="
+      "sha256": "1e1159a3b3aa25a31e6b91b02e243f2e76ba382a75d82b69fa428932b6ba4f3d",
+      "signature": "WvhioER5s+2VJnz8D3UpAxeG/K2bxF66lLT1aeIwvVy/EKlArHbRv7PTTEJmsqJa18+IrKpQCu13Lx7TtAmwBQ=="
     },
     {
       "path": "fixtures/public/issued/oscal/README.md",
@@ -1343,8 +1343,8 @@
     },
     {
       "path": "fixtures/public/issued/oscal/exampleco-issued-assessment-plan.json",
-      "sha256": "53731229bd31961719168273537e7ecf3247c5680ac4bf07f73788269f606c80",
-      "signature": "RKeYCoD5M0TYb+ansIWbP4ofTPB5mqHDRFBBzoUXxZQaNt81Kz6tdBRLeQi0wXkd1JAMJlKNz84h4xwk8hKZBA=="
+      "sha256": "488c1db97f60f60923f52879ac031deeaf2059aef2ca272c37336cc5a2937699",
+      "signature": "cJvnUGIlJtgxxI9MYQS0oiDRV5mXSDmDgAovzNGcu7RAkp/XaqkmtZIpK7lC4IYVMcBhy5Rw3i1gQo8hd5i9Cw=="
     },
     {
       "path": "fixtures/public/issued/oscal/exampleco-issued-assessment-results.json",
@@ -1353,28 +1353,28 @@
     },
     {
       "path": "fixtures/public/issued/oscal/exampleco-issued-profile.json",
-      "sha256": "1f0fbd754f857ae88d5a16c38f0c20a2d97515810f70ee698dd39c6a6ae60887",
-      "signature": "bgEDqIsPbfe9oAzWcCOEj0qVQDWiNvr/q+TuMUHJqYYi1zvA6uQPNxVIQcGenpvz65w4Mr8GSZcMi23gkaTNBQ=="
+      "sha256": "1935054db20f3b65da3fd5f5db39afd2c60c8065958028106d93de5d7399ea88",
+      "signature": "9GvwXsXjCjqe/7suoT0BaxF5S4T3JxTRMBmFf3NTlNBtiP693EkPR+yYMNi0RNyFKrvURB8cMZKxj1AbPHxNCg=="
     },
     {
       "path": "fixtures/public/issued/oscal/exampleco-issued-ssp.json",
-      "sha256": "146adaa1a88223cfc44816715d104c209277f33ec62f3e359f5d76ffb8a93df5",
-      "signature": "X9m8+eF2Oif/0fWKOfy+FqqDpLH98GdTXp0aD6Tcxuw4KV/rMsxrE8DzYOdkAyoD67zwOFmaoCx0qrhPACqWAg=="
+      "sha256": "4997a38cc010f0abc7531129199c945def94518b82875f3eab23f6d3f608b462",
+      "signature": "mLJaYp9avfSuYC9H2/v9SvwDD7ALL4vQALh+uCg8Bv0WjpeGcNHpWNagSPNdp2LHUDUTSzByjhweikhszkcpCg=="
     },
     {
       "path": "fixtures/public/issued/oscal/family-proxy-targets.json",
-      "sha256": "062a418938efdb93ceab999fe1652d74a49ff93562c57f4e60642d3f922ceaaf",
-      "signature": "aFiM+edVD9UveMJfwqqgLKCxxgMi1nkdOF/mLJ+ROO4Kl3UNcL/ucCFG4HHPBn5MkcgLd91R0xNpHxozufIJDg=="
+      "sha256": "716fd4cc7de7e6aa1ce66e4e6d023b64bc8013f367bfef51ab7111475a818ae7",
+      "signature": "YXr52NK2w9xso1Blo+Tn6LWnE4zz6Jd0zUSfBM61u9qC4Ubs66se9h4qcKctNgjmFGFQ9w8OgK0J4VsMiKm7BA=="
     },
     {
       "path": "fixtures/public/issued/oscal/iso27001-soc2-irap-family-overlap-mapping.json",
-      "sha256": "73fe374d3bc62e2a1168aad7f70d14c6d2831d322694273f36d29f7e959d05d9",
-      "signature": "lGfHWNfV666Bmsms/s5swEn7AIEfQ4q80BTjtwkL0iqfyYe2515+irQK+Oc9pEFZhBNur9gpSAzQrJyfC7nSDQ=="
+      "sha256": "0acee9a01e5376937d3a73ed31cbc1d9a4a57b7fc27b7e3a16b4381d2e6dea70",
+      "signature": "2VYZwYW05A7iCBCNbnnxX7muEie8W0ceZS/pNCvO2WmWQJ+obNnRydaQiAXpPn+39/wg9TKiMjhCToRZfFMdCg=="
     },
     {
       "path": "fixtures/public/issued/oscal/opencompliance-issued-catalog.json",
-      "sha256": "f6ffdb81567b41a545687cb5bbe884c715cad8d81270f0a54ecda98aeb5713ef",
-      "signature": "Q71bamPzRK1kfzEsy8cI5Acc47eQc/yqMe2LLj3/j8mi1j9joDFKAwGz37UpyI5mTSyp2UH2PfXzuBPDD3deDQ=="
+      "sha256": "84eae0d376d62fae655037429fe8e6235396d02c5d8e2f6505ed91466a1067e3",
+      "signature": "hup1zBPv46vp38P9srHoRUTtWOIxeTgNlBoLwex2zInXr7tnKHEb/b9KdpKfNDAUCIH2qLUJ+dWs8l2YJGqTAw=="
     },
     {
       "path": "fixtures/public/issued/profile.json",
@@ -1383,13 +1383,13 @@
     },
     {
       "path": "fixtures/public/issued/proof-bundle.json",
-      "sha256": "8c3c32857dd4553334cfefd0b41677be31e78bcdd18806e243d93f87c8eec602",
-      "signature": "eNxEtGcPASnGXhhw1aKF0CnbSZ9KyscIk4sCOnZRiAFI7fyDy3yfMugA5uT9dLh8jS91NyMBpngzkZ7O5IXSCA=="
+      "sha256": "8c95238cf196efeea4a358d62d7e2e164fbd7bd7568446f84ffdc97426db149d",
+      "signature": "cxLpHdG8AFZH1qP3bC/Wprjg1uep4JoqREqLFSSuJcSkKvRfOI9b71vLxdOFR5vaFL3jYilNwPoFAUnvwr0aCw=="
     },
     {
       "path": "fixtures/public/issued/replay-bundle.json",
-      "sha256": "52d10fd9bca24ce8839752c97f1f3a3ea57425b3c4e27d944ab936540d868586",
-      "signature": "lsYeaJ3/Swnm7JpS8KO8WqcicMzVcfcPWpQrfN7CwTSFvsSUacEwXK+UWYvbcCE3Hp6RCoH2dHRcTWCnoZjFBA=="
+      "sha256": "823d9caa36b7d95dca7c11509096d1728bdaab7859511f8baec80b9e7410a756",
+      "signature": "Q2SqmEcLRBEM4i521RyrwWrQ8y87Su4a9vlwXt30yc13tipJa+6jNfYsi5j9TiLhhQ8k+1rWulSpMF9/rmbgCQ=="
     },
     {
       "path": "fixtures/public/issued/revocation.json",
@@ -1458,8 +1458,8 @@
     },
     {
       "path": "fixtures/public/issued/transparency-log.json",
-      "sha256": "439e131d522282c3ed6252b8bc01610c13901615894a91625b6f81b7c662ea0f",
-      "signature": "hFjF5qhrvG7NWHH2sHlQjBGpWiMJaAufYcCaV6xMtzed6jjsKqOzsfFp9unMGNjTtsRmg6UZXY6yXiR61C9/Cw=="
+      "sha256": "ff83bd6da0d654ccc141d73fa041e2b39aaa4d3dc9ad4105087684a474970e27",
+      "signature": "UKyqpfJrV57FmNUbB83NIttjTPbblaA24f5gDrCDl06/nchqaZRRFt0P9AeT883mItH2AxodlISmpH7VMmsbCg=="
     },
     {
       "path": "fixtures/public/issued/trust-surface-report.md",
@@ -1468,13 +1468,13 @@
     },
     {
       "path": "fixtures/public/issued/verification-result.json",
-      "sha256": "89d13093a939afbd763814c30c54cda56f38028ed45fe1a4cca5fc5b213cfb24",
-      "signature": "iyzpzISu9FleyiAVY9h/2BHKS8LEnV0qPZXkXVY4yoT9615wI07koENiuKQvWCpwKoZ113hM6WX4ZwuwUSAMBg=="
+      "sha256": "3fedd6bdb6c3538e56c610c97a85b16eb756e75c853df8fe93074ea1beabae35",
+      "signature": "pDYdmPmJHEmVsaWzrKAOPcaDNoKZM4qNpLMZNHWoYA7MxvxqHSxqiz1JZfjcWNk4pZUxwwmXNXvkoP5waQc5BA=="
     },
     {
       "path": "fixtures/public/issued/witness-receipt.json",
-      "sha256": "c2a7cc9cc3903b1e7fb785e47051ff42e9584409e81699de3f59fadb7f73e117",
-      "signature": "t24D7FxwHcWmfTJCNqMahVfE7vnvvClaoLLXWlOZq3cBRakkwed2aonEUp56YemGrJiLlPg7wNXg9DB1cPwiDw=="
+      "sha256": "f5fda5aae36ec1799f7133d5998a8a546c43216e5f734d81153044aea2b8b127",
+      "signature": "knDkL6U17rqUT5AX+/E4hvxprU6H6JnnHv41dpKYljBvmhCuCqWGNSn/+6r1UzO10boiIoeyvHWOn2p9oxW6Dw=="
     },
     {
       "path": "fixtures/public/lifecycle/README.md",
@@ -1513,13 +1513,13 @@
     },
     {
       "path": "fixtures/public/lifecycle/issued-lifecycle-reverification-required.json",
-      "sha256": "2033bae8637f7d33894343681a27b0fec0e87224c4fa7b16895262b6354a3dfe",
-      "signature": "fulMPZyHVl9KVjaZFaB2Mf6AkdMNewbQ/qoJHPxEjewgQZ9t/bu72MZdvVuEfJSAsGI1e/sXD1YmI7owzLrhDw=="
+      "sha256": "20364420734f80e95858cce2e7ef0e570ac5ac5af32f87971f0feedfee619c07",
+      "signature": "t9wbjEWWwCHSVooLyvhHY6sBMxfJXMb0Rpvb8IZ3n33tCoRbJN6GOgJLPsh5xp4CVGdN9cJ99m2AW8SnTf4kBQ=="
     },
     {
       "path": "fixtures/public/lifecycle/issued-lifecycle-revoked.json",
-      "sha256": "e8d9c5141e78c8313f4d693204d470b2e7a9616fdd9da26ba2bd0fa427637836",
-      "signature": "VsIdNzpI/3Hf2zCxus7BzvfxFVqT/bIM9KjPr1124rtht652rzxS+4XfyE3vFqTgk23ZBKOI886vplky+jTRDg=="
+      "sha256": "9b4c72e8b5452e2e6a436d5382c31ef52daf6094a571cfb4fe3e9aba51dce9dc",
+      "signature": "DnktuFX51xaT0d/QLuFhcUNnaiP3m9mlDHsmjqHMv1QhoDnbA8qeK0+hlvQ119yVEMXEX8ZZ1tzEH+Asw7npBw=="
     },
     {
       "path": "fixtures/public/lifecycle/issued-source-change.json",
@@ -1543,13 +1543,13 @@
     },
     {
       "path": "fixtures/public/medium/evidence-claims.json",
-      "sha256": "a2dca20e7b361f514610188973d6c968d1805e1d933bb9912c762fcc303a0eb7",
-      "signature": "5G4XPrYoLk6F19tUgCDXlWcSGyMI69IY44zzRED0jSSUnC04bYkQqcAJbTgQnFMHI4KnHtEKmAAPuaJWBlqeCw=="
+      "sha256": "82af1e54ebd2602f378bb78e3dc03ae1d4de3a0658605dcae228f72a81a288a9",
+      "signature": "bj2YPn8LJvd9weFEXkZ+4k57QbBXQKgjNv/Af5H73B0AUm3tML01AitW3zCBDFGWFSdLoY7M3/J8ZAzz9wQwDA=="
     },
     {
       "path": "fixtures/public/medium/inclusion-proofs.json",
-      "sha256": "2815518757391abf974dc3df6f78c2cdabe9432048b76b8bee31d6de330b632a",
-      "signature": "da6x0SXjDRQTnFCXzx6QWlQaJhMF6x329Ci7FI511EsvoxQVZmTnq+dkcqM85kly1OvMcRm7ufbqqhXSgm1kCg=="
+      "sha256": "6e53df15777a78552ccc79d5e1f03833ac35f46aa6a25bc49ad3087b855d3e12",
+      "signature": "oU8s15qiOwRrZRz0YkYrh25nUyaj1Igx4QzVneSQPSJPOdbhn8qJLZ2nQ/yG4mxAtKyAOTurJ4RXU2HvAYkMBA=="
     },
     {
       "path": "fixtures/public/medium/oscal/README.md",
@@ -1558,8 +1558,8 @@
     },
     {
       "path": "fixtures/public/medium/oscal/exampleco-medium-assessment-plan.json",
-      "sha256": "9dd7f08f3f88d9118164e7d3eeb7263655114909add0311ebb726b9369661185",
-      "signature": "nmo4xBeC/1yqkNOx1VqFsHbPhiiYXEIDE6KHcWznZTGFLrRRXlCMKePbkwQabaP5pMOWpuyIE60RGOw9O7QuCw=="
+      "sha256": "79082d08a7af874dd0afe08597822c2122d0b28712b40a89f5b0a9ce693cca25",
+      "signature": "akPakQckBLaL2v1gVfSgRjr1Yioa3QL88aOrJm6HkTXMm2BWpt2bHP1QMerjV2RcfrcrjE1BUArmxJ9DHxLGAg=="
     },
     {
       "path": "fixtures/public/medium/oscal/exampleco-medium-assessment-results.json",
@@ -1568,28 +1568,28 @@
     },
     {
       "path": "fixtures/public/medium/oscal/exampleco-medium-profile.json",
-      "sha256": "608f89ad0490727bca70ea9c6039f22c39e040359c7fb40eedb027229087f2f7",
-      "signature": "94byuahpiZQi+T4i+FiXlgl8sp0Mp1iUOZO+AzzYaK2gZLikuZv2NpMpotjhKVf2tzbcQ71757Ba7p4+ncXkBw=="
+      "sha256": "07e20eadd7c198e34790072a1e16f5989723ff3445745499c000579e2200ec37",
+      "signature": "RyP3wWFMHwWj1nRYYn4RPQaSRy4f9AqlewtwEnqHFbgWg/CEDVznIlBvjM2qiuJOSdarfR3JvQ08GCOV9gIpAA=="
     },
     {
       "path": "fixtures/public/medium/oscal/exampleco-medium-ssp.json",
-      "sha256": "eea6bb2d8d60f2738d9bcc967cb66d2fca175913c3413b4c3e2386da2e0c8542",
-      "signature": "iXPVKOocZoFgTYEdRKF1WazI9yFD5K6ITcppmO+JAnMocVB3bMqqHkF/J1jUdSVC5AWtunX/cQBswX0OafQlCA=="
+      "sha256": "87a22b25348879ac9d31b46175d0bddbb3fea8e2646c3d4c919cdb889c3c5fd6",
+      "signature": "4ql+jwVt5zykT8/i4nkyQNiQ286n/hfQd+Q3yi9pAjxgeMLUvoS3nnjcP7e+Lb9gJfxKwFUCJL1JJV++1XTuBA=="
     },
     {
       "path": "fixtures/public/medium/oscal/family-proxy-targets.json",
-      "sha256": "8544d451c0edfdd19a19199749b8da37e7e3ddc9d21f8900ce28f020c429d6c4",
-      "signature": "d2MsogyhbOc1P6Hnpb+Tbw6Hdoguxqb1Tj1QvSVnveyti9YvId5qteu7JsLPmF2RS5Zj01K+/2+Y/LZRG871BA=="
+      "sha256": "29284b7be8133b3c6340728b9e77388dd70383b04bdded4a6df2f4e7f688802a",
+      "signature": "tAdXcWk6B/kVqv/+o/f3fgApZ8XDXjPoJeJg+EDQf8291A763gb914xQXSdZTeJxc8SLcogLMQ2kQpFG5SVXCw=="
     },
     {
       "path": "fixtures/public/medium/oscal/iso27001-soc2-irap-gdpr-family-overlap-mapping.json",
-      "sha256": "ebb6c605305224e128db4581fdf6e9ce0d1adeb08be50ae981c7ba71347603af",
-      "signature": "fjJ4xYv/8p4FRhagnBz0ssN0gSfDLCSHpR1Ib3NDZ7WyC2Uw/eLMvzbSxqusIfhW2KgSBkPpOv9xn28q5jJ3CA=="
+      "sha256": "cb11efee8ca237a14217079caaebf5882500c843f39b1a5aefc51e9c0c370359",
+      "signature": "xtoI9xsdkUZ+hqBq0z9PpckBgLO33/cU6/d+9bfciLxxgjhPh60fooZxHejOqIGIckWGe256IylxQ2NHE+HADA=="
     },
     {
       "path": "fixtures/public/medium/oscal/opencompliance-medium-catalog.json",
-      "sha256": "b708e1223124a14e98c7a0e59302e403769d1d82f21544b8512fbc3ec5382f13",
-      "signature": "ayRdMEc4K5Ogu/UqOKz5DV/BwmsQ/x/CdLp1B7hgILPhWIZOp84JSwKGAT3S3Q7EW2h2fdnZByPjRKv0rH1pDA=="
+      "sha256": "837bfd278d34fce49157890e73bf7edb4aff24d4c49326cae63f29adb3e3c7ae",
+      "signature": "FDsYZE9JP3SF5dMO4m8Tvv3bWduUwax6kuMYMyMCYJ417rwtW0h9z6wRfAWKdQzqQouc/Uy5RekFBkZk8X7ZCg=="
     },
     {
       "path": "fixtures/public/medium/profile.json",
@@ -1598,8 +1598,8 @@
     },
     {
       "path": "fixtures/public/medium/proof-bundle.json",
-      "sha256": "9dd69b41973862568e31a85a33e0b18553e0780762378b5e15011967c5481701",
-      "signature": "H+bmQQniGrewU/lCC5qlOhMz63pDqu7jF9tNjXgnBUgCrVdGHBoxTNoxIbRX5zbiHF2F7oPeN7472rLxA//xAQ=="
+      "sha256": "faea92328a1765eff63db0409ea4ad6f47401e7b14b38fac658b7ed1011847ac",
+      "signature": "1GYZjM4ZyZ65boim2LluPAsZY1gUslA7zxpA2cNITGmpJbaKf8BUY0tFKKZsDpqQZG30X6XInEKdO0XJPzxMCg=="
     },
     {
       "path": "fixtures/public/medium/punch-list.json",
@@ -1608,8 +1608,8 @@
     },
     {
       "path": "fixtures/public/medium/replay-bundle.json",
-      "sha256": "ba5dfc7b6aa62323efa3c2cbe2cdc0b6ffcb1e017e99320482d98c84d2edfe35",
-      "signature": "xuh/iabRrT981YsHHEBGWLUh9FXu79/yMjioY3VHIeTqlBXr5sklB+gOXWJTyevLGbkWYY92KWo3QTchNXwrCw=="
+      "sha256": "8f8993cfc13aa926c273f26a8e05edb5747750a15d44795cedd73038600849d4",
+      "signature": "SGKoFovsr4VKs8gMLH1r/qxk+QuDo9pKHnGXlYHGj5FTgcV0QFktU8YJI25hfgrpTh0+sIF+npc0XaT4/K0kCg=="
     },
     {
       "path": "fixtures/public/medium/revocation.json",
@@ -1743,8 +1743,8 @@
     },
     {
       "path": "fixtures/public/medium/transparency-log.json",
-      "sha256": "43934ee68f5e4eb4d58144ce5e1b916577ef5df28cd849894b244baceef0b385",
-      "signature": "GwFFHtRV8WxKSGjabrCFq8JenvR+G922ByZ2GcDFZrWXGJjQpFbyxYd2t1Mru1GMmRnm8MUQ9dgxp0pY0tmZDA=="
+      "sha256": "f3bd964bbfb73eafe97f283f13e663da0abcd5cad168f6e213db131ee7e342fc",
+      "signature": "lE99005RINBaEJNXwukupyQgrfltsnEOEBKGYApQ4LjBF4NCENs42VVejGKB6PqvxiLe/5KY+/VAnXwXsYbjDA=="
     },
     {
       "path": "fixtures/public/medium/trust-surface-report.md",
@@ -1753,13 +1753,13 @@
     },
     {
       "path": "fixtures/public/medium/verification-result.json",
-      "sha256": "175cfd24cc77c6b160892130990d0fd8f92ca75f5074ad14aba504f87f8ddb77",
-      "signature": "isuGzLnNdX3yKGzWfCWhfLFol0OuIH1It0jcKo8eTkw75lo8/yXUu/QZgPx2nArjyJ+Log2cn5H0QgL9mk08CQ=="
+      "sha256": "b3f28815c52d2019e55a8c1bc51dc830dc07e94fa00d78b4b2fe41fd208084cb",
+      "signature": "GKq1WrTureMQLmThVt6JxRADTzppw5by6eAGbL35pURcijNUNzB7GL/ivnsOrt0INbu3lsW8JeOySaFx1fh+DA=="
     },
     {
       "path": "fixtures/public/medium/witness-receipt.json",
-      "sha256": "5b372e6efae6a69a4788366907dbc7a8ffc885c3d37a532b5456f8ecdc9666e7",
-      "signature": "L65jigIw0r92CTKs8PEYvWX6Ur70wVJPbncVW7kS1YJtyCqyQXXj/JwewNoa4oEGn7kKwWA+wS3mk+BfqKhCCg=="
+      "sha256": "9b92c7979fdbcd30a6f27a42274b267e81ba51a9b465e96f6842e58d26d1be76",
+      "signature": "/4Dj37LGe4gvf81JOCgVRMIsJD+HNLEGRMHUZVAuqvN5Bg8gM17iU/TXEeEVucBQ4ezcbEHBQcCKr0DznnQvDw=="
     },
     {
       "path": "fixtures/public/minimal/README.md",
@@ -1893,13 +1893,13 @@
     },
     {
       "path": "fixtures/public/signing/issued-signature-manifest.json",
-      "sha256": "ac4afd1ee627f68b531253ac2a1af77c572617f093d02d49416fce45e5a4594c",
-      "signature": "pSJPGbU8kyv3fK+s3dA8ADXSMLgWD9GdLQ6B6hG/oBIrBn5l7S5Dv6H9okWWz4dPfSbDKm+aBe34NNBoR7JXCA=="
+      "sha256": "5fb52b882b201cc5b8ea49fdce36f59ed2bd45600e37e18603adb21b21be794b",
+      "signature": "1TGuN0dVDjt/menCQA4EYtyGSmolGXacBF41cVDHImoj3Oo2G+6zTF46jfiUvI1l2awcZJLF/CZucCHQUZRnCQ=="
     },
     {
       "path": "fixtures/public/signing/lifecycle-signature-manifest.json",
-      "sha256": "cec50af367ca3ea8d54d3faddb29a9f76d6d1d996f8c1827666e383ccc0337df",
-      "signature": "ZtPgizRZzkEY/yfW+gv1GSp9mjp7YM4wccgSLhqfN7pzvO5Pocsgjyc8U/W6AdswCvAWvtObMK4TDlOYJ2ldBA=="
+      "sha256": "ba6b16f55da3f7bef815a5886c3794cd465a79ef6eed797d1655ec80b625d1e6",
+      "signature": "Ao44RLa3CjbJiB7do1Z9PX+N1ydjk/Chy3WiivlH/n5Yqn7mz+TGdrokuvqX4yqijSj61RPOQJ0nyG1AgCA9Aw=="
     },
     {
       "path": "fixtures/public/stale/README.md",
@@ -2213,8 +2213,8 @@
     },
     {
       "path": "open-specs/STATUS.md",
-      "sha256": "e4b02158168fc747245fcf029574f3668fb7491535cabf018a7fe23ab6a5c7dd",
-      "signature": "hEfkfqYEJRTBMT++dXy4GdX7DjqvAXYRbbxKWoXGvt7kJxh2SecdSQKrhKHFfnI4P8nXRaSYJNVpPq0SfxtEAA=="
+      "sha256": "6c0cb94e7af9b3ba6a086fad006e8a1f7e625369c4c0db08642312813a751414",
+      "signature": "/EX4RBbc6h4saAbzds5IHBwxBAsDfdeemA0jrorGnHOSChamo8rdEWBZqoMJmf/5UcIYRa7GF9t9z+omniRCBA=="
     },
     {
       "path": "open-specs/VERSIONING.md",
@@ -2323,13 +2323,13 @@
     },
     {
       "path": "open-specs/control-boundaries.json",
-      "sha256": "9a8160d3a2d9d267ae878d2324ffa7bc285b8fbf8db98513f63c098892077341",
-      "signature": "dRV0GV7u4CbYBB6GWF0ZP71cqvffkZ1W3IA1Cy4gFEO1veVC636z/AhXkgoStK+xPiQsHyA/vNIQgfwJJUTNDQ=="
+      "sha256": "598e8a6f5eee40fd4c8b3148eefb8b87da234cf7916f8a6493b3bec96f6762b0",
+      "signature": "eieQlnTNAjHmDnDH0N3uzlirES5a0B086o2ozg4ggOjwIVe2s+Dk8E8qqV5LBd5c1AUdPoahMDk9oqWsD6gLBA=="
     },
     {
       "path": "open-specs/external-review-program.json",
-      "sha256": "d25a89d20546803d0c5dae557637f2ada25e306b950c56bcfe443362f1d99e14",
-      "signature": "laCblv0Trmqbb2cSUYf/B7vjQBpQXhO/7rQrUIMt2uoIZyGOGOod0Kf4juuVsU/lCOfpYtqzdew2FR4ZCOL4Bg=="
+      "sha256": "28331e377e9fe59dfdb8c271e44c6f9dc46e7dfde96218f4de482fa0727ab3ec",
+      "signature": "t/U9NIWcpyQE6Osb9QGhtHcCimfz34+TR6hyfwo46bvW/fY5iBs3Wa2/JUx6gENOfjb49M16qHWm0teouk06Bw=="
     },
     {
       "path": "open-specs/external-review-program.md",
@@ -2338,13 +2338,13 @@
     },
     {
       "path": "open-specs/framework-coverage.json",
-      "sha256": "eb08a002389e76f90c44868ef2a6424205ce560034ea90c08444e26f91c0cb27",
-      "signature": "pvhqdf1fgP5bgCwtkq4qvS/U5qWgKfRxnEq68SP1LWCfGJFpfFpG/4Bu8Zez1JXLpbEbMYFD9YHZyGy8TIPrCg=="
+      "sha256": "ef16cd153875e9f188bce4957aa95d5fc073dac15bb733e0907350e5202be40f",
+      "signature": "yBPnDAOPgWHVDOOF5iCEDhUgla4rEI5XEp/3BSBXsa4z1QeOodw4xm4dELrEULSTZUoHrG2fmy3Xl9+9i+nWAA=="
     },
     {
       "path": "open-specs/framework-coverage.md",
-      "sha256": "b5e5cfd53c51f44f92a3e97dee2c9a3fbc820d0d38d1771c782c5c08eace430f",
-      "signature": "ML7YmUT3RunVH48wiXTHvi5CiJWvlEugBWLqP17Nk3hho710Zxl+psk+fifDsd7paQkr+kCddWSS1yqWYYMoBg=="
+      "sha256": "7ea49df80c70c46a032e3e2884e38010904e5510b4577a00941df202da263d62",
+      "signature": "XE9RkCyzoHxCoPIYDXN5zGTnbw08i/uYGSd9XVfeplIi8/YNqWINva+LXv3DNr98ZCzUbtDbApt5MzzAujPfBg=="
     },
     {
       "path": "open-specs/framework-priorities.json",
@@ -2363,8 +2363,8 @@
     },
     {
       "path": "open-specs/gdpr-ai-mapping-status.json",
-      "sha256": "f1b20fd52efe3628139a33c9301b4db27ba91b9aa44d3b83ea1d4e3457725df5",
-      "signature": "R3WdjPLGAF0TzOcx/5L+K5ifv0oMivdgsXGgj0D47KzdB19zWABpncy6QiliUgjWD9LxIFQb/y59y32kVuN3Ag=="
+      "sha256": "8e9157b05766c9eb1efaaf61ba334a2bf36771aa0cc7c4ed9abf2ea286938e61",
+      "signature": "2WlU0+2S9HZNyn01m3evdOftg9tkqzz7iSd81DmUn12ctwAVDWdclHfI/ugaBa3XQNZ8nKtKKrGSk+2fYiroDg=="
     },
     {
       "path": "open-specs/gdpr-ai-mapping-status.md",
@@ -2373,8 +2373,8 @@
     },
     {
       "path": "open-specs/gdpr-ai-publication-model.json",
-      "sha256": "14d3d699302861cea8f226ea31bda30fe127f6212717af95c5384a1348bbb600",
-      "signature": "LXPGAvj7MQtAlZtjBBuVBy51qvuJXIzcb6KRgkVjaKx1d2/IlE/7Dbmc25GMXUdnColnZD0eu62mjtAUFeFtAg=="
+      "sha256": "89bfd73b63be5fc22f4268f6eb61dbc63ea8c8f8b67b6c21e1d8ad839fffc584",
+      "signature": "3exPxWZqrIuknvkLrMOzxo0QpC1VbRZLoQ06NFs6eV9LG5aT8iDH+Fz4TQRilNfypX4+kXUs6A3Xyjq7PnTtDQ=="
     },
     {
       "path": "open-specs/gdpr-ai-publication-model.md",
@@ -2383,8 +2383,8 @@
     },
     {
       "path": "open-specs/gdpr-ai-review-program.json",
-      "sha256": "f1f3a5cdd8c5ccdff2d8f0d4e5af5196c6308765c3ce1b272cc4feb5852d1cde",
-      "signature": "E+9Djtm7grIbbAWTLEQeEpNl9o/miZs47TGk/YuQ7cMzyiVJPp5ItP87dVVZCnMQPvNatDbrMkcsFRz2h0sWDA=="
+      "sha256": "75610f34d12c5aaa22a86f08f251f37963d5ddbf8c5b8561428f9abef1bc8041",
+      "signature": "B/kLFIK58XKbe3ykeupNgiHksQbf1XY9fvywj3rjoxT4pdmZsLt598Uj/dz0PZw8cUxofvvxm0xXIjK/djR4Bw=="
     },
     {
       "path": "open-specs/gdpr-ai-review-program.md",
@@ -2398,8 +2398,8 @@
     },
     {
       "path": "open-specs/proprietary-framework-publication-model.json",
-      "sha256": "4a411cf6da52f4d42e8ff4aea6f3874c1d26de005d53aeb3d3f1fb77d6190480",
-      "signature": "rTSvLCz2Vpp22h5jkTFkH1MfzcScdjUUMY2q9BEBwzp/Y2JdztzcbnYaSN2fzadQHGH/21+jYeKZd/OZD8t3BQ=="
+      "sha256": "879d13e1949ab4b82de0ee11dfed3d755a972bf67308bc6033cf088ac0a57d6c",
+      "signature": "NPgPVx5a0nGo1N7rCUiUhRvnCMj8YGGTph1l2Tme1hgAtmRirrtAJfI+H95ipsIOu07hkc0uofuLZz4iCzF7Cg=="
     },
     {
       "path": "open-specs/proprietary-framework-publication-model.md",
@@ -2413,8 +2413,8 @@
     },
     {
       "path": "open-specs/review-pilots/exact-anchor-review-pilot.json",
-      "sha256": "b1a0769fbb1ab786ad0f112f39bca61da7ffa2f3aa7dfdeca46917cd7503edc8",
-      "signature": "Gw3/eB1W8Ba5D94leDjLz4aQnDoH9k+zDm8oPh/EZOY4iZa0FCnukI52atHnq9OM/a/gfFkTvlMxCKftJY49AQ=="
+      "sha256": "5cfba7c5f3726e4b7a2dd6b97d054741a332c2b543854a692bab206d0e7deecc",
+      "signature": "r6m5N8br8cMst4YK44Ek6KfH9DMc9Qm30V72TxyeHYCd7kl94B98w5qHGMMVcS66n/P7ZQ9TXaZbHgv3otFkDQ=="
     },
     {
       "path": "open-specs/schemas/actor-identities.schema.json",
@@ -2537,6 +2537,21 @@
       "signature": "CBiYT2MKYTCfMocfnip7Hk/ffkg/usk+nQBltunPu+9lMSPSN8XP7A2eY9H4kq6jb6tEO7bp/wdM8RTU4FQYBQ=="
     },
     {
+      "path": "open-specs/schemas/us-sector-mapping-status.schema.json",
+      "sha256": "1e2255f79aea1b17ebc5403f3f0a519f10746742aaba4a02c87b3f47866785ef",
+      "signature": "13WI9NgcEWJBJhJxEpEKfbQxI7Tymb0c+4d8F+HNcgKaOFc3ejqYnsY5pM2RAKHELLW+KeOYwD8k0q2EwffdCA=="
+    },
+    {
+      "path": "open-specs/schemas/us-sector-publication-model.schema.json",
+      "sha256": "17a4f942257aaa3479efcfe4a24666fb87c643bac7171bb3a15cac45eb12f532",
+      "signature": "sn9MbAzIxEJGUWHHPCDaKxu7auJ2PQ206tWAhaRg4BMJGOR/xGWAsvj+vZNyxmJa5yR22IGiNNTQz5wP2u/pCw=="
+    },
+    {
+      "path": "open-specs/schemas/us-sector-review-program.schema.json",
+      "sha256": "494136313fa3ac29b54f7e894a88191c5e132c6329da388e1d1dfdd485cfa81f",
+      "signature": "3n7qphH/rC0liQUU+BgCfsu44TDKvGgVktMiMqKllNvr5BIEaBMH7OdK3OoE5JprN8FfoEkVdIUG0v8+YYfmDg=="
+    },
+    {
       "path": "open-specs/schemas/verification-result.schema.json",
       "sha256": "e303a62875a436ceff9e2aea85bbde11276bf66ca2b9810e6ca2d29b5933db35",
       "signature": "Ur+Fcskie2y4CbzKmfbTkaH6sGGfSJZEVf91UpS29Osdp3aPc2VOsqiqHwQ8jBFyh61S4+wcGo9T34Q2PY0BAA=="
@@ -2558,8 +2573,8 @@
     },
     {
       "path": "open-specs/standards-mapping-status.json",
-      "sha256": "c90b35c3d832872d371a160ac48b8cb722eb209a2976a9fe9447f224fdec2fbd",
-      "signature": "EnG8YR7P2zCCoqoG/hkIOwMdOwTa1X+4aqV45dQMLSEf7PSocpnJNYcb+FGp5mqFFdfIt8oPWh5Cfrh17pOrAg=="
+      "sha256": "8511f5a996895cb3636b15fbe7d28862a462a2eec4587134cba18748e49b9d89",
+      "signature": "/0bPkA2KN/46wroy9WWm4bMe6JQ78I7s0d5xXzM3e1kK7KgyQOawuovOpIgBlSAaIX4qvvYxj4AMFwpOf9nrCg=="
     },
     {
       "path": "open-specs/standards-mapping-status.md",
@@ -2570,6 +2585,36 @@
       "path": "open-specs/trust-root-profiles.json",
       "sha256": "f51204032dbd8c1ad48a7ef2a7a7e366e7db5183ab289d51184e4b8f0a87c9ee",
       "signature": "Tw/VcUIvpqkpVtJgKpr/LPaWy6M0Dj7F3HHz6EZD19PRCu5Sg7sMkH0tm6aHY1y+/xPcjtW3SqGxO0Nl72+dBA=="
+    },
+    {
+      "path": "open-specs/us-sector-mapping-status.json",
+      "sha256": "e2dbd06a3f9e4b4ce70cc03bafb7079759796235c15b50b2e16220b77f152b5f",
+      "signature": "OM0FU8SaPHjqkp5uB+Yotj1g0aFxfWLtxytVtjBjYe0ANDYDl6And+33U0w98aMhLW6J6McJoC5UZHnU3/CjDg=="
+    },
+    {
+      "path": "open-specs/us-sector-mapping-status.md",
+      "sha256": "40498bad14ce6ac3cc92cd0af6793363b295aa6266b5ae6123ae6af4d92f1666",
+      "signature": "Z3q0jAVnS9erTDtN6dfB2L/vWdI8mTnXXyxkW5umr8wQKBZF8NQLtC4Xc9x3s7AfxSUoME3nfM5KHwNwSXHAAg=="
+    },
+    {
+      "path": "open-specs/us-sector-publication-model.json",
+      "sha256": "df91b2414f837bf40514c02411b2aed6797bf6be3cc6f4da1e972b308743c69e",
+      "signature": "bwgThm0Ktu3687/xD2DNayhKPZa/eBvNtgmwW3+lVhl71hBJMr7rKU0r6Tin6fJLzsSkrlwKl/liNInk/zksDg=="
+    },
+    {
+      "path": "open-specs/us-sector-publication-model.md",
+      "sha256": "ef2f0cff82ceee190488e53e53627ef68102ce724f16ce28e062673800a2c1be",
+      "signature": "JSnVDgwR8UTkf3MndDjF7vtB1guzK7/5MjCpsb00fh4s7yoA/qd+nk4yPBealDaJX+//pibO2gvaHOjWTr8yDw=="
+    },
+    {
+      "path": "open-specs/us-sector-review-program.json",
+      "sha256": "0a7a6b5f23e647a75c5c89a2700c262c2b52225e33a0ef2c50fffb15b8febfee",
+      "signature": "WGYS0xOIMqArSX4HCw1Mo67alsmaNDUWX0/U/0IEZWvxW6XK/LfdmBKDAGCgTrfqEY/8IFXJ+7KN3y9cs+M5AA=="
+    },
+    {
+      "path": "open-specs/us-sector-review-program.md",
+      "sha256": "aad0ef2b7af976123738908c533bc25299467e574ab74df80e8d231a370385d9",
+      "signature": "Vf9aL2iyVyd3KDWDwVEBHIw38n7xFdoWFVgsHtQRtEU/ZWfxhqiEY8IwkeTi7asF2ODzWITVWoYNg25/fTqPAg=="
     },
     {
       "path": "open-specs/verifier-contract.json",

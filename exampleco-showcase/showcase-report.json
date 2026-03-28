@@ -43,7 +43,7 @@
     "corridorCount": 4,
     "certificateIssuedCount": 3,
     "blockedCorridorCount": 1,
-    "uniqueFrameworkCount": 25,
+    "uniqueFrameworkCount": 28,
     "uniqueControlRefCount": 26,
     "claimSummary": {
       "proved": 17,
@@ -101,11 +101,13 @@
       "frameworks": [
         "Cyber Essentials",
         "GDPR",
+        "GLBA Safeguards Rule",
         "IRAP",
         "ISO 27001",
         "NCSC CAF 4.0",
         "NIST CSF 2.0",
         "NIST SP 800-53 Rev. 5.1",
+        "NYDFS 23 NYCRR Part 500",
         "SOC 2"
       ],
       "frameworkIntent": [
@@ -222,11 +224,14 @@
       "frameworks": [
         "Cyber Essentials",
         "GDPR",
+        "GLBA Safeguards Rule",
+        "HIPAA Breach Notification Rule",
         "IRAP",
         "ISO 27001",
         "NCSC CAF 4.0",
         "NIST CSF 2.0",
         "NIST SP 800-53 Rev. 5.1",
+        "NYDFS 23 NYCRR Part 500",
         "SOC 2"
       ],
       "frameworkIntent": [
@@ -773,6 +778,59 @@
       "publicPosition": "Framework-adjacent family mappings appear in the public cyber corridor, but adequacy and legal interpretation remain outside the proved slice."
     },
     {
+      "framework": "GLBA Safeguards Rule",
+      "corridors": [
+        "cyber-baseline",
+        "issued"
+      ],
+      "claimSummary": {
+        "proved": 1,
+        "attested": 1,
+        "failed": 0,
+        "staleEvidence": 0,
+        "judgmentRequired": 0,
+        "evidenceMissing": 0
+      },
+      "sampleClaimTitles": {
+        "proved": [
+          "Administrative identities require MFA and conditional access for the scoped managed admin boundary."
+        ],
+        "attested": [
+          "The incident response runbook is approved, owned, and current for the declared review window."
+        ],
+        "failed": [],
+        "staleEvidence": [],
+        "judgmentRequired": [],
+        "evidenceMissing": []
+      },
+      "publicPosition": ""
+    },
+    {
+      "framework": "HIPAA Breach Notification Rule",
+      "corridors": [
+        "issued"
+      ],
+      "claimSummary": {
+        "proved": 0,
+        "attested": 1,
+        "failed": 0,
+        "staleEvidence": 0,
+        "judgmentRequired": 0,
+        "evidenceMissing": 0
+      },
+      "sampleClaimTitles": {
+        "proved": [],
+        "attested": [
+          "The incident response runbook is approved, owned, and current for the declared review window."
+        ],
+        "failed": [],
+        "staleEvidence": [],
+        "judgmentRequired": [],
+        "evidenceMissing": []
+      },
+      "publicPosition": ""
+    },
+    {
       "framework": "IRAP",
       "corridors": [
         "cyber-baseline",
@@ -1197,6 +1255,34 @@
         "evidenceMissing": []
       },
       "publicPosition": "Crosswalked family-level support only in the cyber baseline corridor."
+    },
+    {
+      "framework": "NYDFS 23 NYCRR Part 500",
+      "corridors": [
+        "cyber-baseline",
+        "issued"
+      ],
+      "claimSummary": {
+        "proved": 1,
+        "attested": 1,
+        "failed": 0,
+        "staleEvidence": 0,
+        "judgmentRequired": 0,
+        "evidenceMissing": 0
+      },
+      "sampleClaimTitles": {
+        "proved": [
+          "Administrative identities require MFA and conditional access for the scoped managed admin boundary."
+        ],
+        "attested": [
+          "The incident response runbook is approved, owned, and current for the declared review window."
+        ],
+        "failed": [],
+        "staleEvidence": [],
+        "judgmentRequired": [],
+        "evidenceMissing": []
+      },
+      "publicPosition": ""
     },
     {
       "framework": "SOC 2",

@@ -1,6 +1,13 @@
 {
   "targets": [
     {
+      "id": "iso27001.family.identity_and_access_management",
+      "framework": "ISO 27001",
+      "family": "identity_and_access_management",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
       "id": "soc2.family.access_control",
       "framework": "SOC 2",
       "family": "access_control",
@@ -8,9 +15,9 @@
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
     {
-      "id": "iso27001.family.identity_and_access_management",
-      "framework": "ISO 27001",
-      "family": "identity_and_access_management",
+      "id": "gdpr.family.security_of_processing",
+      "framework": "GDPR",
+      "family": "security_of_processing",
       "level": "family",
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
@@ -22,9 +29,9 @@
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
     {
-      "id": "gdpr.family.security_of_processing",
-      "framework": "GDPR",
-      "family": "security_of_processing",
+      "id": "nist_csf_2_0.family.identity_management_and_access_control",
+      "framework": "NIST CSF 2.0",
+      "family": "identity_management_and_access_control",
       "level": "family",
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
@@ -43,16 +50,23 @@
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
     {
-      "id": "nist_csf_2_0.family.identity_management_and_access_control",
-      "framework": "NIST CSF 2.0",
-      "family": "identity_management_and_access_control",
+      "id": "nist_sp_800_53_rev_5_1.family.identification_and_authentication",
+      "framework": "NIST SP 800-53 Rev. 5.1",
+      "family": "identification_and_authentication",
       "level": "family",
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
     {
-      "id": "nist_sp_800_53_rev_5_1.family.identification_and_authentication",
-      "framework": "NIST SP 800-53 Rev. 5.1",
-      "family": "identification_and_authentication",
+      "id": "glba_safeguards_rule.family.access_controls_and_mfa",
+      "framework": "GLBA Safeguards Rule",
+      "family": "access_controls_and_mfa",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "nydfs_23_nycrr_part_500.family.multi_factor_authentication",
+      "framework": "NYDFS 23 NYCRR Part 500",
+      "family": "multi_factor_authentication",
       "level": "family",
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
@@ -141,16 +155,16 @@
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
     {
-      "id": "soc2.family.logging_monitoring",
-      "framework": "SOC 2",
-      "family": "logging_monitoring",
+      "id": "iso27001.family.logging_and_monitoring",
+      "framework": "ISO 27001",
+      "family": "logging_and_monitoring",
       "level": "family",
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
     {
-      "id": "iso27001.family.logging_and_monitoring",
-      "framework": "ISO 27001",
-      "family": "logging_and_monitoring",
+      "id": "soc2.family.logging_monitoring",
+      "framework": "SOC 2",
+      "family": "logging_monitoring",
       "level": "family",
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
@@ -162,13 +176,6 @@
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
     {
-      "id": "ncsc_caf_4_0.family.security_monitoring",
-      "framework": "NCSC CAF 4.0",
-      "family": "security_monitoring",
-      "level": "family",
-      "note": "Synthetic proxy target identifier used for public mapping examples."
-    },
-    {
       "id": "nist_csf_2_0.family.protective_technology_and_logging",
       "framework": "NIST CSF 2.0",
       "family": "protective_technology_and_logging",
@@ -176,9 +183,30 @@
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
     {
+      "id": "ncsc_caf_4_0.family.security_monitoring",
+      "framework": "NCSC CAF 4.0",
+      "family": "security_monitoring",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
       "id": "nist_sp_800_53_rev_5_1.family.audit_and_accountability",
       "framework": "NIST SP 800-53 Rev. 5.1",
       "family": "audit_and_accountability",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "glba_safeguards_rule.family.logging_and_monitoring",
+      "framework": "GLBA Safeguards Rule",
+      "family": "logging_and_monitoring",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "nydfs_23_nycrr_part_500.family.audit_trail_and_monitoring",
+      "framework": "NYDFS 23 NYCRR Part 500",
+      "family": "audit_trail_and_monitoring",
       "level": "family",
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
@@ -260,15 +288,15 @@
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
     {
-      "id": "soc2.family.incident_response",
-      "framework": "SOC 2",
+      "id": "iso27001.family.incident_response",
+      "framework": "ISO 27001",
       "family": "incident_response",
       "level": "family",
       "note": "Synthetic proxy target identifier used for public mapping examples."
     },
     {
-      "id": "iso27001.family.incident_response",
-      "framework": "ISO 27001",
+      "id": "soc2.family.incident_response",
+      "framework": "SOC 2",
       "family": "incident_response",
       "level": "family",
       "note": "Synthetic proxy target identifier used for public mapping examples."
@@ -277,6 +305,27 @@
       "id": "irap.family.incident_response",
       "framework": "IRAP",
       "family": "incident_response",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "hipaa_breach_notification_rule.family.breach_notification_governance",
+      "framework": "HIPAA Breach Notification Rule",
+      "family": "breach_notification_governance",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "glba_safeguards_rule.family.incident_response_and_notification",
+      "framework": "GLBA Safeguards Rule",
+      "family": "incident_response_and_notification",
+      "level": "family",
+      "note": "Synthetic proxy target identifier used for public mapping examples."
+    },
+    {
+      "id": "nydfs_23_nycrr_part_500.family.incident_response_program",
+      "framework": "NYDFS 23 NYCRR Part 500",
+      "family": "incident_response_program",
       "level": "family",
       "note": "Synthetic proxy target identifier used for public mapping examples."
     }

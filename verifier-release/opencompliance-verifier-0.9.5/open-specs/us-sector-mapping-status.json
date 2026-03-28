@@ -1,0 +1,376 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-28T03:21:22Z",
+  "purpose": "Public-safe status view for the first U.S. sector-regime depth wave inside OpenCompliance. It shows the current narrow overlap for HIPAA Privacy and Breach, GLBA and NYDFS, and CCPA/CPRA without pretending that the whole regulatory corpus is already mechanised.",
+  "programs": [
+    {
+      "programId": "hipaa_privacy_and_breach",
+      "title": "HIPAA Privacy and Breach mapping program",
+      "frameworks": [
+        {
+          "framework": "HIPAA Privacy Rule",
+          "priorityRank": 38,
+          "priorityTier": "market_triggered",
+          "sourceAvailability": "public_exact_feasible",
+          "openComplianceState": "priority_backlog",
+          "mappedPublicControls": 1,
+          "implementedPublicControls": 1,
+          "plannedPublicControls": 0,
+          "leanBackedPublicControls": 0,
+          "exactAnchorStatusCounts": {
+            "public_source_reviewed": 1,
+            "candidate_public_source_unreviewed": 0,
+            "blocked_nonpublic_source_review": 0
+          },
+          "nextDepthControlIds": [
+            "oc.vendor-02"
+          ]
+        },
+        {
+          "framework": "HIPAA Breach Notification Rule",
+          "priorityRank": 39,
+          "priorityTier": "market_triggered",
+          "sourceAvailability": "public_exact_feasible",
+          "openComplianceState": "priority_backlog",
+          "mappedPublicControls": 2,
+          "implementedPublicControls": 2,
+          "plannedPublicControls": 0,
+          "leanBackedPublicControls": 0,
+          "exactAnchorStatusCounts": {
+            "public_source_reviewed": 2,
+            "candidate_public_source_unreviewed": 0,
+            "blocked_nonpublic_source_review": 0
+          },
+          "nextDepthControlIds": [
+            "oc.ir-01",
+            "oc.ir-02"
+          ]
+        }
+      ],
+      "summary": {
+        "frameworksInScope": 2,
+        "frameworksWithCurrentMappings": 2,
+        "uniqueMappedPublicControls": 3,
+        "uniqueImplementedPublicControls": 3,
+        "uniquePlannedPublicControls": 0,
+        "uniqueLeanBackedPublicControls": 0,
+        "reviewedExactAnchorEntries": 3,
+        "candidateExactAnchorEntries": 0,
+        "blockedExactAnchorEntries": 0,
+        "nextDepthControlCount": 3,
+        "routeCounts": {
+          "decidable": 0,
+          "attestation": 3,
+          "judgment": 0,
+          "mixed": 0
+        }
+      },
+      "workstreams": [
+        {
+          "id": "authoritative_public_source_decomposition",
+          "title": "Public-law and regulation decomposition",
+          "status": "partial",
+          "summary": "The current wave tracks 2 public-source frameworks and already has 2 with normalized public-control overlap.",
+          "remainingWork": "Widen the current narrow overlap into a fuller obligation graph without collapsing rights, notification, and documentary requirements into fake machine proof.",
+          "blockedBy": []
+        },
+        {
+          "id": "public_control_normalization",
+          "title": "Public-control normalization",
+          "status": "partial",
+          "summary": "3 unique public controls currently overlap this program, with 3 already exercised by fixtures.",
+          "remainingWork": "Promote the next narrow controls only when their route, exact-anchor, and claim-schema boundaries are stable enough to stay honest.",
+          "blockedBy": []
+        },
+        {
+          "id": "exact_anchor_review",
+          "title": "Reviewed exact-anchor corridor",
+          "status": "partial",
+          "summary": "The current wave records 3 reviewed exact-anchor entries and 0 candidate entries across the in-scope frameworks.",
+          "remainingWork": "Increase reviewed exact-anchor coverage while keeping gaps explicit and resisting family-proxy inflation.",
+          "blockedBy": []
+        },
+        {
+          "id": "typed_claim_coverage",
+          "title": "Typed claim coverage",
+          "status": "partial",
+          "summary": "The current overlap splits into 0 decidable, 3 attestation, and 0 judgment controls.",
+          "remainingWork": "Close the next typed evidence and attestation gaps before widening the public verifier surface for these regimes.",
+          "blockedBy": []
+        },
+        {
+          "id": "lean_coverage",
+          "title": "Lean coverage",
+          "status": "not_started",
+          "summary": "0 currently overlapped controls are Lean-backed in the public corridor.",
+          "remainingWork": "Keep Lean usage narrow and technical: only widen it where the regime obligation really reduces to a decidable systems claim.",
+          "blockedBy": []
+        },
+        {
+          "id": "fixture_rollout",
+          "title": "Fixture rollout",
+          "status": "complete",
+          "summary": "3 of 3 mapped controls currently appear in public fixture corridors.",
+          "remainingWork": "Turn the next rights, vendor, breach, and retention slices into replayable fixture-backed corridors instead of documentation-only backlog.",
+          "blockedBy": []
+        },
+        {
+          "id": "external_review",
+          "title": "External review",
+          "status": "program_defined",
+          "summary": "A dedicated sector-regime review program now defines the reviewer roles and pass gates for health, finance, and California privacy-law scrutiny.",
+          "remainingWork": "Run the review program with sector-specialist counsel, operators, and privacy engineers once the next control wave is ready.",
+          "blockedBy": []
+        }
+      ],
+      "publicNotes": [
+        "This wave intentionally starts with HIPAA Privacy and Breach Notification rather than claiming the full HIPAA Security Rule technical corridor is already normalized.",
+        "A mapped control here means a narrow documentary or workflow slice, not that HIPAA compliance is fully mechanised or certified."
+      ]
+    },
+    {
+      "programId": "financial_services_glba_nydfs",
+      "title": "GLBA and NYDFS mapping program",
+      "frameworks": [
+        {
+          "framework": "GLBA Safeguards Rule",
+          "priorityRank": 40,
+          "priorityTier": "market_triggered",
+          "sourceAvailability": "public_exact_feasible",
+          "openComplianceState": "priority_backlog",
+          "mappedPublicControls": 6,
+          "implementedPublicControls": 5,
+          "plannedPublicControls": 1,
+          "leanBackedPublicControls": 3,
+          "exactAnchorStatusCounts": {
+            "public_source_reviewed": 6,
+            "candidate_public_source_unreviewed": 0,
+            "blocked_nonpublic_source_review": 0
+          },
+          "nextDepthControlIds": [
+            "oc.id-01",
+            "oc.log-01",
+            "oc.net-01",
+            "oc.ir-01",
+            "oc.vendor-02",
+            "oc.data-05"
+          ]
+        },
+        {
+          "framework": "NYDFS 23 NYCRR Part 500",
+          "priorityRank": 41,
+          "priorityTier": "market_triggered",
+          "sourceAvailability": "public_exact_feasible",
+          "openComplianceState": "priority_backlog",
+          "mappedPublicControls": 7,
+          "implementedPublicControls": 6,
+          "plannedPublicControls": 1,
+          "leanBackedPublicControls": 3,
+          "exactAnchorStatusCounts": {
+            "public_source_reviewed": 7,
+            "candidate_public_source_unreviewed": 0,
+            "blocked_nonpublic_source_review": 0
+          },
+          "nextDepthControlIds": [
+            "oc.id-01",
+            "oc.log-01",
+            "oc.net-01",
+            "oc.ir-01",
+            "oc.ir-02",
+            "oc.vendor-02",
+            "oc.data-05"
+          ]
+        }
+      ],
+      "summary": {
+        "frameworksInScope": 2,
+        "frameworksWithCurrentMappings": 2,
+        "uniqueMappedPublicControls": 7,
+        "uniqueImplementedPublicControls": 6,
+        "uniquePlannedPublicControls": 1,
+        "uniqueLeanBackedPublicControls": 3,
+        "reviewedExactAnchorEntries": 13,
+        "candidateExactAnchorEntries": 0,
+        "blockedExactAnchorEntries": 0,
+        "nextDepthControlCount": 7,
+        "routeCounts": {
+          "decidable": 3,
+          "attestation": 4,
+          "judgment": 0,
+          "mixed": 0
+        }
+      },
+      "workstreams": [
+        {
+          "id": "authoritative_public_source_decomposition",
+          "title": "Public-law and regulation decomposition",
+          "status": "partial",
+          "summary": "The current wave tracks 2 public-source frameworks and already has 2 with normalized public-control overlap.",
+          "remainingWork": "Widen the current narrow overlap into a fuller obligation graph without collapsing rights, notification, and documentary requirements into fake machine proof.",
+          "blockedBy": []
+        },
+        {
+          "id": "public_control_normalization",
+          "title": "Public-control normalization",
+          "status": "partial",
+          "summary": "7 unique public controls currently overlap this program, with 6 already exercised by fixtures.",
+          "remainingWork": "Promote the next narrow controls only when their route, exact-anchor, and claim-schema boundaries are stable enough to stay honest.",
+          "blockedBy": []
+        },
+        {
+          "id": "exact_anchor_review",
+          "title": "Reviewed exact-anchor corridor",
+          "status": "partial",
+          "summary": "The current wave records 13 reviewed exact-anchor entries and 0 candidate entries across the in-scope frameworks.",
+          "remainingWork": "Increase reviewed exact-anchor coverage while keeping gaps explicit and resisting family-proxy inflation.",
+          "blockedBy": []
+        },
+        {
+          "id": "typed_claim_coverage",
+          "title": "Typed claim coverage",
+          "status": "partial",
+          "summary": "The current overlap splits into 3 decidable, 4 attestation, and 0 judgment controls.",
+          "remainingWork": "Close the next typed evidence and attestation gaps before widening the public verifier surface for these regimes.",
+          "blockedBy": []
+        },
+        {
+          "id": "lean_coverage",
+          "title": "Lean coverage",
+          "status": "partial",
+          "summary": "3 currently overlapped controls are Lean-backed in the public corridor.",
+          "remainingWork": "Keep Lean usage narrow and technical: only widen it where the regime obligation really reduces to a decidable systems claim.",
+          "blockedBy": []
+        },
+        {
+          "id": "fixture_rollout",
+          "title": "Fixture rollout",
+          "status": "partial",
+          "summary": "6 of 7 mapped controls currently appear in public fixture corridors.",
+          "remainingWork": "Turn the next rights, vendor, breach, and retention slices into replayable fixture-backed corridors instead of documentation-only backlog.",
+          "blockedBy": []
+        },
+        {
+          "id": "external_review",
+          "title": "External review",
+          "status": "program_defined",
+          "summary": "A dedicated sector-regime review program now defines the reviewer roles and pass gates for health, finance, and California privacy-law scrutiny.",
+          "remainingWork": "Run the review program with sector-specialist counsel, operators, and privacy engineers once the next control wave is ready.",
+          "blockedBy": []
+        }
+      ],
+      "publicNotes": [
+        "This wave tracks the first publication-safe overlap between the current OpenCompliance security controls and the public GLBA / NYDFS security baseline.",
+        "The current overlap is intentionally narrow: MFA, logging, encryption, service-provider terms, incident response, and retention/disposal governance."
+      ]
+    },
+    {
+      "programId": "ccpa_cpra",
+      "title": "CCPA/CPRA mapping program",
+      "frameworks": [
+        {
+          "framework": "CCPA/CPRA",
+          "priorityRank": 42,
+          "priorityTier": "market_triggered",
+          "sourceAvailability": "public_exact_feasible",
+          "openComplianceState": "priority_backlog",
+          "mappedPublicControls": 5,
+          "implementedPublicControls": 3,
+          "plannedPublicControls": 2,
+          "leanBackedPublicControls": 0,
+          "exactAnchorStatusCounts": {
+            "public_source_reviewed": 5,
+            "candidate_public_source_unreviewed": 0,
+            "blocked_nonpublic_source_review": 0
+          },
+          "nextDepthControlIds": [
+            "oc.data-04",
+            "oc.privacy-01",
+            "oc.vendor-02",
+            "oc.data-05",
+            "oc.data-06"
+          ]
+        }
+      ],
+      "summary": {
+        "frameworksInScope": 1,
+        "frameworksWithCurrentMappings": 1,
+        "uniqueMappedPublicControls": 5,
+        "uniqueImplementedPublicControls": 3,
+        "uniquePlannedPublicControls": 2,
+        "uniqueLeanBackedPublicControls": 0,
+        "reviewedExactAnchorEntries": 5,
+        "candidateExactAnchorEntries": 0,
+        "blockedExactAnchorEntries": 0,
+        "nextDepthControlCount": 5,
+        "routeCounts": {
+          "decidable": 0,
+          "attestation": 4,
+          "judgment": 1,
+          "mixed": 0
+        }
+      },
+      "workstreams": [
+        {
+          "id": "authoritative_public_source_decomposition",
+          "title": "Public-law and regulation decomposition",
+          "status": "partial",
+          "summary": "The current wave tracks 1 public-source frameworks and already has 1 with normalized public-control overlap.",
+          "remainingWork": "Widen the current narrow overlap into a fuller obligation graph without collapsing rights, notification, and documentary requirements into fake machine proof.",
+          "blockedBy": []
+        },
+        {
+          "id": "public_control_normalization",
+          "title": "Public-control normalization",
+          "status": "partial",
+          "summary": "5 unique public controls currently overlap this program, with 3 already exercised by fixtures.",
+          "remainingWork": "Promote the next narrow controls only when their route, exact-anchor, and claim-schema boundaries are stable enough to stay honest.",
+          "blockedBy": []
+        },
+        {
+          "id": "exact_anchor_review",
+          "title": "Reviewed exact-anchor corridor",
+          "status": "partial",
+          "summary": "The current wave records 5 reviewed exact-anchor entries and 0 candidate entries across the in-scope frameworks.",
+          "remainingWork": "Increase reviewed exact-anchor coverage while keeping gaps explicit and resisting family-proxy inflation.",
+          "blockedBy": []
+        },
+        {
+          "id": "typed_claim_coverage",
+          "title": "Typed claim coverage",
+          "status": "partial",
+          "summary": "The current overlap splits into 0 decidable, 4 attestation, and 1 judgment controls.",
+          "remainingWork": "Close the next typed evidence and attestation gaps before widening the public verifier surface for these regimes.",
+          "blockedBy": []
+        },
+        {
+          "id": "lean_coverage",
+          "title": "Lean coverage",
+          "status": "not_started",
+          "summary": "0 currently overlapped controls are Lean-backed in the public corridor.",
+          "remainingWork": "Keep Lean usage narrow and technical: only widen it where the regime obligation really reduces to a decidable systems claim.",
+          "blockedBy": []
+        },
+        {
+          "id": "fixture_rollout",
+          "title": "Fixture rollout",
+          "status": "partial",
+          "summary": "3 of 5 mapped controls currently appear in public fixture corridors.",
+          "remainingWork": "Turn the next rights, vendor, breach, and retention slices into replayable fixture-backed corridors instead of documentation-only backlog.",
+          "blockedBy": []
+        },
+        {
+          "id": "external_review",
+          "title": "External review",
+          "status": "program_defined",
+          "summary": "A dedicated sector-regime review program now defines the reviewer roles and pass gates for health, finance, and California privacy-law scrutiny.",
+          "remainingWork": "Run the review program with sector-specialist counsel, operators, and privacy engineers once the next control wave is ready.",
+          "blockedBy": []
+        }
+      ],
+      "publicNotes": [
+        "This wave focuses on rights handling, retention/deletion governance, and service-provider / contractor terms before attempting broader California privacy-law normalization.",
+        "Because the source law is public, reviewed anchors can be explicit statutory sections rather than blocker-only placeholders."
+      ]
+    }
+  ]
+}

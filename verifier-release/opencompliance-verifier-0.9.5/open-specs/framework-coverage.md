@@ -513,12 +513,13 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Priority tier: `market_triggered`
 - Source availability: `public_exact_feasible`
 - OpenCompliance state: `priority_backlog`
-- Mapped public controls: `0`
-- Implemented public controls: `0`
+- Mapped public controls: `1`
+- Implemented public controls: `1`
 - Lean-backed public controls: `0`
-- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Exact anchors reviewed / candidate / blocked: `1` / `0` / `0`
 - Operator benefit: Essential for healthcare startups that need role, use-and-disclosure, minimum-necessary, and patient-rights boundaries alongside security safeguards.
 - Next action: Treat it as the privacy-operations companion to the HIPAA Security Rule, starting with rights handling, disclosures, workforce access, and business-associate boundaries.
+- Next depth controls: `oc.vendor-02`
 
 ## 39. HIPAA Breach Notification Rule
 
@@ -526,12 +527,13 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Priority tier: `market_triggered`
 - Source availability: `public_exact_feasible`
 - OpenCompliance state: `priority_backlog`
-- Mapped public controls: `0`
-- Implemented public controls: `0`
+- Mapped public controls: `2`
+- Implemented public controls: `2`
 - Lean-backed public controls: `0`
-- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Exact anchors reviewed / candidate / blocked: `2` / `0` / `0`
 - Operator benefit: Important for healthcare startups that need explicit breach assessment, notification, and incident-escalation obligations rather than a generic incident-response story.
 - Next action: Treat it as the healthcare incident-and-notification companion to the HIPAA rules, starting with breach assessment, affected-party notification, and regulator-facing evidence.
+- Next depth controls: `oc.ir-01`, `oc.ir-02`
 
 ## 40. GLBA Safeguards Rule
 
@@ -539,12 +541,13 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Priority tier: `market_triggered`
 - Source availability: `public_exact_feasible`
 - OpenCompliance state: `priority_backlog`
-- Mapped public controls: `0`
-- Implemented public controls: `0`
-- Lean-backed public controls: `0`
-- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Mapped public controls: `6`
+- Implemented public controls: `5`
+- Lean-backed public controls: `3`
+- Exact anchors reviewed / candidate / blocked: `6` / `0` / `0`
 - Operator benefit: Relevant for fintech and financial-service startups that qualify as financial institutions and need a concrete customer-information security baseline.
 - Next action: Treat it as a fintech trigger regime and start with overlap to risk assessment, access, vendor oversight, encryption, and incident-response controls.
+- Next depth controls: `oc.id-01`, `oc.log-01`, `oc.net-01`, `oc.ir-01`, `oc.vendor-02`, `oc.data-05`
 
 ## 41. NYDFS 23 NYCRR Part 500
 
@@ -552,12 +555,13 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Priority tier: `market_triggered`
 - Source availability: `public_exact_feasible`
 - OpenCompliance state: `priority_backlog`
-- Mapped public controls: `0`
-- Implemented public controls: `0`
-- Lean-backed public controls: `0`
-- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Mapped public controls: `7`
+- Implemented public controls: `6`
+- Lean-backed public controls: `3`
+- Exact anchors reviewed / candidate / blocked: `7` / `0` / `0`
 - Operator benefit: Important for startups serving or becoming covered entities in New York financial services, where cybersecurity governance, controls, and notifications become regulator-facing obligations.
 - Next action: Treat it as a financial-sector trigger regime and begin with governance, access, MFA, vulnerability management, incident reporting, and third-party risk overlap.
+- Next depth controls: `oc.id-01`, `oc.log-01`, `oc.net-01`, `oc.ir-01`, `oc.ir-02`, `oc.vendor-02`, `oc.data-05`
 
 ## 42. CCPA/CPRA
 
@@ -565,12 +569,13 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Priority tier: `market_triggered`
 - Source availability: `public_exact_feasible`
 - OpenCompliance state: `priority_backlog`
-- Mapped public controls: `0`
-- Implemented public controls: `0`
+- Mapped public controls: `5`
+- Implemented public controls: `3`
 - Lean-backed public controls: `0`
-- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Exact anchors reviewed / candidate / blocked: `5` / `0` / `0`
 - Operator benefit: Important for consumer-facing startups operating in California or meeting California thresholds, especially where notices, rights, sharing, and retention become commercially material.
 - Next action: Treat it as the main US state privacy-law companion to GDPR and start with rights, notices, retention, service-provider, and sharing boundaries.
+- Next depth controls: `oc.data-04`, `oc.privacy-01`, `oc.vendor-02`, `oc.data-05`, `oc.data-06`
 
 ## 43. COPPA
 

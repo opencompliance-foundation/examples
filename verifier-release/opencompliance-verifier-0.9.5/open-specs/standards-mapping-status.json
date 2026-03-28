@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-28T02:24:36Z",
+  "generatedAt": "2026-03-28T03:21:22Z",
   "purpose": "Public-safe status view for the ISO 27001 and SOC 2 full-mapping programme inside OpenCompliance. It reports what exists today, what remains blocked, and which workstreams must land before the mapping can be treated as exhaustive.",
   "targetState": {
     "description": "State of the art is a reviewed mapping layer in which source prose is decomposed into atomic obligations, each atom is routed to decidable, attestation, or judgment, non-judgment atoms have typed claim contracts, decidable atoms can enter Lean where appropriate, and exact anchors carry review provenance.",

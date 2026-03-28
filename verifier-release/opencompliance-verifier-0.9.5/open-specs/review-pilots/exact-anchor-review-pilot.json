@@ -29,14 +29,19 @@
       "ISO/IEC 23894",
       "NIST AI 700-2",
       "EU GPAI Code of Practice",
+      "HIPAA Privacy Rule",
+      "HIPAA Breach Notification Rule",
+      "GLBA Safeguards Rule",
+      "NYDFS 23 NYCRR Part 500",
+      "CCPA/CPRA",
       "ISO/IEC AWI 25704"
     ],
     "controlsCovered": 47,
     "note": "Public exact anchors are only published where official text or official machine-readable source material is public. Planned controls with no public fixture yet are allowed into the pilot so framework expansion can stay honest without pretending implementation already exists. Proprietary standards remain explicitly blocked until licensed framework review is complete."
   },
   "summary": {
-    "reviewEntries": 224,
-    "publicSourceReviewed": 135,
+    "reviewEntries": 245,
+    "publicSourceReviewed": 156,
     "candidatePublicSourceUnreviewed": 19,
     "blockedNonpublicSourceReview": 70
   },
@@ -46,108 +51,6 @@
       "title": "Scoped administrative MFA enforcement",
       "decompositionNote": "The corridor proves narrow administrative MFA enforcement, not full identity governance or all access-review obligations.",
       "reviews": [
-        {
-          "framework": "IRAP",
-          "anchorType": "ism_control",
-          "anchorId": "ISM-1173",
-          "relation": "subset-of",
-          "mappingMethod": "functional",
-          "reviewStatus": "public_source_reviewed",
-          "confidence": "medium",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "The corridor proves that scoped administrative identities require MFA in the declared environment. That is a narrow technical subset of the broader privileged-user MFA requirement.",
-          "authoritativeSource": {
-            "authority": "ACSC ISM",
-            "documentId": "Essential Eight maturity model",
-            "locator": "ISM-1173"
-          }
-        },
-        {
-          "framework": "GDPR",
-          "anchorType": "article_paragraph_subpoint",
-          "anchorId": "Article 32(1)(b)",
-          "relation": "subset-of",
-          "mappingMethod": "functional",
-          "reviewStatus": "public_source_reviewed",
-          "confidence": "medium",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "Scoped administrative MFA contributes to the ongoing confidentiality, integrity, availability, and resilience of processing systems and services, but it is only one narrow technical slice of Article 32.",
-          "authoritativeSource": {
-            "authority": "EUR-Lex",
-            "documentId": "CELEX:02016R0679-20160504",
-            "locator": "Article 32(1)(b)"
-          }
-        },
-        {
-          "framework": "Cyber Essentials",
-          "anchorType": "control_theme",
-          "anchorId": "User Access Control / Multi-factor authentication (MFA)",
-          "relation": "subset-of",
-          "mappingMethod": "functional",
-          "reviewStatus": "public_source_reviewed",
-          "confidence": "medium",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "Scoped administrative MFA enforcement is a narrow machine-checkable slice of the Cyber Essentials user access control theme, specifically the current MFA requirement for internet-exposed services and admin access.",
-          "authoritativeSource": {
-            "authority": "NCSC",
-            "documentId": "Cyber Essentials Requirements for IT Infrastructure v3.2",
-            "locator": "User Access Control / Multi-factor authentication (MFA)"
-          }
-        },
-        {
-          "framework": "NCSC CAF 4.0",
-          "anchorType": "principle",
-          "anchorId": "Principle B2",
-          "relation": "subset-of",
-          "mappingMethod": "functional",
-          "reviewStatus": "public_source_reviewed",
-          "confidence": "medium",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "The corridor proves one narrow access-control invariant that supports CAF Principle B2 on identity and access control without claiming the whole principle is satisfied.",
-          "authoritativeSource": {
-            "authority": "NCSC",
-            "documentId": "Cyber Assessment Framework v4.0 supplementary information",
-            "locator": "Principle B2 Identity and Access Control"
-          }
-        },
-        {
-          "framework": "NIST CSF 2.0",
-          "anchorType": "function_category_subcategory",
-          "anchorId": "PR.AA-01",
-          "relation": "subset-of",
-          "mappingMethod": "functional",
-          "reviewStatus": "public_source_reviewed",
-          "confidence": "medium",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "Scoped administrative MFA enforcement is a narrow implementation slice of the identities-and-credentials management outcome under CSF 2.0.",
-          "authoritativeSource": {
-            "authority": "NIST",
-            "documentId": "Cybersecurity Framework 2.0 Core",
-            "locator": "PR.AA-01"
-          }
-        },
-        {
-          "framework": "NIST SP 800-53 Rev. 5.1",
-          "anchorType": "control",
-          "anchorId": "IA-2",
-          "relation": "subset-of",
-          "mappingMethod": "functional",
-          "reviewStatus": "public_source_reviewed",
-          "confidence": "medium",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "The corridor proves a narrow organizational-user MFA condition that is safely modeled as a subset of the broader identification and authentication control.",
-          "authoritativeSource": {
-            "authority": "NIST",
-            "documentId": "SP 800-53 Rev. 5.1",
-            "locator": "IA-2"
-          }
-        },
         {
           "framework": "ISO 27001",
           "anchorType": "licensed_framework_anchor",
@@ -188,6 +91,142 @@
             "authority": "AICPA",
             "documentId": "2017 Trust Services Criteria (With Revised Points of Focus - 2022)",
             "locator": "Trust Services Criteria category structure only"
+          }
+        },
+        {
+          "framework": "GDPR",
+          "anchorType": "article_paragraph_subpoint",
+          "anchorId": "Article 32(1)(b)",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "Scoped administrative MFA contributes to the ongoing confidentiality, integrity, availability, and resilience of processing systems and services, but it is only one narrow technical slice of Article 32.",
+          "authoritativeSource": {
+            "authority": "EUR-Lex",
+            "documentId": "CELEX:02016R0679-20160504",
+            "locator": "Article 32(1)(b)"
+          }
+        },
+        {
+          "framework": "IRAP",
+          "anchorType": "ism_control",
+          "anchorId": "ISM-1173",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "The corridor proves that scoped administrative identities require MFA in the declared environment. That is a narrow technical subset of the broader privileged-user MFA requirement.",
+          "authoritativeSource": {
+            "authority": "ACSC ISM",
+            "documentId": "Essential Eight maturity model",
+            "locator": "ISM-1173"
+          }
+        },
+        {
+          "framework": "NIST CSF 2.0",
+          "anchorType": "function_category_subcategory",
+          "anchorId": "PR.AA-01",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "Scoped administrative MFA enforcement is a narrow implementation slice of the identities-and-credentials management outcome under CSF 2.0.",
+          "authoritativeSource": {
+            "authority": "NIST",
+            "documentId": "Cybersecurity Framework 2.0 Core",
+            "locator": "PR.AA-01"
+          }
+        },
+        {
+          "framework": "Cyber Essentials",
+          "anchorType": "control_theme",
+          "anchorId": "User Access Control / Multi-factor authentication (MFA)",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "Scoped administrative MFA enforcement is a narrow machine-checkable slice of the Cyber Essentials user access control theme, specifically the current MFA requirement for internet-exposed services and admin access.",
+          "authoritativeSource": {
+            "authority": "NCSC",
+            "documentId": "Cyber Essentials Requirements for IT Infrastructure v3.2",
+            "locator": "User Access Control / Multi-factor authentication (MFA)"
+          }
+        },
+        {
+          "framework": "NCSC CAF 4.0",
+          "anchorType": "principle",
+          "anchorId": "Principle B2",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "The corridor proves one narrow access-control invariant that supports CAF Principle B2 on identity and access control without claiming the whole principle is satisfied.",
+          "authoritativeSource": {
+            "authority": "NCSC",
+            "documentId": "Cyber Assessment Framework v4.0 supplementary information",
+            "locator": "Principle B2 Identity and Access Control"
+          }
+        },
+        {
+          "framework": "NIST SP 800-53 Rev. 5.1",
+          "anchorType": "control",
+          "anchorId": "IA-2",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "The corridor proves a narrow organizational-user MFA condition that is safely modeled as a subset of the broader identification and authentication control.",
+          "authoritativeSource": {
+            "authority": "NIST",
+            "documentId": "SP 800-53 Rev. 5.1",
+            "locator": "IA-2"
+          }
+        },
+        {
+          "framework": "GLBA Safeguards Rule",
+          "anchorType": "cfr_section",
+          "anchorId": "16 CFR 314.4(c)(5)",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "Scoped administrative MFA enforcement is a narrow machine-checkable slice of the Safeguards Rule requirement to implement multi-factor authentication for anyone accessing customer information on the system.",
+          "authoritativeSource": {
+            "authority": "FTC",
+            "documentId": "FTC Safeguards Rule: What Your Business Needs to Know",
+            "locator": "16 CFR 314.4(c)(5)"
+          }
+        },
+        {
+          "framework": "NYDFS 23 NYCRR Part 500",
+          "anchorType": "regulation_section",
+          "anchorId": "23 NYCRR 500.12(a)",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "Scoped administrative MFA enforcement is a narrow technical slice of the NYDFS requirement to use effective controls, including MFA or risk-based authentication, against unauthorized access to nonpublic information or information systems.",
+          "authoritativeSource": {
+            "authority": "NYDFS",
+            "documentId": "23 NYCRR Part 500",
+            "locator": "Section 500.12(a)"
           }
         }
       ]
@@ -734,92 +773,6 @@
       "decompositionNote": "The corridor proves that scoped audit logging is enabled and that a retention window is declared, but it does not yet prove centralized monitoring adequacy or a standards-specific retention threshold.",
       "reviews": [
         {
-          "framework": "IRAP",
-          "anchorType": "ism_control",
-          "anchorId": "ISM-1405",
-          "relation": "subset-of",
-          "mappingMethod": "functional",
-          "reviewStatus": "public_source_reviewed",
-          "confidence": "medium",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "The corridor's scoped logging predicate is a narrow slice of the requirement that a centralised event logging facility be implemented.",
-          "authoritativeSource": {
-            "authority": "ACSC ISM",
-            "documentId": "Guidelines for system monitoring",
-            "locator": "ISM-1405"
-          }
-        },
-        {
-          "framework": "IRAP",
-          "anchorType": "ism_control",
-          "anchorId": "ISM-1988",
-          "relation": "intersects-with",
-          "mappingMethod": "functional",
-          "reviewStatus": "candidate_public_source_unreviewed",
-          "confidence": "low",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "needs_framework_specialist_review",
-          "nextAction": "Strengthen the corridor from retention-window-declared to standards-threshold-checked before promoting this anchor to reviewed.",
-          "rationale": "The corridor currently declares a retention window but does not yet prove the ISM's stated minimum retention duration.",
-          "authoritativeSource": {
-            "authority": "ACSC ISM",
-            "documentId": "Guidelines for system monitoring",
-            "locator": "ISM-1988"
-          }
-        },
-        {
-          "framework": "NCSC CAF 4.0",
-          "anchorType": "principle",
-          "anchorId": "Principle C1",
-          "relation": "subset-of",
-          "mappingMethod": "functional",
-          "reviewStatus": "public_source_reviewed",
-          "confidence": "medium",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "The corridor's typed logging predicate is a narrow machine-checkable slice of CAF security monitoring rather than the whole monitoring objective.",
-          "authoritativeSource": {
-            "authority": "NCSC",
-            "documentId": "Cyber Assessment Framework v4.0 supplementary information",
-            "locator": "Principle C1 Security monitoring"
-          }
-        },
-        {
-          "framework": "NIST CSF 2.0",
-          "anchorType": "function_category_subcategory",
-          "anchorId": "PR.PS-04",
-          "relation": "subset-of",
-          "mappingMethod": "functional",
-          "reviewStatus": "public_source_reviewed",
-          "confidence": "medium",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "The corridor proves a narrow protective-technology logging state that aligns with the CSF 2.0 subcategory for generating and making log records available.",
-          "authoritativeSource": {
-            "authority": "NIST",
-            "documentId": "Cybersecurity Framework 2.0 Core",
-            "locator": "PR.PS-04"
-          }
-        },
-        {
-          "framework": "NIST SP 800-53 Rev. 5.1",
-          "anchorType": "control",
-          "anchorId": "AU-2",
-          "relation": "subset-of",
-          "mappingMethod": "functional",
-          "reviewStatus": "public_source_reviewed",
-          "confidence": "medium",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "The corridor's enabled-audit-logging state is a narrow subset of the broader event-logging control, while remaining explicit about retention-threshold incompleteness.",
-          "authoritativeSource": {
-            "authority": "NIST",
-            "documentId": "SP 800-53 Rev. 5.1",
-            "locator": "AU-2"
-          }
-        },
-        {
           "framework": "ISO 27001",
           "anchorType": "licensed_framework_anchor",
           "relation": "undetermined",
@@ -859,6 +812,126 @@
             "authority": "AICPA",
             "documentId": "2017 Trust Services Criteria (With Revised Points of Focus - 2022)",
             "locator": "Category structure only"
+          }
+        },
+        {
+          "framework": "IRAP",
+          "anchorType": "ism_control",
+          "anchorId": "ISM-1405",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "The corridor's scoped logging predicate is a narrow slice of the requirement that a centralised event logging facility be implemented.",
+          "authoritativeSource": {
+            "authority": "ACSC ISM",
+            "documentId": "Guidelines for system monitoring",
+            "locator": "ISM-1405"
+          }
+        },
+        {
+          "framework": "IRAP",
+          "anchorType": "ism_control",
+          "anchorId": "ISM-1988",
+          "relation": "intersects-with",
+          "mappingMethod": "functional",
+          "reviewStatus": "candidate_public_source_unreviewed",
+          "confidence": "low",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "needs_framework_specialist_review",
+          "nextAction": "Strengthen the corridor from retention-window-declared to standards-threshold-checked before promoting this anchor to reviewed.",
+          "rationale": "The corridor currently declares a retention window but does not yet prove the ISM's stated minimum retention duration.",
+          "authoritativeSource": {
+            "authority": "ACSC ISM",
+            "documentId": "Guidelines for system monitoring",
+            "locator": "ISM-1988"
+          }
+        },
+        {
+          "framework": "NIST CSF 2.0",
+          "anchorType": "function_category_subcategory",
+          "anchorId": "PR.PS-04",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "The corridor proves a narrow protective-technology logging state that aligns with the CSF 2.0 subcategory for generating and making log records available.",
+          "authoritativeSource": {
+            "authority": "NIST",
+            "documentId": "Cybersecurity Framework 2.0 Core",
+            "locator": "PR.PS-04"
+          }
+        },
+        {
+          "framework": "NCSC CAF 4.0",
+          "anchorType": "principle",
+          "anchorId": "Principle C1",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "The corridor's typed logging predicate is a narrow machine-checkable slice of CAF security monitoring rather than the whole monitoring objective.",
+          "authoritativeSource": {
+            "authority": "NCSC",
+            "documentId": "Cyber Assessment Framework v4.0 supplementary information",
+            "locator": "Principle C1 Security monitoring"
+          }
+        },
+        {
+          "framework": "NIST SP 800-53 Rev. 5.1",
+          "anchorType": "control",
+          "anchorId": "AU-2",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "The corridor's enabled-audit-logging state is a narrow subset of the broader event-logging control, while remaining explicit about retention-threshold incompleteness.",
+          "authoritativeSource": {
+            "authority": "NIST",
+            "documentId": "SP 800-53 Rev. 5.1",
+            "locator": "AU-2"
+          }
+        },
+        {
+          "framework": "GLBA Safeguards Rule",
+          "anchorType": "cfr_section",
+          "anchorId": "16 CFR 314.4(c)(8)",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "Scoped audit logging is a narrow slice of the Safeguards Rule requirement to maintain a log of authorized users' activity and detect unauthorized access.",
+          "authoritativeSource": {
+            "authority": "FTC",
+            "documentId": "FTC Safeguards Rule: What Your Business Needs to Know",
+            "locator": "16 CFR 314.4(c)(8)"
+          }
+        },
+        {
+          "framework": "NYDFS 23 NYCRR Part 500",
+          "anchorType": "regulation_section",
+          "anchorId": "23 NYCRR 500.6(a)(2)",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "Scoped audit logging is a narrow slice of the NYDFS requirement to include audit trails designed to detect and respond to cybersecurity events that could materially harm normal operations.",
+          "authoritativeSource": {
+            "authority": "NYDFS",
+            "documentId": "23 NYCRR Part 500",
+            "locator": "Section 500.6(a)(2)"
           }
         }
       ]
@@ -1120,91 +1193,6 @@
       "decompositionNote": "The corridor proves HTTPS-only ingress, managed certificates, and TLS 1.2 or higher for the scoped public edge. It does not prove the whole cryptographic architecture.",
       "reviews": [
         {
-          "framework": "IRAP",
-          "anchorType": "ism_control",
-          "anchorId": "ISM-0469",
-          "relation": "subset-of",
-          "mappingMethod": "functional",
-          "reviewStatus": "public_source_reviewed",
-          "confidence": "medium",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "The corridor's enforced HTTPS ingress is a narrow slice of the broader requirement to use encryption when data is communicated over network infrastructure.",
-          "authoritativeSource": {
-            "authority": "ACSC ISM",
-            "documentId": "Information Security Manual (September 2022)",
-            "locator": "ISM-0469"
-          }
-        },
-        {
-          "framework": "IRAP",
-          "anchorType": "ism_control",
-          "anchorId": "ISM-1139",
-          "relation": "subset-of",
-          "mappingMethod": "syntactic",
-          "reviewStatus": "public_source_reviewed",
-          "confidence": "medium",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "The corridor's TLS 1.2-or-higher boundary is aligned with the public ISM TLS guidance at the connection level, but does not yet capture the whole cipher-suite surface.",
-          "authoritativeSource": {
-            "authority": "ACSC ISM",
-            "documentId": "Information Security Manual (September 2022)",
-            "locator": "ISM-1139"
-          }
-        },
-        {
-          "framework": "GDPR",
-          "anchorType": "article_paragraph_subpoint",
-          "anchorId": "Article 32(1)(a)",
-          "relation": "subset-of",
-          "mappingMethod": "functional",
-          "reviewStatus": "public_source_reviewed",
-          "confidence": "medium",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "Scoped TLS ingress hardening is a narrow technical slice of encryption-related measures under Article 32.",
-          "authoritativeSource": {
-            "authority": "EUR-Lex",
-            "documentId": "CELEX:02016R0679-20160504",
-            "locator": "Article 32(1)(a)"
-          }
-        },
-        {
-          "framework": "NIST CSF 2.0",
-          "anchorType": "function_category_subcategory",
-          "anchorId": "PR.DS-02",
-          "relation": "subset-of",
-          "mappingMethod": "functional",
-          "reviewStatus": "public_source_reviewed",
-          "confidence": "medium",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "The corridor's HTTPS-only TLS boundary is a narrow implementation slice of protecting data in transit under CSF 2.0.",
-          "authoritativeSource": {
-            "authority": "NIST",
-            "documentId": "Cybersecurity Framework 2.0 Core",
-            "locator": "PR.DS-02"
-          }
-        },
-        {
-          "framework": "NIST SP 800-53 Rev. 5.1",
-          "anchorType": "control",
-          "anchorId": "SC-8",
-          "relation": "subset-of",
-          "mappingMethod": "functional",
-          "reviewStatus": "public_source_reviewed",
-          "confidence": "medium",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "The corridor proves a narrow transmission confidentiality and integrity boundary for the scoped public edge, without claiming full cryptographic architecture coverage.",
-          "authoritativeSource": {
-            "authority": "NIST",
-            "documentId": "SP 800-53 Rev. 5.1",
-            "locator": "SC-8"
-          }
-        },
-        {
           "framework": "ISO 27001",
           "anchorType": "licensed_framework_anchor",
           "relation": "undetermined",
@@ -1244,6 +1232,125 @@
             "authority": "AICPA",
             "documentId": "2017 Trust Services Criteria (With Revised Points of Focus - 2022)",
             "locator": "Category structure only"
+          }
+        },
+        {
+          "framework": "GDPR",
+          "anchorType": "article_paragraph_subpoint",
+          "anchorId": "Article 32(1)(a)",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "Scoped TLS ingress hardening is a narrow technical slice of encryption-related measures under Article 32.",
+          "authoritativeSource": {
+            "authority": "EUR-Lex",
+            "documentId": "CELEX:02016R0679-20160504",
+            "locator": "Article 32(1)(a)"
+          }
+        },
+        {
+          "framework": "IRAP",
+          "anchorType": "ism_control",
+          "anchorId": "ISM-0469",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "The corridor's enforced HTTPS ingress is a narrow slice of the broader requirement to use encryption when data is communicated over network infrastructure.",
+          "authoritativeSource": {
+            "authority": "ACSC ISM",
+            "documentId": "Information Security Manual (September 2022)",
+            "locator": "ISM-0469"
+          }
+        },
+        {
+          "framework": "IRAP",
+          "anchorType": "ism_control",
+          "anchorId": "ISM-1139",
+          "relation": "subset-of",
+          "mappingMethod": "syntactic",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "The corridor's TLS 1.2-or-higher boundary is aligned with the public ISM TLS guidance at the connection level, but does not yet capture the whole cipher-suite surface.",
+          "authoritativeSource": {
+            "authority": "ACSC ISM",
+            "documentId": "Information Security Manual (September 2022)",
+            "locator": "ISM-1139"
+          }
+        },
+        {
+          "framework": "NIST CSF 2.0",
+          "anchorType": "function_category_subcategory",
+          "anchorId": "PR.DS-02",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "The corridor's HTTPS-only TLS boundary is a narrow implementation slice of protecting data in transit under CSF 2.0.",
+          "authoritativeSource": {
+            "authority": "NIST",
+            "documentId": "Cybersecurity Framework 2.0 Core",
+            "locator": "PR.DS-02"
+          }
+        },
+        {
+          "framework": "NIST SP 800-53 Rev. 5.1",
+          "anchorType": "control",
+          "anchorId": "SC-8",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "The corridor proves a narrow transmission confidentiality and integrity boundary for the scoped public edge, without claiming full cryptographic architecture coverage.",
+          "authoritativeSource": {
+            "authority": "NIST",
+            "documentId": "SP 800-53 Rev. 5.1",
+            "locator": "SC-8"
+          }
+        },
+        {
+          "framework": "GLBA Safeguards Rule",
+          "anchorType": "cfr_section",
+          "anchorId": "16 CFR 314.4(c)(3)",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "TLS ingress hardening is a narrow technical slice of the Safeguards Rule requirement to encrypt customer information in transit.",
+          "authoritativeSource": {
+            "authority": "FTC",
+            "documentId": "FTC Safeguards Rule: What Your Business Needs to Know",
+            "locator": "16 CFR 314.4(c)(3)"
+          }
+        },
+        {
+          "framework": "NYDFS 23 NYCRR Part 500",
+          "anchorType": "regulation_section",
+          "anchorId": "23 NYCRR 500.15",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "Scoped TLS ingress hardening is a narrow technical slice of the NYDFS requirement to protect nonpublic information in transit through encryption or approved compensating controls.",
+          "authoritativeSource": {
+            "authority": "NYDFS",
+            "documentId": "23 NYCRR Part 500",
+            "locator": "Section 500.15"
           }
         }
       ]
@@ -2011,6 +2118,23 @@
             "documentId": "CELEX:02016R0679-20160504",
             "locator": "Article 12(2)"
           }
+        },
+        {
+          "framework": "CCPA/CPRA",
+          "anchorType": "statute_section",
+          "anchorId": "Cal. Civ. Code 1798.130(a)(1)",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "A documented consumer-request runbook owner is a narrow documentary slice of the CCPA/CPRA obligation to provide designated methods for consumers to submit requests and to operate a rights-handling process rather than leaving it ownerless.",
+          "authoritativeSource": {
+            "authority": "California Legislature",
+            "documentId": "California Consumer Privacy Act / CPRA amendments",
+            "locator": "Cal. Civ. Code 1798.130(a)(1)"
+          }
         }
       ]
     },
@@ -2068,23 +2192,6 @@
       "decompositionNote": "The corridor only proves that a signed attestation states the scoped processor or vendor security terms are present and current for the review window. It does not prove the full supplier-management programme or the adequacy of every contractual term.",
       "reviews": [
         {
-          "framework": "GDPR",
-          "anchorType": "article_paragraph",
-          "anchorId": "Article 28(3)",
-          "relation": "subset-of",
-          "mappingMethod": "functional",
-          "reviewStatus": "public_source_reviewed",
-          "confidence": "medium",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "An attestation that scoped processor security terms are present is a narrow documentary slice of Article 28(3) processor-contract obligations without claiming the whole vendor-management programme is complete.",
-          "authoritativeSource": {
-            "authority": "EUR-Lex",
-            "documentId": "CELEX:02016R0679-20160504",
-            "locator": "Article 28(3)"
-          }
-        },
-        {
           "framework": "ISO 27001",
           "anchorType": "licensed_framework_anchor",
           "relation": "undetermined",
@@ -2124,6 +2231,91 @@
             "authority": "AICPA",
             "documentId": "2017 Trust Services Criteria (With Revised Points of Focus - 2022)",
             "locator": "Category structure only"
+          }
+        },
+        {
+          "framework": "GDPR",
+          "anchorType": "article_paragraph",
+          "anchorId": "Article 28(3)",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "An attestation that scoped processor security terms are present is a narrow documentary slice of Article 28(3) processor-contract obligations without claiming the whole vendor-management programme is complete.",
+          "authoritativeSource": {
+            "authority": "EUR-Lex",
+            "documentId": "CELEX:02016R0679-20160504",
+            "locator": "Article 28(3)"
+          }
+        },
+        {
+          "framework": "HIPAA Privacy Rule",
+          "anchorType": "cfr_section",
+          "anchorId": "45 CFR 164.504(e)(2)(ii)(B)",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "An attestation that scoped vendor security terms are present is a narrow documentary slice of the HIPAA business associate contract requirement to require appropriate safeguards against unauthorized uses or disclosures.",
+          "authoritativeSource": {
+            "authority": "HHS OCR",
+            "documentId": "HIPAA Privacy Rule",
+            "locator": "45 CFR 164.504(e)(2)(ii)(B)"
+          }
+        },
+        {
+          "framework": "GLBA Safeguards Rule",
+          "anchorType": "cfr_section",
+          "anchorId": "16 CFR 314.4(f)",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "An attestation that vendor security terms are present is a narrow documentary slice of the Safeguards Rule requirement to monitor service providers and build security expectations into contracts and reassessments.",
+          "authoritativeSource": {
+            "authority": "FTC",
+            "documentId": "FTC Safeguards Rule: What Your Business Needs to Know",
+            "locator": "16 CFR 314.4(f)"
+          }
+        },
+        {
+          "framework": "NYDFS 23 NYCRR Part 500",
+          "anchorType": "regulation_section",
+          "anchorId": "23 NYCRR 500.11(b)(1)-(3)",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "An attestation that scoped vendor security terms exist is a narrow documentary slice of the NYDFS third-party service provider policy guidelines for contractual protections around access controls, encryption, and cyber-event notice.",
+          "authoritativeSource": {
+            "authority": "NYDFS",
+            "documentId": "23 NYCRR Part 500",
+            "locator": "Section 500.11(b)(1)-(3)"
+          }
+        },
+        {
+          "framework": "CCPA/CPRA",
+          "anchorType": "statute_section",
+          "anchorId": "Cal. Civ. Code 1798.100(d)",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "An attestation that scoped vendor security terms are present is a narrow documentary slice of the CCPA/CPRA requirement to bind service providers, contractors, and third parties to restricted purposes and appropriate contractual obligations.",
+          "authoritativeSource": {
+            "authority": "California Legislature",
+            "documentId": "California Consumer Privacy Act / CPRA amendments",
+            "locator": "Cal. Civ. Code 1798.100(d)"
           }
         }
       ]
@@ -3147,23 +3339,6 @@
       "decompositionNote": "The corridor only proves that a signed attestation states the scoped incident-response runbook is current for the review window. It does not prove every operational response path or every tabletop outcome.",
       "reviews": [
         {
-          "framework": "IRAP",
-          "anchorType": "ism_control",
-          "anchorId": "ISM-0576",
-          "relation": "subset-of",
-          "mappingMethod": "functional",
-          "reviewStatus": "public_source_reviewed",
-          "confidence": "medium",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "An attested current incident-response runbook is a narrow documentary slice of the public ISM requirement for a cyber security incident response plan that is reviewed at least annually.",
-          "authoritativeSource": {
-            "authority": "ACSC ISM",
-            "documentId": "Guidelines for incident response",
-            "locator": "ISM-0576"
-          }
-        },
-        {
           "framework": "ISO 27001",
           "anchorType": "licensed_framework_anchor",
           "relation": "undetermined",
@@ -3204,14 +3379,7 @@
             "documentId": "2017 Trust Services Criteria (With Revised Points of Focus - 2022)",
             "locator": "Category structure only"
           }
-        }
-      ]
-    },
-    {
-      "controlId": "oc.ir-02",
-      "title": "Incident escalation paths maintained",
-      "decompositionNote": "The corridor only proves that a signed attestation states the scoped escalation paths and responder contacts are current for the review window. It does not prove that every responder is continuously reachable or every escalation decision is correct.",
-      "reviews": [
+        },
         {
           "framework": "IRAP",
           "anchorType": "ism_control",
@@ -3222,13 +3390,71 @@
           "confidence": "medium",
           "sourceAvailability": "public_text",
           "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "Maintained escalation paths are a narrow documentary slice of keeping the incident-response plan current, actionable, and assigned to real responders.",
+          "rationale": "An attested current incident-response runbook is a narrow documentary slice of the public ISM requirement for a cyber security incident response plan that is reviewed at least annually.",
           "authoritativeSource": {
             "authority": "ACSC ISM",
             "documentId": "Guidelines for incident response",
             "locator": "ISM-0576"
           }
         },
+        {
+          "framework": "HIPAA Breach Notification Rule",
+          "anchorType": "cfr_section",
+          "anchorId": "45 CFR 164.404",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "A current incident and breach runbook is a narrow documentary slice of being prepared to satisfy HIPAA individual breach-notification obligations without claiming that every notice-content and timing requirement is proved.",
+          "authoritativeSource": {
+            "authority": "HHS OCR",
+            "documentId": "HIPAA Breach Notification Rule",
+            "locator": "45 CFR 164.404"
+          }
+        },
+        {
+          "framework": "GLBA Safeguards Rule",
+          "anchorType": "cfr_section",
+          "anchorId": "16 CFR 314.4(h)",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "A current incident-response runbook is a narrow documentary slice of the Safeguards Rule requirement for a written incident response plan.",
+          "authoritativeSource": {
+            "authority": "FTC",
+            "documentId": "FTC Safeguards Rule: What Your Business Needs to Know",
+            "locator": "16 CFR 314.4(h)"
+          }
+        },
+        {
+          "framework": "NYDFS 23 NYCRR Part 500",
+          "anchorType": "regulation_section",
+          "anchorId": "23 NYCRR 500.16",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "A current incident-response runbook is a narrow documentary slice of the NYDFS requirement to establish and maintain an incident response plan.",
+          "authoritativeSource": {
+            "authority": "NYDFS",
+            "documentId": "23 NYCRR Part 500",
+            "locator": "Section 500.16"
+          }
+        }
+      ]
+    },
+    {
+      "controlId": "oc.ir-02",
+      "title": "Incident escalation paths maintained",
+      "decompositionNote": "The corridor only proves that a signed attestation states the scoped escalation paths and responder contacts are current for the review window. It does not prove that every responder is continuously reachable or every escalation decision is correct.",
+      "reviews": [
         {
           "framework": "ISO 27001",
           "anchorType": "licensed_framework_anchor",
@@ -3269,6 +3495,57 @@
             "authority": "AICPA",
             "documentId": "2017 Trust Services Criteria (With Revised Points of Focus - 2022)",
             "locator": "Category structure only"
+          }
+        },
+        {
+          "framework": "IRAP",
+          "anchorType": "ism_control",
+          "anchorId": "ISM-0576",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "Maintained escalation paths are a narrow documentary slice of keeping the incident-response plan current, actionable, and assigned to real responders.",
+          "authoritativeSource": {
+            "authority": "ACSC ISM",
+            "documentId": "Guidelines for incident response",
+            "locator": "ISM-0576"
+          }
+        },
+        {
+          "framework": "HIPAA Breach Notification Rule",
+          "anchorType": "cfr_section",
+          "anchorId": "45 CFR 164.410",
+          "relation": "intersects-with",
+          "mappingMethod": "semantic",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "Maintained escalation paths intersect with the HIPAA business-associate breach-notice requirement because they help route a discovered breach to the covered entity in time to support the rule's notification chain.",
+          "authoritativeSource": {
+            "authority": "HHS OCR",
+            "documentId": "HIPAA Breach Notification Rule",
+            "locator": "45 CFR 164.410"
+          }
+        },
+        {
+          "framework": "NYDFS 23 NYCRR Part 500",
+          "anchorType": "regulation_section",
+          "anchorId": "23 NYCRR 500.17(a)",
+          "relation": "intersects-with",
+          "mappingMethod": "semantic",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "Maintained escalation paths intersect with the NYDFS notice requirement because they support the fast internal routing needed to determine whether a 72-hour superintendent notice is triggered.",
+          "authoritativeSource": {
+            "authority": "NYDFS",
+            "documentId": "23 NYCRR Part 500",
+            "locator": "Section 500.17(a)"
           }
         }
       ]
@@ -4234,40 +4511,6 @@
       "decompositionNote": "This control only proves that a signed attestation says a retention-and-deletion policy exists for the scoped data classes and systems. It does not prove technical enforcement of every retention limit or deletion workflow.",
       "reviews": [
         {
-          "framework": "GDPR",
-          "anchorType": "article_paragraph_subpoint",
-          "anchorId": "Article 5(1)(e)",
-          "relation": "subset-of",
-          "mappingMethod": "functional",
-          "reviewStatus": "public_source_reviewed",
-          "confidence": "medium",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "A documented retention-and-deletion policy is a narrow documentary slice of the GDPR storage-limitation principle, but it is not equivalent to storage limitation in operation.",
-          "authoritativeSource": {
-            "authority": "EUR-Lex",
-            "documentId": "CELEX:02016R0679-20160504",
-            "locator": "Article 5(1)(e)"
-          }
-        },
-        {
-          "framework": "GDPR",
-          "anchorType": "article_paragraph",
-          "anchorId": "Article 25(2)",
-          "relation": "intersects-with",
-          "mappingMethod": "semantic",
-          "reviewStatus": "public_source_reviewed",
-          "confidence": "medium",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "A scoped policy is one documentary input into data-protection-by-default choices around retention, but it does not settle whether the implemented defaults are appropriate.",
-          "authoritativeSource": {
-            "authority": "EUR-Lex",
-            "documentId": "CELEX:02016R0679-20160504",
-            "locator": "Article 25(2)"
-          }
-        },
-        {
           "framework": "ISO 27001",
           "anchorType": "licensed_framework_anchor",
           "relation": "undetermined",
@@ -4308,14 +4551,24 @@
             "documentId": "2017 Trust Services Criteria (With Revised Points of Focus - 2022)",
             "locator": "Category structure only"
           }
-        }
-      ]
-    },
-    {
-      "controlId": "oc.data-05",
-      "title": "Data retention schedule attested",
-      "decompositionNote": "This control only proves that a signed attestation says retention schedules, exception handling, and secure deletion procedures exist for the scoped lifecycle surface. It does not prove runtime enforcement against every copy or downstream holder.",
-      "reviews": [
+        },
+        {
+          "framework": "GDPR",
+          "anchorType": "article_paragraph",
+          "anchorId": "Article 25(2)",
+          "relation": "intersects-with",
+          "mappingMethod": "semantic",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "A scoped policy is one documentary input into data-protection-by-default choices around retention, but it does not settle whether the implemented defaults are appropriate.",
+          "authoritativeSource": {
+            "authority": "EUR-Lex",
+            "documentId": "CELEX:02016R0679-20160504",
+            "locator": "Article 25(2)"
+          }
+        },
         {
           "framework": "GDPR",
           "anchorType": "article_paragraph_subpoint",
@@ -4326,7 +4579,7 @@
           "confidence": "medium",
           "sourceAvailability": "public_text",
           "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "A defined retention schedule is a narrow documentary slice of the storage-limitation principle because it records how long scoped data should be kept.",
+          "rationale": "A documented retention-and-deletion policy is a narrow documentary slice of the GDPR storage-limitation principle, but it is not equivalent to storage limitation in operation.",
           "authoritativeSource": {
             "authority": "EUR-Lex",
             "documentId": "CELEX:02016R0679-20160504",
@@ -4334,22 +4587,29 @@
           }
         },
         {
-          "framework": "GDPR",
-          "anchorType": "article_paragraph_subpoint",
-          "anchorId": "Article 17(1)(a)",
-          "relation": "intersects-with",
-          "mappingMethod": "semantic",
+          "framework": "CCPA/CPRA",
+          "anchorType": "statute_section",
+          "anchorId": "Cal. Civ. Code 1798.100(a)(3)",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
           "reviewStatus": "public_source_reviewed",
           "confidence": "medium",
           "sourceAvailability": "public_text",
           "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "A retention schedule and secure deletion procedure intersect with the erasure right because they help govern when personal data is no longer necessary for the original purpose.",
+          "rationale": "A documented retention-and-deletion policy is a narrow documentary slice of the CCPA/CPRA requirement to disclose retention periods or criteria and to avoid retaining personal information longer than reasonably necessary.",
           "authoritativeSource": {
-            "authority": "EUR-Lex",
-            "documentId": "CELEX:02016R0679-20160504",
-            "locator": "Article 17(1)(a)"
+            "authority": "California Legislature",
+            "documentId": "California Consumer Privacy Act / CPRA amendments",
+            "locator": "Cal. Civ. Code 1798.100(a)(3)"
           }
-        },
+        }
+      ]
+    },
+    {
+      "controlId": "oc.data-05",
+      "title": "Data retention schedule attested",
+      "decompositionNote": "This control only proves that a signed attestation says retention schedules, exception handling, and secure deletion procedures exist for the scoped lifecycle surface. It does not prove runtime enforcement against every copy or downstream holder.",
+      "reviews": [
         {
           "framework": "ISO 27001",
           "anchorType": "licensed_framework_anchor",
@@ -4391,6 +4651,91 @@
             "documentId": "2017 Trust Services Criteria (With Revised Points of Focus - 2022)",
             "locator": "Category structure only"
           }
+        },
+        {
+          "framework": "GDPR",
+          "anchorType": "article_paragraph_subpoint",
+          "anchorId": "Article 17(1)(a)",
+          "relation": "intersects-with",
+          "mappingMethod": "semantic",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "A retention schedule and secure deletion procedure intersect with the erasure right because they help govern when personal data is no longer necessary for the original purpose.",
+          "authoritativeSource": {
+            "authority": "EUR-Lex",
+            "documentId": "CELEX:02016R0679-20160504",
+            "locator": "Article 17(1)(a)"
+          }
+        },
+        {
+          "framework": "GDPR",
+          "anchorType": "article_paragraph_subpoint",
+          "anchorId": "Article 5(1)(e)",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "A defined retention schedule is a narrow documentary slice of the storage-limitation principle because it records how long scoped data should be kept.",
+          "authoritativeSource": {
+            "authority": "EUR-Lex",
+            "documentId": "CELEX:02016R0679-20160504",
+            "locator": "Article 5(1)(e)"
+          }
+        },
+        {
+          "framework": "GLBA Safeguards Rule",
+          "anchorType": "cfr_section",
+          "anchorId": "16 CFR 314.4(c)(6)",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "A defined retention schedule is a narrow documentary slice of the Safeguards Rule secure-disposal requirement because it records when scoped customer information is no longer needed and should be removed.",
+          "authoritativeSource": {
+            "authority": "FTC",
+            "documentId": "FTC Safeguards Rule: What Your Business Needs to Know",
+            "locator": "16 CFR 314.4(c)(6)"
+          }
+        },
+        {
+          "framework": "NYDFS 23 NYCRR Part 500",
+          "anchorType": "regulation_section",
+          "anchorId": "23 NYCRR 500.13",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "A defined retention schedule is a narrow documentary slice of the NYDFS requirement for secure disposal on a periodic basis of nonpublic information that is no longer necessary for business operations or other legitimate purposes.",
+          "authoritativeSource": {
+            "authority": "NYDFS",
+            "documentId": "23 NYCRR Part 500",
+            "locator": "Section 500.13"
+          }
+        },
+        {
+          "framework": "CCPA/CPRA",
+          "anchorType": "statute_section",
+          "anchorId": "Cal. Civ. Code 1798.100(a)(3)",
+          "relation": "subset-of",
+          "mappingMethod": "functional",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "A defined retention schedule is a narrow documentary slice of the CCPA/CPRA retention-disclosure and data-retention-limitation requirement because it records how long scoped data should be kept or what criteria determine that period.",
+          "authoritativeSource": {
+            "authority": "California Legislature",
+            "documentId": "California Consumer Privacy Act / CPRA amendments",
+            "locator": "Cal. Civ. Code 1798.100(a)(3)"
+          }
         }
       ]
     },
@@ -4399,40 +4744,6 @@
       "title": "Data retention and deletion adequacy boundary",
       "decompositionNote": "This control is intentionally judgment-routed. The corridor records whether a named reviewer accepted responsibility for the scoped retention and deletion adequacy judgment and keeps that judgment separate from the narrower policy and schedule attestations.",
       "reviews": [
-        {
-          "framework": "GDPR",
-          "anchorType": "article_paragraph_subpoint",
-          "anchorId": "Article 5(1)(e)",
-          "relation": "intersects-with",
-          "mappingMethod": "semantic",
-          "reviewStatus": "public_source_reviewed",
-          "confidence": "medium",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "The adequacy boundary captures the explicit human judgment about whether scoped retention and deletion arrangements actually satisfy storage limitation in practice.",
-          "authoritativeSource": {
-            "authority": "EUR-Lex",
-            "documentId": "CELEX:02016R0679-20160504",
-            "locator": "Article 5(1)(e)"
-          }
-        },
-        {
-          "framework": "GDPR",
-          "anchorType": "article_paragraph",
-          "anchorId": "Article 17(1)",
-          "relation": "intersects-with",
-          "mappingMethod": "semantic",
-          "reviewStatus": "public_source_reviewed",
-          "confidence": "medium",
-          "sourceAvailability": "public_text",
-          "externalReviewState": "not_yet_external_reviewed",
-          "rationale": "The adequacy judgment intersects with the erasure right because it concerns whether scoped deletion paths, exceptions, and downstream holders are governed sufficiently to support Article 17 outcomes.",
-          "authoritativeSource": {
-            "authority": "EUR-Lex",
-            "documentId": "CELEX:02016R0679-20160504",
-            "locator": "Article 17(1)"
-          }
-        },
         {
           "framework": "ISO 27001",
           "anchorType": "licensed_framework_anchor",
@@ -4473,6 +4784,57 @@
             "authority": "AICPA",
             "documentId": "2017 Trust Services Criteria (With Revised Points of Focus - 2022)",
             "locator": "Category structure only"
+          }
+        },
+        {
+          "framework": "GDPR",
+          "anchorType": "article_paragraph",
+          "anchorId": "Article 17(1)",
+          "relation": "intersects-with",
+          "mappingMethod": "semantic",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "The adequacy judgment intersects with the erasure right because it concerns whether scoped deletion paths, exceptions, and downstream holders are governed sufficiently to support Article 17 outcomes.",
+          "authoritativeSource": {
+            "authority": "EUR-Lex",
+            "documentId": "CELEX:02016R0679-20160504",
+            "locator": "Article 17(1)"
+          }
+        },
+        {
+          "framework": "GDPR",
+          "anchorType": "article_paragraph_subpoint",
+          "anchorId": "Article 5(1)(e)",
+          "relation": "intersects-with",
+          "mappingMethod": "semantic",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "The adequacy boundary captures the explicit human judgment about whether scoped retention and deletion arrangements actually satisfy storage limitation in practice.",
+          "authoritativeSource": {
+            "authority": "EUR-Lex",
+            "documentId": "CELEX:02016R0679-20160504",
+            "locator": "Article 5(1)(e)"
+          }
+        },
+        {
+          "framework": "CCPA/CPRA",
+          "anchorType": "statute_section",
+          "anchorId": "Cal. Civ. Code 1798.100(a)(3)",
+          "relation": "intersects-with",
+          "mappingMethod": "semantic",
+          "reviewStatus": "public_source_reviewed",
+          "confidence": "medium",
+          "sourceAvailability": "public_text",
+          "externalReviewState": "not_yet_external_reviewed",
+          "rationale": "The adequacy boundary captures the explicit human judgment about whether scoped retention and deletion arrangements actually satisfy the CCPA/CPRA retention-necessity standard in practice.",
+          "authoritativeSource": {
+            "authority": "California Legislature",
+            "documentId": "California Consumer Privacy Act / CPRA amendments",
+            "locator": "Cal. Civ. Code 1798.100(a)(3)"
           }
         }
       ]

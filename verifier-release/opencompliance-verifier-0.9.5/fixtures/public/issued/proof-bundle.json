@@ -472,19 +472,34 @@
       "result": "attested",
       "frameworkMappings": [
         {
-          "framework": "SOC 2",
-          "family": "incident_response",
-          "controlId": "soc2.family.incident_response"
-        },
-        {
           "framework": "ISO 27001",
           "family": "incident_response",
           "controlId": "iso27001.family.incident_response"
         },
         {
+          "framework": "SOC 2",
+          "family": "incident_response",
+          "controlId": "soc2.family.incident_response"
+        },
+        {
           "framework": "IRAP",
           "family": "incident_response",
           "controlId": "irap.family.incident_response"
+        },
+        {
+          "framework": "HIPAA Breach Notification Rule",
+          "family": "breach_notification_governance",
+          "controlId": "hipaa_breach_notification_rule.family.breach_notification_governance"
+        },
+        {
+          "framework": "GLBA Safeguards Rule",
+          "family": "incident_response_and_notification",
+          "controlId": "glba_safeguards_rule.family.incident_response_and_notification"
+        },
+        {
+          "framework": "NYDFS 23 NYCRR Part 500",
+          "family": "incident_response_program",
+          "controlId": "nydfs_23_nycrr_part_500.family.incident_response_program"
         }
       ],
       "controlRefs": [

@@ -33,7 +33,7 @@ The right public statement is not that ExampleCo is fully certified. The right s
 - **Claim summary**: proved `5`, attested `0`, failed `0`, stale `0`, judgment `0`, missing `0`
 - **Safe statement**: ExampleCo can state that the managed admin and endpoint baseline enforces MFA, default-deny network boundaries, secure configuration, timely patching, and malware protection for the scoped fleet.
 - **Why included**: This is the simplest corridor for buyers who want to see what a genuinely provable slice looks like today.
-- **Frameworks touched**: Cyber Essentials, GDPR, IRAP, ISO 27001, NCSC CAF 4.0, NIST CSF 2.0, NIST SP 800-53 Rev. 5.1, SOC 2
+- **Frameworks touched**: Cyber Essentials, GDPR, GLBA Safeguards Rule, IRAP, ISO 27001, NCSC CAF 4.0, NIST CSF 2.0, NIST SP 800-53 Rev. 5.1, NYDFS 23 NYCRR Part 500, SOC 2
 - **Artifacts**: `cyber-baseline/trust-surface-report.md`, `cyber-baseline/verification-result.json`, `cyber-baseline/certificate.json`
 
 ### Issued mixed corridor (`issued`)
@@ -42,7 +42,7 @@ The right public statement is not that ExampleCo is fully certified. The right s
 - **Claim summary**: proved `9`, attested `5`, failed `0`, stale `0`, judgment `0`, missing `0`
 - **Safe statement**: ExampleCo can state that the scoped identity, logging, access-review, training, restore, and incident-runbook corridor has no blocking gaps, while still disclosing which parts are proved and which parts are attested.
 - **Why included**: This demonstrates the most realistic near-term success path: some controls are proved, others remain documentary, and the certificate still stays narrow.
-- **Frameworks touched**: Cyber Essentials, GDPR, IRAP, ISO 27001, NCSC CAF 4.0, NIST CSF 2.0, NIST SP 800-53 Rev. 5.1, SOC 2
+- **Frameworks touched**: Cyber Essentials, GDPR, GLBA Safeguards Rule, HIPAA Breach Notification Rule, IRAP, ISO 27001, NCSC CAF 4.0, NIST CSF 2.0, NIST SP 800-53 Rev. 5.1, NYDFS 23 NYCRR Part 500, SOC 2
 - **Artifacts**: `issued/trust-surface-report.md`, `issued/verification-result.json`, `issued/certificate.json`
 
 ### AI governance corridor (`ai-governance`)
@@ -106,6 +106,18 @@ The right public statement is not that ExampleCo is fully certified. The right s
 - **Public position**: Framework-adjacent family mappings appear in the public cyber corridor, but adequacy and legal interpretation remain outside the proved slice.
 - **Corridors**: cyber-baseline, issued
 - **Claim summary**: proved `7`, attested `1`, failed `0`, stale `0`, judgment `0`, missing `0`
+
+### GLBA Safeguards Rule
+
+- **Public position**: 
+- **Corridors**: cyber-baseline, issued
+- **Claim summary**: proved `1`, attested `1`, failed `0`, stale `0`, judgment `0`, missing `0`
+
+### HIPAA Breach Notification Rule
+
+- **Public position**: 
+- **Corridors**: issued
+- **Claim summary**: proved `0`, attested `1`, failed `0`, stale `0`, judgment `0`, missing `0`
 
 ### IRAP
 
@@ -196,6 +208,12 @@ The right public statement is not that ExampleCo is fully certified. The right s
 - **Public position**: Crosswalked family-level support only in the cyber baseline corridor.
 - **Corridors**: cyber-baseline, issued
 - **Claim summary**: proved `11`, attested `1`, failed `0`, stale `0`, judgment `0`, missing `0`
+
+### NYDFS 23 NYCRR Part 500
+
+- **Public position**: 
+- **Corridors**: cyber-baseline, issued
+- **Claim summary**: proved `1`, attested `1`, failed `0`, stale `0`, judgment `0`, missing `0`
 
 ### SOC 2
 

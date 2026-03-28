@@ -6,11 +6,11 @@
   "organisation": "ExampleCo",
   "profileId": "cyber_baseline_corridor",
   "outcome": "certificate_issued",
-  "proofBundleSha256": "4b7dc6f174159c862b379142c6f995053273be4d15aa022456a322255f8e0178",
+  "proofBundleSha256": "88611f8f66b4ca290a7135ef19a342c392f0c638234cfafee241d69642e99fbb",
   "trustSurfaceSha256": "9c4a155895010fd089e14d32dd6757f50e3cef5e66392dbc9d5b89d5865eda14",
   "outcomeArtifact": {
     "path": "certificate.json",
-    "sha256": "a2dc38224033a74148af537c625081a6744887a22008edc7be81d1504a5db4ff"
+    "sha256": "b3584aeb43b5bbb8f73415bcf5641fd19de4d0e2fbcef9b3ad0c509e3bfe6ffe"
   },
   "blockingIssueCount": 0
 }

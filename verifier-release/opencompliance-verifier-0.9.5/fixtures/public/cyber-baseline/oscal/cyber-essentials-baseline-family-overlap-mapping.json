@@ -4,13 +4,13 @@
     "metadata": {
       "title": "ExampleCo Cyber Baseline Family Overlap Mapping",
       "last-modified": "2026-03-24T06:10:00Z",
-      "version": "0.6.0",
+      "version": "0.9.5",
       "oscal-version": "1.1.3",
       "remarks": "Synthetic family-level mapping seed. This file does not reproduce framework text and does not claim exact clause, article, or control equivalence."
     },
     "provenance": {
       "method": "manual-family-crosswalk",
-      "matching-rationale": "The public ExampleCo cyber-baseline seed supports family-level mappings from synthetic OpenCompliance controls to proxy SOC 2, ISO 27001, IRAP, GDPR, Cyber Essentials, NCSC CAF 4.0, NIST CSF 2.0, NIST SP 800-53 Rev. 5.1 targets.",
+      "matching-rationale": "The public ExampleCo cyber-baseline seed supports family-level mappings from synthetic OpenCompliance controls to proxy ISO 27001, SOC 2, GDPR, IRAP, NIST CSF 2.0, Cyber Essentials, NCSC CAF 4.0, NIST SP 800-53 Rev. 5.1, GLBA Safeguards Rule, NYDFS 23 NYCRR Part 500 targets.",
       "status": "draft",
       "mapping-description": "Maps the synthetic OpenCompliance cyber-baseline corridor controls to public-safe proxy identifiers representing overlapping framework families."
     },
@@ -30,7 +30,7 @@
           {
             "uuid": "d8caa760-26c7-55b0-90b5-b0a33553501a",
             "relationship": "subset-of",
-            "matching-rationale": "Scoped administrative MFA enforcement is one narrow synthetic OpenCompliance slice of the broader access_control, identity_and_access_management, identity_access, security_of_processing, user_access_control, identity_and_access_control, identity_management_and_access_control, and identification_and_authentication families.",
+            "matching-rationale": "Scoped administrative MFA enforcement is one narrow synthetic OpenCompliance slice of the broader identity_and_access_management, access_control, security_of_processing, identity_access, identity_management_and_access_control, user_access_control, identity_and_access_control, identification_and_authentication, access_controls_and_mfa, and multi_factor_authentication families.",
             "sources": [
               {
                 "type": "control",
@@ -40,11 +40,15 @@
             "targets": [
               {
                 "type": "control",
+                "id-ref": "iso27001.family.identity_and_access_management"
+              },
+              {
+                "type": "control",
                 "id-ref": "soc2.family.access_control"
               },
               {
                 "type": "control",
-                "id-ref": "iso27001.family.identity_and_access_management"
+                "id-ref": "gdpr.family.security_of_processing"
               },
               {
                 "type": "control",
@@ -52,7 +56,7 @@
               },
               {
                 "type": "control",
-                "id-ref": "gdpr.family.security_of_processing"
+                "id-ref": "nist_csf_2_0.family.identity_management_and_access_control"
               },
               {
                 "type": "control",
@@ -64,11 +68,15 @@
               },
               {
                 "type": "control",
-                "id-ref": "nist_csf_2_0.family.identity_management_and_access_control"
+                "id-ref": "nist_sp_800_53_rev_5_1.family.identification_and_authentication"
               },
               {
                 "type": "control",
-                "id-ref": "nist_sp_800_53_rev_5_1.family.identification_and_authentication"
+                "id-ref": "glba_safeguards_rule.family.access_controls_and_mfa"
+              },
+              {
+                "type": "control",
+                "id-ref": "nydfs_23_nycrr_part_500.family.multi_factor_authentication"
               }
             ]
           },

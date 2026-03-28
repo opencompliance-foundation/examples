@@ -3,7 +3,7 @@
   "generatedAt": "2026-03-24T22:00:00Z",
   "bundleId": "exampleco-issued-bundle-2026-03-24",
   "hashAlgorithm": "sha256",
-  "rootHash": "f1ac45ed0925252d6dc54c7f6ec63689a8e3fa99d7acc1428ddc2c528187e78c",
+  "rootHash": "0133cc7d7baa9a848d49f67357ecec2fb4f15b72f369b1139f3eb024dabb3f15",
   "entries": [
     {
       "index": 0,
@@ -16,15 +16,15 @@
       "index": 1,
       "artifactType": "evidence_claims",
       "path": "evidence-claims.json",
-      "artifactSha256": "311f474bf80236d03d0cf9df4f67a1dedc63d8baf7ced15c431f579caeda7606",
-      "leafHash": "7656f20ab1e492503fa8cac6e3d28ab9868245560ea593b19f6a032088899f7c"
+      "artifactSha256": "cd59f7837fd36fbf3b01b73bfd989b04301d1c17d3e7fbd2bc6769c0106ff8f8",
+      "leafHash": "9858a797957ea4a8c8af8cfe99f60c4b8b9316662f46209995806c31ac46c922"
     },
     {
       "index": 2,
       "artifactType": "proof_bundle",
       "path": "proof-bundle.json",
-      "artifactSha256": "8c3c32857dd4553334cfefd0b41677be31e78bcdd18806e243d93f87c8eec602",
-      "leafHash": "c7239bfa9b17094b057e1247abd06e075ce2493f48b889afdcac10d2cdc5a82f"
+      "artifactSha256": "8c95238cf196efeea4a358d62d7e2e164fbd7bd7568446f84ffdc97426db149d",
+      "leafHash": "deccf574541e106f7f26ae6e4d04f0ea77aca38944e5802dddfa4773f16c17be"
     },
     {
       "index": 3,
@@ -37,29 +37,29 @@
       "index": 4,
       "artifactType": "verification_result",
       "path": "verification-result.json",
-      "artifactSha256": "89d13093a939afbd763814c30c54cda56f38028ed45fe1a4cca5fc5b213cfb24",
-      "leafHash": "cde1ef94f2c58af3ae3add4ed1222b7f377cb151ba181d92c55aa6cc224976f7"
+      "artifactSha256": "3fedd6bdb6c3538e56c610c97a85b16eb756e75c853df8fe93074ea1beabae35",
+      "leafHash": "ba3eeb49f443b10822478e6282a0912919a5b587f5213a465777817c67505ee0"
     },
     {
       "index": 5,
       "artifactType": "certificate",
       "path": "certificate.json",
-      "artifactSha256": "56432ced31cc58a35737232d33c50f1e4ca71c13f46abdfb94c268a320900d41",
-      "leafHash": "045e928338d69187dae8e9468021e27b76faa77a7ac14a187e0c4bce654bdf75"
+      "artifactSha256": "34b95217db1ecf35a68d7153727e3e275066c827a67e8c9df62831d203ce49d1",
+      "leafHash": "2434830e22baf35e5a639277e26451d0a57bd09539cf9396128b24bf1ae4a517"
     },
     {
       "index": 6,
       "artifactType": "replay_bundle",
       "path": "replay-bundle.json",
-      "artifactSha256": "52d10fd9bca24ce8839752c97f1f3a3ea57425b3c4e27d944ab936540d868586",
-      "leafHash": "e6b82948945319c416d201523a09c51fcffdc32b3e5ac6b2535b988ba17a4b40"
+      "artifactSha256": "823d9caa36b7d95dca7c11509096d1728bdaab7859511f8baec80b9e7410a756",
+      "leafHash": "3a32137823312c9d7249a59fe98f7d6928db2ec10db0a6ae80dc98a697ad3c82"
     },
     {
       "index": 7,
       "artifactType": "witness_receipt",
       "path": "witness-receipt.json",
-      "artifactSha256": "c2a7cc9cc3903b1e7fb785e47051ff42e9584409e81699de3f59fadb7f73e117",
-      "leafHash": "4f5e821b4958f649d67594b6a100d24594654a5451241911971b9f1256586260"
+      "artifactSha256": "f5fda5aae36ec1799f7133d5998a8a546c43216e5f734d81153044aea2b8b127",
+      "leafHash": "4e2ecbf8dee5969a2802195b1a98b13212bf666417812d80e0de6ee01452316a"
     },
     {
       "index": 8,

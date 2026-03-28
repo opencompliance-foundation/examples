@@ -2179,27 +2179,35 @@
       "operatorBenefit": "Essential for healthcare startups that need role, use-and-disclosure, minimum-necessary, and patient-rights boundaries alongside security safeguards.",
       "nextAction": "Treat it as the privacy-operations companion to the HIPAA Security Rule, starting with rights handling, disclosures, workforce access, and business-associate boundaries.",
       "summary": {
-        "mappedPublicControls": 0,
-        "implementedPublicControls": 0,
+        "mappedPublicControls": 1,
+        "implementedPublicControls": 1,
         "plannedPublicControls": 0,
         "leanBackedPublicControls": 0,
         "routeCounts": {
           "decidable": 0,
-          "attestation": 0,
+          "attestation": 1,
           "judgment": 0
         },
         "exactAnchorStatusCounts": {
-          "public_source_reviewed": 0,
+          "public_source_reviewed": 1,
           "candidate_public_source_unreviewed": 0,
           "blocked_nonpublic_source_review": 0
         }
       },
-      "mappedControlIds": [],
-      "implementedControlIds": [],
-      "reviewedControlIds": [],
+      "mappedControlIds": [
+        "oc.vendor-02"
+      ],
+      "implementedControlIds": [
+        "oc.vendor-02"
+      ],
+      "reviewedControlIds": [
+        "oc.vendor-02"
+      ],
       "candidateControlIds": [],
       "blockedControlIds": [],
-      "nextDepthControlIds": []
+      "nextDepthControlIds": [
+        "oc.vendor-02"
+      ]
     },
     {
       "framework": "HIPAA Breach Notification Rule",
@@ -2211,27 +2219,39 @@
       "operatorBenefit": "Important for healthcare startups that need explicit breach assessment, notification, and incident-escalation obligations rather than a generic incident-response story.",
       "nextAction": "Treat it as the healthcare incident-and-notification companion to the HIPAA rules, starting with breach assessment, affected-party notification, and regulator-facing evidence.",
       "summary": {
-        "mappedPublicControls": 0,
-        "implementedPublicControls": 0,
+        "mappedPublicControls": 2,
+        "implementedPublicControls": 2,
         "plannedPublicControls": 0,
         "leanBackedPublicControls": 0,
         "routeCounts": {
           "decidable": 0,
-          "attestation": 0,
+          "attestation": 2,
           "judgment": 0
         },
         "exactAnchorStatusCounts": {
-          "public_source_reviewed": 0,
+          "public_source_reviewed": 2,
           "candidate_public_source_unreviewed": 0,
           "blocked_nonpublic_source_review": 0
         }
       },
-      "mappedControlIds": [],
-      "implementedControlIds": [],
-      "reviewedControlIds": [],
+      "mappedControlIds": [
+        "oc.ir-01",
+        "oc.ir-02"
+      ],
+      "implementedControlIds": [
+        "oc.ir-01",
+        "oc.ir-02"
+      ],
+      "reviewedControlIds": [
+        "oc.ir-01",
+        "oc.ir-02"
+      ],
       "candidateControlIds": [],
       "blockedControlIds": [],
-      "nextDepthControlIds": []
+      "nextDepthControlIds": [
+        "oc.ir-01",
+        "oc.ir-02"
+      ]
     },
     {
       "framework": "GLBA Safeguards Rule",
@@ -2243,27 +2263,54 @@
       "operatorBenefit": "Relevant for fintech and financial-service startups that qualify as financial institutions and need a concrete customer-information security baseline.",
       "nextAction": "Treat it as a fintech trigger regime and start with overlap to risk assessment, access, vendor oversight, encryption, and incident-response controls.",
       "summary": {
-        "mappedPublicControls": 0,
-        "implementedPublicControls": 0,
-        "plannedPublicControls": 0,
-        "leanBackedPublicControls": 0,
+        "mappedPublicControls": 6,
+        "implementedPublicControls": 5,
+        "plannedPublicControls": 1,
+        "leanBackedPublicControls": 3,
         "routeCounts": {
-          "decidable": 0,
-          "attestation": 0,
+          "decidable": 3,
+          "attestation": 3,
           "judgment": 0
         },
         "exactAnchorStatusCounts": {
-          "public_source_reviewed": 0,
+          "public_source_reviewed": 6,
           "candidate_public_source_unreviewed": 0,
           "blocked_nonpublic_source_review": 0
         }
       },
-      "mappedControlIds": [],
-      "implementedControlIds": [],
-      "reviewedControlIds": [],
+      "mappedControlIds": [
+        "oc.data-05",
+        "oc.id-01",
+        "oc.ir-01",
+        "oc.log-01",
+        "oc.net-01",
+        "oc.vendor-02"
+      ],
+      "implementedControlIds": [
+        "oc.id-01",
+        "oc.ir-01",
+        "oc.log-01",
+        "oc.net-01",
+        "oc.vendor-02"
+      ],
+      "reviewedControlIds": [
+        "oc.data-05",
+        "oc.id-01",
+        "oc.ir-01",
+        "oc.log-01",
+        "oc.net-01",
+        "oc.vendor-02"
+      ],
       "candidateControlIds": [],
       "blockedControlIds": [],
-      "nextDepthControlIds": []
+      "nextDepthControlIds": [
+        "oc.id-01",
+        "oc.log-01",
+        "oc.net-01",
+        "oc.ir-01",
+        "oc.vendor-02",
+        "oc.data-05"
+      ]
     },
     {
       "framework": "NYDFS 23 NYCRR Part 500",
@@ -2275,27 +2322,58 @@
       "operatorBenefit": "Important for startups serving or becoming covered entities in New York financial services, where cybersecurity governance, controls, and notifications become regulator-facing obligations.",
       "nextAction": "Treat it as a financial-sector trigger regime and begin with governance, access, MFA, vulnerability management, incident reporting, and third-party risk overlap.",
       "summary": {
-        "mappedPublicControls": 0,
-        "implementedPublicControls": 0,
-        "plannedPublicControls": 0,
-        "leanBackedPublicControls": 0,
+        "mappedPublicControls": 7,
+        "implementedPublicControls": 6,
+        "plannedPublicControls": 1,
+        "leanBackedPublicControls": 3,
         "routeCounts": {
-          "decidable": 0,
-          "attestation": 0,
+          "decidable": 3,
+          "attestation": 4,
           "judgment": 0
         },
         "exactAnchorStatusCounts": {
-          "public_source_reviewed": 0,
+          "public_source_reviewed": 7,
           "candidate_public_source_unreviewed": 0,
           "blocked_nonpublic_source_review": 0
         }
       },
-      "mappedControlIds": [],
-      "implementedControlIds": [],
-      "reviewedControlIds": [],
+      "mappedControlIds": [
+        "oc.data-05",
+        "oc.id-01",
+        "oc.ir-01",
+        "oc.ir-02",
+        "oc.log-01",
+        "oc.net-01",
+        "oc.vendor-02"
+      ],
+      "implementedControlIds": [
+        "oc.id-01",
+        "oc.ir-01",
+        "oc.ir-02",
+        "oc.log-01",
+        "oc.net-01",
+        "oc.vendor-02"
+      ],
+      "reviewedControlIds": [
+        "oc.data-05",
+        "oc.id-01",
+        "oc.ir-01",
+        "oc.ir-02",
+        "oc.log-01",
+        "oc.net-01",
+        "oc.vendor-02"
+      ],
       "candidateControlIds": [],
       "blockedControlIds": [],
-      "nextDepthControlIds": []
+      "nextDepthControlIds": [
+        "oc.id-01",
+        "oc.log-01",
+        "oc.net-01",
+        "oc.ir-01",
+        "oc.ir-02",
+        "oc.vendor-02",
+        "oc.data-05"
+      ]
     },
     {
       "framework": "CCPA/CPRA",
@@ -2307,27 +2385,49 @@
       "operatorBenefit": "Important for consumer-facing startups operating in California or meeting California thresholds, especially where notices, rights, sharing, and retention become commercially material.",
       "nextAction": "Treat it as the main US state privacy-law companion to GDPR and start with rights, notices, retention, service-provider, and sharing boundaries.",
       "summary": {
-        "mappedPublicControls": 0,
-        "implementedPublicControls": 0,
-        "plannedPublicControls": 0,
+        "mappedPublicControls": 5,
+        "implementedPublicControls": 3,
+        "plannedPublicControls": 2,
         "leanBackedPublicControls": 0,
         "routeCounts": {
           "decidable": 0,
-          "attestation": 0,
-          "judgment": 0
+          "attestation": 4,
+          "judgment": 1
         },
         "exactAnchorStatusCounts": {
-          "public_source_reviewed": 0,
+          "public_source_reviewed": 5,
           "candidate_public_source_unreviewed": 0,
           "blocked_nonpublic_source_review": 0
         }
       },
-      "mappedControlIds": [],
-      "implementedControlIds": [],
-      "reviewedControlIds": [],
+      "mappedControlIds": [
+        "oc.data-04",
+        "oc.data-05",
+        "oc.data-06",
+        "oc.privacy-01",
+        "oc.vendor-02"
+      ],
+      "implementedControlIds": [
+        "oc.data-04",
+        "oc.privacy-01",
+        "oc.vendor-02"
+      ],
+      "reviewedControlIds": [
+        "oc.data-04",
+        "oc.data-05",
+        "oc.data-06",
+        "oc.privacy-01",
+        "oc.vendor-02"
+      ],
       "candidateControlIds": [],
       "blockedControlIds": [],
-      "nextDepthControlIds": []
+      "nextDepthControlIds": [
+        "oc.data-04",
+        "oc.privacy-01",
+        "oc.vendor-02",
+        "oc.data-05",
+        "oc.data-06"
+      ]
     },
     {
       "framework": "COPPA",
