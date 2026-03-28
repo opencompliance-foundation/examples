@@ -1,0 +1,13 @@
+{
+  "collectedAt": "2026-03-24T01:41:00Z",
+  "sourceSystem": "example-project-governance",
+  "actorId": "project-security-owner@exampleco.test",
+  "environment": "organisation",
+  "assetGroup": "project_portfolio",
+  "evaluatedAt": "2026-03-24T01:41:00Z",
+  "expiresAt": "2026-06-22T01:41:00Z",
+  "signatureType": "synthetic_ed25519_attestation",
+  "reviewPerformed": true,
+  "exceptionsTracked": true,
+  "reviewWindowDays": 90
+}

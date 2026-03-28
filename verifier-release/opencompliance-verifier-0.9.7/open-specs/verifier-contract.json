@@ -1,0 +1,306 @@
+{
+  "$schema": "https://opencompliancefoundation.com/specs/schemas/verifier-contract.schema.json",
+  "contractId": "opencompliance-public-verifier-contract-v7",
+  "contractVersion": 7,
+  "verifierVersion": "opencompliance-verifier/0.9.7",
+  "releaseId": "opencompliance-verifier-0.9.7",
+  "releaseGeneratedAt": "2026-03-28T06:34:36Z",
+  "bundleLayoutVersion": 1,
+  "includedFixtures": [
+    "minimal",
+    "failed",
+    "stale",
+    "medium",
+    "issued",
+    "cyber-baseline",
+    "ai-governance"
+  ],
+  "entrypoints": {
+    "verifyFixture": "scripts/verify_fixture.py",
+    "serveVerifyApi": "scripts/serve_verify_api.py",
+    "localVerifyWorkbench": "ui/verify/index.html",
+    "runLeanBatch": "scripts/run_lean_batch.py",
+    "attestReleaseBundle": "scripts/attest_release_bundle.py",
+    "validateExamples": "conformance/scripts/validate_public_examples.py",
+    "verifySignedArtifacts": "scripts/verify_signed_artifacts.py",
+    "verifyTransparency": "scripts/verify_transparency_log.py"
+  },
+  "includedRoots": [
+    "src/",
+    "scripts/",
+    "open-specs/",
+    "lean4-controls/",
+    "evidence-schema/",
+    "conformance/",
+    "docs/",
+    "ui/",
+    "fixtures/public/"
+  ],
+  "releaseArtifacts": {
+    "releaseManifest": {
+      "relativeTo": "releaseRoot",
+      "path": "release-manifest.json",
+      "schema": "https://opencompliancefoundation.com/specs/schemas/verifier-release.schema.json",
+      "required": true
+    },
+    "verifierContract": {
+      "relativeTo": "releaseRoot",
+      "path": "open-specs/verifier-contract.json",
+      "schema": "https://opencompliancefoundation.com/specs/schemas/verifier-contract.schema.json",
+      "required": true
+    },
+    "signedArtifactManifest": {
+      "relativeTo": "releaseRoot",
+      "path": "signed-artifact-manifest.json",
+      "schema": "https://opencompliancefoundation.com/specs/schemas/signed-artifact-manifest.schema.json",
+      "required": true
+    },
+    "publicKey": {
+      "relativeTo": "releaseRoot",
+      "path": "public-key.pem",
+      "contentType": "application/x-pem-file",
+      "required": true
+    },
+    "releaseAttestation": {
+      "relativeTo": "releaseRoot",
+      "path": "release-attestation.json",
+      "schema": "https://opencompliancefoundation.com/specs/schemas/release-attestation.schema.json",
+      "required": true
+    }
+  },
+  "trustRegistries": {
+    "actorTrustPolicies": {
+      "relativeTo": "releaseRoot",
+      "path": "open-specs/actor-trust-policies.json",
+      "schema": "https://opencompliancefoundation.com/specs/schemas/actor-trust-policies.schema.json",
+      "required": true
+    },
+    "actorIdentities": {
+      "relativeTo": "releaseRoot",
+      "path": "open-specs/actor-identities.json",
+      "schema": "https://opencompliancefoundation.com/specs/schemas/actor-identities.schema.json",
+      "required": true
+    },
+    "connectorIngressProfiles": {
+      "relativeTo": "releaseRoot",
+      "path": "open-specs/connector-ingress-profiles.json",
+      "schema": "https://opencompliancefoundation.com/specs/schemas/connector-ingress-profiles.schema.json",
+      "required": true
+    },
+    "trustRootProfiles": {
+      "relativeTo": "releaseRoot",
+      "path": "open-specs/trust-root-profiles.json",
+      "schema": "https://opencompliancefoundation.com/specs/schemas/trust-root-profiles.schema.json",
+      "required": true
+    }
+  },
+  "fixtureArtifacts": {
+    "classificationResult": {
+      "relativeTo": "fixtureRoot",
+      "path": "classification-result.json",
+      "schema": "https://opencompliancefoundation.com/specs/schemas/classification-result.schema.json",
+      "required": true
+    },
+    "proofBundle": {
+      "relativeTo": "fixtureRoot",
+      "path": "proof-bundle.json",
+      "schema": "https://opencompliancefoundation.com/specs/schemas/proof-bundle.schema.json",
+      "required": true
+    },
+    "verificationResult": {
+      "relativeTo": "fixtureRoot",
+      "path": "verification-result.json",
+      "schema": "https://opencompliancefoundation.com/specs/schemas/verification-result.schema.json",
+      "required": true
+    },
+    "replayBundle": {
+      "relativeTo": "fixtureRoot",
+      "path": "replay-bundle.json",
+      "schema": "https://opencompliancefoundation.com/specs/schemas/replay-bundle.schema.json",
+      "required": true
+    },
+    "transparencyLog": {
+      "relativeTo": "fixtureRoot",
+      "path": "transparency-log.json",
+      "schema": "https://opencompliancefoundation.com/specs/schemas/transparency-log.schema.json",
+      "required": true
+    },
+    "inclusionProofs": {
+      "relativeTo": "fixtureRoot",
+      "path": "inclusion-proofs.json",
+      "schema": "https://opencompliancefoundation.com/specs/schemas/inclusion-proofs.schema.json",
+      "required": true
+    },
+    "witnessReceipt": {
+      "relativeTo": "fixtureRoot",
+      "path": "witness-receipt.json",
+      "schema": "https://opencompliancefoundation.com/specs/schemas/witness-receipt.schema.json",
+      "required": true
+    },
+    "revocation": {
+      "relativeTo": "fixtureRoot",
+      "path": "revocation.json",
+      "schema": "https://opencompliancefoundation.com/specs/schemas/revocation.schema.json",
+      "required": true
+    },
+    "trustSurfaceReport": {
+      "relativeTo": "fixtureRoot",
+      "path": "trust-surface-report.md",
+      "contentType": "text/markdown",
+      "required": true
+    },
+    "oscalAssessmentResults": {
+      "relativeTo": "fixtureRoot",
+      "pathPattern": "oscal/*assessment-results.json",
+      "contentType": "application/json",
+      "required": true
+    },
+    "certificate": {
+      "relativeTo": "fixtureRoot",
+      "path": "certificate.json",
+      "schema": "https://opencompliancefoundation.com/specs/schemas/certificate.schema.json",
+      "required": false
+    },
+    "punchList": {
+      "relativeTo": "fixtureRoot",
+      "path": "punch-list.json",
+      "schema": "https://opencompliancefoundation.com/specs/schemas/punch-list.schema.json",
+      "required": false
+    }
+  },
+  "artifactPolicies": {
+    "alwaysRequired": [
+      "classificationResult",
+      "proofBundle",
+      "verificationResult",
+      "replayBundle",
+      "transparencyLog",
+      "inclusionProofs",
+      "witnessReceipt",
+      "revocation",
+      "trustSurfaceReport",
+      "oscalAssessmentResults"
+    ],
+    "byVerificationOutcome": {
+      "certificate_issued": [
+        "certificate"
+      ],
+      "punch_list_issued": [
+        "punchList"
+      ]
+    }
+  },
+  "apiSurface": {
+    "transport": "http-json-local",
+    "defaultHost": "127.0.0.1",
+    "defaultPort": 8788,
+    "requestModes": [
+      "fixture_path",
+      "inline_bundle"
+    ],
+    "endpoints": {
+      "healthz": {
+        "method": "GET",
+        "path": "/healthz"
+      },
+      "fixtures": {
+        "method": "GET",
+        "path": "/fixtures"
+      },
+      "contract": {
+        "method": "GET",
+        "path": "/contract"
+      },
+      "verify": {
+        "method": "POST",
+        "path": "/verify"
+      }
+    }
+  },
+  "typedBoundary": {
+    "source": "LegalLean",
+    "controlRoutes": [
+      "decidable",
+      "attestation",
+      "judgment"
+    ],
+    "claimResults": [
+      "proved",
+      "attested",
+      "failed",
+      "stale_evidence",
+      "judgment_required",
+      "evidence_missing"
+    ],
+    "summaryFields": [
+      "proved",
+      "attested",
+      "failed",
+      "staleEvidence",
+      "judgmentRequired",
+      "evidenceMissing"
+    ],
+    "proofRunnerStatuses": [
+      "verified"
+    ],
+    "requiredTypedModules": [
+      "OpenCompliance.Controls.Typed.TypedIdentity",
+      "OpenCompliance.Controls.Typed.TypedLogging",
+      "OpenCompliance.Controls.Typed.RiskAcceptance",
+      "OpenCompliance.Controls.Typed.DiscretionaryTerms",
+      "OpenCompliance.Controls.Typed.ComplianceSolver",
+      "OpenCompliance.Controls.Typed.PublicRuntime"
+    ],
+    "requiredModuleCoverage": {
+      "OpenCompliance.Controls.Typed.TypedIdentity": [
+        "FormalisationBoundary.formal",
+        "FormalisationBoundary.boundary",
+        "RequiresHumanDetermination"
+      ],
+      "OpenCompliance.Controls.Typed.TypedLogging": [
+        "FormalisationBoundary.formal",
+        "FormalisationBoundary.boundary",
+        "narrow_audit_logging_runtime"
+      ],
+      "OpenCompliance.Controls.Typed.RiskAcceptance": [
+        "Defeats",
+        "risk_acceptance_override"
+      ],
+      "OpenCompliance.Controls.Typed.DiscretionaryTerms": [
+        "Vague",
+        "judgment_boundary_inventory"
+      ],
+      "OpenCompliance.Controls.Typed.ComplianceSolver": [
+        "LegalLean.Solver",
+        "minimal_claim_corpus",
+        "runtime_claim_decisions"
+      ],
+      "OpenCompliance.Controls.Typed.PublicRuntime": [
+        "formalDecision",
+        "documentaryDecision",
+        "judgmentDecision",
+        "public_corridor_runtime_claim_decisions"
+      ]
+    },
+    "requiredRuntimeStatusFlags": [
+      "typedControlResultsLive",
+      "riskAcceptanceDefeasibilityLive",
+      "discretionaryTermTypingLive",
+      "fullMinimalSolverAgreement",
+      "pythonVerdictLayerReplaced"
+    ],
+    "requiredBoundaryInventoryFields": [
+      "provedClaimCount",
+      "leanBackedClaimCount",
+      "omittedProvedClaims"
+    ]
+  },
+  "notes": [
+    "This contract describes the current synthetic public verifier release, not arbitrary live-organisation inputs.",
+    "The public verifier contract covers runtime-consumed claims, typed boundary metadata, release artifacts, and per-fixture output expectations.",
+    "The local Verify API is now part of the contract surface, but it is still scoped to the current synthetic corridor shapes and known OSCAL seeds rather than arbitrary live-organisation bundles.",
+    "The release-level attestation artifact records bundle self-replay and transparency verification under an explicit witness identity, while the signed bundle manifest remains a separate verification surface.",
+    "System-export evidence claims are now constrained by a published connector-ingress registry keyed to registered system actor identities, and the release line now also carries explicit trust-root profiles for synthetic fallback versus environment-supplied release and witness identities.",
+    "The public reference release still uses synthetic trust roots by default; live publication roots are now an implemented but opt-in path rather than an undocumented future idea."
+  ]
+}

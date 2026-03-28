@@ -1,0 +1,13 @@
+{
+  "collectedAt": "2026-03-24T01:53:00Z",
+  "sourceSystem": "example-workspace-governance",
+  "actorId": "remote-work-owner@exampleco.test",
+  "environment": "organisation",
+  "assetGroup": "workspace_hygiene_program",
+  "evaluatedAt": "2026-03-24T01:53:00Z",
+  "expiresAt": "2026-06-22T01:53:00Z",
+  "signatureType": "synthetic_ed25519_attestation",
+  "policyCurrent": true,
+  "reviewWindowDays": 90,
+  "workspaceTypesCovered": 3
+}

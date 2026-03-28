@@ -1,0 +1,13 @@
+{
+  "collectedAt": "2026-03-24T01:45:00Z",
+  "sourceSystem": "example-isms-improvement",
+  "actorId": "isms-owner@exampleco.test",
+  "environment": "organisation",
+  "assetGroup": "isms_improvement_cycle",
+  "evaluatedAt": "2026-03-24T01:45:00Z",
+  "expiresAt": "2026-06-22T01:45:00Z",
+  "signatureType": "synthetic_ed25519_attestation",
+  "processDefined": true,
+  "ownerRole": "isms_owner",
+  "reviewWindowDays": 90
+}

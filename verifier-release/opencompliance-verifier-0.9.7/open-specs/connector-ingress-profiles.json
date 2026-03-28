@@ -1,0 +1,321 @@
+{
+  "registryVersion": "0.1.0",
+  "profiles": [
+    {
+      "profileId": "ai-disclosure-exporter",
+      "description": "Synthetic ingress profile for machine-checkable AI disclosure and provenance exports.",
+      "actorIdentityId": "ai-disclosure-exporter",
+      "allowedClaimTypes": [
+        "ai_content_labeling_state",
+        "ai_content_provenance_state"
+      ],
+      "allowedSourceSystems": [
+        "example-assistant-gateway"
+      ],
+      "allowedCollectionMethods": [
+        "synthetic_export"
+      ],
+      "allowedSourcePathPrefixes": [
+        "exports/ai"
+      ]
+    },
+    {
+      "profileId": "architecture-exporter",
+      "description": "Synthetic ingress profile for architecture and segmentation exports.",
+      "actorIdentityId": "architecture-exporter",
+      "allowedClaimTypes": [
+        "environment_segmentation_state"
+      ],
+      "allowedSourceSystems": [
+        "example-architecture"
+      ],
+      "allowedCollectionMethods": [
+        "scheduled_api_export",
+        "synthetic_export"
+      ],
+      "allowedSourcePathPrefixes": [
+        "/synthetic/architecture",
+        "exports/architecture"
+      ]
+    },
+    {
+      "profileId": "asset-inventory-bot",
+      "description": "Synthetic ingress profile for asset inventory and region exports.",
+      "actorIdentityId": "asset-inventory-bot",
+      "allowedClaimTypes": [
+        "approved_region_deployment"
+      ],
+      "allowedSourceSystems": [
+        "example-cloud-asset-inventory"
+      ],
+      "allowedCollectionMethods": [
+        "synthetic_export"
+      ],
+      "allowedSourcePathPrefixes": [
+        "exports/assets"
+      ]
+    },
+    {
+      "profileId": "backup-config-exporter",
+      "description": "Synthetic ingress profile for backup and snapshot schedule exports.",
+      "actorIdentityId": "backup-config-exporter",
+      "allowedClaimTypes": [
+        "backup_snapshot_schedule"
+      ],
+      "allowedSourceSystems": [
+        "example-backup-service"
+      ],
+      "allowedCollectionMethods": [
+        "synthetic_export"
+      ],
+      "allowedSourcePathPrefixes": [
+        "exports/backups"
+      ]
+    },
+    {
+      "profileId": "ci-policy-exporter",
+      "description": "Synthetic ingress profile for CI workflow policy exports.",
+      "actorIdentityId": "ci-policy-exporter",
+      "allowedClaimTypes": [
+        "ci_workflow_policy"
+      ],
+      "allowedSourceSystems": [
+        "example-ci"
+      ],
+      "allowedCollectionMethods": [
+        "synthetic_export"
+      ],
+      "allowedSourcePathPrefixes": [
+        "exports/ci"
+      ]
+    },
+    {
+      "profileId": "cloud-config-exporter",
+      "description": "Synthetic ingress profile for cloud audit logging exports.",
+      "actorIdentityId": "cloud-config-exporter",
+      "allowedClaimTypes": [
+        "audit_logging_state"
+      ],
+      "allowedSourceSystems": [
+        "example-cloud"
+      ],
+      "allowedCollectionMethods": [
+        "scheduled_api_export",
+        "synthetic_export"
+      ],
+      "allowedSourcePathPrefixes": [
+        "/synthetic/cloud",
+        "exports/cloud"
+      ]
+    },
+    {
+      "profileId": "config-exporter",
+      "description": "Synthetic ingress profile for endpoint secure-configuration exports.",
+      "actorIdentityId": "config-exporter",
+      "allowedClaimTypes": [
+        "secure_configuration_state"
+      ],
+      "allowedSourceSystems": [
+        "example-endpoint-manager"
+      ],
+      "allowedCollectionMethods": [
+        "synthetic_export"
+      ],
+      "allowedSourcePathPrefixes": [
+        "exports/endpoints"
+      ]
+    },
+    {
+      "profileId": "edge-config-exporter",
+      "description": "Synthetic ingress profile for edge TLS and WAF exports.",
+      "actorIdentityId": "edge-config-exporter",
+      "allowedClaimTypes": [
+        "tls_ingress_configuration",
+        "web_application_firewall_state"
+      ],
+      "allowedSourceSystems": [
+        "example-edge"
+      ],
+      "allowedCollectionMethods": [
+        "synthetic_export"
+      ],
+      "allowedSourcePathPrefixes": [
+        "exports/edge"
+      ]
+    },
+    {
+      "profileId": "iam-exporter",
+      "description": "Synthetic ingress profile for machine-credential hygiene exports.",
+      "actorIdentityId": "iam-exporter",
+      "allowedClaimTypes": [
+        "service_account_key_hygiene"
+      ],
+      "allowedSourceSystems": [
+        "example-cloud-iam"
+      ],
+      "allowedCollectionMethods": [
+        "synthetic_export"
+      ],
+      "allowedSourcePathPrefixes": [
+        "exports/iam"
+      ]
+    },
+    {
+      "profileId": "idp-review-exporter",
+      "description": "Synthetic ingress profile for access-review exports.",
+      "actorIdentityId": "idp-review-exporter",
+      "allowedClaimTypes": [
+        "access_review_export"
+      ],
+      "allowedSourceSystems": [
+        "example-idp"
+      ],
+      "allowedCollectionMethods": [
+        "synthetic_export"
+      ],
+      "allowedSourcePathPrefixes": [
+        "exports/idp"
+      ]
+    },
+    {
+      "profileId": "idp-sync-bot",
+      "description": "Synthetic ingress profile for identity-provider admin access and password-policy exports.",
+      "actorIdentityId": "idp-sync-bot",
+      "allowedClaimTypes": [
+        "identity_mfa_enforcement",
+        "infrastructure_auth_uniqueness_state",
+        "password_policy_state"
+      ],
+      "allowedSourceSystems": [
+        "example-idp"
+      ],
+      "allowedCollectionMethods": [
+        "scheduled_api_export",
+        "synthetic_export"
+      ],
+      "allowedSourcePathPrefixes": [
+        "/synthetic/idp",
+        "exports/idp"
+      ]
+    },
+    {
+      "profileId": "malware-exporter",
+      "description": "Synthetic ingress profile for endpoint malware-protection exports.",
+      "actorIdentityId": "malware-exporter",
+      "allowedClaimTypes": [
+        "malware_protection_state"
+      ],
+      "allowedSourceSystems": [
+        "example-endpoint-protection"
+      ],
+      "allowedCollectionMethods": [
+        "synthetic_export"
+      ],
+      "allowedSourcePathPrefixes": [
+        "exports/endpoints"
+      ]
+    },
+    {
+      "profileId": "monitoring-config-exporter",
+      "description": "Synthetic ingress profile for centralized monitoring exports.",
+      "actorIdentityId": "monitoring-config-exporter",
+      "allowedClaimTypes": [
+        "central_monitoring_state"
+      ],
+      "allowedSourceSystems": [
+        "example-monitoring"
+      ],
+      "allowedCollectionMethods": [
+        "synthetic_export"
+      ],
+      "allowedSourcePathPrefixes": [
+        "exports/monitoring"
+      ]
+    },
+    {
+      "profileId": "network-exporter",
+      "description": "Synthetic ingress profile for network boundary exports.",
+      "actorIdentityId": "network-exporter",
+      "allowedClaimTypes": [
+        "network_firewall_boundary"
+      ],
+      "allowedSourceSystems": [
+        "example-network"
+      ],
+      "allowedCollectionMethods": [
+        "synthetic_export"
+      ],
+      "allowedSourcePathPrefixes": [
+        "exports/network"
+      ]
+    },
+    {
+      "profileId": "patch-exporter",
+      "description": "Synthetic ingress profile for security update exports.",
+      "actorIdentityId": "patch-exporter",
+      "allowedClaimTypes": [
+        "security_update_state"
+      ],
+      "allowedSourceSystems": [
+        "example-vulnerability-manager"
+      ],
+      "allowedCollectionMethods": [
+        "synthetic_export"
+      ],
+      "allowedSourcePathPrefixes": [
+        "exports/endpoints"
+      ]
+    },
+    {
+      "profileId": "remote-access-exporter",
+      "description": "Synthetic ingress profile for remote-access posture exports.",
+      "actorIdentityId": "remote-access-exporter",
+      "allowedClaimTypes": [
+        "remote_access_posture_state"
+      ],
+      "allowedSourceSystems": [
+        "example-remote-access"
+      ],
+      "allowedCollectionMethods": [
+        "synthetic_export"
+      ],
+      "allowedSourcePathPrefixes": [
+        "exports/remote"
+      ]
+    },
+    {
+      "profileId": "repo-policy-exporter",
+      "description": "Synthetic ingress profile for repository protection exports.",
+      "actorIdentityId": "repo-policy-exporter",
+      "allowedClaimTypes": [
+        "repo_branch_protection"
+      ],
+      "allowedSourceSystems": [
+        "example-repo"
+      ],
+      "allowedCollectionMethods": [
+        "synthetic_export"
+      ],
+      "allowedSourcePathPrefixes": [
+        "exports/repo"
+      ]
+    },
+    {
+      "profileId": "storage-config-exporter",
+      "description": "Synthetic ingress profile for storage encryption exports.",
+      "actorIdentityId": "storage-config-exporter",
+      "allowedClaimTypes": [
+        "encryption_at_rest_state"
+      ],
+      "allowedSourceSystems": [
+        "example-storage"
+      ],
+      "allowedCollectionMethods": [
+        "synthetic_export"
+      ],
+      "allowedSourcePathPrefixes": [
+        "exports/storage"
+      ]
+    }
+  ]
+}

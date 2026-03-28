@@ -1,0 +1,13 @@
+{
+  "collectedAt": "2026-03-24T01:55:00Z",
+  "sourceSystem": "example-security-community",
+  "actorId": "project-security-owner@exampleco.test",
+  "environment": "organisation",
+  "assetGroup": "external_security_participation",
+  "evaluatedAt": "2026-03-24T01:55:00Z",
+  "expiresAt": "2026-06-22T01:55:00Z",
+  "signatureType": "synthetic_ed25519_attestation",
+  "groupsCovered": 2,
+  "participationCurrent": true,
+  "reviewWindowDays": 90
+}

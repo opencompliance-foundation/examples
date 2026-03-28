@@ -1,0 +1,13 @@
+{
+  "collectedAt": "2026-03-24T01:45:00Z",
+  "sourceSystem": "example-ethics-governance",
+  "actorId": "ethics-owner@exampleco.test",
+  "environment": "organisation",
+  "assetGroup": "intellectual_property_program",
+  "evaluatedAt": "2026-03-24T01:45:00Z",
+  "expiresAt": "2026-06-22T01:45:00Z",
+  "signatureType": "synthetic_ed25519_attestation",
+  "handlingRulesCurrent": true,
+  "ownerRole": "ethics_committee",
+  "reviewWindowDays": 90
+}
