@@ -374,9 +374,139 @@
       "nextAction": "Treat it as a financial-sector trigger regime and start with overlap to resilience, incident, testing, and third-party risk controls before expanding into sector-specific operational detail."
     },
     {
+      "framework": "HIPAA Privacy Rule",
+      "category": "market_triggered",
+      "priorityTier": "market_triggered",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "priority_backlog",
+      "operatorBenefit": "Essential for healthcare startups that need role, use-and-disclosure, minimum-necessary, and patient-rights boundaries alongside security safeguards.",
+      "nextAction": "Treat it as the privacy-operations companion to the HIPAA Security Rule, starting with rights handling, disclosures, workforce access, and business-associate boundaries.",
+      "priorityRank": 38
+    },
+    {
+      "framework": "HIPAA Breach Notification Rule",
+      "category": "market_triggered",
+      "priorityTier": "market_triggered",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "priority_backlog",
+      "operatorBenefit": "Important for healthcare startups that need explicit breach assessment, notification, and incident-escalation obligations rather than a generic incident-response story.",
+      "nextAction": "Treat it as the healthcare incident-and-notification companion to the HIPAA rules, starting with breach assessment, affected-party notification, and regulator-facing evidence.",
+      "priorityRank": 39
+    },
+    {
+      "framework": "GLBA Safeguards Rule",
+      "category": "market_triggered",
+      "priorityTier": "market_triggered",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "priority_backlog",
+      "operatorBenefit": "Relevant for fintech and financial-service startups that qualify as financial institutions and need a concrete customer-information security baseline.",
+      "nextAction": "Treat it as a fintech trigger regime and start with overlap to risk assessment, access, vendor oversight, encryption, and incident-response controls.",
+      "priorityRank": 40
+    },
+    {
+      "framework": "NYDFS 23 NYCRR Part 500",
+      "category": "market_triggered",
+      "priorityTier": "market_triggered",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "priority_backlog",
+      "operatorBenefit": "Important for startups serving or becoming covered entities in New York financial services, where cybersecurity governance, controls, and notifications become regulator-facing obligations.",
+      "nextAction": "Treat it as a financial-sector trigger regime and begin with governance, access, MFA, vulnerability management, incident reporting, and third-party risk overlap.",
+      "priorityRank": 41
+    },
+    {
+      "framework": "CCPA/CPRA",
+      "category": "market_triggered",
+      "priorityTier": "market_triggered",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "priority_backlog",
+      "operatorBenefit": "Important for consumer-facing startups operating in California or meeting California thresholds, especially where notices, rights, sharing, and retention become commercially material.",
+      "nextAction": "Treat it as the main US state privacy-law companion to GDPR and start with rights, notices, retention, service-provider, and sharing boundaries.",
+      "priorityRank": 42
+    },
+    {
+      "framework": "COPPA",
+      "category": "market_triggered",
+      "priorityTier": "market_triggered",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "priority_backlog",
+      "operatorBenefit": "Critical for startups with child-directed products or mixed-audience services where parental notice, consent, and data-handling obligations become product-shaping constraints.",
+      "nextAction": "Treat it as a children-privacy trigger regime and start with consent, notice, retention, and third-party disclosure boundaries.",
+      "priorityRank": 43
+    },
+    {
+      "framework": "FERPA",
+      "category": "market_triggered",
+      "priorityTier": "market_triggered",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "priority_backlog",
+      "operatorBenefit": "Relevant for edtech startups handling education records or working directly with schools and institutions that need explicit disclosure and access boundaries.",
+      "nextAction": "Treat it as an education-sector trigger regime and start with access, disclosure, record-correction, and school-official or processor-style role boundaries.",
+      "priorityRank": 44
+    },
+    {
+      "framework": "GovRAMP",
+      "category": "market_triggered",
+      "priorityTier": "market_triggered",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "priority_backlog",
+      "operatorBenefit": "Relevant for startups pursuing state and local government cloud business that needs a recognizable authorization and package story before full federal FedRAMP scope makes sense.",
+      "nextAction": "Treat it as a state-and-local public-sector trigger regime and start with reusable package structure, assessor expectations, and NIST-overlap control coverage.",
+      "priorityRank": 45
+    },
+    {
+      "framework": "CJIS Security Policy",
+      "category": "market_triggered",
+      "priorityTier": "market_triggered",
+      "sourceAvailability": "public_exact_feasible",
+      "openComplianceState": "priority_backlog",
+      "operatorBenefit": "Important for govtech or public-safety startups touching criminal justice information, where personnel, access, encryption, location, and operational safeguards become decisive.",
+      "nextAction": "Treat it as a law-enforcement-data trigger regime and start with identity, encryption, physical, personnel, and media-handling overlap to existing controls.",
+      "priorityRank": 46
+    },
+    {
+      "framework": "HITRUST CSF",
+      "category": "market_triggered",
+      "priorityTier": "market_triggered",
+      "sourceAvailability": "blocked_nonpublic_source_review",
+      "openComplianceState": "priority_backlog",
+      "operatorBenefit": "Commercially important for some healthcare startups because customers often ask for HITRUST-aligned assurance even when the detailed framework remains licensed or proprietary.",
+      "nextAction": "Treat it as a proprietary healthcare-assurance layer and keep exact-anchor work behind the same publication-boundary and licensed-review rules used for ISO 27001 and SOC 2.",
+      "priorityRank": 47
+    },
+    {
+      "framework": "ISO 13485",
+      "category": "market_triggered",
+      "priorityTier": "market_triggered",
+      "sourceAvailability": "blocked_nonpublic_source_review",
+      "openComplianceState": "priority_backlog",
+      "operatorBenefit": "Important for medtech startups building regulated medical-device quality systems rather than ordinary SaaS products.",
+      "nextAction": "Treat it as a medtech quality-system expansion layer and keep clause-grade publication behind licensed review while identifying overlap to corrective-action, supplier, and design-control evidence.",
+      "priorityRank": 48
+    },
+    {
+      "framework": "ISO 14971",
+      "category": "market_triggered",
+      "priorityTier": "market_triggered",
+      "sourceAvailability": "blocked_nonpublic_source_review",
+      "openComplianceState": "priority_backlog",
+      "operatorBenefit": "Important for startups that need a medical-device risk-management story rather than only a generic cybersecurity or operational-risk posture.",
+      "nextAction": "Treat it as the medtech risk-management layer and keep clause-grade publication behind licensed review while identifying overlap to hazard analysis, residual risk, and post-market evidence.",
+      "priorityRank": 49
+    },
+    {
+      "framework": "IEC 62304",
+      "category": "market_triggered",
+      "priorityTier": "market_triggered",
+      "sourceAvailability": "blocked_nonpublic_source_review",
+      "openComplianceState": "priority_backlog",
+      "operatorBenefit": "Relevant for software-as-medical-device and device-software teams that need a regulated software life-cycle standard beyond ordinary secure-development guidance.",
+      "nextAction": "Treat it as a medtech software-lifecycle expansion layer and keep clause-grade publication behind licensed review while identifying overlap to change control, testing, anomaly handling, and release evidence.",
+      "priorityRank": 50
+    },
+    {
       "framework": "NIST AI 800-1",
       "category": "ai_security",
-      "priorityRank": 38,
+      "priorityRank": 51,
       "priorityTier": "emerging_draft",
       "sourceAvailability": "public_draft",
       "openComplianceState": "emerging_backlog",
@@ -386,7 +516,7 @@
     {
       "framework": "ISO/IEC AWI 25704",
       "category": "ai_assurance",
-      "priorityRank": 39,
+      "priorityRank": 52,
       "priorityTier": "emerging_draft",
       "sourceAvailability": "public_draft",
       "openComplianceState": "emerging_backlog",
@@ -396,7 +526,7 @@
     {
       "framework": "ISO/IEC 42006",
       "category": "ai_assurance",
-      "priorityRank": 40,
+      "priorityRank": 53,
       "priorityTier": "ecosystem_watch",
       "sourceAvailability": "crosswalk_candidate",
       "openComplianceState": "ecosystem_backlog",
@@ -406,7 +536,7 @@
     {
       "framework": "ISO/IEC TS 6254",
       "category": "ai_assurance",
-      "priorityRank": 41,
+      "priorityRank": 54,
       "priorityTier": "candidate_next",
       "sourceAvailability": "crosswalk_candidate",
       "openComplianceState": "priority_backlog",
@@ -416,7 +546,7 @@
     {
       "framework": "ISO/IEC 22989",
       "category": "ai_foundation",
-      "priorityRank": 42,
+      "priorityRank": 55,
       "priorityTier": "ecosystem_watch",
       "sourceAvailability": "crosswalk_candidate",
       "openComplianceState": "ecosystem_backlog",
@@ -426,7 +556,7 @@
     {
       "framework": "ISO/IEC 23053",
       "category": "ai_engineering",
-      "priorityRank": 43,
+      "priorityRank": 56,
       "priorityTier": "candidate_next",
       "sourceAvailability": "crosswalk_candidate",
       "openComplianceState": "priority_backlog",
@@ -436,7 +566,7 @@
     {
       "framework": "ISO/IEC 38507",
       "category": "ai_governance",
-      "priorityRank": 44,
+      "priorityRank": 57,
       "priorityTier": "candidate_next",
       "sourceAvailability": "crosswalk_candidate",
       "openComplianceState": "priority_backlog",
@@ -446,7 +576,7 @@
     {
       "framework": "ISO/IEC AWI 42003",
       "category": "ai_assurance",
-      "priorityRank": 45,
+      "priorityRank": 58,
       "priorityTier": "emerging_draft",
       "sourceAvailability": "public_draft",
       "openComplianceState": "emerging_backlog",

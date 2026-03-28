@@ -507,7 +507,176 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Operator benefit: Important for startups serving the financial sector in Europe, especially where ICT risk, resilience, testing, and third-party oversight are scrutinized contractually or regulatorily.
 - Next action: Treat it as a financial-sector trigger regime and start with overlap to resilience, incident, testing, and third-party risk controls before expanding into sector-specific operational detail.
 
-## 38. NIST AI 800-1
+## 38. HIPAA Privacy Rule
+
+- Category: `market_triggered`
+- Priority tier: `market_triggered`
+- Source availability: `public_exact_feasible`
+- OpenCompliance state: `priority_backlog`
+- Mapped public controls: `0`
+- Implemented public controls: `0`
+- Lean-backed public controls: `0`
+- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Operator benefit: Essential for healthcare startups that need role, use-and-disclosure, minimum-necessary, and patient-rights boundaries alongside security safeguards.
+- Next action: Treat it as the privacy-operations companion to the HIPAA Security Rule, starting with rights handling, disclosures, workforce access, and business-associate boundaries.
+
+## 39. HIPAA Breach Notification Rule
+
+- Category: `market_triggered`
+- Priority tier: `market_triggered`
+- Source availability: `public_exact_feasible`
+- OpenCompliance state: `priority_backlog`
+- Mapped public controls: `0`
+- Implemented public controls: `0`
+- Lean-backed public controls: `0`
+- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Operator benefit: Important for healthcare startups that need explicit breach assessment, notification, and incident-escalation obligations rather than a generic incident-response story.
+- Next action: Treat it as the healthcare incident-and-notification companion to the HIPAA rules, starting with breach assessment, affected-party notification, and regulator-facing evidence.
+
+## 40. GLBA Safeguards Rule
+
+- Category: `market_triggered`
+- Priority tier: `market_triggered`
+- Source availability: `public_exact_feasible`
+- OpenCompliance state: `priority_backlog`
+- Mapped public controls: `0`
+- Implemented public controls: `0`
+- Lean-backed public controls: `0`
+- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Operator benefit: Relevant for fintech and financial-service startups that qualify as financial institutions and need a concrete customer-information security baseline.
+- Next action: Treat it as a fintech trigger regime and start with overlap to risk assessment, access, vendor oversight, encryption, and incident-response controls.
+
+## 41. NYDFS 23 NYCRR Part 500
+
+- Category: `market_triggered`
+- Priority tier: `market_triggered`
+- Source availability: `public_exact_feasible`
+- OpenCompliance state: `priority_backlog`
+- Mapped public controls: `0`
+- Implemented public controls: `0`
+- Lean-backed public controls: `0`
+- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Operator benefit: Important for startups serving or becoming covered entities in New York financial services, where cybersecurity governance, controls, and notifications become regulator-facing obligations.
+- Next action: Treat it as a financial-sector trigger regime and begin with governance, access, MFA, vulnerability management, incident reporting, and third-party risk overlap.
+
+## 42. CCPA/CPRA
+
+- Category: `market_triggered`
+- Priority tier: `market_triggered`
+- Source availability: `public_exact_feasible`
+- OpenCompliance state: `priority_backlog`
+- Mapped public controls: `0`
+- Implemented public controls: `0`
+- Lean-backed public controls: `0`
+- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Operator benefit: Important for consumer-facing startups operating in California or meeting California thresholds, especially where notices, rights, sharing, and retention become commercially material.
+- Next action: Treat it as the main US state privacy-law companion to GDPR and start with rights, notices, retention, service-provider, and sharing boundaries.
+
+## 43. COPPA
+
+- Category: `market_triggered`
+- Priority tier: `market_triggered`
+- Source availability: `public_exact_feasible`
+- OpenCompliance state: `priority_backlog`
+- Mapped public controls: `0`
+- Implemented public controls: `0`
+- Lean-backed public controls: `0`
+- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Operator benefit: Critical for startups with child-directed products or mixed-audience services where parental notice, consent, and data-handling obligations become product-shaping constraints.
+- Next action: Treat it as a children-privacy trigger regime and start with consent, notice, retention, and third-party disclosure boundaries.
+
+## 44. FERPA
+
+- Category: `market_triggered`
+- Priority tier: `market_triggered`
+- Source availability: `public_exact_feasible`
+- OpenCompliance state: `priority_backlog`
+- Mapped public controls: `0`
+- Implemented public controls: `0`
+- Lean-backed public controls: `0`
+- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Operator benefit: Relevant for edtech startups handling education records or working directly with schools and institutions that need explicit disclosure and access boundaries.
+- Next action: Treat it as an education-sector trigger regime and start with access, disclosure, record-correction, and school-official or processor-style role boundaries.
+
+## 45. GovRAMP
+
+- Category: `market_triggered`
+- Priority tier: `market_triggered`
+- Source availability: `public_exact_feasible`
+- OpenCompliance state: `priority_backlog`
+- Mapped public controls: `0`
+- Implemented public controls: `0`
+- Lean-backed public controls: `0`
+- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Operator benefit: Relevant for startups pursuing state and local government cloud business that needs a recognizable authorization and package story before full federal FedRAMP scope makes sense.
+- Next action: Treat it as a state-and-local public-sector trigger regime and start with reusable package structure, assessor expectations, and NIST-overlap control coverage.
+
+## 46. CJIS Security Policy
+
+- Category: `market_triggered`
+- Priority tier: `market_triggered`
+- Source availability: `public_exact_feasible`
+- OpenCompliance state: `priority_backlog`
+- Mapped public controls: `0`
+- Implemented public controls: `0`
+- Lean-backed public controls: `0`
+- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Operator benefit: Important for govtech or public-safety startups touching criminal justice information, where personnel, access, encryption, location, and operational safeguards become decisive.
+- Next action: Treat it as a law-enforcement-data trigger regime and start with identity, encryption, physical, personnel, and media-handling overlap to existing controls.
+
+## 47. HITRUST CSF
+
+- Category: `market_triggered`
+- Priority tier: `market_triggered`
+- Source availability: `blocked_nonpublic_source_review`
+- OpenCompliance state: `priority_backlog`
+- Mapped public controls: `0`
+- Implemented public controls: `0`
+- Lean-backed public controls: `0`
+- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Operator benefit: Commercially important for some healthcare startups because customers often ask for HITRUST-aligned assurance even when the detailed framework remains licensed or proprietary.
+- Next action: Treat it as a proprietary healthcare-assurance layer and keep exact-anchor work behind the same publication-boundary and licensed-review rules used for ISO 27001 and SOC 2.
+
+## 48. ISO 13485
+
+- Category: `market_triggered`
+- Priority tier: `market_triggered`
+- Source availability: `blocked_nonpublic_source_review`
+- OpenCompliance state: `priority_backlog`
+- Mapped public controls: `0`
+- Implemented public controls: `0`
+- Lean-backed public controls: `0`
+- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Operator benefit: Important for medtech startups building regulated medical-device quality systems rather than ordinary SaaS products.
+- Next action: Treat it as a medtech quality-system expansion layer and keep clause-grade publication behind licensed review while identifying overlap to corrective-action, supplier, and design-control evidence.
+
+## 49. ISO 14971
+
+- Category: `market_triggered`
+- Priority tier: `market_triggered`
+- Source availability: `blocked_nonpublic_source_review`
+- OpenCompliance state: `priority_backlog`
+- Mapped public controls: `0`
+- Implemented public controls: `0`
+- Lean-backed public controls: `0`
+- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Operator benefit: Important for startups that need a medical-device risk-management story rather than only a generic cybersecurity or operational-risk posture.
+- Next action: Treat it as the medtech risk-management layer and keep clause-grade publication behind licensed review while identifying overlap to hazard analysis, residual risk, and post-market evidence.
+
+## 50. IEC 62304
+
+- Category: `market_triggered`
+- Priority tier: `market_triggered`
+- Source availability: `blocked_nonpublic_source_review`
+- OpenCompliance state: `priority_backlog`
+- Mapped public controls: `0`
+- Implemented public controls: `0`
+- Lean-backed public controls: `0`
+- Exact anchors reviewed / candidate / blocked: `0` / `0` / `0`
+- Operator benefit: Relevant for software-as-medical-device and device-software teams that need a regulated software life-cycle standard beyond ordinary secure-development guidance.
+- Next action: Treat it as a medtech software-lifecycle expansion layer and keep clause-grade publication behind licensed review while identifying overlap to change control, testing, anomaly handling, and release evidence.
+
+## 51. NIST AI 800-1
 
 - Category: `ai_security`
 - Priority tier: `emerging_draft`
@@ -520,7 +689,7 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Operator benefit: Potentially important for dual-use or foundation-model misuse risk, but still draft and less immediately relevant for ordinary deployer controls.
 - Next action: Track the draft and use it to shape future foundation-model misuse controls only if the operator expands into that risk class.
 
-## 39. ISO/IEC AWI 25704
+## 52. ISO/IEC AWI 25704
 
 - Category: `ai_assurance`
 - Priority tier: `emerging_draft`
@@ -534,7 +703,7 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Next action: Use the public abstract as a candidate pointer for future process-assessment artifacts, but keep draft maturity and clause-level mapping clearly outside the reviewed public layer.
 - Next depth controls: `oc.ai-07`
 
-## 40. ISO/IEC 42006
+## 53. ISO/IEC 42006
 
 - Category: `ai_assurance`
 - Priority tier: `ecosystem_watch`
@@ -547,7 +716,7 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Operator benefit: Relevant to the audit and certification ecosystem around AI management systems, but not a direct first-order operator control framework.
 - Next action: Track it as ecosystem infrastructure for the certification layer rather than as an immediate control-mapping target.
 
-## 41. ISO/IEC TS 6254
+## 54. ISO/IEC TS 6254
 
 - Category: `ai_assurance`
 - Priority tier: `candidate_next`
@@ -560,7 +729,7 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Operator benefit: Useful for startups that need a stronger explainability and interpretability story than simple transparency labeling, especially for high-impact or customer-facing AI use cases.
 - Next action: Track it as the next explainability-oriented ISO candidate layer and only normalize public controls once licensed review or stronger public crosswalk material exists.
 
-## 42. ISO/IEC 22989
+## 55. ISO/IEC 22989
 
 - Category: `ai_foundation`
 - Priority tier: `ecosystem_watch`
@@ -573,7 +742,7 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Operator benefit: Important as the common concepts-and-terminology baseline for AI governance and assurance work, even though it is not a first-order control framework by itself.
 - Next action: Use it as terminology and ontology support for future AI-control normalization rather than as an immediate fixture-backed mapping target.
 
-## 43. ISO/IEC 23053
+## 56. ISO/IEC 23053
 
 - Category: `ai_engineering`
 - Priority tier: `candidate_next`
@@ -586,7 +755,7 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Operator benefit: Useful for startups that want a more explicit machine-learning systems framework connecting data, model, and evaluation work to auditable engineering controls.
 - Next action: Treat it as the next engineering-oriented ISO AI layer after the current governance corridor, starting with evaluation and data-lineage candidates once stronger public review material exists.
 
-## 44. ISO/IEC 38507
+## 57. ISO/IEC 38507
 
 - Category: `ai_governance`
 - Priority tier: `candidate_next`
@@ -599,7 +768,7 @@ This file is a public-safe coverage summary derived from the framework prioritie
 - Operator benefit: Useful for board- and leadership-level governance expectations where organisations need a more explicit governance-of-AI story than technical controls alone provide.
 - Next action: Use it to shape future governance-role and accountability controls, but keep clause-grade publication blocked until licensed review exists.
 
-## 45. ISO/IEC AWI 42003
+## 58. ISO/IEC AWI 42003
 
 - Category: `ai_assurance`
 - Priority tier: `emerging_draft`

@@ -72,10 +72,28 @@ These matter for AI data governance, explainability, engineering structure, boar
 - `NIS2`
 - `Cyber Resilience Act`
 - `HIPAA Security Rule`
+- `HIPAA Privacy Rule`
+- `HIPAA Breach Notification Rule`
+- `GLBA Safeguards Rule`
+- `NYDFS 23 NYCRR Part 500`
+- `CCPA/CPRA`
+- `COPPA`
+- `FERPA`
+- `GovRAMP`
+- `CJIS Security Policy`
+- `HITRUST CSF`
 - `FedRAMP`
 - `DORA`
 
-These are not universal for every startup, but they become mandatory or commercially decisive once the company enters the relevant payment, healthcare, government, financial-sector, critical-infrastructure, or EU product market.
+These are not universal for every startup, but they become mandatory or commercially decisive once the company enters the relevant payment, healthcare, financial-sector, consumer-privacy, children’s-product, education, government, critical-infrastructure, or EU product market.
+
+## Medtech and regulated-product follow-ons
+
+- `ISO 13485`
+- `ISO 14971`
+- `IEC 62304`
+
+These matter when the company is building regulated medical-device or software-as-medical-device products. They are not day-one SaaS priorities, but they should be visible in the public stack so the next medtech wave is explicit rather than invisible.
 
 ## Watch list
 

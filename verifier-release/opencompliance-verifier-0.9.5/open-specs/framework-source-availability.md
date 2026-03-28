@@ -16,6 +16,24 @@ It exists to keep the mapping corpus honest.
   Official EU regulation text is public, so article-level and requirement-level anchors are feasible.
 - `HIPAA Security Rule`
   Official HHS rule text and guidance are public, so safeguard-level anchors are feasible.
+- `HIPAA Privacy Rule`
+  Official HHS rule text and guidance are public, so rights-, disclosure-, and role-boundary anchors are feasible.
+- `HIPAA Breach Notification Rule`
+  Official HHS rule text and guidance are public, so breach-assessment and notification anchors are feasible.
+- `GLBA Safeguards Rule`
+  Official FTC rule text and guidance are public, so requirement-level anchors are feasible.
+- `NYDFS 23 NYCRR Part 500`
+  Official NYDFS regulation text is public, so section- and obligation-level anchors are feasible.
+- `CCPA/CPRA`
+  Official California statutory and regulatory text is public, so rights-, notice-, and service-provider-boundary anchors are feasible.
+- `COPPA`
+  Official FTC rule text and guidance are public, so notice-, consent-, and retention-boundary anchors are feasible.
+- `FERPA`
+  Official U.S. Department of Education materials are public, so access-, disclosure-, and correction-boundary anchors are feasible.
+- `GovRAMP`
+  Public program documentation is open enough for package-, role-, and review-structure anchors.
+- `CJIS Security Policy`
+  Official FBI policy text is public, so policy-area and requirement-level anchors are feasible.
 - `FedRAMP`
   Public program documentation and package structure are open enough for control- and artifact-level anchors.
 - `Cyber Essentials`
@@ -96,6 +114,14 @@ It exists to keep the mapping corpus honest.
   Public summaries establish the service-management-system scope, but exact clause-grade publication still needs licensed review.
 - `ISO 9001`
   Public summaries establish the quality-management-system scope, but exact clause-grade publication still needs licensed review.
+- `HITRUST CSF`
+  Public marketing and assurance material establishes ecosystem relevance, but the detailed framework remains proprietary enough that exact-anchor publication needs licensed review.
+- `ISO 13485`
+  Public summaries establish medical-device quality-management scope, but exact clause-grade publication still needs licensed review.
+- `ISO 14971`
+  Public summaries establish medical-device risk-management scope, but exact clause-grade publication still needs licensed review.
+- `IEC 62304`
+  Public summaries establish regulated medical-device software life-cycle scope, but exact clause-grade publication still needs licensed review.
 
 ## Emerging public drafts or moving targets
 

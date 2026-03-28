@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-27T22:48:44Z",
+  "generatedAt": "2026-03-28T02:24:36Z",
   "purpose": "Public-safe status view for the GDPR full-mapping programme and the current ISO AI standards mapping wave inside OpenCompliance. It records what is already mapped, what remains candidate-only, and where the remaining work is widening, not inventing, the public-control layer.",
   "programs": [
     {
@@ -310,7 +310,7 @@
         },
         {
           "framework": "ISO/IEC 42006",
-          "priorityRank": 40,
+          "priorityRank": 53,
           "priorityTier": "ecosystem_watch",
           "sourceAvailability": "crosswalk_candidate",
           "openComplianceState": "ecosystem_backlog",
@@ -327,7 +327,7 @@
         },
         {
           "framework": "ISO/IEC TS 6254",
-          "priorityRank": 41,
+          "priorityRank": 54,
           "priorityTier": "candidate_next",
           "sourceAvailability": "crosswalk_candidate",
           "openComplianceState": "priority_backlog",
@@ -344,7 +344,7 @@
         },
         {
           "framework": "ISO/IEC 22989",
-          "priorityRank": 42,
+          "priorityRank": 55,
           "priorityTier": "ecosystem_watch",
           "sourceAvailability": "crosswalk_candidate",
           "openComplianceState": "ecosystem_backlog",
@@ -361,7 +361,7 @@
         },
         {
           "framework": "ISO/IEC 23053",
-          "priorityRank": 43,
+          "priorityRank": 56,
           "priorityTier": "candidate_next",
           "sourceAvailability": "crosswalk_candidate",
           "openComplianceState": "priority_backlog",
@@ -378,7 +378,7 @@
         },
         {
           "framework": "ISO/IEC 38507",
-          "priorityRank": 44,
+          "priorityRank": 57,
           "priorityTier": "candidate_next",
           "sourceAvailability": "crosswalk_candidate",
           "openComplianceState": "priority_backlog",
@@ -395,7 +395,7 @@
         },
         {
           "framework": "ISO/IEC AWI 42003",
-          "priorityRank": 45,
+          "priorityRank": 58,
           "priorityTier": "emerging_draft",
           "sourceAvailability": "public_draft",
           "openComplianceState": "emerging_backlog",
