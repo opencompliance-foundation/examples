@@ -1,0 +1,14 @@
+{
+  "collectedAt": "2026-03-24T06:47:00Z",
+  "sourceSystem": "example-assistant-gateway",
+  "actorId": "ai-disclosure-exporter",
+  "environment": "production",
+  "assetGroup": "ai_assistant_surface",
+  "evaluatedAt": "2026-03-24T06:47:00Z",
+  "expiresAt": "2026-03-31T06:47:00Z",
+  "noticePublished": true,
+  "categoriesAndPurposesListed": true,
+  "rightsProcessLinked": true,
+  "noticeUrlReachable": true,
+  "reviewWindowDays": 30
+}

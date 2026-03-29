@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/ai_supplier_transfer_attestation.schema.json",
+  "title": "AI Supplier and Transfer Attestation",
+  "type": "object",
+  "required": [
+    "supplierRegisterCurrent",
+    "subprocessorRolesDeclared",
+    "transferMechanismDeclared",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "supplierRegisterCurrent": {
+      "type": "boolean"
+    },
+    "subprocessorRolesDeclared": {
+      "type": "boolean"
+    },
+    "transferMechanismDeclared": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

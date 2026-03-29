@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/ai_task_envelope_state.schema.json",
+  "title": "AI Task Envelope State",
+  "type": "object",
+  "required": [
+    "purposeDeclared",
+    "allowedToolClassesDeclared",
+    "allowedDataClassesDeclared",
+    "retentionClassDeclared",
+    "humanReviewLinkagePresent"
+  ],
+  "properties": {
+    "purposeDeclared": {
+      "type": "boolean"
+    },
+    "allowedToolClassesDeclared": {
+      "type": "boolean"
+    },
+    "allowedDataClassesDeclared": {
+      "type": "boolean"
+    },
+    "retentionClassDeclared": {
+      "type": "boolean"
+    },
+    "humanReviewLinkagePresent": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}

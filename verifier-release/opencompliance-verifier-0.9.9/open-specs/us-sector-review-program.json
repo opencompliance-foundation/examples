@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-29T17:47:02Z",
+  "purpose": "Define the reviewer roles, tracks, and phases for the first U.S. sector-regime depth wave.",
+  "targetPrograms": [
+    "hipaa_privacy_and_breach",
+    "financial_services_glba_nydfs",
+    "ccpa_cpra"
+  ],
+  "reviewTracks": [
+    {
+      "trackId": "health-privacy-law",
+      "goal": "Challenge HIPAA privacy and breach mappings against real regulated-health workflow expectations.",
+      "requiredRoles": [
+        "health_privacy_counsel",
+        "regulated_health_operator"
+      ]
+    },
+    {
+      "trackId": "financial-regulation",
+      "goal": "Challenge GLBA and NYDFS overlap claims against financial-sector security and governance expectations.",
+      "requiredRoles": [
+        "financial_regulation_counsel",
+        "fintech_security_operator"
+      ]
+    },
+    {
+      "trackId": "consumer-privacy-law",
+      "goal": "Challenge CCPA/CPRA rights, retention, and service-provider mappings against California privacy-law practice.",
+      "requiredRoles": [
+        "consumer_privacy_counsel",
+        "privacy_engineer"
+      ]
+    },
+    {
+      "trackId": "control-engineering",
+      "goal": "Challenge whether the mapped controls are actually narrow enough to be trustworthy and testable.",
+      "requiredRoles": [
+        "security_engineer",
+        "formal_methods_reviewer"
+      ]
+    }
+  ],
+  "reviewerRoles": [
+    {
+      "roleId": "health_privacy_counsel",
+      "description": "Reviews HIPAA Privacy and Breach mappings for health-law accuracy and practical notice obligations."
+    },
+    {
+      "roleId": "regulated_health_operator",
+      "description": "Reviews whether the mapped HIPAA controls correspond to real health-ops workflows rather than abstract policy prose."
+    },
+    {
+      "roleId": "financial_regulation_counsel",
+      "description": "Reviews GLBA and NYDFS anchors, scoping assumptions, and notice/governance boundaries."
+    },
+    {
+      "roleId": "fintech_security_operator",
+      "description": "Reviews whether the mapped GLBA and NYDFS controls are operationally meaningful in real financial-sector systems."
+    },
+    {
+      "roleId": "consumer_privacy_counsel",
+      "description": "Reviews CCPA/CPRA rights, service-provider, and retention mappings against California privacy-law practice."
+    },
+    {
+      "roleId": "privacy_engineer",
+      "description": "Reviews whether the public control layer is precise enough to support rights handling and retention evidence."
+    },
+    {
+      "roleId": "security_engineer",
+      "description": "Reviews the technical plausibility of the machine-checkable sector controls."
+    },
+    {
+      "roleId": "formal_methods_reviewer",
+      "description": "Reviews whether the claimed decidable subset is narrow enough to stay honest when moved into typed or Lean-backed verification."
+    }
+  ],
+  "phases": [
+    {
+      "phaseId": "phase_1_anchor_review",
+      "goal": "Confirm that published exact anchors and relation semantics are defensible.",
+      "passCriteria": [
+        "Each published anchor has an authoritative public source and a narrow relation statement.",
+        "No documented objection says a published exact anchor overclaims the current control."
+      ]
+    },
+    {
+      "phaseId": "phase_2_control_boundary_review",
+      "goal": "Confirm that the mapped public controls are narrow enough to support proof, attestation, or judgment routing.",
+      "passCriteria": [
+        "Each reviewed control has an explicit route and a credible evidence story.",
+        "No reviewed control silently hides a rights-heavy or judgment-heavy obligation behind a proof-like label."
+      ]
+    },
+    {
+      "phaseId": "phase_3_fixture_and_output_review",
+      "goal": "Confirm that fixture-backed public examples tell the truth about what is and is not shown.",
+      "passCriteria": [
+        "Trust-surface reports do not imply full HIPAA, GLBA, NYDFS, or CCPA compliance from narrow example corridors.",
+        "Remaining gaps and judgment layers are visible to external readers."
+      ]
+    }
+  ],
+  "currentState": {
+    "status": "program_defined",
+    "remainingBlockers": [
+      "Run the first external review round with health, financial-regulation, and California privacy specialists.",
+      "Promote the next typed claim schemas and fixture-backed controls for these regimes before claiming broader depth."
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/privacy_notice_publication_state.schema.json",
+  "title": "Privacy Notice Publication State",
+  "type": "object",
+  "required": [
+    "noticePublished",
+    "categoriesAndPurposesListed",
+    "rightsProcessLinked",
+    "noticeUrlReachable",
+    "reviewWindowDays"
+  ],
+  "properties": {
+    "noticePublished": {
+      "type": "boolean"
+    },
+    "categoriesAndPurposesListed": {
+      "type": "boolean"
+    },
+    "rightsProcessLinked": {
+      "type": "boolean"
+    },
+    "noticeUrlReachable": {
+      "type": "boolean"
+    },
+    "reviewWindowDays": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": false
+}

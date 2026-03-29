@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/ai_rights_ready_run_trace_state.schema.json",
+  "title": "AI Rights-Ready Run Trace State",
+  "type": "object",
+  "required": [
+    "traceRetentionEnabled",
+    "requestPurposeCaptured",
+    "inputClassificationsCaptured",
+    "outputReferencesCaptured",
+    "humanReviewLinkagePresent"
+  ],
+  "properties": {
+    "traceRetentionEnabled": {
+      "type": "boolean"
+    },
+    "requestPurposeCaptured": {
+      "type": "boolean"
+    },
+    "inputClassificationsCaptured": {
+      "type": "boolean"
+    },
+    "outputReferencesCaptured": {
+      "type": "boolean"
+    },
+    "humanReviewLinkagePresent": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}
